@@ -1,0 +1,423 @@
+{
+    "test/test_durable.py": {
+        "focal_file": "paxos/durable.py",
+        "methods": {
+            "test_one_save": {
+                "line": 114,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_two_save": {
+                "line": 124,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_three_save": {
+                "line": 135,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "save"
+                }
+            }
+        }
+    },
+    "test/test_essential.py": {
+        "focal_file": "paxos/essential.py",
+        "methods": {
+            "test_set_proposal_no_value": {
+                "line": 98,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "set_proposal"
+                }
+            },
+            "test_prepare": {
+                "line": 112,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "prepare"
+                }
+            },
+            "test_prepare_two": {
+                "line": 121,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "prepare"
+                }
+            },
+            "test_prepare_with_promises_rcvd": {
+                "line": 128,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "recv_promise"
+                }
+            },
+            "test_recv_prepare_initial": {
+                "line": 210,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "recv_prepare"
+                }
+            },
+            "test_recv_prepare_duplicate": {
+                "line": 218,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "recv_prepare"
+                }
+            },
+            "test_recv_prepare_override": {
+                "line": 225,
+                "line_end": 231,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "recv_prepare"
+                }
+            },
+            "test_recv_accept_request_initial": {
+                "line": 234,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_recv_accept_request_promised": {
+                "line": 239,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_recv_accept_request_greater_than_promised": {
+                "line": 246,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_recv_accept_request_less_than_promised": {
+                "line": 253,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            }
+        }
+    },
+    "test/test_external.py": {
+        "focal_file": "paxos/external.py",
+        "methods": {
+            "test_ignore_old_leader_proclamation": {
+                "line": 139,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "recv_leadership_proclamation"
+                }
+            }
+        }
+    },
+    "test/test_functional.py": {
+        "focal_file": "paxos/functional.py",
+        "methods": {
+            "test_ignore_old_leader_heartbeat": {
+                "line": 221,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "recv_heartbeat"
+                }
+            }
+        }
+    },
+    "test/test_practical.py": {
+        "focal_file": "paxos/practical.py",
+        "methods": {
+            "test_resend_accept": {
+                "line": 156,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "resend_accept"
+                }
+            },
+            "test_resend_accept_not_active": {
+                "line": 57,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "resend_accept"
+                }
+            },
+            "test_observe_proposal": {
+                "line": 169,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "observe_proposal"
+                }
+            },
+            "test_recv_prepare_nack": {
+                "line": 193,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "recv_prepare"
+                }
+            },
+            "test_recv_accept_request_less_than_promised": {
+                "line": 213,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_recv_accept_request_duplicate": {
+                "line": 241,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_recv_accept_request_duplicate_not_active": {
+                "line": 248,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_recv_accept_request_initial_not_active": {
+                "line": 256,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_recv_accept_request_promised_not_active": {
+                "line": 262,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_durable_recv_prepare_duplicate": {
+                "line": 272,
+                "line_end": 277,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "recv_prepare"
+                }
+            },
+            "test_durable_recv_prepare_override": {
+                "line": 280,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "recv_prepare"
+                }
+            },
+            "test_durable_ignore_prepare_override_until_persisted": {
+                "line": 289,
+                "line_end": 296,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "persisted"
+                }
+            },
+            "test_durable_recv_accept_request_promised": {
+                "line": 299,
+                "line_end": 304,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_durable_recv_accept_request_greater_than_promised": {
+                "line": 307,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_durable_ignore_new_accept_request_until_persisted": {
+                "line": 315,
+                "line_end": 324,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "persisted"
+                }
+            },
+            "test_durable_recv_accept_request_less_than_promised": {
+                "line": 327,
+                "line_end": 331,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "recv_accept_request"
+                }
+            },
+            "test_change_quorum_size": {
+                "line": 358,
+                "line_end": 362,
+                "indent": 4,
+                "focal_class": "paxos.practical.Node",
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 340,
+                    "indent": 4,
+                    "name": "change_quorum_size"
+                }
+            }
+        }
+    }
+}

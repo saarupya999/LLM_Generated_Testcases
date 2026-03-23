@@ -1,0 +1,125 @@
+{
+    "lambdas/ecs_route53_registration/test/test_cloud_watch_ecs_event.py": {
+        "focal_file": "lambdas/ecs_route53_registration/ecs_route53_registration/cloud_watch_ecs_event.py",
+        "methods": {
+            "test_extracts_container_instance_arn_from_event_detail": {
+                "line": 18,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "CloudWatchECSEvent",
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 9,
+                    "indent": 4,
+                    "name": "container_instance_arn"
+                }
+            },
+            "test_extracts_desired_status_from_event_detail": {
+                "line": 51,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "CloudWatchECSEvent",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "desired_status"
+                }
+            },
+            "test_represents_newly_running_task_when_last_status_running_and_current_status_running": {
+                "line": 79,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "CloudWatchECSEvent",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "represents_newly_running_task"
+                }
+            },
+            "test_represents_newly_stopped_task_when_last_status_stopped_and_current_status_stopped": {
+                "line": 101,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": "CloudWatchECSEvent",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "represents_newly_stopped_task"
+                }
+            },
+            "test_represents_possible_task_ip_change_if_represents_newly_started_task": {
+                "line": 123,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": "CloudWatchECSEvent",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "represents_possible_task_ip_change"
+                }
+            },
+            "test_represents_possible_task_ip_change_if_represents_newly_stopped_task": {
+                "line": 134,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "CloudWatchECSEvent",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "represents_possible_task_ip_change"
+                }
+            },
+            "test_does_not_represents_possible_task_ip_change_if_not_newly_started_or_stopped": {
+                "line": 145,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": "CloudWatchECSEvent",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "represents_possible_task_ip_change"
+                }
+            }
+        }
+    },
+    "lambdas/ecs_route53_registration/test/test_validations.py": {
+        "focal_file": "lambdas/ecs_route53_registration/ecs_route53_registration/validations.py",
+        "methods": {
+            "test_returns_value_when_value_present": {
+                "line": 7,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 8,
+                    "indent": 0,
+                    "name": "ensure_present"
+                }
+            }
+        }
+    },
+    "lambdas/ecs_route53_registration/test/test_ecs_task.py": {
+        "focal_file": "lambdas/ecs_route53_registration/ecs_route53_registration/ecs_task.py",
+        "methods": {
+            "test_fetches_container_instance_for_task": {
+                "line": 14,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "ECSTask",
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "container_instance"
+                }
+            }
+        }
+    }
+}

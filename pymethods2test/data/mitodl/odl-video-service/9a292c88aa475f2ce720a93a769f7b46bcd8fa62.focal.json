@@ -1,0 +1,1605 @@
+{
+    "cloudsync/api_test.py": {
+        "focal_file": "cloudsync/api.py",
+        "methods": {
+            "test_get_error_type_from_et_erro": {
+                "line": 59,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "get_error_type_from_et_error"
+                }
+            },
+            "test_process_transcode_results": {
+                "line": 153,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "process_transcode_results"
+                }
+            },
+            "test_parse_lecture_video_filename": {
+                "line": 262,
+                "line_end": 278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 322,
+                    "line_end": 363,
+                    "indent": 0,
+                    "name": "parse_lecture_video_filename"
+                }
+            },
+            "test_parse_lecture_video_filename_failure": {
+                "line": 289,
+                "line_end": 296,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 322,
+                    "line_end": 363,
+                    "indent": 0,
+                    "name": "parse_lecture_video_filename"
+                }
+            },
+            "test_process_watch": {
+                "line": 354,
+                "line_end": 421,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 319,
+                    "indent": 0,
+                    "name": "process_watch_file"
+                }
+            },
+            "test_lecture_collection_slug": {
+                "line": 424,
+                "line_end": 441,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 240,
+                    "indent": 0,
+                    "name": "create_lecture_collection_slug"
+                }
+            },
+            "test_lecture_video_title": {
+                "line": 444,
+                "line_end": 461,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 259,
+                    "indent": 0,
+                    "name": "create_lecture_video_title"
+                }
+            },
+            "test_transcode_job": {
+                "line": 471,
+                "line_end": 533,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "transcode_video"
+                }
+            },
+            "test_upload_subtitle_to_s3": {
+                "line": 602,
+                "line_end": 632,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 424,
+                    "indent": 0,
+                    "name": "upload_subtitle_to_s3"
+                }
+            },
+            "test_upload_subtitle_to_s3_no_video": {
+                "line": 635,
+                "line_end": 641,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 424,
+                    "indent": 0,
+                    "name": "upload_subtitle_to_s3"
+                }
+            },
+            "test_upload_subtitle_to_s3_bad_video": {
+                "line": 644,
+                "line_end": 655,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 424,
+                    "indent": 0,
+                    "name": "upload_subtitle_to_s3"
+                }
+            },
+            "test_move_s3_objects": {
+                "line": 659,
+                "line_end": 681,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 440,
+                    "indent": 0,
+                    "name": "move_s3_objects"
+                }
+            }
+        }
+    },
+    "cloudsync/tasks_test.py": {
+        "focal_file": "cloudsync/tasks.py",
+        "methods": {
+            "test_transcode_failures": {
+                "line": 201,
+                "line_end": 213,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "transcode_from_s3"
+                }
+            },
+            "test_retranscode_failures": {
+                "line": 216,
+                "line_end": 234,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "retranscode_video"
+                }
+            },
+            "test_transcode_target_does_not_exist": {
+                "line": 237,
+                "line_end": 243,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "transcode_from_s3"
+                }
+            },
+            "test_retranscode_target_does_not_exist": {
+                "line": 246,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "retranscode_video"
+                }
+            },
+            "test_transcode_starting": {
+                "line": 255,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "transcode_from_s3"
+                }
+            },
+            "test_retranscode_starting": {
+                "line": 272,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "retranscode_video"
+                }
+            },
+            "test_video_task_chain": {
+                "line": 285,
+                "line_end": 314,
+                "indent": 0,
+                "focal_class": "VideoTask",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "get_task_id"
+                }
+            },
+            "test_update_video_statuses_nojob": {
+                "line": 380,
+                "line_end": 386,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 228,
+                    "indent": 0,
+                    "name": "update_video_statuses"
+                }
+            },
+            "test_update_video_statuses_clienterror": {
+                "line": 396,
+                "line_end": 409,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 228,
+                    "indent": 0,
+                    "name": "update_video_statuses"
+                }
+            },
+            "test_stream_to_s3_no_video": {
+                "line": 412,
+                "line_end": 415,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 118,
+                    "indent": 0,
+                    "name": "stream_to_s3"
+                }
+            },
+            "test_upload_youtube_videos": {
+                "line": 515,
+                "line_end": 549,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "upload_youtube_videos"
+                }
+            },
+            "test_upload_youtube_videos_error": {
+                "line": 552,
+                "line_end": 563,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "upload_youtube_videos"
+                }
+            },
+            "test_upload_youtube_quota_exceeded": {
+                "line": 567,
+                "line_end": 582,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "upload_youtube_videos"
+                }
+            },
+            "test_remove_youtube_video": {
+                "line": 585,
+                "line_end": 592,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 283,
+                    "indent": 0,
+                    "name": "remove_youtube_video"
+                }
+            },
+            "test_remove_youtube_video_404": {
+                "line": 595,
+                "line_end": 605,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 283,
+                    "indent": 0,
+                    "name": "remove_youtube_video"
+                }
+            },
+            "test_remove_youtube_video_500": {
+                "line": 608,
+                "line_end": 618,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 283,
+                    "indent": 0,
+                    "name": "remove_youtube_video"
+                }
+            },
+            "test_upload_youtube_caption": {
+                "line": 621,
+                "line_end": 630,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 294,
+                    "indent": 0,
+                    "name": "upload_youtube_caption"
+                }
+            },
+            "test_remove_youtube_caption": {
+                "line": 633,
+                "line_end": 648,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 305,
+                    "indent": 0,
+                    "name": "remove_youtube_caption"
+                }
+            },
+            "test_update_youtube_statuses": {
+                "line": 651,
+                "line_end": 670,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 335,
+                    "indent": 0,
+                    "name": "update_youtube_statuses"
+                }
+            },
+            "test_update_youtube_statuses_api_quota_exceeded": {
+                "line": 673,
+                "line_end": 685,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 335,
+                    "indent": 0,
+                    "name": "update_youtube_statuses"
+                }
+            },
+            "test_update_youtube_statuses_error": {
+                "line": 688,
+                "line_end": 699,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 335,
+                    "indent": 0,
+                    "name": "update_youtube_statuses"
+                }
+            },
+            "test_update_youtube_statuses_dupe": {
+                "line": 702,
+                "line_end": 718,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 335,
+                    "indent": 0,
+                    "name": "update_youtube_statuses"
+                }
+            },
+            "test_update_youtube_statuses_failed": {
+                "line": 721,
+                "line_end": 737,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 335,
+                    "indent": 0,
+                    "name": "update_youtube_statuses"
+                }
+            },
+            "test_sort_transcoded_m3u8_files": {
+                "line": 781,
+                "line_end": 873,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 439,
+                    "indent": 0,
+                    "name": "sort_transcoded_m3u8_files"
+                }
+            }
+        }
+    },
+    "cloudsync/youtube_test.py": {
+        "focal_file": "cloudsync/youtube.py",
+        "methods": {
+            "test_upload_video": {
+                "line": 41,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "upload_video"
+                }
+            },
+            "test_upload_video_no_id": {
+                "line": 62,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "upload_video"
+                }
+            },
+            "test_upload_caption_calls_insert": {
+                "line": 119,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "upload_caption"
+                }
+            },
+            "test_upload_caption_calls_update": {
+                "line": 136,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "upload_caption"
+                }
+            },
+            "test_delete_video": {
+                "line": 155,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 267,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "delete_video"
+                }
+            },
+            "test_list_captions": {
+                "line": 165,
+                "line_end": 192,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "list_captions"
+                }
+            },
+            "test_delete_caption": {
+                "line": 195,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "delete_caption"
+                }
+            },
+            "test_video_status": {
+                "line": 207,
+                "line_end": 235,
+                "indent": 0,
+                "focal_class": "YouTubeApi",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "video_status"
+                }
+            },
+            "test_strip_bad_chars": {
+                "line": 238,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "strip_bad_chars"
+                }
+            }
+        }
+    },
+    "mail/tasks_test.py": {
+        "focal_file": "mail/tasks.py",
+        "methods": {
+            "test_get_recipients_for_video": {
+                "line": 31,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "_get_recipients_for_video"
+                }
+            },
+            "test_send_notification_email_wrong_status": {
+                "line": 50,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "send_notification_email"
+                }
+            },
+            "test_send_notification_email_no_recipients": {
+                "line": 65,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "send_notification_email"
+                }
+            },
+            "test_send_notification_email_no_mail_template": {
+                "line": 80,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "send_notification_email"
+                }
+            },
+            "test_send_notification_email_happy_path": {
+                "line": 96,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "send_notification_email"
+                }
+            },
+            "test_send_debug_email": {
+                "line": 160,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "_send_debug_email"
+                }
+            },
+            "test_generate_debug_email_body": {
+                "line": 184,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 150,
+                    "indent": 0,
+                    "name": "_generate_debug_email_body"
+                }
+            }
+        }
+    },
+    "mail/utils_test.py": {
+        "focal_file": "mail/utils.py",
+        "methods": {
+            "test_chunks": {
+                "line": 15,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "chunks"
+                }
+            }
+        }
+    },
+    "odl_video/envs_test.py": {
+        "focal_file": "odl_video/envs.py",
+        "methods": {
+            "test_get_any": {
+                "line": 42,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "get_any"
+                }
+            },
+            "test_get_string": {
+                "line": 73,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "get_string"
+                }
+            },
+            "test_get_int": {
+                "line": 84,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "get_int"
+                }
+            },
+            "test_get_bool": {
+                "line": 107,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "get_bool"
+                }
+            },
+            "test_get_list_of_str": {
+                "line": 129,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "get_list_of_str"
+                }
+            },
+            "test_get_key": {
+                "line": 150,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 161,
+                    "indent": 0,
+                    "name": "get_key"
+                }
+            },
+            "test_parse_env": {
+                "line": 165,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "parse_env"
+                }
+            }
+        }
+    },
+    "odl_video/models_test.py": {
+        "focal_file": "odl_video/models.py",
+        "methods": {
+            "test_timestamped_model_query_set_update": {
+                "line": 10,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": "TimestampedModelQuerySet",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "update"
+                }
+            }
+        }
+    },
+    "ui/api_test.py": {
+        "focal_file": "ui/api.py",
+        "methods": {
+            "test_process_dropbox_data_happy_path": {
+                "line": 53,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "process_dropbox_data"
+                }
+            },
+            "test_process_dropbox_data_empty_link_list": {
+                "line": 92,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "process_dropbox_data"
+                }
+            },
+            "test_process_dropbox_data_wrong_collection": {
+                "line": 115,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "process_dropbox_data"
+                }
+            },
+            "test_post_hls_to_edx": {
+                "line": 136,
+                "line_end": 177,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "post_hls_to_edx"
+                }
+            },
+            "test_post_hls_to_edx_no_endpoints": {
+                "line": 181,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "post_hls_to_edx"
+                }
+            },
+            "test_post_hls_to_edx_wrong_type": {
+                "line": 193,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "post_hls_to_edx"
+                }
+            },
+            "test_post_hls_to_edx_bad_resp": {
+                "line": 203,
+                "line_end": 236,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "post_hls_to_edx"
+                }
+            }
+        }
+    },
+    "ui/models_test.py": {
+        "focal_file": "ui/models.py",
+        "methods": {
+            "test_video_model_s3keys": {
+                "line": 84,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "get_s3_key"
+                }
+            },
+            "test_video_transcode_key": {
+                "line": 112,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 450,
+                    "line_end": 467,
+                    "indent": 4,
+                    "name": "transcode_key"
+                }
+            },
+            "test_video_status": {
+                "line": 124,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_video_update_status_email": {
+                "line": 136,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 487,
+                    "line_end": 500,
+                    "indent": 4,
+                    "name": "update_status"
+                }
+            },
+            "test_edxendpoint_access_token_refresh": {
+                "line": 156,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "refresh_access_token"
+                }
+            },
+            "test_collection_for_for_owner": {
+                "line": 191,
+                "line_end": 201,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 254,
+                    "indent": 4,
+                    "name": "for_owner"
+                }
+            },
+            "test_video_subtitle_key": {
+                "line": 209,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 469,
+                    "line_end": 485,
+                    "indent": 4,
+                    "name": "subtitle_key"
+                }
+            }
+        }
+    },
+    "ui/permissions_test.py": {
+        "focal_file": "ui/permissions.py",
+        "methods": {
+            "test_is_collection_owner_anonymous_users": {
+                "line": 139,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_is_collection_owner_user_different_from_collecton_owner": {
+                "line": 153,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_is_collection_owner_user_collecton_owner": {
+                "line": 169,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_is_collection_owner_user_superuser": {
+                "line": 184,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_can_upload_to_collection_safe": {
+                "line": 247,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_can_upload_to_collection_superuser": {
+                "line": 262,
+                "line_end": 275,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_can_upload_to_collection_no_key": {
+                "line": 278,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_can_upload_to_collection_invalid_key": {
+                "line": 294,
+                "line_end": 305,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_can_upload_to_collection_other_key": {
+                "line": 308,
+                "line_end": 322,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_can_upload_to_collection_other_owner": {
+                "line": 325,
+                "line_end": 339,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_can_upload_to_collection": {
+                "line": 342,
+                "line_end": 357,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_video_view_permission_anonymous_users": {
+                "line": 360,
+                "line_end": 372,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_view_permission_other_user": {
+                "line": 375,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_view_permission_collection_owner": {
+                "line": 391,
+                "line_end": 402,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_view_permission_user_superuser": {
+                "line": 405,
+                "line_end": 414,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_view_permission_no_matching_lists": {
+                "line": 417,
+                "line_end": 431,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_view_permission_matching_lists": {
+                "line": 434,
+                "line_end": 448,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_view_permission_matching_lists_post": {
+                "line": 451,
+                "line_end": 466,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_view_permission_matching_admin_lists": {
+                "line": 469,
+                "line_end": 483,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_anonymous_users": {
+                "line": 486,
+                "line_end": 499,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_other_user": {
+                "line": 502,
+                "line_end": 517,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_collection_owner": {
+                "line": 520,
+                "line_end": 532,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_superuser": {
+                "line": 535,
+                "line_end": 545,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_no_matching_lists": {
+                "line": 548,
+                "line_end": 563,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_matching_view_lists": {
+                "line": 566,
+                "line_end": 581,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_matching_admin_lists": {
+                "line": 584,
+                "line_end": 599,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_video_admin_permission_matching_lists_post": {
+                "line": 602,
+                "line_end": 617,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_subtitle_view_permission_no_matching_lists": {
+                "line": 821,
+                "line_end": 835,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_subtitle_view_permission_matching_lists": {
+                "line": 838,
+                "line_end": 852,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_subtitle_admin_permission_no_matching_lists": {
+                "line": 855,
+                "line_end": 870,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            },
+            "test_subtitle_admin_permission_matching_lists": {
+                "line": 873,
+                "line_end": 888,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            }
+        }
+    },
+    "ui/utils_test.py": {
+        "focal_file": "ui/utils.py",
+        "methods": {
+            "test_get_moira_client_missing_secrets": {
+                "line": 45,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "get_moira_client"
+                }
+            },
+            "test_get_moira_client_success": {
+                "line": 62,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "get_moira_client"
+                }
+            },
+            "test_write_to_file": {
+                "line": 73,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 239,
+                    "indent": 0,
+                    "name": "write_to_file"
+                }
+            },
+            "test_query_moira_lists": {
+                "line": 82,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "query_moira_lists"
+                }
+            },
+            "test_query_moira_lists_no_lists": {
+                "line": 94,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "query_moira_lists"
+                }
+            },
+            "test_query_moira_lists_error": {
+                "line": 105,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "query_moira_lists"
+                }
+            },
+            "test_user_moira_lists_cache_hit": {
+                "line": 116,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "user_moira_lists"
+                }
+            },
+            "test_user_moira_lists_cache_miss": {
+                "line": 129,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "user_moira_lists"
+                }
+            },
+            "test_user_moira_lists_anonymous": {
+                "line": 150,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "user_moira_lists"
+                }
+            },
+            "test_has_common_lists": {
+                "line": 157,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "has_common_lists"
+                }
+            },
+            "test_get_video_analytics": {
+                "line": 168,
+                "line_end": 180,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 259,
+                    "indent": 0,
+                    "name": "get_video_analytics"
+                }
+            },
+            "test_get_video_analytics_parse_failure": {
+                "line": 183,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 259,
+                    "indent": 0,
+                    "name": "get_video_analytics"
+                }
+            },
+            "test_get_google_analytics_client_success": {
+                "line": 194,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "get_google_analytics_client"
+                }
+            },
+            "test_generate_google_analytics_query_success": {
+                "line": 208,
+                "line_end": 245,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 324,
+                    "indent": 0,
+                    "name": "generate_google_analytics_query"
+                }
+            },
+            "test_parse_google_analytics_response_multiangle": {
+                "line": 248,
+                "line_end": 311,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 375,
+                    "indent": 0,
+                    "name": "parse_google_analytics_response"
+                }
+            },
+            "test_parse_google_analytics_response_singlecam": {
+                "line": 314,
+                "line_end": 359,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 375,
+                    "indent": 0,
+                    "name": "parse_google_analytics_response"
+                }
+            },
+            "test_generate_mock_video_analytics_data": {
+                "line": 390,
+                "line_end": 393,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 378,
+                    "line_end": 394,
+                    "indent": 0,
+                    "name": "generate_mock_video_analytics_data"
+                }
+            },
+            "test_list_members_exception": {
+                "line": 396,
+                "line_end": 402,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "list_members"
+                }
+            },
+            "test_multi_urljoin": {
+                "line": 415,
+                "line_end": 417,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 414,
+                    "indent": 0,
+                    "name": "multi_urljoin"
+                }
+            },
+            "test_partition": {
+                "line": 420,
+                "line_end": 431,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 417,
+                    "line_end": 429,
+                    "indent": 0,
+                    "name": "partition"
+                }
+            },
+            "test_partition_to_lists": {
+                "line": 434,
+                "line_end": 445,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 444,
+                    "indent": 0,
+                    "name": "partition_to_lists"
+                }
+            },
+            "test_get_error_response_summary": {
+                "line": 456,
+                "line_end": 470,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 447,
+                    "line_end": 462,
+                    "indent": 0,
+                    "name": "get_error_response_summary_dict"
+                }
+            },
+            "test_send_refresh_request": {
+                "line": 473,
+                "line_end": 492,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 495,
+                    "indent": 0,
+                    "name": "send_refresh_request"
+                }
+            }
+        }
+    }
+}

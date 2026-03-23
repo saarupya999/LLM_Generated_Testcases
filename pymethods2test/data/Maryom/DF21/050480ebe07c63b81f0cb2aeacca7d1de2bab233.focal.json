@@ -1,0 +1,368 @@
+{
+    "tests/test_binner.py": {
+        "focal_file": "deepforest/_binner.py",
+        "methods": {
+            "test_find_binning_thresholds_regular_data": {
+                "line": 17,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds_per_feature"
+                }
+            },
+            "test_find_binning_thresholds_invalid_binner_type": {
+                "line": 39,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds_per_feature"
+                }
+            },
+            "test_find_binning_thresholds_invalid_data_shape": {
+                "line": 49,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds_per_feature"
+                }
+            },
+            "test_binner_transform_before_fitting": {
+                "line": 83,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": "Binner",
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "transform"
+                }
+            }
+        }
+    },
+    "tests/test_forest.py": {
+        "focal_file": "deepforest/forest.py",
+        "methods": {
+            "test_n_samples_bootstrap": {
+                "line": 18,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "_get_n_samples_bootstrap"
+                }
+            },
+            "test_n_samples_bootstrap_int_out_of_range": {
+                "line": 26,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "_get_n_samples_bootstrap"
+                }
+            },
+            "test_n_samples_bootstrap_float_out_of_range": {
+                "line": 35,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "_get_n_samples_bootstrap"
+                }
+            },
+            "test_n_samples_bootstrap_invalid_type": {
+                "line": 44,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "_get_n_samples_bootstrap"
+                }
+            }
+        }
+    },
+    "tests/test_io.py": {
+        "focal_file": "deepforest/_io.py",
+        "methods": {
+            "test_model_saveobj_not_exist": {
+                "line": 30,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 292,
+                    "indent": 0,
+                    "name": "model_saveobj"
+                }
+            },
+            "test_model_saveobj_type_unknown": {
+                "line": 73,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 292,
+                    "indent": 0,
+                    "name": "model_saveobj"
+                }
+            },
+            "test_model_loadobj_missing_dir": {
+                "line": 83,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 367,
+                    "indent": 0,
+                    "name": "model_loadobj"
+                }
+            },
+            "test_model_loadobj_type_unknown": {
+                "line": 109,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 367,
+                    "indent": 0,
+                    "name": "model_loadobj"
+                }
+            }
+        }
+    },
+    "tests/test_model_classifier.py": {
+        "focal_file": "deepforest/cascade.py",
+        "methods": {
+            "test_predictor_kwargs_overwrite": {
+                "line": 79,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "_get_predictor_kwargs"
+                }
+            },
+            "test_classifier_predictor_normal": {
+                "line": 249,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "_build_classifier_predictor"
+                }
+            },
+            "test_classifier_predictor_unknown": {
+                "line": 255,
+                "line_end": 260,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "_build_classifier_predictor"
+                }
+            },
+            "test_model_n_trees_non_positive": {
+                "line": 263,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": "CascadeForestClassifier",
+                "focal_method": {
+                    "line": 576,
+                    "line_end": 597,
+                    "indent": 4,
+                    "name": "_set_n_trees"
+                }
+            },
+            "test_model_n_trees_auto": {
+                "line": 272,
+                "line_end": 284,
+                "indent": 0,
+                "focal_class": "CascadeForestClassifier",
+                "focal_method": {
+                    "line": 576,
+                    "line_end": 597,
+                    "indent": 4,
+                    "name": "_set_n_trees"
+                }
+            },
+            "test_model_n_trees_invalid": {
+                "line": 287,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": "CascadeForestClassifier",
+                "focal_method": {
+                    "line": 576,
+                    "line_end": 597,
+                    "indent": 4,
+                    "name": "_set_n_trees"
+                }
+            }
+        }
+    },
+    "tests/test_model_regressor.py": {
+        "focal_file": "deepforest/cascade.py",
+        "methods": {
+            "test_predictor_kwargs_overwrite": {
+                "line": 79,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "_get_predictor_kwargs"
+                }
+            },
+            "test_regressor_predictor_normal": {
+                "line": 196,
+                "line_end": 199,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 194,
+                    "indent": 0,
+                    "name": "_build_regressor_predictor"
+                }
+            },
+            "test_regressor_predictor_unknown": {
+                "line": 202,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 194,
+                    "indent": 0,
+                    "name": "_build_regressor_predictor"
+                }
+            },
+            "test_model_n_trees_non_positive": {
+                "line": 210,
+                "line_end": 216,
+                "indent": 0,
+                "focal_class": "CascadeForestRegressor",
+                "focal_method": {
+                    "line": 576,
+                    "line_end": 597,
+                    "indent": 4,
+                    "name": "_set_n_trees"
+                }
+            },
+            "test_model_n_trees_auto": {
+                "line": 219,
+                "line_end": 231,
+                "indent": 0,
+                "focal_class": "CascadeForestRegressor",
+                "focal_method": {
+                    "line": 576,
+                    "line_end": 597,
+                    "indent": 4,
+                    "name": "_set_n_trees"
+                }
+            },
+            "test_model_n_trees_invalid": {
+                "line": 234,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": "CascadeForestRegressor",
+                "focal_method": {
+                    "line": 576,
+                    "line_end": 597,
+                    "indent": 4,
+                    "name": "_set_n_trees"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "deepforest/_utils.py",
+        "methods": {
+            "test_merge_proba_normal": {
+                "line": 27,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "merge_proba"
+                }
+            },
+            "test_init_array_normal": {
+                "line": 40,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "init_array"
+                }
+            },
+            "test_merge_array_normal": {
+                "line": 61,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "merge_array"
+                }
+            },
+            "test_merge_array_invalid_dtype": {
+                "line": 81,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "merge_array"
+                }
+            }
+        }
+    }
+}

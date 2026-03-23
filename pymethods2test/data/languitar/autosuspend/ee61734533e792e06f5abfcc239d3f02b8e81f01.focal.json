@@ -1,0 +1,205 @@
+{
+    "tests/test_autosuspend.py": {
+        "focal_file": "src/autosuspend/__init__.py",
+        "methods": {
+            "test_notify_and_suspend": {
+                "line": 469,
+                "line_end": 480,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "notify_and_suspend"
+                }
+            },
+            "test_not_a_check": {
+                "line": 205,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 489,
+                    "indent": 0,
+                    "name": "set_up_checks"
+                }
+            },
+            "test_no_wakeups": {
+                "line": 316,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "execute_wakeups"
+                }
+            }
+        }
+    },
+    "tests/test_checks_activity.py": {
+        "focal_file": "src/autosuspend/checks/activity.py",
+        "methods": {
+            "test_create": {
+                "line": 1741,
+                "line_end": 1761,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "create"
+                }
+            },
+            "test_check": {
+                "line": 1270,
+                "line_end": 1282,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "check"
+                }
+            }
+        }
+    },
+    "tests/test_checks_util.py": {
+        "focal_file": "src/autosuspend/checks/util.py",
+        "methods": {
+            "test_create": {
+                "line": 25,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "create"
+                }
+            },
+            "test_request": {
+                "line": 112,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "NetworkMixin",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "request"
+                }
+            }
+        }
+    },
+    "tests/test_checks_wakeup.py": {
+        "focal_file": "src/autosuspend/checks/wakeup.py",
+        "methods": {
+            "test_create": {
+                "line": 410,
+                "line_end": 422,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "create"
+                }
+            },
+            "test_check": {
+                "line": 285,
+                "line_end": 289,
+                "indent": 4,
+                "focal_class": "Periodic",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "check"
+                }
+            }
+        }
+    },
+    "tests/test_integration.py": {
+        "focal_file": "src/autosuspend/__init__.py",
+        "methods": {
+            "test_no_suspend_if_matching": {
+                "line": 43,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 784,
+                    "line_end": 792,
+                    "indent": 0,
+                    "name": "main"
+                }
+            },
+            "test_suspend": {
+                "line": 59,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 784,
+                    "line_end": 792,
+                    "indent": 0,
+                    "name": "main"
+                }
+            }
+        }
+    },
+    "tests/test_util_systemd.py": {
+        "focal_file": "src/autosuspend/util/systemd.py",
+        "methods": {
+            "test_list_logind_sessions_empty": {
+                "line": 7,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "list_logind_sessions"
+                }
+            },
+            "test_list_logind_sessions_dbus_error": {
+                "line": 17,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "list_logind_sessions"
+                }
+            }
+        }
+    },
+    "tests/test_util_xorg.py": {
+        "focal_file": "src/autosuspend/util/xorg.py",
+        "methods": {
+            "test_extracts_valid_sockets": {
+                "line": 20,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "XorgSession",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "list_sessions_sockets"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,299 @@
+{
+    "tests/test_exception_handler.py": {
+        "focal_file": "exodus_gw/main.py",
+        "methods": {
+            "test_custom_http_exception_handler": {
+                "line": 21,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "custom_http_exception_handler"
+                }
+            }
+        }
+    },
+    "tests/auth/test_roles.py": {
+        "focal_file": "exodus_gw/auth.py",
+        "methods": {
+            "test_caller_roles_empty": {
+                "line": 14,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": "CallContext",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "caller_roles"
+                }
+            },
+            "test_caller_roles_nonempty": {
+                "line": 21,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": "UserContext",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "caller_roles"
+                }
+            },
+            "test_needs_role_success": {
+                "line": 32,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "needs_role"
+                }
+            },
+            "test_needs_role_fail": {
+                "line": 42,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "needs_role"
+                }
+            }
+        }
+    },
+    "tests/aws/test_dynamodb.py": {
+        "focal_file": "exodus_gw/aws/dynamodb.py",
+        "methods": {
+            "test_batch_write": {
+                "line": 92,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "batch_write"
+                }
+            },
+            "test_write_batches": {
+                "line": 122,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "write_batches"
+                }
+            },
+            "test_write_batches_put_fail": {
+                "line": 137,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "write_batches"
+                }
+            },
+            "test_write_batches_excs": {
+                "line": 182,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "write_batches"
+                }
+            }
+        }
+    },
+    "tests/aws/test_validate_object_key.py": {
+        "focal_file": "exodus_gw/aws/util.py",
+        "methods": {
+            "test_invalid_object_key": {
+                "line": 7,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "validate_object_key"
+                }
+            }
+        }
+    },
+    "tests/migrate/test_db_migrate.py": {
+        "focal_file": "exodus_gw/migrate.py",
+        "methods": {
+            "test_db_migrate_typical": {
+                "line": 10,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "db_migrate"
+                }
+            },
+            "test_db_migrate_reset": {
+                "line": 22,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "db_migrate"
+                }
+            },
+            "test_db_migrate_model": {
+                "line": 38,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "db_migrate"
+                }
+            }
+        }
+    },
+    "tests/routers/test_service.py": {
+        "focal_file": "exodus_gw/routers/service.py",
+        "methods": {
+            "test_healthcheck": {
+                "line": 13,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "healthcheck"
+                }
+            },
+            "test_whoami": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "whoami"
+                }
+            }
+        }
+    },
+    "tests/routers/upload/test_head.py": {
+        "focal_file": "exodus_gw/routers/upload.py",
+        "methods": {
+            "test_head": {
+                "line": 11,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "head"
+                }
+            }
+        }
+    },
+    "tests/routers/upload/test_upload.py": {
+        "focal_file": "exodus_gw/routers/upload.py",
+        "methods": {
+            "test_full_upload": {
+                "line": 11,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "upload"
+                }
+            },
+            "test_part_upload": {
+                "line": 54,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "upload"
+                }
+            }
+        }
+    },
+    "tests/settings/test_settings.py": {
+        "focal_file": "exodus_gw/settings.py",
+        "methods": {
+            "test_load_settings_default": {
+                "line": 7,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "load_settings"
+                }
+            },
+            "test_load_settings_override": {
+                "line": 22,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "load_settings"
+                }
+            },
+            "test_get_environment": {
+                "line": 69,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 206,
+                    "indent": 0,
+                    "name": "get_environment"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "backend/tests/blockchain/test_block.py": {
+        "focal_file": "backend/blockchain/block.py",
+        "methods": {
+            "test_mine_block": {
+                "line": 8,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "mine_block"
+                }
+            },
+            "test_is_valid_block": {
+                "line": 61,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "is_valid_block"
+                }
+            },
+            "test_genesis": {
+                "line": 94,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "genesis"
+                }
+            }
+        }
+    },
+    "backend/tests/blockchain/test_blockchain.py": {
+        "focal_file": "backend/blockchain/blockchain.py",
+        "methods": {
+            "test_add_block": {
+                "line": 13,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": "Blockchain",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "add_block"
+                }
+            },
+            "test_is_valid_chain": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "is_valid_chain"
+                }
+            },
+            "test_replace_chain": {
+                "line": 41,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": "Blockchain",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "replace_chain"
+                }
+            },
+            "test_replace_chain_bad_chain": {
+                "line": 53,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "Blockchain",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "replace_chain"
+                }
+            },
+            "test_valid_transaction_chain": {
+                "line": 61,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "is_valid_transaction_chain"
+                }
+            },
+            "test_valid_transaction_chain_bad_transaction": {
+                "line": 83,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "to_json"
+                }
+            }
+        }
+    },
+    "backend/tests/wallet/test_transaction.py": {
+        "focal_file": "backend/wallet/transaction.py",
+        "methods": {
+            "test_transaction_update_exceeds_balance": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": "Transaction",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_transaction_update": {
+                "line": 45,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": "Transaction",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_valid_transaction_with_invalid_outputs": {
+                "line": 83,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": "Transaction",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "is_valid_transaction"
+                }
+            },
+            "test_reward_transaction": {
+                "line": 100,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "reward_transaction"
+                }
+            },
+            "test_valid_reward_transaction": {
+                "line": 108,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "reward_transaction"
+                }
+            },
+            "test_invalid_reward_transaction_invalid_amount": {
+                "line": 121,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "is_valid_transaction"
+                }
+            }
+        }
+    }
+}

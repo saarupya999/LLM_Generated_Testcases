@@ -1,0 +1,382 @@
+{
+    "test/test_configure.py": {
+        "focal_file": "spotinst_kubernetes_cluster_autoscaler/configure.py",
+        "methods": {
+            "test_decide_kube_connection_method_api_priority": {
+                "line": 86,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "decide_kube_connection_method"
+                }
+            },
+            "test_decide_kube_connection_method_kube_config_2nd_priority": {
+                "line": 91,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "decide_kube_connection_method"
+                }
+            },
+            "test_decide_kube_connection_method_in_cluster_last_priority_no_kubeconfig_set": {
+                "line": 95,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "decide_kube_connection_method"
+                }
+            },
+            "test_decide_kube_connection_method_in_cluster_last_priority": {
+                "line": 99,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "decide_kube_connection_method"
+                }
+            }
+        }
+    },
+    "test/test_kubernetes_get_scaling_data.py": {
+        "focal_file": "spotinst_kubernetes_cluster_autoscaler/kubernetes_get_scaling_data.py",
+        "methods": {
+            "test_KubeGetScaleData_get_number_of_pending_pods": {
+                "line": 36,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "get_number_of_pending_pods"
+                }
+            },
+            "test_KubeGetScaleData_pending_pods_exist_true": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "pending_pods_exist"
+                }
+            },
+            "test_KubeGetScaleData_pending_pods_exist_false": {
+                "line": 54,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "pending_pods_exist"
+                }
+            },
+            "test_KubeGetScaleData_get_connected_nodes_count": {
+                "line": 63,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "get_connected_nodes_count"
+                }
+            },
+            "test_KubeGetScaleData_get_cpu_and_mem_usage_higher_used": {
+                "line": 72,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_cpu_and_mem_usage"
+                }
+            },
+            "test_KubeGetScaleData_get_cpu_and_mem_usage_higher_requested": {
+                "line": 91,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_cpu_and_mem_usage"
+                }
+            },
+            "test_unit_converter_included_units": {
+                "line": 110,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "unit_converter"
+                }
+            },
+            "test_unit_converter_custom_added_units": {
+                "line": 114,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "unit_converter"
+                }
+            },
+            "test_check_pods_stuck_do_to_insufficient_resource_no_pods": {
+                "line": 122,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "check_pods_stuck_do_to_insufficient_resource"
+                }
+            },
+            "test_check_pods_stuck_do_to_insufficient_resource_single_pending_pods_with_insufficient_cpu": {
+                "line": 132,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "check_pods_stuck_do_to_insufficient_resource"
+                }
+            },
+            "test_check_pods_stuck_do_to_insufficient_resource_single_pending_pods_with_insufficient_memory": {
+                "line": 146,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "check_pods_stuck_do_to_insufficient_resource"
+                }
+            },
+            "test_check_pods_stuck_do_to_insufficient_resource_single_pending_pods_with_insufficient_gpu": {
+                "line": 160,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "check_pods_stuck_do_to_insufficient_resource"
+                }
+            },
+            "test_check_pods_stuck_do_to_insufficient_resource_single_pending_pods_with_insufficient_disk": {
+                "line": 174,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "check_pods_stuck_do_to_insufficient_resource"
+                }
+            },
+            "test_check_pods_stuck_do_to_insufficient_resource_mixed_pending_pods_with_insufficient_resources": {
+                "line": 189,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "check_pods_stuck_do_to_insufficient_resource"
+                }
+            },
+            "test_check_pods_stuck_do_to_insufficient_resource_pending_pods_due_to_other_reasons": {
+                "line": 209,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "check_pods_stuck_do_to_insufficient_resource"
+                }
+            }
+        }
+    },
+    "test/test_main_logic_flow.py": {
+        "focal_file": "spotinst_kubernetes_cluster_autoscaler/main_logic_flow.py",
+        "methods": {
+            "test_main_logic_flow_scale_up_stuck_pods": {
+                "line": 15,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "main_logic_flow"
+                }
+            },
+            "test_main_logic_flow_scale_up_high_cpu": {
+                "line": 48,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "main_logic_flow"
+                }
+            },
+            "test_main_logic_flow_scale_up_high_memory": {
+                "line": 77,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "main_logic_flow"
+                }
+            },
+            "test_main_logic_flow_scale_down_low_usage": {
+                "line": 106,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "main_logic_flow"
+                }
+            },
+            "test_main_logic_flow_no_rescaling_needed": {
+                "line": 135,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "main_logic_flow"
+                }
+            },
+            "test_main_logic_raise_exception": {
+                "line": 164,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "main_logic_flow"
+                }
+            }
+        }
+    },
+    "test/test_spotinst_scale.py": {
+        "focal_file": "spotinst_kubernetes_cluster_autoscaler/spotinst_scale.py",
+        "methods": {
+            "test_SpotinstScale_get_spotinst_instances": {
+                "line": 25,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "get_spotinst_instances"
+                }
+            },
+            "test_SpotinstScale_set_spotinst_elastigroup_size": {
+                "line": 37,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "set_spotinst_elastigroup_size"
+                }
+            },
+            "test_SpotinstScale_set_spotinst_elastigroup_size_raise_error_on_failure": {
+                "line": 50,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "set_spotinst_elastigroup_size"
+                }
+            },
+            "test_SpotinstScale_get_spotinst_scale_up": {
+                "line": 63,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "scale_up"
+                }
+            },
+            "test_SpotinstScale_get_spotinst_scale_down": {
+                "line": 77,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "scale_down"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "test/unit/service/camera/test_calibration_service.py": {
+        "focal_file": "src/service/camera/calibrationservice.py",
+        "methods": {
+            "test_given_a_new_calibration_service_when_creating_a_calibration_then_returns_an_instance_of_a_calibration": {
+                "line": 11,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": "CalibrationService",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "create_calibration"
+                }
+            }
+        }
+    },
+    "test/unit/service/image/test_detector_proxy.py": {
+        "focal_file": "src/service/image/detectonceproxy.py",
+        "methods": {
+            "test_given_a_new_detect_once_proxy_it_has_not_detected_an_element": {
+                "line": 15,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "has_detected"
+                }
+            },
+            "test_given_a_new_detector_when_detecting_an_element_then_it_has_detected": {
+                "line": 18,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "has_detected"
+                }
+            }
+        }
+    },
+    "test/unit/service/image/test_image_detection_service.py": {
+        "focal_file": "src/service/image/imagedetectionservice.py",
+        "methods": {
+            "test_given_a_new_image_detection_service_when_registering_a_valid_detector_then_it_is_added": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "register_detector"
+                }
+            },
+            "test_given_an_image_detection_service_when_trying_to_register_twice_the_same_detector_throws_an_error": {
+                "line": 24,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "register_detector"
+                }
+            },
+            "test_given_an_image_detection_service_with_detect_once_proxy_when_resetting_detectors_all_detectors_are_reset": {
+                "line": 29,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "register_detector"
+                }
+            },
+            "test_given_an_image_detection_service_when_detecing_from_image_then_world_element_collection_is_returned": {
+                "line": 38,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "detect_all_world_elements"
+                }
+            }
+        }
+    }
+}

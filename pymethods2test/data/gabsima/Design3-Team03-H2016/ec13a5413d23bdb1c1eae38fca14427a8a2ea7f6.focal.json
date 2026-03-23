@@ -1,0 +1,213 @@
+{
+    "Client/BaseStation/LogicTest/BaseStationDispatcherTest.py": {
+        "focal_file": "Client/BaseStation/Logic/BaseStationDispatcher.py",
+        "methods": {
+            "test_whenHandlingCurrentSequencerStateThenEverythingIsCalledAccordingly": {
+                "line": 37,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "BaseStationDispatcher",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "handleCurrentSequencerState"
+                }
+            },
+            "test_whenGettingCurrentWorldInformationThenEverythingIsCalledAccordingly": {
+                "line": 45,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "BaseStationDispatcher",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "getCurrentWorldInformation"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/SequencerTest.py": {
+        "focal_file": "Client/BaseStation/Logic/Sequencer.py",
+        "methods": {
+            "test_whenHandlingSequencerThenStateCallsHandle": {
+                "line": 18,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": "Sequencer",
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 5,
+                    "indent": 4,
+                    "name": "setState"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/PathfindingTest/ObstacleTest.py": {
+        "focal_file": "Client/BaseStation/Logic/Pathfinding/Obstacle.py",
+        "methods": {
+            "test_setStartingNode": {
+                "line": 19,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 10,
+                    "indent": 4,
+                    "name": "setStartingNode"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/PathfindingTest/GraphTest/CollisionDetectorTest.py": {
+        "focal_file": "Client/BaseStation/Logic/Pathfinding/Graph/CollisionDetector.py",
+        "methods": {
+            "test_collisionWithWall": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "isCollidingWithWallBack"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/PathfindingTest/GraphTest/GraphTest.py": {
+        "focal_file": "Client/BaseStation/Logic/Pathfinding/Graph/Graph.py",
+        "methods": {
+            "test_findGoodSafeZone": {
+                "line": 22,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "findGoodSafeNodeToGo"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/PathfindingTest/GraphTest/NodeTest.py": {
+        "focal_file": "Client/BaseStation/Logic/Pathfinding/Graph/Node.py",
+        "methods": {
+            "test_setConnectedNode": {
+                "line": 17,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 10,
+                    "indent": 4,
+                    "name": "addConnectedNode"
+                }
+            },
+            "test_getConnectedNode": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "getConnectedNodesList"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/PathfindingTest/GraphTest/SafeZoneTest.py": {
+        "focal_file": "Client/BaseStation/Logic/Pathfinding/Graph/SafeZone.py",
+        "methods": {
+            "test_getGoodCenterOfZone": {
+                "line": 10,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "getCenterNodeOfSafeZone"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/StateTest/DetectTreasureStateTest.py": {
+        "focal_file": "Client/BaseStation/Logic/SequencerState.py",
+        "methods": {
+            "test_whenHandlingSaidStateThenPathfinderIsCalled": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "Client.BaseStation.Logic.SequencerState.DetectTreasureState",
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 8,
+                    "indent": 4,
+                    "name": "handle"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/StateTest/SendingBotToChargingStationStateTest.py": {
+        "focal_file": "Client/BaseStation/Logic/SequencerState.py",
+        "methods": {
+            "test_whenHandlingSaidStateThenPathfinderIsCalled": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "Client.BaseStation.Logic.SequencerState.SendingBotToChargingStationState",
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 8,
+                    "indent": 4,
+                    "name": "handle"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/StateTest/SendingBotToTargetStateTest.py": {
+        "focal_file": "Client/BaseStation/Logic/SequencerState.py",
+        "methods": {
+            "test_whenHandlingSaidStateThenPathfinderIsCalled": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "Client.BaseStation.Logic.SequencerState.SendingBotToTargetState",
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 8,
+                    "indent": 4,
+                    "name": "handle"
+                }
+            }
+        }
+    },
+    "Client/BaseStation/LogicTest/StateTest/SendingBotToTreasureStateTest.py": {
+        "focal_file": "Client/BaseStation/Logic/SequencerState.py",
+        "methods": {
+            "test_whenHandlingSaidStateThenPathfinderIsCalled": {
+                "line": 17,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": "Client.BaseStation.Logic.SequencerState.SendingBotToTreasureState",
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 8,
+                    "indent": 4,
+                    "name": "handle"
+                }
+            }
+        }
+    }
+}

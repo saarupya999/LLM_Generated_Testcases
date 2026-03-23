@@ -1,0 +1,243 @@
+{
+    "dittybox/test/test_controller.py": {
+        "focal_file": "dittybox/controller.py",
+        "methods": {
+            "test_unplug_disk": {
+                "line": 18,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "unplug_disk"
+                }
+            },
+            "test_plug_disk": {
+                "line": 28,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "plug_disk"
+                }
+            },
+            "test_debootstrap_to_disk": {
+                "line": 38,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "install_to_disk"
+                }
+            },
+            "test_mount_guest_disk_success": {
+                "line": 52,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "mount_guest_disk"
+                }
+            },
+            "test_umount_guest_disk_success": {
+                "line": 64,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "umount_guest_disk"
+                }
+            },
+            "test_umount_guest_disk_retries": {
+                "line": 75,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "umount_guest_disk"
+                }
+            },
+            "test_inject_onetime_script": {
+                "line": 91,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "inject_onetime_script"
+                }
+            },
+            "test_upload_data_first_time": {
+                "line": 106,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": "dittybox.controller.FakeExecutor",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "upload_data"
+                }
+            },
+            "test_upload_data_found_in_cache": {
+                "line": 128,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "dittybox.controller.ShellController",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "upload_data"
+                }
+            }
+        }
+    },
+    "dittybox/test/test_data_provider.py": {
+        "focal_file": "dittybox/data_provider.py",
+        "methods": {
+            "test_get_stream": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "dittybox.data_provider.SimpleDataProvider",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "get_stream"
+                }
+            }
+        }
+    },
+    "dittybox/test/test_datacenter.py": {
+        "focal_file": "dittybox/datacenter.py",
+        "methods": {
+            "test_create_vm": {
+                "line": 172,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": "dittybox.datacenter.Datacenter",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "vm_create"
+                }
+            }
+        }
+    },
+    "dittybox/test/test_script_provider.py": {
+        "focal_file": "dittybox/script_provider.py",
+        "methods": {
+            "test_generate_setup_script": {
+                "line": 8,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": "dittybox.script_provider.PlainFileInstallScriptProvider",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "generate_install_script"
+                }
+            },
+            "test_generate_upstart_script": {
+                "line": 21,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "dittybox.script_provider.PlainFileProvider",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "generate_upstart_stream"
+                }
+            },
+            "test_generate_onetime_script": {
+                "line": 27,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "dittybox.script_provider.PlainFileProvider",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "generate_onetime_stream"
+                }
+            },
+            "test_generate_install_script": {
+                "line": 39,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": "dittybox.script_provider.TemplateBasedInstallScriptProvider",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "generate_install_script"
+                }
+            }
+        }
+    },
+    "dittybox/test/test_vm_param_generator.py": {
+        "focal_file": "dittybox/vm_param_generator.py",
+        "methods": {
+            "test_generate_new": {
+                "line": 12,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": "dittybox.vm_param_generator.NameGenerator",
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "new_name"
+                }
+            },
+            "test_generate_name_first_exists": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": "dittybox.vm_param_generator.NameGenerator",
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "new_name"
+                }
+            },
+            "test_generate_name_no_name_available": {
+                "line": 22,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": "dittybox.vm_param_generator.NameGenerator",
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "new_name"
+                }
+            }
+        }
+    }
+}

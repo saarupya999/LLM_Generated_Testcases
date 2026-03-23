@@ -1,0 +1,485 @@
+{
+    "newrelic_cli/tests/test_alerts.py": {
+        "focal_file": "newrelic_cli/alerts.py",
+        "methods": {
+            "test_get_alert_policies_success": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "get_alert_policies"
+                }
+            },
+            "test_get_alert_policy_by_name_success": {
+                "line": 81,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "get_alert_policies"
+                }
+            },
+            "test_get_nonexistent_alert_policy_by_name": {
+                "line": 95,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "get_alert_policies"
+                }
+            },
+            "test_get_alert_condition_success": {
+                "line": 108,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "get_alert_conditions"
+                }
+            },
+            "test_get_nonexistent_alert_condition": {
+                "line": 124,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "get_alert_conditions"
+                }
+            },
+            "test_create_unique_synthetics_alert_condition_success": {
+                "line": 141,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "create_synthetics_alert_condition"
+                }
+            },
+            "test_create_unique_synthetics_alert_codtition_with_sla_success": {
+                "line": 182,
+                "line_end": 225,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "create_synthetics_alert_condition"
+                }
+            },
+            "test_create_unique_synthetics_alert_codtition_empty_response_success": {
+                "line": 227,
+                "line_end": 268,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "create_synthetics_alert_condition"
+                }
+            },
+            "test_create_non_unique_synthetics_alert_condition_success": {
+                "line": 270,
+                "line_end": 303,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "create_synthetics_alert_condition"
+                }
+            },
+            "test_create_non_unique_synthetics_alert_condition_fail": {
+                "line": 305,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "create_synthetics_alert_condition"
+                }
+            },
+            "test_create_synthetics_alert_condition_no_policy": {
+                "line": 342,
+                "line_end": 361,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "create_synthetics_alert_condition"
+                }
+            },
+            "test_create_synthetics_alert_condition_no_monitor": {
+                "line": 363,
+                "line_end": 387,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "create_synthetics_alert_condition"
+                }
+            },
+            "test_delete_synthetics_alert_condition_success": {
+                "line": 389,
+                "line_end": 419,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "delete_synthetics_alert_conditions"
+                }
+            },
+            "test_delete_synthetics_alert_condition_empty_response_success": {
+                "line": 421,
+                "line_end": 456,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "delete_synthetics_alert_conditions"
+                }
+            },
+            "test_delete_synthetics_alert_condition_no_policy": {
+                "line": 458,
+                "line_end": 481,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "delete_synthetics_alert_conditions"
+                }
+            },
+            "test_delete_synthetics_alert_condition_no_monitor": {
+                "line": 483,
+                "line_end": 506,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "delete_synthetics_alert_conditions"
+                }
+            },
+            "test_delete_synthetics_alert_condition_no_condition": {
+                "line": 508,
+                "line_end": 541,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "delete_synthetics_alert_conditions"
+                }
+            },
+            "test_create_alert_policy_success": {
+                "line": 543,
+                "line_end": 566,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "create_alert_policy"
+                }
+            },
+            "test_create_alert_policy_with_incident_preference": {
+                "line": 568,
+                "line_end": 592,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "create_alert_policy"
+                }
+            },
+            "test_create_alert_policy_duplicate_success": {
+                "line": 594,
+                "line_end": 613,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "create_alert_policy"
+                }
+            },
+            "test_create_alert_policy_duplicate_failure": {
+                "line": 615,
+                "line_end": 634,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "create_alert_policy"
+                }
+            },
+            "test_delete_alert_policy_success": {
+                "line": 636,
+                "line_end": 648,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "delete_alert_policy"
+                }
+            },
+            "test_delete_nonexistent_alert_policy": {
+                "line": 650,
+                "line_end": 669,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "delete_alert_policy"
+                }
+            }
+        }
+    },
+    "newrelic_cli/tests/test_base.py": {
+        "focal_file": "newrelic_cli/base.py",
+        "methods": {
+            "test_put": {
+                "line": 31,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "_put"
+                }
+            },
+            "test_delete": {
+                "line": 37,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "_delete"
+                }
+            }
+        }
+    },
+    "newrelic_cli/tests/test_synthetics.py": {
+        "focal_file": "newrelic_cli/synthetics.py",
+        "methods": {
+            "test_get_monitor_by_id_success": {
+                "line": 68,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "get_monitor_by_id"
+                }
+            },
+            "test_get_nonexistent_monitor_by_id": {
+                "line": 78,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "get_monitor_by_id"
+                }
+            },
+            "test_create_monitor_success": {
+                "line": 89,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "create_monitor"
+                }
+            },
+            "test_create_monitor_with_sla_success": {
+                "line": 105,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "create_monitor"
+                }
+            },
+            "test_update_nonexistent_monitor": {
+                "line": 123,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "update_monitor"
+                }
+            },
+            "test_update_monitor_name": {
+                "line": 152,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "update_monitor"
+                }
+            },
+            "test_update_monitor_no_changes": {
+                "line": 214,
+                "line_end": 242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "update_monitor"
+                }
+            },
+            "test_delete_monitor_success": {
+                "line": 244,
+                "line_end": 263,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "delete_monitor"
+                }
+            },
+            "test_delete_nonexistent_monitor": {
+                "line": 265,
+                "line_end": 289,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "delete_monitor"
+                }
+            },
+            "test_get_monitor_script_success": {
+                "line": 291,
+                "line_end": 310,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "get_monitor_script"
+                }
+            },
+            "test_get_nonexistent_monitor_script": {
+                "line": 312,
+                "line_end": 337,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "get_monitor_script"
+                }
+            },
+            "test_get_monitor_without_script": {
+                "line": 339,
+                "line_end": 360,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "get_monitor_script"
+                }
+            },
+            "test_upload_monitor_script_success": {
+                "line": 362,
+                "line_end": 384,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "upload_monitor_script"
+                }
+            },
+            "test_upload_nonexistent_monitor_script": {
+                "line": 386,
+                "line_end": 415,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "upload_monitor_script"
+                }
+            }
+        }
+    }
+}

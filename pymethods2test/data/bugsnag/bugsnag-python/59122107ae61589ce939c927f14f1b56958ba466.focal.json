@@ -1,0 +1,262 @@
+{
+    "tests/test_configuration.py": {
+        "focal_file": "bugsnag/configuration.py",
+        "methods": {
+            "test_should_notify": {
+                "line": 27,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "Configuration",
+                "focal_method": {
+                    "line": 501,
+                    "line_end": 504,
+                    "indent": 4,
+                    "name": "should_notify"
+                }
+            },
+            "test_logger_can_be_disabled_using_configure": {
+                "line": 452,
+                "line_end": 465,
+                "indent": 4,
+                "focal_class": "Configuration",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "configure"
+                }
+            },
+            "test_default_logger_is_used_if_invalid_logger_set_with_configure": {
+                "line": 486,
+                "line_end": 506,
+                "indent": 4,
+                "focal_class": "Configuration",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "configure"
+                }
+            },
+            "test_concurrent_access_to_on_breadcrumb_callbacks": {
+                "line": 608,
+                "line_end": 668,
+                "indent": 4,
+                "focal_class": "Configuration",
+                "focal_method": {
+                    "line": 490,
+                    "line_end": 499,
+                    "indent": 4,
+                    "name": "remove_on_breadcrumb"
+                }
+            }
+        }
+    },
+    "tests/test_event.py": {
+        "focal_file": "bugsnag/event.py",
+        "methods": {
+            "test_breadcrumbs_are_included_in_payload": {
+                "line": 268,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "_payload"
+                }
+            },
+            "test_breadcrumb_array_is_always_in_payload": {
+                "line": 288,
+                "line_end": 294,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "_payload"
+                }
+            }
+        }
+    },
+    "tests/test_middleware.py": {
+        "focal_file": "bugsnag/middleware.py",
+        "methods": {
+            "test_before_notify_returning_false": {
+                "line": 70,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": "MiddlewareStack",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "before_notify"
+                }
+            },
+            "test_insert_before_ordering": {
+                "line": 102,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "MiddlewareStack",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "insert_before"
+                }
+            },
+            "test_insert_before_default_ordering": {
+                "line": 113,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": "MiddlewareStack",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "insert_before"
+                }
+            },
+            "test_insert_after_ordering": {
+                "line": 124,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": "MiddlewareStack",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "insert_after"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "bugsnag/utils.py",
+        "methods": {
+            "test_to_rfc3339": {
+                "line": 477,
+                "line_end": 478,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 385,
+                    "line_end": 395,
+                    "indent": 4,
+                    "name": "to_rfc3339"
+                }
+            },
+            "test_sanitize_url": {
+                "line": 526,
+                "line_end": 527,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 334,
+                    "line_end": 350,
+                    "indent": 0,
+                    "name": "sanitize_url"
+                }
+            },
+            "test_json_encode": {
+                "line": 105,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "SanitizingJSONEncoder",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "encode"
+                }
+            },
+            "test_unfiltered_encode": {
+                "line": 124,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "SanitizingJSONEncoder",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "encode"
+                }
+            },
+            "test_thread_context_vars_returns_default_value_from_get": {
+                "line": 134,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "ThreadContextVar",
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 328,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_filter_string_values_list_handling": {
+                "line": 262,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": "SanitizingJSONEncoder",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "filter_string_values"
+                }
+            },
+            "test_filter_strings_with_inner_dict": {
+                "line": 353,
+                "line_end": 418,
+                "indent": 4,
+                "focal_class": "FilterDict",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "filter_string_values"
+                }
+            },
+            "test_parse_invalid_content_type": {
+                "line": 420,
+                "line_end": 422,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 225,
+                    "indent": 0,
+                    "name": "parse_content_type"
+                }
+            },
+            "test_parse_invalid_content_type_params": {
+                "line": 424,
+                "line_end": 427,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 225,
+                    "indent": 0,
+                    "name": "parse_content_type"
+                }
+            },
+            "test_json_content_type": {
+                "line": 437,
+                "line_end": 447,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 240,
+                    "indent": 0,
+                    "name": "is_json_content_type"
+                }
+            }
+        }
+    }
+}

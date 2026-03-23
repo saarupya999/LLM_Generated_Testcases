@@ -1,0 +1,226 @@
+{
+    "tests/test_dates.py": {
+        "focal_file": "docker_cleanup/dates.py",
+        "methods": {
+            "test_parse_date": {
+                "line": 47,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "parse_date"
+                }
+            },
+            "test_DateTime_before_after": {
+                "line": 82,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "before"
+                }
+            }
+        }
+    },
+    "tests/test_docker.py": {
+        "focal_file": "docker_cleanup/docker.py",
+        "methods": {
+            "test_DockerObj_fixup_date": {
+                "line": 103,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_fixup_date"
+                }
+            },
+            "test_DockerObj_fixup_date_cornercases": {
+                "line": 116,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_fixup_date"
+                }
+            },
+            "test_crossreference": {
+                "line": 163,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 278,
+                    "line_end": 292,
+                    "indent": 0,
+                    "name": "cross_reference"
+                }
+            },
+            "test_parse_docker_images_output": {
+                "line": 221,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 209,
+                    "indent": 0,
+                    "name": "_parse_docker_images_output"
+                }
+            },
+            "test_load_inspect_json": {
+                "line": 231,
+                "line_end": 238,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 233,
+                    "indent": 0,
+                    "name": "_load_docker_inspect_json"
+                }
+            },
+            "test_load_containers": {
+                "line": 241,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 238,
+                    "indent": 0,
+                    "name": "load_containers"
+                }
+            },
+            "test_load_images": {
+                "line": 262,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 254,
+                    "indent": 0,
+                    "name": "load_images"
+                }
+            },
+            "test_delete_container": {
+                "line": 285,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": "docker_cleanup.docker.Container",
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "delete_container"
+                }
+            },
+            "test_delete_image": {
+                "line": 307,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": "docker_cleanup.docker.Image",
+                "focal_method": {
+                    "line": 270,
+                    "line_end": 275,
+                    "indent": 0,
+                    "name": "delete_image"
+                }
+            }
+        }
+    },
+    "tests/test_main.py": {
+        "focal_file": "docker_cleanup/main.py",
+        "methods": {
+            "test_parse_args": {
+                "line": 25,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "parse_args"
+                }
+            },
+            "test_do_cleanup_print_dry": {
+                "line": 55,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "parse_args"
+                }
+            }
+        }
+    },
+    "tests/test_parser.py": {
+        "focal_file": "docker_cleanup/parser.py",
+        "methods": {
+            "test_ImportStatement_try_parse_None": {
+                "line": 98,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "try_parse"
+                }
+            },
+            "test_ImportStatement_valid": {
+                "line": 109,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "try_parse"
+                }
+            },
+            "test_ImportStatement_invalid": {
+                "line": 128,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "try_parse"
+                }
+            },
+            "test_DeleteStatement_try_parse_None": {
+                "line": 150,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "try_parse"
+                }
+            }
+        }
+    }
+}

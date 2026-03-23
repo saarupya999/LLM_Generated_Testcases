@@ -1,0 +1,292 @@
+{
+    "src/model_medias/tests/views/test_create_model_media_view.py": {
+        "focal_file": "src/model_medias/views/model_media_views/create_model_media_view.py",
+        "methods": {
+            "test_run": {
+                "line": 21,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "CreateModelMediaView",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "src/image_medias/tests/views/test_create_image_media_view.py": {
+        "focal_file": "src/image_medias/views/image_media_views/create_image_media_view.py",
+        "methods": {
+            "test_run": {
+                "line": 21,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "CreateImageMediaView",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "src/helpers/tests/test_testing_helpers.py": {
+        "focal_file": "src/helpers/testing_helpers.py",
+        "methods": {
+            "test_get_fake_jwt_request": {
+                "line": 10,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "get_fake_jwt_request"
+                }
+            },
+            "test_get_fake_jwt_request_passing_parameters": {
+                "line": 16,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "get_fake_jwt_request"
+                }
+            }
+        }
+    },
+    "src/helpers/tests/test_pagination.py": {
+        "focal_file": "src/helpers/pagination.py",
+        "methods": {
+            "test_it_returns_paginated_response": {
+                "line": 14,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "PaginatedResponse"
+                }
+            }
+        }
+    },
+    "src/prints/tests/views/materials/test_update_material_view.py": {
+        "focal_file": "src/prints/views/material_views/update_material_view.py",
+        "methods": {
+            "test_validate_not_existing_material_name_invalid_name": {
+                "line": 36,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "validate_not_existing_material_name"
+                }
+            },
+            "test_validate_not_existing_material_name_valid_name": {
+                "line": 42,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "validate_not_existing_material_name"
+                }
+            }
+        }
+    },
+    "src/prints/tests/views/materials/test_create_material_view.py": {
+        "focal_file": "src/prints/views/material_views/create_material_view.py",
+        "methods": {
+            "test_validate_not_existing_material_name_invalid_name": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "validate_not_existing_material_name"
+                }
+            },
+            "test_validate_not_existing_material_name_valid_name": {
+                "line": 41,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "validate_not_existing_material_name"
+                }
+            }
+        }
+    },
+    "src/infra/tests/test_view.py": {
+        "focal_file": "src/infra/views.py",
+        "methods": {
+            "test_not_raise_error_if_not_setted_content_type": {
+                "line": 12,
+                "line_end": 15,
+                "indent": 8,
+                "focal_class": "BaseView",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "validate_request_content_type"
+                }
+            },
+            "test_not_raise_error_if_correct_content_type": {
+                "line": 17,
+                "line_end": 22,
+                "indent": 8,
+                "focal_class": "BaseView",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "validate_request_content_type"
+                }
+            },
+            "test_raise_error_if_not_correct_content_type": {
+                "line": 24,
+                "line_end": 30,
+                "indent": 8,
+                "focal_class": "BaseView",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "validate_request_content_type"
+                }
+            },
+            "test_not_it_do_not_validate_schema_if_not_requested_schema": {
+                "line": 49,
+                "line_end": 54,
+                "indent": 8,
+                "focal_class": "BaseView",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "validate_request_schema"
+                }
+            },
+            "test_it_validate_schema_if_requested_schema_invalid_schema": {
+                "line": 56,
+                "line_end": 70,
+                "indent": 8,
+                "focal_class": "BaseView",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "validate_request_schema"
+                }
+            },
+            "test_it_validate_schema_if_requested_schema_valid_schema": {
+                "line": 72,
+                "line_end": 85,
+                "indent": 8,
+                "focal_class": "BaseView",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "validate_request_schema"
+                }
+            }
+        }
+    },
+    "src/users/tests/views/user_address_views/test_create_user_address_view.py": {
+        "focal_file": "src/helpers/testing_helpers.py",
+        "methods": {
+            "test_validate_valid_request": {
+                "line": 49,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "get_fake_jwt_request"
+                }
+            }
+        }
+    },
+    "src/users/tests/views/user_address_views/test_list_user_addresses_view.py": {
+        "focal_file": "src/helpers/testing_helpers.py",
+        "methods": {
+            "test_validate_valid_request": {
+                "line": 29,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "get_fake_jwt_request"
+                }
+            }
+        }
+    },
+    "src/users/tests/models/test_user.py": {
+        "focal_file": "src/users/models/user.py",
+        "methods": {
+            "test_set_and_check_password": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "check_password"
+                }
+            },
+            "test_validate_password": {
+                "line": 36,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "validate_password"
+                }
+            },
+            "test_validate_email": {
+                "line": 43,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "validate_email"
+                }
+            }
+        }
+    }
+}

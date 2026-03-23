@@ -1,0 +1,589 @@
+{
+    "tests/test_battle.py": {
+        "focal_file": "showdown/battle.py",
+        "methods": {
+            "test_gets_multiple_abilities": {
+                "line": 243,
+                "line_end": 256,
+                "indent": 4,
+                "focal_class": "Pokemon",
+                "focal_method": {
+                    "line": 512,
+                    "line_end": 526,
+                    "indent": 4,
+                    "name": "get_possible_abilities"
+                }
+            },
+            "test_ignored_ability_in_pass_abilities": {
+                "line": 294,
+                "line_end": 307,
+                "indent": 4,
+                "focal_class": "Pokemon",
+                "focal_method": {
+                    "line": 512,
+                    "line_end": 526,
+                    "indent": 4,
+                    "name": "get_possible_abilities"
+                }
+            },
+            "test_works_with_one_item": {
+                "line": 378,
+                "line_end": 392,
+                "indent": 4,
+                "focal_class": "Pokemon",
+                "focal_method": {
+                    "line": 491,
+                    "line_end": 510,
+                    "indent": 4,
+                    "name": "get_possible_items"
+                }
+            },
+            "test_ignores_item_in_pass_items": {
+                "line": 394,
+                "line_end": 409,
+                "indent": 4,
+                "focal_class": "Pokemon",
+                "focal_method": {
+                    "line": 491,
+                    "line_end": 510,
+                    "indent": 4,
+                    "name": "get_possible_items"
+                }
+            }
+        }
+    },
+    "tests/test_battle_modifiers.py": {
+        "focal_file": "showdown/battle_modifier.py",
+        "methods": {
+            "test_properly_sets_last_used_move": {
+                "line": 649,
+                "line_end": 656,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 218,
+                    "indent": 0,
+                    "name": "move"
+                }
+            },
+            "test_volatile_status_is_set_on_opponent_pokemon": {
+                "line": 966,
+                "line_end": 972,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "start_volatile_status"
+                }
+            },
+            "test_volatile_status_is_set_on_user_pokemon": {
+                "line": 986,
+                "line_end": 992,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "start_volatile_status"
+                }
+            },
+            "test_adds_volatile_status_from_move_string": {
+                "line": 994,
+                "line_end": 1000,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "start_volatile_status"
+                }
+            },
+            "test_does_not_add_the_same_volatile_status_twice": {
+                "line": 1002,
+                "line_end": 1009,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "start_volatile_status"
+                }
+            },
+            "test_removes_volatile_status_from_opponent": {
+                "line": 1040,
+                "line_end": 1047,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 279,
+                    "line_end": 294,
+                    "indent": 0,
+                    "name": "end_volatile_status"
+                }
+            },
+            "test_removes_volatile_status_from_user": {
+                "line": 1049,
+                "line_end": 1056,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 279,
+                    "line_end": 294,
+                    "indent": 0,
+                    "name": "end_volatile_status"
+                }
+            },
+            "test_sets_ability_for_opponent": {
+                "line": 1090,
+                "line_end": 1096,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 432,
+                    "indent": 0,
+                    "name": "set_ability"
+                }
+            },
+            "test_sets_ability_for_bot": {
+                "line": 1098,
+                "line_end": 1104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 432,
+                    "indent": 0,
+                    "name": "set_ability"
+                }
+            },
+            "test_update_ability_from_ability_string_properly_updates_ability": {
+                "line": 1106,
+                "line_end": 1112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "set_opponent_ability_from_ability_tag"
+                }
+            },
+            "test_update_ability_from_ability_string_properly_updates_ability_for_bot": {
+                "line": 1114,
+                "line_end": 1120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "set_opponent_ability_from_ability_tag"
+                }
+            },
+            "test_clears_negative_boosts": {
+                "line": 1224,
+                "line_end": 1231,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 491,
+                    "indent": 0,
+                    "name": "clearnegativeboost"
+                }
+            },
+            "test_clears_multiple_negative_boosts": {
+                "line": 1233,
+                "line_end": 1242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 491,
+                    "indent": 0,
+                    "name": "clearnegativeboost"
+                }
+            },
+            "test_does_not_clear_positive_boost": {
+                "line": 1244,
+                "line_end": 1251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 491,
+                    "indent": 0,
+                    "name": "clearnegativeboost"
+                }
+            },
+            "test_clears_only_negative_boosts": {
+                "line": 1253,
+                "line_end": 1272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 491,
+                    "indent": 0,
+                    "name": "clearnegativeboost"
+                }
+            },
+            "test_guesses_choicescarf_from_update_battle": {
+                "line": 1700,
+                "line_end": 1740,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 693,
+                    "line_end": 756,
+                    "indent": 0,
+                    "name": "update_battle"
+                }
+            }
+        }
+    },
+    "tests/test_get_state_instructions.py": {
+        "focal_file": "showdown/engine/find_state_instructions.py",
+        "methods": {
+            "test_stealthrock_produces_correct_instruction": {
+                "line": 3030,
+                "line_end": 3044,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_stealthrock_produces_no_instructions_when_it_exists": {
+                "line": 3171,
+                "line_end": 3184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_negative_boost_inflictions": {
+                "line": 3458,
+                "line_end": 3501,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_taunt_sets_taunt_status": {
+                "line": 3722,
+                "line_end": 3736,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_no_type_change_instruction_if_user_gets_flinched": {
+                "line": 5261,
+                "line_end": 5290,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_non_damaging_move_causes_type_change_instruction": {
+                "line": 5318,
+                "line_end": 5335,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_double_no_item_produces_no_instructions": {
+                "line": 6685,
+                "line_end": 6699,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_waking_up_produces_wake_up_instruction": {
+                "line": 7726,
+                "line_end": 7747,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_thawing_produces_thaw_instruction": {
+                "line": 7749,
+                "line_end": 7770,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "get_all_state_instructions"
+                }
+            },
+            "test_turns_two_identical_instructions_into_one": {
+                "line": 8953,
+                "line_end": 8979,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 403,
+                    "line_end": 413,
+                    "indent": 0,
+                    "name": "remove_duplicate_instructions"
+                }
+            },
+            "test_priority_causes_slower_to_move_first": {
+                "line": 9269,
+                "line_end": 9278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "user_moves_first"
+                }
+            },
+            "test_switch_always_moves_first": {
+                "line": 9327,
+                "line_end": 9336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "user_moves_first"
+                }
+            }
+        }
+    },
+    "tests/test_helpers.py": {
+        "focal_file": "showdown/helpers.py",
+        "methods": {
+            "test_two_similar_spreads_are_alike": {
+                "line": 57,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 137,
+                    "indent": 0,
+                    "name": "spreads_are_alike"
+                }
+            },
+            "test_different_natures_are_not_alike": {
+                "line": 63,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 137,
+                    "indent": 0,
+                    "name": "spreads_are_alike"
+                }
+            },
+            "test_standard_set_makes_sense": {
+                "line": 121,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "set_makes_sense"
+                }
+            },
+            "test_trick_with_scarf_makes_sense": {
+                "line": 161,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "set_makes_sense"
+                }
+            }
+        }
+    },
+    "tests/test_instruction_generator.py": {
+        "focal_file": "showdown/engine/instruction_generator.py",
+        "methods": {
+            "test_using_stealthrock_sets_side_condition": {
+                "line": 563,
+                "line_end": 581,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 508,
+                    "line_end": 559,
+                    "indent": 0,
+                    "name": "get_instructions_from_side_conditions"
+                }
+            },
+            "test_previous_instructions_result_in_correct_recovery": {
+                "line": 2364,
+                "line_end": 2389,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 802,
+                    "line_end": 841,
+                    "indent": 0,
+                    "name": "get_state_from_attacker_recovery"
+                }
+            },
+            "test_returns_one_state_with_volatile_status_set": {
+                "line": 2485,
+                "line_end": 2502,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 169,
+                    "indent": 0,
+                    "name": "get_state_from_volatile_status"
+                }
+            },
+            "test_does_not_alter_pre_existing_volatile_status": {
+                "line": 2519,
+                "line_end": 2538,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 169,
+                    "indent": 0,
+                    "name": "get_state_from_volatile_status"
+                }
+            },
+            "test_previous_instructions_are_interpreted_correctly": {
+                "line": 3084,
+                "line_end": 3106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 844,
+                    "line_end": 1089,
+                    "indent": 0,
+                    "name": "get_end_of_turn_instructions"
+                }
+            }
+        }
+    },
+    "tests/test_state_mutator.py": {
+        "focal_file": "showdown/engine/objects.py",
+        "methods": {
+            "test_remove_status_is_properly_reversed": {
+                "line": 292,
+                "line_end": 302,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "reverse"
+                }
+            }
+        }
+    },
+    "tests/test_team_converter.py": {
+        "focal_file": "teams/team_converter.py",
+        "methods": {
+            "test_pokemon_with_item": {
+                "line": 27,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "single_pokemon_export_to_dict"
+                }
+            },
+            "test_pokemon_without_item": {
+                "line": 83,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "single_pokemon_export_to_dict"
+                }
+            },
+            "test_gendered_pokemon_with_item": {
+                "line": 93,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "single_pokemon_export_to_dict"
+                }
+            },
+            "test_gendered_pokemon_without_item": {
+                "line": 105,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "single_pokemon_export_to_dict"
+                }
+            }
+        }
+    }
+}

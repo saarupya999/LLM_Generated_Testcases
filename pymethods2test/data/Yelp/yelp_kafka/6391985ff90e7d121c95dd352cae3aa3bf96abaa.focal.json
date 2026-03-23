@@ -1,0 +1,1667 @@
+{
+    "tests/test_config.py": {
+        "focal_file": "yelp_kafka/config.py",
+        "methods": {
+            "test_get_kafka_discovery_client": {
+                "line": 87,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "get_kafka_discovery_client"
+                }
+            },
+            "test_load_yaml": {
+                "line": 229,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "load_yaml_config"
+                }
+            },
+            "test_get_local_cluster": {
+                "line": 253,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": "ClusterConfig",
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "get_local_cluster"
+                }
+            },
+            "test_get_local_cluster_error": {
+                "line": 268,
+                "line_end": 288,
+                "indent": 4,
+                "focal_class": "TopologyConfiguration",
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "get_local_cluster"
+                }
+            },
+            "test_get_scribe_prefix": {
+                "line": 290,
+                "line_end": 295,
+                "indent": 4,
+                "focal_class": "TopologyConfiguration",
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "get_scribe_local_prefix"
+                }
+            },
+            "test_get_scribe_prefix_None": {
+                "line": 297,
+                "line_end": 303,
+                "indent": 4,
+                "focal_class": "TopologyConfiguration",
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "get_scribe_local_prefix"
+                }
+            },
+            "test_get_all_clusters": {
+                "line": 305,
+                "line_end": 319,
+                "indent": 4,
+                "focal_class": "ClusterConfig",
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "get_all_clusters"
+                }
+            },
+            "test_get_cluster_by_name": {
+                "line": 321,
+                "line_end": 333,
+                "indent": 4,
+                "focal_class": "ClusterConfig",
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "get_cluster_by_name"
+                }
+            },
+            "test_get_simple_consumer_args": {
+                "line": 474,
+                "line_end": 495,
+                "indent": 4,
+                "focal_class": "KafkaConsumerConfig",
+                "focal_method": {
+                    "line": 389,
+                    "line_end": 414,
+                    "indent": 4,
+                    "name": "get_simple_consumer_args"
+                }
+            },
+            "test_get_kafka_consumer_config": {
+                "line": 497,
+                "line_end": 518,
+                "indent": 4,
+                "focal_class": "KafkaConsumerConfig",
+                "focal_method": {
+                    "line": 416,
+                    "line_end": 458,
+                    "indent": 4,
+                    "name": "get_kafka_consumer_config"
+                }
+            }
+        }
+    },
+    "tests/test_consumer.py": {
+        "focal_file": "yelp_kafka/consumer.py",
+        "methods": {
+            "test_connect": {
+                "line": 57,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "connect"
+                }
+            },
+            "test_get_message": {
+                "line": 71,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "get_message"
+                }
+            },
+            "test_close": {
+                "line": 93,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_commit_message_default": {
+                "line": 144,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "commit_message"
+                }
+            },
+            "test_commit_message_zk": {
+                "line": 160,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "commit_message"
+                }
+            },
+            "test_commit_message_kafka": {
+                "line": 180,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "commit_message"
+                }
+            },
+            "test_commit_message_dual": {
+                "line": 201,
+                "line_end": 224,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "commit_message"
+                }
+            },
+            "test_commit_message_error": {
+                "line": 226,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": "KafkaSimpleConsumer",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "commit_message"
+                }
+            },
+            "test_run_and_terminate": {
+                "line": 241,
+                "line_end": 269,
+                "indent": 4,
+                "focal_class": "KafkaConsumerBase",
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 249,
+                    "indent": 4,
+                    "name": "terminate"
+                }
+            },
+            "test_set_process_name": {
+                "line": 290,
+                "line_end": 304,
+                "indent": 4,
+                "focal_class": "KafkaConsumerBase",
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "set_process_name"
+                }
+            }
+        }
+    },
+    "tests/test_consumer_group.py": {
+        "focal_file": "yelp_kafka/consumer_group.py",
+        "methods": {
+            "test__consume": {
+                "line": 42,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "ConsumerGroup",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "consume"
+                }
+            },
+            "test__acquire": {
+                "line": 81,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "ConsumerGroup",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "_acquire"
+                }
+            },
+            "test__release": {
+                "line": 231,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": "KafkaConsumerGroup",
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "_release"
+                }
+            },
+            "test__should_keep_trying_no_timeout": {
+                "line": 120,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": "KafkaConsumerGroup",
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "_should_keep_trying"
+                }
+            },
+            "test__should_keep_trying_not_timed_out": {
+                "line": 132,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "KafkaConsumerGroup",
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "_should_keep_trying"
+                }
+            },
+            "test__should_keep_trying_timed_out": {
+                "line": 146,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": "KafkaConsumerGroup",
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "_should_keep_trying"
+                }
+            },
+            "test__auto_commit_enabled_is_enabled": {
+                "line": 159,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": "KafkaConsumerGroup",
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "_auto_commit_enabled"
+                }
+            },
+            "test__auto_commit_enabled_not_enabled": {
+                "line": 168,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": "KafkaConsumerGroup",
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "_auto_commit_enabled"
+                }
+            },
+            "test_next": {
+                "line": 179,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": "KafkaConsumerGroup",
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "next"
+                }
+            },
+            "test_acquire": {
+                "line": 296,
+                "line_end": 318,
+                "indent": 4,
+                "focal_class": "MultiprocessingConsumerGroup",
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 485,
+                    "indent": 4,
+                    "name": "acquire"
+                }
+            },
+            "test_start_consumer_fail": {
+                "line": 320,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 510,
+                    "line_end": 536,
+                    "indent": 4,
+                    "name": "start_consumer"
+                }
+            },
+            "test_release": {
+                "line": 330,
+                "line_end": 345,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 538,
+                    "line_end": 566,
+                    "indent": 4,
+                    "name": "release"
+                }
+            },
+            "test_monitor": {
+                "line": 361,
+                "line_end": 378,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 568,
+                    "line_end": 583,
+                    "indent": 4,
+                    "name": "monitor"
+                }
+            },
+            "test_get_consumers": {
+                "line": 380,
+                "line_end": 385,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 585,
+                    "line_end": 594,
+                    "indent": 4,
+                    "name": "get_consumers"
+                }
+            }
+        }
+    },
+    "tests/test_discovery.py": {
+        "focal_file": "yelp_kafka/discovery.py",
+        "methods": {
+            "test_get_local_region": {
+                "line": 115,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "_get_local_region"
+                }
+            },
+            "test_get_local_superregion": {
+                "line": 129,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 126,
+                    "indent": 0,
+                    "name": "_get_local_superregion"
+                }
+            },
+            "test_parse_as_cluster_config": {
+                "line": 143,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "parse_as_cluster_config"
+                }
+            },
+            "test_get_region_cluster_default": {
+                "line": 149,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 180,
+                    "indent": 0,
+                    "name": "get_region_cluster"
+                }
+            },
+            "test_get_region_cluster": {
+                "line": 162,
+                "line_end": 171,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 180,
+                    "indent": 0,
+                    "name": "get_region_cluster"
+                }
+            },
+            "test_get_region_cluster_invalid_type": {
+                "line": 174,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 180,
+                    "indent": 0,
+                    "name": "get_region_cluster"
+                }
+            },
+            "test_get_superregion_cluster_default": {
+                "line": 186,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "get_superregion_cluster"
+                }
+            },
+            "test_get_superregion_cluster": {
+                "line": 203,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "get_superregion_cluster"
+                }
+            },
+            "test_get_superregion_cluster_invalid_type": {
+                "line": 224,
+                "line_end": 236,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "get_superregion_cluster"
+                }
+            },
+            "test_get_kafka_cluster": {
+                "line": 239,
+                "line_end": 249,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 239,
+                    "indent": 0,
+                    "name": "get_kafka_cluster"
+                }
+            },
+            "test_get_kafka_cluster_invalid": {
+                "line": 252,
+                "line_end": 260,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 239,
+                    "indent": 0,
+                    "name": "get_kafka_cluster"
+                }
+            },
+            "test_stream_to_log_regex": {
+                "line": 263,
+                "line_end": 264,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 242,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "stream_to_log_regex"
+                }
+            },
+            "test_get_region_logs_stream": {
+                "line": 267,
+                "line_end": 278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "get_region_logs_stream"
+                }
+            },
+            "test_get_region_logs_regex_default": {
+                "line": 281,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "get_region_logs_regex"
+                }
+            },
+            "test_get_region_logs_regex": {
+                "line": 300,
+                "line_end": 311,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "get_region_logs_regex"
+                }
+            },
+            "test_get_region_logs_regex_invalid": {
+                "line": 314,
+                "line_end": 323,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "get_region_logs_regex"
+                }
+            },
+            "test_get_superregion_logs_stream": {
+                "line": 326,
+                "line_end": 341,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 310,
+                    "indent": 0,
+                    "name": "get_superregion_logs_stream"
+                }
+            },
+            "test_get_superregion_logs_regex_default": {
+                "line": 344,
+                "line_end": 360,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 343,
+                    "indent": 0,
+                    "name": "get_superregion_logs_regex"
+                }
+            },
+            "test_get_superregion_logs_regex": {
+                "line": 363,
+                "line_end": 378,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 343,
+                    "indent": 0,
+                    "name": "get_superregion_logs_regex"
+                }
+            },
+            "test_get_superregion_logs_regex_invalid": {
+                "line": 381,
+                "line_end": 394,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 343,
+                    "indent": 0,
+                    "name": "get_superregion_logs_regex"
+                }
+            },
+            "test_get_all_logs_regions": {
+                "line": 397,
+                "line_end": 402,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 373,
+                    "line_end": 387,
+                    "indent": 0,
+                    "name": "get_all_logs_regions"
+                }
+            },
+            "test_get_all_clusters": {
+                "line": 406,
+                "line_end": 419,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 346,
+                    "line_end": 370,
+                    "indent": 0,
+                    "name": "get_all_clusters"
+                }
+            },
+            "test_get_consumer_config": {
+                "line": 423,
+                "line_end": 442,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 403,
+                    "indent": 0,
+                    "name": "get_consumer_config"
+                }
+            },
+            "test_get_kafka_connection": {
+                "line": 446,
+                "line_end": 464,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 406,
+                    "line_end": 427,
+                    "indent": 0,
+                    "name": "get_kafka_connection"
+                }
+            },
+            "test_get_kafka_connection_kwargs": {
+                "line": 468,
+                "line_end": 485,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 406,
+                    "line_end": 427,
+                    "indent": 0,
+                    "name": "get_kafka_connection"
+                }
+            },
+            "test_get_kafka_connection_error": {
+                "line": 489,
+                "line_end": 507,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 406,
+                    "line_end": 427,
+                    "indent": 0,
+                    "name": "get_kafka_connection"
+                }
+            },
+            "test_get_all_kafka_connections": {
+                "line": 511,
+                "line_end": 524,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 430,
+                    "line_end": 460,
+                    "indent": 0,
+                    "name": "get_all_kafka_connections"
+                }
+            },
+            "test_get_all_kafka_connections_error": {
+                "line": 528,
+                "line_end": 538,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 430,
+                    "line_end": 460,
+                    "indent": 0,
+                    "name": "get_all_kafka_connections"
+                }
+            },
+            "test_discover_topics": {
+                "line": 543,
+                "line_end": 556,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "discover_topics"
+                }
+            },
+            "test_discover_topics_error": {
+                "line": 561,
+                "line_end": 566,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "discover_topics"
+                }
+            },
+            "test_search_topic": {
+                "line": 569,
+                "line_end": 580,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "search_topic"
+                }
+            },
+            "test_search_no_topic": {
+                "line": 599,
+                "line_end": 610,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "search_topic"
+                }
+            },
+            "test_local_topic_exists": {
+                "line": 615,
+                "line_end": 620,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 475,
+                    "indent": 0,
+                    "name": "local_topic_exists"
+                }
+            },
+            "test_local_topic_not_exists": {
+                "line": 625,
+                "line_end": 630,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 475,
+                    "indent": 0,
+                    "name": "local_topic_exists"
+                }
+            },
+            "test_search_topics_in_all_clusters": {
+                "line": 635,
+                "line_end": 643,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 478,
+                    "line_end": 494,
+                    "indent": 0,
+                    "name": "search_topic_in_all_clusters"
+                }
+            },
+            "test_search_topics_no_topics_in_clusters": {
+                "line": 648,
+                "line_end": 656,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 478,
+                    "line_end": 494,
+                    "indent": 0,
+                    "name": "search_topic_in_all_clusters"
+                }
+            },
+            "test_search_by_regex": {
+                "line": 659,
+                "line_end": 679,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "search_topics_by_regex"
+                }
+            },
+            "test_search_topic_by_regex_in_all_clusters": {
+                "line": 698,
+                "line_end": 706,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 515,
+                    "indent": 0,
+                    "name": "search_topics_by_regex_in_all_clusters"
+                }
+            },
+            "test_search_topic_by_regex_in_all_clusters_error": {
+                "line": 711,
+                "line_end": 722,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 515,
+                    "indent": 0,
+                    "name": "search_topics_by_regex_in_all_clusters"
+                }
+            }
+        }
+    },
+    "tests/test_monitoring.py": {
+        "focal_file": "yelp_kafka/monitoring.py",
+        "methods": {
+            "test_offset_metadata_invalid_arguments": {
+                "line": 36,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "get_consumer_offsets_metadata"
+                }
+            },
+            "test_offset_metadata_unknown_topic": {
+                "line": 44,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "get_consumer_offsets_metadata"
+                }
+            },
+            "test_offset_metadata_unknown_topic_no_fail": {
+                "line": 52,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "get_consumer_offsets_metadata"
+                }
+            },
+            "test_offset_metadata_unknown_partitions": {
+                "line": 61,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "get_consumer_offsets_metadata"
+                }
+            },
+            "test_offset_distance_ok": {
+                "line": 120,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "offset_distance"
+                }
+            },
+            "test_offset_distance_partition_subset": {
+                "line": 127,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "offset_distance"
+                }
+            },
+            "test_offset_distance_all_partitions": {
+                "line": 135,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "offset_distance"
+                }
+            },
+            "test_offset_distance_unknown_group": {
+                "line": 153,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "offset_distance"
+                }
+            },
+            "test_topics_offset_distance": {
+                "line": 170,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "topics_offset_distance"
+                }
+            },
+            "test_topics_offset_distance_partition_subset": {
+                "line": 181,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "topics_offset_distance"
+                }
+            },
+            "test_topics_offset_distance_topic_subset": {
+                "line": 192,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "topics_offset_distance"
+                }
+            }
+        }
+    },
+    "tests/test_offsets.py": {
+        "focal_file": "yelp_kafka/offsets.py",
+        "methods": {
+            "test_get_current_consumer_offsets_invalid_arguments": {
+                "line": 254,
+                "line_end": 260,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_unknown_topic": {
+                "line": 262,
+                "line_end": 268,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_unknown_topic_no_fail": {
+                "line": 270,
+                "line_end": 277,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_unknown_partitions": {
+                "line": 279,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_unknown_partitions_no_fail": {
+                "line": 287,
+                "line_end": 294,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_invalid_partition_subset": {
+                "line": 296,
+                "line_end": 302,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_invalid_partition_subset_no_fail": {
+                "line": 304,
+                "line_end": 313,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets": {
+                "line": 315,
+                "line_end": 321,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_from_zookeeper": {
+                "line": 323,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_from_kafka": {
+                "line": 338,
+                "line_end": 351,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_current_consumer_offsets_invalid_storage": {
+                "line": 353,
+                "line_end": 367,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_current_consumer_offsets"
+                }
+            },
+            "test_get_topics_watermarks_invalid_arguments": {
+                "line": 369,
+                "line_end": 374,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks_unknown_topic": {
+                "line": 376,
+                "line_end": 381,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks_unknown_topic_no_fail": {
+                "line": 383,
+                "line_end": 389,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks_unknown_partitions": {
+                "line": 391,
+                "line_end": 396,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks_unknown_partitions_no_fail": {
+                "line": 398,
+                "line_end": 404,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks_invalid_partition_subset": {
+                "line": 406,
+                "line_end": 411,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks_invalid_partition_subset_no_fail": {
+                "line": 413,
+                "line_end": 420,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks": {
+                "line": 422,
+                "line_end": 431,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test_get_topics_watermarks_commit_error": {
+                "line": 433,
+                "line_end": 441,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_topics_watermarks"
+                }
+            },
+            "test__verify_commit_offsets_requests": {
+                "line": 443,
+                "line_end": 459,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "_verify_commit_offsets_requests"
+                }
+            },
+            "test__verify_commit_offsets_requests_invalid_types_raise_error": {
+                "line": 461,
+                "line_end": 471,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "_verify_commit_offsets_requests"
+                }
+            },
+            "test__verify_commit_offsets_requests_invalid_types_no_raise_error": {
+                "line": 473,
+                "line_end": 483,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "_verify_commit_offsets_requests"
+                }
+            },
+            "test__verify_commit_offsets_requests_bad_partitions": {
+                "line": 485,
+                "line_end": 503,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "_verify_commit_offsets_requests"
+                }
+            },
+            "test__verify_commit_offsets_requests_bad_topics": {
+                "line": 505,
+                "line_end": 523,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "_verify_commit_offsets_requests"
+                }
+            },
+            "test__verify_commit_offsets_requests_bad_partitions_no_fail": {
+                "line": 525,
+                "line_end": 550,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "_verify_commit_offsets_requests"
+                }
+            },
+            "test__verify_commit_offsets_requests_bad_topics_no_fail": {
+                "line": 552,
+                "line_end": 570,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "_verify_commit_offsets_requests"
+                }
+            },
+            "test_advance_consumer_offsets": {
+                "line": 572,
+                "line_end": 583,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 429,
+                    "indent": 0,
+                    "name": "advance_consumer_offsets"
+                }
+            },
+            "test_advance_consumer_offsets_fail": {
+                "line": 585,
+                "line_end": 608,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 429,
+                    "indent": 0,
+                    "name": "advance_consumer_offsets"
+                }
+            },
+            "test_rewind_consumer_offsets_zk": {
+                "line": 610,
+                "line_end": 624,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "rewind_consumer_offsets"
+                }
+            },
+            "test_rewind_consumer_offsets_kafka": {
+                "line": 626,
+                "line_end": 639,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "rewind_consumer_offsets"
+                }
+            },
+            "test_rewind_consumer_offsets_fail": {
+                "line": 641,
+                "line_end": 664,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "rewind_consumer_offsets"
+                }
+            },
+            "test_set_consumer_offsets_zk": {
+                "line": 666,
+                "line_end": 699,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 544,
+                    "indent": 0,
+                    "name": "set_consumer_offsets"
+                }
+            },
+            "test_set_consumer_offsets_kafka": {
+                "line": 701,
+                "line_end": 722,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 544,
+                    "indent": 0,
+                    "name": "set_consumer_offsets"
+                }
+            },
+            "test_set_consumer_offsets_fail": {
+                "line": 724,
+                "line_end": 753,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 544,
+                    "indent": 0,
+                    "name": "set_consumer_offsets"
+                }
+            }
+        }
+    },
+    "tests/test_partitioner.py": {
+        "focal_file": "yelp_kafka/partitioner.py",
+        "methods": {
+            "test_get_partitions_set": {
+                "line": 77,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 343,
+                    "line_end": 370,
+                    "indent": 4,
+                    "name": "get_partitions_set"
+                }
+            },
+            "test__get_partitioner_no_partitions_change": {
+                "line": 188,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "_get_partitioner"
+                }
+            },
+            "test__get_partitioner_partitions_change": {
+                "line": 214,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "_get_partitioner"
+                }
+            },
+            "test__close_connections": {
+                "line": 245,
+                "line_end": 261,
+                "indent": 4,
+                "focal_class": "Partitioner",
+                "focal_method": {
+                    "line": 234,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "_close_connections"
+                }
+            },
+            "test__create_partitioner_with_kazoo_connection": {
+                "line": 265,
+                "line_end": 295,
+                "indent": 4,
+                "focal_class": "Partitioner",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "_create_partitioner"
+                }
+            },
+            "test__create_partitioner_no_kazoo_connection": {
+                "line": 299,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": "Partitioner",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "_create_partitioner"
+                }
+            },
+            "test_get_partitions_kafka_unavailable": {
+                "line": 331,
+                "line_end": 351,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "_get_partitioner"
+                }
+            },
+            "test_release_and_finish": {
+                "line": 353,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 232,
+                    "indent": 4,
+                    "name": "release_and_finish"
+                }
+            }
+        }
+    },
+    "tests/test_producer.py": {
+        "focal_file": "yelp_kafka/producer.py",
+        "methods": {
+            "test_send_kafka_metrics": {
+                "line": 104,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "_send_kafka_metrics"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "yelp_kafka/utils.py",
+        "methods": {
+            "test_make_scribe_topic": {
+                "line": 25,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "make_scribe_topic"
+                }
+            },
+            "test_get_kafka_topics": {
+                "line": 32,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_kafka_topics"
+                }
+            },
+            "test_get_kafka_topics_error": {
+                "line": 55,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_kafka_topics"
+                }
+            },
+            "test_extract_datacenter": {
+                "line": 67,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "extract_datacenter"
+                }
+            },
+            "test_extract_datacenter_error": {
+                "line": 77,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "extract_datacenter"
+                }
+            },
+            "test_extract_stream_name": {
+                "line": 91,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "extract_stream_name"
+                }
+            },
+            "test_extract_stream_name_error": {
+                "line": 101,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "extract_stream_name"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "tests/test_monkeypatcher.py": {
+        "focal_file": "puck/chaos.py",
+        "methods": {
+            "test_patching": {
+                "line": 16,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 20,
+                    "indent": 0,
+                    "name": "patch_thing"
+                }
+            },
+            "test_unpatching": {
+                "line": 36,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "unpatch_thing"
+                }
+            },
+            "test_patch_and_unpatch_method": {
+                "line": 61,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "MonkeyPatcher",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "unpatch"
+                }
+            }
+        }
+    }
+}

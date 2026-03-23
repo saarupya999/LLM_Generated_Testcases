@@ -1,0 +1,347 @@
+{
+    "tests/git_code_debt/logic_test.py": {
+        "focal_file": "git_code_debt/logic.py",
+        "methods": {
+            "test_get_metric_mapping": {
+                "line": 18,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2,
+                    "line_end": 5,
+                    "indent": 0,
+                    "name": "get_metric_mapping"
+                }
+            },
+            "test_get_previous_sha_no_previous_sha": {
+                "line": 28,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "get_previous_sha"
+                }
+            },
+            "test_get_previous_sha_previous_existing_sha": {
+                "line": 48,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "get_previous_sha"
+                }
+            },
+            "test_insert_and_get_metric_values": {
+                "line": 55,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "get_metric_values"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt/generate_test.py": {
+        "focal_file": "git_code_debt/generate.py",
+        "methods": {
+            "test_increment_metrics_first_time": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "increment_metric_values"
+                }
+            },
+            "test_increment_metrics_already_there": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "increment_metric_values"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt/repo_parser_test.py": {
+        "focal_file": "git_code_debt/repo_parser.py",
+        "methods": {
+            "test_repo_checked_out": {
+                "line": 12,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": "RepoParser",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "repo_checked_out"
+                }
+            },
+            "test_get_commit_shas_all_of_them": {
+                "line": 34,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "get_commit_shas"
+                }
+            },
+            "test_get_commit_shas_after_date": {
+                "line": 44,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "get_commit_shas"
+                }
+            },
+            "test_get_commit": {
+                "line": 66,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_commit"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt/create_tables_test.py": {
+        "focal_file": "git_code_debt/create_tables.py",
+        "methods": {
+            "test_create_schema": {
+                "line": 14,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "create_schema"
+                }
+            },
+            "test_populate_metric_ids": {
+                "line": 30,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "populate_metric_ids"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt/discovery_test.py": {
+        "focal_file": "git_code_debt/discovery.py",
+        "methods": {
+            "test_get_metric_parsers_returns_something": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "get_metric_parsers"
+                }
+            },
+            "test_get_modules_no_modules": {
+                "line": 53,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "get_modules"
+                }
+            },
+            "test_get_modules_some_modules": {
+                "line": 57,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "get_modules"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt/list_metrics_test.py": {
+        "focal_file": "git_code_debt/list_metrics.py",
+        "methods": {
+            "test_color_no_color": {
+                "line": 34,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "color"
+                }
+            },
+            "test_colored": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "color"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt/metrics/imports_test.py": {
+        "focal_file": "git_code_debt/metrics/imports.py",
+        "methods": {
+            "test_python_imports": {
+                "line": 22,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 10,
+                    "indent": 0,
+                    "name": "is_python_import"
+                }
+            },
+            "test_template_imports": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "is_template_import"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt_server/metric_config_test.py": {
+        "focal_file": "git_code_debt_server/metric_config.py",
+        "methods": {
+            "test_Group_from_yaml": {
+                "line": 12,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": "Group",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "from_yaml"
+                }
+            },
+            "test_Group_contains_by_regex": {
+                "line": 38,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "Group",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            },
+            "test_get_groups_from_yaml_smoke": {
+                "line": 43,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": "Group",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "_get_groups_from_yaml"
+                }
+            },
+            "test_get_groups_from_yaml_no_metrics_provided": {
+                "line": 87,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": "Group",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "_get_groups_from_yaml"
+                }
+            },
+            "test_get_groups_from_yaml_no_metric_expressions_provided": {
+                "line": 94,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": "Group",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "_get_groups_from_yaml"
+                }
+            }
+        }
+    },
+    "tests/git_code_debt_util/iter_test.py": {
+        "focal_file": "git_code_debt_util/iter.py",
+        "methods": {
+            "test_chunk_iter": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "chunk_iter"
+                }
+            }
+        }
+    }
+}

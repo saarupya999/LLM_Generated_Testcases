@@ -1,0 +1,373 @@
+{
+    "tests/unit/test_bert_common.py": {
+        "focal_file": "utils_nlp/models/bert/common.py",
+        "methods": {
+            "test_tokenize": {
+                "line": 9,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_tokenize_ner": {
+                "line": 19,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 366,
+                    "indent": 4,
+                    "name": "tokenize_ner"
+                }
+            },
+            "test_create_data_loader": {
+                "line": 72,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 369,
+                    "line_end": 415,
+                    "indent": 0,
+                    "name": "create_data_loader"
+                }
+            }
+        }
+    },
+    "tests/unit/test_bert_encoder.py": {
+        "focal_file": "utils_nlp/models/bert/sequence_encoding.py",
+        "methods": {
+            "test_encoder": {
+                "line": 13,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": "BERTSentenceEncoder",
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "encode"
+                }
+            }
+        }
+    },
+    "tests/unit/test_bert_sequence_classification.py": {
+        "focal_file": "utils_nlp/models/bert/sequence_classification.py",
+        "methods": {
+            "test_classifier": {
+                "line": 20,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": "BERTSequenceClassifier",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "fit"
+                }
+            },
+            "test_classifier_gpu_train_cpu_predict": {
+                "line": 45,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": "BERTSequenceClassifier",
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "predict"
+                }
+            }
+        }
+    },
+    "tests/unit/test_bert_token_classification.py": {
+        "focal_file": "utils_nlp/models/bert/token_classification.py",
+        "methods": {
+            "test_token_classifier_fit_predict": {
+                "line": 17,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": "BERTTokenClassifier",
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 305,
+                    "indent": 4,
+                    "name": "predict"
+                }
+            },
+            "test_postprocess_token_labels": {
+                "line": 57,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 381,
+                    "indent": 0,
+                    "name": "postprocess_token_labels"
+                }
+            },
+            "test_postprocess_token_labels_remove_trailing": {
+                "line": 67,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 381,
+                    "indent": 0,
+                    "name": "postprocess_token_labels"
+                }
+            }
+        }
+    },
+    "tests/unit/test_common_pytorch_utils.py": {
+        "focal_file": "utils_nlp/common/pytorch_utils.py",
+        "methods": {
+            "test_get_device_cpu": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "get_device"
+                }
+            },
+            "test_get_device_exception": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "get_device"
+                }
+            },
+            "test_get_device_gpu": {
+                "line": 37,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "get_device"
+                }
+            },
+            "test_move_to_device_cpu": {
+                "line": 43,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "move_to_device"
+                }
+            },
+            "test_move_to_device_cpu_parallelized": {
+                "line": 49,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "move_to_device"
+                }
+            },
+            "test_move_to_device_exception_wrong_type": {
+                "line": 66,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "move_to_device"
+                }
+            },
+            "test_move_to_device_gpu": {
+                "line": 87,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "move_to_device"
+                }
+            }
+        }
+    },
+    "tests/unit/test_interpreter.py": {
+        "focal_file": "utils_nlp/interpreter/Interpreter.py",
+        "methods": {
+            "test_fixed_length_regularization": {
+                "line": 43,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "calculate_regularization"
+                }
+            },
+            "test_variable_length_regularization": {
+                "line": 54,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "calculate_regularization"
+                }
+            },
+            "test_train_fixed_length_interp": {
+                "line": 82,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "optimize"
+                }
+            },
+            "test_train_variable_length_interp": {
+                "line": 94,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "optimize"
+                }
+            },
+            "test_interpreter_get_simga": {
+                "line": 106,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "get_sigma"
+                }
+            }
+        }
+    },
+    "tests/unit/test_preprocess.py": {
+        "focal_file": "utils_nlp/dataset/preprocess.py",
+        "methods": {
+            "test_to_lowercase_all": {
+                "line": 31,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "to_lowercase_all"
+                }
+            },
+            "test_to_lowercase_subset": {
+                "line": 38,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "to_lowercase"
+                }
+            },
+            "test_to_spacy_tokens": {
+                "line": 45,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "to_spacy_tokens"
+                }
+            },
+            "test_rm_spacy_stopwords": {
+                "line": 62,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "rm_spacy_stopwords"
+                }
+            },
+            "test_to_nltk_tokens": {
+                "line": 73,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "to_nltk_tokens"
+                }
+            },
+            "test_rm_nltk_stopwords": {
+                "line": 90,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 159,
+                    "indent": 0,
+                    "name": "rm_nltk_stopwords"
+                }
+            },
+            "test_convert_to_unicode": {
+                "line": 101,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 167,
+                    "indent": 0,
+                    "name": "convert_to_unicode"
+                }
+            }
+        }
+    }
+}

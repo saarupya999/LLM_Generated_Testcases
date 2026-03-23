@@ -1,0 +1,587 @@
+{
+    "tests/unit_and_functional/test_cli_secrets.py": {
+        "focal_file": "src/bodywork/cli/secrets.py",
+        "methods": {
+            "test_parse_cli_secrets_strings_parses_valid_inputs": {
+                "line": 33,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "parse_cli_secrets_strings"
+                }
+            },
+            "test_parse_cli_secrets_strings_raises_exception_invalid_inputs": {
+                "line": 41,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "parse_cli_secrets_strings"
+                }
+            },
+            "test_create_secrets_in_namespace": {
+                "line": 60,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "create_secret_in_namespace"
+                }
+            },
+            "test_delete_secrets_in_namespace": {
+                "line": 78,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "delete_secret_in_namespace"
+                }
+            },
+            "test_display_secrets_in_namespace": {
+                "line": 101,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "display_secrets_in_namespace"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_config.py": {
+        "focal_file": "src/bodywork/config.py",
+        "methods": {
+            "test_parse_dag_definition_parses_multi_stage_dags": {
+                "line": 419,
+                "line_end": 423,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 419,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "_parse_dag_definition"
+                }
+            },
+            "test_parse_dag_definition_parses_single_stage_dags": {
+                "line": 426,
+                "line_end": 430,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 419,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "_parse_dag_definition"
+                }
+            },
+            "test_check_workflow_stages_are_configured": {
+                "line": 439,
+                "line_end": 448,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 461,
+                    "indent": 0,
+                    "name": "_check_workflow_stages_are_configured"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_git.py": {
+        "focal_file": "src/bodywork/git.py",
+        "methods": {
+            "test_get_connection_protocol_identifies_connection_protocols": {
+                "line": 51,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "get_connection_protocol"
+                }
+            },
+            "test_get_connection_protocol_raises_exception_for_unknown_protocol": {
+                "line": 62,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "get_connection_protocol"
+                }
+            },
+            "test_get_ssh_public_key_from_domain_throws_exception_if_ssh_fingerprints_do_not_match": {
+                "line": 93,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 223,
+                    "indent": 0,
+                    "name": "get_ssh_public_key_from_domain"
+                }
+            },
+            "test_get_git_commit_hash_throws_bodyworkgiterror_on_fail": {
+                "line": 106,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "get_git_commit_hash"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_k8s_batch_jobs.py": {
+        "focal_file": "src/bodywork/k8s/batch_jobs.py",
+        "methods": {
+            "test_configure_batch_stage_job": {
+                "line": 66,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "configure_batch_stage_job"
+                }
+            },
+            "test_monitor_jobs_to_completion_raises_timeout_error_if_jobs_do_not_succeed": {
+                "line": 176,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "monitor_jobs_to_completion"
+                }
+            },
+            "test_monitor_jobs_to_completion_identifies_successful_jobs": {
+                "line": 194,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "monitor_jobs_to_completion"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_k8s_secrets.py": {
+        "focal_file": "src/bodywork/k8s/secrets.py",
+        "methods": {
+            "test_configure_environment_variables_raises_errors_if_secrets_cannot_be_found": {
+                "line": 36,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "configure_env_vars_from_secrets"
+                }
+            },
+            "test_configure_env_vars_from_secrets": {
+                "line": 50,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "configure_env_vars_from_secrets"
+                }
+            },
+            "test_list_secrets_in_namespace_returns_decoded_secret_data": {
+                "line": 111,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "list_secrets_in_namespace"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_k8s_service_deployments.py": {
+        "focal_file": "src/bodywork/k8s/service_deployments.py",
+        "methods": {
+            "test_configure_service_stage_deployment": {
+                "line": 90,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "configure_service_stage_deployment"
+                }
+            },
+            "test_is_existing_deployment_correctly_filters_deployments": {
+                "line": 135,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 164,
+                    "indent": 0,
+                    "name": "is_existing_deployment"
+                }
+            },
+            "test_rollback_deployment_tries_to_delete_new_deployments": {
+                "line": 252,
+                "line_end": 288,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 238,
+                    "indent": 0,
+                    "name": "rollback_deployment"
+                }
+            },
+            "test_delete_all_namespace_deployments_tries_to_delete_deployments_with_k8s_api": {
+                "line": 308,
+                "line_end": 331,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 253,
+                    "indent": 0,
+                    "name": "delete_all_namespace_deployments"
+                }
+            },
+            "test_get_deployment_status_correctly_determines_complete_status": {
+                "line": 335,
+                "line_end": 356,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 310,
+                    "indent": 0,
+                    "name": "_get_deployment_status"
+                }
+            },
+            "test_monitor_deployments_to_completion_raises_timeout_error_if_jobs_do_not_succeed": {
+                "line": 395,
+                "line_end": 403,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 356,
+                    "indent": 0,
+                    "name": "monitor_deployments_to_completion"
+                }
+            },
+            "test_monitor_deployments_to_completion_identifies_successful_deployments": {
+                "line": 407,
+                "line_end": 422,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 356,
+                    "indent": 0,
+                    "name": "monitor_deployments_to_completion"
+                }
+            },
+            "test_list_service_stage_deployments_returns_service_stage_info": {
+                "line": 425,
+                "line_end": 484,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 359,
+                    "line_end": 415,
+                    "indent": 0,
+                    "name": "list_service_stage_deployments"
+                }
+            },
+            "test_cluster_service_url": {
+                "line": 487,
+                "line_end": 495,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 418,
+                    "line_end": 426,
+                    "indent": 0,
+                    "name": "cluster_service_url"
+                }
+            },
+            "test_expose_deployment_as_cluster_service_tries_to_expose_deployment_as_service": {
+                "line": 499,
+                "line_end": 520,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 448,
+                    "indent": 0,
+                    "name": "expose_deployment_as_cluster_service"
+                }
+            },
+            "test_is_exposed_as_cluster_service_identifies_existing_services": {
+                "line": 524,
+                "line_end": 546,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 451,
+                    "line_end": 459,
+                    "indent": 0,
+                    "name": "is_exposed_as_cluster_service"
+                }
+            },
+            "test_stop_exposing_cluster_service_tries_to_stop_exposing_deployment_as_service": {
+                "line": 550,
+                "line_end": 558,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 462,
+                    "line_end": 470,
+                    "indent": 0,
+                    "name": "stop_exposing_cluster_service"
+                }
+            },
+            "test_ingress_route": {
+                "line": 561,
+                "line_end": 564,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 473,
+                    "line_end": 480,
+                    "indent": 0,
+                    "name": "ingress_route"
+                }
+            },
+            "test_create_deployment_ingress_tries_to_create_ingress_resource": {
+                "line": 568,
+                "line_end": 607,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 483,
+                    "line_end": 525,
+                    "indent": 0,
+                    "name": "create_deployment_ingress"
+                }
+            },
+            "test_delete_deployment_ingress_tries_to_deletes_ingress_resource": {
+                "line": 611,
+                "line_end": 619,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 536,
+                    "indent": 0,
+                    "name": "delete_deployment_ingress"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_k8s_workflow_jobs.py": {
+        "focal_file": "src/bodywork/k8s/workflow_jobs.py",
+        "methods": {
+            "test_configure_workflow_job": {
+                "line": 68,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "configure_workflow_job"
+                }
+            },
+            "test_configure_workflow_cronjob": {
+                "line": 140,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 159,
+                    "indent": 0,
+                    "name": "configure_workflow_cronjob"
+                }
+            },
+            "test_create_workflow_cronjob_tries_to_create_job_with_k8s_api": {
+                "line": 168,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 169,
+                    "indent": 0,
+                    "name": "create_workflow_cronjob"
+                }
+            },
+            "test_delete_workflow_cronjob_tries_to_delete_job_with_k8s_api": {
+                "line": 179,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "delete_workflow_cronjob"
+                }
+            },
+            "test_list_workflow_cronjobs_returns_cronjobs_summary_info": {
+                "line": 192,
+                "line_end": 206,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 206,
+                    "indent": 0,
+                    "name": "list_workflow_cronjobs"
+                }
+            },
+            "test_list_workflow_jobs_returns_jobs_summary_info": {
+                "line": 210,
+                "line_end": 270,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 233,
+                    "indent": 0,
+                    "name": "list_workflow_jobs"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_stage_execution.py": {
+        "focal_file": "src/bodywork/stage_execution.py",
+        "methods": {
+            "test_that_requirements_can_be_installed": {
+                "line": 30,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "_install_python_requirements"
+                }
+            }
+        }
+    },
+    "tests/unit_and_functional/test_workflow_execution.py": {
+        "focal_file": "src/bodywork/workflow_execution.py",
+        "methods": {
+            "test_image_exists_on_dockerhub_handles_connection_error": {
+                "line": 50,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 395,
+                    "indent": 0,
+                    "name": "image_exists_on_dockerhub"
+                }
+            },
+            "test_image_exists_on_dockerhub_handles_correctly_identifies_image_repos": {
+                "line": 59,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 395,
+                    "indent": 0,
+                    "name": "image_exists_on_dockerhub"
+                }
+            },
+            "test_parse_dockerhub_image_string_raises_exception_for_invalid_strings": {
+                "line": 71,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 398,
+                    "line_end": 421,
+                    "indent": 0,
+                    "name": "parse_dockerhub_image_string"
+                }
+            },
+            "test_parse_dockerhub_image_string_parses_valid_strings": {
+                "line": 80,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 398,
+                    "line_end": 421,
+                    "indent": 0,
+                    "name": "parse_dockerhub_image_string"
+                }
+            },
+            "test_print_logs_to_stdout": {
+                "line": 104,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "_print_logs_to_stdout"
+                }
+            }
+        }
+    }
+}

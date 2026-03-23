@@ -1,0 +1,553 @@
+{
+    "tests/unit/ArgumentPackerTests.py": {
+        "focal_file": "contextshell/action.py",
+        "methods": {
+            "test_unpack_ordered": {
+                "line": 10,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "unpack_argument_tree"
+                }
+            },
+            "test_unpack_mixed_order": {
+                "line": 20,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "unpack_argument_tree"
+                }
+            },
+            "test_pack_ordered": {
+                "line": 76,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "pack_argument_tree"
+                }
+            }
+        }
+    },
+    "tests/unit/BuiltinExecutorTests.py": {
+        "focal_file": "contextshell/action.py",
+        "methods": {
+            "test_no_action": {
+                "line": 9,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": "BuiltinExecutor",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "register_builtin_action"
+                }
+            },
+            "test_no_actions": {
+                "line": 33,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": "BuiltinExecutor",
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "list_builtin_actions"
+                }
+            },
+            "test_single_action": {
+                "line": 40,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": "BuiltinExecutor",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "register_builtin_action"
+                }
+            },
+            "test_nonexistent_action": {
+                "line": 51,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "BuiltinExecutor",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "find_action"
+                }
+            },
+            "test_existing_action": {
+                "line": 59,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": "BuiltinExecutor",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "register_builtin_action"
+                }
+            }
+        }
+    },
+    "tests/unit/CommandInterpreterTests.py": {
+        "focal_file": "contextshell/command.py",
+        "methods": {
+            "test_executes_action": {
+                "line": 29,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "CommandInterpreter",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            }
+        }
+    },
+    "tests/unit/NodePathTests.py": {
+        "focal_file": "contextshell/path.py",
+        "methods": {
+            "test_is_parent_of": {
+                "line": 199,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "is_parent_of"
+                }
+            },
+            "test_longer_is_parent_of_shorter": {
+                "line": 205,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "is_parent_of"
+                }
+            },
+            "test_absolute_is_parent_of_absolute": {
+                "line": 229,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "is_parent_of"
+                }
+            },
+            "test_absolute_is_parent_of_relative": {
+                "line": 244,
+                "line_end": 249,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "is_parent_of"
+                }
+            },
+            "test_relative_to": {
+                "line": 253,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "relative_to"
+                }
+            },
+            "test_absolute_relative_to_relative": {
+                "line": 268,
+                "line_end": 273,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "relative_to"
+                }
+            },
+            "test_relative_relative_to_absolute": {
+                "line": 275,
+                "line_end": 280,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "relative_to"
+                }
+            }
+        }
+    },
+    "tests/unit/ShellTests.py": {
+        "focal_file": "contextshell/shell.py",
+        "methods": {
+            "test_format_none": {
+                "line": 66,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "format_result"
+                }
+            },
+            "test_format_empty_list": {
+                "line": 74,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "format_result"
+                }
+            },
+            "test_format_list": {
+                "line": 90,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "format_result"
+                }
+            }
+        }
+    },
+    "tests/unit/backends/NodeTests.py": {
+        "focal_file": "contextshell/backends/node.py",
+        "methods": {
+            "test_append_none": {
+                "line": 82,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "append"
+                }
+            },
+            "test_contains_existing": {
+                "line": 247,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            },
+            "test_contains_no_args": {
+                "line": 262,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            }
+        }
+    },
+    "tests/unit/backends/NodeTreeTests.py": {
+        "focal_file": "contextshell/backends/node.py",
+        "methods": {
+            "test_relative_path_throws": {
+                "line": 24,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "_create_path"
+                }
+            },
+            "test_create_multiple_elements": {
+                "line": 31,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "_create_path"
+                }
+            },
+            "test_create_already_existing": {
+                "line": 40,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "_create_path"
+                }
+            },
+            "test_resolve_optional_relative_path_throws": {
+                "line": 51,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 244,
+                    "indent": 4,
+                    "name": "_resolve_optional_path"
+                }
+            },
+            "test_resolve_optional_existing": {
+                "line": 58,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 244,
+                    "indent": 4,
+                    "name": "_resolve_optional_path"
+                }
+            },
+            "test_resolve_optional_nonexistent": {
+                "line": 67,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 244,
+                    "indent": 4,
+                    "name": "_resolve_optional_path"
+                }
+            },
+            "test_resolve_optional_partially_existing": {
+                "line": 75,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 244,
+                    "indent": 4,
+                    "name": "_resolve_optional_path"
+                }
+            },
+            "test_resolve_relative_path_throws": {
+                "line": 86,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "_resolve_path"
+                }
+            },
+            "test_resolve_existing": {
+                "line": 93,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "_resolve_path"
+                }
+            },
+            "test_resolve_nonexistent": {
+                "line": 102,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "_resolve_path"
+                }
+            },
+            "test_create_default": {
+                "line": 111,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "create"
+                }
+            },
+            "test_remove_existing": {
+                "line": 218,
+                "line_end": 225,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_remove_root": {
+                "line": 227,
+                "line_end": 231,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_default_actions": {
+                "line": 245,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "list_actions"
+                }
+            },
+            "test_node_specific_actions": {
+                "line": 252,
+                "line_end": 260,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "list_actions"
+                }
+            },
+            "test_find_nonexistent": {
+                "line": 273,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "find_first_in"
+                }
+            },
+            "test_find_nonexistent_action": {
+                "line": 305,
+                "line_end": 310,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "find_action"
+                }
+            },
+            "test_install_global_creates_entry": {
+                "line": 350,
+                "line_end": 357,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "install_global_type"
+                }
+            },
+            "test_install_creates_entry": {
+                "line": 359,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "install_type"
+                }
+            },
+            "test_find_type_nonexistent": {
+                "line": 368,
+                "line_end": 373,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "find_type"
+                }
+            },
+            "test_find_type_installed": {
+                "line": 375,
+                "line_end": 382,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "find_type"
+                }
+            }
+        }
+    }
+}

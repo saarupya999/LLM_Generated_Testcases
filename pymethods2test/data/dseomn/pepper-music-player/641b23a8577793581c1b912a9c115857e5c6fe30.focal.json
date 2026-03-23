@@ -1,0 +1,368 @@
+{
+    "pepper_music_player/sqlite3_db_test.py": {
+        "focal_file": "pepper_music_player/sqlite3_db.py",
+        "methods": {
+            "test_reuse_snapshot": {
+                "line": 87,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "snapshot"
+                }
+            },
+            "test_reuse_transaction": {
+                "line": 92,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "transaction"
+                }
+            },
+            "test_reverse_unordered_select": {
+                "line": 97,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "snapshot"
+                }
+            },
+            "test_builder": {
+                "line": 114,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": "pepper_music_player.sqlite3_db.QueryBuilder",
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "build"
+                }
+            }
+        }
+    },
+    "pepper_music_player/library/database_test.py": {
+        "focal_file": "pepper_music_player/library/database.py",
+        "methods": {
+            "test_insert_files_generic": {
+                "line": 38,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "insert_files"
+                }
+            },
+            "test_insert_files_duplicate": {
+                "line": 44,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "insert_files"
+                }
+            },
+            "test_insert_files_audio": {
+                "line": 54,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "insert_files"
+                }
+            },
+            "test_insert_files_same_album": {
+                "line": 114,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "album"
+                }
+            }
+        }
+    },
+    "pepper_music_player/metadata/tag_test.py": {
+        "focal_file": "pepper_music_player/metadata/tag.py",
+        "methods": {
+            "test_one": {
+                "line": 201,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": "pepper_music_player.metadata.tag.Tags",
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 263,
+                    "indent": 4,
+                    "name": "one"
+                }
+            },
+            "test_int_or_none": {
+                "line": 208,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": "pepper_music_player.metadata.tag.Tags",
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "int_or_none"
+                }
+            }
+        }
+    },
+    "pepper_music_player/player/player_test.py": {
+        "focal_file": "pepper_music_player/player/player.py",
+        "methods": {
+            "test_seek": {
+                "line": 278,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 456,
+                    "line_end": 468,
+                    "indent": 4,
+                    "name": "seek"
+                }
+            },
+            "test_previous_restarts_current_if_no_previous": {
+                "line": 333,
+                "line_end": 338,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 484,
+                    "line_end": 517,
+                    "indent": 4,
+                    "name": "previous"
+                }
+            },
+            "test_previous_goes_to_previous": {
+                "line": 340,
+                "line_end": 351,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 484,
+                    "line_end": 517,
+                    "indent": 4,
+                    "name": "previous"
+                }
+            },
+            "test_previous_noop_if_stopped_with_no_previous": {
+                "line": 353,
+                "line_end": 356,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 484,
+                    "line_end": 517,
+                    "indent": 4,
+                    "name": "previous"
+                }
+            },
+            "test_publishes_play_status_on_initial_pause": {
+                "line": 465,
+                "line_end": 481,
+                "indent": 4,
+                "focal_class": "pepper_music_player.player.player.PlayStatus",
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 438,
+                    "indent": 4,
+                    "name": "pause"
+                }
+            }
+        }
+    },
+    "pepper_music_player/player/playlist_test.py": {
+        "focal_file": "pepper_music_player/player/playlist.py",
+        "methods": {
+            "test_playable_units_entry_not_found": {
+                "line": 90,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "playable_units"
+                }
+            },
+            "test_playable_units_for_track": {
+                "line": 100,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "playable_units"
+                }
+            },
+            "test_playable_units_for_medium": {
+                "line": 108,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "playable_units"
+                }
+            },
+            "test_playable_units_for_album": {
+                "line": 120,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "playable_units"
+                }
+            },
+            "test_next_entry": {
+                "line": 140,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 246,
+                    "indent": 4,
+                    "name": "next_entry"
+                }
+            },
+            "test_next_entry_at_end": {
+                "line": 149,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 246,
+                    "indent": 4,
+                    "name": "next_entry"
+                }
+            },
+            "test_previous_entry_at_end": {
+                "line": 154,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "previous_entry"
+                }
+            },
+            "test_previous_entry": {
+                "line": 158,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "previous_entry"
+                }
+            },
+            "test_previous_entry_no_last_entry": {
+                "line": 163,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "previous_entry"
+                }
+            },
+            "test_previous_entry_at_beginning": {
+                "line": 167,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "previous_entry"
+                }
+            },
+            "test_sends_update_on_append": {
+                "line": 191,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": "pepper_music_player.player.playlist.Update",
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 314,
+                    "indent": 4,
+                    "name": "append"
+                }
+            }
+        }
+    },
+    "pepper_music_player/ui/screenshot_testlib_test.py": {
+        "focal_file": "pepper_music_player/ui/screenshot_testlib.py",
+        "methods": {
+            "test_register_widget": {
+                "line": 27,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "register_widget_screenshot"
+                }
+            },
+            "test_register_narrow_widget": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "register_narrow_widget_screenshot"
+                }
+            }
+        }
+    }
+}

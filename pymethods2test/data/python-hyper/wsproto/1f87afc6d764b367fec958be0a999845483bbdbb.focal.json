@@ -1,0 +1,262 @@
+{
+    "test/test_connection.py": {
+        "focal_file": "src/wsproto/connection.py",
+        "methods": {
+            "test_receive_data_when_closed": {
+                "line": 158,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": "Connection",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "receive_data"
+                }
+            }
+        }
+    },
+    "test/test_frame_protocol.py": {
+        "focal_file": "src/wsproto/frame_protocol.py",
+        "methods": {
+            "test_consume_at_most_zero_bytes": {
+                "line": 13,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 263,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "consume_at_most"
+                }
+            },
+            "test_consume_at_most_with_no_data": {
+                "line": 17,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 263,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "consume_at_most"
+                }
+            },
+            "test_feed": {
+                "line": 45,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 260,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "feed"
+                }
+            },
+            "test_rollback": {
+                "line": 53,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "rollback"
+                }
+            },
+            "test_commit": {
+                "line": 62,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "commit"
+                }
+            },
+            "test_simplest_possible_close": {
+                "line": 1007,
+                "line_end": 1010,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 583,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_unreasoning_close": {
+                "line": 1012,
+                "line_end": 1015,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 583,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_reasoned_close": {
+                "line": 1017,
+                "line_end": 1024,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 583,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_overly_reasoned_close": {
+                "line": 1026,
+                "line_end": 1032,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 583,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_reasoned_but_uncoded_close": {
+                "line": 1034,
+                "line_end": 1037,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 583,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "test/test_handshake.py": {
+        "focal_file": "src/wsproto/handshake.py",
+        "methods": {
+            "test_initiate_upgrade_as_client": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": "H11Handshake",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "initiate_upgrade_connection"
+                }
+            }
+        }
+    },
+    "test/test_permessage_deflate.py": {
+        "focal_file": "src/wsproto/extensions.py",
+        "methods": {
+            "test_offer": {
+                "line": 99,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "offer"
+                }
+            },
+            "test_finalize": {
+                "line": 107,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "finalize"
+                }
+            },
+            "test_accept": {
+                "line": 142,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "accept"
+                }
+            },
+            "test_inbound_uncompressed_control_frame": {
+                "line": 177,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "frame_inbound_complete"
+                }
+            },
+            "test_inbound_uncompressed_data_frame": {
+                "line": 219,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "frame_inbound_complete"
+                }
+            },
+            "test_client_inbound_compressed_single_data_frame": {
+                "line": 238,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "frame_inbound_complete"
+                }
+            },
+            "test_client_inbound_compressed_multiple_data_frames": {
+                "line": 262,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "frame_inbound_complete"
+                }
+            },
+            "test_inbound_bad_zlib_payload": {
+                "line": 332,
+                "line_end": 348,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "frame_inbound_payload_data"
+                }
+            }
+        }
+    }
+}

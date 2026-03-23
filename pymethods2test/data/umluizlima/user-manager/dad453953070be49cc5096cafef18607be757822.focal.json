@@ -1,0 +1,317 @@
+{
+    "tests/integration/routers/test_authentication_router_integration.py": {
+        "focal_file": "tests/integration/routers/test_authentication_router_integration.py",
+        "methods": {
+            "test_send_access_code_should_return_status_201": {
+                "line": 28,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "send_access_code_request"
+                }
+            },
+            "test_send_access_code_should_return_status_404_if_user_is_not_found": {
+                "line": 34,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "send_access_code_request"
+                }
+            },
+            "test_send_access_code_should_create_user": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "send_access_code_request"
+                }
+            },
+            "test_send_access_code_should_send_code_if_user_exists": {
+                "line": 44,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "send_access_code_request"
+                }
+            },
+            "test_create_user_session_should_return_status_201": {
+                "line": 62,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "create_user_session_request"
+                }
+            },
+            "test_create_user_session_should_set_refresh_token_cookie": {
+                "line": 73,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "create_user_session_request"
+                }
+            },
+            "test_create_user_session_should_return_access_token": {
+                "line": 84,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "create_user_session_request"
+                }
+            },
+            "test_create_user_session_should_return_status_404_if_user_not_found": {
+                "line": 95,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "create_user_session_request"
+                }
+            },
+            "test_create_user_session_should_return_status_401_if_code_is_invalid": {
+                "line": 100,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "create_user_session_request"
+                }
+            },
+            "test_get_fresh_token_should_return_status_200": {
+                "line": 123,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_fresh_token_request"
+                }
+            },
+            "test_get_fresh_token_should_return_access_token": {
+                "line": 128,
+                "line_end": 130,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_fresh_token_request"
+                }
+            },
+            "test_get_fresh_token_should_return_unique_token": {
+                "line": 133,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_fresh_token_request"
+                }
+            },
+            "test_get_fresh_token_should_return_401_if_token_is_invalid": {
+                "line": 166,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_fresh_token_request"
+                }
+            },
+            "test_get_fresh_token_should_return_401_if_token_is_missing": {
+                "line": 171,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_fresh_token_request"
+                }
+            },
+            "test_revoke_user_session_should_return_status_204": {
+                "line": 185,
+                "line_end": 187,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "revoke_user_session_request"
+                }
+            },
+            "test_revoke_user_session_should_delete_refresh_token_cookie": {
+                "line": 190,
+                "line_end": 192,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "revoke_user_session_request"
+                }
+            },
+            "test_revoke_user_session_should_revoke_single_session": {
+                "line": 195,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "revoke_user_session_request"
+                }
+            },
+            "test_revoke_user_session_should_revoke_all_sessions": {
+                "line": 211,
+                "line_end": 224,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "revoke_user_session_request"
+                }
+            },
+            "test_revoke_user_session_should_return_status_401_if_session_is_invalid": {
+                "line": 227,
+                "line_end": 236,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "revoke_user_session_request"
+                }
+            },
+            "test_revoke_user_session_should_return_401_if_token_is_invalid": {
+                "line": 239,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "revoke_user_session_request"
+                }
+            },
+            "test_revoke_user_session_should_return_401_if_token_is_missing": {
+                "line": 244,
+                "line_end": 246,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "revoke_user_session_request"
+                }
+            }
+        }
+    },
+    "tests/integration/routers/test_user_roles_router_integration.py": {
+        "focal_file": "tests/integration/routers/test_user_roles_router_integration.py",
+        "methods": {
+            "test_update_user_roles_should_return_401_for_invalid_jwt": {
+                "line": 63,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "update_user_roles_request"
+                }
+            },
+            "test_update_user_roles_should_return_404_if_user_does_not_exist": {
+                "line": 77,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "update_user_roles_request"
+                }
+            }
+        }
+    },
+    "tests/integration/routers/test_users_router_integration.py": {
+        "focal_file": "tests/integration/routers/test_users_router_integration.py",
+        "methods": {
+            "test_update_user_should_not_have_required_fields": {
+                "line": 240,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 216,
+                    "indent": 0,
+                    "name": "update_user_request"
+                }
+            },
+            "test_update_user_should_ignore_unknown_fields": {
+                "line": 258,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 216,
+                    "indent": 0,
+                    "name": "update_user_request"
+                }
+            }
+        }
+    }
+}

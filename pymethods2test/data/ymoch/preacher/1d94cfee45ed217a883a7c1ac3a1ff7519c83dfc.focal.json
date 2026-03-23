@@ -1,0 +1,849 @@
+{
+    "tests/plugin/test_loader.py": {
+        "focal_file": "preacher/plugin/loader.py",
+        "methods": {
+            "test_load_plugins_empty": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "load_plugins"
+                }
+            },
+            "test_load_plugins_normal": {
+                "line": 22,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "load_plugins"
+                }
+            },
+            "test_load_plugins_not_a_module": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "load_plugins"
+                }
+            },
+            "test_load_plugins_invalid_module": {
+                "line": 55,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "load_plugins"
+                }
+            }
+        }
+    },
+    "tests/compilation/test_datetime_compilation.py": {
+        "focal_file": "preacher/compilation/datetime.py",
+        "methods": {
+            "test_compile_datetime_format_given_invalid": {
+                "line": 13,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "compile_datetime_format"
+                }
+            },
+            "test_compile_datetime_format_iso8601": {
+                "line": 19,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "compile_datetime_format"
+                }
+            },
+            "test_compile_datetime_format_strftime": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "compile_datetime_format"
+                }
+            }
+        }
+    },
+    "tests/compilation/scenario/test_scenario_compiler.py": {
+        "focal_file": "preacher/compilation/scenario/scenario.py",
+        "methods": {
+            "test_compile_flattening": {
+                "line": 264,
+                "line_end": 285,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "compile_flattening"
+                }
+            }
+        }
+    },
+    "tests/compilation/scenario/test_case_compiler.py": {
+        "focal_file": "preacher/compilation/scenario/case.py",
+        "methods": {
+            "test_compile_fixed": {
+                "line": 167,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "compile_fixed"
+                }
+            },
+            "test_compile_default": {
+                "line": 179,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "compile_default"
+                }
+            }
+        }
+    },
+    "tests/compilation/yaml/test_integration.py": {
+        "focal_file": "preacher/compilation/yaml/integration.py",
+        "methods": {
+            "test_load_objs_empty": {
+                "line": 20,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "load_from_paths"
+                }
+            }
+        }
+    },
+    "tests/compilation/extraction/test_extraction_compiler.py": {
+        "focal_file": "preacher/compilation/extraction/extraction.py",
+        "methods": {
+            "test_add_default_extractions": {
+                "line": 113,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": "ExtractionCompiler",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "add_default_extractions"
+                }
+            },
+            "test_add_default_jq_extractions": {
+                "line": 135,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "ExtractionCompiler",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "add_default_extractions"
+                }
+            }
+        }
+    },
+    "tests/compilation/request/test_request_body_compiled_urlencoded.py": {
+        "focal_file": "preacher/compilation/request/request_body.py",
+        "methods": {
+            "test_compile_and_replace_empty": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": "UrlencodedRequestBodyCompiled",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "compile_and_replace"
+                }
+            },
+            "test_compile_and_replace_given_invalid_data": {
+                "line": 39,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": "UrlencodedRequestBodyCompiled",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "compile_and_replace"
+                }
+            },
+            "test_compile_and_replace_given_valid_data": {
+                "line": 51,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": "UrlencodedRequestBodyCompiled",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "compile_and_replace"
+                }
+            }
+        }
+    },
+    "tests/compilation/request/test_request_body_compiler.py": {
+        "focal_file": "preacher/compilation/request/request_body.py",
+        "methods": {
+            "test_compile_empty": {
+                "line": 41,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "compile"
+                }
+            },
+            "test_of_default": {
+                "line": 66,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "of_default"
+                }
+            }
+        }
+    },
+    "tests/compilation/request/test_url_params_compile.py": {
+        "focal_file": "preacher/compilation/request/url_param.py",
+        "methods": {
+            "test_given_valid_params": {
+                "line": 50,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "compile_url_params"
+                }
+            }
+        }
+    },
+    "tests/compilation/request/test_request_compiler.py": {
+        "focal_file": "preacher/compilation/request/request_body.py",
+        "methods": {
+            "test_of_default_no_body": {
+                "line": 144,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "of_default"
+                }
+            },
+            "test_of_default_body": {
+                "line": 170,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "of_default"
+                }
+            }
+        }
+    },
+    "tests/compilation/util/test_functional.py": {
+        "focal_file": "preacher/compilation/util/functional.py",
+        "methods": {
+            "test_map_compile_for_empty_list": {
+                "line": 13,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "map_compile"
+                }
+            },
+            "test_run_recursively_with_invalid_obj": {
+                "line": 46,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "run_recursively"
+                }
+            },
+            "test_run_recursively_with_valid_obj": {
+                "line": 66,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "run_recursively"
+                }
+            },
+            "test_compile_flattening_error": {
+                "line": 70,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "compile_flattening"
+                }
+            },
+            "test_compile_flattening": {
+                "line": 98,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "compile_flattening"
+                }
+            }
+        }
+    },
+    "tests/app/cli/test_logging.py": {
+        "focal_file": "preacher/app/cli/logging.py",
+        "methods": {
+            "test_create_system_logger": {
+                "line": 44,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "create_system_logger"
+                }
+            }
+        }
+    },
+    "tests/presentation/test_html_reporter.py": {
+        "focal_file": "preacher/presentation/html.py",
+        "methods": {
+            "test_export_execution": {
+                "line": 43,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": "HtmlReporter",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "export_response"
+                }
+            },
+            "test_export_results": {
+                "line": 69,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": "HtmlReporter",
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "export_results"
+                }
+            }
+        }
+    },
+    "tests/presentation/test_logging_reporter.py": {
+        "focal_file": "preacher/presentation/logging.py",
+        "methods": {
+            "test_show_scenarios": {
+                "line": 30,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "show_scenario_result"
+                }
+            },
+            "test_show_status": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "show_status"
+                }
+            },
+            "test_create_logging_reporter_given_a_logger": {
+                "line": 39,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 159,
+                    "indent": 0,
+                    "name": "create_logging_reporter"
+                }
+            },
+            "test_create_logging_reporter_given_logger_elements": {
+                "line": 57,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 159,
+                    "indent": 0,
+                    "name": "create_logging_reporter"
+                }
+            },
+            "test_create_logging_reporter_given_no_handlers": {
+                "line": 74,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 159,
+                    "indent": 0,
+                    "name": "create_logging_reporter"
+                }
+            },
+            "test_create_logging_reporter_given_no_parameters": {
+                "line": 94,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 159,
+                    "indent": 0,
+                    "name": "create_logging_reporter"
+                }
+            }
+        }
+    },
+    "tests/core/test_status.py": {
+        "focal_file": "preacher/core/status.py",
+        "methods": {
+            "test_merge": {
+                "line": 43,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            },
+            "test_merge_statuses": {
+                "line": 51,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "merge_statuses"
+                }
+            }
+        }
+    },
+    "tests/core/test_datetime.py": {
+        "focal_file": "preacher/core/datetime.py",
+        "methods": {
+            "test_iso8601_format_datetime": {
+                "line": 43,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "format_datetime"
+                }
+            },
+            "test_iso8601_parse_datetime": {
+                "line": 82,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "parse_datetime"
+                }
+            },
+            "test_strftime_format_datetime": {
+                "line": 97,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": "StrftimeFormat",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "format_datetime"
+                }
+            },
+            "test_strftime_parse_datetime": {
+                "line": 112,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": "StrftimeFormat",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "parse_datetime"
+                }
+            },
+            "test_parse_time": {
+                "line": 155,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "parse_time"
+                }
+            },
+            "test_parse_timedelta_given_an_invalid_value": {
+                "line": 161,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "parse_timedelta"
+                }
+            },
+            "test_parse_timedelta": {
+                "line": 194,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "parse_timedelta"
+                }
+            }
+        }
+    },
+    "tests/core/scheduling/test_merging_listener.py": {
+        "focal_file": "preacher/core/scheduling/listener.py",
+        "methods": {
+            "test_on_scenario": {
+                "line": 27,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "on_scenario"
+                }
+            },
+            "test_on_end": {
+                "line": 33,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "on_end"
+                }
+            }
+        }
+    },
+    "tests/core/extraction/test_analyze_data_obj.py": {
+        "focal_file": "preacher/core/extraction/analysis.py",
+        "methods": {
+            "test_analyze_data_obj_for_text": {
+                "line": 18,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "for_text"
+                }
+            },
+            "test_analyze_data_obj_for_mapping": {
+                "line": 29,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "for_mapping"
+                }
+            },
+            "test_analyze_data_obj_for_etree": {
+                "line": 40,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "for_etree"
+                }
+            }
+        }
+    },
+    "tests/core/extraction/test_analyzer_response_body_json.py": {
+        "focal_file": "preacher/core/extraction/analysis.py",
+        "methods": {
+            "test_for_text": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": "ResponseBodyAnalyzer",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "for_text"
+                }
+            },
+            "test_for_etree": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": "ResponseBodyAnalyzer",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "for_etree"
+                }
+            }
+        }
+    },
+    "tests/core/extraction/test_analyzer_response_body_xml.py": {
+        "focal_file": "preacher/core/extraction/analysis.py",
+        "methods": {
+            "test_for_etree": {
+                "line": 26,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": "ResponseBodyAnalyzer",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "for_etree"
+                }
+            },
+            "test_for_text": {
+                "line": 34,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": "ResponseBodyAnalyzer",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "for_text"
+                }
+            },
+            "test_for_mapping": {
+                "line": 41,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "ResponseBodyAnalyzer",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "for_mapping"
+                }
+            }
+        }
+    },
+    "tests/core/extraction/impl/test_extractor_xpath.py": {
+        "focal_file": "preacher/core/extraction/impl/xpath.py",
+        "methods": {
+            "test_extract_default": {
+                "line": 59,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": "XPathExtractor",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "extract"
+                }
+            },
+            "test_extract": {
+                "line": 83,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": "XPathExtractor",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "extract"
+                }
+            }
+        }
+    },
+    "tests/core/unit/test_unit_runner.py": {
+        "focal_file": "preacher/core/unit/runner.py",
+        "methods": {
+            "test_predicate": {
+                "line": 40,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "predicate"
+                }
+            }
+        }
+    },
+    "tests/core/verification/test_hamcrest.py": {
+        "focal_file": "preacher/core/verification/hamcrest.py",
+        "methods": {
+            "test_datetime_matcher": {
+                "line": 51,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "describe_mismatch"
+                }
+            },
+            "test_day_of_week": {
+                "line": 83,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "day_of_week"
+                }
+            },
+            "test_day_of_week_matching": {
+                "line": 136,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "day_of_week"
+                }
+            },
+            "test_day_of_week_description": {
+                "line": 152,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "day_of_week"
+                }
+            }
+        }
+    }
+}

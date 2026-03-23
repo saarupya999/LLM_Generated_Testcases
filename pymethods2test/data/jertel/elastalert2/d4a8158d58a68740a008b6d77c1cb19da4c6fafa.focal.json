@@ -1,0 +1,440 @@
+{
+    "tests/create_index_test.py": {
+        "focal_file": "elastalert/create_index.py",
+        "methods": {
+            "test_read_default_index_mapping": {
+                "line": 18,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "read_es_index_mapping"
+                }
+            },
+            "test_read_es_5_index_mapping": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "read_es_index_mapping"
+                }
+            },
+            "test_read_es_6_index_mapping": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "read_es_index_mapping"
+                }
+            },
+            "test_read_default_index_mappings": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "read_es_index_mappings"
+                }
+            },
+            "test_read_es_5_index_mappings": {
+                "line": 44,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "read_es_index_mappings"
+                }
+            },
+            "test_read_es_6_index_mappings": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "read_es_index_mappings"
+                }
+            }
+        }
+    },
+    "tests/elasticsearch_test.py": {
+        "focal_file": "elastalert/elastalert.py",
+        "methods": {
+            "test_aggregated_alert": {
+                "line": 54,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1832,
+                    "line_end": 1910,
+                    "indent": 4,
+                    "name": "add_aggregated_alert"
+                }
+            },
+            "test_silenced": {
+                "line": 74,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1951,
+                    "line_end": 1993,
+                    "indent": 4,
+                    "name": "is_silenced"
+                }
+            },
+            "test_get_hits": {
+                "line": 91,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 352,
+                    "line_end": 437,
+                    "indent": 4,
+                    "name": "get_hits"
+                }
+            }
+        }
+    },
+    "tests/kibana_discover_test.py": {
+        "focal_file": "elastalert/kibana_discover.py",
+        "methods": {
+            "test_generate_kibana_discover_url_with_kibana_5x_and_6x": {
+                "line": 9,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_kibana_7x": {
+                "line": 57,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_missing_kibana_discover_version": {
+                "line": 89,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_missing_kibana_discover_app_url": {
+                "line": 104,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_missing_kibana_discover_index_pattern_id": {
+                "line": 119,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_invalid_kibana_version": {
+                "line": 134,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_kibana_discover_app_url_env_substitution": {
+                "line": 149,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_from_timedelta": {
+                "line": 185,
+                "line_end": 215,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_from_timedelta_and_timeframe": {
+                "line": 218,
+                "line_end": 249,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_to_timedelta": {
+                "line": 252,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_to_timedelta_and_timeframe": {
+                "line": 285,
+                "line_end": 316,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_timeframe": {
+                "line": 319,
+                "line_end": 349,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_custom_columns": {
+                "line": 352,
+                "line_end": 382,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_single_filter": {
+                "line": 385,
+                "line_end": 433,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_multiple_filters": {
+                "line": 436,
+                "line_end": 487,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_int_query_key": {
+                "line": 490,
+                "line_end": 547,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_str_query_key": {
+                "line": 550,
+                "line_end": 609,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_null_query_key_value": {
+                "line": 612,
+                "line_end": 659,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_missing_query_key_value": {
+                "line": 662,
+                "line_end": 708,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_compound_query_key": {
+                "line": 711,
+                "line_end": 796,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            },
+            "test_generate_kibana_discover_url_with_filter_and_query_key": {
+                "line": 799,
+                "line_end": 873,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "generate_kibana_discover_url"
+                }
+            }
+        }
+    },
+    "tests/alerters/ses_test.py": {
+        "focal_file": "elastalert/alerters/ses.py",
+        "methods": {
+            "test_ses_getinfo": {
+                "line": 9,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": "SesAlerter",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "get_info"
+                }
+            },
+            "test_ses_create_default_title": {
+                "line": 71,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": "SesAlerter",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "create_default_title"
+                }
+            }
+        }
+    },
+    "tests/alerters/sns_test.py": {
+        "focal_file": "elastalert/alerters/sns.py",
+        "methods": {
+            "test_sns_getinfo": {
+                "line": 8,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": "SnsAlerter",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_info"
+                }
+            }
+        }
+    },
+    "tests/alerters/stomp_test.py": {
+        "focal_file": "elastalert/alerters/stomp.py",
+        "methods": {
+            "test_stomp_getinfo": {
+                "line": 8,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": "StompAlerter",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_info"
+                }
+            }
+        }
+    }
+}

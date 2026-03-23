@@ -1,0 +1,216 @@
+{
+    "tests/emr_tests.py": {
+        "focal_file": "app/emr_autoscaling/emr.py",
+        "methods": {
+            "test_upscaling_in_progress": {
+                "line": 184,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": "Emr",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "scaling_in_progress"
+                }
+            },
+            "test_downscaling_in_progress": {
+                "line": 199,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": "Emr",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "scaling_in_progress"
+                }
+            },
+            "test_no_scaling_in_progress": {
+                "line": 209,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": "Emr",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "scaling_in_progress"
+                }
+            },
+            "test_is_termination_protected_True": {
+                "line": 386,
+                "line_end": 393,
+                "indent": 4,
+                "focal_class": "Emr",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "is_termination_protected"
+                }
+            },
+            "test_is_termination_protected_False": {
+                "line": 396,
+                "line_end": 403,
+                "indent": 4,
+                "focal_class": "Emr",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "is_termination_protected"
+                }
+            }
+        }
+    },
+    "tests/scaler_tests.py": {
+        "focal_file": "app/emr_autoscaling/scaler.py",
+        "methods": {
+            "test_before_7_am_is_not_in_office_hours": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_at_7_am_is_in_office_hours": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_at_3_pm_is_in_office_hours": {
+                "line": 36,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_after_6_pm_is_not_in_office_hours": {
+                "line": 47,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_at_6_pm_is_in_office_hours": {
+                "line": 61,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_at_10_pm_is_in_office_hours": {
+                "line": 64,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_at_1_pm_is_in_office_hours": {
+                "line": 75,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_at_7_pm_is_in_office_hours": {
+                "line": 78,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_sunday_is_not_in_office_hours": {
+                "line": 89,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_in_office_hours"
+                }
+            },
+            "test_maybe_scale_up": {
+                "line": 138,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "maybe_scale"
+                }
+            },
+            "test_is_before_shutdown_time": {
+                "line": 175,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "is_after_shutdown_time"
+                }
+            },
+            "test_is_after_shutdown_time": {
+                "line": 180,
+                "line_end": 186,
+                "indent": 4,
+                "focal_class": "EmrScaler",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "is_after_shutdown_time"
+                }
+            }
+        }
+    }
+}

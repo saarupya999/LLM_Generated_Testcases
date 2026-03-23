@@ -1,0 +1,407 @@
+{
+    "tests/test_session.py": {
+        "focal_file": "rawdisk/session.py",
+        "methods": {
+            "test_load_fileystem_plugins": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "load_plugins"
+                }
+            }
+        }
+    },
+    "tests/filesystems/test_detector.py": {
+        "focal_file": "rawdisk/filesystems/detector.py",
+        "methods": {
+            "test_multiple_mbr_plugins_for_same_id": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "FilesystemDetector",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "get_mbr_plugins"
+                }
+            },
+            "test_multiple_gpt_plugins_for_same_id": {
+                "line": 23,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "FilesystemDetector",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_gpt_plugins"
+                }
+            },
+            "test_detect_mbr_calls_detect_on_mbr_plugin": {
+                "line": 59,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "FilesystemDetector",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "register_mbr_plugin"
+                }
+            },
+            "test_detect_gpt_calls_detect_on_gpt_plugin": {
+                "line": 88,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "FilesystemDetector",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "register_gpt_plugin"
+                }
+            },
+            "test_detect_standalone_calls_plugin_detect_with_standalone_arg": {
+                "line": 118,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "FilesystemDetector",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "detect_standalone"
+                }
+            }
+        }
+    },
+    "tests/scheme/test_common.py": {
+        "focal_file": "rawdisk/scheme/common.py",
+        "methods": {
+            "test_detect_mbr_scheme": {
+                "line": 6,
+                "line_end": 8,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "detect_scheme"
+                }
+            },
+            "test_detect_gpt_scheme": {
+                "line": 10,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "detect_scheme"
+                }
+            },
+            "test_detect_unknown_scheme": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "detect_scheme"
+                }
+            }
+        }
+    },
+    "tests/scheme/test_gpt.py": {
+        "focal_file": "rawdisk/scheme/gpt.py",
+        "methods": {
+            "test_load": {
+                "line": 12,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    },
+    "tests/util/test_filetimes.py": {
+        "focal_file": "rawdisk/util/filetimes.py",
+        "methods": {
+            "test_dt_to_filetime": {
+                "line": 10,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "dt_to_filetime"
+                }
+            },
+            "test_filetime_to_dt": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "filetime_to_dt"
+                }
+            }
+        }
+    },
+    "tests/util/test_filesize.py": {
+        "focal_file": "rawdisk/util/filesize.py",
+        "methods": {
+            "test_size_str": {
+                "line": 9,
+                "line_end": 10,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "size_str"
+                }
+            },
+            "test_size_str_w_format": {
+                "line": 12,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "size_str"
+                }
+            }
+        }
+    },
+    "tests/util/test_rawstruct.py": {
+        "focal_file": "rawdisk/util/rawstruct.py",
+        "methods": {
+            "test_get_field": {
+                "line": 58,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "get_field"
+                }
+            },
+            "test_get_ushort_le": {
+                "line": 72,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "get_ushort_le"
+                }
+            },
+            "test_get_ushort_be": {
+                "line": 78,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "get_ushort_be"
+                }
+            },
+            "test_get_uint_le": {
+                "line": 84,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "get_uint_le"
+                }
+            },
+            "test_get_uint_be": {
+                "line": 90,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "get_uint_be"
+                }
+            },
+            "test_get_int_le": {
+                "line": 96,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "get_int_le"
+                }
+            },
+            "test_get_ulong_le": {
+                "line": 102,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "get_ulong_le"
+                }
+            },
+            "test_get_ulong_be": {
+                "line": 108,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "get_ulong_be"
+                }
+            },
+            "test_get_ulonglong_le": {
+                "line": 114,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "get_ulonglong_le"
+                }
+            },
+            "test_get_ulonglong_be": {
+                "line": 120,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "get_ulonglong_be"
+                }
+            },
+            "test_get_uuid_le": {
+                "line": 126,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": "RawStruct",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "get_uuid_le"
+                }
+            },
+            "test_get_uuid_be": {
+                "line": 132,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "RawStruct",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "get_uuid_be"
+                }
+            },
+            "test_export": {
+                "line": 138,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "export"
+                }
+            },
+            "test_hexdump": {
+                "line": 163,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 239,
+                    "indent": 4,
+                    "name": "hexdump"
+                }
+            }
+        }
+    },
+    "rawdisk/plugins/filesystems/ntfs/tests/test_ntfs_plugin.py": {
+        "focal_file": "rawdisk/plugins/filesystems/ntfs/ntfs_volume.py",
+        "methods": {
+            "test_load": {
+                "line": 85,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "NtfsVolume",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    },
+    "rawdisk/plugins/filesystems/ext2/tests/test_ext2_plugin.py": {
+        "focal_file": "rawdisk/plugins/filesystems/ext2/ext2.py",
+        "methods": {
+            "test_detect": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "detect"
+                }
+            }
+        }
+    }
+}

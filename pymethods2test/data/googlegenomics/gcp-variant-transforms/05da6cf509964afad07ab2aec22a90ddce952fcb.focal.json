@@ -1,0 +1,1447 @@
+{
+    "gcp_variant_transforms/bq_to_vcf_test.py": {
+        "focal_file": "gcp_variant_transforms/bq_to_vcf.py",
+        "methods": {
+            "test_get_variant_query_no_region": {
+                "line": 65,
+                "line_end": 77,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 293,
+                    "indent": 0,
+                    "name": "_get_variant_query"
+                }
+            },
+            "test_get_query_columns": {
+                "line": 105,
+                "line_end": 118,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 329,
+                    "indent": 0,
+                    "name": "_get_query_columns"
+                }
+            },
+            "test_get_annotation_names": {
+                "line": 120,
+                "line_end": 130,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 314,
+                    "indent": 0,
+                    "name": "_extract_annotation_names"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/vcf_to_bq_test.py": {
+        "focal_file": "gcp_variant_transforms/vcf_to_bq.py",
+        "methods": {
+            "test_no_merge_strategy": {
+                "line": 33,
+                "line_end": 39,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "_get_variant_merge_strategy"
+                }
+            },
+            "test_invalid_merge_strategy_raises_error": {
+                "line": 41,
+                "line_end": 48,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "_get_variant_merge_strategy"
+                }
+            },
+            "test_valid_merge_strategy": {
+                "line": 50,
+                "line_end": 57,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "_get_variant_merge_strategy"
+                }
+            },
+            "test_valid_annotation_flags": {
+                "line": 71,
+                "line_end": 77,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 380,
+                    "line_end": 394,
+                    "indent": 0,
+                    "name": "_validate_annotation_pipeline_args"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/pipeline_common_test.py": {
+        "focal_file": "gcp_variant_transforms/pipeline_common.py",
+        "methods": {
+            "test_get_compression_type": {
+                "line": 106,
+                "line_end": 131,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "get_compression_type"
+                }
+            },
+            "test_get_splittable_bgzf": {
+                "line": 133,
+                "line_end": 157,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 146,
+                    "indent": 0,
+                    "name": "_get_splittable_bgzf"
+                }
+            },
+            "test_read_variants": {
+                "line": 229,
+                "line_end": 237,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "read_variants"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/beam_io/bgzf_io_test.py": {
+        "focal_file": "gcp_variant_transforms/beam_io/bgzf_io.py",
+        "methods": {
+            "test_get_block_offsets": {
+                "line": 31,
+                "line_end": 34,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "_get_block_offsets"
+                }
+            },
+            "test_remove_invalid_blocks": {
+                "line": 36,
+                "line_end": 41,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "_remove_invalid_blocks"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/beam_io/vcfio_test.py": {
+        "focal_file": "gcp_variant_transforms/beam_io/vcfio.py",
+        "methods": {
+            "test_allow_malformed_records": {
+                "line": 451,
+                "line_end": 458,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 306,
+                    "indent": 2,
+                    "name": "_read_records"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/beam_io/vcf_header_io_test.py": {
+        "focal_file": "gcp_variant_transforms/beam_io/vcf_header_io.py",
+        "methods": {
+            "test_to_vcf_header_line": {
+                "line": 252,
+                "line_end": 264,
+                "indent": 2,
+                "focal_class": "WriteVcfHeaderFn",
+                "focal_method": {
+                    "line": 495,
+                    "line_end": 508,
+                    "indent": 2,
+                    "name": "_to_vcf_header_line"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/vcf_header_parser_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/vcf_header_parser.py",
+        "methods": {
+            "test_get_metadata_header_lines": {
+                "line": 85,
+                "line_end": 97,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "get_metadata_header_lines"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/metrics_util_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/metrics_util.py",
+        "methods": {
+            "test_create_counter": {
+                "line": 28,
+                "line_end": 30,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.metrics_util.CounterFactory",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 84,
+                    "indent": 2,
+                    "name": "create_counter"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/partitioning_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/partitioning.py",
+        "methods": {
+            "test_calculate_optimal_range_interval": {
+                "line": 21,
+                "line_end": 39,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 328,
+                    "indent": 0,
+                    "name": "calculate_optimal_range_interval"
+                }
+            },
+            "test_calculate_optimal_range_interval_large": {
+                "line": 42,
+                "line_end": 55,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 328,
+                    "indent": 0,
+                    "name": "calculate_optimal_range_interval"
+                }
+            },
+            "test_get_flatten_column_names": {
+                "line": 81,
+                "line_end": 111,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 162,
+                    "indent": 2,
+                    "name": "_get_flatten_column_names"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/hashing_util_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/hashing_util.py",
+        "methods": {
+            "test_generate_unsigned_hash_code": {
+                "line": 22,
+                "line_end": 38,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "_generate_unsigned_hash_code"
+                }
+            },
+            "test_create_composite_sample_name": {
+                "line": 61,
+                "line_end": 77,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "create_composite_sample_name"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/infer_headers_util_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/infer_headers_util.py",
+        "methods": {
+            "test_infer_mismatched_info_field_no_mismatches": {
+                "line": 113,
+                "line_end": 125,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "_infer_mismatched_info_field"
+                }
+            },
+            "test_infer_mismatched_info_field_correct_num": {
+                "line": 127,
+                "line_end": 140,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "_infer_mismatched_info_field"
+                }
+            },
+            "test_infer_mismatched_info_field_correct_type": {
+                "line": 142,
+                "line_end": 156,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "_infer_mismatched_info_field"
+                }
+            },
+            "test_infer_mismatched_info_field_correct_type_list": {
+                "line": 158,
+                "line_end": 172,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "_infer_mismatched_info_field"
+                }
+            },
+            "test_infer_mismatched_format_field": {
+                "line": 199,
+                "line_end": 205,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 323,
+                    "indent": 0,
+                    "name": "_infer_mismatched_format_field"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/vcf_field_conflict_resolver_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/vcf_field_conflict_resolver.py",
+        "methods": {
+            "test_resolving_attribute_conflict_type": {
+                "line": 164,
+                "line_end": 176,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 114,
+                    "indent": 2,
+                    "name": "resolve_attribute_conflict"
+                }
+            },
+            "test_resolving_attribute_conflict_number": {
+                "line": 178,
+                "line_end": 194,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 114,
+                    "indent": 2,
+                    "name": "resolve_attribute_conflict"
+                }
+            },
+            "test_resolving_attribute_conflict_in_number_allele": {
+                "line": 196,
+                "line_end": 213,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 114,
+                    "indent": 2,
+                    "name": "resolve_attribute_conflict"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/bigquery_sanitizer_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/bigquery_sanitizer.py",
+        "methods": {
+            "test_decode_utf8_string": {
+                "line": 27,
+                "line_end": 31,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 197,
+                    "indent": 0,
+                    "name": "_decode_utf8_string"
+                }
+            },
+            "test_get_sanitized_field_name": {
+                "line": 33,
+                "line_end": 39,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 63,
+                    "indent": 2,
+                    "name": "get_sanitized_field_name"
+                }
+            },
+            "test_get_sanitized_field": {
+                "line": 41,
+                "line_end": 55,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.bigquery_sanitizer.FieldSanitizer",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 117,
+                    "indent": 2,
+                    "name": "get_sanitized_field"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/processed_variant_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/processed_variant.py",
+        "methods": {
+            "test_create_processed_variant_no_change": {
+                "line": 72,
+                "line_end": 96,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_move_alt_info": {
+                "line": 98,
+                "line_end": 110,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_move_alt_info_extra_values": {
+                "line": 112,
+                "line_end": 136,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_move_alt_info_insufficient_values": {
+                "line": 138,
+                "line_end": 161,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_move_alt_info_and_annotation": {
+                "line": 188,
+                "line_end": 222,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_mismatched_annotation_alt": {
+                "line": 224,
+                "line_end": 263,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_symbolic_and_breakend_annotation_alt": {
+                "line": 265,
+                "line_end": 309,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_annotation_alt_prefix": {
+                "line": 311,
+                "line_end": 353,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_annotation_alt_long_prefix": {
+                "line": 355,
+                "line_end": 397,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_annotation_alt_prefix_but_ref": {
+                "line": 399,
+                "line_end": 435,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_annotation_alt_minimal": {
+                "line": 437,
+                "line_end": 479,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_processed_variant_annotation_alt_allele_num": {
+                "line": 481,
+                "line_end": 533,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.AlternateBaseData",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 270,
+                    "indent": 2,
+                    "name": "create_processed_variant"
+                }
+            },
+            "test_create_alt_bases_field_schema_descriptions": {
+                "line": 535,
+                "line_end": 556,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.ProcessedVariantFactory",
+                "focal_method": {
+                    "line": 290,
+                    "line_end": 351,
+                    "indent": 2,
+                    "name": "create_alt_bases_field_schema"
+                }
+            },
+            "test_create_alt_bases_field_schema_types": {
+                "line": 558,
+                "line_end": 582,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.processed_variant.ProcessedVariantFactory",
+                "focal_method": {
+                    "line": 290,
+                    "line_end": 351,
+                    "indent": 2,
+                    "name": "create_alt_bases_field_schema"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/bigquery_schema_descriptor_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/bigquery_schema_descriptor.py",
+        "methods": {
+            "test_field_descriptor_at_first_level": {
+                "line": 83,
+                "line_end": 93,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 77,
+                    "indent": 2,
+                    "name": "get_field_descriptor"
+                }
+            },
+            "test_field_descriptor_at_second_level": {
+                "line": 95,
+                "line_end": 106,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 77,
+                    "indent": 2,
+                    "name": "get_field_descriptor"
+                }
+            },
+            "test_field_descriptor_at_third_level": {
+                "line": 108,
+                "line_end": 119,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 77,
+                    "indent": 2,
+                    "name": "get_field_descriptor"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/schema_converter_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/schema_converter.py",
+        "methods": {
+            "test_generate_header_fields_from_schema": {
+                "line": 518,
+                "line_end": 532,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 407,
+                    "indent": 0,
+                    "name": "generate_header_fields_from_schema"
+                }
+            },
+            "test_generate_header_fields_from_schema_with_annotation": {
+                "line": 534,
+                "line_end": 552,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 407,
+                    "indent": 0,
+                    "name": "generate_header_fields_from_schema"
+                }
+            },
+            "test_generate_header_fields_from_schema_date_type": {
+                "line": 554,
+                "line_end": 566,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 407,
+                    "indent": 0,
+                    "name": "generate_header_fields_from_schema"
+                }
+            },
+            "test_generate_header_fields_from_schema_none_mode": {
+                "line": 568,
+                "line_end": 593,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 407,
+                    "indent": 0,
+                    "name": "generate_header_fields_from_schema"
+                }
+            },
+            "test_generate_header_fields_from_schema_schema_compatibility": {
+                "line": 595,
+                "line_end": 613,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 407,
+                    "indent": 0,
+                    "name": "generate_header_fields_from_schema"
+                }
+            },
+            "test_generate_header_fields_from_schema_invalid_description": {
+                "line": 615,
+                "line_end": 631,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 407,
+                    "indent": 0,
+                    "name": "generate_header_fields_from_schema"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/bigquery_util_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/bigquery_util.py",
+        "methods": {
+            "test_get_bigquery_type_from_vcf_type": {
+                "line": 30,
+                "line_end": 43,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 219,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "get_bigquery_type_from_vcf_type"
+                }
+            },
+            "test_get_python_from_bigquery_type": {
+                "line": 45,
+                "line_end": 57,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 240,
+                    "indent": 0,
+                    "name": "get_python_type_from_bigquery_type"
+                }
+            },
+            "test_get_vcf_type_from_bigquery_type": {
+                "line": 59,
+                "line_end": 74,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "get_vcf_type_from_bigquery_type"
+                }
+            },
+            "test_get_vcf_num_from_bigquery_schema": {
+                "line": 76,
+                "line_end": 94,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 257,
+                    "indent": 0,
+                    "name": "get_vcf_num_from_bigquery_schema"
+                }
+            },
+            "test_table_exist": {
+                "line": 420,
+                "line_end": 439,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "table_exist"
+                }
+            },
+            "test_raise_error_if_dataset_not_exists": {
+                "line": 441,
+                "line_end": 460,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 163,
+                    "indent": 0,
+                    "name": "raise_error_if_dataset_not_exists"
+                }
+            },
+            "test_get_table_base_name": {
+                "line": 462,
+                "line_end": 482,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 368,
+                    "line_end": 369,
+                    "indent": 0,
+                    "name": "get_table_base_name"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/bigquery_vcf_data_converter_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/bigquery_vcf_data_converter.py",
+        "methods": {
+            "test_alternate_bases": {
+                "line": 195,
+                "line_end": 203,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 83,
+                    "indent": 2,
+                    "name": "_get_alternate_bases"
+                }
+            },
+            "test_get_variant_info": {
+                "line": 205,
+                "line_end": 213,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 103,
+                    "indent": 2,
+                    "name": "_get_variant_info"
+                }
+            },
+            "test_get_variant_info_annotation": {
+                "line": 215,
+                "line_end": 261,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.bigquery_vcf_data_converter.VariantGenerator",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 103,
+                    "indent": 2,
+                    "name": "_get_variant_info"
+                }
+            },
+            "test_get_variant_calls": {
+                "line": 263,
+                "line_end": 277,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 121,
+                    "indent": 2,
+                    "name": "_get_variant_calls"
+                }
+            },
+            "test_convert_bq_row_to_variant": {
+                "line": 279,
+                "line_end": 298,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 78,
+                    "indent": 2,
+                    "name": "convert_bq_row_to_variant"
+                }
+            },
+            "test_bq_row_to_variant_to_bq_row": {
+                "line": 313,
+                "line_end": 319,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 78,
+                    "indent": 2,
+                    "name": "convert_bq_row_to_variant"
+                }
+            },
+            "test_variant_to_bq_row_to_variant": {
+                "line": 321,
+                "line_end": 345,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 78,
+                    "indent": 2,
+                    "name": "convert_bq_row_to_variant"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/variant_sharding_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/variant_sharding.py",
+        "methods": {
+            "test_config_get_output_table_suffix": {
+                "line": 93,
+                "line_end": 108,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_sharding.VariantSharding",
+                "focal_method": {
+                    "line": 310,
+                    "line_end": 316,
+                    "indent": 2,
+                    "name": "get_output_table_suffix"
+                }
+            },
+            "test_config_get_partition_range_end": {
+                "line": 110,
+                "line_end": 125,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_sharding.VariantSharding",
+                "focal_method": {
+                    "line": 318,
+                    "line_end": 324,
+                    "indent": 2,
+                    "name": "get_output_table_partition_range_end"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/annotation/annotation_parser_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/annotation/annotation_parser.py",
+        "methods": {
+            "test_extract_annotation_list_with_alt": {
+                "line": 29,
+                "line_end": 33,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 372,
+                    "line_end": 387,
+                    "indent": 0,
+                    "name": "extract_annotation_list_with_alt"
+                }
+            },
+            "test_extract_annotation_names": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 411,
+                    "indent": 0,
+                    "name": "extract_annotation_names"
+                }
+            },
+            "test_reconstruct_annotation_str": {
+                "line": 49,
+                "line_end": 67,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.annotation.annotation_parser.AnnotationStrBuilder",
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 359,
+                    "indent": 2,
+                    "name": "reconstruct_annotation_str"
+                }
+            },
+            "test_reconstruct_annotation_str_missing_annotation_names": {
+                "line": 69,
+                "line_end": 79,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.annotation.annotation_parser.AnnotationStrBuilder",
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 359,
+                    "indent": 2,
+                    "name": "reconstruct_annotation_str"
+                }
+            },
+            "test_reconstruct_annotation_description": {
+                "line": 81,
+                "line_end": 87,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 414,
+                    "line_end": 421,
+                    "indent": 0,
+                    "name": "reconstruct_annotation_description"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/annotation/vep/vep_runner_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/annotation/vep/vep_runner.py",
+        "methods": {
+            "test_get_output_pattern": {
+                "line": 120,
+                "line_end": 122,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 166,
+                    "indent": 2,
+                    "name": "get_output_pattern"
+                }
+            },
+            "test_get_output_log_path": {
+                "line": 124,
+                "line_end": 129,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 430,
+                    "indent": 2,
+                    "name": "_get_output_log_path"
+                }
+            },
+            "test_run_on_all_files": {
+                "line": 134,
+                "line_end": 141,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 363,
+                    "line_end": 390,
+                    "indent": 2,
+                    "name": "run_on_all_files"
+                }
+            },
+            "test_run_on_all_files_with_more_workers": {
+                "line": 143,
+                "line_end": 151,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 363,
+                    "line_end": 390,
+                    "indent": 2,
+                    "name": "run_on_all_files"
+                }
+            },
+            "test_wait_until_done": {
+                "line": 153,
+                "line_end": 169,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 301,
+                    "indent": 2,
+                    "name": "wait_until_done"
+                }
+            },
+            "test_wait_until_done_fail": {
+                "line": 171,
+                "line_end": 185,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 301,
+                    "indent": 2,
+                    "name": "wait_until_done"
+                }
+            },
+            "test_get_base_name": {
+                "line": 226,
+                "line_end": 230,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 461,
+                    "line_end": 475,
+                    "indent": 0,
+                    "name": "_get_base_name"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/variant_merge/move_to_calls_strategy_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/variant_merge/move_to_calls_strategy.py",
+        "methods": {
+            "test_get_merged_variants_no_custom_options": {
+                "line": 66,
+                "line_end": 94,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 142,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_get_merged_variants_move_info_to_calls": {
+                "line": 144,
+                "line_end": 177,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 142,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_get_merged_variants_move_everything_to_calls": {
+                "line": 179,
+                "line_end": 224,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 142,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_get_merge_keys": {
+                "line": 226,
+                "line_end": 256,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 151,
+                    "indent": 2,
+                    "name": "get_merge_keys"
+                }
+            },
+            "test_modify_bigquery_schema_no_custom_options": {
+                "line": 293,
+                "line_end": 309,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 191,
+                    "indent": 2,
+                    "name": "modify_bigquery_schema"
+                }
+            },
+            "test_modify_bigquery_schema_move_quality_and_filter_to_calls": {
+                "line": 311,
+                "line_end": 329,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 191,
+                    "indent": 2,
+                    "name": "modify_bigquery_schema"
+                }
+            },
+            "test_modify_bigquery_schema_move_info_to_calls": {
+                "line": 331,
+                "line_end": 348,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 191,
+                    "indent": 2,
+                    "name": "modify_bigquery_schema"
+                }
+            },
+            "test_modify_bigquery_schema_move_everything_to_calls": {
+                "line": 350,
+                "line_end": 369,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 191,
+                    "indent": 2,
+                    "name": "modify_bigquery_schema"
+                }
+            },
+            "test_modify_bigquery_schema_duplicate_keys": {
+                "line": 371,
+                "line_end": 382,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.move_to_calls_strategy.MoveToCallsStrategy",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 191,
+                    "indent": 2,
+                    "name": "modify_bigquery_schema"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/libs/variant_merge/merge_with_non_variants_strategy_test.py": {
+        "focal_file": "gcp_variant_transforms/libs/variant_merge/merge_with_non_variants_strategy.py",
+        "methods": {
+            "test_get_merged_variants_no_custom_options": {
+                "line": 63,
+                "line_end": 90,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_get_merged_variants_move_info_to_calls": {
+                "line": 138,
+                "line_end": 169,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_get_merged_variants_move_everything_to_calls": {
+                "line": 171,
+                "line_end": 216,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_get_snp_merge_keys": {
+                "line": 218,
+                "line_end": 226,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 2,
+                    "name": "get_merge_keys"
+                }
+            },
+            "test_get_non_variant_merge_keys": {
+                "line": 228,
+                "line_end": 235,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 2,
+                    "name": "get_merge_keys"
+                }
+            },
+            "test_merge_one_overlap": {
+                "line": 266,
+                "line_end": 310,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_merge_2_non_variants": {
+                "line": 312,
+                "line_end": 367,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_merge_non_variants_same_start": {
+                "line": 369,
+                "line_end": 415,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_merge_2_non_variants_same_end": {
+                "line": 417,
+                "line_end": 465,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_merge_snp_with_non_variant": {
+                "line": 467,
+                "line_end": 525,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_merge_snp_with_non_variant_same_start": {
+                "line": 527,
+                "line_end": 576,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_merge_snp_with_non_variant_same_end": {
+                "line": 578,
+                "line_end": 626,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_merge_mnps": {
+                "line": 628,
+                "line_end": 667,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_align_non_variant": {
+                "line": 669,
+                "line_end": 680,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            },
+            "test_overlapping_three_non_variants": {
+                "line": 682,
+                "line_end": 712,
+                "indent": 2,
+                "focal_class": "gcp_variant_transforms.libs.variant_merge.merge_with_non_variants_strategy.MergeWithNonVariantsStrategy",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 123,
+                    "indent": 2,
+                    "name": "get_merged_variants"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/transforms/extract_input_size_test.py": {
+        "focal_file": "gcp_variant_transforms/transforms/extract_input_size.py",
+        "methods": {
+            "test_print_estimates_to_file": {
+                "line": 109,
+                "line_end": 115,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "print_estimates_to_file"
+                }
+            }
+        }
+    },
+    "gcp_variant_transforms/transforms/merge_headers_test.py": {
+        "focal_file": "gcp_variant_transforms/transforms/merge_headers.py",
+        "methods": {
+            "test_combine_multiple_headers_as_inputs": {
+                "line": 79,
+                "line_end": 93,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 44,
+                    "indent": 2,
+                    "name": "add_input"
+                }
+            },
+            "test_combine_multiple_headers_as_accumulators": {
+                "line": 95,
+                "line_end": 112,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 2,
+                    "name": "merge_accumulators"
+                }
+            }
+        }
+    }
+}

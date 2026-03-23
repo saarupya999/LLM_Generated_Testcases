@@ -1,0 +1,3371 @@
+{
+    "tests/test_configuration.py": {
+        "focal_file": "freqtrade/configuration/config_validation.py",
+        "methods": {
+            "test_validate_default_conf": {
+                "line": 743,
+                "line_end": 745,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "validate_config_schema"
+                }
+            },
+            "test_validate_whitelist": {
+                "line": 810,
+                "line_end": 831,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "validate_config_consistency"
+                }
+            }
+        }
+    },
+    "tests/test_directory_operations.py": {
+        "focal_file": "freqtrade/configuration/directory_operations.py",
+        "methods": {
+            "test_create_datadir": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "create_datadir"
+                }
+            },
+            "test_create_userdata_dir": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "create_userdata_dir"
+                }
+            },
+            "test_create_userdata_dir_exists": {
+                "line": 35,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "create_userdata_dir"
+                }
+            },
+            "test_create_userdata_dir_exists_exception": {
+                "line": 43,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "create_userdata_dir"
+                }
+            },
+            "test_copy_sample_files": {
+                "line": 53,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "copy_sample_files"
+                }
+            },
+            "test_copy_sample_files_errors": {
+                "line": 72,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "copy_sample_files"
+                }
+            }
+        }
+    },
+    "tests/test_freqtradebot.py": {
+        "focal_file": "freqtrade/freqtradebot.py",
+        "methods": {
+            "test_process_stopped": {
+                "line": 54,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "process_stopped"
+                }
+            },
+            "test_bot_cleanup": {
+                "line": 67,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "cleanup"
+                }
+            },
+            "test_get_trade_stake_amount": {
+                "line": 150,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "get_trade_stake_amount"
+                }
+            },
+            "test_check_available_stake_amount": {
+                "line": 174,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "get_trade_stake_amount"
+                }
+            },
+            "test_get_trade_stake_amount_no_stake_amount": {
+                "line": 203,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "get_trade_stake_amount"
+                }
+            },
+            "test_get_trade_stake_amount_unlimited_amount": {
+                "line": 219,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "get_trade_stake_amount"
+                }
+            },
+            "test_edge_called_in_process": {
+                "line": 262,
+                "line_end": 274,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "process"
+                }
+            },
+            "test_edge_overrides_stake_amount": {
+                "line": 277,
+                "line_end": 285,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "get_trade_stake_amount"
+                }
+            },
+            "test_get_min_pair_stake_amount": {
+                "line": 399,
+                "line_end": 509,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 399,
+                    "indent": 4,
+                    "name": "_get_min_pair_stake_amount"
+                }
+            },
+            "test_get_min_pair_stake_amount_real_data": {
+                "line": 512,
+                "line_end": 529,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 399,
+                    "indent": 4,
+                    "name": "_get_min_pair_stake_amount"
+                }
+            },
+            "test_create_trade": {
+                "line": 532,
+                "line_end": 561,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_trade"
+                }
+            },
+            "test_create_trade_no_stake_amount": {
+                "line": 564,
+                "line_end": 579,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_trade"
+                }
+            },
+            "test_create_trade_minimal_amount": {
+                "line": 582,
+                "line_end": 599,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_trade"
+                }
+            },
+            "test_create_trade_limit_reached": {
+                "line": 622,
+                "line_end": 640,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_trade"
+                }
+            },
+            "test_enter_positions_no_pairs_left": {
+                "line": 643,
+                "line_end": 663,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "enter_positions"
+                }
+            },
+            "test_enter_positions_no_pairs_in_whitelist": {
+                "line": 666,
+                "line_end": 682,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "enter_positions"
+                }
+            },
+            "test_create_trade_no_signal": {
+                "line": 685,
+                "line_end": 701,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_trade"
+                }
+            },
+            "test_create_trades_preopen": {
+                "line": 731,
+                "line_end": 755,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_trade"
+                }
+            },
+            "test_get_buy_rate": {
+                "line": 954,
+                "line_end": 970,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 287,
+                    "indent": 4,
+                    "name": "get_buy_rate"
+                }
+            },
+            "test_execute_buy": {
+                "line": 973,
+                "line_end": 1060,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 565,
+                    "indent": 4,
+                    "name": "execute_buy"
+                }
+            },
+            "test_handle_stoploss_on_exchange": {
+                "line": 1090,
+                "line_end": 1199,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 759,
+                    "line_end": 820,
+                    "indent": 4,
+                    "name": "handle_stoploss_on_exchange"
+                }
+            },
+            "test_create_stoploss_order_invalid_order": {
+                "line": 1236,
+                "line_end": 1276,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 735,
+                    "line_end": 757,
+                    "indent": 4,
+                    "name": "create_stoploss_order"
+                }
+            },
+            "test_handle_stoploss_on_exchange_trailing": {
+                "line": 1279,
+                "line_end": 1378,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 759,
+                    "line_end": 820,
+                    "indent": 4,
+                    "name": "handle_stoploss_on_exchange"
+                }
+            },
+            "test_handle_stoploss_on_exchange_trailing_error": {
+                "line": 1381,
+                "line_end": 1446,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 822,
+                    "line_end": 847,
+                    "indent": 4,
+                    "name": "handle_trailing_stoploss_on_exchange"
+                }
+            },
+            "test_enter_positions": {
+                "line": 1560,
+                "line_end": 1570,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "enter_positions"
+                }
+            },
+            "test_enter_positions_exception": {
+                "line": 1573,
+                "line_end": 1583,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "enter_positions"
+                }
+            },
+            "test_exit_positions": {
+                "line": 1586,
+                "line_end": 1609,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 615,
+                    "line_end": 638,
+                    "indent": 4,
+                    "name": "exit_positions"
+                }
+            },
+            "test_exit_positions_exception": {
+                "line": 1612,
+                "line_end": 1628,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 615,
+                    "line_end": 638,
+                    "indent": 4,
+                    "name": "exit_positions"
+                }
+            },
+            "test_update_trade_state": {
+                "line": 1631,
+                "line_end": 1668,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1184,
+                    "line_end": 1224,
+                    "indent": 4,
+                    "name": "update_trade_state"
+                }
+            },
+            "test_update_trade_state_withorderdict": {
+                "line": 1671,
+                "line_end": 1692,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1184,
+                    "line_end": 1224,
+                    "indent": 4,
+                    "name": "update_trade_state"
+                }
+            },
+            "test_update_trade_state_withorderdict_rounding_fee": {
+                "line": 1695,
+                "line_end": 1719,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1184,
+                    "line_end": 1224,
+                    "indent": 4,
+                    "name": "update_trade_state"
+                }
+            },
+            "test_update_trade_state_exception": {
+                "line": 1722,
+                "line_end": 1737,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1184,
+                    "line_end": 1224,
+                    "indent": 4,
+                    "name": "update_trade_state"
+                }
+            },
+            "test_update_trade_state_orderexception": {
+                "line": 1740,
+                "line_end": 1753,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1184,
+                    "line_end": 1224,
+                    "indent": 4,
+                    "name": "update_trade_state"
+                }
+            },
+            "test_update_trade_state_sell": {
+                "line": 1756,
+                "line_end": 1782,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1184,
+                    "line_end": 1224,
+                    "indent": 4,
+                    "name": "update_trade_state"
+                }
+            },
+            "test_handle_trade": {
+                "line": 1785,
+                "line_end": 1822,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 733,
+                    "indent": 4,
+                    "name": "handle_trade"
+                }
+            },
+            "test_handle_trade_roi": {
+                "line": 1876,
+                "line_end": 1905,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 733,
+                    "indent": 4,
+                    "name": "handle_trade"
+                }
+            },
+            "test_handle_trade_use_sell_signal": {
+                "line": 1908,
+                "line_end": 1934,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 733,
+                    "indent": 4,
+                    "name": "handle_trade"
+                }
+            },
+            "test_close_trade": {
+                "line": 1937,
+                "line_end": 1961,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 733,
+                    "indent": 4,
+                    "name": "handle_trade"
+                }
+            },
+            "test_check_handle_timedout_buy_usercustom": {
+                "line": 1964,
+                "line_end": 2012,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_buy": {
+                "line": 2015,
+                "line_end": 2040,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_cancelled_buy": {
+                "line": 2043,
+                "line_end": 2068,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_buy_exception": {
+                "line": 2071,
+                "line_end": 2094,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_sell_usercustom": {
+                "line": 2097,
+                "line_end": 2142,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_sell": {
+                "line": 2145,
+                "line_end": 2171,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_cancelled_sell": {
+                "line": 2174,
+                "line_end": 2200,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_partial": {
+                "line": 2203,
+                "line_end": 2226,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_partial_fee": {
+                "line": 2229,
+                "line_end": 2265,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_partial_except": {
+                "line": 2268,
+                "line_end": 2305,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_check_handle_timedout_exception": {
+                "line": 2308,
+                "line_end": 2333,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 912,
+                    "indent": 4,
+                    "name": "check_handle_timedout"
+                }
+            },
+            "test_handle_cancel_buy": {
+                "line": 2336,
+                "line_end": 2361,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 933,
+                    "line_end": 980,
+                    "indent": 4,
+                    "name": "handle_cancel_buy"
+                }
+            },
+            "test_handle_cancel_buy_exchanges": {
+                "line": 2366,
+                "line_end": 2383,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 933,
+                    "line_end": 980,
+                    "indent": 4,
+                    "name": "handle_cancel_buy"
+                }
+            },
+            "test_handle_cancel_buy_corder_empty": {
+                "line": 2392,
+                "line_end": 2417,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 933,
+                    "line_end": 980,
+                    "indent": 4,
+                    "name": "handle_cancel_buy"
+                }
+            },
+            "test_handle_cancel_sell_limit": {
+                "line": 2420,
+                "line_end": 2460,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 982,
+                    "line_end": 1018,
+                    "indent": 4,
+                    "name": "handle_cancel_sell"
+                }
+            },
+            "test_handle_cancel_sell_cancel_exception": {
+                "line": 2463,
+                "line_end": 2476,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 982,
+                    "line_end": 1018,
+                    "indent": 4,
+                    "name": "handle_cancel_sell"
+                }
+            },
+            "test_execute_sell_up": {
+                "line": 2479,
+                "line_end": 2524,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 1045,
+                    "line_end": 1097,
+                    "indent": 4,
+                    "name": "execute_sell"
+                }
+            },
+            "test_execute_sell_down": {
+                "line": 2527,
+                "line_end": 2573,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 1045,
+                    "line_end": 1097,
+                    "indent": 4,
+                    "name": "execute_sell"
+                }
+            },
+            "test_execute_sell_market_order": {
+                "line": 2783,
+                "line_end": 2834,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 1045,
+                    "line_end": 1097,
+                    "indent": 4,
+                    "name": "execute_sell"
+                }
+            },
+            "test__safe_sell_amount": {
+                "line": 2993,
+                "line_end": 3020,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 1020,
+                    "line_end": 1043,
+                    "indent": 4,
+                    "name": "_safe_sell_amount"
+                }
+            },
+            "test__safe_sell_amount_error": {
+                "line": 3023,
+                "line_end": 3041,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 1020,
+                    "line_end": 1043,
+                    "indent": 4,
+                    "name": "_safe_sell_amount"
+                }
+            },
+            "test_get_real_amount_quote": {
+                "line": 3377,
+                "line_end": 3395,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_quote_dust": {
+                "line": 3398,
+                "line_end": 3420,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_no_trade": {
+                "line": 3423,
+                "line_end": 3442,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_stake": {
+                "line": 3445,
+                "line_end": 3462,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_no_currency_in_fee": {
+                "line": 3465,
+                "line_end": 3486,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_BNB": {
+                "line": 3489,
+                "line_end": 3507,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_multi": {
+                "line": 3510,
+                "line_end": 3528,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_fromorder": {
+                "line": 3531,
+                "line_end": 3554,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_invalid_order": {
+                "line": 3557,
+                "line_end": 3575,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_wrong_amount": {
+                "line": 3578,
+                "line_end": 3597,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_wrong_amount_rounding": {
+                "line": 3600,
+                "line_end": 3621,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_invalid": {
+                "line": 3624,
+                "line_end": 3642,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_get_real_amount_open_trade": {
+                "line": 3645,
+                "line_end": 3663,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1244,
+                    "line_end": 1272,
+                    "indent": 4,
+                    "name": "get_real_amount"
+                }
+            },
+            "test_apply_fee_conditional": {
+                "line": 3674,
+                "line_end": 3692,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1226,
+                    "line_end": 1242,
+                    "indent": 4,
+                    "name": "apply_fee_conditional"
+                }
+            },
+            "test_check_depth_of_market_buy": {
+                "line": 3800,
+                "line_end": 3817,
+                "indent": 0,
+                "focal_class": "FreqtradeBot",
+                "focal_method": {
+                    "line": 450,
+                    "line_end": 472,
+                    "indent": 4,
+                    "name": "_check_depth_of_market_buy"
+                }
+            },
+            "test_get_sell_rate": {
+                "line": 3879,
+                "line_end": 3893,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 649,
+                    "line_end": 680,
+                    "indent": 4,
+                    "name": "get_sell_rate"
+                }
+            },
+            "test_get_sell_rate_orderbook": {
+                "line": 3900,
+                "line_end": 3915,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 649,
+                    "line_end": 680,
+                    "indent": 4,
+                    "name": "get_sell_rate"
+                }
+            },
+            "test_get_sell_rate_orderbook_exception": {
+                "line": 3918,
+                "line_end": 3931,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 649,
+                    "line_end": 680,
+                    "indent": 4,
+                    "name": "get_sell_rate"
+                }
+            },
+            "test_cancel_all_open_orders": {
+                "line": 3993,
+                "line_end": 4006,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 914,
+                    "line_end": 931,
+                    "indent": 4,
+                    "name": "cancel_all_open_orders"
+                }
+            }
+        }
+    },
+    "tests/test_misc.py": {
+        "focal_file": "freqtrade/misc.py",
+        "methods": {
+            "test_shorten_date": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "shorten_date"
+                }
+            },
+            "test_datesarray_to_datetimearray": {
+                "line": 23,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "datesarray_to_datetimearray"
+                }
+            },
+            "test_file_dump_json": {
+                "line": 39,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "file_dump_json"
+                }
+            },
+            "test_file_load_json": {
+                "line": 52,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "file_load_json"
+                }
+            },
+            "test_pair_to_filename": {
+                "line": 80,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "pair_to_filename"
+                }
+            },
+            "test_format_ms_time": {
+                "line": 85,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "format_ms_time"
+                }
+            },
+            "test_safe_value_fallback": {
+                "line": 98,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "safe_value_fallback"
+                }
+            },
+            "test_plural": {
+                "line": 119,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "plural"
+                }
+            },
+            "test_render_template_fallback": {
+                "line": 151,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 177,
+                    "indent": 0,
+                    "name": "render_template_with_fallback"
+                }
+            }
+        }
+    },
+    "tests/test_persistence.py": {
+        "focal_file": "freqtrade/persistence.py",
+        "methods": {
+            "test_calc_open_close_trade_price": {
+                "line": 162,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 431,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "calc_close_trade_price"
+                }
+            },
+            "test_calc_close_trade_price_exception": {
+                "line": 188,
+                "line_end": 201,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 431,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "calc_close_trade_price"
+                }
+            },
+            "test_calc_open_trade_price": {
+                "line": 245,
+                "line_end": 262,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 422,
+                    "indent": 4,
+                    "name": "_calc_open_trade_price"
+                }
+            },
+            "test_calc_close_trade_price": {
+                "line": 266,
+                "line_end": 287,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 431,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "calc_close_trade_price"
+                }
+            },
+            "test_calc_profit": {
+                "line": 291,
+                "line_end": 321,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "calc_profit"
+                }
+            },
+            "test_calc_profit_ratio": {
+                "line": 325,
+                "line_end": 349,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 465,
+                    "line_end": 479,
+                    "indent": 4,
+                    "name": "calc_profit_ratio"
+                }
+            },
+            "test_clean_dry_run_db": {
+                "line": 353,
+                "line_end": 399,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "clean_dry_run_db"
+                }
+            },
+            "test_adjust_stop_loss": {
+                "line": 629,
+                "line_end": 678,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 335,
+                    "indent": 4,
+                    "name": "adjust_stop_loss"
+                }
+            },
+            "test_adjust_min_max_rates": {
+                "line": 681,
+                "line_end": 709,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "adjust_min_max_rates"
+                }
+            },
+            "test_to_json": {
+                "line": 720,
+                "line_end": 821,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 286,
+                    "indent": 4,
+                    "name": "to_json"
+                }
+            },
+            "test_stoploss_reinitialization": {
+                "line": 824,
+                "line_end": 881,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 558,
+                    "line_end": 574,
+                    "indent": 4,
+                    "name": "stoploss_reinitialization"
+                }
+            },
+            "test_update_fee": {
+                "line": 884,
+                "line_end": 920,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 402,
+                    "indent": 4,
+                    "name": "update_fee"
+                }
+            },
+            "test_fee_updated": {
+                "line": 923,
+                "line_end": 950,
+                "indent": 0,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 413,
+                    "indent": 4,
+                    "name": "fee_updated"
+                }
+            },
+            "test_total_open_trades_stakes": {
+                "line": 954,
+                "line_end": 960,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 513,
+                    "line_end": 521,
+                    "indent": 4,
+                    "name": "total_open_trades_stakes"
+                }
+            },
+            "test_get_overall_performance": {
+                "line": 964,
+                "line_end": 972,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 524,
+                    "line_end": 543,
+                    "indent": 4,
+                    "name": "get_overall_performance"
+                }
+            },
+            "test_get_best_pair": {
+                "line": 976,
+                "line_end": 985,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 546,
+                    "line_end": 555,
+                    "indent": 4,
+                    "name": "get_best_pair"
+                }
+            }
+        }
+    },
+    "tests/test_plotting.py": {
+        "focal_file": "freqtrade/plot/plotting.py",
+        "methods": {
+            "test_init_plotscript": {
+                "line": 47,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "init_plotscript"
+                }
+            },
+            "test_add_indicators": {
+                "line": 65,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "add_indicators"
+                }
+            },
+            "test_plot_trades": {
+                "line": 101,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "plot_trades"
+                }
+            },
+            "test_generate_candlestick_graph_no_signals_no_trades": {
+                "line": 141,
+                "line_end": 174,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 381,
+                    "indent": 0,
+                    "name": "generate_candlestick_graph"
+                }
+            },
+            "test_generate_candlestick_graph_no_trades": {
+                "line": 177,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 381,
+                    "indent": 0,
+                    "name": "generate_candlestick_graph"
+                }
+            },
+            "test_generate_Plot_filename": {
+                "line": 225,
+                "line_end": 227,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 437,
+                    "indent": 0,
+                    "name": "generate_plot_filename"
+                }
+            },
+            "test_generate_plot_file": {
+                "line": 230,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 440,
+                    "line_end": 454,
+                    "indent": 0,
+                    "name": "store_plot_file"
+                }
+            },
+            "test_add_profit": {
+                "line": 245,
+                "line_end": 262,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "add_profit"
+                }
+            },
+            "test_generate_profit_graph": {
+                "line": 265,
+                "line_end": 300,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 384,
+                    "line_end": 425,
+                    "indent": 0,
+                    "name": "generate_profit_graph"
+                }
+            },
+            "test_load_and_plot_trades": {
+                "line": 318,
+                "line_end": 342,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 493,
+                    "indent": 0,
+                    "name": "load_and_plot_trades"
+                }
+            },
+            "test_plot_profit": {
+                "line": 374,
+                "line_end": 400,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 520,
+                    "indent": 0,
+                    "name": "plot_profit"
+                }
+            },
+            "test_create_plotconfig": {
+                "line": 436,
+                "line_end": 444,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 250,
+                    "indent": 0,
+                    "name": "create_plotconfig"
+                }
+            }
+        }
+    },
+    "tests/commands/test_build_config.py": {
+        "focal_file": "freqtrade/commands/build_config_commands.py",
+        "methods": {
+            "test_validate_is_float": {
+                "line": 16,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "validate_is_float"
+                }
+            },
+            "test_validate_is_int": {
+                "line": 24,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "validate_is_int"
+                }
+            },
+            "test_start_new_config": {
+                "line": 36,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "start_new_config"
+                }
+            },
+            "test_start_new_config_exists": {
+                "line": 74,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "start_new_config"
+                }
+            },
+            "test_ask_user_overwrite": {
+                "line": 86,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "ask_user_overwrite"
+                }
+            },
+            "test_ask_user_config": {
+                "line": 102,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 146,
+                    "indent": 0,
+                    "name": "ask_user_config"
+                }
+            }
+        }
+    },
+    "tests/data/test_btanalysis.py": {
+        "focal_file": "freqtrade/data/btanalysis.py",
+        "methods": {
+            "test_load_backtest_data": {
+                "line": 21,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "load_backtest_data"
+                }
+            },
+            "test_load_trades_from_db": {
+                "line": 38,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "load_trades_from_db"
+                }
+            },
+            "test_extract_trades_of_period": {
+                "line": 57,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 168,
+                    "indent": 0,
+                    "name": "extract_trades_of_period"
+                }
+            },
+            "test_analyze_trade_parallelism": {
+                "line": 90,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "analyze_trade_parallelism"
+                }
+            },
+            "test_load_trades": {
+                "line": 101,
+                "line_end": 135,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "load_trades"
+                }
+            },
+            "test_combine_dataframes_with_mean": {
+                "line": 138,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "combine_dataframes_with_mean"
+                }
+            },
+            "test_create_cum_profit": {
+                "line": 148,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 210,
+                    "indent": 0,
+                    "name": "create_cum_profit"
+                }
+            },
+            "test_create_cum_profit1": {
+                "line": 164,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 210,
+                    "indent": 0,
+                    "name": "create_cum_profit"
+                }
+            },
+            "test_calculate_max_drawdown": {
+                "line": 186,
+                "line_end": 197,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "calculate_max_drawdown"
+                }
+            },
+            "test_calculate_max_drawdown2": {
+                "line": 200,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "calculate_max_drawdown"
+                }
+            }
+        }
+    },
+    "tests/data/test_dataprovider.py": {
+        "focal_file": "freqtrade/data/dataprovider.py",
+        "methods": {
+            "test_ohlcv": {
+                "line": 13,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "ohlcv"
+                }
+            },
+            "test_historic_ohlcv": {
+                "line": 43,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "historic_ohlcv"
+                }
+            },
+            "test_get_pair_dataframe": {
+                "line": 54,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "get_pair_dataframe"
+                }
+            },
+            "test_refresh": {
+                "line": 99,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "refresh"
+                }
+            },
+            "test_orderbook": {
+                "line": 125,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "orderbook"
+                }
+            },
+            "test_market": {
+                "line": 141,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "market"
+                }
+            },
+            "test_ticker": {
+                "line": 157,
+                "line_end": 172,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "ticker"
+                }
+            },
+            "test_current_whitelist": {
+                "line": 175,
+                "line_end": 196,
+                "indent": 0,
+                "focal_class": "DataProvider",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "current_whitelist"
+                }
+            }
+        }
+    },
+    "tests/data/test_history.py": {
+        "focal_file": "freqtrade/data/history/history_utils.py",
+        "methods": {
+            "test_load_cached_data_for_updating": {
+                "line": 182,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "_load_cached_data_for_updating"
+                }
+            },
+            "test_download_pair_history": {
+                "line": 233,
+                "line_end": 278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "_download_pair_history"
+                }
+            },
+            "test_download_pair_history2": {
+                "line": 281,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "_download_pair_history"
+                }
+            },
+            "test_get_timerange": {
+                "line": 400,
+                "line_end": 415,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 357,
+                    "line_end": 369,
+                    "indent": 0,
+                    "name": "get_timerange"
+                }
+            },
+            "test_validate_backtest_data_warn": {
+                "line": 418,
+                "line_end": 439,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 372,
+                    "line_end": 391,
+                    "indent": 0,
+                    "name": "validate_backtest_data"
+                }
+            },
+            "test_validate_backtest_data": {
+                "line": 442,
+                "line_end": 462,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 372,
+                    "line_end": 391,
+                    "indent": 0,
+                    "name": "validate_backtest_data"
+                }
+            },
+            "test_refresh_backtest_ohlcv_data": {
+                "line": 465,
+                "line_end": 484,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "refresh_backtest_ohlcv_data"
+                }
+            },
+            "test_refresh_backtest_trades_data": {
+                "line": 508,
+                "line_end": 530,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "refresh_backtest_trades_data"
+                }
+            },
+            "test_download_trades_history": {
+                "line": 533,
+                "line_end": 569,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 305,
+                    "indent": 0,
+                    "name": "_download_trades_history"
+                }
+            },
+            "test_convert_trades_to_ohlcv": {
+                "line": 572,
+                "line_end": 598,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 336,
+                    "line_end": 354,
+                    "indent": 0,
+                    "name": "convert_trades_to_ohlcv"
+                }
+            }
+        }
+    },
+    "tests/exchange/test_exchange.py": {
+        "focal_file": "freqtrade/exchange/exchange.py",
+        "methods": {
+            "test_validate_order_time_in_force": {
+                "line": 160,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 387,
+                    "line_end": 394,
+                    "indent": 4,
+                    "name": "validate_order_time_in_force"
+                }
+            },
+            "test_amount_to_precision": {
+                "line": 197,
+                "line_end": 214,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 427,
+                    "indent": 4,
+                    "name": "amount_to_precision"
+                }
+            },
+            "test_price_to_precision": {
+                "line": 237,
+                "line_end": 253,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 452,
+                    "indent": 4,
+                    "name": "price_to_precision"
+                }
+            },
+            "test_price_get_one_pip": {
+                "line": 272,
+                "line_end": 279,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 454,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "price_get_one_pip"
+                }
+            },
+            "test_set_sandbox": {
+                "line": 282,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "set_sandbox"
+                }
+            },
+            "test_set_sandbox_exception": {
+                "line": 300,
+                "line_end": 314,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "set_sandbox"
+                }
+            },
+            "test__load_async_markets": {
+                "line": 317,
+                "line_end": 327,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "_load_async_markets"
+                }
+            },
+            "test__reload_markets": {
+                "line": 351,
+                "line_end": 377,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "_reload_markets"
+                }
+            },
+            "test__reload_markets_exception": {
+                "line": 380,
+                "line_end": 391,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "_reload_markets"
+                }
+            },
+            "test_get_quote_currencies": {
+                "line": 426,
+                "line_end": 429,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "get_quote_currencies"
+                }
+            },
+            "test_get_pair_quote_currency": {
+                "line": 439,
+                "line_end": 441,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "get_pair_quote_currency"
+                }
+            },
+            "test_get_pair_base_currency": {
+                "line": 451,
+                "line_end": 453,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 239,
+                    "indent": 4,
+                    "name": "get_pair_base_currency"
+                }
+            },
+            "test_exchange_has": {
+                "line": 754,
+                "line_end": 765,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 406,
+                    "line_end": 413,
+                    "indent": 4,
+                    "name": "exchange_has"
+                }
+            },
+            "test_dry_run_order": {
+                "line": 773,
+                "line_end": 783,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 465,
+                    "line_end": 485,
+                    "indent": 4,
+                    "name": "dry_run_order"
+                }
+            },
+            "test_create_order": {
+                "line": 797,
+                "line_end": 822,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 530,
+                    "indent": 4,
+                    "name": "create_order"
+                }
+            },
+            "test_get_balance_dry_run": {
+                "line": 1087,
+                "line_end": 1092,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 579,
+                    "line_end": 589,
+                    "indent": 4,
+                    "name": "get_balance"
+                }
+            },
+            "test_get_balance_prod": {
+                "line": 1096,
+                "line_end": 1115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 579,
+                    "line_end": 589,
+                    "indent": 4,
+                    "name": "get_balance"
+                }
+            },
+            "test_get_balances_dry_run": {
+                "line": 1118,
+                "line_end": 1121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 592,
+                    "line_end": 609,
+                    "indent": 4,
+                    "name": "get_balances"
+                }
+            },
+            "test_get_balances_prod": {
+                "line": 1125,
+                "line_end": 1146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 592,
+                    "line_end": 609,
+                    "indent": 4,
+                    "name": "get_balances"
+                }
+            },
+            "test_get_tickers": {
+                "line": 1150,
+                "line_end": 1186,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 612,
+                    "line_end": 623,
+                    "indent": 4,
+                    "name": "get_tickers"
+                }
+            },
+            "test_fetch_ticker": {
+                "line": 1190,
+                "line_end": 1234,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 626,
+                    "line_end": 636,
+                    "indent": 4,
+                    "name": "fetch_ticker"
+                }
+            },
+            "test_get_historic_ohlcv": {
+                "line": 1238,
+                "line_end": 1262,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 638,
+                    "line_end": 651,
+                    "indent": 4,
+                    "name": "get_historic_ohlcv"
+                }
+            },
+            "test_refresh_latest_ohlcv": {
+                "line": 1265,
+                "line_end": 1314,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 679,
+                    "line_end": 721,
+                    "indent": 4,
+                    "name": "refresh_latest_ohlcv"
+                }
+            },
+            "test__async_get_candle_history": {
+                "line": 1319,
+                "line_end": 1364,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 731,
+                    "line_end": 771,
+                    "indent": 4,
+                    "name": "_async_get_candle_history"
+                }
+            },
+            "test__async_get_candle_history_empty": {
+                "line": 1368,
+                "line_end": 1385,
+                "indent": 0,
+                "focal_class": "Exchange",
+                "focal_method": {
+                    "line": 731,
+                    "line_end": 771,
+                    "indent": 4,
+                    "name": "_async_get_candle_history"
+                }
+            },
+            "test_refresh_latest_ohlcv_inv_result": {
+                "line": 1388,
+                "line_end": 1412,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 679,
+                    "line_end": 721,
+                    "indent": 4,
+                    "name": "refresh_latest_ohlcv"
+                }
+            },
+            "test_fetch_l2_order_book": {
+                "line": 1416,
+                "line_end": 1426,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1001,
+                    "line_end": 1019,
+                    "indent": 4,
+                    "name": "fetch_l2_order_book"
+                }
+            },
+            "test_fetch_l2_order_book_exception": {
+                "line": 1430,
+                "line_end": 1443,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1001,
+                    "line_end": 1019,
+                    "indent": 4,
+                    "name": "fetch_l2_order_book"
+                }
+            },
+            "test___async_get_candle_history_sort": {
+                "line": 1457,
+                "line_end": 1534,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 731,
+                    "line_end": 771,
+                    "indent": 4,
+                    "name": "_async_get_candle_history"
+                }
+            },
+            "test__async_fetch_trades": {
+                "line": 1539,
+                "line_end": 1582,
+                "indent": 0,
+                "focal_class": "Exchange",
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 805,
+                    "indent": 4,
+                    "name": "_async_fetch_trades"
+                }
+            },
+            "test__async_get_trade_history_id": {
+                "line": 1587,
+                "line_end": 1622,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 807,
+                    "line_end": 851,
+                    "indent": 4,
+                    "name": "_async_get_trade_history_id"
+                }
+            },
+            "test__async_get_trade_history_time": {
+                "line": 1627,
+                "line_end": 1658,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 853,
+                    "line_end": 880,
+                    "indent": 4,
+                    "name": "_async_get_trade_history_time"
+                }
+            },
+            "test__async_get_trade_history_time_empty": {
+                "line": 1663,
+                "line_end": 1689,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 853,
+                    "line_end": 880,
+                    "indent": 4,
+                    "name": "_async_get_trade_history_time"
+                }
+            },
+            "test_get_historic_trades": {
+                "line": 1693,
+                "line_end": 1710,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 903,
+                    "line_end": 922,
+                    "indent": 4,
+                    "name": "get_historic_trades"
+                }
+            },
+            "test_get_historic_trades_notsupported": {
+                "line": 1714,
+                "line_end": 1724,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 903,
+                    "line_end": 922,
+                    "indent": 4,
+                    "name": "get_historic_trades"
+                }
+            },
+            "test_cancel_order_dry_run": {
+                "line": 1728,
+                "line_end": 1731,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 933,
+                    "line_end": 946,
+                    "indent": 4,
+                    "name": "cancel_order"
+                }
+            },
+            "test_check_order_canceled_empty": {
+                "line": 1743,
+                "line_end": 1745,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 924,
+                    "line_end": 930,
+                    "indent": 4,
+                    "name": "check_order_canceled_empty"
+                }
+            },
+            "test_is_cancel_order_result_suitable": {
+                "line": 1758,
+                "line_end": 1760,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 948,
+                    "line_end": 953,
+                    "indent": 4,
+                    "name": "is_cancel_order_result_suitable"
+                }
+            },
+            "test_cancel_order_with_result": {
+                "line": 1768,
+                "line_end": 1778,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 955,
+                    "line_end": 977,
+                    "indent": 4,
+                    "name": "cancel_order_with_result"
+                }
+            },
+            "test_cancel_order_with_result_error": {
+                "line": 1782,
+                "line_end": 1793,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 955,
+                    "line_end": 977,
+                    "indent": 4,
+                    "name": "cancel_order_with_result"
+                }
+            },
+            "test_cancel_order": {
+                "line": 1798,
+                "line_end": 1813,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 933,
+                    "line_end": 946,
+                    "indent": 4,
+                    "name": "cancel_order"
+                }
+            },
+            "test_get_order": {
+                "line": 1817,
+                "line_end": 1842,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 980,
+                    "line_end": 998,
+                    "indent": 4,
+                    "name": "get_order"
+                }
+            },
+            "test_get_trades_for_order": {
+                "line": 1854,
+                "line_end": 1901,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1022,
+                    "line_end": 1056,
+                    "indent": 4,
+                    "name": "get_trades_for_order"
+                }
+            },
+            "test_get_fee": {
+                "line": 1905,
+                "line_end": 1918,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1059,
+                    "line_end": 1072,
+                    "indent": 4,
+                    "name": "get_fee"
+                }
+            },
+            "test_get_valid_pair_combination": {
+                "line": 1964,
+                "line_end": 1976,
+                "indent": 0,
+                "focal_class": "Exchange",
+                "focal_method": {
+                    "line": 343,
+                    "line_end": 350,
+                    "indent": 4,
+                    "name": "get_valid_pair_combination"
+                }
+            },
+            "test_get_markets": {
+                "line": 2035,
+                "line_end": 2046,
+                "indent": 0,
+                "focal_class": "Exchange",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 220,
+                    "indent": 4,
+                    "name": "get_markets"
+                }
+            },
+            "test_timeframe_to_minutes": {
+                "line": 2049,
+                "line_end": 2053,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1170,
+                    "line_end": 1174,
+                    "indent": 0,
+                    "name": "timeframe_to_minutes"
+                }
+            },
+            "test_timeframe_to_seconds": {
+                "line": 2056,
+                "line_end": 2060,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1161,
+                    "line_end": 1167,
+                    "indent": 0,
+                    "name": "timeframe_to_seconds"
+                }
+            },
+            "test_timeframe_to_msecs": {
+                "line": 2063,
+                "line_end": 2067,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1177,
+                    "line_end": 1181,
+                    "indent": 0,
+                    "name": "timeframe_to_msecs"
+                }
+            },
+            "test_timeframe_to_prev_date": {
+                "line": 2070,
+                "line_end": 2092,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1184,
+                    "line_end": 1196,
+                    "indent": 0,
+                    "name": "timeframe_to_prev_date"
+                }
+            },
+            "test_timeframe_to_next_date": {
+                "line": 2095,
+                "line_end": 2117,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1199,
+                    "line_end": 1210,
+                    "indent": 0,
+                    "name": "timeframe_to_next_date"
+                }
+            },
+            "test_symbol_is_pair": {
+                "line": 2137,
+                "line_end": 2138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1213,
+                    "line_end": 1224,
+                    "indent": 0,
+                    "name": "symbol_is_pair"
+                }
+            },
+            "test_market_is_active": {
+                "line": 2146,
+                "line_end": 2147,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1227,
+                    "line_end": 1235,
+                    "indent": 0,
+                    "name": "market_is_active"
+                }
+            },
+            "test_order_has_fee": {
+                "line": 2157,
+                "line_end": 2158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1075,
+                    "line_end": 1088,
+                    "indent": 4,
+                    "name": "order_has_fee"
+                }
+            },
+            "test_extract_cost_curr_rate": {
+                "line": 2169,
+                "line_end": 2172,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1117,
+                    "line_end": 1126,
+                    "indent": 4,
+                    "name": "extract_cost_curr_rate"
+                }
+            },
+            "test_calculate_fee_rate": {
+                "line": 2198,
+                "line_end": 2202,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1090,
+                    "line_end": 1115,
+                    "indent": 4,
+                    "name": "calculate_fee_rate"
+                }
+            }
+        }
+    },
+    "tests/optimize/test_backtest_detail.py": {
+        "focal_file": "freqtrade/optimize/backtesting.py",
+        "methods": {
+            "test_backtest_results": {
+                "line": 357,
+                "line_end": 399,
+                "indent": 0,
+                "focal_class": "Backtesting",
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 362,
+                    "indent": 4,
+                    "name": "backtest"
+                }
+            }
+        }
+    },
+    "tests/optimize/test_backtesting.py": {
+        "focal_file": "freqtrade/optimize/backtesting.py",
+        "methods": {
+            "test_backtesting_start": {
+                "line": 329,
+                "line_end": 355,
+                "indent": 0,
+                "focal_class": "Backtesting",
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 414,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_backtesting_start_no_data": {
+                "line": 358,
+                "line_end": 377,
+                "indent": 0,
+                "focal_class": "Backtesting",
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 414,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_backtest": {
+                "line": 403,
+                "line_end": 453,
+                "indent": 0,
+                "focal_class": "Backtesting",
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 362,
+                    "indent": 4,
+                    "name": "backtest"
+                }
+            },
+            "test_backtest_1min_ticker_interval": {
+                "line": 456,
+                "line_end": 477,
+                "indent": 0,
+                "focal_class": "Backtesting",
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 362,
+                    "indent": 4,
+                    "name": "backtest"
+                }
+            },
+            "test_backtest_only_sell": {
+                "line": 518,
+                "line_end": 530,
+                "indent": 0,
+                "focal_class": "Backtesting",
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 362,
+                    "indent": 4,
+                    "name": "backtest"
+                }
+            },
+            "test_backtest_multi_pair": {
+                "line": 552,
+                "line_end": 609,
+                "indent": 0,
+                "focal_class": "Backtesting",
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 362,
+                    "indent": 4,
+                    "name": "backtest"
+                }
+            }
+        }
+    },
+    "tests/optimize/test_hyperopt.py": {
+        "focal_file": "freqtrade/optimize/hyperopt.py",
+        "methods": {
+            "test_save_results_saves_epochs": {
+                "line": 481,
+                "line_end": 495,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "_save_results"
+                }
+            },
+            "test_read_results_returns_epochs": {
+                "line": 498,
+                "line_end": 505,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "_read_results"
+                }
+            },
+            "test_format_results": {
+                "line": 575,
+                "line_end": 614,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 553,
+                    "line_end": 563,
+                    "indent": 4,
+                    "name": "_format_results_explanation_string"
+                }
+            },
+            "test_has_space": {
+                "line": 645,
+                "line_end": 648,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 431,
+                    "line_end": 439,
+                    "indent": 4,
+                    "name": "has_space"
+                }
+            },
+            "test_generate_optimizer": {
+                "line": 688,
+                "line_end": 788,
+                "indent": 0,
+                "focal_class": "Hyperopt",
+                "focal_method": {
+                    "line": 472,
+                    "line_end": 517,
+                    "indent": 4,
+                    "name": "generate_optimizer"
+                }
+            }
+        }
+    },
+    "tests/optimize/test_optimize_reports.py": {
+        "focal_file": "freqtrade/optimize/optimize_reports.py",
+        "methods": {
+            "test_generate_text_table": {
+                "line": 16,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "generate_text_table"
+                }
+            },
+            "test_generate_pair_metrics": {
+                "line": 47,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "generate_pair_metrics"
+                }
+            },
+            "test_generate_text_table_sell_reason": {
+                "line": 72,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "generate_text_table_sell_reason"
+                }
+            },
+            "test_generate_sell_reason_stats": {
+                "line": 104,
+                "line_end": 136,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "generate_sell_reason_stats"
+                }
+            },
+            "test_generate_text_table_strategy": {
+                "line": 139,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "generate_text_table_strategy"
+                }
+            },
+            "test_generate_edge_table": {
+                "line": 184,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 246,
+                    "indent": 0,
+                    "name": "generate_edge_table"
+                }
+            },
+            "test_backtest_record": {
+                "line": 194,
+                "line_end": 265,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "store_backtest_result"
+                }
+            }
+        }
+    },
+    "tests/pairlist/test_pairlist.py": {
+        "focal_file": "freqtrade/pairlist/pairlistmanager.py",
+        "methods": {
+            "test_refresh_market_pair_not_in_whitelist": {
+                "line": 102,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "refresh_pairlist"
+                }
+            },
+            "test_refresh_static_pairlist": {
+                "line": 117,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "refresh_pairlist"
+                }
+            },
+            "test_refresh_pairlist_dynamic": {
+                "line": 132,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": "PairListManager",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "refresh_pairlist"
+                }
+            },
+            "test_refresh_pairlist_dynamic_2": {
+                "line": 157,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "refresh_pairlist"
+                }
+            },
+            "test_VolumePairList_refresh_empty": {
+                "line": 187,
+                "line_end": 201,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "refresh_pairlist"
+                }
+            }
+        }
+    },
+    "tests/rpc/test_fiat_convert.py": {
+        "focal_file": "freqtrade/rpc/fiat_convert.py",
+        "methods": {
+            "test_pair_convertion_object": {
+                "line": 14,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": "CryptoFiat",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "set_price"
+                }
+            },
+            "test_fiat_convert_is_supported": {
+                "line": 42,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_is_supported_fiat"
+                }
+            },
+            "test_fiat_convert_add_pair": {
+                "line": 50,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "_add_pair"
+                }
+            },
+            "test_fiat_convert_find_price": {
+                "line": 72,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "_find_price"
+                }
+            },
+            "test_fiat_convert_unsupported_crypto": {
+                "line": 90,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "_find_price"
+                }
+            },
+            "test_fiat_convert_get_price": {
+                "line": 97,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "get_price"
+                }
+            },
+            "test_fiat_convert_same_currencies": {
+                "line": 129,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "get_price"
+                }
+            },
+            "test_fiat_convert_two_FIAT": {
+                "line": 135,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "get_price"
+                }
+            },
+            "test_fiat_convert_without_network": {
+                "line": 165,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "_find_price"
+                }
+            },
+            "test_convert_amount": {
+                "line": 196,
+                "line_end": 219,
+                "indent": 0,
+                "focal_class": "CryptoToFiatConverter",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "convert_amount"
+                }
+            }
+        }
+    },
+    "tests/rpc/test_rpc_apiserver.py": {
+        "focal_file": "freqtrade/rpc/api_server.py",
+        "methods": {
+            "test_api_run": {
+                "line": 173,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": "ApiServer",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_api_cleanup": {
+                "line": 229,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": "ApiServer",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "cleanup"
+                }
+            }
+        }
+    },
+    "tests/rpc/test_rpc_telegram.py": {
+        "focal_file": "freqtrade/rpc/telegram.py",
+        "methods": {
+            "test_cleanup": {
+                "line": 82,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "cleanup"
+                }
+            },
+            "test_status": {
+                "line": 146,
+                "line_end": 193,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_status"
+                }
+            },
+            "test_status_handle": {
+                "line": 196,
+                "line_end": 243,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_status"
+                }
+            },
+            "test_status_table_handle": {
+                "line": 246,
+                "line_end": 290,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "_status_table"
+                }
+            },
+            "test_profit_handle": {
+                "line": 402,
+                "line_end": 454,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 303,
+                    "line_end": 345,
+                    "indent": 4,
+                    "name": "_profit"
+                }
+            },
+            "test_telegram_balance_handle": {
+                "line": 457,
+                "line_end": 486,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 348,
+                    "line_end": 384,
+                    "indent": 4,
+                    "name": "_balance"
+                }
+            },
+            "test_stopbuy_handle": {
+                "line": 649,
+                "line_end": 665,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 432,
+                    "indent": 4,
+                    "name": "_stopbuy"
+                }
+            },
+            "test_reload_conf_handle": {
+                "line": 668,
+                "line_end": 684,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 411,
+                    "line_end": 420,
+                    "indent": 4,
+                    "name": "_reload_conf"
+                }
+            },
+            "test_forcesell_handle": {
+                "line": 687,
+                "line_end": 737,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_forcesell"
+                }
+            },
+            "test_forcesell_down_handle": {
+                "line": 740,
+                "line_end": 796,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_forcesell"
+                }
+            },
+            "test_forcesell_all_handle": {
+                "line": 799,
+                "line_end": 844,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_forcesell"
+                }
+            },
+            "test_forcebuy_handle": {
+                "line": 890,
+                "line_end": 926,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 453,
+                    "line_end": 467,
+                    "indent": 4,
+                    "name": "_forcebuy"
+                }
+            },
+            "test_performance_handle": {
+                "line": 949,
+                "line_end": 982,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 470,
+                    "line_end": 489,
+                    "indent": 4,
+                    "name": "_performance"
+                }
+            },
+            "test_whitelist_static": {
+                "line": 1023,
+                "line_end": 1037,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 512,
+                    "line_end": 526,
+                    "indent": 4,
+                    "name": "_whitelist"
+                }
+            },
+            "test_whitelist_dynamic": {
+                "line": 1040,
+                "line_end": 1058,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 512,
+                    "line_end": 526,
+                    "indent": 4,
+                    "name": "_whitelist"
+                }
+            },
+            "test_blacklist_static": {
+                "line": 1061,
+                "line_end": 1086,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 529,
+                    "line_end": 544,
+                    "indent": 4,
+                    "name": "_blacklist"
+                }
+            },
+            "test_version_handle": {
+                "line": 1145,
+                "line_end": 1157,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 599,
+                    "line_end": 607,
+                    "indent": 4,
+                    "name": "_version"
+                }
+            },
+            "test_show_config_handle": {
+                "line": 1160,
+                "line_end": 1184,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 610,
+                    "line_end": 640,
+                    "indent": 4,
+                    "name": "_show_config"
+                }
+            },
+            "test__send_msg": {
+                "line": 1473,
+                "line_end": 1483,
+                "indent": 0,
+                "focal_class": "Telegram",
+                "focal_method": {
+                    "line": 642,
+                    "line_end": 682,
+                    "indent": 4,
+                    "name": "_send_msg"
+                }
+            }
+        }
+    },
+    "tests/rpc/test_rpc_webhook.py": {
+        "focal_file": "freqtrade/rpc/webhook.py",
+        "methods": {
+            "test_send_msg": {
+                "line": 52,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": "Webhook",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "send_msg"
+                }
+            },
+            "test_exception_send_msg": {
+                "line": 171,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": "Webhook",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "send_msg"
+                }
+            },
+            "test__send_msg": {
+                "line": 210,
+                "line_end": 227,
+                "indent": 0,
+                "focal_class": "Webhook",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "_send_msg"
+                }
+            }
+        }
+    },
+    "tests/strategy/test_strategy.py": {
+        "focal_file": "freqtrade/strategy/interface.py",
+        "methods": {
+            "test_deprecate_populate_indicators": {
+                "line": 326,
+                "line_end": 356,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 506,
+                    "line_end": 520,
+                    "indent": 4,
+                    "name": "advise_indicators"
+                }
+            }
+        }
+    }
+}

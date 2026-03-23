@@ -1,0 +1,2735 @@
+{
+    "examples/test/test_i_basic_encryption.py": {
+        "focal_file": "examples/src/basic_encryption.py",
+        "methods": {
+            "test_cycle_string": {
+                "line": 24,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "cycle_string"
+                }
+            }
+        }
+    },
+    "examples/test/test_i_basic_file_encryption_with_multiple_providers.py": {
+        "focal_file": "examples/src/basic_file_encryption_with_multiple_providers.py",
+        "methods": {
+            "test_cycle_file": {
+                "line": 28,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 135,
+                    "indent": 0,
+                    "name": "cycle_file"
+                }
+            }
+        }
+    },
+    "examples/test/test_i_basic_file_encryption_with_raw_key_provider.py": {
+        "focal_file": "examples/src/basic_file_encryption_with_raw_key_provider.py",
+        "methods": {
+            "test_cycle_file": {
+                "line": 26,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "cycle_file"
+                }
+            }
+        }
+    },
+    "examples/test/test_i_data_key_caching_basic.py": {
+        "focal_file": "examples/src/data_key_caching_basic.py",
+        "methods": {
+            "test_encrypt_with_caching": {
+                "line": 23,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "encrypt_with_caching"
+                }
+            }
+        }
+    },
+    "test/functional/test_f_commitment.py": {
+        "focal_file": "src/aws_encryption_sdk/__init__.py",
+        "methods": {
+            "test_encrypt_with_committing_algorithm_policy_forbids_encrypt": {
+                "line": 105,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_encrypt_with_committing_algorithm_allow_decrypt": {
+                "line": 132,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "decrypt"
+                }
+            },
+            "test_encrypt_with_uncommitting_algorithm_policy_requires_encrypt": {
+                "line": 158,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_encrypt_with_committing_algorithm_policy_requires_encrypt": {
+                "line": 176,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_encrypt_with_uncommitting_algorithm_allow_decrypt": {
+                "line": 196,
+                "line_end": 216,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "decrypt"
+                }
+            },
+            "test_encrypt_with_uncommitting_algorithm_require_decrypt": {
+                "line": 219,
+                "line_end": 237,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "decrypt"
+                }
+            }
+        }
+    },
+    "test/functional/test_f_crypto.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/authentication.py",
+        "methods": {
+            "test_signer_key_bytes_cycle": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": "Signer",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "key_bytes"
+                }
+            }
+        }
+    },
+    "test/functional/test_f_crypto_iv.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/iv.py",
+        "methods": {
+            "test_framed_iv": {
+                "line": 41,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "frame_iv"
+                }
+            },
+            "test_non_framed_body_iv": {
+                "line": 53,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "non_framed_body_iv"
+                }
+            },
+            "test_header_auth_iv": {
+                "line": 57,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "header_auth_iv"
+                }
+            }
+        }
+    },
+    "test/functional/key_providers/test_base.py": {
+        "focal_file": "src/aws_encryption_sdk/key_providers/base.py",
+        "methods": {
+            "test_decrypt_data_keys": {
+                "line": 124,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 324,
+                    "indent": 4,
+                    "name": "decrypt_data_key_from_list"
+                }
+            }
+        }
+    },
+    "test/unit/test_algorithm_suite.py": {
+        "focal_file": "src/aws_encryption_sdk/identifiers.py",
+        "methods": {
+            "test_committing_suites_properties": {
+                "line": 26,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "is_committing"
+                }
+            },
+            "test_noncommitting_suites_properties": {
+                "line": 46,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "is_committing"
+                }
+            }
+        }
+    },
+    "test/unit/test_arn.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/arn.py",
+        "methods": {
+            "test_mrk_arn_is_valid_mrk": {
+                "line": 179,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "is_valid_mrk_arn_str"
+                }
+            },
+            "test_non_mrk_arn_is_not_valid_mrk": {
+                "line": 192,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "is_valid_mrk_arn_str"
+                }
+            },
+            "test_alias_arn_is_not_valid_mrk": {
+                "line": 201,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "is_valid_mrk_arn_str"
+                }
+            },
+            "test_is_valid_mrk_arn_str_throw_on_invalid_arn": {
+                "line": 213,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "is_valid_mrk_arn_str"
+                }
+            },
+            "test_is_valid_mrk_arn_str_throw_on_bare_id": {
+                "line": 218,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "is_valid_mrk_arn_str"
+                }
+            },
+            "test_mrk_arn_is_valid_mrk_identifier": {
+                "line": 229,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "is_valid_mrk_identifier"
+                }
+            },
+            "test_bare_mrk_id_is_valid_mrk_identifier": {
+                "line": 243,
+                "line_end": 249,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "is_valid_mrk_identifier"
+                }
+            },
+            "test_alias_arn_is_not_valid_mrk_identifier": {
+                "line": 251,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "is_valid_mrk_identifier"
+                }
+            },
+            "test_bare_alias_is_not_valid_mrk_identifier": {
+                "line": 255,
+                "line_end": 261,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "is_valid_mrk_identifier"
+                }
+            },
+            "test_bare_srk_id_is_not_valid_mrk_identifier": {
+                "line": 263,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "is_valid_mrk_identifier"
+                }
+            },
+            "test_srk_arn_is_not_valid_mrk_identifier": {
+                "line": 272,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "is_valid_mrk_identifier"
+                }
+            }
+        }
+    },
+    "test/unit/test_caches_local.py": {
+        "focal_file": "src/aws_encryption_sdk/caches/local.py",
+        "methods": {
+            "test_try_to_evict_one_entry_lre_empty": {
+                "line": 71,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_try_to_evict_one_entry"
+                }
+            },
+            "test_try_to_evict_one_entry_dead_reference": {
+                "line": 81,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_try_to_evict_one_entry"
+                }
+            },
+            "test_try_to_evict_one_entry_entry_invalid": {
+                "line": 92,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_try_to_evict_one_entry"
+                }
+            },
+            "test_try_to_evict_one_entry_entry_too_old": {
+                "line": 106,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_try_to_evict_one_entry"
+                }
+            },
+            "test_try_to_evict_one_entry_entry_valid": {
+                "line": 121,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_try_to_evict_one_entry"
+                }
+            },
+            "test_try_to_evict_some_entries": {
+                "line": 141,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "_try_to_evict_some_entries"
+                }
+            },
+            "test_prune": {
+                "line": 149,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "_prune"
+                }
+            },
+            "test_add_value_to_cache": {
+                "line": 174,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "_add_value_to_cache"
+                }
+            },
+            "test_put_encryption_materials": {
+                "line": 204,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "put_encryption_materials"
+                }
+            },
+            "test_put_decryption_materials": {
+                "line": 224,
+                "line_end": 231,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "put_decryption_materials"
+                }
+            },
+            "test_get_single_entry_cache_miss": {
+                "line": 261,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 182,
+                    "indent": 4,
+                    "name": "_get_single_entry"
+                }
+            },
+            "test_get_single_entry_cache_hit_invalid": {
+                "line": 272,
+                "line_end": 281,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 182,
+                    "indent": 4,
+                    "name": "_get_single_entry"
+                }
+            },
+            "test_get_single_entry_cache_hit_valid": {
+                "line": 284,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 182,
+                    "indent": 4,
+                    "name": "_get_single_entry"
+                }
+            },
+            "test_get_encryption_materials": {
+                "line": 300,
+                "line_end": 309,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_clear": {
+                "line": 321,
+                "line_end": 329,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            }
+        }
+    },
+    "test/unit/test_caches_null.py": {
+        "focal_file": "src/aws_encryption_sdk/caches/null.py",
+        "methods": {
+            "test_put_encryption_materials": {
+                "line": 25,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "NullCryptoMaterialsCache",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "put_encryption_materials"
+                }
+            },
+            "test_put_decryption_materials": {
+                "line": 38,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "NullCryptoMaterialsCache",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "put_decryption_materials"
+                }
+            }
+        }
+    },
+    "test/unit/test_crypto_authentication_signer.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/authentication.py",
+        "methods": {
+            "test_f_signer_from_key_bytes": {
+                "line": 63,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": "Signer",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "from_key_bytes"
+                }
+            },
+            "test_f_signer_key_bytes": {
+                "line": 69,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": "Signer",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "key_bytes"
+                }
+            },
+            "test_signer_from_key_bytes": {
+                "line": 74,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "from_key_bytes"
+                }
+            },
+            "test_signer_key_bytes": {
+                "line": 86,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": "Signer",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "key_bytes"
+                }
+            },
+            "test_signer_encoded_public_key": {
+                "line": 100,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": "Signer",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "encoded_public_key"
+                }
+            },
+            "test_signer_update": {
+                "line": 115,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": "Signer",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_signer_finalize": {
+                "line": 121,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": "Signer",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "finalize"
+                }
+            }
+        }
+    },
+    "test/unit/test_crypto_authentication_verifier.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/authentication.py",
+        "methods": {
+            "test_f_verifier_from_key_bytes": {
+                "line": 75,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": "Verifier",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "from_key_bytes"
+                }
+            },
+            "test_f_verifier_key_bytes": {
+                "line": 81,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": "Verifier",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "key_bytes"
+                }
+            },
+            "test_verifier_from_encoded_point": {
+                "line": 86,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "from_encoded_point"
+                }
+            },
+            "test_verifier_update": {
+                "line": 110,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": "Verifier",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_verifier_verify": {
+                "line": 116,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": "Verifier",
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "verify"
+                }
+            }
+        }
+    },
+    "test/unit/test_crypto_data_keys.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/data_keys.py",
+        "methods": {
+            "test_derive_data_encryption_key_with_hkdf": {
+                "line": 35,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "derive_data_encryption_key"
+                }
+            },
+            "test_derive_data_encryption_key_no_hkdf": {
+                "line": 74,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "derive_data_encryption_key"
+                }
+            },
+            "test_calculate_commitment_key": {
+                "line": 82,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "calculate_commitment_key"
+                }
+            }
+        }
+    },
+    "test/unit/test_crypto_elliptic_curve.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/elliptic_curve.py",
+        "methods": {
+            "test_ecc_static_length_signature_first_try": {
+                "line": 249,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "_ecc_static_length_signature"
+                }
+            },
+            "test_ecc_static_length_signature_single_negation": {
+                "line": 264,
+                "line_end": 277,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "_ecc_static_length_signature"
+                }
+            },
+            "test_ecc_static_length_signature_recalculate": {
+                "line": 280,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "_ecc_static_length_signature"
+                }
+            },
+            "test_ecc_encode_compressed_point_prime": {
+                "line": 296,
+                "line_end": 298,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "_ecc_encode_compressed_point"
+                }
+            },
+            "test_ecc_encode_compressed_point_characteristic_two": {
+                "line": 301,
+                "line_end": 305,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "_ecc_encode_compressed_point"
+                }
+            },
+            "test_ecc_decode_compressed_point_infinity": {
+                "line": 308,
+                "line_end": 312,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_ecc_decode_compressed_point"
+                }
+            },
+            "test_ecc_decode_compressed_point_prime": {
+                "line": 315,
+                "line_end": 319,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_ecc_decode_compressed_point"
+                }
+            },
+            "test_ecc_decode_compressed_point_prime_characteristic_two": {
+                "line": 325,
+                "line_end": 328,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_ecc_decode_compressed_point"
+                }
+            },
+            "test_ecc_decode_compressed_point_prime_not_characteristic_two": {
+                "line": 334,
+                "line_end": 337,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_ecc_decode_compressed_point"
+                }
+            },
+            "test_ecc_decode_compressed_point_prime_unsupported": {
+                "line": 340,
+                "line_end": 344,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_ecc_decode_compressed_point"
+                }
+            },
+            "test_ecc_decode_compressed_point_prime_complex": {
+                "line": 347,
+                "line_end": 354,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_ecc_decode_compressed_point"
+                }
+            },
+            "test_ecc_decode_compressed_point_nonprime_characteristic_two": {
+                "line": 357,
+                "line_end": 361,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_ecc_decode_compressed_point"
+                }
+            },
+            "test_ecc_public_numbers_from_compressed_point": {
+                "line": 364,
+                "line_end": 374,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "_ecc_public_numbers_from_compressed_point"
+                }
+            },
+            "test_generate_ecc_signing_key_supported": {
+                "line": 377,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "generate_ecc_signing_key"
+                }
+            },
+            "test_generate_ecc_signing_key_unsupported": {
+                "line": 391,
+                "line_end": 401,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "generate_ecc_signing_key"
+                }
+            }
+        }
+    },
+    "test/unit/test_crypto_encryption_decryptor.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/encryption.py",
+        "methods": {
+            "test_decryptor_update": {
+                "line": 62,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": "Decryptor",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_decryptor_finalize": {
+                "line": 73,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": "Decryptor",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "finalize"
+                }
+            },
+            "test_decrypt": {
+                "line": 84,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "decrypt"
+                }
+            }
+        }
+    },
+    "test/unit/test_crypto_encryption_encryptor.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/encryption.py",
+        "methods": {
+            "test_encryptor_update": {
+                "line": 61,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": "Encryptor",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_encryptor_finalize": {
+                "line": 70,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": "Encryptor",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "finalize"
+                }
+            },
+            "test_encrypt": {
+                "line": 87,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "encrypt"
+                }
+            }
+        }
+    },
+    "test/unit/test_crypto_wrapping_keys.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/crypto/wrapping_keys.py",
+        "methods": {
+            "test_wrapping_key_encrypt_symmetric": {
+                "line": 146,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": "WrappingKey",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_wrapping_key_encrypt_private": {
+                "line": 178,
+                "line_end": 199,
+                "indent": 0,
+                "focal_class": "WrappingKey",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_wrapping_key_encrypt_public": {
+                "line": 202,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": "WrappingKey",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_wrapping_key_decrypt_symmetric": {
+                "line": 225,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": "WrappingKey",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "decrypt"
+                }
+            },
+            "test_wrapping_key_decrypt_private": {
+                "line": 251,
+                "line_end": 271,
+                "indent": 0,
+                "focal_class": "WrappingKey",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "decrypt"
+                }
+            },
+            "test_wrapping_key_decrypt_public": {
+                "line": 274,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": "WrappingKey",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "decrypt"
+                }
+            }
+        }
+    },
+    "test/unit/test_deserialize.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/formatting/deserialize.py",
+        "methods": {
+            "test_deserialize_non_framed_values": {
+                "line": 36,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 429,
+                    "indent": 0,
+                    "name": "deserialize_non_framed_values"
+                }
+            },
+            "test_deserialize_tag": {
+                "line": 50,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 447,
+                    "indent": 0,
+                    "name": "deserialize_tag"
+                }
+            },
+            "test_deserialize_header_auth": {
+                "line": 234,
+                "line_end": 242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 392,
+                    "line_end": 412,
+                    "indent": 0,
+                    "name": "deserialize_header_auth"
+                }
+            },
+            "test_deserialize_footer": {
+                "line": 297,
+                "line_end": 304,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 518,
+                    "indent": 0,
+                    "name": "deserialize_footer"
+                }
+            },
+            "test_unpack_values": {
+                "line": 317,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 521,
+                    "line_end": 539,
+                    "indent": 0,
+                    "name": "unpack_values"
+                }
+            },
+            "test_deserialize_encrypted_data_keys_no_max_encrypted_data_keys": {
+                "line": 429,
+                "line_end": 433,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "deserialize_encrypted_data_keys"
+                }
+            },
+            "test_deserialize_encrypted_data_keys_within_max_encrypted_data_keys": {
+                "line": 436,
+                "line_end": 440,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "deserialize_encrypted_data_keys"
+                }
+            },
+            "test_deserialize_encrypted_data_keys_over_max_encrypted_data_keys": {
+                "line": 442,
+                "line_end": 445,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "deserialize_encrypted_data_keys"
+                }
+            }
+        }
+    },
+    "test/unit/test_encryption_client.py": {
+        "focal_file": "src/aws_encryption_sdk/__init__.py",
+        "methods": {
+            "test_client_encrypt": {
+                "line": 55,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_client_decrypt": {
+                "line": 73,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "decrypt"
+                }
+            },
+            "test_client_stream_encrypt": {
+                "line": 92,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 271,
+                    "indent": 4,
+                    "name": "stream"
+                }
+            },
+            "test_client_stream_decrypt": {
+                "line": 111,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": "aws_encryption_sdk.EncryptionSDKClient",
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 271,
+                    "indent": 4,
+                    "name": "stream"
+                }
+            }
+        }
+    },
+    "test/unit/test_encryption_context.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/formatting/encryption_context.py",
+        "methods": {
+            "test_assemble_content_aad": {
+                "line": 27,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "assemble_content_aad"
+                }
+            },
+            "test_serialize_encryption_context_no_encryption_context": {
+                "line": 46,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "serialize_encryption_context"
+                }
+            },
+            "test_serialize_encryption_context_valid": {
+                "line": 90,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "serialize_encryption_context"
+                }
+            },
+            "test_deserialize_encryption_context_too_large": {
+                "line": 133,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "deserialize_encryption_context"
+                }
+            },
+            "test_deserialize_encryption_context_extra_data": {
+                "line": 160,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "deserialize_encryption_context"
+                }
+            },
+            "test_deserialize_encryption_context_valid": {
+                "line": 174,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "deserialize_encryption_context"
+                }
+            },
+            "test_deserialize_encryption_context_empty": {
+                "line": 184,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "deserialize_encryption_context"
+                }
+            }
+        }
+    },
+    "test/unit/test_identifiers.py": {
+        "focal_file": "src/aws_encryption_sdk/identifiers.py",
+        "methods": {
+            "test_algorithm_safe_to_cache": {
+                "line": 37,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "safe_to_cache"
+                }
+            },
+            "test_encryption_suite_invalid_kdf": {
+                "line": 45,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "valid_kdf"
+                }
+            },
+            "test_encryption_suite_valid_kdf": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "valid_kdf"
+                }
+            }
+        }
+    },
+    "test/unit/test_material_managers_caching.py": {
+        "focal_file": "src/aws_encryption_sdk/materials_managers/caching.py",
+        "methods": {
+            "test_cache_entry_has_encrypted_too_many_bytes": {
+                "line": 135,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "_cache_entry_has_encrypted_too_many_bytes"
+                }
+            },
+            "test_cache_entry_has_encrypted_too_many_messages": {
+                "line": 146,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_cache_entry_has_encrypted_too_many_messages"
+                }
+            },
+            "test_cache_entry_is_too_old": {
+                "line": 157,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "_cache_entry_is_too_old"
+                }
+            },
+            "test_cache_entry_has_exceeded_limits": {
+                "line": 179,
+                "line_end": 203,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "_cache_entry_has_exceeded_limits"
+                }
+            },
+            "test_should_cache_encryption_request": {
+                "line": 234,
+                "line_end": 246,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "_should_cache_encryption_request"
+                }
+            },
+            "test_get_encryption_materials_do_not_cache": {
+                "line": 256,
+                "line_end": 264,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_cache_hit_expired_entry": {
+                "line": 267,
+                "line_end": 311,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_cache_hit_good_entry": {
+                "line": 314,
+                "line_end": 328,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_cache_miss": {
+                "line": 331,
+                "line_end": 347,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_decrypt_materials_cache_hit_good_entry": {
+                "line": 396,
+                "line_end": 412,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "decrypt_materials"
+                }
+            },
+            "test_decrypt_materials_cache_miss": {
+                "line": 432,
+                "line_end": 440,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "decrypt_materials"
+                }
+            }
+        }
+    },
+    "test/unit/test_material_managers_default.py": {
+        "focal_file": "src/aws_encryption_sdk/materials_managers/default.py",
+        "methods": {
+            "test_generate_signing_key_and_update_encryption_context_no_signer": {
+                "line": 73,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "_generate_signing_key_and_update_encryption_context"
+                }
+            },
+            "test_generate_signing_key_and_update_encryption_context": {
+                "line": 83,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "_generate_signing_key_and_update_encryption_context"
+                }
+            },
+            "test_get_encryption_materials": {
+                "line": 111,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_override_algorithm": {
+                "line": 143,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_chooses_default_noncommitting": {
+                "line": 152,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_committing_algorithm_policy_forbids": {
+                "line": 188,
+                "line_end": 201,
+                "indent": 0,
+                "focal_class": "DefaultCryptoMaterialsManager",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_uncommitting_algorithm_policy_forbid": {
+                "line": 232,
+                "line_end": 243,
+                "indent": 0,
+                "focal_class": "DefaultCryptoMaterialsManager",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_no_mks": {
+                "line": 276,
+                "line_end": 284,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_get_encryption_materials_primary_mk_not_in_mks": {
+                "line": 287,
+                "line_end": 298,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_encryption_materials"
+                }
+            },
+            "test_load_verification_key_from_encryption_context_key_not_needed_and_not_found": {
+                "line": 301,
+                "line_end": 308,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "_load_verification_key_from_encryption_context"
+                }
+            },
+            "test_load_verification_key_from_encryption_context_key_is_needed_and_not_found": {
+                "line": 311,
+                "line_end": 319,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "_load_verification_key_from_encryption_context"
+                }
+            },
+            "test_load_verification_key_from_encryption_context_key_found_but_not_needed": {
+                "line": 322,
+                "line_end": 331,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "_load_verification_key_from_encryption_context"
+                }
+            },
+            "test_load_verification_key_from_encryption_context_key_is_needed_and_is_found": {
+                "line": 334,
+                "line_end": 349,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "_load_verification_key_from_encryption_context"
+                }
+            },
+            "test_decrypt_materials": {
+                "line": 353,
+                "line_end": 370,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "decrypt_materials"
+                }
+            },
+            "test_decrypt_materials_committing_alg": {
+                "line": 381,
+                "line_end": 401,
+                "indent": 0,
+                "focal_class": "DefaultCryptoMaterialsManager",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "decrypt_materials"
+                }
+            }
+        }
+    },
+    "test/unit/test_providers_base_master_key_provider.py": {
+        "focal_file": "src/aws_encryption_sdk/key_providers/base.py",
+        "methods": {
+            "test_master_keys_for_encryption": {
+                "line": 81,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "master_keys_for_encryption"
+                }
+            },
+            "test_master_keys_for_encryption_no_master_keys": {
+                "line": 122,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "master_keys_for_encryption"
+                }
+            },
+            "test_add_master_keys_from_list": {
+                "line": 134,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "add_master_keys_from_list"
+                }
+            },
+            "test_add_master_key_new": {
+                "line": 144,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "add_master_key"
+                }
+            },
+            "test_add_master_key_exists": {
+                "line": 155,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "add_master_key"
+                }
+            },
+            "test_add_master_key_providers_from_list": {
+                "line": 173,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "add_master_key_providers_from_list"
+                }
+            },
+            "test_master_key_provider": {
+                "line": 185,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "add_master_key_provider"
+                }
+            },
+            "test_master_key_to_bytes": {
+                "line": 192,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "master_key_for_encrypt"
+                }
+            },
+            "test_master_key_for_encrypt": {
+                "line": 201,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "master_key_for_encrypt"
+                }
+            },
+            "test_master_key_for_decrypt_in_encrypt_key_index": {
+                "line": 211,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "master_key_for_decrypt"
+                }
+            },
+            "test_master_key_for_decrypt_in_decrypt_key_index": {
+                "line": 224,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "master_key_for_decrypt"
+                }
+            },
+            "test_master_key_for_decrypt": {
+                "line": 237,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "master_key_for_decrypt"
+                }
+            },
+            "test_decrypt_data_key_successful": {
+                "line": 255,
+                "line_end": 283,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "decrypt_data_key"
+                }
+            },
+            "test_decrypt_data_key_from_list_first_try": {
+                "line": 536,
+                "line_end": 561,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 324,
+                    "indent": 4,
+                    "name": "decrypt_data_key_from_list"
+                }
+            },
+            "test_decrypt_data_key_from_list_second_try": {
+                "line": 563,
+                "line_end": 585,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 324,
+                    "indent": 4,
+                    "name": "decrypt_data_key_from_list"
+                }
+            },
+            "test_decrypt_data_key_from_list_unsuccessful": {
+                "line": 587,
+                "line_end": 607,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 324,
+                    "indent": 4,
+                    "name": "decrypt_data_key_from_list"
+                }
+            }
+        }
+    },
+    "test/unit/test_providers_raw_master_key_provider.py": {
+        "focal_file": "src/aws_encryption_sdk/key_providers/raw.py",
+        "methods": {
+            "test_new_master_key": {
+                "line": 57,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 226,
+                    "indent": 4,
+                    "name": "_new_master_key"
+                }
+            }
+        }
+    },
+    "test/unit/test_serialize.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/formatting/serialize.py",
+        "methods": {
+            "test_serialize_non_framed_open": {
+                "line": 206,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 287,
+                    "indent": 0,
+                    "name": "serialize_non_framed_open"
+                }
+            },
+            "test_serialize_non_framed_close": {
+                "line": 228,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 290,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "serialize_non_framed_close"
+                }
+            },
+            "test_encrypt_and_serialize_frame": {
+                "line": 246,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 373,
+                    "indent": 0,
+                    "name": "serialize_frame"
+                }
+            },
+            "test_encrypt_and_serialize_frame_no_signer": {
+                "line": 281,
+                "line_end": 296,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 373,
+                    "indent": 0,
+                    "name": "serialize_frame"
+                }
+            },
+            "test_encrypt_and_serialize_frame_final": {
+                "line": 299,
+                "line_end": 331,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 373,
+                    "indent": 0,
+                    "name": "serialize_frame"
+                }
+            }
+        }
+    },
+    "test/unit/test_streaming_client_encryption_stream.py": {
+        "focal_file": "src/aws_encryption_sdk/streaming_client.py",
+        "methods": {
+            "test_enter": {
+                "line": 136,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 223,
+                    "indent": 4,
+                    "name": "__enter__"
+                }
+            },
+            "test_read_closed": {
+                "line": 245,
+                "line_end": 257,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 719,
+                    "line_end": 722,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_tell": {
+                "line": 305,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 282,
+                    "indent": 4,
+                    "name": "tell"
+                }
+            },
+            "test_writable": {
+                "line": 316,
+                "line_end": 323,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 286,
+                    "indent": 4,
+                    "name": "writable"
+                }
+            },
+            "test_writelines": {
+                "line": 325,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 290,
+                    "indent": 4,
+                    "name": "writelines"
+                }
+            },
+            "test_write": {
+                "line": 338,
+                "line_end": 349,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 292,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_seek": {
+                "line": 351,
+                "line_end": 362,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "seek"
+                }
+            },
+            "test_readline": {
+                "line": 364,
+                "line_end": 380,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 306,
+                    "indent": 4,
+                    "name": "readline"
+                }
+            },
+            "test_readlines": {
+                "line": 383,
+                "line_end": 393,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 310,
+                    "indent": 4,
+                    "name": "readlines"
+                }
+            },
+            "test_next": {
+                "line": 395,
+                "line_end": 406,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 316,
+                    "line_end": 328,
+                    "indent": 4,
+                    "name": "next"
+                }
+            },
+            "test_next_stream_closed": {
+                "line": 408,
+                "line_end": 418,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 719,
+                    "line_end": 722,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "test/unit/test_streaming_client_stream_decryptor.py": {
+        "focal_file": "src/aws_encryption_sdk/streaming_client.py",
+        "methods": {
+            "test_prep_message_framed_message": {
+                "line": 135,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 505,
+                    "indent": 4,
+                    "name": "_prep_message"
+                }
+            },
+            "test_prep_message_non_framed_message": {
+                "line": 152,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 505,
+                    "indent": 4,
+                    "name": "_prep_message"
+                }
+            },
+            "test_read_header": {
+                "line": 166,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 798,
+                    "line_end": 862,
+                    "indent": 4,
+                    "name": "_read_header"
+                }
+            },
+            "test_read_header_frame_too_large": {
+                "line": 217,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 798,
+                    "line_end": 862,
+                    "indent": 4,
+                    "name": "_read_header"
+                }
+            },
+            "test_read_header_no_verifier": {
+                "line": 239,
+                "line_end": 252,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 798,
+                    "line_end": 862,
+                    "indent": 4,
+                    "name": "_read_header"
+                }
+            },
+            "test_prep_non_framed_content_length_too_large": {
+                "line": 353,
+                "line_end": 373,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 553,
+                    "line_end": 586,
+                    "indent": 4,
+                    "name": "_prep_non_framed"
+                }
+            },
+            "test_prep_non_framed": {
+                "line": 375,
+                "line_end": 392,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 553,
+                    "line_end": 586,
+                    "indent": 4,
+                    "name": "_prep_non_framed"
+                }
+            },
+            "test_read_bytes_from_non_framed": {
+                "line": 394,
+                "line_end": 434,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 882,
+                    "line_end": 925,
+                    "indent": 4,
+                    "name": "_read_bytes_from_non_framed_body"
+                }
+            },
+            "test_read_bytes_from_non_framed_message_body_too_small": {
+                "line": 436,
+                "line_end": 447,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 882,
+                    "line_end": 925,
+                    "indent": 4,
+                    "name": "_read_bytes_from_non_framed_body"
+                }
+            },
+            "test_read_bytes_from_non_framed_no_verifier": {
+                "line": 449,
+                "line_end": 463,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 882,
+                    "line_end": 925,
+                    "indent": 4,
+                    "name": "_read_bytes_from_non_framed_body"
+                }
+            },
+            "test_read_bytes_from_non_framed_finalize": {
+                "line": 465,
+                "line_end": 488,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 882,
+                    "line_end": 925,
+                    "indent": 4,
+                    "name": "_read_bytes_from_non_framed_body"
+                }
+            },
+            "test_read_bytes_from_framed_body_multi_frame_finalize": {
+                "line": 490,
+                "line_end": 626,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 927,
+                    "line_end": 967,
+                    "indent": 4,
+                    "name": "_read_bytes_from_framed_body"
+                }
+            },
+            "test_read_bytes_from_framed_body_single_frame": {
+                "line": 628,
+                "line_end": 654,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 927,
+                    "line_end": 967,
+                    "indent": 4,
+                    "name": "_read_bytes_from_framed_body"
+                }
+            },
+            "test_read_bytes_from_framed_body_bad_sequence_number": {
+                "line": 656,
+                "line_end": 672,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 927,
+                    "line_end": 967,
+                    "indent": 4,
+                    "name": "_read_bytes_from_framed_body"
+                }
+            },
+            "test_read_bytes_completed": {
+                "line": 676,
+                "line_end": 686,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_no_read_required": {
+                "line": 690,
+                "line_end": 700,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_framed": {
+                "line": 704,
+                "line_end": 715,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_non_framed": {
+                "line": 719,
+                "line_end": 730,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_unknown": {
+                "line": 734,
+                "line_end": 745,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_close": {
+                "line": 748,
+                "line_end": 758,
+                "indent": 4,
+                "focal_class": "StreamDecryptor",
+                "focal_method": {
+                    "line": 719,
+                    "line_end": 722,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "test/unit/test_streaming_client_stream_encryptor.py": {
+        "focal_file": "src/aws_encryption_sdk/streaming_client.py",
+        "methods": {
+            "test_prep_message_no_master_keys": {
+                "line": 196,
+                "line_end": 210,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 505,
+                    "indent": 4,
+                    "name": "_prep_message"
+                }
+            },
+            "test_prep_message_algorithm_change": {
+                "line": 272,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 505,
+                    "indent": 4,
+                    "name": "_prep_message"
+                }
+            },
+            "test_prep_message_framed_message": {
+                "line": 293,
+                "line_end": 353,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 505,
+                    "indent": 4,
+                    "name": "_prep_message"
+                }
+            },
+            "test_prep_message_non_framed_message": {
+                "line": 357,
+                "line_end": 367,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 505,
+                    "indent": 4,
+                    "name": "_prep_message"
+                }
+            },
+            "test_prep_message_no_signer": {
+                "line": 369,
+                "line_end": 381,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 505,
+                    "indent": 4,
+                    "name": "_prep_message"
+                }
+            },
+            "test_write_header": {
+                "line": 461,
+                "line_end": 491,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 542,
+                    "line_end": 551,
+                    "indent": 4,
+                    "name": "_write_header"
+                }
+            },
+            "test_prep_non_framed": {
+                "line": 494,
+                "line_end": 530,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 553,
+                    "line_end": 586,
+                    "indent": 4,
+                    "name": "_prep_non_framed"
+                }
+            },
+            "test_read_bytes_to_non_framed_body": {
+                "line": 532,
+                "line_end": 550,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 588,
+                    "line_end": 621,
+                    "indent": 4,
+                    "name": "_read_bytes_to_non_framed_body"
+                }
+            },
+            "test_read_bytes_to_non_framed_body_too_large": {
+                "line": 552,
+                "line_end": 565,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 588,
+                    "line_end": 621,
+                    "indent": 4,
+                    "name": "_read_bytes_to_non_framed_body"
+                }
+            },
+            "test_read_bytes_to_non_framed_body_close": {
+                "line": 567,
+                "line_end": 591,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 588,
+                    "line_end": 621,
+                    "indent": 4,
+                    "name": "_read_bytes_to_non_framed_body"
+                }
+            },
+            "test_read_bytes_to_non_framed_body_no_signer": {
+                "line": 593,
+                "line_end": 612,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 588,
+                    "line_end": 621,
+                    "indent": 4,
+                    "name": "_read_bytes_to_non_framed_body"
+                }
+            },
+            "test_read_bytes_less_than_buffer": {
+                "line": 616,
+                "line_end": 627,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_completed": {
+                "line": 631,
+                "line_end": 642,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_framed": {
+                "line": 646,
+                "line_end": 657,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_non_framed": {
+                "line": 661,
+                "line_end": 672,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_unsupported_type": {
+                "line": 676,
+                "line_end": 691,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 717,
+                    "indent": 4,
+                    "name": "_read_bytes"
+                }
+            },
+            "test_read_bytes_to_framed_body_single_frame_read": {
+                "line": 693,
+                "line_end": 721,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 686,
+                    "indent": 4,
+                    "name": "_read_bytes_to_framed_body"
+                }
+            },
+            "test_read_bytes_to_framed_body_single_frame_with_final": {
+                "line": 723,
+                "line_end": 766,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 686,
+                    "indent": 4,
+                    "name": "_read_bytes_to_framed_body"
+                }
+            },
+            "test_read_bytes_to_framed_body_multi_frame_read": {
+                "line": 768,
+                "line_end": 849,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 686,
+                    "indent": 4,
+                    "name": "_read_bytes_to_framed_body"
+                }
+            },
+            "test_read_bytes_to_framed_body_close": {
+                "line": 851,
+                "line_end": 869,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 686,
+                    "indent": 4,
+                    "name": "_read_bytes_to_framed_body"
+                }
+            },
+            "test_read_bytes_to_framed_body_close_no_signer": {
+                "line": 871,
+                "line_end": 889,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 686,
+                    "indent": 4,
+                    "name": "_read_bytes_to_framed_body"
+                }
+            },
+            "test_close": {
+                "line": 892,
+                "line_end": 906,
+                "indent": 4,
+                "focal_class": "StreamEncryptor",
+                "focal_method": {
+                    "line": 719,
+                    "line_end": 722,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "test/unit/test_util_streams.py": {
+        "focal_file": "src/aws_encryption_sdk/internal/utils/streams.py",
+        "methods": {
+            "test_rostream": {
+                "line": 40,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "ROStream",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_teestream_full": {
+                "line": 49,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": "TeeStream",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "read"
+                }
+            }
+        }
+    },
+    "test_vector_handlers/test/integration/commands/test_i_full_message_encrypt.py": {
+        "focal_file": "test_vector_handlers/src/awses_test_vectors/commands/full_message_encrypt.py",
+        "methods": {
+            "test_full_message_encrypt_canonical_full": {
+                "line": 28,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "cli"
+                }
+            },
+            "test_full_message_cycle_canonical_full": {
+                "line": 32,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "cli"
+                }
+            }
+        }
+    }
+}

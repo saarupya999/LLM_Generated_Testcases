@@ -1,0 +1,245 @@
+{
+    "aws/logs_monitoring/tests/test_enhanced_lambda_metrics.py": {
+        "focal_file": "aws/logs_monitoring/enhanced_lambda_metrics.py",
+        "methods": {
+            "test_sanitize_tag_string": {
+                "line": 44,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 278,
+                    "indent": 0,
+                    "name": "sanitize_aws_tag_string"
+                }
+            },
+            "test_get_dd_tag_string_from_aws_dict": {
+                "line": 66,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "get_dd_tag_string_from_aws_dict"
+                }
+            },
+            "test_parse_lambda_tags_from_arn": {
+                "line": 87,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 545,
+                    "line_end": 567,
+                    "indent": 0,
+                    "name": "parse_lambda_tags_from_arn"
+                }
+            },
+            "test_parse_metrics_from_report_log": {
+                "line": 140,
+                "line_end": 281,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 627,
+                    "indent": 0,
+                    "name": "parse_metrics_from_report_log"
+                }
+            },
+            "test_create_out_of_memory_enhanced_metric": {
+                "line": 283,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 687,
+                    "line_end": 708,
+                    "indent": 0,
+                    "name": "create_out_of_memory_enhanced_metric"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics": {
+                "line": 316,
+                "line_end": 410,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics_with_tags": {
+                "line": 414,
+                "line_end": 523,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics_once_with_missing_arn": {
+                "line": 527,
+                "line_end": 559,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics_refresh_on_new_arn": {
+                "line": 563,
+                "line_end": 602,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics_refresh_s3_cache": {
+                "line": 610,
+                "line_end": 663,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics_client_error": {
+                "line": 672,
+                "line_end": 723,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics_timeout": {
+                "line": 727,
+                "line_end": 782,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            },
+            "test_generate_enhanced_lambda_metrics_out_of_memory": {
+                "line": 786,
+                "line_end": 841,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 477,
+                    "line_end": 542,
+                    "indent": 0,
+                    "name": "generate_enhanced_lambda_metrics"
+                }
+            }
+        }
+    },
+    "aws/logs_monitoring/tests/test_logs.py": {
+        "focal_file": "aws/logs_monitoring/logs.py",
+        "methods": {
+            "test_no_filtering_rules": {
+                "line": 48,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "filter_logs"
+                }
+            }
+        }
+    },
+    "aws/logs_monitoring/tests/test_parsing.py": {
+        "focal_file": "aws/logs_monitoring/parsing.py",
+        "methods": {
+            "test_security_hub_no_findings": {
+                "line": 257,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 571,
+                    "indent": 0,
+                    "name": "separate_security_hub_findings"
+                }
+            },
+            "test_security_hub_one_finding_no_resources": {
+                "line": 264,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 571,
+                    "indent": 0,
+                    "name": "separate_security_hub_findings"
+                }
+            },
+            "test_security_hub_two_findings_one_resource_each": {
+                "line": 281,
+                "line_end": 327,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 571,
+                    "indent": 0,
+                    "name": "separate_security_hub_findings"
+                }
+            },
+            "test_security_hub_multiple_findings_multiple_resources": {
+                "line": 329,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 571,
+                    "indent": 0,
+                    "name": "separate_security_hub_findings"
+                }
+            },
+            "test_awslogs_handler_rds_postgresql": {
+                "line": 402,
+                "line_end": 457,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 409,
+                    "line_end": 493,
+                    "indent": 0,
+                    "name": "awslogs_handler"
+                }
+            }
+        }
+    }
+}

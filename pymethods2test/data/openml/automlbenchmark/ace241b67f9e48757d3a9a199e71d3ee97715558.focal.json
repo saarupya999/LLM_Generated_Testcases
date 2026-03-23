@@ -1,0 +1,221 @@
+{
+    "tests/unit/amlb/frameworks/definitions/test_framework_definition_processing.py": {
+        "focal_file": "amlb/frameworks/definitions.py",
+        "methods": {
+            "test_remove_frameworks_with_unknown_parent_removes_framework_with_unknown_parent": {
+                "line": 9,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 217,
+                    "indent": 0,
+                    "name": "_remove_frameworks_with_unknown_parent"
+                }
+            },
+            "test_remove_frameworks_with_unknown_parent_keeps_children_with_known_parents": {
+                "line": 15,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 217,
+                    "indent": 0,
+                    "name": "_remove_frameworks_with_unknown_parent"
+                }
+            },
+            "test_remove_self_reference_extensions_removes_self_reference": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 207,
+                    "indent": 0,
+                    "name": "_remove_self_reference_extensions"
+                }
+            },
+            "test_remove_self_reference_extensions_does_not_remove_reference_to_other": {
+                "line": 31,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 207,
+                    "indent": 0,
+                    "name": "_remove_self_reference_extensions"
+                }
+            },
+            "test_add_framework_name_does_not_change_name_case": {
+                "line": 44,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "_add_framework_name"
+                }
+            },
+            "test_find_all_parents_ignores_when_extends_is_none": {
+                "line": 60,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "_find_all_parents"
+                }
+            },
+            "test_update_frameworks_with_parent_definitions_add_missing_field_from_parent": {
+                "line": 106,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 0,
+                    "name": "_update_frameworks_with_parent_definitions"
+                }
+            },
+            "test_update_frameworks_with_parent_definitions_does_not_overwrite_child": {
+                "line": 125,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 0,
+                    "name": "_update_frameworks_with_parent_definitions"
+                }
+            },
+            "test_update_frameworks_with_parent_definitions_parent_overwrites_grandparent_yaml": {
+                "line": 144,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 0,
+                    "name": "_update_frameworks_with_parent_definitions"
+                }
+            },
+            "test_sanitize_and_add_defaults_root_definition_get_module": {
+                "line": 154,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "_sanitize_and_add_defaults"
+                }
+            },
+            "test_sanitize_and_add_defaults_child_inherits_module": {
+                "line": 160,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "_sanitize_and_add_defaults"
+                }
+            },
+            "test_sanitize_and_add_defaults_defined_module_not_overwritten": {
+                "line": 169,
+                "line_end": 172,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "_sanitize_and_add_defaults"
+                }
+            }
+        }
+    },
+    "tests/unit/amlb/frameworks/definitions/test_load_and_merge_framework_definitions.py": {
+        "focal_file": "amlb/frameworks/definitions.py",
+        "methods": {
+            "test_loads_all_definitions": {
+                "line": 21,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "_load_and_merge_framework_definitions"
+                }
+            }
+        }
+    },
+    "tests/unit/amlb/frameworks/definitions/test_add_default.py": {
+        "focal_file": "amlb/frameworks/definitions.py",
+        "methods": {
+            "test_module_default_uses_root_module": {
+                "line": 30,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "_add_default_module"
+                }
+            },
+            "test_setup_script_kept_if_defined": {
+                "line": 88,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "_add_default_setup_script"
+                }
+            },
+            "test_image_uses_default_tag": {
+                "line": 177,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "_add_default_image"
+                }
+            },
+            "test_image_uses_default_image": {
+                "line": 198,
+                "line_end": 202,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "_add_default_image"
+                }
+            }
+        }
+    }
+}

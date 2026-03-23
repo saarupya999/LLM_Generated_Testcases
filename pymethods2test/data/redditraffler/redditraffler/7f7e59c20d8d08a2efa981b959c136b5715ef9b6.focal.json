@@ -1,0 +1,262 @@
+{
+    "tests/test_logging.py": {
+        "focal_file": "app/logging.py",
+        "methods": {
+            "test_assigns_valid_log_level_from_cfg": {
+                "line": 28,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "_get_log_level_from_config"
+                }
+            }
+        }
+    },
+    "tests/db/models/test_user.py": {
+        "focal_file": "app/db/models/user.py",
+        "methods": {
+            "test_requires_nonempty_refresh_token": {
+                "line": 79,
+                "line_end": 81,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "set_refresh_token"
+                }
+            },
+            "test_encrypts_token_and_saves": {
+                "line": 83,
+                "line_end": 88,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "set_refresh_token"
+                }
+            },
+            "test_user_must_have_token": {
+                "line": 91,
+                "line_end": 93,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_refresh_token"
+                }
+            },
+            "test_retrieves_plaintext_refresh_token": {
+                "line": 95,
+                "line_end": 99,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_refresh_token"
+                }
+            },
+            "test_returns_profile": {
+                "line": 116,
+                "line_end": 126,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "get_profile"
+                }
+            }
+        }
+    },
+    "tests/util/test_raffle_form_validator.py": {
+        "focal_file": "app/util/raffle_form_validator.py",
+        "methods": {
+            "test_validate_required_keys_valid": {
+                "line": 56,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "_validate_required_keys"
+                }
+            },
+            "test_validate_required_keys_invalid": {
+                "line": 61,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "_validate_required_keys"
+                }
+            },
+            "test_validate_submission_url_valid_url_valid_submission": {
+                "line": 138,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "_validate_submission_url"
+                }
+            },
+            "test_validate_submission_url_valid_url_invalid_submission": {
+                "line": 146,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "_validate_submission_url"
+                }
+            },
+            "test_validate_submission_url_not_string": {
+                "line": 155,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "_validate_submission_url"
+                }
+            },
+            "test_validate_raffle_not_exists_success": {
+                "line": 163,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "_validate_raffle_not_exists"
+                }
+            },
+            "test_validate_raffle_not_exists_fail": {
+                "line": 171,
+                "line_end": 177,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "_validate_raffle_not_exists"
+                }
+            },
+            "test_validate_ignored_users_list_not_list": {
+                "line": 180,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "_validate_ignored_users_list"
+                }
+            },
+            "test_validate_ignored_users_list_valid_string": {
+                "line": 186,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "_validate_ignored_users_list"
+                }
+            },
+            "test_validate_ignored_users_list_invalid_username": {
+                "line": 193,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "_validate_ignored_users_list"
+                }
+            },
+            "test_get_sanitized_form": {
+                "line": 201,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "get_sanitized_form"
+                }
+            },
+            "test_invalid_form_missing_keys": {
+                "line": 87,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "RaffleFormValidator",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "_validate_karma_keys"
+                }
+            }
+        }
+    },
+    "tests/util/test_jwt_helper.py": {
+        "focal_file": "app/util/jwt_helper.py",
+        "methods": {
+            "test_encode": {
+                "line": 17,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 9,
+                    "indent": 0,
+                    "name": "encode"
+                }
+            },
+            "test_decode": {
+                "line": 25,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "decode"
+                }
+            }
+        }
+    }
+}

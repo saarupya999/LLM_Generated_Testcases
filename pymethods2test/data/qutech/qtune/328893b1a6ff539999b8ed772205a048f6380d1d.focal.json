@@ -1,0 +1,154 @@
+{
+    "tests/test_parameter_tuner.py": {
+        "focal_file": "qtune/parameter_tuner.py",
+        "methods": {
+            "test_evaluate_is_tuned": {
+                "line": 123,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": "SensingDotTuner",
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "is_tuned"
+                }
+            },
+            "test_rescaling_in_get_next_voltage": {
+                "line": 71,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": "SubsetTuner",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "get_next_voltages"
+                }
+            }
+        }
+    },
+    "tests/test_solver.py": {
+        "focal_file": "qtune/solver.py",
+        "methods": {
+            "test_update_after_step": {
+                "line": 85,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": "NewtonSolver",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "update_after_step"
+                }
+            }
+        }
+    },
+    "tests/test_util.py": {
+        "focal_file": "qtune/util.py",
+        "methods": {
+            "test_nth": {
+                "line": 8,
+                "line_end": 11,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "nth"
+                }
+            },
+            "test_gradient_min_evaluations_asymmetric": {
+                "line": 13,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "gradient_min_evaluations"
+                }
+            },
+            "test_gradient_min_evaluations_symmetric": {
+                "line": 32,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "gradient_min_evaluations"
+                }
+            },
+            "test_gradient_min_evaluation_exception": {
+                "line": 51,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "gradient_min_evaluations"
+                }
+            },
+            "test_calculate_gradient_non_orthogonal_symmetric": {
+                "line": 72,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 199,
+                    "indent": 0,
+                    "name": "calculate_gradient_non_orthogonal"
+                }
+            },
+            "test_calculate_gradient_non_orthogonal_asymmetric": {
+                "line": 93,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 199,
+                    "indent": 0,
+                    "name": "calculate_gradient_non_orthogonal"
+                }
+            }
+        }
+    },
+    "tests/test_gradient.py": {
+        "focal_file": "qtune/gradient.py",
+        "methods": {
+            "test_require_update_measurement": {
+                "line": 74,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": "FiniteDifferencesGradientEstimator",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "require_measurement"
+                }
+            },
+            "test_require_measurement": {
+                "line": 116,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": "KalmanGradientEstimator",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "require_measurement"
+                }
+            }
+        }
+    }
+}

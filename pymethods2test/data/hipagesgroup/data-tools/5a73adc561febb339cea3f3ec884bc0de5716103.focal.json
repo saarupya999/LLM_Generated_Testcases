@@ -1,0 +1,448 @@
+{
+    "tests/test_common.py": {
+        "focal_file": "hip_data_tools/common.py",
+        "methods": {
+            "test__should__validate_and_fix_common_integer_fields": {
+                "line": 191,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "validate_and_fix_common_integer_fields"
+                }
+            }
+        }
+    },
+    "tests/apache/test_cassandra.py": {
+        "focal_file": "hip_data_tools/apache/cassandra.py",
+        "methods": {
+            "test__get_data_frame_column_types__should_work": {
+                "line": 192,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "_get_data_frame_column_types"
+                }
+            }
+        }
+    },
+    "tests/apache/test_kafka.py": {
+        "focal_file": "hip_data_tools/apache/kafka.py",
+        "methods": {
+            "test__KafkaProducer_should_successfully_publish_dict_as_msg": {
+                "line": 332,
+                "line_end": 344,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 454,
+                    "indent": 4,
+                    "name": "publish_dict_as_json"
+                }
+            },
+            "test__KafkaS3BatchExporter_should_partition_msgs_and_locations": {
+                "line": 459,
+                "line_end": 477,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 613,
+                    "line_end": 634,
+                    "indent": 4,
+                    "name": "partition_msgs_by_kafka_ts"
+                }
+            }
+        }
+    },
+    "tests/aws/test_athena.py": {
+        "focal_file": "hip_data_tools/aws/athena.py",
+        "methods": {
+            "test__build_create_table_sql__works_for_ga_example": {
+                "line": 18,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 234,
+                    "line_end": 270,
+                    "indent": 4,
+                    "name": "_build_create_table_sql"
+                }
+            },
+            "test__build_create_table_for_csv_data": {
+                "line": 65,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 234,
+                    "line_end": 270,
+                    "indent": 4,
+                    "name": "_build_create_table_sql"
+                }
+            },
+            "test__generate_parquet_ctas__creates_correct_syntax": {
+                "line": 111,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 481,
+                    "line_end": 497,
+                    "indent": 0,
+                    "name": "generate_parquet_ctas"
+                }
+            },
+            "test__generate_csv_ctas__creates_correct_syntax": {
+                "line": 127,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 478,
+                    "indent": 0,
+                    "name": "generate_csv_ctas"
+                }
+            },
+            "test__zip_columns__works_with_one": {
+                "line": 144,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 537,
+                    "indent": 0,
+                    "name": "zip_columns"
+                }
+            },
+            "test__zip_columns__works_with_two": {
+                "line": 153,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 537,
+                    "indent": 0,
+                    "name": "zip_columns"
+                }
+            },
+            "test__get_table_settings_for_sheets_table__should_return_table_settings": {
+                "line": 247,
+                "line_end": 261,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "get_table_settings_for_dataframe"
+                }
+            },
+            "test__sql_inspector__should__identify_tables_used_by_query": {
+                "line": 299,
+                "line_end": 320,
+                "indent": 4,
+                "focal_class": "SqlInspector",
+                "focal_method": {
+                    "line": 380,
+                    "line_end": 393,
+                    "indent": 4,
+                    "name": "identify_tables_used_by_query"
+                }
+            }
+        }
+    },
+    "tests/aws/test_s3.py": {
+        "focal_file": "hip_data_tools/aws/s3.py",
+        "methods": {
+            "test_should__upload_dataframe_and_download_parquet__when_using_s3util": {
+                "line": 118,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "upload_dataframe_as_parquet"
+                }
+            },
+            "test_should__delete_recursive_match_suffix__when_using_s3util": {
+                "line": 138,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 249,
+                    "indent": 4,
+                    "name": "delete_recursive_match_suffix"
+                }
+            },
+            "test_should__upload_binary_stream__when_using_s3util": {
+                "line": 210,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 360,
+                    "line_end": 370,
+                    "indent": 4,
+                    "name": "upload_binary_stream"
+                }
+            },
+            "test___multi_process_upload_file_works_like_upload_file": {
+                "line": 237,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "upload_file"
+                }
+            }
+        }
+    },
+    "tests/etl/test_common.py": {
+        "focal_file": "hip_data_tools/etl/common.py",
+        "methods": {
+            "test__state_manager_transitions_should_be_ok_ready_to_processing": {
+                "line": 67,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "EtlSinkRecordStateManager",
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "processing"
+                }
+            },
+            "test__state_manager_transitions_should_fail_to_ready": {
+                "line": 109,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": "EtlSinkRecordStateManager",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "ready"
+                }
+            }
+        }
+    },
+    "tests/etl/test_s3_to_s3.py": {
+        "focal_file": "hip_data_tools/etl/s3.py",
+        "methods": {
+            "test__list_source_files__should_work_without_suffix": {
+                "line": 16,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "hip_data_tools.etl.s3.S3SourceSettings",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "list_source_files"
+                }
+            },
+            "test__list_source_files__should_work_with_suffix": {
+                "line": 51,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "hip_data_tools.etl.s3.S3SourceSettings",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "list_source_files"
+                }
+            }
+        }
+    },
+    "tests/google/adwords.py": {
+        "focal_file": "hip_data_tools/google/adwords.py",
+        "methods": {
+            "test_adwords_data_upload_for_offline_conversion": {
+                "line": 31,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "GoogleAdWordsConnectionSettings",
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 460,
+                    "indent": 4,
+                    "name": "upload_conversions"
+                }
+            },
+            "test__should__read_all_accounts__with__parent_id": {
+                "line": 210,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": "GoogleAdWordsConnectionSettings",
+                "focal_method": {
+                    "line": 735,
+                    "line_end": 740,
+                    "indent": 4,
+                    "name": "get_all_accounts_as_dataframe"
+                }
+            }
+        }
+    },
+    "tests/hipages/test_version_tracking.py": {
+        "focal_file": "hip_data_tools/hipages/version_tracking.py",
+        "methods": {
+            "test__check_for_decorated_classes_in_file": {
+                "line": 47,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "check_for_decorated_declaration_in_file"
+                }
+            },
+            "test__check_for_single_decorated_classes_in_file": {
+                "line": 131,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "check_for_decorated_declaration_in_file"
+                }
+            },
+            "test__check_for_all_decorated_classes_in_file": {
+                "line": 156,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "check_for_decorated_declaration_in_file"
+                }
+            },
+            "test__get_latest_git_hash_of_files_in_repo": {
+                "line": 191,
+                "line_end": 227,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 317,
+                    "indent": 0,
+                    "name": "get_latest_git_hash_of_files_in_repo"
+                }
+            },
+            "test__versiontracker_should_load_version_file": {
+                "line": 230,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 454,
+                    "indent": 4,
+                    "name": "add_versions_from_json_file"
+                }
+            },
+            "test__versiontracker_should_raise_error_when_file_not_found": {
+                "line": 243,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 454,
+                    "indent": 4,
+                    "name": "add_versions_from_json_file"
+                }
+            },
+            "test__versiontracker_should_raise_decode_error_when_problem_found": {
+                "line": 255,
+                "line_end": 264,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 454,
+                    "indent": 4,
+                    "name": "add_versions_from_json_file"
+                }
+            },
+            "test_versiontracker_should_add_a_consistent_object_version_for_tracking": {
+                "line": 267,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 470,
+                    "indent": 4,
+                    "name": "add_object_version"
+                }
+            },
+            "test__versiontracker_should_add_string_to_version_tracking": {
+                "line": 285,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 472,
+                    "line_end": 485,
+                    "indent": 4,
+                    "name": "add_string_to_version_tracking"
+                }
+            },
+            "test_versiontracker_provide_all_the_versions": {
+                "line": 301,
+                "line_end": 336,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 470,
+                    "indent": 4,
+                    "name": "add_object_version"
+                }
+            }
+        }
+    },
+    "tests/oracle/test_mysql.py": {
+        "focal_file": "hip_data_tools/oracle/mysql.py",
+        "methods": {
+            "test__upsert_query_should_work": {
+                "line": 17,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "prepare_upsert_query"
+                }
+            }
+        }
+    }
+}

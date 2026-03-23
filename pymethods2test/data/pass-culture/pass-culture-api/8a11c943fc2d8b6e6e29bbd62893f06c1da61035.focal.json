@@ -1,0 +1,3825 @@
+{
+    "tests/infrastructure/repository/bank_informations/bank_informations_sql_repository_test.py": {
+        "focal_file": "src/pcapi/infrastructure/repository/bank_informations/bank_informations_sql_repository.py",
+        "methods": {
+            "test_returns_bank_informations_when_there_is_bank_informations_associated_with_this_application_id": {
+                "line": 89,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get_by_application"
+                }
+            },
+            "test_returns_none_when_there_is_no_bank_informations_associated_with_this_application_id": {
+                "line": 108,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get_by_application"
+                }
+            },
+            "test_should_update_bank_informations_when_bank_informations_already_exist_for_application": {
+                "line": 244,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "update_by_application_id"
+                }
+            },
+            "test_should_not_update_bank_informations_when_bank_informations_do_not_exist_for_this_application": {
+                "line": 282,
+                "line_end": 299,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "update_by_application_id"
+                }
+            }
+        }
+    },
+    "tests/infrastructure/repository/beneficiary_bookings/beneficiary_bookings_sql_repository_test.py": {
+        "focal_file": "src/pcapi/infrastructure/repository/beneficiary_bookings/beneficiary_bookings_sql_repository.py",
+        "methods": {
+            "test_should_return_get_stocks_information": {
+                "line": 168,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "_get_stocks_information"
+                }
+            }
+        }
+    },
+    "tests/infrastructure/repository/stock_provider/provider_api_test.py": {
+        "focal_file": "src/pcapi/infrastructure/repository/stock_provider/provider_api.py",
+        "methods": {
+            "test_is_siret_registered_ok": {
+                "line": 95,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "is_siret_registered"
+                }
+            },
+            "test_is_siret_registered_nok_if_not_200": {
+                "line": 106,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "is_siret_registered"
+                }
+            }
+        }
+    },
+    "tests/routes/serialization/reimbursement_csv_test.py": {
+        "focal_file": "src/pcapi/routes/serialization/reimbursement_csv_serialize.py",
+        "methods": {
+            "test_generate_reimbursement_details_csv": {
+                "line": 104,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "generate_reimbursement_details_csv"
+                }
+            },
+            "test_find_all_offerer_reimbursement_details": {
+                "line": 135,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "find_all_offerer_reimbursement_details"
+                }
+            },
+            "test_reimbursementDetail_with_custom_rule_as_csv": {
+                "line": 49,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "ReimbursementDetails",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "as_csv_row"
+                }
+            }
+        }
+    },
+    "tests/routes/pro/get_offerers_test.py": {
+        "focal_file": "src/pcapi/model_creators/generic_creators.py",
+        "methods": {
+            "test_returns_only_active_offerers": {
+                "line": 324,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "create_offerer"
+                }
+            }
+        }
+    },
+    "tests/use_cases/create_beneficiary_from_application_test.py": {
+        "focal_file": "src/pcapi/use_cases/create_beneficiary_from_application.py",
+        "methods": {
+            "test_saved_a_beneficiary_from_application": {
+                "line": 59,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            }
+        }
+    },
+    "tests/use_cases/save_offerer_bank_informations_test.py": {
+        "focal_file": "src/pcapi/use_cases/save_offerer_bank_informations.py",
+        "methods": {
+            "test_when_overriding_another_bank_information_should_raise": {
+                "line": 284,
+                "line_end": 317,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            }
+        }
+    },
+    "tests/use_cases/save_venue_bank_informations_test.py": {
+        "focal_file": "src/pcapi/use_cases/save_venue_bank_informations.py",
+        "methods": {
+            "test_when_overriding_another_bank_information_should_raise": {
+                "line": 626,
+                "line_end": 661,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            }
+        }
+    },
+    "tests/scheduled_tasks/clock_test.py": {
+        "focal_file": "src/pcapi/scheduled_tasks/clock.py",
+        "methods": {
+            "test_pc_send_tomorrow_events_notifications": {
+                "line": 13,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 146,
+                    "indent": 0,
+                    "name": "pc_send_tomorrow_events_notifications"
+                }
+            }
+        }
+    },
+    "tests/scheduled_tasks/decorators_test.py": {
+        "focal_file": "src/pcapi/scheduled_tasks/decorators.py",
+        "methods": {
+            "test_cron_require_feature": {
+                "line": 36,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "cron_require_feature"
+                }
+            }
+        }
+    },
+    "tests/scripts/update_bookings_during_quarantine_test.py": {
+        "focal_file": "src/pcapi/scripts/cancel_bookings_during_quarantine.py",
+        "methods": {
+            "test_should_update_booking_if_happening_during_quarantine": {
+                "line": 12,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "cancel_booking_status_for_events_happening_during_quarantine"
+                }
+            },
+            "test_should_not_update_booking_if_happened_before_quarantine": {
+                "line": 24,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "cancel_booking_status_for_events_happening_during_quarantine"
+                }
+            }
+        }
+    },
+    "tests/scripts/correct_bookings_cancel_dates_test.py": {
+        "focal_file": "src/pcapi/scripts/booking/correct_bookings_cancel_dates.py",
+        "methods": {
+            "test_should_correct_booking_cancel_dates_in_csv": {
+                "line": 16,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/scripts/clean_duplicated_offers_test.py": {
+        "focal_file": "src/pcapi/scripts/clean_duplicated_offers.py",
+        "methods": {
+            "test_get_venue_ids_with_duplicates": {
+                "line": 29,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "get_venue_ids_with_duplicates"
+                }
+            },
+            "test_count_duplicates": {
+                "line": 42,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "count_duplicate_offers"
+                }
+            },
+            "test_handle_offer_duplicates": {
+                "line": 50,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "handle_offer_duplicates"
+                }
+            }
+        }
+    },
+    "tests/scripts/delete_venue_and_offers_for_venue_id_test.py": {
+        "focal_file": "src/pcapi/scripts/delete_venue_and_offers_for_venue_id.py",
+        "methods": {
+            "test_delete_venue_and_offers_should_delete_venue_and_offers_with_venue_id": {
+                "line": 15,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "delete_venue_and_offers_for_venue_id"
+                }
+            }
+        }
+    },
+    "tests/scripts/batch_update_users_attributes_test.py": {
+        "focal_file": "src/pcapi/scripts/batch_update_users_attributes.py",
+        "methods": {
+            "test_get_users_chunks": {
+                "line": 13,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_users_chunks"
+                }
+            },
+            "test_run": {
+                "line": 31,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "run"
+                }
+            },
+            "test_format_user": {
+                "line": 42,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "format_users"
+                }
+            }
+        }
+    },
+    "tests/scripts/suspend_suspected_fraudulent_pro_users_test.py": {
+        "focal_file": "src/pcapi/scripts/suspend_fraudulent_pro_users.py",
+        "methods": {
+            "test_suspend_pros_in_given_emails_providers_list": {
+                "line": 20,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "suspend_fraudulent_pro_by_email_providers"
+                }
+            },
+            "test_only_suspend_pro_users_in_given_emails_providers_list": {
+                "line": 39,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "suspend_fraudulent_pro_by_email_providers"
+                }
+            },
+            "test_dont_suspend_users_not_in_given_emails_providers_list": {
+                "line": 61,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "suspend_fraudulent_pro_by_email_providers"
+                }
+            }
+        }
+    },
+    "tests/scripts/find_not_modifiable_venues_test.py": {
+        "focal_file": "src/pcapi/scripts/find_not_modifiable_venues.py",
+        "methods": {
+            "test_should_generate_non_editable_venues_csv_with_correct_header_and_correct_informations": {
+                "line": 86,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "generate_non_editable_venues_csv"
+                }
+            }
+        }
+    },
+    "tests/scripts/bulk_mark_incompatible_via_isbns_test.py": {
+        "focal_file": "src/pcapi/scripts/bulk_mark_incompatible_via_isbns.py",
+        "methods": {
+            "test_should_mark_offers_and_products_as_incompatible_via_isbn": {
+                "line": 13,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "bulk_mark_incompatible_via_isbns"
+                }
+            }
+        }
+    },
+    "tests/scripts/suspend_suspected_fraudulent_beneficiary_users_test.py": {
+        "focal_file": "src/pcapi/scripts/suspend_fraudulent_beneficiary_users.py",
+        "methods": {
+            "test_suspend_users_in_given_emails_providers_list": {
+                "line": 10,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "suspend_fraudulent_beneficiary_users_by_email_providers"
+                }
+            },
+            "test_only_suspend_beneficiary_users_in_given_emails_providers_list": {
+                "line": 72,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "suspend_fraudulent_beneficiary_users_by_email_providers"
+                }
+            },
+            "test_dont_suspend_users_not_in_given_emails_providers_list": {
+                "line": 98,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "suspend_fraudulent_beneficiary_users_by_email_providers"
+                }
+            }
+        }
+    },
+    "tests/scripts/update_venue_type_test.py": {
+        "focal_file": "src/pcapi/scripts/update_venue_type.py",
+        "methods": {
+            "test_read_venue_type_from_file": {
+                "line": 106,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "_read_venue_type_from_file"
+                }
+            }
+        }
+    },
+    "tests/scripts/migrate_id_at_providers_test.py": {
+        "focal_file": "src/pcapi/scripts/migrate_id_at_providers.py",
+        "methods": {
+            "test_extract_isbn_from_id_at_providers": {
+                "line": 11,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "migrate_id_at_providers"
+                }
+            }
+        }
+    },
+    "tests/scripts/change_pro_users_to_beneficiary_test.py": {
+        "focal_file": "src/pcapi/scripts/change_some_pro_users_to_beneficiary.py",
+        "methods": {
+            "test_should_change_pro_users_to_beneficiary": {
+                "line": 13,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "change_pro_users_to_beneficiary"
+                }
+            },
+            "test_should_change_pro_users_to_beneficiary_with_v1_deposit": {
+                "line": 46,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "change_pro_users_to_beneficiary"
+                }
+            }
+        }
+    },
+    "tests/scripts/booking/cancel_bookings_of_events_from_file_test.py": {
+        "focal_file": "src/pcapi/scripts/booking/cancel_bookings_of_events_from_file.py",
+        "methods": {
+            "test_cancel_bookings_of_offers_from_rows": {
+                "line": 18,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "_cancel_bookings_of_offers_from_rows"
+                }
+            }
+        }
+    },
+    "tests/scripts/booking/cancel_old_unused_bookings_for_venue_test.py": {
+        "focal_file": "src/pcapi/scripts/booking/cancel_old_unused_bookings_for_venue.py",
+        "methods": {
+            "test_should_cancel_old_unused_bookings_for_venue": {
+                "line": 15,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "cancel_old_unused_bookings_for_venue"
+                }
+            }
+        }
+    },
+    "tests/scripts/deactivate_offers_during_quarantine/deactivate_offers_test.py": {
+        "focal_file": "src/pcapi/scripts/deactivate_offers_during_quarantine/deactivate_offers.py",
+        "methods": {
+            "test_should_get_offer_with_a_date_between_today_and_15_04": {
+                "line": 66,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "build_query_offers_with_max_stock_date_between_today_and_end_of_quarantine"
+                }
+            },
+            "test_should_not_get_offer_with_a_date_between_today_and_the_15_04_and_another_after_15_04": {
+                "line": 102,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "build_query_offers_with_max_stock_date_between_today_and_end_of_quarantine"
+                }
+            },
+            "test_should_deactivate_given_offers": {
+                "line": 141,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "deactivate_offers"
+                }
+            }
+        }
+    },
+    "tests/scripts/payment/batch_test.py": {
+        "focal_file": "src/pcapi/scripts/payment/batch.py",
+        "methods": {
+            "test_generate_and_send_payments": {
+                "line": 21,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "generate_and_send_payments"
+                }
+            }
+        }
+    },
+    "tests/scripts/payment/update_custom_reimbursements_test.py": {
+        "focal_file": "src/pcapi/scripts/payment/update_custom_reimbursements.py",
+        "methods": {
+            "test_update_from_csv_file_basics": {
+                "line": 14,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "update_from_csv_file"
+                }
+            },
+            "test_update_from_csv_file_unknown_offer": {
+                "line": 35,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "update_from_csv_file"
+                }
+            }
+        }
+    },
+    "tests/scripts/payment/batch_steps_test.py": {
+        "focal_file": "src/pcapi/scripts/payment/batch_steps.py",
+        "methods": {
+            "test_send_transactions_set_status_to_under_review": {
+                "line": 115,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "send_transactions"
+                }
+            },
+            "test_send_transactions_with_malformed_iban": {
+                "line": 155,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "send_transactions"
+                }
+            },
+            "test_send_payments_details_sends_a_csv_attachment": {
+                "line": 171,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "send_payments_details"
+                }
+            },
+            "test_send_wallet_balances_sends_a_csv_attachment": {
+                "line": 200,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 225,
+                    "indent": 0,
+                    "name": "send_wallet_balances"
+                }
+            },
+            "test_get_venues_to_reimburse": {
+                "line": 341,
+                "line_end": 356,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "get_venues_to_reimburse"
+                }
+            },
+            "test_should_set_not_processable_payments_to_retry_and_update_payments_bic_and_iban_using_offerer_information": {
+                "line": 239,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "set_not_processable_payments_with_bank_information_to_retry"
+                }
+            },
+            "test_should_not_set_not_processable_payments_to_retry_when_bank_information_status_is_not_accepted": {
+                "line": 274,
+                "line_end": 305,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "set_not_processable_payments_with_bank_information_to_retry"
+                }
+            },
+            "test_should_set_not_processable_payments_to_retry_and_update_payments_bic_and_iban_using_venue_information": {
+                "line": 308,
+                "line_end": 337,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "set_not_processable_payments_with_bank_information_to_retry"
+                }
+            }
+        }
+    },
+    "tests/scripts/offerer/import_offerers_from_csv_test.py": {
+        "focal_file": "src/pcapi/scripts/offerer/import_offerer_from_csv.py",
+        "methods": {
+            "test_map_an_offerer_from_ordered_dict": {
+                "line": 26,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "create_offerer_from_csv"
+                }
+            },
+            "test_map_a_venue_from_ordered_dict": {
+                "line": 104,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "create_venue_from_csv"
+                }
+            },
+            "test_create_venue_name_when_information_missing": {
+                "line": 196,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "create_venue_from_csv"
+                }
+            },
+            "test_map_a_creation_model_from_csv": {
+                "line": 254,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "create_user_model_from_csv"
+                }
+            }
+        }
+    },
+    "tests/scripts/offerer/delete_cascade_offerer_by_id_test.py": {
+        "focal_file": "src/pcapi/scripts/offerer/delete_cascade_offerer_by_id.py",
+        "methods": {
+            "test_delete_cascade_offerer_should_abort_when_offerer_has_any_bookings": {
+                "line": 31,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            },
+            "test_delete_cascade_offerer_should_remove_api_key_of_offerer": {
+                "line": 88,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            },
+            "test_delete_cascade_offerer_should_remove_products_owned_by_offerer": {
+                "line": 103,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            },
+            "test_delete_cascade_offerer_should_remove_bank_informations_of_offerer": {
+                "line": 118,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            },
+            "test_delete_cascade_offerer_should_remove_bank_informations_of_managed_venue": {
+                "line": 133,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            },
+            "test_delete_cascade_offerer_should_remove_mediations_of_managed_offers": {
+                "line": 150,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            },
+            "test_delete_cascade_offerer_should_remove_favorites_of_managed_offers": {
+                "line": 167,
+                "line_end": 180,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            },
+            "test_delete_cascade_offerer_should_remove_venue_synchronization_to_provider": {
+                "line": 202,
+                "line_end": 215,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "delete_cascade_offerer_by_id"
+                }
+            }
+        }
+    },
+    "tests/scripts/offerer/file_import_test.py": {
+        "focal_file": "src/pcapi/scripts/offerer/file_import.py",
+        "methods": {
+            "test_returns_created_user_offerer": {
+                "line": 78,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "create_activated_user_offerer"
+                }
+            }
+        }
+    },
+    "tests/scripts/beneficiary/import_users_test.py": {
+        "focal_file": "src/pcapi/scripts/beneficiary/import_users.py",
+        "methods": {
+            "test_read_file": {
+                "line": 19,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "_read_file"
+                }
+            }
+        }
+    },
+    "tests/scripts/beneficiary/send_mail_after_idcheck_outage_test.py": {
+        "focal_file": "src/pcapi/scripts/beneficiary/send_mail_after_idcheck_outage.py",
+        "methods": {
+            "test_get_eligible_users_created_between": {
+                "line": 19,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "_get_eligible_users_created_between"
+                }
+            }
+        }
+    },
+    "tests/scripts/venue/venue_label/create_venue_labels_test.py": {
+        "focal_file": "src/pcapi/scripts/venue/venue_label/create_venue_labels.py",
+        "methods": {
+            "test_should_save_venue_labels_to_database": {
+                "line": 9,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "save_new_venue_labels"
+                }
+            }
+        }
+    },
+    "tests/scripts/stock/fully_sync_venue_test.py": {
+        "focal_file": "src/pcapi/scripts/stock/fully_sync_venue.py",
+        "methods": {
+            "test_fully_sync_venue": {
+                "line": 13,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "fully_sync_venue"
+                }
+            },
+            "test_fully_sync_venue_with_new_provider": {
+                "line": 42,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "fully_sync_venue_with_new_provider"
+                }
+            },
+            "test_reset_stock_quantity": {
+                "line": 77,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "_reset_stock_quantity"
+                }
+            }
+        }
+    },
+    "tests/scripts/user_offerer/delete_user_offerers_from_file_test.py": {
+        "focal_file": "src/pcapi/scripts/user_offerer/delete_user_offerer_from_csv.py",
+        "methods": {
+            "test_should_delete_user_offerers_in_csv": {
+                "line": 9,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "_delete_user_offerers_from_rows"
+                }
+            }
+        }
+    },
+    "tests/core/offerers/test_repository_get_venues.py": {
+        "focal_file": "src/pcapi/core/offerers/repository.py",
+        "methods": {
+            "test_get_all_venues": {
+                "line": 288,
+                "line_end": 306,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "get_filtered_venues"
+                }
+            },
+            "test_get_all_validated_venues": {
+                "line": 309,
+                "line_end": 324,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "get_filtered_venues"
+                }
+            },
+            "test_get_all_not_validated_venues": {
+                "line": 327,
+                "line_end": 342,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "get_filtered_venues"
+                }
+            }
+        }
+    },
+    "tests/core/offerers/test_api.py": {
+        "focal_file": "src/pcapi/core/offerers/api.py",
+        "methods": {
+            "test_generate_and_save_api_key": {
+                "line": 154,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "generate_and_save_api_key"
+                }
+            },
+            "test_legacy_api_key": {
+                "line": 163,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "find_api_key"
+                }
+            }
+        }
+    },
+    "tests/core/offerers/test_repository.py": {
+        "focal_file": "src/pcapi/core/offerers/repository.py",
+        "methods": {
+            "test_get_all_venue_labels": {
+                "line": 14,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "get_all_venue_labels"
+                }
+            },
+            "test_get_all_venue_types": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "get_all_venue_types"
+                }
+            }
+        }
+    },
+    "tests/core/bookings/test_validation.py": {
+        "focal_file": "src/pcapi/core/bookings/validation.py",
+        "methods": {
+            "test_should_raise_exception_when_user_cannot_book_a_free_offer": {
+                "line": 30,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "check_can_book_free_offer"
+                }
+            },
+            "test_raise_if_already_booked": {
+                "line": 53,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "check_offer_already_booked"
+                }
+            }
+        }
+    },
+    "tests/core/search/test_serialize_appsearch.py": {
+        "focal_file": "src/pcapi/core/search/backends/appsearch.py",
+        "methods": {
+            "test_url_path": {
+                "line": 170,
+                "line_end": 171,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "url_path"
+                }
+            }
+        }
+    },
+    "tests/core/search/test_backend_algolia.py": {
+        "focal_file": "src/pcapi/core/search/backends/algolia.py",
+        "methods": {
+            "test_enqueue_offer_ids": {
+                "line": 21,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "enqueue_offer_ids"
+                }
+            },
+            "test_enqueue_offer_ids_in_error": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "enqueue_offer_ids_in_error"
+                }
+            },
+            "test_enqueue_venue_ids": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "enqueue_venue_ids"
+                }
+            },
+            "test_pop_offer_ids_from_queue": {
+                "line": 45,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "pop_offer_ids_from_queue"
+                }
+            },
+            "test_pop_offer_ids_from_error_queue": {
+                "line": 65,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "pop_offer_ids_from_queue"
+                }
+            },
+            "test_get_venue_ids_from_queue": {
+                "line": 79,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "get_venue_ids_from_queue"
+                }
+            },
+            "test_delete_venue_ids_from_queue": {
+                "line": 95,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "delete_venue_ids_from_queue"
+                }
+            },
+            "test_count_offers_to_index_from_queue": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "count_offers_to_index_from_queue"
+                }
+            },
+            "test_count_offers_to_index_from_error_queue": {
+                "line": 110,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "count_offers_to_index_from_queue"
+                }
+            },
+            "test_check_offer_is_indexed": {
+                "line": 117,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "check_offer_is_indexed"
+                }
+            },
+            "test_index_offers": {
+                "line": 125,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "index_offers"
+                }
+            },
+            "test_unindex_offer_ids": {
+                "line": 137,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "unindex_offer_ids"
+                }
+            },
+            "test_unindex_all_offers": {
+                "line": 149,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "unindex_all_offers"
+                }
+            }
+        }
+    },
+    "tests/core/search/test_backend_appsearch.py": {
+        "focal_file": "src/pcapi/core/search/backends/appsearch.py",
+        "methods": {
+            "test_enqueue_offer_ids": {
+                "line": 21,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "enqueue_offer_ids"
+                }
+            },
+            "test_enqueue_offer_ids_in_error": {
+                "line": 31,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "enqueue_offer_ids_in_error"
+                }
+            },
+            "test_enqueue_venue_ids": {
+                "line": 41,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "enqueue_venue_ids"
+                }
+            },
+            "test_pop_offer_ids_from_queue": {
+                "line": 51,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "pop_offer_ids_from_queue"
+                }
+            },
+            "test_pop_offer_ids_from_error_queue": {
+                "line": 71,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "pop_offer_ids_from_queue"
+                }
+            },
+            "test_get_venue_ids_from_queue": {
+                "line": 91,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "get_venue_ids_from_queue"
+                }
+            },
+            "test_delete_venue_ids_from_queue": {
+                "line": 104,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "delete_venue_ids_from_queue"
+                }
+            },
+            "test_count_offers_to_index_from_queue": {
+                "line": 113,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "count_offers_to_index_from_queue"
+                }
+            },
+            "test_count_offers_to_index_from_error_queue": {
+                "line": 120,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "count_offers_to_index_from_queue"
+                }
+            },
+            "test_check_offer_is_indexed": {
+                "line": 127,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 182,
+                    "indent": 4,
+                    "name": "check_offer_is_indexed"
+                }
+            },
+            "test_index_offers": {
+                "line": 133,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "index_offers"
+                }
+            },
+            "test_unindex_offer_ids": {
+                "line": 146,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "unindex_offer_ids"
+                }
+            }
+        }
+    },
+    "tests/core/payments/test_models.py": {
+        "focal_file": "src/pcapi/core/payments/models.py",
+        "methods": {
+            "test_timespan_setter": {
+                "line": 21,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "pcapi.core.payments.models.CustomReimbursementRule",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "_make_timespan"
+                }
+            },
+            "test_is_active": {
+                "line": 45,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "is_active"
+                }
+            },
+            "test_is_relevant": {
+                "line": 63,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "is_relevant"
+                }
+            },
+            "test_apply": {
+                "line": 72,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "apply"
+                }
+            }
+        }
+    },
+    "tests/core/payments/test_utils.py": {
+        "focal_file": "src/pcapi/core/payments/utils.py",
+        "methods": {
+            "test_get_cutoff_as_datetime": {
+                "line": 19,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "get_cutoff_as_datetime"
+                }
+            }
+        }
+    },
+    "tests/core/fraud/test_api.py": {
+        "focal_file": "src/pcapi/core/fraud/api.py",
+        "methods": {
+            "test_jouve_id_piece_number_wrong_format": {
+                "line": 141,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_validate_id_piece_number_format_fraud_item"
+                }
+            },
+            "test_jouve_id_piece_number_valid_format": {
+                "line": 152,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_validate_id_piece_number_format_fraud_item"
+                }
+            },
+            "test_on_identity_fraud_check_result_retry": {
+                "line": 156,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "on_identity_fraud_check_result"
+                }
+            },
+            "test_admin_update_identity_fraud_check_result": {
+                "line": 183,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "admin_update_identity_fraud_check_result"
+                }
+            }
+        }
+    },
+    "tests/core/offers/test_validation.py": {
+        "focal_file": "src/pcapi/core/offers/validation.py",
+        "methods": {
+            "test_check_stock_has_no_custom_reimbursement_rule": {
+                "line": 417,
+                "line_end": 424,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "check_stock_has_no_custom_reimbursement_rule"
+                }
+            }
+        }
+    },
+    "tests/core/users/test_api.py": {
+        "focal_file": "src/pcapi/core/users/api.py",
+        "methods": {
+            "test_generate_and_save_token": {
+                "line": 72,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "generate_and_save_token"
+                }
+            },
+            "test_generate_and_save_token_without_expiration_date": {
+                "line": 84,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "generate_and_save_token"
+                }
+            },
+            "test_generate_and_save_token_with_wrong_type": {
+                "line": 95,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "generate_and_save_token"
+                }
+            },
+            "test_count_no_token": {
+                "line": 225,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "count_existing_id_check_tokens"
+                }
+            },
+            "test_count_one_unused_token": {
+                "line": 229,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "count_existing_id_check_tokens"
+                }
+            },
+            "test_count_multiple_mixed_token": {
+                "line": 235,
+                "line_end": 244,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "count_existing_id_check_tokens"
+                }
+            },
+            "test_suspend_admin": {
+                "line": 265,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 365,
+                    "line_end": 409,
+                    "indent": 0,
+                    "name": "suspend_account"
+                }
+            },
+            "test_suspend_pro": {
+                "line": 295,
+                "line_end": 304,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 365,
+                    "line_end": 409,
+                    "indent": 0,
+                    "name": "suspend_account"
+                }
+            },
+            "test_unsuspend_account": {
+                "line": 320,
+                "line_end": 327,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 423,
+                    "indent": 0,
+                    "name": "unsuspend_account"
+                }
+            },
+            "test_change_user_email": {
+                "line": 333,
+                "line_end": 351,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 477,
+                    "indent": 0,
+                    "name": "change_user_email"
+                }
+            },
+            "test_change_user_email_undecodable_token": {
+                "line": 353,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 477,
+                    "indent": 0,
+                    "name": "change_user_email"
+                }
+            },
+            "test_change_user_email_expired_token": {
+                "line": 369,
+                "line_end": 384,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 477,
+                    "indent": 0,
+                    "name": "change_user_email"
+                }
+            },
+            "test_change_user_email_missing_argument_in_token": {
+                "line": 387,
+                "line_end": 410,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 477,
+                    "indent": 0,
+                    "name": "change_user_email"
+                }
+            },
+            "test_change_user_email_new_email_already_existing": {
+                "line": 413,
+                "line_end": 427,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 477,
+                    "indent": 0,
+                    "name": "change_user_email"
+                }
+            },
+            "test_fill_user_with_password_token": {
+                "line": 566,
+                "line_end": 576,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 349,
+                    "indent": 0,
+                    "name": "fulfill_account_password"
+                }
+            },
+            "test_update_user_info": {
+                "line": 618,
+                "line_end": 629,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 480,
+                    "line_end": 510,
+                    "indent": 0,
+                    "name": "update_user_info"
+                }
+            },
+            "test_update_user_info_sanitizes_email": {
+                "line": 631,
+                "line_end": 636,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 480,
+                    "line_end": 510,
+                    "indent": 0,
+                    "name": "update_user_info"
+                }
+            },
+            "test_get_domains_credit_v1": {
+                "line": 641,
+                "line_end": 680,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 522,
+                    "line_end": 563,
+                    "indent": 0,
+                    "name": "get_domains_credit"
+                }
+            },
+            "test_get_domains_credit_v2": {
+                "line": 682,
+                "line_end": 696,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 522,
+                    "line_end": 563,
+                    "indent": 0,
+                    "name": "get_domains_credit"
+                }
+            },
+            "test_get_domains_credit_deposit_expired": {
+                "line": 698,
+                "line_end": 711,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 522,
+                    "line_end": 563,
+                    "indent": 0,
+                    "name": "get_domains_credit"
+                }
+            },
+            "test_get_domains_credit_no_deposit": {
+                "line": 713,
+                "line_end": 716,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 522,
+                    "line_end": 563,
+                    "indent": 0,
+                    "name": "get_domains_credit"
+                }
+            },
+            "test_create_pro_user": {
+                "line": 787,
+                "line_end": 801,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 596,
+                    "line_end": 613,
+                    "indent": 0,
+                    "name": "create_pro_user"
+                }
+            },
+            "test_create_pro_user_in_integration": {
+                "line": 804,
+                "line_end": 818,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 596,
+                    "line_end": 613,
+                    "indent": 0,
+                    "name": "create_pro_user"
+                }
+            },
+            "test_create_institutional_project_redactor_with_adage_informations": {
+                "line": 824,
+                "line_end": 853,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 616,
+                    "line_end": 636,
+                    "indent": 0,
+                    "name": "create_institutional_project_redactor"
+                }
+            },
+            "test_upload_identity_document_successful": {
+                "line": 862,
+                "line_end": 886,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 806,
+                    "line_end": 827,
+                    "indent": 0,
+                    "name": "asynchronous_identity_document_verification"
+                }
+            },
+            "test_upload_identity_document_fails_on_upload": {
+                "line": 889,
+                "line_end": 900,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 806,
+                    "line_end": 827,
+                    "indent": 0,
+                    "name": "asynchronous_identity_document_verification"
+                }
+            },
+            "test_email_sent_when_document_is_invalid": {
+                "line": 931,
+                "line_end": 944,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 844,
+                    "line_end": 849,
+                    "indent": 0,
+                    "name": "verify_identity_document_informations"
+                }
+            },
+            "test_update_user_information_from_external_source": {
+                "line": 980,
+                "line_end": 998,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 280,
+                    "indent": 0,
+                    "name": "update_user_information_from_external_source"
+                }
+            },
+            "test_update_user_information_from_external_empty_source": {
+                "line": 1000,
+                "line_end": 1017,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 280,
+                    "indent": 0,
+                    "name": "update_user_information_from_external_source"
+                }
+            }
+        }
+    },
+    "tests/core/users/test_repository.py": {
+        "focal_file": "src/pcapi/core/users/repository.py",
+        "methods": {
+            "test_should_not_return_favorites_of_other_beneficiary": {
+                "line": 184,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "find_favorites_domain_by_beneficiary"
+                }
+            },
+            "test_get_beneficiary_import_for_beneficiary": {
+                "line": 244,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 163,
+                    "indent": 0,
+                    "name": "get_beneficiary_import_for_beneficiary"
+                }
+            }
+        }
+    },
+    "tests/core/users/test_models.py": {
+        "focal_file": "src/pcapi/core/users/models.py",
+        "methods": {
+            "test_super_user_prod": {
+                "line": 250,
+                "line_end": 252,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 264,
+                    "indent": 4,
+                    "name": "is_super_user"
+                }
+            },
+            "test_super_user_not_prod_is_admin_is_super_user": {
+                "line": 265,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 264,
+                    "indent": 4,
+                    "name": "is_super_user"
+                }
+            },
+            "test_add_admin_role": {
+                "line": 56,
+                "line_end": 63,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 409,
+                    "line_end": 414,
+                    "indent": 4,
+                    "name": "add_admin_role"
+                }
+            },
+            "test_add_beneficiary_role": {
+                "line": 65,
+                "line_end": 72,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 416,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "add_beneficiary_role"
+                }
+            },
+            "test_add_institutional_project_redactor_role": {
+                "line": 74,
+                "line_end": 80,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 424,
+                    "indent": 4,
+                    "name": "add_institutional_project_redactor_role"
+                }
+            },
+            "test_add_pro_role": {
+                "line": 82,
+                "line_end": 88,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 426,
+                    "line_end": 427,
+                    "indent": 4,
+                    "name": "add_pro_role"
+                }
+            },
+            "test_cannot_add_beneficiary_role_to_an_admin": {
+                "line": 90,
+                "line_end": 98,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 416,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "add_beneficiary_role"
+                }
+            },
+            "test_cannot_add_institutional_project_redactor_role_to_an_admin": {
+                "line": 130,
+                "line_end": 138,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 424,
+                    "indent": 4,
+                    "name": "add_institutional_project_redactor_role"
+                }
+            },
+            "test_cannot_add_institutional_project_redactor_role_to_a_beneficiary": {
+                "line": 140,
+                "line_end": 148,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 424,
+                    "indent": 4,
+                    "name": "add_institutional_project_redactor_role"
+                }
+            },
+            "test_remove_admin_role": {
+                "line": 174,
+                "line_end": 181,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 432,
+                    "indent": 4,
+                    "name": "remove_admin_role"
+                }
+            },
+            "test_remove_admin_role_when_user_is_not_admin": {
+                "line": 183,
+                "line_end": 191,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 432,
+                    "indent": 4,
+                    "name": "remove_admin_role"
+                }
+            },
+            "test_remove_beneficiary_role": {
+                "line": 193,
+                "line_end": 200,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 437,
+                    "indent": 4,
+                    "name": "remove_beneficiary_role"
+                }
+            },
+            "test_remove_beneficiary_role_when_user_is_not_beneficiary": {
+                "line": 202,
+                "line_end": 210,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 437,
+                    "indent": 4,
+                    "name": "remove_beneficiary_role"
+                }
+            },
+            "test_remove_pro_role": {
+                "line": 212,
+                "line_end": 218,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 443,
+                    "line_end": 445,
+                    "indent": 4,
+                    "name": "remove_pro_role"
+                }
+            },
+            "test_remove_pro_role_when_user_is_not_pro": {
+                "line": 220,
+                "line_end": 227,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 443,
+                    "line_end": 445,
+                    "indent": 4,
+                    "name": "remove_pro_role"
+                }
+            },
+            "test_remove_institutional_project_redactor_role": {
+                "line": 229,
+                "line_end": 235,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 439,
+                    "line_end": 441,
+                    "indent": 4,
+                    "name": "remove_institutional_project_redactor_role"
+                }
+            },
+            "test_remove_institutional_project_redactor_role_when_user_is_not_institutional_project_redactor": {
+                "line": 237,
+                "line_end": 244,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 439,
+                    "line_end": 441,
+                    "indent": 4,
+                    "name": "remove_institutional_project_redactor_role"
+                }
+            }
+        }
+    },
+    "tests/core/users/test_utils.py": {
+        "focal_file": "src/pcapi/core/users/utils.py",
+        "methods": {
+            "test_encode_jwt_payload": {
+                "line": 14,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "encode_jwt_payload"
+                }
+            },
+            "test_encode_jwt_payload_without_expiration_date": {
+                "line": 24,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "encode_jwt_payload"
+                }
+            },
+            "test_format_phone_number": {
+                "line": 37,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "format_phone_number_with_country_code"
+                }
+            },
+            "test_format_phone_number_guyana": {
+                "line": 42,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "format_phone_number_with_country_code"
+                }
+            }
+        }
+    },
+    "tests/connectors/api_entreprises_test.py": {
+        "focal_file": "src/pcapi/connectors/api_entreprises.py",
+        "methods": {
+            "test_returns_legal_category_code_and_label": {
+                "line": 247,
+                "line_end": 265,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "get_offerer_legal_category"
+                }
+            }
+        }
+    },
+    "tests/connectors/api_recaptcha_test.py": {
+        "focal_file": "src/pcapi/connectors/api_recaptcha.py",
+        "methods": {
+            "test_should_return_validation_fields_for_v3": {
+                "line": 47,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "get_token_validation_and_score"
+                }
+            },
+            "test_should_return_validation_fields_for_v2": {
+                "line": 62,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "get_token_validation_and_score"
+                }
+            }
+        }
+    },
+    "tests/connectors/api_adage_test.py": {
+        "focal_file": "src/pcapi/connectors/api_adage.py",
+        "methods": {
+            "test_should_raise_InstitutionalProjectRedactorNotFound_when_adage_does_not_know_the_email": {
+                "line": 76,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "get_institutional_project_redactor_by_email"
+                }
+            }
+        }
+    },
+    "tests/connectors/user_profiling_test.py": {
+        "focal_file": "src/pcapi/connectors/user_profiling.py",
+        "methods": {
+            "test_get_profiling_data_error": {
+                "line": 19,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "pcapi.connectors.user_profiling.UserProfilingClient",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_user_profiling_fraud_data"
+                }
+            },
+            "test_get_profiling_data_fails": {
+                "line": 41,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": "pcapi.connectors.user_profiling.UserProfilingClient",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_user_profiling_fraud_data"
+                }
+            },
+            "test_get_profiling_data": {
+                "line": 65,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": "pcapi.connectors.user_profiling.UserProfilingClient",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_user_profiling_fraud_data"
+                }
+            },
+            "test_get_profiling_data_empty_fields": {
+                "line": 153,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": "pcapi.connectors.user_profiling.UserProfilingClient",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_user_profiling_fraud_data"
+                }
+            },
+            "test_get_profiling_data_format_phone": {
+                "line": 179,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": "pcapi.connectors.user_profiling.UserProfilingClient",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_user_profiling_fraud_data"
+                }
+            }
+        }
+    },
+    "tests/connectors/api_allocine_test.py": {
+        "focal_file": "src/pcapi/connectors/api_allocine.py",
+        "methods": {
+            "test_should_return_poster_content_from_allocine_api": {
+                "line": 63,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "get_movie_poster_from_allocine"
+                }
+            }
+        }
+    },
+    "tests/emails/beneficiary_soon_to_be_expired_bookings_test.py": {
+        "focal_file": "src/pcapi/emails/beneficiary_soon_to_be_expired_bookings.py",
+        "methods": {
+            "test_build_soon_to_be_expired_bookings_data": {
+                "line": 12,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 15,
+                    "indent": 0,
+                    "name": "build_soon_to_be_expired_bookings_recap_email_data_for_beneficiary"
+                }
+            }
+        }
+    },
+    "tests/emails/new_offer_validation_test.py": {
+        "focal_file": "src/pcapi/emails/new_offer_validation.py",
+        "methods": {
+            "test_approval_email": {
+                "line": 12,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "retrieve_data_for_offer_approval_email"
+                }
+            },
+            "test_rejection_email": {
+                "line": 30,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "retrieve_data_for_offer_rejection_email"
+                }
+            }
+        }
+    },
+    "tests/repository/user_queries_test.py": {
+        "focal_file": "src/pcapi/repository/user_queries.py",
+        "methods": {
+            "test_returns_pro_users_with_matching_email_provider": {
+                "line": 73,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "find_pro_users_by_email_provider"
+                }
+            },
+            "test_returns_only_pro_users_with_matching_email_provider": {
+                "line": 92,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "find_pro_users_by_email_provider"
+                }
+            },
+            "test_returns_created_at_date_of_most_recent_beneficiary_import_with_created_status_for_one_procedure": {
+                "line": 213,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "find_most_recent_beneficiary_creation_date_for_source"
+                }
+            },
+            "test_returns_min_year_if_no_beneficiary_import_exist_for_given_source_id": {
+                "line": 244,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "find_most_recent_beneficiary_creation_date_for_source"
+                }
+            }
+        }
+    },
+    "tests/repository/offerer_queries_test.py": {
+        "focal_file": "src/pcapi/repository/offerer_queries.py",
+        "methods": {
+            "test_find_email_of_user_offerer_should_returns_email": {
+                "line": 34,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "find_new_offerer_user_email"
+                }
+            },
+            "test_find_filtered_offerers_with_one_keyword_at_venue_public_name_level": {
+                "line": 50,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "filter_offerers_with_keywords_string"
+                }
+            },
+            "test_find_filtered_offerers_with_one_partial_keyword_at_venue_public_name_level": {
+                "line": 116,
+                "line_end": 178,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "filter_offerers_with_keywords_string"
+                }
+            },
+            "test_find_filtered_offerers_with_several_keywords_at_venue_public_name_level": {
+                "line": 182,
+                "line_end": 244,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "filter_offerers_with_keywords_string"
+                }
+            },
+            "test_find_filtered_offerers_with_several_partial_keywords_at_venue_public_name_level": {
+                "line": 248,
+                "line_end": 310,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "filter_offerers_with_keywords_string"
+                }
+            }
+        }
+    },
+    "tests/repository/user_session_queries_test.py": {
+        "focal_file": "src/pcapi/repository/user_session_queries.py",
+        "methods": {
+            "test_remove_session_for_user": {
+                "line": 21,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "delete_user_session"
+                }
+            }
+        }
+    },
+    "tests/repository/product_queries_test.py": {
+        "focal_file": "src/pcapi/repository/product_queries.py",
+        "methods": {
+            "test_should_return_active_book_product_when_existing_isbn_is_given": {
+                "line": 162,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "find_active_book_product_by_isbn"
+                }
+            }
+        }
+    },
+    "tests/repository/beneficiary_import_queries_test.py": {
+        "focal_file": "src/pcapi/repository/beneficiary_import_queries.py",
+        "methods": {
+            "test_a_beneficiary_import_is_saved_with_all_fields": {
+                "line": 135,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "save_beneficiary_import_with_status"
+                }
+            },
+            "test_should_not_delete_beneficiary_when_import_already_exists": {
+                "line": 181,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "save_beneficiary_import_with_status"
+                }
+            },
+            "test_returns_applications_ids_with_current_status_retry": {
+                "line": 210,
+                "line_end": 225,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "find_applications_ids_to_retry"
+                }
+            }
+        }
+    },
+    "tests/repository/venue_provider_queries_test.py": {
+        "focal_file": "src/pcapi/repository/venue_provider_queries.py",
+        "methods": {
+            "test_should_return_all_venue_provider_matching_provider_id": {
+                "line": 18,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 7,
+                    "indent": 0,
+                    "name": "get_active_venue_providers_for_specific_provider"
+                }
+            },
+            "test_should_return_all_active_venue_providers_matching_provider_id": {
+                "line": 36,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 7,
+                    "indent": 0,
+                    "name": "get_active_venue_providers_for_specific_provider"
+                }
+            }
+        }
+    },
+    "tests/repository/user_offerer_queries_test.py": {
+        "focal_file": "src/pcapi/repository/user_offerer_queries.py",
+        "methods": {
+            "test_find_one_or_none_by_user_id_raises_exception_when_several_are_found": {
+                "line": 38,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 9,
+                    "indent": 0,
+                    "name": "find_one_or_none_by_user_id"
+                }
+            },
+            "test_filter_query_where_user_is_user_offerer_and_is_validated": {
+                "line": 67,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 5,
+                    "indent": 0,
+                    "name": "filter_query_where_user_is_user_offerer_and_is_validated"
+                }
+            }
+        }
+    },
+    "tests/repository/offer_queries_test.py": {
+        "focal_file": "src/pcapi/repository/offer_queries.py",
+        "methods": {
+            "test_get_offers_by_venue_id_returns_offers_matching_venue_id": {
+                "line": 33,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_offers_by_venue_id"
+                }
+            }
+        }
+    },
+    "tests/repository/payment_queries_test.py": {
+        "focal_file": "src/pcapi/repository/payment_queries.py",
+        "methods": {
+            "test_has_payment": {
+                "line": 198,
+                "line_end": 203,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "has_payment"
+                }
+            },
+            "test_get_payment_count_by_status": {
+                "line": 207,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "get_payment_count_by_status"
+                }
+            },
+            "test_group_by_iban_and_bic": {
+                "line": 261,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 147,
+                    "indent": 0,
+                    "name": "group_by_iban_and_bic"
+                }
+            },
+            "test_group_by_venue": {
+                "line": 301,
+                "line_end": 343,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "group_by_venue"
+                }
+            },
+            "test_should_not_return_payments_to_retry_if_no_bank_information": {
+                "line": 74,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "find_not_processable_with_bank_information"
+                }
+            }
+        }
+    },
+    "tests/admin/custom_views/many_offers_operations_view_test.py": {
+        "focal_file": "src/pcapi/admin/custom_views/many_offers_operations_view.py",
+        "methods": {
+            "test_get_current_criteria_on_active_offers": {
+                "line": 179,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "_get_current_criteria_on_active_offers"
+                }
+            },
+            "test_get_products_compatible_status": {
+                "line": 231,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "_get_products_compatible_status"
+                }
+            }
+        }
+    },
+    "tests/admin/custom_views/venue_view_test.py": {
+        "focal_file": "src/pcapi/admin/custom_views/venue_view.py",
+        "methods": {
+            "test_return_empty_link_when_no_venue_provider": {
+                "line": 142,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "_get_venue_provider_link"
+                }
+            },
+            "test_return_link_to_venue_provider": {
+                "line": 153,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "_get_venue_provider_link"
+                }
+            }
+        }
+    },
+    "tests/utils/db_test.py": {
+        "focal_file": "src/pcapi/utils/db.py",
+        "methods": {
+            "test_basics": {
+                "line": 13,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "get_batches"
+                }
+            }
+        }
+    },
+    "tests/utils/mailing_test.py": {
+        "focal_file": "src/pcapi/utils/mailing.py",
+        "methods": {
+            "test_returns_correct_users_information_from_bookings_stock": {
+                "line": 50,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "extract_users_information_from_bookings"
+                }
+            },
+            "test_should_return_pc_pro_offer_link": {
+                "line": 103,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "build_pc_pro_offer_link"
+                }
+            }
+        }
+    },
+    "tests/local_providers/provider_manager_test.py": {
+        "focal_file": "src/pcapi/local_providers/provider_manager.py",
+        "methods": {
+            "test_should_start_synchronization_with_linked_provider": {
+                "line": 61,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "synchronize_venue_provider"
+                }
+            },
+            "test_should_init_provider_with_expected_venue_provider": {
+                "line": 80,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "synchronize_venue_provider"
+                }
+            },
+            "test_should_entirely_synchronize_venue_provider": {
+                "line": 146,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "synchronize_venue_providers_for_provider"
+                }
+            },
+            "test_should_synchronize_venue_provider_with_defined_limit": {
+                "line": 165,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "synchronize_venue_providers_for_provider"
+                }
+            },
+            "test_should_call_synchronize_venue_provider": {
+                "line": 183,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "synchronize_venue_providers_for_provider"
+                }
+            },
+            "test_should_call_do_update_for_specified_provider": {
+                "line": 202,
+                "line_end": 213,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "synchronize_data_for_provider"
+                }
+            }
+        }
+    },
+    "tests/local_providers/provider_api_stocks_test.py": {
+        "focal_file": "src/pcapi/local_providers/provider_api/provider_api_stocks.py",
+        "methods": {
+            "test_synchronize_venue_providers": {
+                "line": 14,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "synchronize_stocks"
+                }
+            }
+        }
+    },
+    "tests/local_providers/allocine_stocks_functions_test.py": {
+        "focal_file": "src/pcapi/local_providers/allocine/allocine_stocks.py",
+        "methods": {
+            "test_should_return_empty_value_when_missing_poster_information": {
+                "line": 188,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 237,
+                    "line_end": 259,
+                    "indent": 0,
+                    "name": "retrieve_movie_information"
+                }
+            },
+            "test_should_retrieve_showtime_information_from_allocine_json_response": {
+                "line": 212,
+                "line_end": 230,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 268,
+                    "indent": 0,
+                    "name": "retrieve_showtime_information"
+                }
+            },
+            "test_should_convert_date_to_utc_timezone": {
+                "line": 321,
+                "line_end": 331,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "_format_date_from_local_timezone_to_utc"
+                }
+            },
+            "test_should_filter_only_digital_and_non_experience_showtimes": {
+                "line": 268,
+                "line_end": 308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "_filter_only_digital_and_non_experience_showtimes"
+                }
+            }
+        }
+    },
+    "tests/validation/routes/offers_test.py": {
+        "focal_file": "src/pcapi/validation/routes/offers.py",
+        "methods": {
+            "test_raises_api_error_when_offer_type_is_invalid": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 11,
+                    "indent": 0,
+                    "name": "check_offer_type_is_valid"
+                }
+            },
+            "test_valid_subcategory": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "check_offer_subcategory_is_valid"
+                }
+            },
+            "test_raises_api_error_when_offer_subcategory_is_invalid": {
+                "line": 33,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "check_offer_subcategory_is_valid"
+                }
+            },
+            "test_raises_api_error_when_offer_subcategory_is_not_selectable": {
+                "line": 39,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "check_offer_subcategory_is_valid"
+                }
+            },
+            "test_does_not_raise_exception_when_offer_name_length_is_valid": {
+                "line": 62,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "check_offer_name_length_is_valid"
+                }
+            }
+        }
+    },
+    "tests/validation/routes/users_authorizations_test.py": {
+        "focal_file": "src/pcapi/validation/routes/users_authorizations.py",
+        "methods": {
+            "test_check_user_can_validate_bookings_returns_false_when_user_is_not_logged_in": {
+                "line": 34,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "check_user_can_validate_bookings"
+                }
+            }
+        }
+    },
+    "tests/validation/routes/users_authentifications_test.py": {
+        "focal_file": "src/pcapi/validation/routes/users_authentifications.py",
+        "methods": {
+            "test_does_not_raise_error_when_email_is_provided": {
+                "line": 24,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "check_user_is_logged_in_or_email_is_provided"
+                }
+            }
+        }
+    },
+    "tests/validation/routes/users_test.py": {
+        "focal_file": "src/pcapi/validation/routes/users.py",
+        "methods": {
+            "test_check_valid_signup_webapp_raises_api_error_if_not_contact_ok": {
+                "line": 9,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "check_valid_signup_webapp"
+                }
+            },
+            "test_check_valid_signup_webapp_raises_api_error_if_contact_ok_false": {
+                "line": 22,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "check_valid_signup_webapp"
+                }
+            },
+            "test_check_valid_signup_webapp_raises_api_error_if_no_password": {
+                "line": 48,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "check_valid_signup_webapp"
+                }
+            },
+            "test_check_valid_signup_webapp_raises_api_error_if_no_email": {
+                "line": 80,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "check_valid_signup_webapp"
+                }
+            }
+        }
+    },
+    "tests/models/feature_test.py": {
+        "focal_file": "src/pcapi/models/feature.py",
+        "methods": {
+            "test_is_active_returns_true_when_feature_is_active": {
+                "line": 12,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "is_active"
+                }
+            }
+        }
+    },
+    "tests/models/offerer_test.py": {
+        "focal_file": "src/pcapi/model_creators/generic_creators.py",
+        "methods": {
+            "test_nOffers": {
+                "line": 17,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "create_offerer"
+                }
+            }
+        }
+    },
+    "tests/models/pc_object_test.py": {
+        "focal_file": "src/pcapi/models/pc_object.py",
+        "methods": {
+            "test_on_pc_object_for_valid_sql_uuid_value": {
+                "line": 169,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "populate_from_dict"
+                }
+            }
+        }
+    },
+    "tests/sandboxes/scripts/create_industrial_webapp_users_test.py": {
+        "focal_file": "src/pcapi/sandboxes/scripts/creators/industrial/create_industrial_webapp_users.py",
+        "methods": {
+            "test_create_industrial_webapp_users": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "create_industrial_webapp_users"
+                }
+            }
+        }
+    },
+    "tests/sandboxes/scripts/bookings_recap/bookings_recap_test.py": {
+        "focal_file": "src/pcapi/sandboxes/scripts/creators/bookings_recap/bookings_recap.py",
+        "methods": {
+            "test_should_create_bookings_recap_sandbox": {
+                "line": 14,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "save_bookings_recap_sandbox"
+                }
+            }
+        }
+    },
+    "tests/domain/payments_xml_test.py": {
+        "focal_file": "src/pcapi/domain/payments.py",
+        "methods": {
+            "test_validate_message_file_structure_raises_on_error": {
+                "line": 134,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "validate_message_file_structure"
+                }
+            }
+        }
+    },
+    "tests/domain/payments_csv_test.py": {
+        "focal_file": "src/pcapi/domain/payments.py",
+        "methods": {
+            "test_generate_csv": {
+                "line": 19,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 239,
+                    "line_end": 252,
+                    "indent": 0,
+                    "name": "generate_payment_details_csv"
+                }
+            },
+            "test_generate_wallet_balances_csv_has_human_readable_header": {
+                "line": 135,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 261,
+                    "indent": 0,
+                    "name": "generate_wallet_balances_csv"
+                }
+            }
+        }
+    },
+    "tests/domain/demarches_simplifiees_test.py": {
+        "focal_file": "src/pcapi/domain/demarches_simplifiees.py",
+        "methods": {
+            "test_returns_applications_from_all_pages": {
+                "line": 35,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "get_all_application_ids_for_demarche_simplifiee"
+                }
+            },
+            "test_returns_applications_with_chosen_states": {
+                "line": 80,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "get_all_application_ids_for_demarche_simplifiee"
+                }
+            },
+            "test_returns_all_applications_if_no_date_specified": {
+                "line": 103,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "get_all_application_ids_for_demarche_simplifiee"
+                }
+            }
+        }
+    },
+    "tests/domain/payments_test.py": {
+        "focal_file": "src/pcapi/domain/payments.py",
+        "methods": {
+            "test_generate_venues_csv": {
+                "line": 312,
+                "line_end": 377,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 192,
+                    "indent": 0,
+                    "name": "generate_venues_csv"
+                }
+            },
+            "test_set_end_to_end_id_and_group_into_transactions": {
+                "line": 484,
+                "line_end": 569,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 347,
+                    "indent": 0,
+                    "name": "_set_end_to_end_id_and_group_into_transactions"
+                }
+            },
+            "test_it_returns_an_empty_list_if_everything_has_no_not_processable_payment": {
+                "line": 192,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 156,
+                    "indent": 0,
+                    "name": "keep_only_not_processable_payments"
+                }
+            }
+        }
+    },
+    "tests/domain/admin_emails_test.py": {
+        "focal_file": "src/pcapi/domain/admin_emails.py",
+        "methods": {
+            "test_maybe_send_offerer_validation_email_sends_email_to_pass_culture_when_objects_to_validate": {
+                "line": 23,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "maybe_send_offerer_validation_email"
+                }
+            },
+            "test_maybe_send_offerer_validation_email_does_not_send_email_if_all_validated": {
+                "line": 47,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "maybe_send_offerer_validation_email"
+                }
+            },
+            "test_send_payment_details_email_sends_email_to_pass_culture": {
+                "line": 60,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "send_payment_details_email"
+                }
+            },
+            "test_send_wallet_balances_email_sends_email_to_recipients": {
+                "line": 73,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "send_wallet_balances_email"
+                }
+            },
+            "test_send_payments_report_email_sends_email_to_recipients": {
+                "line": 86,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "send_payments_report_emails"
+                }
+            },
+            "test_when_mailjet_status_code_200_sends_email_to_administration_email": {
+                "line": 115,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "send_offer_rejection_notification_to_administration"
+                }
+            },
+            "test_send_refusal_notification": {
+                "line": 129,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "send_offer_validation_notification_to_administration"
+                }
+            },
+            "test_send_approval_notification": {
+                "line": 141,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "send_offer_validation_notification_to_administration"
+                }
+            }
+        }
+    },
+    "tests/domain/reimbursement_test.py": {
+        "focal_file": "src/pcapi/domain/reimbursement.py",
+        "methods": {
+            "test_returns_full_reimbursement_for_all_bookings": {
+                "line": 529,
+                "line_end": 542,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 156,
+                    "indent": 0,
+                    "name": "find_all_booking_reimbursements"
+                }
+            },
+            "test_returns_full_reimbursement_for_all_bookings_for_new_civil_year": {
+                "line": 682,
+                "line_end": 696,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 156,
+                    "indent": 0,
+                    "name": "find_all_booking_reimbursements"
+                }
+            }
+        }
+    },
+    "tests/domain/user_activation_test.py": {
+        "focal_file": "src/pcapi/domain/user_activation.py",
+        "methods": {
+            "test_error_cannot_be_changed": {
+                "line": 29,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "is_import_status_change_allowed"
+                }
+            },
+            "test_retry_cannot_be_changed": {
+                "line": 47,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "is_import_status_change_allowed"
+                }
+            }
+        }
+    },
+    "tests/domain/password_test.py": {
+        "focal_file": "src/pcapi/domain/password.py",
+        "methods": {
+            "test_generate_a_valid_password": {
+                "line": 15,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "random_password"
+                }
+            }
+        }
+    },
+    "tests/domain/users_test.py": {
+        "focal_file": "src/pcapi/domain/users.py",
+        "methods": {
+            "test_when_user_is_admin_should_prevent_from_accessing_bookings_list": {
+                "line": 9,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 6,
+                    "indent": 0,
+                    "name": "check_is_authorized_to_access_bookings_recap"
+                }
+            },
+            "test_when_user_is_not_admin_should_allow_accessing_bookings_list": {
+                "line": 22,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 6,
+                    "indent": 0,
+                    "name": "check_is_authorized_to_access_bookings_recap"
+                }
+            }
+        }
+    },
+    "tests/domain/user_emails_test.py": {
+        "focal_file": "src/pcapi/domain/user_emails.py",
+        "methods": {
+            "test_should_send_cancellation_by_offerer_email_to_offerer": {
+                "line": 91,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "send_offerer_driven_cancellation_email_to_offerer"
+                }
+            },
+            "test_should_send_booking_cancellation_email_to_offerer": {
+                "line": 113,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "send_user_driven_cancellation_email_to_offerer"
+                }
+            },
+            "test_should_sends_email_to_beneficiary_when_pro_cancels_booking": {
+                "line": 127,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "send_warning_to_beneficiary_after_pro_booking_cancellation"
+                }
+            },
+            "test_send_activation_email": {
+                "line": 261,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 188,
+                    "indent": 0,
+                    "name": "send_activation_email"
+                }
+            },
+            "test_send_activation_email_for_native": {
+                "line": 274,
+                "line_end": 284,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 188,
+                    "indent": 0,
+                    "name": "send_activation_email"
+                }
+            },
+            "test_send_activation_email_to_redactor_native_app": {
+                "line": 289,
+                "line_end": 300,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 196,
+                    "indent": 0,
+                    "name": "send_activation_email_to_redactor"
+                }
+            },
+            "test_send_attachment_validation_email_to_pro_offerer": {
+                "line": 306,
+                "line_end": 318,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "send_attachment_validation_email_to_pro_offerer"
+                }
+            },
+            "test_send_offer_approval_email": {
+                "line": 530,
+                "line_end": 545,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 242,
+                    "line_end": 252,
+                    "indent": 0,
+                    "name": "send_offer_validation_status_update_email"
+                }
+            },
+            "test_send_offer_refusing_email": {
+                "line": 547,
+                "line_end": 562,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 242,
+                    "line_end": 252,
+                    "indent": 0,
+                    "name": "send_offer_validation_status_update_email"
+                }
+            }
+        }
+    },
+    "tests/notifications/push/user_attributes_updates_test.py": {
+        "focal_file": "src/pcapi/notifications/push/user_attributes_updates.py",
+        "methods": {
+            "test_get_attributes": {
+                "line": 18,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "get_user_attributes"
+                }
+            },
+            "test_get_attributes_without_bookings": {
+                "line": 56,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "get_user_attributes"
+                }
+            }
+        }
+    },
+    "tests/tasks/decorator_test.py": {
+        "focal_file": "src/pcapi/tasks/decorator.py",
+        "methods": {
+            "test_task": {
+                "line": 20,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "task"
+                }
+            },
+            "test_calling_task": {
+                "line": 27,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 35,
+                    "indent": 8,
+                    "name": "delay"
+                }
+            }
+        }
+    }
+}

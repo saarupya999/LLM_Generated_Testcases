@@ -1,0 +1,255 @@
+{
+    "tests/test_aws.py": {
+        "focal_file": "boto3facade/aws.py",
+        "methods": {
+            "test_get_credentials": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "get_credentials"
+                }
+            },
+            "test_get_credentials_for_empty_profile": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "get_credentials"
+                }
+            }
+        }
+    },
+    "tests/test_config.py": {
+        "focal_file": "boto3facade/config.py",
+        "methods": {
+            "test_read_ec2_config": {
+                "line": 81,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_configure_local_file": {
+                "line": 128,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "configure"
+                }
+            },
+            "test_configure_new_local_profile": {
+                "line": 143,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "activate_profile"
+                }
+            }
+        }
+    },
+    "tests/test_ec2.py": {
+        "focal_file": "boto3facade/ec2.py",
+        "methods": {
+            "testkeypair": {
+                "line": 53,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "delete_key_pair"
+                }
+            },
+            "test_get_ami_by_tag_no_match": {
+                "line": 63,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "get_ami_by_tag"
+                }
+            },
+            "test_get_ami_by_name_no_match": {
+                "line": 69,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "get_ami_by_name"
+                }
+            },
+            "test_get_sg_by_name_no_match": {
+                "line": 74,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "get_sg_by_name"
+                }
+            },
+            "test_get_vpc_by_name_no_math": {
+                "line": 79,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "get_vpc_by_name"
+                }
+            },
+            "test_get_subnet_by_name_no_math": {
+                "line": 84,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_subnet_by_name"
+                }
+            },
+            "test_get_vpc_by_name": {
+                "line": 89,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "get_vpc_by_name"
+                }
+            },
+            "test_get_subnet_by_name": {
+                "line": 101,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "get_subnet_by_name"
+                }
+            },
+            "test_get_temporary_credentials_in_ec2": {
+                "line": 107,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "get_temporary_credentials"
+                }
+            },
+            "test_get_temporary_credentials_outside_ec2": {
+                "line": 130,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "get_temporary_credentials"
+                }
+            },
+            "test_key_pairs": {
+                "line": 136,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "create_key_pair"
+                }
+            }
+        }
+    },
+    "tests/test_redshift.py": {
+        "focal_file": "boto3facade/redshift.py",
+        "methods": {
+            "test_get_temp_copy_credentials": {
+                "line": 34,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "get_copy_credentials"
+                }
+            },
+            "test_get_local_copy_credentials": {
+                "line": 45,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "get_copy_credentials"
+                }
+            }
+        }
+    },
+    "tests/test_s3.py": {
+        "focal_file": "boto3facade/s3.py",
+        "methods": {
+            "test_cp": {
+                "line": 44,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "cp"
+                }
+            }
+        }
+    }
+}

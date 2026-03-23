@@ -1,0 +1,130 @@
+{
+    "tests/test_broker.py": {
+        "focal_file": "eventual/abc/broker.py",
+        "methods": {
+            "test_no_message_is_dropped": {
+                "line": 49,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "message_receive_stream"
+                }
+            },
+            "test_every_message_is_confirmed": {
+                "line": 63,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "message_receive_stream"
+                }
+            },
+            "test_every_message_acknowledged": {
+                "line": 81,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "acknowledge"
+                }
+            }
+        }
+    },
+    "tests/test_entity.py": {
+        "focal_file": "eventual/model/entity.py",
+        "methods": {
+            "test_entity_as_dictionary": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "as_dictionary"
+                }
+            }
+        }
+    },
+    "tests/test_registry.py": {
+        "focal_file": "eventual/abc/registry.py",
+        "methods": {
+            "test_registry_rejects_zero_delay": {
+                "line": 27,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_registry_maps_handlers": {
+                "line": 51,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "mapping"
+                }
+            },
+            "test_subscribe": {
+                "line": 74,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "subscribe"
+                }
+            }
+        }
+    },
+    "tests/test_scheduler.py": {
+        "focal_file": "eventual/abc/schedule.py",
+        "methods": {
+            "test_scheduler_clear_outbox": {
+                "line": 57,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "schedule_outbox_in_work_unit"
+                }
+            },
+            "test_scheduler_marks_confirmed_events_as_sent": {
+                "line": 78,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "is_event_entry_closed"
+                }
+            }
+        }
+    }
+}

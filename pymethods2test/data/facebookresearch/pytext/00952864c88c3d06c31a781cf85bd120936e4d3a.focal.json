@@ -1,0 +1,858 @@
+{
+    "tests/model_utils_test.py": {
+        "focal_file": "pytext/utils/model.py",
+        "methods": {
+            "test_to_onehot": {
+                "line": 14,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 20,
+                    "indent": 0,
+                    "name": "to_onehot"
+                }
+            }
+        }
+    },
+    "pytext/config/test/config_adapter_test.py": {
+        "focal_file": "pytext/config/config_adapter.py",
+        "methods": {
+            "test_upgrade_one_version": {
+                "line": 70,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1046,
+                    "line_end": 1060,
+                    "indent": 0,
+                    "name": "upgrade_one_version"
+                }
+            },
+            "test_downgrade_one_version": {
+                "line": 84,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1063,
+                    "line_end": 1074,
+                    "indent": 0,
+                    "name": "downgrade_one_version"
+                }
+            }
+        }
+    },
+    "pytext/config/test/serialize_test.py": {
+        "focal_file": "pytext/config/serialize.py",
+        "methods": {
+            "test_value_from_json": {
+                "line": 22,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "_value_from_json"
+                }
+            },
+            "test_value_to_json": {
+                "line": 27,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "_value_to_json"
+                }
+            },
+            "test_config_to_json_for_dict": {
+                "line": 46,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 293,
+                    "indent": 0,
+                    "name": "config_to_json"
+                }
+            },
+            "test_config_to_json_for_union": {
+                "line": 73,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "config_from_json"
+                }
+            }
+        }
+    },
+    "pytext/optimizer/tests/fp16optimizer_test.py": {
+        "focal_file": "pytext/optimizer/fp16_optimizer.py",
+        "methods": {
+            "test_master_maintain_zero_grad": {
+                "line": 55,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "zero_grad"
+                }
+            },
+            "test_master_maintain_grads_from_model_to_master": {
+                "line": 65,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 585,
+                    "line_end": 606,
+                    "indent": 4,
+                    "name": "_grads_from_model_to_master"
+                }
+            },
+            "test_master_maintain_weights_from_master_to_model": {
+                "line": 85,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 608,
+                    "line_end": 615,
+                    "indent": 4,
+                    "name": "_weights_from_master_to_model"
+                }
+            },
+            "test_memory_efficient_zero_grad": {
+                "line": 300,
+                "line_end": 308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "zero_grad"
+                }
+            }
+        }
+    },
+    "pytext/optimizer/sparsifiers/tests/sparsifier_test.py": {
+        "focal_file": "pytext/optimizer/sparsifiers/blockwise_sparsifier.py",
+        "methods": {
+            "test_param_mask": {
+                "line": 36,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "_compute_param_mask"
+                }
+            }
+        }
+    },
+    "pytext/torchscript/tests/test_tensorizer.py": {
+        "focal_file": "pytext/torchscript/tensorizer/tensorizer.py",
+        "methods": {
+            "test_roberta_tensorizer": {
+                "line": 74,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "numberize"
+                }
+            }
+        }
+    },
+    "pytext/torchscript/tests/test_vocab.py": {
+        "focal_file": "pytext/torchscript/vocab.py",
+        "methods": {
+            "test_lookup_words_1d_cycle_heuristic": {
+                "line": 70,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "lookup_words_1d_cycle_heuristic"
+                }
+            }
+        }
+    },
+    "pytext/torchscript/tests/test_module.py": {
+        "focal_file": "pytext/torchscript/module.py",
+        "methods": {
+            "test_make_prediction_none": {
+                "line": 240,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_emptylist": {
+                "line": 245,
+                "line_end": 248,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_empty_tuple": {
+                "line": 250,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_one_text": {
+                "line": 260,
+                "line_end": 268,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_multi_text": {
+                "line": 270,
+                "line_end": 280,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_one_token": {
+                "line": 351,
+                "line_end": 361,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_1": {
+                "line": 548,
+                "line_end": 553,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_2": {
+                "line": 555,
+                "line_end": 559,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_3": {
+                "line": 561,
+                "line_end": 564,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_4": {
+                "line": 566,
+                "line_end": 571,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_5": {
+                "line": 573,
+                "line_end": 580,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_6": {
+                "line": 582,
+                "line_end": 593,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            },
+            "test_make_prediction_7": {
+                "line": 595,
+                "line_end": 600,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "make_prediction"
+                }
+            }
+        }
+    },
+    "pytext/torchscript/tests/test_batchutils.py": {
+        "focal_file": "pytext/torchscript/batchutils.py",
+        "methods": {
+            "test_make_prediction_tokens": {
+                "line": 20,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 489,
+                    "line_end": 511,
+                    "indent": 0,
+                    "name": "make_prediction_tokens"
+                }
+            },
+            "test_destructure_any_list_empty": {
+                "line": 56,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 170,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "destructure_any_list"
+                }
+            },
+            "test_destructure_tensor_list_empty": {
+                "line": 108,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "destructure_tensor_list"
+                }
+            },
+            "test_destructure_tensor_list_short_complete": {
+                "line": 113,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "destructure_tensor_list"
+                }
+            },
+            "test_destructure_tensor_list_short_incomplete": {
+                "line": 122,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "destructure_tensor_list"
+                }
+            },
+            "test_destructure_tensor_list_long1": {
+                "line": 132,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "destructure_tensor_list"
+                }
+            },
+            "test_destructure_tensor_list_long2": {
+                "line": 144,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "destructure_tensor_list"
+                }
+            },
+            "test_destructure_tensor_list_long3": {
+                "line": 155,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "destructure_tensor_list"
+                }
+            },
+            "test_destructure_dict_list_empty": {
+                "line": 169,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "destructure_dict_list"
+                }
+            },
+            "test_destructure_dict_list_short_complete": {
+                "line": 174,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "destructure_dict_list"
+                }
+            },
+            "test_destructure_dict_list_short_incomplete": {
+                "line": 183,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "destructure_dict_list"
+                }
+            },
+            "test_destructure_dict_list_long1": {
+                "line": 193,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "destructure_dict_list"
+                }
+            },
+            "test_destructure_dict_list_long2": {
+                "line": 205,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "destructure_dict_list"
+                }
+            },
+            "test_destructure_dict_list_long3": {
+                "line": 216,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "destructure_dict_list"
+                }
+            },
+            "test_make_prediction_texts": {
+                "line": 230,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 321,
+                    "line_end": 343,
+                    "indent": 0,
+                    "name": "make_prediction_texts"
+                }
+            },
+            "test_make_prediction_texts_dense": {
+                "line": 266,
+                "line_end": 332,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 400,
+                    "line_end": 434,
+                    "indent": 0,
+                    "name": "make_prediction_texts_dense"
+                }
+            },
+            "test_zip_batch_tensor_list": {
+                "line": 334,
+                "line_end": 344,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "zip_batch_tensor_list"
+                }
+            },
+            "test_zip_batch_tensor_list_item_verification": {
+                "line": 346,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "zip_batch_tensor_list"
+                }
+            },
+            "test_zip_batch_any_list": {
+                "line": 360,
+                "line_end": 380,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 270,
+                    "indent": 0,
+                    "name": "zip_batch_any_list_list"
+                }
+            }
+        }
+    },
+    "pytext/data/test/utils_test.py": {
+        "focal_file": "pytext/data/utils.py",
+        "methods": {
+            "test_align_target_label": {
+                "line": 10,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 353,
+                    "indent": 0,
+                    "name": "align_target_labels"
+                }
+            }
+        }
+    },
+    "pytext/data/test/tokenizers_test.py": {
+        "focal_file": "pytext/data/tokenizers/tokenizer.py",
+        "methods": {
+            "test_tokenize": {
+                "line": 122,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "pytext.data.tokenizers.SentencePieceTokenizer.Config",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_tokenize_dont_lowercase": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "Tokenizer",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_wordpiece_tokenizer": {
+                "line": 83,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "Token",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_gpt2_bpe_tokenizer": {
+                "line": 103,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "pytext.data.tokenizers.GPT2BPETokenizer.Config",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            }
+        }
+    },
+    "pytext/fields/test/char_field_test.py": {
+        "focal_file": "pytext/fields/char_field.py",
+        "methods": {
+            "test_build_vocab": {
+                "line": 17,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "CharFeatureField",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "build_vocab"
+                }
+            },
+            "test_pad_and_numericalize": {
+                "line": 61,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": "CharFeatureField",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "numericalize"
+                }
+            }
+        }
+    },
+    "pytext/fields/test/dict_field_test.py": {
+        "focal_file": "pytext/fields/dict_field.py",
+        "methods": {
+            "test_right_pad_numericalize": {
+                "line": 91,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "numericalize"
+                }
+            },
+            "test_left_pad_numericalize": {
+                "line": 109,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "numericalize"
+                }
+            }
+        }
+    },
+    "pytext/fields/test/contextual_token_embedding_field_test.py": {
+        "focal_file": "pytext/fields/contextual_token_embedding_field.py",
+        "methods": {
+            "test_pad": {
+                "line": 50,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "pad"
+                }
+            }
+        }
+    },
+    "pytext/utils/tests/label_test.py": {
+        "focal_file": "pytext/utils/label.py",
+        "methods": {
+            "test_get_label_weights": {
+                "line": 11,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "get_label_weights"
+                }
+            }
+        }
+    },
+    "pytext/utils/tests/path_test.py": {
+        "focal_file": "pytext/utils/path.py",
+        "methods": {
+            "test_is_absolute_path": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "is_absolute_path"
+                }
+            }
+        }
+    },
+    "pytext/utils/tests/timing_test.py": {
+        "focal_file": "pytext/utils/timing.py",
+        "methods": {
+            "test_format_time": {
+                "line": 10,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "format_time"
+                }
+            }
+        }
+    },
+    "pytext/metric_reporters/tests/multi_label_seq_tagging_metric_reporter_test.py": {
+        "focal_file": "pytext/metric_reporters/word_tagging_metric_reporter.py",
+        "methods": {
+            "test_calculate_metric": {
+                "line": 14,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "MultiLabelSequenceTaggingMetricReporter",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "calculate_metric"
+                }
+            }
+        }
+    },
+    "pytext/metric_reporters/tests/intent_slot_metric_reporter_test.py": {
+        "focal_file": "pytext/metric_reporters/intent_slot_detection_metric_reporter.py",
+        "methods": {
+            "test_create_node": {
+                "line": 14,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "create_frame"
+                }
+            }
+        }
+    },
+    "pytext/metric_reporters/tests/language_model_metric_reporter_test.py": {
+        "focal_file": "pytext/metric_reporters/language_model_metric_reporter.py",
+        "methods": {
+            "test_report_realtime_metric": {
+                "line": 17,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "MaskedLMMetricReporter",
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "report_realtime_metric"
+                }
+            },
+            "test_report_empty_batch": {
+                "line": 97,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": "LanguageModelMetricReporter",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "add_batch_stats"
+                }
+            }
+        }
+    }
+}

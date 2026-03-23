@@ -1,0 +1,207 @@
+{
+    "tests/functional/test_mcts.py": {
+        "focal_file": "alphago/mcts_tree.py",
+        "methods": {
+            "test_print_mcts": {
+                "line": 65,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": "MCTSNode",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "mcts"
+                }
+            }
+        }
+    },
+    "tests/functional/test_noughts_and_crosses.py": {
+        "focal_file": "alphago/games/noughts_and_crosses.py",
+        "methods": {
+            "test_computing_possible_legal_actions": {
+                "line": 55,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "NoughtsAndCrosses",
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 332,
+                    "indent": 4,
+                    "name": "legal_actions"
+                }
+            }
+        }
+    },
+    "tests/unit/mcts_tree_test.py": {
+        "focal_file": "alphago/mcts_tree.py",
+        "methods": {
+            "test_compute_ucb": {
+                "line": 153,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 273,
+                    "indent": 0,
+                    "name": "compute_ucb"
+                }
+            },
+            "test_normalise_distribution_correctly_normalises_distribution": {
+                "line": 171,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 408,
+                    "line_end": 427,
+                    "indent": 0,
+                    "name": "normalise_distribution"
+                }
+            },
+            "test_extremise_distribution_function": {
+                "line": 179,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 430,
+                    "line_end": 469,
+                    "indent": 0,
+                    "name": "extremise_distribution"
+                }
+            },
+            "test_mcts_tree_is_leaf": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "MCTSNode",
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "is_leaf"
+                }
+            },
+            "test_mcts_backup": {
+                "line": 90,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 405,
+                    "indent": 0,
+                    "name": "backup"
+                }
+            },
+            "test_mcts_select": {
+                "line": 117,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": "MCTSNode",
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 376,
+                    "indent": 0,
+                    "name": "select"
+                }
+            }
+        }
+    },
+    "tests/unit/games/connect_four_test.py": {
+        "focal_file": "alphago/games/connect_four.py",
+        "methods": {
+            "test_connect_four_initial_state": {
+                "line": 7,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "__init__"
+                }
+            },
+            "test_connect_four_line_sums_4_by_4": {
+                "line": 100,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "_calculate_line_sums_4_by_4"
+                }
+            },
+            "test_utility": {
+                "line": 172,
+                "line_end": 174,
+                "indent": 0,
+                "focal_class": "ConnectFour",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "utility"
+                }
+            }
+        }
+    },
+    "tests/unit/games/noughts_and_crosses_test.py": {
+        "focal_file": "alphago/games/noughts_and_crosses.py",
+        "methods": {
+            "test_noughts_and_crosses_instances_have_correct_size": {
+                "line": 16,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "__init__"
+                }
+            },
+            "test_calculating_major_diagonal_win_bitmasks": {
+                "line": 60,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "_calculate_major_diagonal_bitmasks"
+                }
+            },
+            "test_calculating_minor_diagonal_win_bitmasks": {
+                "line": 71,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "_calculate_minor_diagonal_bitmasks"
+                }
+            },
+            "test_current_player_delegates_to_sub_game_current_player": {
+                "line": 312,
+                "line_end": 317,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "current_player"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,587 @@
+{
+    "tests/io_tests/lib_tests.py": {
+        "focal_file": "mlio/io/_lib.py",
+        "methods": {
+            "test_file_as_blockiter": {
+                "line": 19,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "file_as_blockiter"
+                }
+            },
+            "test_file_as_blockiter_uneven_chunks": {
+                "line": 33,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "file_as_blockiter"
+                }
+            },
+            "test_hash_file_object": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "hash_file_object"
+                }
+            }
+        }
+    },
+    "tests/io_tests/pack_manifest_tests.py": {
+        "focal_file": "mlio/io/pack.py",
+        "methods": {
+            "test_to_dict": {
+                "line": 325,
+                "line_end": 343,
+                "indent": 4,
+                "focal_class": "PackManifest",
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_from_dict": {
+                "line": 414,
+                "line_end": 434,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "from_dict"
+                }
+            },
+            "test_find_unsatisfied_dependencies": {
+                "line": 136,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": "PackManifestSlot",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "find_unsatisfied_dependencies"
+                }
+            },
+            "test_touch_update_at": {
+                "line": 241,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": "PackManifest",
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 217,
+                    "indent": 4,
+                    "name": "touch_updated_at"
+                }
+            },
+            "test_insert_slot": {
+                "line": 257,
+                "line_end": 277,
+                "indent": 4,
+                "focal_class": "PackManifest",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "insert_slot"
+                }
+            },
+            "test_insert_slot_invalid": {
+                "line": 279,
+                "line_end": 291,
+                "indent": 4,
+                "focal_class": "PackManifest",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "insert_slot"
+                }
+            },
+            "test_remove_slot_invalid": {
+                "line": 293,
+                "line_end": 297,
+                "indent": 4,
+                "focal_class": "PackManifest",
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "remove_slot"
+                }
+            },
+            "test_remove_slot": {
+                "line": 300,
+                "line_end": 321,
+                "indent": 4,
+                "focal_class": "PackManifest",
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "remove_slot"
+                }
+            }
+        }
+    },
+    "tests/io_tests/pack_tests.py": {
+        "focal_file": "mlio/io/pack.py",
+        "methods": {
+            "test_existing_pack_objects": {
+                "line": 50,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "Pack",
+                "focal_method": {
+                    "line": 417,
+                    "line_end": 437,
+                    "indent": 4,
+                    "name": "_existing_pack_objects"
+                }
+            },
+            "test_remove_dangling_slot_objects": {
+                "line": 72,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "Pack",
+                "focal_method": {
+                    "line": 439,
+                    "line_end": 458,
+                    "indent": 4,
+                    "name": "_cleanup_dangling_pack_objects"
+                }
+            },
+            "test_dump": {
+                "line": 109,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "Pack",
+                "focal_method": {
+                    "line": 498,
+                    "line_end": 540,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            }
+        }
+    },
+    "tests/io_tests/serializers/registry_tests.py": {
+        "focal_file": "mlio/io/serializers/_registry.py",
+        "methods": {
+            "test_get_serializer_by_id": {
+                "line": 35,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_serializer_by_type"
+                }
+            },
+            "test_get_serializer_by_id_unknown": {
+                "line": 43,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_serializer_by_type"
+                }
+            },
+            "test_find_suitable_serializer": {
+                "line": 48,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "find_suitable_serializer"
+                }
+            },
+            "test_custom_serializer": {
+                "line": 70,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "register_serializer"
+                }
+            }
+        }
+    },
+    "tests/io_tests/context_dependencies/base_tests.py": {
+        "focal_file": "mlio/io/context_dependencies/base.py",
+        "methods": {
+            "test_ctor_params": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "ContextDependencyBase",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "get_params"
+                }
+            },
+            "test_to_dict": {
+                "line": 34,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_from_dict": {
+                "line": 50,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "from_dict"
+                }
+            }
+        }
+    },
+    "tests/io_tests/context_dependencies/module_version_tests.py": {
+        "focal_file": "mlio/io/context_dependencies/module_version.py",
+        "methods": {
+            "test_is_satisfied_simple": {
+                "line": 71,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "ModuleVersionContextDependency",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "is_satisfied"
+                }
+            },
+            "test_is_satisfied_complex": {
+                "line": 91,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "ModuleVersionContextDependency",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "is_satisfied"
+                }
+            }
+        }
+    },
+    "tests/resources/repositories_tests.py": {
+        "focal_file": "mlio/resources/repositories.py",
+        "methods": {
+            "test_absolute_path_valid": {
+                "line": 118,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": "LocalDirectoryRepository",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "_file_absolute_path"
+                }
+            },
+            "test_absolute_path_traversal_security": {
+                "line": 152,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": "LocalDirectoryRepository",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "_file_absolute_path"
+                }
+            },
+            "test_method_has": {
+                "line": 170,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": "LocalDirectoryRepository",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "has"
+                }
+            },
+            "test_where": {
+                "line": 394,
+                "line_end": 416,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "where"
+                }
+            },
+            "test_which": {
+                "line": 418,
+                "line_end": 440,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "which"
+                }
+            }
+        }
+    },
+    "tests/resources/manager_tests.py": {
+        "focal_file": "mlio/resources/manager.py",
+        "methods": {
+            "test_add_resource": {
+                "line": 30,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "ResourceManager",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "add_resource"
+                }
+            },
+            "test_has_resource": {
+                "line": 43,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "ResourceManager",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "has_resource"
+                }
+            },
+            "test_access_resources": {
+                "line": 72,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "ResourceManager",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "add_resource"
+                }
+            },
+            "test_load_all_resources": {
+                "line": 97,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "load_resources"
+                }
+            },
+            "test_load_partial_resources": {
+                "line": 112,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "load_resources"
+                }
+            },
+            "test_load_unknown_resources": {
+                "line": 135,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "load_resources"
+                }
+            },
+            "test_load_partially_unknown_resources": {
+                "line": 143,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "load_resources"
+                }
+            }
+        }
+    },
+    "tests/resources/resource_types_tests.py": {
+        "focal_file": "mlio/resources/resource_types.py",
+        "methods": {
+            "test_load_object": {
+                "line": 113,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "VocabularyResource",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "_load_object_impl"
+                }
+            },
+            "test_dump_object": {
+                "line": 139,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": "VocabularyResource",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_dump_object_impl"
+                }
+            },
+            "test_update_object": {
+                "line": 273,
+                "line_end": 281,
+                "indent": 4,
+                "focal_class": "ResourceBase",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "update_object"
+                }
+            },
+            "test_load_object_custom_transformer": {
+                "line": 126,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": "VocabularyResource",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "_load_object_impl"
+                }
+            },
+            "test_multi_slot_load_object": {
+                "line": 196,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": "MLIOResource",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "_load_object_impl"
+                }
+            },
+            "test_default_dump_object": {
+                "line": 207,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": "MLIOResource",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_dump_object_impl"
+                }
+            },
+            "test_multi_dump_object": {
+                "line": 223,
+                "line_end": 239,
+                "indent": 4,
+                "focal_class": "MLIOResource",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_dump_object_impl"
+                }
+            },
+            "test_bind_manager": {
+                "line": 259,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": "ResourceBase",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "bind_manager"
+                }
+            },
+            "test_manual_load": {
+                "line": 293,
+                "line_end": 303,
+                "indent": 4,
+                "focal_class": "ResourceBase",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_dump": {
+                "line": 338,
+                "line_end": 361,
+                "indent": 4,
+                "focal_class": "ResourceBase",
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            }
+        }
+    }
+}

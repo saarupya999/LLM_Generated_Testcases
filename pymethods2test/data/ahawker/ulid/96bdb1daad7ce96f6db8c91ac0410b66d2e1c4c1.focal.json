@@ -1,0 +1,414 @@
+{
+    "tests/test_api_api.py": {
+        "focal_file": "ulid/api/api.py",
+        "methods": {
+            "test_api_new_calls_provider_new": {
+                "line": 59,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "new"
+                }
+            },
+            "test_api_from_randomness_calls_provider_timestamp": {
+                "line": 79,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "from_randomness"
+                }
+            }
+        }
+    },
+    "tests/test_base32.py": {
+        "focal_file": "ulid/base32.py",
+        "methods": {
+            "test_decode_timestamp_returns_6_bytes": {
+                "line": 232,
+                "line_end": 239,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 303,
+                    "indent": 0,
+                    "name": "decode_timestamp"
+                }
+            },
+            "test_decode_randomness_returns_10_bytes": {
+                "line": 272,
+                "line_end": 279,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 338,
+                    "indent": 0,
+                    "name": "decode_randomness"
+                }
+            }
+        }
+    },
+    "tests/test_providers_default.py": {
+        "focal_file": "ulid/providers/default.py",
+        "methods": {
+            "test_provider_timestamp_returns_bytes": {
+                "line": 41,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            },
+            "test_provider_timestamp_uses_time_epoch": {
+                "line": 50,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            },
+            "test_provider_randomness_returns_bytes": {
+                "line": 60,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "randomness"
+                }
+            },
+            "test_provider_randomness_returns_random_values_for_same_timestamp": {
+                "line": 69,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            }
+        }
+    },
+    "tests/test_providers_microsecond.py": {
+        "focal_file": "ulid/providers/microsecond.py",
+        "methods": {
+            "test_provider_timestamp_returns_bytes": {
+                "line": 94,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            },
+            "test_provider_timestamp_uses_time_epoch": {
+                "line": 103,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            },
+            "test_provider_randomness_returns_bytes": {
+                "line": 113,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "randomness"
+                }
+            }
+        }
+    },
+    "tests/test_providers_monotonic.py": {
+        "focal_file": "ulid/providers/monotonic.py",
+        "methods": {
+            "test_provider_timestamp_returns_bytes": {
+                "line": 43,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            },
+            "test_provider_timestamp_uses_time_epoch": {
+                "line": 52,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            },
+            "test_provider_randomness_returns_bytes": {
+                "line": 62,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "randomness"
+                }
+            },
+            "test_provider_randomness_returns_increasing_values_for_same_timestamp": {
+                "line": 71,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "timestamp"
+                }
+            },
+            "test_provider_randomness_raises_on_max_randomness": {
+                "line": 88,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "randomness"
+                }
+            }
+        }
+    },
+    "tests/test_providers_time_default.py": {
+        "focal_file": "ulid/providers/time/default.py",
+        "methods": {
+            "test_provider_milliseconds_returns_int": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "milliseconds"
+                }
+            },
+            "test_provider_microseconds_returns_int": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "microseconds"
+                }
+            },
+            "test_provider_milliseconds_is_unix_epoch": {
+                "line": 45,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "milliseconds"
+                }
+            },
+            "test_provider_microseconds_is_unix_epoch": {
+                "line": 59,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "microseconds"
+                }
+            }
+        }
+    },
+    "tests/test_providers_time_nanosecond.py": {
+        "focal_file": "ulid/providers/time/nanosecond.py",
+        "methods": {
+            "test_provider_milliseconds_returns_int": {
+                "line": 33,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "milliseconds"
+                }
+            },
+            "test_provider_microseconds_returns_int": {
+                "line": 41,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "microseconds"
+                }
+            },
+            "test_provider_milliseconds_is_unix_epoch": {
+                "line": 49,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "milliseconds"
+                }
+            },
+            "test_provider_microseconds_is_unix_epoch": {
+                "line": 63,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "microseconds"
+                }
+            }
+        }
+    },
+    "tests/test_ulid.py": {
+        "focal_file": "ulid/ulid.py",
+        "methods": {
+            "test_memoryview_supports_bin": {
+                "line": 228,
+                "line_end": 234,
+                "indent": 0,
+                "focal_class": "ulid.ulid.MemoryView",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "bin"
+                }
+            },
+            "test_memoryview_supports_hex": {
+                "line": 237,
+                "line_end": 243,
+                "indent": 0,
+                "focal_class": "ulid.ulid.MemoryView",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 182,
+                    "indent": 4,
+                    "name": "hex"
+                }
+            },
+            "test_memoryview_supports_oct": {
+                "line": 246,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": "ulid.ulid.MemoryView",
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 202,
+                    "indent": 4,
+                    "name": "oct"
+                }
+            },
+            "test_memoryview_supports_bytes": {
+                "line": 255,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": "ulid.ulid.MemoryView",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "bytes"
+                }
+            },
+            "test_memoryview_supports_str": {
+                "line": 264,
+                "line_end": 270,
+                "indent": 0,
+                "focal_class": "ulid.ulid.MemoryView",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 218,
+                    "indent": 4,
+                    "name": "str"
+                }
+            },
+            "test_memoryview_supports_int": {
+                "line": 273,
+                "line_end": 279,
+                "indent": 0,
+                "focal_class": "ulid.ulid.MemoryView",
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "int"
+                }
+            },
+            "test_memoryview_supports_float": {
+                "line": 282,
+                "line_end": 288,
+                "indent": 0,
+                "focal_class": "ulid.ulid.MemoryView",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "float"
+                }
+            }
+        }
+    }
+}

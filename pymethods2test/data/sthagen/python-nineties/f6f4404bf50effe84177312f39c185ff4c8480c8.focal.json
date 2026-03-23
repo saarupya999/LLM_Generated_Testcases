@@ -1,0 +1,403 @@
+{
+    "tests/test_parser.py": {
+        "focal_file": "nineties/parser.py",
+        "methods": {
+            "test_parse_timestamp_ok": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "parse_timestamp"
+                }
+            },
+            "test_parse_timestamp_ok_null": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "parse_timestamp"
+                }
+            },
+            "test_parse_timestamp_ok_future_iso_cest": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "parse_timestamp"
+                }
+            },
+            "test_parse_timestamp_ok_future_iso_utc": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "parse_timestamp"
+                }
+            },
+            "test_parse_timestamp_nok_outer_length": {
+                "line": 45,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "parse_timestamp"
+                }
+            },
+            "test_parse_timestamp_nok_offset_length": {
+                "line": 50,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "parse_timestamp"
+                }
+            },
+            "test_parse_timestamp_nok_offset_sign": {
+                "line": 57,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "parse_timestamp"
+                }
+            },
+            "test_parse_dsl_entry_nok_no_content": {
+                "line": 72,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_nok_start_data_wrong": {
+                "line": 77,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_nok_only_kv_seps": {
+                "line": 83,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_nok_rococo_wrong": {
+                "line": 101,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_ok": {
+                "line": 126,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_ok_final_data": {
+                "line": 131,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_ok_date": {
+                "line": 136,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_ok_id_sequence": {
+                "line": 166,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parse_dsl_entry_nok_id_value_no_int": {
+                "line": 182,
+                "line_end": 186,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "parse_dsl_entry"
+                }
+            },
+            "test_parser_split_kv_ok": {
+                "line": 189,
+                "line_end": 197,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "split_kv"
+                }
+            },
+            "test_parser_split_kv_nok": {
+                "line": 200,
+                "line_end": 201,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "split_kv"
+                }
+            },
+            "test_parser_split_issue_key_ok": {
+                "line": 204,
+                "line_end": 206,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "split_issue_key"
+                }
+            },
+            "test_parser_split_issue_key_ok_negative": {
+                "line": 209,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "split_issue_key"
+                }
+            },
+            "test_parser_split_issue_key_nok_wrong_sep": {
+                "line": 214,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "split_issue_key"
+                }
+            },
+            "test_parser_split_issue_key_nok_no_serial": {
+                "line": 221,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "split_issue_key"
+                }
+            },
+            "test_parser_sorted_issue_keys_ok": {
+                "line": 229,
+                "line_end": 232,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "sorted_issue_keys_gen"
+                }
+            },
+            "test_parser_sorted_issue_keys_ok_corner_min": {
+                "line": 235,
+                "line_end": 238,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "sorted_issue_keys_gen"
+                }
+            },
+            "test_parser_sorted_issue_keys_ok_empty": {
+                "line": 241,
+                "line_end": 244,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "sorted_issue_keys_gen"
+                }
+            },
+            "test_parser_sorted_issue_keys_ok_empty_string": {
+                "line": 247,
+                "line_end": 250,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "sorted_issue_keys_gen"
+                }
+            },
+            "test_parser_sorted_issue_keys_nok_non_iterable": {
+                "line": 253,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "sorted_issue_keys_gen"
+                }
+            },
+            "test_parser_most_common_issue_projects_ok": {
+                "line": 260,
+                "line_end": 263,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "most_common_issue_projects"
+                }
+            },
+            "test_parser_most_common_issue_projects_ok_duplicates": {
+                "line": 266,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "most_common_issue_projects"
+                }
+            },
+            "test_parser_stable_make_unique_ok": {
+                "line": 272,
+                "line_end": 275,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "stable_make_unique"
+                }
+            },
+            "test_parser_stable_make_unique_ok_empty": {
+                "line": 278,
+                "line_end": 281,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "stable_make_unique"
+                }
+            },
+            "test_parser_stable_make_unique_nok_non_iterable": {
+                "line": 284,
+                "line_end": 288,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "stable_make_unique"
+                }
+            },
+            "test_parser_stable_make_unique_nok_non_hashable": {
+                "line": 291,
+                "line_end": 295,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "stable_make_unique"
+                }
+            }
+        }
+    }
+}

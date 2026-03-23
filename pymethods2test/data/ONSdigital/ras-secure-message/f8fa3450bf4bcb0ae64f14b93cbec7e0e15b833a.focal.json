@@ -1,0 +1,354 @@
+{
+    "tests/app/test_message.py": {
+        "focal_file": "secure_message/resources/messages.py",
+        "methods": {
+            "test_message_url_is_created_correctly": {
+                "line": 431,
+                "line_end": 443,
+                "indent": 4,
+                "focal_class": "MessageSend",
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "_create_message_url"
+                }
+            }
+        }
+    },
+    "tests/app/test_mock_party.py": {
+        "focal_file": "secure_message/api_mocks/party_service_mock.py",
+        "methods": {
+            "test_get_business_details_returns_none_if_business_id_not_known": {
+                "line": 46,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "PartyServiceMock",
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "get_business_details"
+                }
+            },
+            "test_get_does_user_have_claim_returns_true_if_known": {
+                "line": 52,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "PartyServiceMock",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "does_user_have_claim"
+                }
+            },
+            "test_get_does_user_have_claim_returns_false_for_not_active_user": {
+                "line": 76,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "PartyServiceMock",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "does_user_have_claim"
+                }
+            },
+            "test_get_does_user_have_claim_returns_false_for_not_enabled": {
+                "line": 84,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "PartyServiceMock",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "does_user_have_claim"
+                }
+            }
+        }
+    },
+    "tests/app/test_modifier.py": {
+        "focal_file": "secure_message/repository/modifier.py",
+        "methods": {
+            "test_close_conversation": {
+                "line": 185,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "close_conversation"
+                }
+            },
+            "test_open_conversation": {
+                "line": 204,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "open_conversation"
+                }
+            }
+        }
+    },
+    "tests/app/test_party_service.py": {
+        "focal_file": "secure_message/services/party_service.py",
+        "methods": {
+            "test_get_business_details_single_id_success": {
+                "line": 26,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_business_details"
+                }
+            },
+            "test_get_business_details_multiple_id_success": {
+                "line": 38,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_business_details"
+                }
+            },
+            "test_get_business_details_client_error": {
+                "line": 51,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_business_details"
+                }
+            },
+            "test_get_business_details_unauthorised_failure": {
+                "line": 63,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_business_details"
+                }
+            },
+            "test_get_user_details_success": {
+                "line": 77,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "get_user_details"
+                }
+            },
+            "test_get_user_details_client_error": {
+                "line": 88,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "get_user_details"
+                }
+            },
+            "test_get_users_details_single_id_success": {
+                "line": 115,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_users_details"
+                }
+            },
+            "test_get_users_details_multiple_id_success": {
+                "line": 127,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_users_details"
+                }
+            },
+            "test_get_users_details_client_error": {
+                "line": 138,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_users_details"
+                }
+            },
+            "test_get_users_details_unauthorised_failure": {
+                "line": 150,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": "PartyService",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_users_details"
+                }
+            }
+        }
+    },
+    "tests/app/test_saver.py": {
+        "focal_file": "secure_message/repository/saver.py",
+        "methods": {
+            "test_saved_msg_event_has_been_saved": {
+                "line": 94,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": "Saver",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "save_msg_event"
+                }
+            }
+        }
+    },
+    "tests/app/test_service_mock_toggles.py": {
+        "focal_file": "secure_message/services/service_toggles.py",
+        "methods": {
+            "test_use_mock_service_uses_mock": {
+                "line": 11,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": "Party",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "use_mock_service"
+                }
+            },
+            "test_use_real_service_uses_real_service": {
+                "line": 17,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "Party",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "use_real_service"
+                }
+            }
+        }
+    },
+    "tests/app/test_token_functions.py": {
+        "focal_file": "secure_message/application.py",
+        "methods": {
+            "test_cache_client_token": {
+                "line": 36,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "cache_client_token"
+                }
+            },
+            "test_get_client_token": {
+                "line": 54,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "get_client_token"
+                }
+            },
+            "test_get_client_token_http_error_400_range": {
+                "line": 67,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "get_client_token"
+                }
+            },
+            "test_get_client_token_http_error_500_range": {
+                "line": 79,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "get_client_token"
+                }
+            }
+        }
+    },
+    "tests/app/test_utilities.py": {
+        "focal_file": "secure_message/common/utilities.py",
+        "methods": {
+            "test_add_users_and_business_details_raises_value_error_with_none_value": {
+                "line": 526,
+                "line_end": 529,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 282,
+                    "indent": 0,
+                    "name": "add_users_and_business_details"
+                }
+            },
+            "test_add_users_and_business_details_raises_value_error_with_empty_list": {
+                "line": 531,
+                "line_end": 534,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 282,
+                    "indent": 0,
+                    "name": "add_users_and_business_details"
+                }
+            }
+        }
+    }
+}

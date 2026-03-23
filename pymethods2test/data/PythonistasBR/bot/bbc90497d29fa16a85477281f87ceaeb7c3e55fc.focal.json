@@ -1,0 +1,597 @@
+{
+    "tests/test_telegram_flask.py": {
+        "focal_file": "autonomia/telegram_flask.py",
+        "methods": {
+            "test_setup_webhook_exception_on_set_webhook": {
+                "line": 52,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "setup_webhook"
+                }
+            }
+        }
+    },
+    "tests/libs/test_redispersistence.py": {
+        "focal_file": "autonomia/libs/redispersistence.py",
+        "methods": {
+            "test_update_user_data": {
+                "line": 39,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": "TelegramRedisPersistence",
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "update_user_data"
+                }
+            },
+            "test_update_chat_data": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": "TelegramRedisPersistence",
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "update_chat_data"
+                }
+            },
+            "test_update_bot_data": {
+                "line": 89,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": "TelegramRedisPersistence",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "update_bot_data"
+                }
+            },
+            "test_get_conversation_data_with_empty_storage": {
+                "line": 98,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": "TelegramRedisPersistence",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "get_conversations"
+                }
+            },
+            "test_get_conversation_data_with_data_in_storage": {
+                "line": 106,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "TelegramRedisPersistence",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "get_conversations"
+                }
+            },
+            "test_update_conversation_data": {
+                "line": 114,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": "TelegramRedisPersistence",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "update_conversation"
+                }
+            }
+        }
+    },
+    "tests/features/test_poll.py": {
+        "focal_file": "autonomia/features/poll.py",
+        "methods": {
+            "test_poll_new": {
+                "line": 153,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "poll_new"
+                }
+            },
+            "test_start_voting_poll": {
+                "line": 198,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": "autonomia.features.poll.Poll",
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "poll_start_voting"
+                }
+            },
+            "test_poll_cancel": {
+                "line": 307,
+                "line_end": 314,
+                "indent": 0,
+                "focal_class": "autonomia.features.poll.Poll",
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "poll_cancel"
+                }
+            },
+            "test_poll_factory": {
+                "line": 317,
+                "line_end": 347,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 205,
+                    "indent": 0,
+                    "name": "poll_factory"
+                }
+            },
+            "test_add_choice": {
+                "line": 19,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "autonomia.features.poll.Poll",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "add_choice"
+                }
+            },
+            "test_add_an_existing_choice": {
+                "line": 24,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "autonomia.features.poll.Poll",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "add_choice"
+                }
+            },
+            "test_vote": {
+                "line": 35,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "autonomia.features.poll.Poll",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "vote"
+                }
+            },
+            "test_vote_changing_vote": {
+                "line": 57,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "autonomia.features.poll.Poll",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "vote"
+                }
+            },
+            "test_poll_formating_with_vote": {
+                "line": 131,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "autonomia.features.poll.Poll",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "vote"
+                }
+            }
+        }
+    },
+    "tests/features/test_basic.py": {
+        "focal_file": "autonomia/features/basic.py",
+        "methods": {
+            "test_cmd_me": {
+                "line": 11,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "cmd_me"
+                }
+            },
+            "test_me_factory": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "me_factory"
+                }
+            },
+            "test_cmd_aurelio": {
+                "line": 27,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "cmd_aurelio"
+                }
+            },
+            "test_aurelio_factory": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "aurelio_factory"
+                }
+            },
+            "test_cmd_all": {
+                "line": 46,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "cmd_all"
+                }
+            },
+            "test_all_factory": {
+                "line": 61,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "all_factory"
+                }
+            },
+            "test_cmd_joke": {
+                "line": 70,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "cmd_joke"
+                }
+            },
+            "test_joke_factory": {
+                "line": 86,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "joke_factory"
+                }
+            },
+            "test_cmd_larissa": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "cmd_larissa"
+                }
+            },
+            "test_larissa_factory": {
+                "line": 99,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "larissa_factory"
+                }
+            },
+            "test_cmd_au": {
+                "line": 108,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "cmd_au"
+                }
+            },
+            "test_au_factory": {
+                "line": 114,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "au_factory"
+                }
+            },
+            "test_clear_factory": {
+                "line": 121,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "clear_factory"
+                }
+            },
+            "test_cmd_clear": {
+                "line": 128,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "cmd_clear"
+                }
+            }
+        }
+    },
+    "tests/features/test_currency.py": {
+        "focal_file": "autonomia/features/currency.py",
+        "methods": {
+            "test_cmd_convert": {
+                "line": 10,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "cmd_convert"
+                }
+            }
+        }
+    },
+    "tests/features/test_dublin_bike.py": {
+        "focal_file": "autonomia/features/dublin_bike.py",
+        "methods": {
+            "test_cmd_dublin_bike": {
+                "line": 10,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "cmd_dublin_bike"
+                }
+            },
+            "test_cmd_dublin_bike_on_error": {
+                "line": 35,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "cmd_dublin_bike"
+                }
+            },
+            "test_dublin_bike_factory": {
+                "line": 43,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "dublin_bike_factory"
+                }
+            }
+        }
+    },
+    "tests/features/test_dublin_bus.py": {
+        "focal_file": "autonomia/features/dublin_bus.py",
+        "methods": {
+            "test_cmd_dublin_bus": {
+                "line": 10,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "cmd_dublin_bus"
+                }
+            },
+            "test_dublin_bus_factory": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "dublin_bus_factory"
+                }
+            }
+        }
+    },
+    "tests/features/test_meetup.py": {
+        "focal_file": "autonomia/features/meetup.py",
+        "methods": {
+            "test_cmd_meetup": {
+                "line": 12,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "cmd_meetup"
+                }
+            },
+            "test_meetup_factory": {
+                "line": 35,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "meetup_factory"
+                }
+            }
+        }
+    },
+    "tests/features/test_weather.py": {
+        "focal_file": "autonomia/features/weather.py",
+        "methods": {
+            "test_weather_factory": {
+                "line": 36,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "weather_factory"
+                }
+            }
+        }
+    },
+    "tests/features/test_corona.py": {
+        "focal_file": "autonomia/features/corona.py",
+        "methods": {
+            "test_cmd_retrieve_covid_data": {
+                "line": 10,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "cmd_retrieve_covid_data"
+                }
+            },
+            "test_cmd_retrieve_covid_data_not_found": {
+                "line": 35,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "cmd_retrieve_covid_data"
+                }
+            },
+            "test_cmd_retrieve_covid_data_no_country_passed": {
+                "line": 42,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "cmd_retrieve_covid_data"
+                }
+            },
+            "test_cmd_retrieve_covid_raise_random_exception": {
+                "line": 50,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "cmd_retrieve_covid_data"
+                }
+            },
+            "test_corona_factory": {
+                "line": 58,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "corona_factory"
+                }
+            }
+        }
+    },
+    "tests/features/test_fuck_off.py": {
+        "focal_file": "autonomia/features/fuck_off.py",
+        "methods": {
+            "test_fuck_factory": {
+                "line": 41,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "fuck_factory"
+                }
+            }
+        }
+    }
+}

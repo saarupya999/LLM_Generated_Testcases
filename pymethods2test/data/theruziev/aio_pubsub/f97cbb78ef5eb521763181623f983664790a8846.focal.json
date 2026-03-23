@@ -1,0 +1,77 @@
+{
+    "tests/test_backends/test_redis.py": {
+        "focal_file": "aio_pubsub/backends/redis.py",
+        "methods": {
+            "test_not_subscribed_chan": {
+                "line": 46,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": "RedisPubSub",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "__aiter__"
+                }
+            }
+        }
+    },
+    "tests/test_backends/test_memory.py": {
+        "focal_file": "aio_pubsub/backends/memory.py",
+        "methods": {
+            "test_not_subscribed_chan": {
+                "line": 27,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "MemoryPubSub",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "__anext__"
+                }
+            },
+            "test_dispose_subscriber": {
+                "line": 39,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": "MemoryPubSub",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "subscribe"
+                }
+            }
+        }
+    },
+    "tests/test_backends/test_postgres.py": {
+        "focal_file": "aio_pubsub/backends/postgresql.py",
+        "methods": {
+            "test_init": {
+                "line": 17,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": "PostgreSQLPubSub",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "init"
+                }
+            },
+            "test_pubsub": {
+                "line": 55,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": "PostgreSQLPubSub",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "init"
+                }
+            }
+        }
+    }
+}

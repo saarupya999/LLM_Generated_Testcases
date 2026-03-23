@@ -1,0 +1,710 @@
+{
+    "tests/integration/test_masternode.py": {
+        "focal_file": "lamden/nodes/masternode/masternode.py",
+        "methods": {
+            "test_broadcast_new_chain_sends_messages_to_all_peers": {
+                "line": 147,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": "lamden.nodes.masternode.masternode.Masternode",
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "broadcast_new_blockchain_started"
+                }
+            },
+            "test_new_blockchain_boot_hangs_then_sends_out_broadcast": {
+                "line": 402,
+                "line_end": 475,
+                "indent": 4,
+                "focal_class": "lamden.nodes.masternode.masternode.Masternode",
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "new_blockchain_boot"
+                }
+            }
+        }
+    },
+    "tests/inprog/test_masternode.py": {
+        "focal_file": "lamden/nodes/masternode/masternode.py",
+        "methods": {
+            "test_network_start": {
+                "line": 193,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": "Masternode",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_new_blockchain_boot_completes_if_tx_batch_filled": {
+                "line": 931,
+                "line_end": 951,
+                "indent": 4,
+                "focal_class": "Masternode",
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "new_blockchain_boot"
+                }
+            }
+        }
+    },
+    "tests/unit/test_upgrade_contract2.py": {
+        "focal_file": "lamden/upgrade.py",
+        "methods": {
+            "test_build_pepper": {
+                "line": 202,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 161,
+                    "indent": 0,
+                    "name": "build_pepper"
+                }
+            },
+            "test_build_pepper_new": {
+                "line": 206,
+                "line_end": 208,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 168,
+                    "indent": 0,
+                    "name": "build_pepper2"
+                }
+            }
+        }
+    },
+    "tests/unit/test_rewards.py": {
+        "focal_file": "lamden/rewards.py",
+        "methods": {
+            "test_contract_exists_false_before_sync": {
+                "line": 81,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "contract_exists"
+                }
+            },
+            "test_add_to_balance_if_none_sets": {
+                "line": 96,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "add_to_balance"
+                }
+            },
+            "test_calculate_participant_reward_shaves_off_dust": {
+                "line": 125,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "calculate_participant_reward"
+                }
+            },
+            "test_distribute_rewards_adds_to_all_wallets": {
+                "line": 134,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "distribute_rewards"
+                }
+            },
+            "test_stamps_in_block": {
+                "line": 193,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "stamps_in_block"
+                }
+            }
+        }
+    },
+    "tests/unit/test_router.py": {
+        "focal_file": "lamden/router.py",
+        "methods": {
+            "test_add_service": {
+                "line": 27,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "lamden.router.Router",
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "add_service"
+                }
+            },
+            "test_secure_request_returns_result": {
+                "line": 373,
+                "line_end": 423,
+                "indent": 4,
+                "focal_class": "lamden.router.Router",
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "secure_request"
+                }
+            }
+        }
+    },
+    "tests/unit/test_authenticator.py": {
+        "focal_file": "lamden/authentication.py",
+        "methods": {
+            "test_add_verifying_key_writes_file": {
+                "line": 30,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "SocketAuthenticator",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "add_verifying_key"
+                }
+            },
+            "test_add_verifying_key_invalid_does_nothing": {
+                "line": 41,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "SocketAuthenticator",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "add_verifying_key"
+                }
+            },
+            "test_add_governance_sockets_all_creates_files": {
+                "line": 50,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "SocketAuthenticator",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "refresh_governance_sockets"
+                }
+            }
+        }
+    },
+    "tests/unit/test_formatting.py": {
+        "focal_file": "lamden/formatting/primatives.py",
+        "methods": {
+            "test_identifier_is_formatted_passes": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "identifier_is_formatted"
+                }
+            },
+            "test_contract_name_is_formatted_passes": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "contract_name_is_formatted"
+                }
+            },
+            "test_signature_formatted_passes": {
+                "line": 60,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "signature_is_formatted"
+                }
+            },
+            "test_number_is_formatted_passes": {
+                "line": 75,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "number_is_formatted"
+                }
+            },
+            "test_is_string": {
+                "line": 84,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "is_string"
+                }
+            },
+            "test_is_dict": {
+                "line": 90,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "is_dict"
+                }
+            },
+            "test_is_ip": {
+                "line": 96,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "is_ip"
+                }
+            },
+            "test_is_file_path": {
+                "line": 129,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "is_file_path"
+                }
+            }
+        }
+    },
+    "tests/unit/test_simple_network.py": {
+        "focal_file": "lamden/network.py",
+        "methods": {
+            "test_identity_processor_create_proof": {
+                "line": 40,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "create_proof"
+                }
+            },
+            "test_join_processor_good_message_adds_to_peers": {
+                "line": 167,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "process_message"
+                }
+            }
+        }
+    },
+    "tests/unit/test_block_contender.py": {
+        "focal_file": "lamden/nodes/masternode/contender.py",
+        "methods": {
+            "test_block_true_if_all_blocks_have_consensus": {
+                "line": 350,
+                "line_end": 369,
+                "indent": 4,
+                "focal_class": "lamden.nodes.masternode.contender.BlockContender",
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "block_has_consensus"
+                }
+            },
+            "test_block_false_if_one_subblocks_doesnt_have_consensus": {
+                "line": 371,
+                "line_end": 390,
+                "indent": 4,
+                "focal_class": "lamden.nodes.masternode.contender.BlockContender",
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "block_has_consensus"
+                }
+            },
+            "test_gather_subblocks_all_same_blocks": {
+                "line": 442,
+                "line_end": 472,
+                "indent": 4,
+                "focal_class": "lamden.nodes.masternode.contender.Aggregator",
+                "focal_method": {
+                    "line": 292,
+                    "line_end": 337,
+                    "indent": 4,
+                    "name": "gather_subblocks"
+                }
+            }
+        }
+    },
+    "tests/unit/test_storage.py": {
+        "focal_file": "lamden/storage.py",
+        "methods": {
+            "test_get_pending_nonce_none_if_not_set_first": {
+                "line": 24,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "get_pending_nonce"
+                }
+            },
+            "test_set_then_get_nonce_returns_set_nonce": {
+                "line": 32,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "set_nonce"
+                }
+            },
+            "test_set_then_get_pending_nonce_returns_set_pending_nonce": {
+                "line": 46,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "set_pending_nonce"
+                }
+            },
+            "test_get_latest_nonce_zero_if_none_set": {
+                "line": 60,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "get_latest_nonce"
+                }
+            },
+            "test_get_latest_nonce_returns_pending_nonce_if_not_none": {
+                "line": 68,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "set_pending_nonce"
+                }
+            },
+            "test_get_latest_block_hash_0s_if_none": {
+                "line": 105,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_latest_block_hash"
+                }
+            },
+            "test_get_latest_block_hash_correct_after_set": {
+                "line": 109,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_latest_block_hash"
+                }
+            },
+            "test_get_latest_block_height_0_if_none": {
+                "line": 114,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "get_latest_block_height"
+                }
+            },
+            "test_get_latest_block_height_correct_after_set": {
+                "line": 118,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "get_latest_block_height"
+                }
+            },
+            "test_nonces_set_to_tx_value": {
+                "line": 225,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "get_latest_nonce"
+                }
+            },
+            "test_update_with_block_sets_hash_and_height": {
+                "line": 355,
+                "line_end": 372,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "get_latest_block_height"
+                }
+            },
+            "test_update_state_with_block_sets_state_correctly": {
+                "line": 411,
+                "line_end": 444,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "update_state_with_block"
+                }
+            },
+            "test_get_block": {
+                "line": 478,
+                "line_end": 491,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "get_block"
+                }
+            },
+            "test_get_block_hash": {
+                "line": 493,
+                "line_end": 506,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "get_block"
+                }
+            },
+            "test_get_none_block": {
+                "line": 508,
+                "line_end": 521,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "get_block"
+                }
+            },
+            "test_drop_collections_block": {
+                "line": 538,
+                "line_end": 553,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 263,
+                    "indent": 4,
+                    "name": "drop_collections"
+                }
+            },
+            "test_get_last_n_blocks": {
+                "line": 566,
+                "line_end": 582,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "get_last_n"
+                }
+            },
+            "test_get_last_n_index": {
+                "line": 584,
+                "line_end": 600,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "get_last_n"
+                }
+            },
+            "test_store_and_get_tx": {
+                "line": 618,
+                "line_end": 628,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "get_tx"
+                }
+            },
+            "test_delete_tx": {
+                "line": 711,
+                "line_end": 731,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "delete_tx"
+                }
+            },
+            "test_delete_block_deletes_block": {
+                "line": 766,
+                "line_end": 807,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "delete_block"
+                }
+            },
+            "test_delete_block_deletes_txs": {
+                "line": 809,
+                "line_end": 856,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "delete_block"
+                }
+            }
+        }
+    },
+    "tests/unit/test_block_service.py": {
+        "focal_file": "lamden/storage.py",
+        "methods": {
+            "test_get_latest_block_height": {
+                "line": 123,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "get_latest_block_height"
+                }
+            }
+        }
+    },
+    "tests/unit/test_bytes_to_zbase32.py": {
+        "focal_file": "lamden/crypto/zbase.py",
+        "methods": {
+            "test_bytes_to_zbase_works": {
+                "line": 6,
+                "line_end": 8,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "bytes_to_zbase32"
+                }
+            },
+            "test_zbase_to_bytes_works": {
+                "line": 10,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "zbase32_to_bytes"
+                }
+            }
+        }
+    }
+}

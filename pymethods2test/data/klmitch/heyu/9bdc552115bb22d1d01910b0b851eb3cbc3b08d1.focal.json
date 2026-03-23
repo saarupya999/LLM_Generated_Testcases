@@ -1,0 +1,428 @@
+{
+    "tests/unit/test_protocol.py": {
+        "focal_file": "heyu/protocol.py",
+        "methods": {
+            "test_to_frame_uncached": {
+                "line": 231,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": "heyu.protocol.Message",
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "to_frame"
+                }
+            },
+            "test_to_frame_cached": {
+                "line": 249,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": "heyu.protocol.Message",
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "to_frame"
+                }
+            }
+        }
+    },
+    "tests/unit/test_hub.py": {
+        "focal_file": "heyu/hub.py",
+        "methods": {
+            "test_acceptor": {
+                "line": 72,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubServer",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "_acceptor"
+                }
+            },
+            "test_shutdown_basic": {
+                "line": 207,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubServer",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_shutdown_empty": {
+                "line": 230,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubServer",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_subscribe": {
+                "line": 246,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubServer",
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "subscribe"
+                }
+            },
+            "test_unsubscribe_unsubscribed": {
+                "line": 258,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubServer",
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "unsubscribe"
+                }
+            },
+            "test_unsubscribe_subscribed": {
+                "line": 273,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubServer",
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "unsubscribe"
+                }
+            },
+            "test_submit": {
+                "line": 299,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubServer",
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 186,
+                    "indent": 4,
+                    "name": "submit"
+                }
+            },
+            "test_recv_frame_notify": {
+                "line": 469,
+                "line_end": 483,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_recv_frame_subscribe": {
+                "line": 494,
+                "line_end": 508,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_recv_frame_goodbye": {
+                "line": 519,
+                "line_end": 532,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_subscribe_success": {
+                "line": 682,
+                "line_end": 696,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "subscribe"
+                }
+            },
+            "test_subscribe_failure": {
+                "line": 704,
+                "line_end": 721,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "subscribe"
+                }
+            },
+            "test_disconnect_success": {
+                "line": 729,
+                "line_end": 740,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 341,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_disconnect_failure": {
+                "line": 749,
+                "line_end": 760,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 341,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_closed": {
+                "line": 763,
+                "line_end": 769,
+                "indent": 4,
+                "focal_class": "heyu.hub.HubApplication",
+                "focal_method": {
+                    "line": 343,
+                    "line_end": 351,
+                    "indent": 4,
+                    "name": "closed"
+                }
+            }
+        }
+    },
+    "tests/unit/test_fake_pynotify.py": {
+        "focal_file": "heyu/fake_pynotify.py",
+        "methods": {
+            "test_update": {
+                "line": 36,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "heyu.fake_pynotify.Notification",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_set_category": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "heyu.fake_pynotify.Notification",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "set_category"
+                }
+            },
+            "test_set_urgency": {
+                "line": 52,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "heyu.fake_pynotify.Notification",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "set_urgency"
+                }
+            },
+            "test_show": {
+                "line": 59,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "heyu.fake_pynotify.Notification",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "show"
+                }
+            }
+        }
+    },
+    "tests/unit/test_notifications.py": {
+        "focal_file": "heyu/notifications.py",
+        "methods": {
+            "test_acceptor": {
+                "line": 186,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationServer",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "_acceptor"
+                }
+            },
+            "test_notify": {
+                "line": 585,
+                "line_end": 596,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationApplication",
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "notify"
+                }
+            },
+            "test_recv_frame_error": {
+                "line": 447,
+                "line_end": 462,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationApplication",
+                "focal_method": {
+                    "line": 297,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_recv_frame_goodbye": {
+                "line": 471,
+                "line_end": 483,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationApplication",
+                "focal_method": {
+                    "line": 297,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_recv_frame_notify": {
+                "line": 516,
+                "line_end": 528,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationApplication",
+                "focal_method": {
+                    "line": 297,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_disconnect_success": {
+                "line": 537,
+                "line_end": 546,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationApplication",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 365,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_disconnect_failure": {
+                "line": 556,
+                "line_end": 565,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationApplication",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 365,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_closed": {
+                "line": 570,
+                "line_end": 580,
+                "indent": 4,
+                "focal_class": "heyu.notifications.NotificationApplication",
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 379,
+                    "indent": 4,
+                    "name": "closed"
+                }
+            }
+        }
+    },
+    "tests/unit/test_submitter.py": {
+        "focal_file": "heyu/submitter.py",
+        "methods": {
+            "test_recv_frame_accepted": {
+                "line": 71,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "heyu.submitter.SubmitterApplication",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_recv_frame_error": {
+                "line": 87,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "heyu.submitter.SubmitterApplication",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            },
+            "test_recv_frame_unknown": {
+                "line": 105,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "heyu.submitter.SubmitterApplication",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "recv_frame"
+                }
+            }
+        }
+    },
+    "tests/unit/test_util.py": {
+        "focal_file": "heyu/util.py",
+        "methods": {
+            "test_default_hub": {
+                "line": 149,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "default_hub"
+                }
+            }
+        }
+    }
+}

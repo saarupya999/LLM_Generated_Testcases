@@ -1,0 +1,399 @@
+{
+    "tests/test_kumo_aws.py": {
+        "focal_file": "gcdt_kumo/kumo_core.py",
+        "methods": {
+            "test_s3_upload": {
+                "line": 168,
+                "line_end": 203,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 447,
+                    "line_end": 455,
+                    "indent": 0,
+                    "name": "_s3_upload"
+                }
+            },
+            "test_get_stack_state": {
+                "line": 371,
+                "line_end": 374,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 196,
+                    "indent": 0,
+                    "name": "_get_stack_state"
+                }
+            },
+            "test_create_update_stack_artifactbucket": {
+                "line": 461,
+                "line_end": 533,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 643,
+                    "line_end": 646,
+                    "indent": 0,
+                    "name": "_get_artifact_bucket"
+                }
+            },
+            "test_describe_change_set_on_new_stack": {
+                "line": 538,
+                "line_end": 556,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 599,
+                    "line_end": 620,
+                    "indent": 0,
+                    "name": "describe_change_set"
+                }
+            },
+            "test_rds_stop_start": {
+                "line": 583,
+                "line_end": 586,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 776,
+                    "line_end": 882,
+                    "indent": 0,
+                    "name": "stop_stack"
+                }
+            },
+            "test_ec2_instance_stop_start": {
+                "line": 591,
+                "line_end": 622,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 677,
+                    "line_end": 710,
+                    "indent": 0,
+                    "name": "_stop_ec2_instances"
+                }
+            }
+        }
+    },
+    "tests/test_kumo.py": {
+        "focal_file": "gcdt_kumo/kumo_core.py",
+        "methods": {
+            "test_load_cloudformation_template": {
+                "line": 22,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "load_cloudformation_template"
+                }
+            },
+            "test_cloudformation_template_not_available": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "load_cloudformation_template"
+                }
+            },
+            "test_load_cloudformation_template_from_cwd": {
+                "line": 38,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "load_cloudformation_template"
+                }
+            },
+            "test_simple_cloudformation_stack": {
+                "line": 47,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "load_cloudformation_template"
+                }
+            },
+            "test_simple_cloudformation_stack_during_update_custom": {
+                "line": 93,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 405,
+                    "indent": 0,
+                    "name": "_get_stack_policy_during_update"
+                }
+            },
+            "test_simple_cloudformation_stack_during_update_default": {
+                "line": 112,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 405,
+                    "indent": 0,
+                    "name": "_get_stack_policy_during_update"
+                }
+            },
+            "test_parameter_substitution": {
+                "line": 127,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 310,
+                    "indent": 0,
+                    "name": "_generate_parameters"
+                }
+            },
+            "test_get_conf_value": {
+                "line": 173,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "_get_conf_value"
+                }
+            },
+            "test_get_conf_value_list": {
+                "line": 182,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "_get_conf_value"
+                }
+            },
+            "test_get_conf_value_unknown": {
+                "line": 192,
+                "line_end": 199,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "_get_conf_value"
+                }
+            },
+            "test_generate_parameter_entry": {
+                "line": 202,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 290,
+                    "indent": 0,
+                    "name": "_generate_parameter_entry"
+                }
+            },
+            "test_generate_template_no_arguments": {
+                "line": 257,
+                "line_end": 271,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 660,
+                    "line_end": 674,
+                    "indent": 0,
+                    "name": "generate_template"
+                }
+            },
+            "test_generate_template_with_arguments": {
+                "line": 274,
+                "line_end": 288,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 660,
+                    "line_end": 674,
+                    "indent": 0,
+                    "name": "generate_template"
+                }
+            },
+            "test_generate_template_invalid_arguments": {
+                "line": 291,
+                "line_end": 302,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 660,
+                    "line_end": 674,
+                    "indent": 0,
+                    "name": "generate_template"
+                }
+            },
+            "test_get_autoscaling_min_max": {
+                "line": 305,
+                "line_end": 314,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 885,
+                    "line_end": 905,
+                    "indent": 0,
+                    "name": "_get_autoscaling_min_max"
+                }
+            }
+        }
+    },
+    "tests/test_kumo_viz.py": {
+        "focal_file": "gcdt_kumo/kumo_viz.py",
+        "methods": {
+            "test_cfn_viz": {
+                "line": 16,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "cfn_viz"
+                }
+            },
+            "test_cfn_viz_problem": {
+                "line": 34,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "cfn_viz"
+                }
+            },
+            "test_analyze_sg": {
+                "line": 60,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "_analyze_sg"
+                }
+            }
+        }
+    },
+    "tests/test_route53_aws.py": {
+        "focal_file": "gcdt_kumo/route53.py",
+        "methods": {
+            "test_retrieve_stack_host_zone_name": {
+                "line": 83,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "_retrieve_stack_host_zone_name"
+                }
+            }
+        }
+    },
+    "tests/test_kumo_main.py": {
+        "focal_file": "gcdt_kumo/kumo_main.py",
+        "methods": {
+            "test_load_template": {
+                "line": 25,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "load_template"
+                }
+            },
+            "test_version_cmd": {
+                "line": 34,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "version_cmd"
+                }
+            },
+            "test_list_cmd": {
+                "line": 47,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "list_cmd"
+                }
+            },
+            "test_preview_cmd": {
+                "line": 60,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "preview_cmd"
+                }
+            },
+            "test_dot_cmd": {
+                "line": 75,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "dot_cmd"
+                }
+            },
+            "test_generate_cmd": {
+                "line": 84,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "generate_cmd"
+                }
+            }
+        }
+    }
+}

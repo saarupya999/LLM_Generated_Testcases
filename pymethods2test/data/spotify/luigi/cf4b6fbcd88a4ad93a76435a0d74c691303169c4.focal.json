@@ -1,0 +1,1951 @@
+{
+    "test/batch_notifier_test.py": {
+        "focal_file": "luigi/batch_notifier.py",
+        "methods": {
+            "test_send_single_failure": {
+                "line": 50,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "add_failure"
+                }
+            },
+            "test_send_single_disable": {
+                "line": 77,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "add_disable"
+                }
+            },
+            "test_send_single_scheduling_fail": {
+                "line": 101,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "add_scheduling_fail"
+                }
+            }
+        }
+    },
+    "test/scheduler_api_test.py": {
+        "focal_file": "luigi/scheduler.py",
+        "methods": {
+            "test_resend_task": {
+                "line": 131,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 794,
+                    "line_end": 935,
+                    "indent": 4,
+                    "name": "add_task"
+                }
+            },
+            "test_batched_tasks_become_batch_running": {
+                "line": 361,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_task_batcher"
+                }
+            },
+            "test_batch_decrease_resources": {
+                "line": 500,
+                "line_end": 505,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1602,
+                    "line_end": 1616,
+                    "indent": 4,
+                    "name": "decrease_running_task_resources"
+                }
+            },
+            "test_reschedule_max_batch": {
+                "line": 520,
+                "line_end": 536,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_task_batcher"
+                }
+            },
+            "test_do_not_resend_batch_runner_on_get_work": {
+                "line": 560,
+                "line_end": 563,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1116,
+                    "line_end": 1263,
+                    "indent": 4,
+                    "name": "get_work"
+                }
+            },
+            "test_do_not_resend_max_batch_runner_on_get_work": {
+                "line": 565,
+                "line_end": 568,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1116,
+                    "line_end": 1263,
+                    "indent": 4,
+                    "name": "get_work"
+                }
+            },
+            "test_assistant_get_work": {
+                "line": 751,
+                "line_end": 761,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1116,
+                    "line_end": 1263,
+                    "indent": 4,
+                    "name": "get_work"
+                }
+            },
+            "test_count_pending": {
+                "line": 882,
+                "line_end": 892,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1082,
+                    "line_end": 1113,
+                    "indent": 4,
+                    "name": "count_pending"
+                }
+            },
+            "test_count_pending_include_failures": {
+                "line": 894,
+                "line_end": 906,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1082,
+                    "line_end": 1113,
+                    "indent": 4,
+                    "name": "count_pending"
+                }
+            },
+            "test_count_pending_on_disabled_worker": {
+                "line": 923,
+                "line_end": 928,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 959,
+                    "indent": 4,
+                    "name": "disable_worker"
+                }
+            },
+            "test_count_pending_missing_worker": {
+                "line": 956,
+                "line_end": 965,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1082,
+                    "line_end": 1113,
+                    "indent": 4,
+                    "name": "count_pending"
+                }
+            },
+            "test_count_pending_uniques": {
+                "line": 967,
+                "line_end": 981,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1082,
+                    "line_end": 1113,
+                    "indent": 4,
+                    "name": "count_pending"
+                }
+            },
+            "test_count_pending_last_scheduled": {
+                "line": 983,
+                "line_end": 1008,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1082,
+                    "line_end": 1113,
+                    "indent": 4,
+                    "name": "count_pending"
+                }
+            },
+            "test_count_pending_disabled_worker": {
+                "line": 1010,
+                "line_end": 1030,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 959,
+                    "indent": 4,
+                    "name": "disable_worker"
+                }
+            },
+            "test_count_pending_running_tasks": {
+                "line": 1032,
+                "line_end": 1043,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1082,
+                    "line_end": 1113,
+                    "indent": 4,
+                    "name": "count_pending"
+                }
+            },
+            "test_scheduler_with_insufficient_resources": {
+                "line": 1053,
+                "line_end": 1056,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_scheduler_with_sufficient_resources": {
+                "line": 1058,
+                "line_end": 1061,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_scheduler_with_resources_used": {
+                "line": 1063,
+                "line_end": 1069,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_update_new_resource": {
+                "line": 1162,
+                "line_end": 1165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1019,
+                    "line_end": 1023,
+                    "indent": 4,
+                    "name": "update_resource"
+                }
+            },
+            "test_update_existing_resource": {
+                "line": 1167,
+                "line_end": 1170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1019,
+                    "line_end": 1023,
+                    "indent": 4,
+                    "name": "update_resource"
+                }
+            },
+            "test_disable_existing_resource": {
+                "line": 1172,
+                "line_end": 1175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1019,
+                    "line_end": 1023,
+                    "indent": 4,
+                    "name": "update_resource"
+                }
+            },
+            "test_update_resources": {
+                "line": 1208,
+                "line_end": 1219,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_handle_multiple_resources": {
+                "line": 1221,
+                "line_end": 1228,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_single_resource_lock": {
+                "line": 1230,
+                "line_end": 1239,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_multiple_resources_lock": {
+                "line": 1247,
+                "line_end": 1255,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_multiple_resources_no_lock": {
+                "line": 1257,
+                "line_end": 1265,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1013,
+                    "line_end": 1016,
+                    "indent": 4,
+                    "name": "update_resources"
+                }
+            },
+            "test_interleave_resource_change_and_get_work": {
+                "line": 1296,
+                "line_end": 1305,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1116,
+                    "line_end": 1263,
+                    "indent": 4,
+                    "name": "get_work"
+                }
+            },
+            "test_disable_worker": {
+                "line": 1564,
+                "line_end": 1570,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 959,
+                    "indent": 4,
+                    "name": "disable_worker"
+                }
+            },
+            "test_is_paused": {
+                "line": 1588,
+                "line_end": 1593,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 999,
+                    "line_end": 1000,
+                    "indent": 4,
+                    "name": "is_paused"
+                }
+            },
+            "test_disable_worker_leaves_jobs_running": {
+                "line": 1595,
+                "line_end": 1601,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 959,
+                    "indent": 4,
+                    "name": "disable_worker"
+                }
+            },
+            "test_disable_worker_cannot_add_tasks": {
+                "line": 1628,
+                "line_end": 1636,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 959,
+                    "indent": 4,
+                    "name": "disable_worker"
+                }
+            },
+            "test_dynamic_shown_tasks_in_task_list": {
+                "line": 1704,
+                "line_end": 1715,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 1423,
+                    "line_end": 1453,
+                    "indent": 4,
+                    "name": "task_list"
+                }
+            },
+            "test_task_list_no_deps": {
+                "line": 1844,
+                "line_end": 1848,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1423,
+                    "line_end": 1453,
+                    "indent": 4,
+                    "name": "task_list"
+                }
+            },
+            "test_task_first_failure_time": {
+                "line": 1850,
+                "line_end": 1862,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "add_failure"
+                }
+            },
+            "test_task_first_failure_time_remains_constant": {
+                "line": 1864,
+                "line_end": 1873,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "add_failure"
+                }
+            },
+            "test_task_has_excessive_failures": {
+                "line": 1875,
+                "line_end": 1889,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 325,
+                    "indent": 4,
+                    "name": "has_excessive_failures"
+                }
+            },
+            "test_get_work_speed": {
+                "line": 1908,
+                "line_end": 1927,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1116,
+                    "line_end": 1263,
+                    "indent": 4,
+                    "name": "get_work"
+                }
+            },
+            "test_send_batch_email_on_dump": {
+                "line": 2033,
+                "line_end": 2038,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 443,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_scheduling_failure": {
+                "line": 2063,
+                "line_end": 2074,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 938,
+                    "line_end": 951,
+                    "indent": 4,
+                    "name": "announce_scheduling_failure"
+                }
+            },
+            "test_scheduling_failure_without_batcher": {
+                "line": 2077,
+                "line_end": 2087,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 938,
+                    "line_end": 951,
+                    "indent": 4,
+                    "name": "announce_scheduling_failure"
+                }
+            },
+            "test_batch_failure_emails_with_task_batcher": {
+                "line": 2090,
+                "line_end": 2103,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_task_batcher"
+                }
+            },
+            "test_scheduling_failure_with_task_batcher": {
+                "line": 2106,
+                "line_end": 2118,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_task_batcher"
+                }
+            },
+            "test_batch_disable_emails_with_task_batcher": {
+                "line": 2181,
+                "line_end": 2200,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_task_batcher"
+                }
+            },
+            "test_update_batcher_on_prune": {
+                "line": 2217,
+                "line_end": 2221,
+                "indent": 4,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 369,
+                    "indent": 4,
+                    "name": "prune"
+                }
+            },
+            "test_forgive_failures": {
+                "line": 2223,
+                "line_end": 2233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 767,
+                    "line_end": 778,
+                    "indent": 4,
+                    "name": "forgive_failures"
+                }
+            },
+            "test_you_can_forgive_failures_twice": {
+                "line": 2235,
+                "line_end": 2246,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 767,
+                    "line_end": 778,
+                    "indent": 4,
+                    "name": "forgive_failures"
+                }
+            },
+            "test_mark_running_as_done_works": {
+                "line": 2248,
+                "line_end": 2256,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 781,
+                    "line_end": 791,
+                    "indent": 4,
+                    "name": "mark_as_done"
+                }
+            },
+            "test_mark_failed_as_done_works": {
+                "line": 2258,
+                "line_end": 2268,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 781,
+                    "line_end": 791,
+                    "indent": 4,
+                    "name": "mark_as_done"
+                }
+            }
+        }
+    },
+    "test/server_test.py": {
+        "focal_file": "luigi/server.py",
+        "methods": {
+            "test_get": {
+                "line": 480,
+                "line_end": 487,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    },
+    "test/contrib/_webhdfs_test.py": {
+        "focal_file": "luigi/contrib/webhdfs.py",
+        "methods": {
+            "test_read": {
+                "line": 53,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_read_lines": {
+                "line": 60,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "readlines"
+                }
+            }
+        }
+    },
+    "test/contrib/azureblob_test.py": {
+        "focal_file": "luigi/contrib/azureblob.py",
+        "methods": {
+            "test_splitfilepath_blob_none": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "splitfilepath"
+                }
+            },
+            "test_splitfilepath_blob_toplevel": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "splitfilepath"
+                }
+            },
+            "test_splitfilepath_blob_nested": {
+                "line": 55,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "splitfilepath"
+                }
+            },
+            "test_create_delete_container": {
+                "line": 60,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "delete_container"
+                }
+            }
+        }
+    },
+    "test/contrib/batch_test.py": {
+        "focal_file": "luigi/contrib/batch.py",
+        "methods": {
+            "test_get_active_queue": {
+                "line": 112,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "get_active_queue"
+                }
+            },
+            "test_get_job_id_from_name": {
+                "line": 115,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "get_job_id_from_name"
+                }
+            },
+            "test_get_job_status": {
+                "line": 118,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "get_job_status"
+                }
+            },
+            "test_get_logs": {
+                "line": 121,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "get_logs"
+                }
+            },
+            "test_submit_job": {
+                "line": 125,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "submit_job"
+                }
+            },
+            "test_wait_on_job": {
+                "line": 148,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "wait_on_job"
+                }
+            },
+            "test_wait_on_job_failed": {
+                "line": 155,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "wait_on_job"
+                }
+            }
+        }
+    },
+    "test/contrib/beam_dataflow_test.py": {
+        "focal_file": "luigi/contrib/beam_dataflow.py",
+        "methods": {
+            "test_dataflow_simple_cmd_line_args": {
+                "line": 138,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 333,
+                    "indent": 4,
+                    "name": "_mk_cmd_line"
+                }
+            },
+            "test_dataflow_full_cmd_line_args": {
+                "line": 152,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 333,
+                    "indent": 4,
+                    "name": "_mk_cmd_line"
+                }
+            },
+            "test_dataflow_input_arg_formatting": {
+                "line": 197,
+                "line_end": 249,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 393,
+                    "line_end": 459,
+                    "indent": 4,
+                    "name": "_format_input_args"
+                }
+            },
+            "test_get_target_path": {
+                "line": 285,
+                "line_end": 297,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "get_target_path"
+                }
+            }
+        }
+    },
+    "test/contrib/bigquery_test.py": {
+        "focal_file": "luigi/contrib/bigquery.py",
+        "methods": {
+            "test_bulk_complete": {
+                "line": 129,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 430,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "bulk_complete"
+                }
+            },
+            "test_view_completed": {
+                "line": 236,
+                "line_end": 240,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 664,
+                    "line_end": 672,
+                    "indent": 4,
+                    "name": "complete"
+                }
+            }
+        }
+    },
+    "test/contrib/docker_runner_test.py": {
+        "focal_file": "luigi/contrib/docker_runner.py",
+        "methods": {
+            "test_local_file_mount": {
+                "line": 145,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 248,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "test/contrib/dropbox_test.py": {
+        "focal_file": "luigi/contrib/dropbox.py",
+        "methods": {
+            "test_exists": {
+                "line": 76,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_remove": {
+                "line": 108,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_isdir": {
+                "line": 207,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "isdir"
+                }
+            },
+            "test_move": {
+                "line": 217,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "move"
+                }
+            },
+            "test_copy": {
+                "line": 230,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "copy"
+                }
+            },
+            "test_write_using_a_temporary_path": {
+                "line": 347,
+                "line_end": 360,
+                "indent": 4,
+                "focal_class": "luigi.contrib.dropbox.DropboxTarget",
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 315,
+                    "indent": 4,
+                    "name": "temporary_path"
+                }
+            }
+        }
+    },
+    "test/contrib/esindex_test.py": {
+        "focal_file": "luigi/contrib/esindex.py",
+        "methods": {
+            "test_touch_and_exists": {
+                "line": 73,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "ElasticsearchTarget",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            }
+        }
+    },
+    "test/contrib/external_daily_snapshot_test.py": {
+        "focal_file": "luigi/contrib/external_daily_snapshot.py",
+        "methods": {
+            "test_latest": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "latest"
+                }
+            }
+        }
+    },
+    "test/contrib/external_program_test.py": {
+        "focal_file": "luigi/contrib/external_program.py",
+        "methods": {
+            "test_run": {
+                "line": 81,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_non_mocked_task_run": {
+                "line": 173,
+                "line_end": 186,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_tracking_url_context_works_without_capture_output": {
+                "line": 247,
+                "line_end": 260,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "_proc_with_tracking_url_context"
+                }
+            }
+        }
+    },
+    "test/contrib/gcs_test.py": {
+        "focal_file": "luigi/contrib/gcs.py",
+        "methods": {
+            "test_not_exists": {
+                "line": 81,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_exists": {
+                "line": 85,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_mkdir": {
+                "line": 90,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "mkdir"
+                }
+            },
+            "test_download": {
+                "line": 100,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 385,
+                    "line_end": 411,
+                    "indent": 4,
+                    "name": "download"
+                }
+            },
+            "test_rename": {
+                "line": 105,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 338,
+                    "line_end": 342,
+                    "indent": 4,
+                    "name": "rename"
+                }
+            },
+            "test_remove": {
+                "line": 121,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 246,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_listdir": {
+                "line": 136,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_put_file_multiproc": {
+                "line": 157,
+                "line_end": 176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 260,
+                    "line_end": 284,
+                    "indent": 4,
+                    "name": "put_multiple"
+                }
+            },
+            "test_close_twice": {
+                "line": 185,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 422,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "test/contrib/hadoop_test.py": {
+        "focal_file": "luigi/contrib/hadoop.py",
+        "methods": {
+            "test_create_packages_archive_module": {
+                "line": 319,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "create_packages_archive"
+                }
+            },
+            "test_create_packages_archive_package": {
+                "line": 325,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "create_packages_archive"
+                }
+            },
+            "test_create_packages_archive_package_submodule": {
+                "line": 331,
+                "line_end": 334,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "create_packages_archive"
+                }
+            }
+        }
+    },
+    "test/contrib/hive_test.py": {
+        "focal_file": "luigi/contrib/hive.py",
+        "methods": {
+            "test_run_hive_command": {
+                "line": 47,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "run_hive_cmd"
+                }
+            },
+            "test_run_hive_script_not_exists": {
+                "line": 53,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "run_hive_script"
+                }
+            },
+            "test_run_hive_script_exists": {
+                "line": 59,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "run_hive_script"
+                }
+            },
+            "test_default_table_location": {
+                "line": 90,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "table_location"
+                }
+            },
+            "test_table_exists": {
+                "line": 100,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "table_exists"
+                }
+            },
+            "test_table_schema": {
+                "line": 127,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "table_schema"
+                }
+            },
+            "test_partition_spec": {
+                "line": 159,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "partition_spec"
+                }
+            },
+            "test_apacheclient_table_exists": {
+                "line": 164,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "table_exists"
+                }
+            },
+            "test_apacheclient_table_schema": {
+                "line": 191,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "table_schema"
+                }
+            },
+            "test_metastoreclient_partition_existence_regardless_of_order": {
+                "line": 224,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "table_exists"
+                }
+            },
+            "test_arglist": {
+                "line": 435,
+                "line_end": 452,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 431,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "get_arglist"
+                }
+            }
+        }
+    },
+    "test/contrib/mongo_test.py": {
+        "focal_file": "luigi/contrib/mongodb.py",
+        "methods": {
+            "test_exists": {
+                "line": 183,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": "MongoRangeTarget",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_exists_nested": {
+                "line": 82,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "MongoCellTarget",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_read": {
+                "line": 199,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": "MongoRangeTarget",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_read_nested": {
+                "line": 111,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "MongoCellTarget",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_write": {
+                "line": 213,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": "MongoRangeTarget",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_write_nested": {
+                "line": 135,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": "MongoCellTarget",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "write"
+                }
+            }
+        }
+    },
+    "test/contrib/presto_test.py": {
+        "focal_file": "luigi/contrib/presto.py",
+        "methods": {
+            "test_run": {
+                "line": 180,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 268,
+                    "line_end": 271,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "test/contrib/prometheus_metric_test.py": {
+        "focal_file": "luigi/contrib/prometheus_metric.py",
+        "methods": {
+            "test_handle_task_started": {
+                "line": 35,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "handle_task_started"
+                }
+            },
+            "test_handle_task_failed": {
+                "line": 46,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "handle_task_failed"
+                }
+            },
+            "test_handle_task_disabled": {
+                "line": 57,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "handle_task_disabled"
+                }
+            },
+            "test_handle_task_done": {
+                "line": 68,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "handle_task_done"
+                }
+            },
+            "test_configure_http_handler": {
+                "line": 79,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "configure_http_handler"
+                }
+            }
+        }
+    },
+    "test/contrib/redis_test.py": {
+        "focal_file": "luigi/contrib/redis_store.py",
+        "methods": {
+            "test_touch_and_exists": {
+                "line": 45,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "RedisTarget",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            }
+        }
+    },
+    "test/contrib/s3_test.py": {
+        "focal_file": "luigi/contrib/s3.py",
+        "methods": {
+            "test_read": {
+                "line": 80,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "S3Target",
+                "focal_method": {
+                    "line": 568,
+                    "line_end": 570,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_put": {
+                "line": 201,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "put"
+                }
+            },
+            "test_put_string": {
+                "line": 231,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "put_string"
+                }
+            },
+            "test_put_multipart_no_such_bucket": {
+                "line": 305,
+                "line_end": 309,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "put_multipart"
+                }
+            },
+            "test_exists": {
+                "line": 311,
+                "line_end": 332,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_get": {
+                "line": 334,
+                "line_end": 346,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 359,
+                    "line_end": 365,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_get_as_bytes": {
+                "line": 348,
+                "line_end": 355,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "get_as_bytes"
+                }
+            },
+            "test_get_as_string": {
+                "line": 357,
+                "line_end": 364,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 388,
+                    "indent": 4,
+                    "name": "get_as_string"
+                }
+            },
+            "test_get_as_string_latin1": {
+                "line": 366,
+                "line_end": 373,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 388,
+                    "indent": 4,
+                    "name": "get_as_string"
+                }
+            },
+            "test_get_key": {
+                "line": 375,
+                "line_end": 380,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "get_key"
+                }
+            },
+            "test_isdir": {
+                "line": 382,
+                "line_end": 394,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 420,
+                    "indent": 4,
+                    "name": "isdir"
+                }
+            },
+            "test_mkdir": {
+                "line": 396,
+                "line_end": 408,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 438,
+                    "indent": 4,
+                    "name": "mkdir"
+                }
+            },
+            "test_listdir": {
+                "line": 410,
+                "line_end": 418,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 440,
+                    "line_end": 471,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_list": {
+                "line": 420,
+                "line_end": 428,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 473,
+                    "line_end": 479,
+                    "indent": 4,
+                    "name": "list"
+                }
+            },
+            "test_listdir_key": {
+                "line": 430,
+                "line_end": 438,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 440,
+                    "line_end": 471,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_remove_dir": {
+                "line": 501,
+                "line_end": 509,
+                "indent": 4,
+                "focal_class": "S3Client",
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test__path_to_bucket_and_key": {
+                "line": 604,
+                "line_end": 605,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 501,
+                    "line_end": 506,
+                    "indent": 4,
+                    "name": "_path_to_bucket_and_key"
+                }
+            },
+            "test__path_to_bucket_and_key_with_question_mark": {
+                "line": 607,
+                "line_end": 608,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 501,
+                    "line_end": 506,
+                    "indent": 4,
+                    "name": "_path_to_bucket_and_key"
+                }
+            }
+        }
+    },
+    "test/contrib/salesforce_test.py": {
+        "focal_file": "luigi/contrib/salesforce.py",
+        "methods": {
+            "test_deprecated_results_warning": {
+                "line": 69,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "SalesforceAPI",
+                "focal_method": {
+                    "line": 509,
+                    "line_end": 514,
+                    "indent": 4,
+                    "name": "get_batch_results"
+                }
+            },
+            "test_result_ids": {
+                "line": 76,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "SalesforceAPI",
+                "focal_method": {
+                    "line": 516,
+                    "line_end": 531,
+                    "indent": 4,
+                    "name": "get_batch_result_ids"
+                }
+            }
+        }
+    },
+    "test/contrib/spark_test.py": {
+        "focal_file": "luigi/contrib/spark.py",
+        "methods": {
+            "test_run": {
+                "line": 262,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 321,
+                    "line_end": 333,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "test/contrib/sqla_test.py": {
+        "focal_file": "luigi/contrib/sqla.py",
+        "methods": {
+            "test_create_table": {
+                "line": 89,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 359,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_rows": {
+                "line": 150,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 383,
+                    "indent": 4,
+                    "name": "rows"
+                }
+            },
+            "test_create_marker_table": {
+                "line": 215,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": "luigi.contrib.sqla.SQLAlchemyTarget",
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 266,
+                    "indent": 4,
+                    "name": "create_marker_table"
+                }
+            },
+            "test_touch": {
+                "line": 224,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": "luigi.contrib.sqla.SQLAlchemyTarget",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "touch"
+                }
+            }
+        }
+    },
+    "test/contrib/test_ssh.py": {
+        "focal_file": "luigi/contrib/ssh.py",
+        "methods": {
+            "test_check_output": {
+                "line": 76,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "check_output"
+                }
+            },
+            "test_tunnel": {
+                "line": 84,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "tunnel"
+                }
+            },
+            "test_exists": {
+                "line": 132,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": "RemoteTarget",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_remove": {
+                "line": 140,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_open": {
+                "line": 148,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 348,
+                    "indent": 4,
+                    "name": "open"
+                }
+            },
+            "test_mkdir": {
+                "line": 179,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "mkdir"
+                }
+            },
+            "test_put": {
+                "line": 239,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": "RemoteTarget",
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "put"
+                }
+            },
+            "test_get": {
+                "line": 247,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": "RemoteTarget",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,475 @@
+{
+    "tests/test_area_to_market_publisher.py": {
+        "focal_file": "src/d3a/models/area/redis_dispatcher/area_to_market_publisher.py",
+        "methods": {
+            "test_publish_market_clearing_publishes_to_correct_channel": {
+                "line": 54,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "publish_markets_clearing"
+                }
+            },
+            "test_publish_market_clearing_waits_until_response_received": {
+                "line": 64,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "publish_markets_clearing"
+                }
+            }
+        }
+    },
+    "tests/test_balancing_agent.py": {
+        "focal_file": "src/d3a/models/strategy/area_agents/balancing_agent.py",
+        "methods": {
+            "test_baa_event_trade": {
+                "line": 87,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "event_trade"
+                }
+            },
+            "test_baa_unmatched_event_trade": {
+                "line": 111,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "event_trade"
+                }
+            }
+        }
+    },
+    "tests/test_event_deserializer.py": {
+        "focal_file": "src/d3a/models/area/event_deserializer.py",
+        "methods": {
+            "test_event_deserializing_works_for_area_events": {
+                "line": 12,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "deserialize_events_to_areas"
+                }
+            },
+            "test_deserialization_works_for_multiple_areas": {
+                "line": 55,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "deserialize_events_to_areas"
+                }
+            }
+        }
+    },
+    "tests/test_home_meter.py": {
+        "focal_file": "src/d3a/models/strategy/home_meter.py",
+        "methods": {
+            "test_event_activate": {
+                "line": 66,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "event_activate"
+                }
+            },
+            "test_event_activate_price_with_market_maker_rate": {
+                "line": 83,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "event_activate_price"
+                }
+            },
+            "test_event_activate_price_without_market_maker_rate": {
+                "line": 113,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "event_activate_price"
+                }
+            },
+            "test_set_energy_forecast_for_future_markets": {
+                "line": 124,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 442,
+                    "indent": 4,
+                    "name": "_set_energy_forecast_for_future_markets"
+                }
+            },
+            "test_set_energy_forecast_for_future_markets_no_profile": {
+                "line": 154,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 442,
+                    "indent": 4,
+                    "name": "_set_energy_forecast_for_future_markets"
+                }
+            },
+            "test_event_activate_energy": {
+                "line": 161,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "event_activate_energy"
+                }
+            },
+            "test_event_market_cycle": {
+                "line": 171,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "event_market_cycle"
+                }
+            },
+            "test_post_offer": {
+                "line": 214,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 377,
+                    "line_end": 395,
+                    "indent": 4,
+                    "name": "_post_offer"
+                }
+            }
+        }
+    },
+    "tests/test_market_redis_connection.py": {
+        "focal_file": "src/d3a/models/market/market_redis_connection.py",
+        "methods": {
+            "test_wait_for_event_response_calls_poll_method": {
+                "line": 62,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "_wait_for_event_response"
+                }
+            },
+            "test_sanitize_parameters": {
+                "line": 97,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "sanitize_parameters"
+                }
+            }
+        }
+    },
+    "tests/test_settings_file.py": {
+        "focal_file": "src/d3a/d3a_core/util.py",
+        "methods": {
+            "test_parse_settings_file": {
+                "line": 30,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": "IntervalType",
+                "focal_method": {
+                    "line": 278,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "read_settings_from_file"
+                }
+            }
+        }
+    },
+    "tests/test_strategy_commercial_producer.py": {
+        "focal_file": "src/d3a/models/strategy/commercial_producer.py",
+        "methods": {
+            "testing_event_market_cycle": {
+                "line": 276,
+                "line_end": 280,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "event_market_cycle"
+                }
+            }
+        }
+    },
+    "tests/test_strategy_infinite_bus.py": {
+        "focal_file": "src/d3a/models/strategy/infinite_bus.py",
+        "methods": {
+            "testing_event_market_cycle_post_offers": {
+                "line": 297,
+                "line_end": 302,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "event_market_cycle"
+                }
+            },
+            "testing_event_tick_buy_energy": {
+                "line": 316,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "event_tick"
+                }
+            },
+            "testing_event_market_cycle_posting_bids": {
+                "line": 323,
+                "line_end": 330,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "event_market_cycle"
+                }
+            }
+        }
+    },
+    "tests/test_strategy_load_hours.py": {
+        "focal_file": "src/d3a/models/strategy/load_hours.py",
+        "methods": {
+            "test_event_tick": {
+                "line": 350,
+                "line_end": 359,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "event_tick"
+                }
+            }
+        }
+    },
+    "tests/test_strategy_pv.py": {
+        "focal_file": "src/d3a/models/strategy/pv.py",
+        "methods": {
+            "testing_activation": {
+                "line": 158,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "event_activate"
+                }
+            },
+            "testing_event_tick": {
+                "line": 188,
+                "line_end": 205,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "event_tick"
+                }
+            },
+            "testing_event_trade": {
+                "line": 269,
+                "line_end": 278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 285,
+                    "indent": 4,
+                    "name": "event_trade"
+                }
+            },
+            "testing_produced_energy_forecast_real_data": {
+                "line": 320,
+                "line_end": 371,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "set_produced_energy_forecast_kWh_future_markets"
+                }
+            }
+        }
+    },
+    "tests/test_strategy_pvpredefined.py": {
+        "focal_file": "src/d3a/models/strategy/predefined_pv.py",
+        "methods": {
+            "testing_produced_energy_forecast_real_data": {
+                "line": 267,
+                "line_end": 312,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "set_produced_energy_forecast_kWh_future_markets"
+                }
+            }
+        }
+    },
+    "tests/test_strategy_storage.py": {
+        "focal_file": "src/d3a/models/strategy/storage.py",
+        "methods": {
+            "test_sell_energy_function": {
+                "line": 411,
+                "line_end": 420,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 536,
+                    "line_end": 558,
+                    "indent": 4,
+                    "name": "sell_energy"
+                }
+            },
+            "test_calculate_sell_energy_rate_lower_bound": {
+                "line": 424,
+                "line_end": 429,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 580,
+                    "line_end": 584,
+                    "indent": 4,
+                    "name": "calculate_selling_rate"
+                }
+            },
+            "test_calculate_initial_sell_energy_rate_upper_bound": {
+                "line": 442,
+                "line_end": 447,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 580,
+                    "line_end": 584,
+                    "indent": 4,
+                    "name": "calculate_selling_rate"
+                }
+            },
+            "test_storage_capacity_dependant_sell_rate": {
+                "line": 672,
+                "line_end": 681,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 580,
+                    "line_end": 584,
+                    "indent": 4,
+                    "name": "calculate_selling_rate"
+                }
+            },
+            "test_storage_event_trade": {
+                "line": 708,
+                "line_end": 715,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 395,
+                    "indent": 4,
+                    "name": "event_trade"
+                }
+            }
+        }
+    },
+    "tests/test_util.py": {
+        "focal_file": "src/d3a/d3a_core/util.py",
+        "methods": {
+            "test_validate_alternate_pricing_only_for_one_sided_market": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 389,
+                    "line_end": 403,
+                    "indent": 0,
+                    "name": "validate_const_settings_for_simulation"
+                }
+            },
+            "test_validate_one_sided_market_when_pricing_scheme_on_comparison": {
+                "line": 59,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 389,
+                    "line_end": 403,
+                    "indent": 0,
+                    "name": "validate_const_settings_for_simulation"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,651 @@
+{
+    "tests/test_factory.py": {
+        "focal_file": "poetry/factory.py",
+        "methods": {
+            "test_create_poetry": {
+                "line": 27,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": "Factory",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "create_poetry"
+                }
+            },
+            "test_create_poetry_with_plugins": {
+                "line": 297,
+                "line_end": 305,
+                "indent": 0,
+                "focal_class": "Factory",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "create_poetry"
+                }
+            }
+        }
+    },
+    "tests/inspection/test_info.py": {
+        "focal_file": "poetry/inspection/info.py",
+        "methods": {
+            "test_info_from_sdist": {
+                "line": 107,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 537,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "from_sdist"
+                }
+            },
+            "test_info_from_wheel": {
+                "line": 112,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 551,
+                    "line_end": 560,
+                    "indent": 4,
+                    "name": "from_wheel"
+                }
+            },
+            "test_info_from_bdist": {
+                "line": 117,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 563,
+                    "line_end": 578,
+                    "indent": 4,
+                    "name": "from_bdist"
+                }
+            },
+            "test_info_from_poetry_directory": {
+                "line": 122,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 503,
+                    "line_end": 534,
+                    "indent": 4,
+                    "name": "from_directory"
+                }
+            },
+            "test_info_from_setup_cfg": {
+                "line": 141,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "from_setup_files"
+                }
+            }
+        }
+    },
+    "tests/installation/test_executor.py": {
+        "focal_file": "poetry/installation/executor.py",
+        "methods": {
+            "test_execute_shows_skipped_operations_if_verbose": {
+                "line": 163,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": "Executor",
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "verbose"
+                }
+            },
+            "test_executor_should_delete_incomplete_downloads": {
+                "line": 316,
+                "line_end": 345,
+                "indent": 0,
+                "focal_class": "Executor",
+                "focal_method": {
+                    "line": 645,
+                    "line_end": 648,
+                    "indent": 4,
+                    "name": "_download"
+                }
+            }
+        }
+    },
+    "tests/installation/test_authenticator.py": {
+        "focal_file": "poetry/installation/authenticator.py",
+        "methods": {
+            "test_authenticator_request_retries_on_exception": {
+                "line": 123,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": "Authenticator",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "request"
+                }
+            },
+            "test_authenticator_request_retries_on_status_code": {
+                "line": 165,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": "Authenticator",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "request"
+                }
+            }
+        }
+    },
+    "tests/installation/test_installer.py": {
+        "focal_file": "poetry/installation/noop_installer.py",
+        "methods": {
+            "test_run_install_duplicate_dependencies_different_constraints_with_lock_update": {
+                "line": 1402,
+                "line_end": 1504,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "update"
+                }
+            }
+        }
+    },
+    "tests/installation/test_installer_old.py": {
+        "focal_file": "poetry/installation/noop_installer.py",
+        "methods": {
+            "test_run_install_duplicate_dependencies_different_constraints_with_lock_update": {
+                "line": 1315,
+                "line_end": 1420,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "update"
+                }
+            }
+        }
+    },
+    "tests/installation/test_pip_installer.py": {
+        "focal_file": "poetry/installation/pip_installer.py",
+        "methods": {
+            "test_requirement": {
+                "line": 40,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "requirement"
+                }
+            }
+        }
+    },
+    "tests/repositories/test_pypi_repository.py": {
+        "focal_file": "poetry/repositories/pypi_repository.py",
+        "methods": {
+            "test_find_packages": {
+                "line": 57,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "find_packages"
+                }
+            },
+            "test_find_packages_with_prereleases": {
+                "line": 64,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "find_packages"
+                }
+            },
+            "test_find_packages_only_prereleases": {
+                "line": 79,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "find_packages"
+                }
+            },
+            "test_package": {
+                "line": 86,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "package"
+                }
+            }
+        }
+    },
+    "tests/repositories/test_legacy_repository.py": {
+        "focal_file": "poetry/repositories/legacy_repository.py",
+        "methods": {
+            "test_find_packages_no_prereleases": {
+                "line": 136,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 312,
+                    "indent": 4,
+                    "name": "find_packages"
+                }
+            },
+            "test_find_packages_only_prereleases": {
+                "line": 149,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 312,
+                    "indent": 4,
+                    "name": "find_packages"
+                }
+            }
+        }
+    },
+    "tests/packages/test_locker.py": {
+        "focal_file": "poetry/packages/locker.py",
+        "methods": {
+            "test_lock_file_data_is_ordered": {
+                "line": 33,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 440,
+                    "indent": 4,
+                    "name": "set_lock_data"
+                }
+            }
+        }
+    },
+    "tests/plugins/test_plugin_manager.py": {
+        "focal_file": "poetry/plugins/plugin_manager.py",
+        "methods": {
+            "test_load_plugins_and_activate": {
+                "line": 68,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "activate"
+                }
+            }
+        }
+    },
+    "tests/puzzle/test_provider.py": {
+        "focal_file": "poetry/puzzle/provider.py",
+        "methods": {
+            "test_search_for_vcs_setup_egg_info": {
+                "line": 58,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "search_for_vcs"
+                }
+            },
+            "test_search_for_vcs_read_setup": {
+                "line": 96,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "search_for_vcs"
+                }
+            },
+            "test_search_for_directory_setup_egg_info": {
+                "line": 147,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "search_for_directory"
+                }
+            },
+            "test_search_for_directory_setup_egg_info_with_extras": {
+                "line": 173,
+                "line_end": 197,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "search_for_directory"
+                }
+            },
+            "test_search_for_directory_setup_with_base": {
+                "line": 201,
+                "line_end": 238,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "search_for_directory"
+                }
+            },
+            "test_search_for_directory_setup_read_setup": {
+                "line": 241,
+                "line_end": 266,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "search_for_directory"
+                }
+            },
+            "test_search_for_directory_setup_read_setup_with_extras": {
+                "line": 269,
+                "line_end": 295,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "search_for_directory"
+                }
+            },
+            "test_search_for_directory_poetry": {
+                "line": 317,
+                "line_end": 342,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "search_for_directory"
+                }
+            },
+            "test_search_for_directory_poetry_with_extras": {
+                "line": 345,
+                "line_end": 371,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "search_for_directory"
+                }
+            },
+            "test_search_for_file_sdist": {
+                "line": 374,
+                "line_end": 402,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "search_for_file"
+                }
+            },
+            "test_search_for_file_sdist_with_extras": {
+                "line": 405,
+                "line_end": 434,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "search_for_file"
+                }
+            },
+            "test_search_for_file_wheel": {
+                "line": 437,
+                "line_end": 465,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "search_for_file"
+                }
+            },
+            "test_search_for_file_wheel_with_extras": {
+                "line": 468,
+                "line_end": 497,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "search_for_file"
+                }
+            }
+        }
+    },
+    "tests/utils/test_password_manager.py": {
+        "focal_file": "poetry/utils/password_manager.py",
+        "methods": {
+            "test_set_http_password": {
+                "line": 64,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": "PasswordManager",
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "set_http_password"
+                }
+            },
+            "test_get_http_auth": {
+                "line": 77,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": "PasswordManager",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "get_http_auth"
+                }
+            },
+            "test_delete_http_password": {
+                "line": 89,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": "PasswordManager",
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "delete_http_password"
+                }
+            },
+            "test_set_pypi_token": {
+                "line": 101,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": "PasswordManager",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "set_pypi_token"
+                }
+            },
+            "test_get_pypi_token": {
+                "line": 112,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": "PasswordManager",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_pypi_token"
+                }
+            },
+            "test_delete_pypi_token": {
+                "line": 120,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": "PasswordManager",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "delete_pypi_token"
+                }
+            },
+            "test_delete_http_password_with_unavailable_backend": {
+                "line": 154,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": "PasswordManager",
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "delete_http_password"
+                }
+            }
+        }
+    },
+    "tests/utils/test_pip.py": {
+        "focal_file": "poetry/utils/pip.py",
+        "methods": {
+            "test_pip_install_successful": {
+                "line": 8,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "pip_install"
+                }
+            }
+        }
+    },
+    "tests/utils/test_extras.py": {
+        "focal_file": "poetry/utils/extras.py",
+        "methods": {
+            "test_get_extra_package_names": {
+                "line": 58,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "get_extra_package_names"
+                }
+            }
+        }
+    },
+    "tests/utils/test_env.py": {
+        "focal_file": "poetry/utils/env.py",
+        "methods": {
+            "test_deactivate_activated": {
+                "line": 434,
+                "line_end": 473,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 527,
+                    "line_end": 549,
+                    "indent": 4,
+                    "name": "deactivate"
+                }
+            },
+            "test_list": {
+                "line": 506,
+                "line_end": 517,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 619,
+                    "line_end": 642,
+                    "indent": 4,
+                    "name": "list"
+                }
+            }
+        }
+    },
+    "tests/console/commands/test_version.py": {
+        "focal_file": "poetry/console/commands/version.py",
+        "methods": {
+            "test_increment_version": {
+                "line": 42,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "increment_version"
+                }
+            }
+        }
+    }
+}

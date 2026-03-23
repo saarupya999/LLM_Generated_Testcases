@@ -1,0 +1,575 @@
+{
+    "tests/interpreter/test_interpreter.py": {
+        "focal_file": "pireal/interpreter/parser.py",
+        "methods": {
+            "test_visit_Num": {
+                "line": 29,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": "pireal.interpreter.parser.Interpreter",
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "visit_Number"
+                }
+            },
+            "test_visit_Variable": {
+                "line": 36,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "pireal.interpreter.parser.Interpreter",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 332,
+                    "indent": 4,
+                    "name": "visit_Variable"
+                }
+            },
+            "test_visit_Select": {
+                "line": 43,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": "pireal.interpreter.parser.Interpreter",
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "visit_SelectExpr"
+                }
+            },
+            "test_visit_Project": {
+                "line": 57,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": "pireal.interpreter.parser.Interpreter",
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "visit_ProjectExpr"
+                }
+            }
+        }
+    },
+    "tests/interpreter/test_lexer.py": {
+        "focal_file": "pireal/interpreter/lexer.py",
+        "methods": {
+            "test_get_number": {
+                "line": 18,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "Lexer",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "get_number"
+                }
+            },
+            "test_next_token": {
+                "line": 34,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "Lexer",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "next_token"
+                }
+            },
+            "test_get_identifier_or_keyword": {
+                "line": 91,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "Lexer",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "get_identifier_or_keyword"
+                }
+            }
+        }
+    },
+    "tests/interpreter/test_parser.py": {
+        "focal_file": "pireal/interpreter/parser.py",
+        "methods": {
+            "test_compound": {
+                "line": 14,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "compound"
+                }
+            },
+            "test_assignment": {
+                "line": 23,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "assignment"
+                }
+            },
+            "test_binary_expression": {
+                "line": 37,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "expression"
+                }
+            },
+            "test_nested_binary_expression": {
+                "line": 53,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "expression"
+                }
+            },
+            "test_literal": {
+                "line": 82,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "literal"
+                }
+            },
+            "test_operand": {
+                "line": 99,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 204,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "operand"
+                }
+            },
+            "test_attributes": {
+                "line": 113,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "attributes"
+                }
+            },
+            "test_simple_boolean_expression": {
+                "line": 129,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "boolean_expression"
+                }
+            },
+            "test_and_boolean_expression": {
+                "line": 143,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "boolean_expression"
+                }
+            },
+            "test_mix_boolean_expression": {
+                "line": 165,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "boolean_expression"
+                }
+            },
+            "test_consume": {
+                "line": 195,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "consume"
+                }
+            }
+        }
+    },
+    "tests/interpreter/test_scanner.py": {
+        "focal_file": "pireal/interpreter/scanner.py",
+        "methods": {
+            "test_peek": {
+                "line": 95,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "Scanner",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "peek"
+                }
+            }
+        }
+    },
+    "tests/interpreter/test_tokens.py": {
+        "focal_file": "pireal/interpreter/tokens.py",
+        "methods": {
+            "test_build_binary_operators": {
+                "line": 12,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "_build_binary_operators"
+                }
+            },
+            "test_build_reserved_keywords": {
+                "line": 28,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "_build_reserved_keywords"
+                }
+            }
+        }
+    },
+    "tests/interpreter/utils.py": {
+        "focal_file": "pireal/interpreter/utils.py",
+        "methods": {
+            "test_is_date": {
+                "line": 11,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "is_date"
+                }
+            },
+            "test_is_time": {
+                "line": 24,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "is_time"
+                }
+            }
+        }
+    },
+    "tests/unit/test_file_manager.py": {
+        "focal_file": "pireal/core/file_manager.py",
+        "methods": {
+            "test_get_extension": {
+                "line": 15,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "get_extension"
+                }
+            },
+            "test_get_basename": {
+                "line": 27,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "get_basename"
+                }
+            },
+            "test_get_path": {
+                "line": 39,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_path"
+                }
+            },
+            "test_get_files_from_folder": {
+                "line": 43,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "get_files_from_folder"
+                }
+            }
+        }
+    },
+    "tests/unit/test_ordered_set.py": {
+        "focal_file": "pireal/core/ordered_set.py",
+        "methods": {
+            "test_intersection": {
+                "line": 48,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": "OrderedSet",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "intersection"
+                }
+            },
+            "test_union": {
+                "line": 58,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": "OrderedSet",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "union"
+                }
+            },
+            "test_difference": {
+                "line": 65,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": "OrderedSet",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "difference"
+                }
+            }
+        }
+    },
+    "tests/unit/test_relation.py": {
+        "focal_file": "pireal/core/relation.py",
+        "methods": {
+            "test_cardinality": {
+                "line": 86,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": "pireal.core.relation.Relation",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "cardinality"
+                }
+            },
+            "test_projection": {
+                "line": 106,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "project"
+                }
+            },
+            "test_selection": {
+                "line": 122,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "select"
+                }
+            },
+            "test_selection2": {
+                "line": 129,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": "pireal.core.relation.Relation",
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "select"
+                }
+            },
+            "test_selection3": {
+                "line": 148,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": "pireal.core.relation.Relation",
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "select"
+                }
+            },
+            "test_product": {
+                "line": 186,
+                "line_end": 205,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 321,
+                    "indent": 4,
+                    "name": "product"
+                }
+            },
+            "test_njoin": {
+                "line": 216,
+                "line_end": 227,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "njoin"
+                }
+            },
+            "test_louter": {
+                "line": 230,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 243,
+                    "indent": 4,
+                    "name": "louter"
+                }
+            },
+            "test_router": {
+                "line": 244,
+                "line_end": 256,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 248,
+                    "indent": 4,
+                    "name": "router"
+                }
+            },
+            "test_intersect": {
+                "line": 265,
+                "line_end": 283,
+                "indent": 0,
+                "focal_class": "pireal.core.relation.Relation",
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "intersect"
+                }
+            },
+            "test_fouther": {
+                "line": 286,
+                "line_end": 299,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "fouter"
+                }
+            },
+            "test_difference": {
+                "line": 302,
+                "line_end": 331,
+                "indent": 0,
+                "focal_class": "pireal.core.relation.Relation",
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "difference"
+                }
+            },
+            "test_append_row": {
+                "line": 350,
+                "line_end": 366,
+                "indent": 0,
+                "focal_class": "pireal.core.relation.Relation",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "append_row"
+                }
+            },
+            "test_str_repr": {
+                "line": 369,
+                "line_end": 378,
+                "indent": 0,
+                "focal_class": "pireal.core.relation.Relation",
+                "focal_method": {
+                    "line": 340,
+                    "line_end": 343,
+                    "indent": 4,
+                    "name": "__repr__"
+                }
+            }
+        }
+    }
+}

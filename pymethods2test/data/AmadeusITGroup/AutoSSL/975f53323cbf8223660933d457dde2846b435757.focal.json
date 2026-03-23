@@ -1,0 +1,917 @@
+{
+    "tests/test_command_line.py": {
+        "focal_file": "autossl/__main__.py",
+        "methods": {
+            "test_main_version": {
+                "line": 43,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "display_version"
+                }
+            }
+        }
+    },
+    "tests/test_command_line_parser.py": {
+        "focal_file": "autossl/__main__.py",
+        "methods": {
+            "test_display_version": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "display_version"
+                }
+            },
+            "test_parse_credentials": {
+                "line": 31,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 194,
+                    "indent": 0,
+                    "name": "parse_credentials"
+                }
+            },
+            "test_main_parser": {
+                "line": 35,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "parse_arguments"
+                }
+            }
+        }
+    },
+    "tests/test_credentials.py": {
+        "focal_file": "autossl/credential.py",
+        "methods": {
+            "test_get_credentials_unsupported_credential_type": {
+                "line": 33,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "get_credentials"
+                }
+            },
+            "test_get_user_password_from_user_input": {
+                "line": 71,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "get_user_password"
+                }
+            },
+            "test_get_credentials_from_env_variables": {
+                "line": 98,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "get_credentials"
+                }
+            }
+        }
+    },
+    "tests/test_manager.py": {
+        "focal_file": "autossl/manager.py",
+        "methods": {
+            "test_get_ca_manager_api": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_ca_manager_api"
+                }
+            },
+            "test_get_ca_storage_api": {
+                "line": 74,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "get_ca_storage_api"
+                }
+            },
+            "test_get_renewal_status": {
+                "line": 79,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "get_renewal_status"
+                }
+            },
+            "test_request_renewal": {
+                "line": 85,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "request_renewal"
+                }
+            },
+            "test_renew_certificate": {
+                "line": 101,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 340,
+                    "line_end": 395,
+                    "indent": 4,
+                    "name": "renew_certificate"
+                }
+            },
+            "test_get_and_check_artifacts_ok": {
+                "line": 107,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 458,
+                    "line_end": 582,
+                    "indent": 4,
+                    "name": "get_and_check_artifacts"
+                }
+            },
+            "test_get_and_check_artifacts_error": {
+                "line": 127,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 458,
+                    "line_end": 582,
+                    "indent": 4,
+                    "name": "get_and_check_artifacts"
+                }
+            },
+            "test_get_and_check_artifacts_error_missing_chain_of_trust": {
+                "line": 168,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 458,
+                    "line_end": 582,
+                    "indent": 4,
+                    "name": "get_and_check_artifacts"
+                }
+            },
+            "test_deploy": {
+                "line": 184,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 584,
+                    "line_end": 658,
+                    "indent": 4,
+                    "name": "deploy"
+                }
+            },
+            "test_save_and_get_file": {
+                "line": 221,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 676,
+                    "line_end": 732,
+                    "indent": 4,
+                    "name": "get_file"
+                }
+            },
+            "test_automatic_renewal": {
+                "line": 263,
+                "line_end": 279,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "request_renewal"
+                }
+            }
+        }
+    },
+    "tests/test_ssl.py": {
+        "focal_file": "autossl/ssl.py",
+        "methods": {
+            "test_generate_ov_csr": {
+                "line": 117,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 496,
+                    "indent": 0,
+                    "name": "generate_csr"
+                }
+            },
+            "test_get_domains_from_x509": {
+                "line": 178,
+                "line_end": 192,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 541,
+                    "line_end": 575,
+                    "indent": 0,
+                    "name": "get_domains_from_x509"
+                }
+            },
+            "test_get_domains": {
+                "line": 204,
+                "line_end": 205,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 679,
+                    "line_end": 694,
+                    "indent": 0,
+                    "name": "get_domains"
+                }
+            },
+            "test_get_expiration": {
+                "line": 208,
+                "line_end": 209,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 578,
+                    "line_end": 580,
+                    "indent": 0,
+                    "name": "get_expiration"
+                }
+            },
+            "test_check_certificate_with_key": {
+                "line": 212,
+                "line_end": 229,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 583,
+                    "line_end": 607,
+                    "indent": 0,
+                    "name": "check_certificate_with_key"
+                }
+            },
+            "test_cert_sign": {
+                "line": 239,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 499,
+                    "line_end": 538,
+                    "indent": 0,
+                    "name": "sign"
+                }
+            }
+        }
+    },
+    "tests/test_util.py": {
+        "focal_file": "autossl/util.py",
+        "methods": {
+            "test_str_to_class_error": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "str_to_class"
+                }
+            },
+            "test_str_to_class": {
+                "line": 22,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "str_to_class"
+                }
+            }
+        }
+    },
+    "tests/ca_manager/test_base.py": {
+        "focal_file": "autossl/ca_manager/base.py",
+        "methods": {
+            "test_get_signed_certificate": {
+                "line": 15,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_signed_certificate"
+                }
+            }
+        }
+    },
+    "tests/server/test_base.py": {
+        "focal_file": "autossl/server/base.py",
+        "methods": {
+            "test_get_description": {
+                "line": 12,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "get_description"
+                }
+            },
+            "test_deploy_cert": {
+                "line": 17,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "deploy_cert"
+                }
+            },
+            "test_create_acme_challenge": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "create_acme_challenge"
+                }
+            },
+            "test_delete_acme_challenge": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "delete_acme_challenge"
+                }
+            },
+            "test_get_certificate_information": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "get_certificate_information"
+                }
+            },
+            "test_is_same": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "is_same"
+                }
+            },
+            "test_is_expired": {
+                "line": 42,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "is_expired"
+                }
+            }
+        }
+    },
+    "tests/server/test_incapsula.py": {
+        "focal_file": "autossl/server/incapsula.py",
+        "methods": {
+            "test_get_description": {
+                "line": 155,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "get_description"
+                }
+            },
+            "test_deploy_cert": {
+                "line": 163,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "deploy_cert"
+                }
+            },
+            "test_get_certificate_information": {
+                "line": 179,
+                "line_end": 185,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "get_certificate_information"
+                }
+            },
+            "test_get_certificate_information_no_custom_ssl_certificate": {
+                "line": 190,
+                "line_end": 192,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "get_certificate_information"
+                }
+            },
+            "test_is_same": {
+                "line": 195,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "is_same"
+                }
+            },
+            "test_create_acme_challenge": {
+                "line": 207,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "create_acme_challenge"
+                }
+            },
+            "test_delete_acme_challenge": {
+                "line": 215,
+                "line_end": 220,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "delete_acme_challenge"
+                }
+            }
+        }
+    },
+    "tests/server/test_local.py": {
+        "focal_file": "autossl/server/local.py",
+        "methods": {
+            "test_get_description": {
+                "line": 64,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "get_description"
+                }
+            },
+            "test_deploy_cert": {
+                "line": 68,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "deploy_cert"
+                }
+            },
+            "test_deploy_cert_error": {
+                "line": 80,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "deploy_cert"
+                }
+            },
+            "test_get_certificate_information": {
+                "line": 86,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "get_certificate_information"
+                }
+            },
+            "test_create_acme_challenge": {
+                "line": 95,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "create_acme_challenge"
+                }
+            },
+            "test_delete_acme_challenge": {
+                "line": 112,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "delete_acme_challenge"
+                }
+            }
+        }
+    },
+    "tests/storage/test_base.py": {
+        "focal_file": "autossl/storage/base.py",
+        "methods": {
+            "test_save_data": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "save_data"
+                }
+            },
+            "test_retrieve_data": {
+                "line": 19,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            }
+        }
+    },
+    "tests/storage/test_gitscm.py": {
+        "focal_file": "autossl/storage/gitscm.py",
+        "methods": {
+            "test_retrieve_data_error": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_save_retrieve_data_from_content": {
+                "line": 44,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_save_retrieve_data_from_local_path": {
+                "line": 57,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_save_retrieve_data_same_file_twice": {
+                "line": 70,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_git_url_with_username_password_present": {
+                "line": 85,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "git_url_with_username_password"
+                }
+            },
+            "test_git_url_with_username_password_absent": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "git_url_with_username_password"
+                }
+            }
+        }
+    },
+    "tests/storage/test_local.py": {
+        "focal_file": "autossl/storage/local.py",
+        "methods": {
+            "test_retrieve_data_error": {
+                "line": 23,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_save_retrieve_data_from_content": {
+                "line": 28,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_save_retrieve_data_from_local_file": {
+                "line": 40,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            }
+        }
+    },
+    "tests/tracking/test_base.py": {
+        "focal_file": "autossl/tracking/base.py",
+        "methods": {
+            "test_save_data": {
+                "line": 28,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "save_data"
+                }
+            },
+            "test_update": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_refresh": {
+                "line": 37,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "refresh"
+                }
+            },
+            "test_retrieve_data": {
+                "line": 41,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_close_for_failure": {
+                "line": 45,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "close_for_failure"
+                }
+            },
+            "test_close_for_success": {
+                "line": 49,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "close_for_success"
+                }
+            }
+        }
+    },
+    "tests/tracking/test_local.py": {
+        "focal_file": "autossl/tracking/local.py",
+        "methods": {
+            "test_save_data": {
+                "line": 36,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "save_data"
+                }
+            },
+            "test_update": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_refresh": {
+                "line": 45,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "refresh"
+                }
+            },
+            "test_retrieve_data": {
+                "line": 49,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "retrieve_data"
+                }
+            },
+            "test_close_for_failure": {
+                "line": 65,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "close_for_failure"
+                }
+            },
+            "test_close_for_success": {
+                "line": 70,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "close_for_success"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,245 @@
+{
+    "test/test_service_config.py": {
+        "focal_file": "endpoints_management/config/service_config.py",
+        "methods": {
+            "test_fetch_service_config": {
+                "line": 102,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "fetch_service_config"
+                }
+            },
+            "test_fetch_service_config_failed_forbidden": {
+                "line": 124,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "fetch_service_config"
+                }
+            },
+            "test_fetch_service_config_with_wrong_service_name": {
+                "line": 153,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "fetch_service_config"
+                }
+            },
+            "test_fetch_service_config_with_wrong_service_version": {
+                "line": 171,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "fetch_service_config"
+                }
+            }
+        }
+    },
+    "test/test_tokens.py": {
+        "focal_file": "endpoints_management/auth/tokens.py",
+        "methods": {
+            "test_get_jwt_claims": {
+                "line": 65,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "get_jwt_claims"
+                }
+            },
+            "test_get_jwt_claims_without_kid": {
+                "line": 72,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "get_jwt_claims"
+                }
+            },
+            "test_get_jwt_claims_via_caching": {
+                "line": 95,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "get_jwt_claims"
+                }
+            },
+            "test_authenticate_successfully": {
+                "line": 172,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_single_audience": {
+                "line": 185,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_malformed_claims": {
+                "line": 196,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_expired_auth_token": {
+                "line": 214,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_nbf_claim": {
+                "line": 224,
+                "line_end": 232,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_service_name_as_audience": {
+                "line": 234,
+                "line_end": 246,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_disallowed_audiences": {
+                "line": 260,
+                "line_end": 269,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            }
+        }
+    },
+    "test/integration/test_auth.py": {
+        "focal_file": "endpoints_management/auth/tokens.py",
+        "methods": {
+            "test_authenticate_auth_token_with_bad_signature": {
+                "line": 100,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_malformed_auth_code": {
+                "line": 161,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_unknown_issuer": {
+                "line": 177,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_invalid_audience": {
+                "line": 185,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticate_with_expired_auth_token": {
+                "line": 198,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            }
+        }
+    }
+}

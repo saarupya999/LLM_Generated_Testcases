@@ -1,0 +1,82 @@
+{
+    "tests/test_actions.py": {
+        "focal_file": "tests/test_actions.py",
+        "methods": {
+            "test_callback_send_call_url_with_json_data": {
+                "line": 74,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 79,
+                    "indent": 12,
+                    "name": "json_data"
+                }
+            }
+        }
+    },
+    "tests/test_models.py": {
+        "focal_file": "twitter_watcher/db/models.py",
+        "methods": {
+            "test_convert_to_json": {
+                "line": 62,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "Listener",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "to_json"
+                }
+            }
+        }
+    },
+    "tests/test_twitter_client.py": {
+        "focal_file": "twitter_watcher/clients.py",
+        "methods": {
+            "test_find_users_id_in_twitter": {
+                "line": 60,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "TwitterClient",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "find_user_ids"
+                }
+            }
+        }
+    },
+    "tests/test_twitter_observer.py": {
+        "focal_file": "twitter_watcher/observers.py",
+        "methods": {
+            "test_dont_call_send_on_message": {
+                "line": 55,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "ObserverTwitter",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "on_message"
+                }
+            },
+            "test_return_true_for_empty_hashtags_list": {
+                "line": 77,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "ObserverTwitter",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "tweet_has_hashtags"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "tests/oidc_fed/test_client.py": {
+        "focal_file": "src/oidc_fed/client.py",
+        "methods": {
+            "test_load_keys": {
+                "line": 91,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": "KeyJarWithSignedKeyBundles",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "load_keys"
+                }
+            }
+        }
+    },
+    "tests/oidc_fed/test_federation.py": {
+        "focal_file": "src/oidc_fed/federation.py",
+        "methods": {
+            "test_create_software_statement": {
+                "line": 14,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": "Federation",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_software_statement"
+                }
+            },
+            "test_issued_software_statement_contains_kid": {
+                "line": 25,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "Federation",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_software_statement"
+                }
+            },
+            "test_create_software_statement_with_policy": {
+                "line": 33,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "Federation",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_software_statement"
+                }
+            },
+            "test_create_software_statement_reject_registration_with_missing_data": {
+                "line": 46,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "Federation",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_software_statement"
+                }
+            }
+        }
+    },
+    "tests/oidc_fed/test_provider.py": {
+        "focal_file": "src/oidc_fed/provider.py",
+        "methods": {
+            "test_provider_configuration": {
+                "line": 40,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "provider_configuration"
+                }
+            },
+            "test_register_client": {
+                "line": 56,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "register_client"
+                }
+            },
+            "test_verify": {
+                "line": 104,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": "RegistrationRequestVerification",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "verify"
+                }
+            }
+        }
+    },
+    "tests/oidc_fed/test_relying_party.py": {
+        "focal_file": "src/oidc_fed/relying_party.py",
+        "methods": {
+            "test_get_provider_configuration": {
+                "line": 57,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "get_provider_configuration"
+                }
+            },
+            "test_reject_provider_configuration_with_missing_parameter": {
+                "line": 74,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "_validate_provider_configuration"
+                }
+            },
+            "test_accept_signed_metadata_provider_intermediate_key": {
+                "line": 104,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "_verify_signed_provider_metadata"
+                }
+            },
+            "test_create_registration_request": {
+                "line": 113,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "_create_registration_request"
+                }
+            },
+            "test_sign_registration_request": {
+                "line": 127,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_sign_registration_request"
+                }
+            },
+            "test_handle_registration_response": {
+                "line": 139,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_handle_registration_response"
+                }
+            },
+            "test_handle_registration_response_fail_when_wrong_software_statement": {
+                "line": 171,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_handle_registration_response"
+                }
+            },
+            "test_register_with_provider": {
+                "line": 185,
+                "line_end": 225,
+                "indent": 4,
+                "focal_class": "RP",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "register_with_provider"
+                }
+            }
+        }
+    }
+}

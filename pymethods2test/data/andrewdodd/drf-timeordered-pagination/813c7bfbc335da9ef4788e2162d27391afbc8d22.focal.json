@@ -1,0 +1,48 @@
+{
+    "tests/test_pagination.py": {
+        "focal_file": "src/timeordered_pagination/pagination.py",
+        "methods": {
+            "test_it_paginates_queryset": {
+                "line": 85,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "TimeOrderedPagination",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "paginate_queryset"
+                }
+            }
+        }
+    },
+    "tests/test_views.py": {
+        "focal_file": "src/timeordered_pagination/views.py",
+        "methods": {
+            "test_request_is_for_timeordered_pagination_if_it_has_the_after_param": {
+                "line": 21,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "TimeOrderedPaginationViewSetMixin",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "is_timeordered_pagination_request"
+                }
+            },
+            "test_request_is_for_timeordered_pagination_if_it_has_the_from_param": {
+                "line": 28,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "TimeOrderedPaginationViewSetMixin",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "is_timeordered_pagination_request"
+                }
+            }
+        }
+    }
+}

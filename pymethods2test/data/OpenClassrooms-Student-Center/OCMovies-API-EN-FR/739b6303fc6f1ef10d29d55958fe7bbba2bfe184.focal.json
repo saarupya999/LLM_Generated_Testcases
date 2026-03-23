@@ -1,0 +1,276 @@
+{
+    "tests/unit/test_managers.py": {
+        "focal_file": "movies/managers.py",
+        "methods": {
+            "test_get_or_create_from_names_works_with_one_name": {
+                "line": 9,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "movies.managers.UniqueNameManager",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "get_or_create_from_names"
+                }
+            },
+            "test_get_or_create_from_names_behaves_correctly_if_no_name": {
+                "line": 21,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "movies.managers.UniqueNameManager",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "get_or_create_from_names"
+                }
+            },
+            "test_get_or_create_from_names_splits_names_correctly": {
+                "line": 42,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": "movies.managers.UniqueNameManager",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "get_or_create_from_names"
+                }
+            }
+        }
+    },
+    "tests/unit/test_normalizers.py": {
+        "focal_file": "movies/normalizers.py",
+        "methods": {
+            "test_transform_imdb_title_id_to_int_and_rename_to_id_renames_key": {
+                "line": 13,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "transform_imdb_title_id_to_int_and_rename_to_id"
+                }
+            },
+            "test_transform_imdb_title_id_to_int_and_rename_to_id_converts_to_int": {
+                "line": 22,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "transform_imdb_title_id_to_int_and_rename_to_id"
+                }
+            },
+            "test_transform_year_to_int_converts_year_correctly": {
+                "line": 34,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 0,
+                    "name": "transform_year_to_int"
+                }
+            },
+            "test_transform_date_published_to_python_date_converts_correctly": {
+                "line": 43,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "transform_date_published_to_python_date"
+                }
+            },
+            "test_transform_date_published_to_python_date_converts_year_to_date": {
+                "line": 52,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "transform_date_published_to_python_date"
+                }
+            },
+            "test_transform_date_published_to_python_date_raise_value_error": {
+                "line": 62,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "transform_date_published_to_python_date"
+                }
+            },
+            "test_transfrom_duration_into_integer_converts_to_int": {
+                "line": 72,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "transfrom_duration_into_integer"
+                }
+            },
+            "test_transform_missing_fields_to_unkown_converts_empty_strings": {
+                "line": 90,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "transform_missing_fields_to_unkown"
+                }
+            },
+            "test_transform_missing_fields_to_unkown_keeps_non_empty_strings": {
+                "line": 112,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "transform_missing_fields_to_unkown"
+                }
+            },
+            "test_transform_missing_long_description_no_description_notice": {
+                "line": 122,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "transform_missing_long_description_no_description_notice"
+                }
+            },
+            "test_transform_avg_vote_to_decimal_converts_correctly": {
+                "line": 132,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "transform_avg_vote_to_decimal"
+                }
+            },
+            "test_transform_imdb_score_to_decimal_converts_correctly": {
+                "line": 140,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "transform_imdb_score_to_decimal"
+                }
+            },
+            "test_transform_metascore_to_decimal_or_none_converts_correctly": {
+                "line": 151,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "transform_metascore_to_decimal_or_none"
+                }
+            },
+            "test_transform_votes_to_integer_converts_correctly_to_int": {
+                "line": 163,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "transform_votes_to_integer"
+                }
+            },
+            "test_transform_budget_value_and_currency_or_none_extract_values": {
+                "line": 185,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "transform_budget_value_and_currency_or_none"
+                }
+            },
+            "test_transform_incomes_and_reviews_to_int_or_none_extract_values": {
+                "line": 213,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "transform_incomes_and_reviews_to_int_or_none"
+                }
+            },
+            "test_transform_missing_rating_to_explicit_notice_works_correctly": {
+                "line": 246,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "transform_missing_image_to_none"
+                }
+            },
+            "test_normalize_all_calls_normalize_as_expected": {
+                "line": 265,
+                "line_end": 275,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "normalize_all"
+                }
+            },
+            "test_normalize_call_all_normalizers": {
+                "line": 280,
+                "line_end": 289,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "normalize"
+                }
+            }
+        }
+    }
+}

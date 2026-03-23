@@ -1,0 +1,705 @@
+{
+    "tests/test_algorithm.py": {
+        "focal_file": "selection/selection_algorithm.py",
+        "methods": {
+            "test_calculate_best": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "calculate_best_indexes"
+                }
+            },
+            "test_calculate_best_only_executable_once": {
+                "line": 37,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "NoIndexAlgorithm",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "calculate_best_indexes"
+                }
+            }
+        }
+    },
+    "tests/test_candidate_generation.py": {
+        "focal_file": "selection/candidate_generation.py",
+        "methods": {
+            "test_syntactically_relevant_indexes": {
+                "line": 33,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "syntactically_relevant_indexes"
+                }
+            },
+            "test_candidates_per_query": {
+                "line": 61,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "candidates_per_query"
+                }
+            }
+        }
+    },
+    "tests/test_cost_evaluation.py": {
+        "focal_file": "selection/cost_evaluation.py",
+        "methods": {
+            "test_relevant_indexes": {
+                "line": 62,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "_relevant_indexes"
+                }
+            },
+            "test_which_indexes_utilized_and_cost": {
+                "line": 169,
+                "line_end": 208,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "which_indexes_utilized_and_cost"
+                }
+            },
+            "test_prepare_cost_calculation_does_nothing_empty_indexes": {
+                "line": 238,
+                "line_end": 244,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_prepare_cost_calculation"
+                }
+            },
+            "test_prepare_cost_calculation_index_removed": {
+                "line": 256,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_prepare_cost_calculation"
+                }
+            },
+            "test_prepare_cost_calculation_index_added": {
+                "line": 264,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_prepare_cost_calculation"
+                }
+            },
+            "test_prepare_cost_calculation_index_added_and_removed": {
+                "line": 276,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_prepare_cost_calculation"
+                }
+            },
+            "test_complete_cost_estimation": {
+                "line": 288,
+                "line_end": 296,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "complete_cost_estimation"
+                }
+            }
+        }
+    },
+    "tests/test_db2advis.py": {
+        "focal_file": "selection/algorithms/db2advis_algorithm.py",
+        "methods": {
+            "test_calculate_index_benefits": {
+                "line": 114,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": "IndexBenefit",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "_calculate_index_benefits"
+                }
+            },
+            "test_combine_subsumed": {
+                "line": 161,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": "IndexBenefit",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "_combine_subsumed"
+                }
+            },
+            "test_evaluate_workload": {
+                "line": 220,
+                "line_end": 230,
+                "indent": 4,
+                "focal_class": "IndexBenefit",
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_evaluate_workload"
+                }
+            },
+            "test_try_variations_time_limit": {
+                "line": 232,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": "IndexBenefit",
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "_try_variations"
+                }
+            }
+        }
+    },
+    "tests/test_drop_heuristic.py": {
+        "focal_file": "selection/algorithms/drop_heuristic_algorithm.py",
+        "methods": {
+            "test_calculate_best_indexes_all_fit": {
+                "line": 73,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "_calculate_best_indexes"
+                }
+            },
+            "test_calculate_best_indexes_two_fit": {
+                "line": 79,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "_calculate_best_indexes"
+                }
+            },
+            "test_calculate_best_indexes_one_fits": {
+                "line": 95,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "_calculate_best_indexes"
+                }
+            },
+            "test_calculate_best_indexes_none_fits": {
+                "line": 117,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "_calculate_best_indexes"
+                }
+            }
+        }
+    },
+    "tests/test_extend.py": {
+        "focal_file": "selection/algorithms/extend_algorithm.py",
+        "methods": {
+            "test_attach_to_indexes": {
+                "line": 62,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "_attach_to_indexes"
+                }
+            },
+            "test_evaluate_combination_worse_ratio": {
+                "line": 137,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_evaluate_combination"
+                }
+            },
+            "test_evaluate_combination_better_ratio_too_large": {
+                "line": 165,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_evaluate_combination"
+                }
+            },
+            "test_evaluate_combination_better_ratio": {
+                "line": 198,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_evaluate_combination"
+                }
+            },
+            "test_calculate_best_indexes_scenario_1": {
+                "line": 283,
+                "line_end": 309,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_calculate_best_indexes"
+                }
+            },
+            "test_calculate_best_indexes_scenario_2": {
+                "line": 362,
+                "line_end": 393,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_calculate_best_indexes"
+                }
+            },
+            "test_calculate_best_indexes_scenario_3": {
+                "line": 425,
+                "line_end": 446,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_calculate_best_indexes"
+                }
+            }
+        }
+    },
+    "tests/test_index.py": {
+        "focal_file": "selection/index.py",
+        "methods": {
+            "test_index_column_names": {
+                "line": 62,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "_column_names"
+                }
+            },
+            "test_index_is_single_column": {
+                "line": 67,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "is_single_column"
+                }
+            },
+            "test_index_table": {
+                "line": 74,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "table"
+                }
+            },
+            "test_index_idx": {
+                "line": 80,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "index_idx"
+                }
+            },
+            "test_joined_column_names": {
+                "line": 86,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "joined_column_names"
+                }
+            },
+            "test_appendable_by_other_table": {
+                "line": 92,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "appendable_by"
+                }
+            },
+            "test_appendable_by_multi_column_index": {
+                "line": 102,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "appendable_by"
+                }
+            },
+            "test_appendable_by": {
+                "line": 116,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "appendable_by"
+                }
+            },
+            "test_appendable_by_other_type": {
+                "line": 123,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "appendable_by"
+                }
+            },
+            "test_subsumes": {
+                "line": 128,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "subsumes"
+                }
+            },
+            "test_merge": {
+                "line": 149,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "index_merge"
+                }
+            },
+            "test_split": {
+                "line": 189,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "index_split"
+                }
+            },
+            "test_prefixes": {
+                "line": 261,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": "Index",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "prefixes"
+                }
+            }
+        }
+    },
+    "tests/test_selection.py": {
+        "focal_file": "selection/index_selection_evaluation.py",
+        "methods": {
+            "test_all_indexes_algorithm": {
+                "line": 67,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "create_algorithm_object"
+                }
+            }
+        }
+    },
+    "tests/test_selection_utils.py": {
+        "focal_file": "selection/utils.py",
+        "methods": {
+            "test_b_to_mb": {
+                "line": 34,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 7,
+                    "indent": 0,
+                    "name": "b_to_mb"
+                }
+            },
+            "test_mb_to_b": {
+                "line": 40,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 11,
+                    "indent": 0,
+                    "name": "mb_to_b"
+                }
+            },
+            "test_s_to_ms": {
+                "line": 46,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "s_to_ms"
+                }
+            },
+            "test_indexes_by_table": {
+                "line": 52,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "indexes_by_table"
+                }
+            },
+            "test_get_utilized_indexes": {
+                "line": 64,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "get_utilized_indexes"
+                }
+            }
+        }
+    },
+    "tests/test_table_generator.py": {
+        "focal_file": "selection/table_generator.py",
+        "methods": {
+            "test_database_name": {
+                "line": 20,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "TableGenerator",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "database_name"
+                }
+            },
+            "test_generate_tpch": {
+                "line": 41,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "TableGenerator",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "database_name"
+                }
+            },
+            "test_generate_tpds": {
+                "line": 78,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": "TableGenerator",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "database_name"
+                }
+            }
+        }
+    },
+    "tests/test_workload.py": {
+        "focal_file": "selection/workload.py",
+        "methods": {
+            "test_table_add_column": {
+                "line": 14,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "Table",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "add_column"
+                }
+            },
+            "test_table_eq_with_columns": {
+                "line": 44,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "Table",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "add_column"
+                }
+            },
+            "test_column_repr": {
+                "line": 85,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "Table",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "add_column"
+                }
+            },
+            "test_column_eq": {
+                "line": 91,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": "Table",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "add_column"
+                }
+            },
+            "test_workload_indexable_columns": {
+                "line": 161,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": "Query",
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 12,
+                    "indent": 4,
+                    "name": "indexable_columns"
+                }
+            },
+            "test_potential_indexes": {
+                "line": 187,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": "Workload",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "potential_indexes"
+                }
+            }
+        }
+    }
+}

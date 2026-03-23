@@ -1,0 +1,192 @@
+{
+    "tests/ctx_fetcher_tests.py": {
+        "focal_file": "flask_log_request_id/ctx_fetcher.py",
+        "methods": {
+            "test_register_ctx_fetcher": {
+                "line": 13,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "MultiContextRequestIdFetcher",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "register_fetcher"
+                }
+            },
+            "test_register_multiple_fetcher": {
+                "line": 27,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "MultiContextRequestIdFetcher",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "register_fetcher"
+                }
+            },
+            "test_register_same_fetcher": {
+                "line": 50,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "MultiContextRequestIdFetcher",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "register_fetcher"
+                }
+            }
+        }
+    },
+    "tests/parser_tests.py": {
+        "focal_file": "flask_log_request_id/parser.py",
+        "methods": {
+            "test_x_request_id_empty_header": {
+                "line": 39,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "x_request_id"
+                }
+            },
+            "test_x_request_id_invalid_header": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "x_request_id"
+                }
+            },
+            "test_x_request_id_valid_header": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "x_request_id"
+                }
+            },
+            "test_x_request_id_wrong_sensitivity": {
+                "line": 55,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "x_request_id"
+                }
+            },
+            "test_x_correlation_id_empty_header": {
+                "line": 66,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "x_correlation_id"
+                }
+            },
+            "test_x_correlation_id_invalid_header": {
+                "line": 72,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "x_correlation_id"
+                }
+            },
+            "test_x_correlation_id_valid_header": {
+                "line": 77,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "x_correlation_id"
+                }
+            },
+            "test_x_correlation_id_wrong_sensitivity": {
+                "line": 82,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "x_correlation_id"
+                }
+            },
+            "test_auto_parser_empty_header": {
+                "line": 93,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "auto_parser"
+                }
+            },
+            "test_auto_parser_invalid_header": {
+                "line": 99,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "auto_parser"
+                }
+            },
+            "test_auto_parser_precedence_1": {
+                "line": 108,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "auto_parser"
+                }
+            },
+            "test_auto_parser_precedence_2": {
+                "line": 117,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "auto_parser"
+                }
+            }
+        }
+    }
+}

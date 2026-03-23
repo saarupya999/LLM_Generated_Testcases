@@ -1,0 +1,882 @@
+{
+    "tests/common/test_utils.py": {
+        "focal_file": "src/common/utils.py",
+        "methods": {
+            "test_grouper": {
+                "line": 36,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "grouper"
+                }
+            },
+            "test_sleep_remaining_loop_time": {
+                "line": 81,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "sleep_remaining_loop_time"
+                }
+            }
+        }
+    },
+    "tests/common/schedulers/test_slurm_commands.py": {
+        "focal_file": "src/common/schedulers/slurm_commands.py",
+        "methods": {
+            "test_is_static_node": {
+                "line": 74,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "is_static_node"
+                }
+            },
+            "test_parse_nodes_info": {
+                "line": 148,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 347,
+                    "indent": 0,
+                    "name": "_parse_nodes_info"
+                }
+            },
+            "test_batch_node_info": {
+                "line": 241,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "_batch_node_info"
+                }
+            },
+            "test_set_nodes_idle": {
+                "line": 291,
+                "line_end": 294,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "set_nodes_idle"
+                }
+            },
+            "test_set_nodes_down": {
+                "line": 314,
+                "line_end": 317,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "set_nodes_down"
+                }
+            },
+            "test_set_nodes_power_down": {
+                "line": 348,
+                "line_end": 351,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 197,
+                    "indent": 0,
+                    "name": "set_nodes_power_down"
+                }
+            },
+            "test_set_nodes_drain": {
+                "line": 371,
+                "line_end": 374,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 192,
+                    "indent": 0,
+                    "name": "set_nodes_drain"
+                }
+            },
+            "test_update_nodes": {
+                "line": 456,
+                "line_end": 460,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "update_nodes"
+                }
+            },
+            "test_update_partitions": {
+                "line": 507,
+                "line_end": 517,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "update_partitions"
+                }
+            },
+            "test_update_all_partitions": {
+                "line": 596,
+                "line_end": 619,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 147,
+                    "indent": 0,
+                    "name": "update_all_partitions"
+                }
+            }
+        }
+    },
+    "tests/slurm_plugin/test_clustermgtd.py": {
+        "focal_file": "src/slurm_plugin/clustermgtd.py",
+        "methods": {
+            "test_set_config": {
+                "line": 166,
+                "line_end": 178,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 306,
+                    "indent": 4,
+                    "name": "set_config"
+                }
+            },
+            "test_clean_up_inactive_parititon": {
+                "line": 237,
+                "line_end": 271,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 476,
+                    "line_end": 493,
+                    "indent": 4,
+                    "name": "_clean_up_inactive_partition"
+                }
+            },
+            "test_get_ec2_instances": {
+                "line": 275,
+                "line_end": 296,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 522,
+                    "line_end": 536,
+                    "indent": 4,
+                    "name": "_get_ec2_instances"
+                }
+            },
+            "test_perform_health_check_actions": {
+                "line": 443,
+                "line_end": 489,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 564,
+                    "indent": 4,
+                    "name": "_perform_health_check_actions"
+                }
+            },
+            "test_handle_health_check": {
+                "line": 522,
+                "line_end": 571,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 882,
+                    "line_end": 893,
+                    "indent": 4,
+                    "name": "_handle_health_check"
+                }
+            },
+            "test_update_static_nodes_in_replacement": {
+                "line": 590,
+                "line_end": 594,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 604,
+                    "line_end": 617,
+                    "indent": 4,
+                    "name": "_update_static_nodes_in_replacement"
+                }
+            },
+            "test_handle_unhealthy_dynamic_nodes": {
+                "line": 613,
+                "line_end": 625,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 653,
+                    "line_end": 670,
+                    "indent": 4,
+                    "name": "_handle_unhealthy_dynamic_nodes"
+                }
+            },
+            "test_handle_powering_down_nodes": {
+                "line": 657,
+                "line_end": 668,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 673,
+                    "line_end": 688,
+                    "indent": 4,
+                    "name": "_handle_powering_down_nodes"
+                }
+            },
+            "test_handle_unhealthy_static_nodes": {
+                "line": 750,
+                "line_end": 814,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 691,
+                    "line_end": 722,
+                    "indent": 4,
+                    "name": "_handle_unhealthy_static_nodes"
+                }
+            },
+            "test_maintain_nodes": {
+                "line": 854,
+                "line_end": 902,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 725,
+                    "line_end": 749,
+                    "indent": 4,
+                    "name": "_maintain_nodes"
+                }
+            },
+            "test_terminate_orphaned_instances": {
+                "line": 942,
+                "line_end": 973,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 752,
+                    "line_end": 766,
+                    "indent": 4,
+                    "name": "_terminate_orphaned_instances"
+                }
+            },
+            "test_manage_cluster": {
+                "line": 1040,
+                "line_end": 1129,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 408,
+                    "line_end": 456,
+                    "indent": 4,
+                    "name": "manage_cluster"
+                }
+            },
+            "test_manage_cluster_boto3": {
+                "line": 1523,
+                "line_end": 1572,
+                "indent": 0,
+                "focal_class": "ClustermgtdConfig",
+                "focal_method": {
+                    "line": 408,
+                    "line_end": 456,
+                    "indent": 4,
+                    "name": "manage_cluster"
+                }
+            },
+            "test_manage_compute_fleet_status_transitions": {
+                "line": 1630,
+                "line_end": 1692,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 336,
+                    "line_end": 385,
+                    "indent": 4,
+                    "name": "_manage_compute_fleet_status_transitions"
+                }
+            },
+            "test_manage_compute_fleet_status_transitions_concurrency": {
+                "line": 1695,
+                "line_end": 1723,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 336,
+                    "line_end": 385,
+                    "indent": 4,
+                    "name": "_manage_compute_fleet_status_transitions"
+                }
+            },
+            "test_handle_successfully_launched_nodes": {
+                "line": 1808,
+                "line_end": 1849,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 387,
+                    "line_end": 406,
+                    "indent": 4,
+                    "name": "_handle_successfully_launched_nodes"
+                }
+            },
+            "test_increase_partitions_protected_failure_count": {
+                "line": 1884,
+                "line_end": 1891,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 639,
+                    "line_end": 650,
+                    "indent": 4,
+                    "name": "_increase_partitions_protected_failure_count"
+                }
+            },
+            "test_reset_partition_failure_count": {
+                "line": 1902,
+                "line_end": 1907,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 781,
+                    "line_end": 784,
+                    "indent": 4,
+                    "name": "_reset_partition_failure_count"
+                }
+            },
+            "test_handle_protected_mode_process": {
+                "line": 1958,
+                "line_end": 1989,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 809,
+                    "line_end": 852,
+                    "indent": 4,
+                    "name": "_handle_protected_mode_process"
+                }
+            },
+            "test_enter_protected_mode": {
+                "line": 2010,
+                "line_end": 2026,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 779,
+                    "indent": 4,
+                    "name": "_enter_protected_mode"
+                }
+            },
+            "test_is_node_being_replaced": {
+                "line": 2083,
+                "line_end": 2089,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 948,
+                    "line_end": 950,
+                    "indent": 4,
+                    "name": "_is_node_being_replaced"
+                }
+            },
+            "test_is_node_replacement_timeout": {
+                "line": 2128,
+                "line_end": 2134,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 952,
+                    "line_end": 954,
+                    "indent": 4,
+                    "name": "_is_node_replacement_timeout"
+                }
+            },
+            "test_handle_failed_health_check_nodes_in_replacement": {
+                "line": 2171,
+                "line_end": 2190,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 866,
+                    "line_end": 879,
+                    "indent": 4,
+                    "name": "_handle_failed_health_check_nodes_in_replacement"
+                }
+            },
+            "test_handle_bootstrap_failure_nodes": {
+                "line": 2229,
+                "line_end": 2251,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 786,
+                    "line_end": 800,
+                    "indent": 4,
+                    "name": "_handle_bootstrap_failure_nodes"
+                }
+            },
+            "test_find_bootstrap_failure_nodes": {
+                "line": 2289,
+                "line_end": 2302,
+                "indent": 0,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 957,
+                    "line_end": 962,
+                    "indent": 4,
+                    "name": "_find_bootstrap_failure_nodes"
+                }
+            },
+            "test_get_status": {
+                "line": 1751,
+                "line_end": 1760,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "get_status"
+                }
+            },
+            "test_update_status": {
+                "line": 1779,
+                "line_end": 1786,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "update_status"
+                }
+            }
+        }
+    },
+    "tests/slurm_plugin/test_common.py": {
+        "focal_file": "src/slurm_plugin/common.py",
+        "methods": {
+            "test_get_clustermgtd_heartbeat": {
+                "line": 73,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "get_clustermgtd_heartbeat"
+                }
+            }
+        }
+    },
+    "tests/slurm_plugin/test_computemgtd.py": {
+        "focal_file": "src/slurm_plugin/computemgtd.py",
+        "methods": {
+            "test_is_self_node_down": {
+                "line": 98,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 162,
+                    "indent": 0,
+                    "name": "_is_self_node_down"
+                }
+            },
+            "test_self_terminate": {
+                "line": 107,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "_self_terminate"
+                }
+            }
+        }
+    },
+    "tests/slurm_plugin/test_resume.py": {
+        "focal_file": "src/slurm_plugin/resume.py",
+        "methods": {
+            "test_resume_launch": {
+                "line": 237,
+                "line_end": 300,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 169,
+                    "indent": 0,
+                    "name": "_resume"
+                }
+            }
+        }
+    },
+    "tests/slurm_plugin/slurm_resources/test_instance_manager.py": {
+        "focal_file": "src/slurm_plugin/instance_manager.py",
+        "methods": {
+            "test_add_instances": {
+                "line": 622,
+                "line_end": 662,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "add_instances_for_nodes"
+                }
+            },
+            "test_update_slurm_node_addrs": {
+                "line": 709,
+                "line_end": 730,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "_update_slurm_node_addrs"
+                }
+            },
+            "test_store_assigned_hostnames": {
+                "line": 795,
+                "line_end": 828,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "_store_assigned_hostnames"
+                }
+            },
+            "test_update_dns_hostnames": {
+                "line": 973,
+                "line_end": 1007,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 170,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "_update_dns_hostnames"
+                }
+            },
+            "test_parse_requested_instances": {
+                "line": 1048,
+                "line_end": 1062,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 226,
+                    "indent": 4,
+                    "name": "_parse_requested_instances"
+                }
+            },
+            "test_delete_instances": {
+                "line": 1107,
+                "line_end": 1113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "delete_instances"
+                }
+            },
+            "test_get_cluster_instances": {
+                "line": 1319,
+                "line_end": 1326,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 323,
+                    "line_end": 344,
+                    "indent": 4,
+                    "name": "get_cluster_instances"
+                }
+            }
+        }
+    },
+    "tests/slurm_plugin/slurm_resources/test_slurm_resources.py": {
+        "focal_file": "src/slurm_plugin/slurm_resources.py",
+        "methods": {
+            "test_slurm_node_is_nodeaddr_set": {
+                "line": 29,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": "DynamicNode",
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "is_nodeaddr_set"
+                }
+            },
+            "test_slurm_node_has_job": {
+                "line": 44,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "has_job"
+                }
+            },
+            "test_slurm_node_is_drained": {
+                "line": 58,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "is_drained"
+                }
+            },
+            "test_slurm_node_is_down": {
+                "line": 73,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "is_down"
+                }
+            },
+            "test_slurm_node_is_up": {
+                "line": 87,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "is_up"
+                }
+            },
+            "test_slurm_node_is_powering_up": {
+                "line": 98,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "is_powering_up"
+                }
+            },
+            "test_slurm_node_is_online": {
+                "line": 113,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "is_online"
+                }
+            },
+            "test_slurm_node_is_configuring_job": {
+                "line": 127,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "is_configuring_job"
+                }
+            },
+            "test_slurm_node_is_running_job": {
+                "line": 144,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "is_running_job"
+                }
+            },
+            "test_slurm_node_is_power_with_job": {
+                "line": 155,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "is_power_with_job"
+                }
+            },
+            "test_partition_is_inactive": {
+                "line": 179,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "has_running_job"
+                }
+            },
+            "test_slurm_node_is_state_healthy": {
+                "line": 248,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "is_state_healthy"
+                }
+            },
+            "test_slurm_node_is_bootstrap_failure": {
+                "line": 393,
+                "line_end": 411,
+                "indent": 0,
+                "focal_class": "EC2Instance",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "is_bootstrap_failure"
+                }
+            },
+            "test_slurm_node_is_healthy": {
+                "line": 487,
+                "line_end": 489,
+                "indent": 0,
+                "focal_class": "EC2Instance",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "is_healthy"
+                }
+            },
+            "test_slurm_node_is_powering_down_with_nodeaddr": {
+                "line": 503,
+                "line_end": 504,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "is_powering_down_with_nodeaddr"
+                }
+            },
+            "test_slurm_node_is_backing_instance_valid": {
+                "line": 533,
+                "line_end": 535,
+                "indent": 0,
+                "focal_class": "EC2Instance",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 232,
+                    "indent": 4,
+                    "name": "is_backing_instance_valid"
+                }
+            },
+            "test_slurm_node_needs_reset_when_inactive": {
+                "line": 553,
+                "line_end": 554,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "needs_reset_when_inactive"
+                }
+            },
+            "test_is_static_node_configuration_valid": {
+                "line": 565,
+                "line_end": 566,
+                "indent": 0,
+                "focal_class": "StaticNode",
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 314,
+                    "indent": 4,
+                    "name": "_is_static_node_configuration_valid"
+                }
+            },
+            "test_fail_ec2_health_check": {
+                "line": 641,
+                "line_end": 644,
+                "indent": 0,
+                "focal_class": "EC2InstanceHealthState",
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "fail_ec2_health_check"
+                }
+            },
+            "test_fail_scheduled_events_health_check": {
+                "line": 673,
+                "line_end": 674,
+                "indent": 0,
+                "focal_class": "EC2InstanceHealthState",
+                "focal_method": {
+                    "line": 451,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "fail_scheduled_events_check"
+                }
+            }
+        }
+    }
+}

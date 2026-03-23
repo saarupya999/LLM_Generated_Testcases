@@ -1,0 +1,1185 @@
+{
+    "lib/komlogd/api/common/tests/test_crypto.py": {
+        "focal_file": "lib/komlogd/api/common/crypto.py",
+        "methods": {
+            "test_serialize_public_key_success": {
+                "line": 155,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "serialize_public_key"
+                }
+            },
+            "test_serialize_private_key_success": {
+                "line": 174,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "serialize_private_key"
+                }
+            },
+            "test_get_printable_pubkey_success": {
+                "line": 305,
+                "line_end": 309,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 146,
+                    "indent": 0,
+                    "name": "get_printable_pubkey"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/model/tests/test_schedules.py": {
+        "focal_file": "lib/komlogd/api/model/schedules.py",
+        "methods": {
+            "test_process_var_success_combining": {
+                "line": 160,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": "komlogd.api.model.schedules.CronSchedule",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "_process_var"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/model/tests/test_session.py": {
+        "focal_file": "lib/komlogd/api/model/session.py",
+        "methods": {
+            "test_unregister_session": {
+                "line": 28,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "unregister_session"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/model/tests/test_store.py": {
+        "focal_file": "lib/komlogd/api/model/store.py",
+        "methods": {
+            "test_request_data_range_failure_no_session_found": {
+                "line": 484,
+                "line_end": 493,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "_request_data_range"
+                }
+            },
+            "test_get_missing_ranges_success_no_synced_range_no_tr": {
+                "line": 687,
+                "line_end": 695,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_get_missing_ranges"
+                }
+            },
+            "test_get_missing_ranges_success_inner_synced_range_no_tr": {
+                "line": 755,
+                "line_end": 776,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_get_missing_ranges"
+                }
+            },
+            "test_get_missing_ranges_success_no_synced_range_inside_tr": {
+                "line": 845,
+                "line_end": 863,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_get_missing_ranges"
+                }
+            },
+            "test_get_missing_ranges_open_interval_its_none": {
+                "line": 952,
+                "line_end": 960,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_get_missing_ranges"
+                }
+            },
+            "test_get_missing_ranges_open_interval_ets_none": {
+                "line": 963,
+                "line_end": 971,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_get_missing_ranges"
+                }
+            },
+            "test_add_synced_range_failure_no_tr_no_hooked": {
+                "line": 1408,
+                "line_end": 1418,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "_add_synced_range"
+                }
+            },
+            "test_add_synced_range_success_no_tr_one_range": {
+                "line": 1421,
+                "line_end": 1432,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "_add_synced_range"
+                }
+            },
+            "test_add_synced_range_success_tr_one_range_hooked": {
+                "line": 1526,
+                "line_end": 1539,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "_add_synced_range"
+                }
+            },
+            "test_get_metric_data_no_tr_no_data_found": {
+                "line": 1623,
+                "line_end": 1630,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 335,
+                    "indent": 4,
+                    "name": "_get_metric_data"
+                }
+            },
+            "test_get_metric_data_no_tr_some_data_found_in_interval_cannot_modify_store": {
+                "line": 1740,
+                "line_end": 1774,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "_store"
+                }
+            },
+            "test_get_metric_data_in_tr_no_data_found": {
+                "line": 1848,
+                "line_end": 1859,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 335,
+                    "indent": 4,
+                    "name": "_get_metric_data"
+                }
+            },
+            "test_get_metric_data_in_tr_some_data_found_in_interval_cannot_modify_store": {
+                "line": 2005,
+                "line_end": 2048,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "_store"
+                }
+            },
+            "test_is_in_failure_t_not_in_store": {
+                "line": 2311,
+                "line_end": 2330,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "_store"
+                }
+            },
+            "test_is_in_failure_value_not_in_store": {
+                "line": 2332,
+                "line_end": 2350,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "_store"
+                }
+            },
+            "test_is_in_success_data_in_store": {
+                "line": 2352,
+                "line_end": 2378,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "_store"
+                }
+            },
+            "test_has_updates_failure_t_not_in_store": {
+                "line": 2388,
+                "line_end": 2407,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "_store"
+                }
+            },
+            "test_tr_discard_tr_does_not_exist": {
+                "line": 2434,
+                "line_end": 2442,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 415,
+                    "indent": 4,
+                    "name": "_tr_discard"
+                }
+            },
+            "test_tr_discard_tr_exists": {
+                "line": 2445,
+                "line_end": 2469,
+                "indent": 4,
+                "focal_class": "MetricStore",
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 415,
+                    "indent": 4,
+                    "name": "_tr_discard"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/model/tests/test_transactions.py": {
+        "focal_file": "lib/komlogd/api/model/transactions.py",
+        "methods": {
+            "test_add_dirty_item": {
+                "line": 133,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": "Transaction",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "add_dirty_item"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/model/tests/test_transfer_methods.py": {
+        "focal_file": "lib/komlogd/api/model/transfer_methods.py",
+        "methods": {
+            "test_enable_tm_success": {
+                "line": 73,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "enable_tm"
+                }
+            },
+            "test_disable_tm_success": {
+                "line": 101,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "disable_tm"
+                }
+            },
+            "test_enable_all_success": {
+                "line": 193,
+                "line_end": 208,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "enable_all"
+                }
+            },
+            "test_disable_all_success": {
+                "line": 211,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "disable_all"
+                }
+            },
+            "test_get_tm_info_success": {
+                "line": 236,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "get_tm_info"
+                }
+            },
+            "test_get_tms_activated_with_none_found": {
+                "line": 357,
+                "line_end": 374,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "_get_tms_activated_with"
+                }
+            },
+            "test_get_tms_activated_with_some_found": {
+                "line": 377,
+                "line_end": 399,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "_get_tms_activated_with"
+                }
+            },
+            "test_get_tms_activated_with_some_found_no_repeat": {
+                "line": 402,
+                "line_end": 428,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "_get_tms_activated_with"
+                }
+            },
+            "test_get_tms_that_meet_none_found": {
+                "line": 431,
+                "line_end": 448,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "_get_tms_that_meet"
+                }
+            },
+            "test_get_tms_that_meet_some_found": {
+                "line": 451,
+                "line_end": 475,
+                "indent": 4,
+                "focal_class": "TransferMethodsIndex",
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "_get_tms_that_meet"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/protocol/processing/tests/test_message.py": {
+        "focal_file": "lib/komlogd/api/protocol/processing/message.py",
+        "methods": {
+            "test_process_message_send_multi_data_success": {
+                "line": 24,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "process_message_send_multi_data"
+                }
+            },
+            "test_process_message_send_multi_data_success_no_notify_already_stored_values": {
+                "line": 70,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "process_message_send_multi_data"
+                }
+            },
+            "test_process_message_send_data_interval_success_dp_data": {
+                "line": 145,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "process_message_send_data_interval"
+                }
+            },
+            "test_process_message_send_data_interval_success_ds_data": {
+                "line": 164,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "process_message_send_data_interval"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/protocol/processing/tests/test_procedure.py": {
+        "focal_file": "lib/komlogd/api/protocol/processing/procedure.py",
+        "methods": {
+            "test_send_samples_success": {
+                "line": 25,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "send_samples"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/protocol/tests/test_messages.py": {
+        "focal_file": "lib/komlogd/api/protocol/messages.py",
+        "methods": {
+            "test_KomlogMessage_load_from_dict_failure_unknown_action": {
+                "line": 65,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_no_dict_passed": {
+                "line": 499,
+                "line_end": 504,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_no_version": {
+                "line": 506,
+                "line_end": 520,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_no_action": {
+                "line": 522,
+                "line_end": 536,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_no_seq": {
+                "line": 538,
+                "line_end": 551,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_no_irt": {
+                "line": 553,
+                "line_end": 566,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_no_payload": {
+                "line": 568,
+                "line_end": 581,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_invalid_version": {
+                "line": 583,
+                "line_end": 597,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_invalid_action": {
+                "line": 599,
+                "line_end": 613,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_payload_no_dict": {
+                "line": 615,
+                "line_end": 629,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_payload_has_no_t": {
+                "line": 631,
+                "line_end": 645,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_invalid_t": {
+                "line": 663,
+                "line_end": 676,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_invalid_uris": {
+                "line": 678,
+                "line_end": 692,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_invalid_seq": {
+                "line": 694,
+                "line_end": 708,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_failure_invalid_irt": {
+                "line": 710,
+                "line_end": 724,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendMultiData_load_from_dict_success": {
+                "line": 726,
+                "line_end": 748,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_msg_type": {
+                "line": 1184,
+                "line_end": 1212,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_no_version": {
+                "line": 1214,
+                "line_end": 1242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_version": {
+                "line": 1244,
+                "line_end": 1272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_no_action": {
+                "line": 1274,
+                "line_end": 1302,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_action": {
+                "line": 1304,
+                "line_end": 1332,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_no_seq": {
+                "line": 1334,
+                "line_end": 1362,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_seq": {
+                "line": 1364,
+                "line_end": 1392,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_no_irt": {
+                "line": 1394,
+                "line_end": 1422,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_irt": {
+                "line": 1424,
+                "line_end": 1452,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_no_payload": {
+                "line": 1454,
+                "line_end": 1482,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_payload_type": {
+                "line": 1484,
+                "line_end": 1512,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_payload_no_uri": {
+                "line": 1514,
+                "line_end": 1542,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_payload_uri_type": {
+                "line": 1724,
+                "line_end": 1752,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_payload_no_start": {
+                "line": 1634,
+                "line_end": 1662,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_payload_no_end": {
+                "line": 1664,
+                "line_end": 1692,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_failure_invalid_payload_no_data": {
+                "line": 1694,
+                "line_end": 1722,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_success_datasource": {
+                "line": 1754,
+                "line_end": 1787,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_SendDataInterval_load_from_dict_success_datapoint": {
+                "line": 1789,
+                "line_end": 1822,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_version": {
+                "line": 1895,
+                "line_end": 1915,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_version": {
+                "line": 1917,
+                "line_end": 1937,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_action": {
+                "line": 1939,
+                "line_end": 1959,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_action": {
+                "line": 1961,
+                "line_end": 1981,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_seq": {
+                "line": 1983,
+                "line_end": 2003,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_seq": {
+                "line": 2005,
+                "line_end": 2025,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_irt": {
+                "line": 2027,
+                "line_end": 2047,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_irt": {
+                "line": 2049,
+                "line_end": 2069,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_payload": {
+                "line": 2071,
+                "line_end": 2091,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_payload": {
+                "line": 2093,
+                "line_end": 2113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_status": {
+                "line": 2115,
+                "line_end": 2135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_status": {
+                "line": 2137,
+                "line_end": 2157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_error": {
+                "line": 2159,
+                "line_end": 2179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_error": {
+                "line": 2181,
+                "line_end": 2201,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_no_reason": {
+                "line": 2203,
+                "line_end": 2223,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_failure_invalid_reason": {
+                "line": 2225,
+                "line_end": 2245,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            },
+            "test_GenericResponse_load_from_dict_success": {
+                "line": 2247,
+                "line_end": 2272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "load_from_dict"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/protocol/tests/test_validation.py": {
+        "focal_file": "lib/komlogd/api/protocol/validation.py",
+        "methods": {
+            "test_is_message_sequence_failure": {
+                "line": 361,
+                "line_end": 404,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "is_message_sequence"
+                }
+            },
+            "test_is_message_sequence_success": {
+                "line": 406,
+                "line_end": 412,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "is_message_sequence"
+                }
+            }
+        }
+    },
+    "lib/komlogd/api/tests/test_session.py": {
+        "focal_file": "lib/komlogd/api/model/session.py",
+        "methods": {
+            "test_komlogsession_creation_success": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "get_session"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,519 @@
+{
+    "scanner/tests/test_asset_scraper.py": {
+        "focal_file": "scanner/assets.py",
+        "methods": {
+            "test_should_extract_images": {
+                "line": 19,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 126,
+                    "indent": 0,
+                    "name": "extract_assets"
+                }
+            },
+            "test_should_extract_urls_from_css_declarations": {
+                "line": 281,
+                "line_end": 283,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "urls_from_css_declarations"
+                }
+            },
+            "test_should_extract_urls_from_multiproperty_declarations": {
+                "line": 285,
+                "line_end": 289,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "urls_from_css_declarations"
+                }
+            }
+        }
+    },
+    "scanner/tests/test_scanner.py": {
+        "focal_file": "scanner/scanner.py",
+        "methods": {
+            "test_bulk_scan": {
+                "line": 293,
+                "line_end": 315,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "bulk_scan"
+                }
+            },
+            "test_if_cross_domain_redirect_found_continue_to_scan": {
+                "line": 480,
+                "line_end": 490,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "scan"
+                }
+            }
+        }
+    },
+    "scanner/tests/test_utils.py": {
+        "focal_file": "scanner/utils.py",
+        "methods": {
+            "test_url_to_domain_strips_protocol": {
+                "line": 7,
+                "line_end": 9,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "url_to_domain"
+                }
+            },
+            "test_url_to_domain_strips_path": {
+                "line": 11,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "url_to_domain"
+                }
+            }
+        }
+    },
+    "scanner/tests/test_validation.py": {
+        "focal_file": "scanner/scanner.py",
+        "methods": {
+            "test_cache_control_must_revalidate_set": {
+                "line": 240,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 460,
+                    "indent": 0,
+                    "name": "validate_cache_must_revalidate"
+                }
+            },
+            "test_cache_control_nocache_set": {
+                "line": 42,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 464,
+                    "indent": 0,
+                    "name": "validate_nocache"
+                }
+            },
+            "test_cache_control_notransform_set": {
+                "line": 45,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 471,
+                    "line_end": 472,
+                    "indent": 0,
+                    "name": "validate_notransform"
+                }
+            },
+            "test_cache_control_nostore_set": {
+                "line": 48,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 467,
+                    "line_end": 468,
+                    "indent": 0,
+                    "name": "validate_nostore"
+                }
+            },
+            "test_onion_link_is_not_in_href": {
+                "line": 61,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 490,
+                    "line_end": 499,
+                    "indent": 0,
+                    "name": "validate_onion_address_not_in_href"
+                }
+            },
+            "test_url_does_not_have_subdomain": {
+                "line": 66,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "validate_subdomain"
+                }
+            },
+            "test_url_does_have_subdomain": {
+                "line": 69,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "validate_subdomain"
+                }
+            },
+            "test_guardian_url_does_have_subdomain": {
+                "line": 72,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "validate_subdomain"
+                }
+            },
+            "test_xss_protection_not_present": {
+                "line": 160,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 409,
+                    "indent": 0,
+                    "name": "validate_xss_protection"
+                }
+            },
+            "test_xss_protection_present": {
+                "line": 165,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 409,
+                    "indent": 0,
+                    "name": "validate_xss_protection"
+                }
+            },
+            "test_no_download_option_not_present": {
+                "line": 180,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 420,
+                    "line_end": 425,
+                    "indent": 0,
+                    "name": "validate_download_options"
+                }
+            },
+            "test_no_download_option_present": {
+                "line": 185,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 420,
+                    "line_end": 425,
+                    "indent": 0,
+                    "name": "validate_download_options"
+                }
+            },
+            "test_clickjacking_protection_not_present": {
+                "line": 190,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 433,
+                    "indent": 0,
+                    "name": "validate_clickjacking_protection"
+                }
+            },
+            "test_clickjacking_protection_present": {
+                "line": 195,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 433,
+                    "indent": 0,
+                    "name": "validate_clickjacking_protection"
+                }
+            },
+            "test_cross_domain_policy_not_set_properly": {
+                "line": 200,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 436,
+                    "line_end": 441,
+                    "indent": 0,
+                    "name": "validate_cross_domain_policy"
+                }
+            },
+            "test_cross_domain_policy_set_properly": {
+                "line": 205,
+                "line_end": 208,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 436,
+                    "line_end": 441,
+                    "indent": 0,
+                    "name": "validate_cross_domain_policy"
+                }
+            },
+            "test_cache_control_set": {
+                "line": 230,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 452,
+                    "line_end": 456,
+                    "indent": 0,
+                    "name": "validate_cache_control_set"
+                }
+            },
+            "test_cache_control_not_set": {
+                "line": 235,
+                "line_end": 238,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 452,
+                    "line_end": 456,
+                    "indent": 0,
+                    "name": "validate_cache_control_set"
+                }
+            },
+            "test_cache_control_must_not_revalidate_set": {
+                "line": 245,
+                "line_end": 248,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 460,
+                    "indent": 0,
+                    "name": "validate_cache_must_revalidate"
+                }
+            },
+            "test_cache_control_validate_nocache_set": {
+                "line": 250,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 464,
+                    "indent": 0,
+                    "name": "validate_nocache"
+                }
+            },
+            "test_cache_control_validate_nocache_not_set": {
+                "line": 255,
+                "line_end": 258,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 464,
+                    "indent": 0,
+                    "name": "validate_nocache"
+                }
+            },
+            "test_cache_control_validate_notransform_set": {
+                "line": 260,
+                "line_end": 263,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 471,
+                    "line_end": 472,
+                    "indent": 0,
+                    "name": "validate_notransform"
+                }
+            },
+            "test_cache_control_validate_notransform_not_set": {
+                "line": 265,
+                "line_end": 268,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 471,
+                    "line_end": 472,
+                    "indent": 0,
+                    "name": "validate_notransform"
+                }
+            },
+            "test_cache_control_validate_nostore_set": {
+                "line": 270,
+                "line_end": 273,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 467,
+                    "line_end": 468,
+                    "indent": 0,
+                    "name": "validate_nostore"
+                }
+            },
+            "test_cache_control_validate_nostore_not_set": {
+                "line": 275,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 467,
+                    "line_end": 468,
+                    "indent": 0,
+                    "name": "validate_nostore"
+                }
+            },
+            "test_cache_control_validate_private_set": {
+                "line": 280,
+                "line_end": 283,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 476,
+                    "indent": 0,
+                    "name": "validate_private"
+                }
+            },
+            "test_cache_control_validate_private_not_set": {
+                "line": 285,
+                "line_end": 288,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 476,
+                    "indent": 0,
+                    "name": "validate_private"
+                }
+            },
+            "test_referrer_policy_no_referrer_set": {
+                "line": 290,
+                "line_end": 293,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 479,
+                    "line_end": 480,
+                    "indent": 0,
+                    "name": "validate_no_referrer_policy"
+                }
+            },
+            "test_referrer_policy_no_referrer_not_set": {
+                "line": 295,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 479,
+                    "line_end": 480,
+                    "indent": 0,
+                    "name": "validate_no_referrer_policy"
+                }
+            },
+            "test_validate_utf_8_encoding": {
+                "line": 300,
+                "line_end": 303,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 359,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "validate_encoding"
+                }
+            },
+            "test_validate_iso_8859_1_encoding": {
+                "line": 305,
+                "line_end": 308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 359,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "validate_encoding"
+                }
+            },
+            "test_do_not_validate_no_encoding": {
+                "line": 310,
+                "line_end": 313,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 359,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "validate_encoding"
+                }
+            },
+            "test_urls_on_same_domain": {
+                "line": 315,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 270,
+                    "indent": 0,
+                    "name": "same_domain"
+                }
+            }
+        }
+    },
+    "search/tests/test_search_documents_documentation.py": {
+        "focal_file": "search/utils/documentation.py",
+        "methods": {
+            "test_update_documentation_search_documents": {
+                "line": 62,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "index_documentation_pages"
+                }
+            }
+        }
+    }
+}

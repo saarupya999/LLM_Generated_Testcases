@@ -1,0 +1,474 @@
+{
+    "tests/model_test.py": {
+        "focal_file": "betago/model.py",
+        "methods": {
+            "test_all_empty_points": {
+                "line": 10,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 286,
+                    "indent": 0,
+                    "name": "all_empty_points"
+                }
+            },
+            "test_get_first_valid_move": {
+                "line": 24,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "get_first_valid_move"
+                }
+            }
+        }
+    },
+    "tests/scoring_test.py": {
+        "focal_file": "betago/scoring.py",
+        "methods": {
+            "test_identify_territory": {
+                "line": 8,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "evaluate_territory"
+                }
+            }
+        }
+    },
+    "tests/dataloader/goboard_test.py": {
+        "focal_file": "betago/dataloader/goboard.py",
+        "methods": {
+            "test_is_move_legal": {
+                "line": 7,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": "GoBoard",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "is_move_legal"
+                }
+            },
+            "test_is_move_legal_occupied": {
+                "line": 14,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "GoBoard",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "is_move_legal"
+                }
+            },
+            "test_is_move_legal_suicide": {
+                "line": 21,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "GoBoard",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "is_move_legal"
+                }
+            },
+            "test_is_move_legal_ko": {
+                "line": 62,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "GoBoard",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "is_move_legal"
+                }
+            },
+            "test_from_string": {
+                "line": 81,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 330,
+                    "indent": 0,
+                    "name": "from_string"
+                }
+            },
+            "test_to_string": {
+                "line": 99,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": "GoBoard",
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 342,
+                    "indent": 0,
+                    "name": "to_string"
+                }
+            }
+        }
+    },
+    "tests/gosgf/sgf_grammar_test.py": {
+        "focal_file": "betago/gosgf/sgf_grammar.py",
+        "methods": {
+            "test_tokeniser": {
+                "line": 41,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "tokenise"
+                }
+            },
+            "test_parse_sgf_collection": {
+                "line": 230,
+                "line_end": 263,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "parse_sgf_collection"
+                }
+            },
+            "test_text_value": {
+                "line": 280,
+                "line_end": 303,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 491,
+                    "line_end": 517,
+                    "indent": 0,
+                    "name": "text_value"
+                }
+            },
+            "test_simpletext_value": {
+                "line": 305,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 488,
+                    "indent": 0,
+                    "name": "simpletext_value"
+                }
+            },
+            "test_escape_text": {
+                "line": 330,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 520,
+                    "line_end": 533,
+                    "indent": 0,
+                    "name": "escape_text"
+                }
+            },
+            "test_serialise_game_tree": {
+                "line": 353,
+                "line_end": 360,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 291,
+                    "line_end": 330,
+                    "indent": 0,
+                    "name": "serialise_game_tree"
+                }
+            }
+        }
+    },
+    "tests/gosgf/sgf_properties_test.py": {
+        "focal_file": "betago/gosgf/sgf_properties.py",
+        "methods": {
+            "test_interpret_simpletext": {
+                "line": 10,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 253,
+                    "indent": 0,
+                    "name": "interpret_simpletext"
+                }
+            },
+            "test_serialise_simpletext": {
+                "line": 24,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "serialise_simpletext"
+                }
+            },
+            "test_interpret_text": {
+                "line": 37,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 279,
+                    "indent": 0,
+                    "name": "interpret_text"
+                }
+            },
+            "test_serialise_text": {
+                "line": 51,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 292,
+                    "indent": 0,
+                    "name": "serialise_text"
+                }
+            },
+            "test_interpret_number": {
+                "line": 64,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "interpret_number"
+                }
+            },
+            "test_interpret_real": {
+                "line": 75,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "interpret_real"
+                }
+            },
+            "test_serialise_real": {
+                "line": 92,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "serialise_real"
+                }
+            },
+            "test_interpret_move": {
+                "line": 114,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 322,
+                    "line_end": 330,
+                    "indent": 0,
+                    "name": "interpret_move"
+                }
+            },
+            "test_serialise_move": {
+                "line": 139,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 341,
+                    "indent": 0,
+                    "name": "serialise_move"
+                }
+            },
+            "test_interpret_point": {
+                "line": 158,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 306,
+                    "indent": 0,
+                    "name": "interpret_point"
+                }
+            },
+            "test_serialise_point": {
+                "line": 183,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 319,
+                    "indent": 0,
+                    "name": "serialise_point"
+                }
+            },
+            "test_interpret_point_list": {
+                "line": 203,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 344,
+                    "line_end": 376,
+                    "indent": 0,
+                    "name": "interpret_point_list"
+                }
+            },
+            "test_serialise_point_list": {
+                "line": 260,
+                "line_end": 273,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties._Context",
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 393,
+                    "indent": 0,
+                    "name": "serialise_point_list"
+                }
+            },
+            "test_presenter_interpret": {
+                "line": 334,
+                "line_end": 346,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties.Presenter",
+                "focal_method": {
+                    "line": 696,
+                    "line_end": 719,
+                    "indent": 4,
+                    "name": "interpret"
+                }
+            },
+            "test_presenter_serialise": {
+                "line": 348,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties.Presenter",
+                "focal_method": {
+                    "line": 738,
+                    "line_end": 762,
+                    "indent": 4,
+                    "name": "serialise"
+                }
+            },
+            "test_presenter_private_properties": {
+                "line": 368,
+                "line_end": 379,
+                "indent": 4,
+                "focal_class": "betago.gosgf.sgf_properties.Presenter",
+                "focal_method": {
+                    "line": 660,
+                    "line_end": 666,
+                    "indent": 4,
+                    "name": "set_private_property_type"
+                }
+            }
+        }
+    },
+    "tests/gtp/board_test.py": {
+        "focal_file": "betago/gtp/board.py",
+        "methods": {
+            "test_coords_to_gtp_position": {
+                "line": 7,
+                "line_end": 10,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "coords_to_gtp_position"
+                }
+            },
+            "test_gtp_position_to_coords": {
+                "line": 12,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "gtp_position_to_coords"
+                }
+            }
+        }
+    },
+    "tests/gtp/command_test.py": {
+        "focal_file": "betago/gtp/command.py",
+        "methods": {
+            "test_parse": {
+                "line": 7,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": "betago.gtp.command.Command",
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "tests/gtp/response_test.py": {
+        "focal_file": "betago/gtp/response.py",
+        "methods": {
+            "test_serialize": {
+                "line": 11,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "serialize"
+                }
+            },
+            "test_serialize_error": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "error"
+                }
+            }
+        }
+    }
+}

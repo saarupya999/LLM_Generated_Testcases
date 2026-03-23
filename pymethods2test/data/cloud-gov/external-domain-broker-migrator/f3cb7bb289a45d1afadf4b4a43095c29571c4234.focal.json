@@ -1,0 +1,291 @@
+{
+    "tests/unit/test_cdn_db.py": {
+        "focal_file": "migrator/db.py",
+        "methods": {
+            "test_check_connections": {
+                "line": 36,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "check_connections"
+                }
+            }
+        }
+    },
+    "tests/unit/test_cdn_migration.py": {
+        "focal_file": "migrator/migration.py",
+        "methods": {
+            "test_update_existing_cdn_domain": {
+                "line": 175,
+                "line_end": 359,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "update_existing_cdn_domain"
+                }
+            },
+            "test_update_existing_cdn_domain_failure": {
+                "line": 362,
+                "line_end": 522,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "update_existing_cdn_domain"
+                }
+            },
+            "test_update_existing_cdn_domain_timeout_failure": {
+                "line": 525,
+                "line_end": 685,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "update_existing_cdn_domain"
+                }
+            },
+            "test_migration_migrates_happy_path": {
+                "line": 688,
+                "line_end": 1203,
+                "indent": 0,
+                "focal_class": "CdnMigration",
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 264,
+                    "indent": 4,
+                    "name": "migrate"
+                }
+            }
+        }
+    },
+    "tests/unit/test_cf.py": {
+        "focal_file": "migrator/cf.py",
+        "methods": {
+            "test_get_space_for_instance": {
+                "line": 59,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_space_id_for_service_instance_id"
+                }
+            },
+            "test_get_org_id_for_space_id": {
+                "line": 113,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "get_org_id_for_space_id"
+                }
+            },
+            "test_get_all_space_ids_for_org_3": {
+                "line": 159,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "get_all_space_ids_for_org"
+                }
+            },
+            "test_create_bare_migrator_service_instance_in_space": {
+                "line": 264,
+                "line_end": 316,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "create_bare_migrator_service_instance_in_space"
+                }
+            },
+            "test_get_migrator_service_instance_status": {
+                "line": 319,
+                "line_end": 369,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "get_migrator_service_instance_status"
+                }
+            },
+            "test_purge_service_instance": {
+                "line": 438,
+                "line_end": 480,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "purge_service_instance"
+                }
+            }
+        }
+    },
+    "tests/unit/test_domain_migration.py": {
+        "focal_file": "migrator/migration.py",
+        "methods": {
+            "test_domain_migration_migrates": {
+                "line": 121,
+                "line_end": 554,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 264,
+                    "indent": 4,
+                    "name": "migrate"
+                }
+            }
+        }
+    },
+    "tests/unit/test_migration.py": {
+        "focal_file": "migrator/migration.py",
+        "methods": {
+            "test_find_instances": {
+                "line": 15,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "find_active_instances"
+                }
+            },
+            "test_migration_for_instance_id": {
+                "line": 39,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "migration_for_instance_id"
+                }
+            },
+            "test_migration_create_internal_dns": {
+                "line": 136,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "upsert_dns"
+                }
+            },
+            "test_migration_enables_plan_in_org": {
+                "line": 219,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "enable_migration_service_plan"
+                }
+            },
+            "test_migration_disables_plan_in_org": {
+                "line": 262,
+                "line_end": 310,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "disable_migration_service_plan"
+                }
+            },
+            "test_create_bare_migrator_instance_in_org_space_success": {
+                "line": 313,
+                "line_end": 405,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "create_bare_migrator_instance_in_org_space"
+                }
+            },
+            "test_create_bare_migrator_instance_in_org_space_failure": {
+                "line": 408,
+                "line_end": 501,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "create_bare_migrator_instance_in_org_space"
+                }
+            },
+            "test_create_bare_migrator_instance_in_org_space_timeout_failure": {
+                "line": 504,
+                "line_end": 600,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "create_bare_migrator_instance_in_org_space"
+                }
+            },
+            "test_migration_renames_instance": {
+                "line": 660,
+                "line_end": 762,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 250,
+                    "indent": 4,
+                    "name": "update_instance_name"
+                }
+            },
+            "test_migration_marks_route_migrated": {
+                "line": 765,
+                "line_end": 767,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 254,
+                    "indent": 4,
+                    "name": "mark_complete"
+                }
+            }
+        }
+    }
+}

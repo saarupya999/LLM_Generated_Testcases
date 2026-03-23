@@ -1,0 +1,188 @@
+{
+    "test/integrationtests/tokenreplacer_integration_test.py": {
+        "focal_file": "src/config_rpm_maker/token/tokenreplacer.py",
+        "methods": {
+            "test_should_return_token_replacer_for_existing_directory": {
+                "line": 81,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "from_directory"
+                }
+            },
+            "test_should_filter_directory": {
+                "line": 164,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "filter_directory"
+                }
+            }
+        }
+    },
+    "test/unittests/config_rpm_maker_test.py": {
+        "focal_file": "src/config_rpm_maker/__init__.py",
+        "methods": {
+            "test_should_load_configuration_file": {
+                "line": 212,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "initialize_configuration"
+                }
+            },
+            "test_should_apply_arguments_to_configuration": {
+                "line": 222,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "initialize_configuration"
+                }
+            },
+            "test_should_ensure_repository_url_is_valid_before_returning_it": {
+                "line": 235,
+                "line_end": 242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "extract_repository_url_and_revision_from_arguments"
+                }
+            }
+        }
+    },
+    "test/unittests/cli/exitprogram_test.py": {
+        "focal_file": "src/config_rpm_maker/cli/exitprogram.py",
+        "methods": {
+            "test_should_return_time_stamp_from_start": {
+                "line": 93,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_timestamp_from_start"
+                }
+            }
+        }
+    },
+    "test/unittests/token/cycle_test.py": {
+        "focal_file": "src/config_rpm_maker/token/cycle.py",
+        "methods": {
+            "test_should_not_raise_exception_if_no_cycles_present": {
+                "line": 42,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "TokenCycleChecking",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "assert_no_cycles_present"
+                }
+            }
+        }
+    },
+    "test/unittests/token/tokenreplacer_test.py": {
+        "focal_file": "src/config_rpm_maker/token/tokenreplacer.py",
+        "methods": {
+            "test_should_use_custom_replacer_function": {
+                "line": 56,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "TokenReplacer",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "filter"
+                }
+            }
+        }
+    },
+    "test/unittests/utilities/logutils_test.py": {
+        "focal_file": "src/config_rpm_maker/utilities/logutils.py",
+        "methods": {
+            "test_should_return_created_console_handler": {
+                "line": 108,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "create_sys_log_handler"
+                }
+            },
+            "test_should_log_when_configuration_file_was_empty": {
+                "line": 130,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "log_configuration"
+                }
+            },
+            "test_should_log_elements_in_sorted_order": {
+                "line": 198,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 118,
+                    "indent": 0,
+                    "name": "log_elements_of_list"
+                }
+            },
+            "test_should_log_process_id": {
+                "line": 212,
+                "line_end": 219,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "log_process_id"
+                }
+            },
+            "test_should_append_created_log_handler_to_given_logger": {
+                "line": 311,
+                "line_end": 319,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 135,
+                    "indent": 0,
+                    "name": "append_console_logger"
+                }
+            }
+        }
+    }
+}

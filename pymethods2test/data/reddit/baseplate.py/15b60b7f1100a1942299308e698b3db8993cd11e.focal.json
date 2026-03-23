@@ -1,0 +1,923 @@
+{
+    "tests/integration/message_queue_tests.py": {
+        "focal_file": "baseplate/lib/message_queue.py",
+        "methods": {
+            "test_put_get": {
+                "line": 30,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "MessageQueue",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    },
+    "tests/integration/ratelimit_tests.py": {
+        "focal_file": "baseplate/lib/ratelimit/backends/redis.py",
+        "methods": {
+            "test_ratelimiter_consume": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "consume"
+                }
+            },
+            "test_ratelimiter_exceeded": {
+                "line": 50,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "consume"
+                }
+            },
+            "test_ratelimiter_resets": {
+                "line": 56,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "consume"
+                }
+            }
+        }
+    },
+    "tests/integration/redis_cluster_tests.py": {
+        "focal_file": "baseplate/clients/redis_cluster.py",
+        "methods": {
+            "test_empty_config": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 225,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "cluster_pool_from_config"
+                }
+            },
+            "test_pipeline": {
+                "line": 141,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 400,
+                    "line_end": 415,
+                    "indent": 4,
+                    "name": "pipeline"
+                }
+            }
+        }
+    },
+    "tests/integration/redis_tests.py": {
+        "focal_file": "baseplate/clients/redis.py",
+        "methods": {
+            "test_pipeline": {
+                "line": 68,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "pipeline"
+                }
+            },
+            "test_put_get": {
+                "line": 90,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "MessageQueue",
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/cassandra_tests.py": {
+        "focal_file": "baseplate/clients/cassandra.py",
+        "methods": {
+            "test_empty_config": {
+                "line": 19,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "cluster_from_config"
+                }
+            },
+            "test_prepare": {
+                "line": 77,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "prepare"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/memcache_tests.py": {
+        "focal_file": "baseplate/clients/memcache/__init__.py",
+        "methods": {
+            "test_empty_config": {
+                "line": 19,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "pool_from_config"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/redis_cluster_tests.py": {
+        "focal_file": "baseplate/clients/redis_cluster.py",
+        "methods": {
+            "test_increment_reads_once": {
+                "line": 12,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": "HotKeyTracker",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "increment_keys_read_counter"
+                }
+            },
+            "test_increment_several_reads": {
+                "line": 22,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "HotKeyTracker",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "increment_keys_read_counter"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/redis_tests.py": {
+        "focal_file": "baseplate/clients/redis.py",
+        "methods": {
+            "test_empty_config": {
+                "line": 15,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "pool_from_config"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/thrift_tests.py": {
+        "focal_file": "baseplate/clients/thrift.py",
+        "methods": {
+            "test_enumerate_some": {
+                "line": 19,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "_enumerate_service_methods"
+                }
+            }
+        }
+    },
+    "tests/unit/frameworks/pyramid/csrf_tests.py": {
+        "focal_file": "baseplate/frameworks/pyramid/csrf.py",
+        "methods": {
+            "test_make_csrf_token_payload": {
+                "line": 34,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "_make_csrf_token_payload"
+                }
+            },
+            "test_new_csrf_token": {
+                "line": 39,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "new_csrf_token"
+                }
+            },
+            "test_get_csrf_token": {
+                "line": 49,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "get_csrf_token"
+                }
+            },
+            "test_get_csrf_token_missing": {
+                "line": 54,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "get_csrf_token"
+                }
+            },
+            "test_check_csrf_token_pass": {
+                "line": 59,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "check_csrf_token"
+                }
+            },
+            "test_check_csrf_token_tampered": {
+                "line": 66,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "check_csrf_token"
+                }
+            },
+            "test_check_csrf_token_user_mismatch": {
+                "line": 73,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "check_csrf_token"
+                }
+            },
+            "test_check_csrf_token_expired": {
+                "line": 80,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "check_csrf_token"
+                }
+            },
+            "test_check_csrf_token_null": {
+                "line": 90,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "check_csrf_token"
+                }
+            },
+            "test_check_csrf_token_invalid": {
+                "line": 95,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "check_csrf_token"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/datetime_tests.py": {
+        "focal_file": "baseplate/lib/datetime.py",
+        "methods": {
+            "test_datetime_conversions": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 15,
+                    "indent": 0,
+                    "name": "datetime_to_epoch_seconds"
+                }
+            },
+            "test_get_utc_now": {
+                "line": 36,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "get_utc_now"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/metrics_tests.py": {
+        "focal_file": "baseplate/lib/metrics.py",
+        "methods": {
+            "test_make_timer": {
+                "line": 109,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "timer"
+                }
+            },
+            "test_make_counter": {
+                "line": 167,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "counter"
+                }
+            },
+            "test_make_gauge": {
+                "line": 125,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "gauge"
+                }
+            },
+            "test_make_histogram": {
+                "line": 133,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "histogram"
+                }
+            },
+            "test_make_batch": {
+                "line": 143,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": "baseplate.lib.metrics.Client",
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "batch"
+                }
+            },
+            "test_counter_flush": {
+                "line": 188,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "counter"
+                }
+            },
+            "test_counters_cleared_after_flush": {
+                "line": 194,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "flush"
+                }
+            },
+            "test_send": {
+                "line": 250,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": "baseplate.lib.metrics.Timer",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "send"
+                }
+            },
+            "test_update_tags": {
+                "line": 263,
+                "line_end": 268,
+                "indent": 4,
+                "focal_class": "baseplate.lib.metrics.Timer",
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 343,
+                    "indent": 4,
+                    "name": "update_tags"
+                }
+            },
+            "test_increment": {
+                "line": 317,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": "baseplate.lib.metrics.BatchCounter",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 373,
+                    "indent": 4,
+                    "name": "increment"
+                }
+            },
+            "test_multiple_increments": {
+                "line": 324,
+                "line_end": 330,
+                "indent": 4,
+                "focal_class": "baseplate.lib.metrics.BatchCounter",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 373,
+                    "indent": 4,
+                    "name": "increment"
+                }
+            },
+            "test_flush": {
+                "line": 332,
+                "line_end": 339,
+                "indent": 4,
+                "focal_class": "baseplate.lib.metrics.BatchCounter",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "flush"
+                }
+            },
+            "test_replace": {
+                "line": 361,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": "baseplate.lib.metrics.Gauge",
+                "focal_method": {
+                    "line": 503,
+                    "line_end": 522,
+                    "indent": 4,
+                    "name": "replace"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/random_tests.py": {
+        "focal_file": "baseplate/lib/random.py",
+        "methods": {
+            "test_sample": {
+                "line": 82,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "baseplate.lib.random.WeightedLottery",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "sample"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/ratelimit_tests.py": {
+        "focal_file": "baseplate/lib/ratelimit/backends/redis.py",
+        "methods": {
+            "test_consume": {
+                "line": 58,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "consume"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/service_discovery_tests.py": {
+        "focal_file": "baseplate/lib/service_discovery.py",
+        "methods": {
+            "test_load_backends": {
+                "line": 68,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "get_backends"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/thrift_pool_tests.py": {
+        "focal_file": "baseplate/lib/thrift_pool.py",
+        "methods": {
+            "test_pool_closes_stale_connection": {
+                "line": 110,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "connection"
+                }
+            },
+            "test_pool_replaces_closed_connection": {
+                "line": 130,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "connection"
+                }
+            },
+            "test_release_open": {
+                "line": 183,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "_release"
+                }
+            },
+            "test_pool_checkout_exception": {
+                "line": 298,
+                "line_end": 310,
+                "indent": 4,
+                "focal_class": "baseplate.lib.thrift_pool.ThriftConnectionPool",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "connection"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/events/publisher_tests.py": {
+        "focal_file": "baseplate/sidecars/event_publisher.py",
+        "methods": {
+            "test_serialize": {
+                "line": 18,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "serialize"
+                }
+            },
+            "test_add_after_time_up_and_reset": {
+                "line": 23,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "reset"
+                }
+            }
+        }
+    },
+    "tests/unit/lib/secrets/store_tests.py": {
+        "focal_file": "baseplate/lib/secrets.py",
+        "methods": {
+            "test_vault_info": {
+                "line": 22,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "get_vault_token"
+                }
+            },
+            "test_versioned_secrets": {
+                "line": 74,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "get_versioned"
+                }
+            }
+        }
+    },
+    "tests/unit/observers/tracing_tests.py": {
+        "focal_file": "baseplate/observers/tracing.py",
+        "methods": {
+            "test_register_server_span_observer": {
+                "line": 52,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "TraceBaseplateObserver",
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "on_server_span_created"
+                }
+            },
+            "test_force_sampling": {
+                "line": 63,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "force_sampling"
+                }
+            },
+            "test_on_finish_records": {
+                "line": 194,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "on_finish"
+                }
+            },
+            "test_create_binary_annotation": {
+                "line": 224,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "_create_binary_annotation"
+                }
+            },
+            "test_create_binary_annotation_coerces_string": {
+                "line": 230,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "_create_binary_annotation"
+                }
+            },
+            "test_to_span_obj_sets_parent_id": {
+                "line": 244,
+                "line_end": 246,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "_to_span_obj"
+                }
+            },
+            "test_to_span_obj_sets_default_parent_id": {
+                "line": 248,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "_to_span_obj"
+                }
+            },
+            "test_on_child_span_created": {
+                "line": 303,
+                "line_end": 311,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 349,
+                    "indent": 4,
+                    "name": "on_child_span_created"
+                }
+            },
+            "test_on_child_span_created_for_debug_span": {
+                "line": 313,
+                "line_end": 321,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 349,
+                    "indent": 4,
+                    "name": "on_child_span_created"
+                }
+            },
+            "test_serialize": {
+                "line": 359,
+                "line_end": 372,
+                "indent": 4,
+                "focal_class": "TraceLocalSpanObserver",
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 297,
+                    "indent": 4,
+                    "name": "_serialize"
+                }
+            },
+            "test_null_recorder_flush": {
+                "line": 381,
+                "line_end": 383,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 435,
+                    "indent": 4,
+                    "name": "flush_func"
+                }
+            }
+        }
+    },
+    "tests/unit/server/einhorn_tests.py": {
+        "focal_file": "baseplate/server/einhorn.py",
+        "methods": {
+            "test_get_socket_count": {
+                "line": 48,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "get_socket_count"
+                }
+            },
+            "test_get_socket": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "get_socket"
+                }
+            },
+            "test_is_worker": {
+                "line": 45,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "is_worker"
+                }
+            }
+        }
+    },
+    "tests/unit/sidecars/live_data_watcher_tests.py": {
+        "focal_file": "baseplate/sidecars/live_data_watcher.py",
+        "methods": {
+            "test_on_change": {
+                "line": 18,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "NodeWatcher",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "on_change"
+                }
+            },
+            "test_on_change_new_dir": {
+                "line": 28,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "NodeWatcher",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "on_change"
+                }
+            },
+            "test_on_change_deep_new_dir": {
+                "line": 36,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": "NodeWatcher",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "on_change"
+                }
+            }
+        }
+    }
+}

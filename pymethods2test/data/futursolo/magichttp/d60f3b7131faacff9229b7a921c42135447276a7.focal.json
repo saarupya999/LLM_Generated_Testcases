@@ -1,0 +1,293 @@
+{
+    "tests/test_h1impl_parsers.py": {
+        "focal_file": "magichttp/h1impl/parsers.py",
+        "methods": {
+            "test_chunked": {
+                "line": 45,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "is_chunked_body"
+                }
+            },
+            "test_simple_response": {
+                "line": 111,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "parse_response_initial"
+                }
+            },
+            "test_malformed_responses": {
+                "line": 135,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "parse_response_initial"
+                }
+            },
+            "test_request_content_length": {
+                "line": 189,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "discover_request_body_length"
+                }
+            },
+            "test_request_malformed_content_length": {
+                "line": 203,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "discover_request_body_length"
+                }
+            },
+            "test_request_no_body": {
+                "line": 218,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "discover_request_body_length"
+                }
+            },
+            "test_response_endless": {
+                "line": 318,
+                "line_end": 337,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "discover_response_body_length"
+                }
+            },
+            "test_response_content_length": {
+                "line": 339,
+                "line_end": 357,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "discover_response_body_length"
+                }
+            },
+            "test_valid_chunk_length": {
+                "line": 361,
+                "line_end": 369,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 238,
+                    "indent": 0,
+                    "name": "parse_chunk_length"
+                }
+            },
+            "test_malformed_chunk_lengths": {
+                "line": 377,
+                "line_end": 381,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 238,
+                    "indent": 0,
+                    "name": "parse_chunk_length"
+                }
+            }
+        }
+    },
+    "tests/test_readers.py": {
+        "focal_file": "magichttp/readers.py",
+        "methods": {
+            "test_read": {
+                "line": 68,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "HttpRequestReader",
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 375,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_read_end": {
+                "line": 90,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "HttpRequestReader",
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 452,
+                    "indent": 4,
+                    "name": "wait_end"
+                }
+            },
+            "test_read_end_unsatisfiable": {
+                "line": 112,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "HttpRequestReader",
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "_append_data"
+                }
+            },
+            "test_read_until": {
+                "line": 235,
+                "line_end": 296,
+                "indent": 4,
+                "focal_class": "HttpRequestReader",
+                "focal_method": {
+                    "line": 377,
+                    "line_end": 440,
+                    "indent": 4,
+                    "name": "read_until"
+                }
+            },
+            "test_abort": {
+                "line": 299,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": "ReadAbortedError",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "abort"
+                }
+            },
+            "test_write_response": {
+                "line": 321,
+                "line_end": 331,
+                "indent": 4,
+                "focal_class": "HttpRequestReader",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "write_response"
+                }
+            }
+        }
+    },
+    "tests/test_writers.py": {
+        "focal_file": "magichttp/writers.py",
+        "methods": {
+            "test_write": {
+                "line": 83,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "HttpRequestWriter",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_flush_err": {
+                "line": 113,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": "WriteAbortedError",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "flush"
+                }
+            },
+            "test_finish": {
+                "line": 128,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": "HttpRequestWriter",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "finish"
+                }
+            },
+            "test_finish_err": {
+                "line": 171,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": "WriteAbortedError",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "finish"
+                }
+            },
+            "test_flush": {
+                "line": 184,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": "HttpRequestWriter",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "flush"
+                }
+            },
+            "test_abort": {
+                "line": 209,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": "HttpRequestWriter",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "abort"
+                }
+            },
+            "test_read_response": {
+                "line": 227,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": "HttpRequestWriter",
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "read_response"
+                }
+            }
+        }
+    }
+}

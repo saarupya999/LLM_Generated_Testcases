@@ -1,0 +1,231 @@
+{
+    "test/test_config.py": {
+        "focal_file": "cdflow_commands/config.py",
+        "methods": {
+            "test_load_manifest": {
+                "line": 66,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "load_manifest"
+                }
+            },
+            "test_get_safe_session_name": {
+                "line": 256,
+                "line_end": 277,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "get_role_session_name"
+                }
+            },
+            "test_fetch_account_scheme": {
+                "line": 402,
+                "line_end": 450,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "fetch_account_scheme"
+                }
+            },
+            "test_build_account_scheme_s3": {
+                "line": 456,
+                "line_end": 503,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "build_account_scheme_s3"
+                }
+            },
+            "test_build_account_scheme_file": {
+                "line": 509,
+                "line_end": 551,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "build_account_scheme_file"
+                }
+            },
+            "test_env_with_aws_credentials": {
+                "line": 720,
+                "line_end": 743,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "env_with_aws_credetials"
+                }
+            },
+            "test_env_with_aws_credentials_root_account": {
+                "line": 750,
+                "line_end": 772,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "env_with_aws_credetials"
+                }
+            }
+        }
+    },
+    "test/test_process.py": {
+        "focal_file": "cdflow_commands/process.py",
+        "methods": {
+            "test_check_call": {
+                "line": 12,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 11,
+                    "indent": 0,
+                    "name": "check_call"
+                }
+            }
+        }
+    },
+    "test/test_release.py": {
+        "focal_file": "cdflow_commands/release.py",
+        "methods": {
+            "test_find_latest_release_version": {
+                "line": 820,
+                "line_end": 848,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "find_latest_release_version"
+                }
+            },
+            "test_find_latest_release_version_in_release_account": {
+                "line": 860,
+                "line_end": 888,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "find_latest_release_version"
+                }
+            }
+        }
+    },
+    "test/test_secrets.py": {
+        "focal_file": "cdflow_commands/secrets.py",
+        "methods": {
+            "test_secrets_fetched": {
+                "line": 41,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_secrets"
+                }
+            }
+        }
+    },
+    "test/test_state.py": {
+        "focal_file": "cdflow_commands/state.py",
+        "methods": {
+            "test_bucket_created_and_tagged": {
+                "line": 228,
+                "line_end": 263,
+                "indent": 4,
+                "focal_class": "S3BucketFactory",
+                "focal_method": {
+                    "line": 418,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_bucket_name_when_bucket_not_available": {
+                "line": 371,
+                "line_end": 403,
+                "indent": 4,
+                "focal_class": "S3BucketFactory",
+                "focal_method": {
+                    "line": 418,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_bucket_name_when_bucket_owned_in_other_region": {
+                "line": 405,
+                "line_end": 438,
+                "indent": 4,
+                "focal_class": "S3BucketFactory",
+                "focal_method": {
+                    "line": 418,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_creates_table_when_missing": {
+                "line": 495,
+                "line_end": 528,
+                "indent": 4,
+                "focal_class": "LockTableFactory",
+                "focal_method": {
+                    "line": 395,
+                    "line_end": 402,
+                    "indent": 4,
+                    "name": "get_table_name"
+                }
+            },
+            "test_waits_for_newly_created_table": {
+                "line": 530,
+                "line_end": 556,
+                "indent": 4,
+                "focal_class": "LockTableFactory",
+                "focal_method": {
+                    "line": 395,
+                    "line_end": 402,
+                    "indent": 4,
+                    "name": "get_table_name"
+                }
+            },
+            "test_remove_file_function": {
+                "line": 844,
+                "line_end": 848,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "remove_file"
+                }
+            }
+        }
+    }
+}

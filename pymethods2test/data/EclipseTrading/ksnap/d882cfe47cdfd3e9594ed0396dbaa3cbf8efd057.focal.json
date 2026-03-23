@@ -1,0 +1,118 @@
+{
+    "tests/integration/test_admin.py": {
+        "focal_file": "ksnap/admin.py",
+        "methods": {
+            "test_get_consumer_groups": {
+                "line": 10,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "get_consumer_groups"
+                }
+            },
+            "test_get_consumer_offsets": {
+                "line": 15,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_consumer_offsets"
+                }
+            }
+        }
+    },
+    "tests/integration/test_writer.py": {
+        "focal_file": "ksnap/writer.py",
+        "methods": {
+            "test_confluent_kafka_writer_write": {
+                "line": 27,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "write"
+                }
+            }
+        }
+    },
+    "tests/unit/test_admin.py": {
+        "focal_file": "ksnap/admin.py",
+        "methods": {
+            "test_confluent_admin_client_get_consumer_offsets": {
+                "line": 49,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": "ConfluentAdminClient",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_consumer_offsets"
+                }
+            }
+        }
+    },
+    "tests/unit/test_offset.py": {
+        "focal_file": "ksnap/offset.py",
+        "methods": {
+            "test_calculate_new_offset": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "_calculate_new_offset"
+                }
+            },
+            "test_generate_new_offsets": {
+                "line": 32,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": "Offset",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "generate_new_offsets"
+                }
+            },
+            "test_offset_manager_to_file": {
+                "line": 66,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": "OffsetManager",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "to_file"
+                }
+            },
+            "test_offset_manager_from_file": {
+                "line": 82,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": "OffsetManager",
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "from_file"
+                }
+            }
+        }
+    }
+}

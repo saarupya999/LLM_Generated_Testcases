@@ -1,0 +1,229 @@
+{
+    "tests/test_boto3_client.py": {
+        "focal_file": "cfripper/boto3_client.py",
+        "methods": {
+            "test_get_template": {
+                "line": 78,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "get_template"
+                }
+            },
+            "test_get_exports": {
+                "line": 280,
+                "line_end": 294,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "get_exports"
+                }
+            },
+            "test_export_values": {
+                "line": 298,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "get_exports"
+                }
+            }
+        }
+    },
+    "tests/test_cli.py": {
+        "focal_file": "cfripper/cli.py",
+        "methods": {
+            "test_validate_aws_account_id": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "validate_aws_account_id"
+                }
+            },
+            "test_validate_aws_account_id_with_malformed_arg": {
+                "line": 23,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "validate_aws_account_id"
+                }
+            },
+            "test_validate_aws_principals": {
+                "line": 44,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "validate_aws_principals"
+                }
+            }
+        }
+    },
+    "tests/config/test_config.py": {
+        "focal_file": "cfripper/config/config.py",
+        "methods": {
+            "test_load_rules_config_file_success": {
+                "line": 41,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": "Config",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "load_rules_config_file"
+                }
+            },
+            "test_load_rules_config_file_no_file": {
+                "line": 53,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "Config",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "load_rules_config_file"
+                }
+            },
+            "test_load_rules_config_file_invalid_file": {
+                "line": 61,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": "Config",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "load_rules_config_file"
+                }
+            },
+            "test_load_filters_file_invalid_file": {
+                "line": 143,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": "Config",
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "add_filters_from_dir"
+                }
+            }
+        }
+    },
+    "tests/config/test_filter.py": {
+        "focal_file": "cfripper/config/filter.py",
+        "methods": {
+            "test_valid_filter_functions": {
+                "line": 372,
+                "line_end": 373,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "get_implemented_filter_function"
+                }
+            }
+        }
+    },
+    "tests/model/test_result.py": {
+        "focal_file": "cfripper/model/result.py",
+        "methods": {
+            "test_result_valid_after_removing_failures": {
+                "line": 10,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": "Result",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "add_failure"
+                }
+            },
+            "test_get_failures": {
+                "line": 181,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": "Result",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_failures"
+                }
+            }
+        }
+    },
+    "tests/model/test_principal_checking_rule.py": {
+        "focal_file": "cfripper/rules/base_rules.py",
+        "methods": {
+            "test_get_allowed_from_config": {
+                "line": 123,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "_get_allowed_from_config"
+                }
+            }
+        }
+    },
+    "tests/model/test_utils.py": {
+        "focal_file": "cfripper/model/utils.py",
+        "methods": {
+            "test_extract_bucket_name_and_path_from_url_works": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "extract_bucket_name_and_path_from_url"
+                }
+            },
+            "test_extract_bucket_name_and_path_from_url_fail": {
+                "line": 47,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "extract_bucket_name_and_path_from_url"
+                }
+            }
+        }
+    }
+}

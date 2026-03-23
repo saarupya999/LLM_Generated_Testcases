@@ -1,0 +1,262 @@
+{
+    "tests/test_environment.py": {
+        "focal_file": "control_repository/environment.py",
+        "methods": {
+            "test_it_returns_a_puppetfile": {
+                "line": 12,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": "Environment",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_puppetfile"
+                }
+            },
+            "test_if_puppetfile_missing": {
+                "line": 20,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "Environment",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_puppetfile"
+                }
+            }
+        }
+    },
+    "tests/test_puppetfile.py": {
+        "focal_file": "control_repository/puppetfile.py",
+        "methods": {
+            "test_it_read_and_decode_puppetfile_from_github_repository": {
+                "line": 25,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 224,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "from_github_repository"
+                }
+            },
+            "test_whith_no_puppetfile_in_github_repository": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 224,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "from_github_repository"
+                }
+            },
+            "test_it_add_a_git_module_to_the_puppetfile": {
+                "line": 96,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "add_git_module"
+                }
+            },
+            "test_it_cannot_add_an_existing_git_module": {
+                "line": 118,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "add_git_module"
+                }
+            },
+            "test_it_remove_a_forge_module_from_the_puppetfile": {
+                "line": 164,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "remove_forge_module"
+                }
+            },
+            "test_it_remove_a_git_module_from_the_puppetfile": {
+                "line": 195,
+                "line_end": 210,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "remove_git_module"
+                }
+            },
+            "test_it_update_a_git_module_in_the_puppetfile": {
+                "line": 224,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "update_git_module"
+                }
+            },
+            "test_it_cannot_update_a_missing_git_module": {
+                "line": 260,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "update_git_module"
+                }
+            },
+            "test_it_cannot_update_a_missing_module": {
+                "line": 292,
+                "line_end": 299,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "update_forge_module"
+                }
+            },
+            "test_it_returns_the_list_of_modules": {
+                "line": 304,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": "Puppetfile",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "list_modules"
+                }
+            }
+        }
+    },
+    "tests/test_modules.py": {
+        "focal_file": "control_repository/modules.py",
+        "methods": {
+            "test_it_change_git_module_reference": {
+                "line": 112,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": "GitModule",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "set_reference"
+                }
+            },
+            "test_it_change_module_version": {
+                "line": 148,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": "ForgeModule",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "set_version"
+                }
+            },
+            "test_it_returns_forge_module_from_line_without_version": {
+                "line": 157,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "from_line"
+                }
+            },
+            "test_it_returns_forge_module_from_line_with_version": {
+                "line": 163,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "from_line"
+                }
+            }
+        }
+    },
+    "tests/test_control_repository.py": {
+        "focal_file": "control_repository/control_repository.py",
+        "methods": {
+            "test_it_returns_a_puppet_environment": {
+                "line": 38,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "ControlRepository",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "get_environment"
+                }
+            },
+            "test_it_returns_the_list_of_environment_names": {
+                "line": 61,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "ControlRepository",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "get_environment_names"
+                }
+            },
+            "test_it_returns_all_puppet_environments": {
+                "line": 78,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "ControlRepository",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "get_environments"
+                }
+            },
+            "test_it_returns_the_new_environment": {
+                "line": 98,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "ControlRepository",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "create_environment"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,387 @@
+{
+    "tests/test_bodhi_query.py": {
+        "focal_file": "flatpak_indexer/datasource/fedora/bodhi_query.py",
+        "methods": {
+            "test_list_updates_by_release": {
+                "line": 91,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 340,
+                    "line_end": 369,
+                    "indent": 0,
+                    "name": "list_updates"
+                }
+            },
+            "test_bodhi_query_flatpak_updates": {
+                "line": 109,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 303,
+                    "indent": 0,
+                    "name": "refresh_all_updates"
+                }
+            },
+            "test_bodhi_refresh_update_status": {
+                "line": 165,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "refresh_update_status"
+                }
+            },
+            "test_bodhi_update_cache_global": {
+                "line": 188,
+                "line_end": 206,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 335,
+                    "line_end": 337,
+                    "indent": 0,
+                    "name": "reset_update_cache"
+                }
+            },
+            "test_bodhi_update_cache_per_package": {
+                "line": 210,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 335,
+                    "line_end": 337,
+                    "indent": 0,
+                    "name": "reset_update_cache"
+                }
+            }
+        }
+    },
+    "tests/test_json_model.py": {
+        "focal_file": "flatpak_indexer/json_model.py",
+        "methods": {
+            "test_class_from_json": {
+                "line": 222,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 321,
+                    "indent": 4,
+                    "name": "from_json_text"
+                }
+            },
+            "test_to_json_text": {
+                "line": 245,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 300,
+                    "indent": 4,
+                    "name": "to_json_text"
+                }
+            }
+        }
+    },
+    "tests/test_koji_query.py": {
+        "focal_file": "flatpak_indexer/koji_query.py",
+        "methods": {
+            "test_query_builds": {
+                "line": 20,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "list_flatpak_builds"
+                }
+            },
+            "test_query_image_build": {
+                "line": 90,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 285,
+                    "indent": 0,
+                    "name": "query_image_build"
+                }
+            },
+            "test_query_image_build_missing_digest": {
+                "line": 121,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 285,
+                    "indent": 0,
+                    "name": "query_image_build"
+                }
+            },
+            "test_query_module_build": {
+                "line": 136,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 293,
+                    "indent": 0,
+                    "name": "query_module_build"
+                }
+            },
+            "test_query_module_build_multiple_contexts": {
+                "line": 168,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 293,
+                    "indent": 0,
+                    "name": "query_module_build"
+                }
+            },
+            "test_query_package_build_by_bad_id": {
+                "line": 178,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "_query_package_build_by_id"
+                }
+            },
+            "test_query_build_missing": {
+                "line": 186,
+                "line_end": 197,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 285,
+                    "indent": 0,
+                    "name": "query_image_build"
+                }
+            },
+            "test_query_tag_builds": {
+                "line": 200,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 359,
+                    "indent": 0,
+                    "name": "query_tag_builds"
+                }
+            },
+            "test_query_tag_builds_incremental": {
+                "line": 214,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 359,
+                    "indent": 0,
+                    "name": "query_tag_builds"
+                }
+            }
+        }
+    },
+    "tests/test_redis_utils.py": {
+        "focal_file": "flatpak_indexer/redis_utils.py",
+        "methods": {
+            "test_get_redis_client": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "get_redis_client"
+                }
+            },
+            "test_do_pubsub_work": {
+                "line": 47,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "do_pubsub_work"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "flatpak_indexer/utils.py",
+        "methods": {
+            "test_retrying_requests_session": {
+                "line": 26,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "get_retrying_requests_session"
+                }
+            },
+            "test_substitute_env_vars": {
+                "line": 52,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 155,
+                    "indent": 0,
+                    "name": "substitute_env_vars"
+                }
+            },
+            "test_atomic_writer_basic": {
+                "line": 65,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "atomic_writer"
+                }
+            },
+            "test_atomic_writer_write_failure": {
+                "line": 87,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "atomic_writer"
+                }
+            },
+            "test_format_date": {
+                "line": 114,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 164,
+                    "indent": 0,
+                    "name": "format_date"
+                }
+            },
+            "test_parse_date": {
+                "line": 129,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "parse_date"
+                }
+            },
+            "test_parse_pull_spec": {
+                "line": 147,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "parse_pull_spec"
+                }
+            },
+            "test_unparse_pull_spec": {
+                "line": 156,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 202,
+                    "indent": 0,
+                    "name": "unparse_pull_spec"
+                }
+            },
+            "test_path_for_digest": {
+                "line": 165,
+                "line_end": 172,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "path_for_digest"
+                }
+            },
+            "test_uri_for_digest": {
+                "line": 175,
+                "line_end": 177,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 209,
+                    "indent": 0,
+                    "name": "uri_for_digest"
+                }
+            },
+            "test_run_with_stats": {
+                "line": 180,
+                "line_end": 202,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 257,
+                    "indent": 0,
+                    "name": "run_with_stats"
+                }
+            },
+            "test_rpm_nvr_compare": {
+                "line": 213,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 260,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "rpm_nvr_compare"
+                }
+            }
+        }
+    }
+}

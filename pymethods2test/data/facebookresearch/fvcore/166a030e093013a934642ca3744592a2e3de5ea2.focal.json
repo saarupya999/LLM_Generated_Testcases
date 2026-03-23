@@ -1,0 +1,368 @@
+{
+    "tests/test_checkpoint.py": {
+        "focal_file": "fvcore/common/checkpoint.py",
+        "methods": {
+            "test_from_last_checkpoint_model": {
+                "line": 84,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": "Checkpointer",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_checkpointables": {
+                "line": 153,
+                "line_end": 219,
+                "indent": 4,
+                "focal_class": "Checkpointer",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_periodic_checkpointer": {
+                "line": 273,
+                "line_end": 294,
+                "indent": 4,
+                "focal_class": "PeriodicCheckpointer",
+                "focal_method": {
+                    "line": 402,
+                    "line_end": 431,
+                    "indent": 4,
+                    "name": "step"
+                }
+            },
+            "test_periodic_checkpointer_max_to_keep": {
+                "line": 296,
+                "line_end": 327,
+                "indent": 4,
+                "focal_class": "PeriodicCheckpointer",
+                "focal_method": {
+                    "line": 402,
+                    "line_end": 431,
+                    "indent": 4,
+                    "name": "step"
+                }
+            }
+        }
+    },
+    "tests/test_common.py": {
+        "focal_file": "fvcore/common/config.py",
+        "methods": {
+            "test_merge_from_file": {
+                "line": 133,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "merge_from_file"
+                }
+            },
+            "test_merge_from_list": {
+                "line": 159,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "merge_from_list"
+                }
+            }
+        }
+    },
+    "tests/test_giou_loss.py": {
+        "focal_file": "fvcore/nn/giou_loss.py",
+        "methods": {
+            "test_giou_loss": {
+                "line": 15,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "giou_loss"
+                }
+            }
+        }
+    },
+    "tests/test_jit_model_analysis.py": {
+        "focal_file": "fvcore/nn/jit_analysis.py",
+        "methods": {
+            "test_total": {
+                "line": 325,
+                "line_end": 341,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "total"
+                }
+            },
+            "test_by_module": {
+                "line": 343,
+                "line_end": 357,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 286,
+                    "indent": 4,
+                    "name": "by_module"
+                }
+            },
+            "test_by_operator": {
+                "line": 359,
+                "line_end": 374,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 258,
+                    "indent": 4,
+                    "name": "by_operator"
+                }
+            },
+            "test_by_module_and_operator": {
+                "line": 376,
+                "line_end": 388,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 260,
+                    "line_end": 272,
+                    "indent": 4,
+                    "name": "by_module_and_operator"
+                }
+            },
+            "test_unused_module": {
+                "line": 390,
+                "line_end": 411,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "uncalled_modules"
+                }
+            },
+            "test_repeated_module": {
+                "line": 413,
+                "line_end": 434,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "uncalled_modules"
+                }
+            },
+            "test_shared_module": {
+                "line": 462,
+                "line_end": 515,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "uncalled_modules"
+                }
+            },
+            "test_unsupported_ops": {
+                "line": 569,
+                "line_end": 610,
+                "indent": 4,
+                "focal_class": "JitModelAnalysis",
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 307,
+                    "indent": 4,
+                    "name": "unsupported_ops"
+                }
+            },
+            "test_changing_handles": {
+                "line": 612,
+                "line_end": 668,
+                "indent": 4,
+                "focal_class": "JitModelAnalysis",
+                "focal_method": {
+                    "line": 325,
+                    "line_end": 357,
+                    "indent": 4,
+                    "name": "set_op_handle"
+                }
+            },
+            "test_copy": {
+                "line": 670,
+                "line_end": 738,
+                "indent": 4,
+                "focal_class": "JitModelAnalysis",
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 416,
+                    "indent": 4,
+                    "name": "copy"
+                }
+            },
+            "test_disable_warnings": {
+                "line": 740,
+                "line_end": 799,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 418,
+                    "line_end": 434,
+                    "indent": 4,
+                    "name": "tracer_warnings"
+                }
+            }
+        }
+    },
+    "tests/test_print_model_statistics.py": {
+        "focal_file": "fvcore/nn/print_model_statistics.py",
+        "methods": {
+            "test_pretty_statistics": {
+                "line": 146,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "_pretty_statistics"
+                }
+            },
+            "test_group_by_module": {
+                "line": 170,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "_group_by_module"
+                }
+            },
+            "test_indicate_uncalled_modules": {
+                "line": 177,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "_indicate_uncalled_modules"
+                }
+            },
+            "test_remove_zero_statistics": {
+                "line": 207,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 177,
+                    "indent": 0,
+                    "name": "_remove_zero_statistics"
+                }
+            },
+            "test_fill_missing_statistics": {
+                "line": 238,
+                "line_end": 284,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 206,
+                    "indent": 0,
+                    "name": "_fill_missing_statistics"
+                }
+            },
+            "test_model_stats_str": {
+                "line": 286,
+                "line_end": 297,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 282,
+                    "indent": 0,
+                    "name": "_model_stats_str"
+                }
+            },
+            "test_model_stats_table": {
+                "line": 333,
+                "line_end": 365,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 487,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "_model_stats_table"
+                }
+            },
+            "test_flop_count_table": {
+                "line": 378,
+                "line_end": 423,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 558,
+                    "line_end": 677,
+                    "indent": 0,
+                    "name": "flop_count_table"
+                }
+            },
+            "test_flop_count_str": {
+                "line": 437,
+                "line_end": 499,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 422,
+                    "indent": 0,
+                    "name": "flop_count_str"
+                }
+            }
+        }
+    },
+    "tests/test_smooth_l1_loss.py": {
+        "focal_file": "fvcore/nn/smooth_l1_loss.py",
+        "methods": {
+            "test_smooth_l1_loss": {
+                "line": 15,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "smooth_l1_loss"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,659 @@
+{
+    "backend/tests/test_worker_manager.py": {
+        "focal_file": "backend/copr_backend/worker_manager.py",
+        "methods": {
+            "test_worker_starts": {
+                "line": 229,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 451,
+                    "line_end": 457,
+                    "indent": 4,
+                    "name": "_start_worker"
+                }
+            },
+            "test_task_to_worker_id": {
+                "line": 239,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 334,
+                    "line_end": 341,
+                    "indent": 4,
+                    "name": "get_task_id_from_worker_id"
+                }
+            },
+            "test_cancel_task": {
+                "line": 252,
+                "line_end": 258,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 378,
+                    "line_end": 393,
+                    "indent": 4,
+                    "name": "cancel_task_id"
+                }
+            }
+        }
+    },
+    "common/tests/test_request.py": {
+        "focal_file": "common/copr_common/request.py",
+        "methods": {
+            "test_send_request_not_200": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "SafeRequest",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_send_request"
+                }
+            },
+            "test_send_request_post_error": {
+                "line": 27,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "SafeRequest",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_send_request"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_forms.py": {
+        "focal_file": "frontend/coprs_frontend/coprs/forms.py",
+        "methods": {
+            "test_successful_validate": {
+                "line": 55,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "CreateModuleForm",
+                "focal_method": {
+                    "line": 1174,
+                    "line_end": 1190,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_mail.py": {
+        "focal_file": "frontend/coprs_frontend/coprs/mail.py",
+        "methods": {
+            "test_filter_recipients": {
+                "line": 88,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 126,
+                    "indent": 0,
+                    "name": "filter_allowlisted_recipients"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_commands/test_create_chroots.py": {
+        "focal_file": "frontend/coprs_frontend/commands/create_chroot.py",
+        "methods": {
+            "test_create_chroot_with_comments": {
+                "line": 11,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "create_chroot_function"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_commands/test_delete_outdated_chroots.py": {
+        "focal_file": "frontend/coprs_frontend/commands/delete_outdated_chroots.py",
+        "methods": {
+            "test_delete_outdated": {
+                "line": 11,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "delete_outdated_chroots_function"
+                }
+            },
+            "test_delete_outdated_yesterday": {
+                "line": 16,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "delete_outdated_chroots_function"
+                }
+            },
+            "test_delete_outdated_not_yet": {
+                "line": 26,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "delete_outdated_chroots_function"
+                }
+            },
+            "test_delete_outdated_handle_none_notify": {
+                "line": 37,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "delete_outdated_chroots_function"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_commands/test_rawhide_to_release.py": {
+        "focal_file": "frontend/coprs_frontend/commands/branch_fedora.py",
+        "methods": {
+            "test_branch_fedora": {
+                "line": 23,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "branch_fedora_function"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_logic/test_builds_logic.py": {
+        "focal_file": "frontend/coprs_frontend/coprs/logic/builds_logic.py",
+        "methods": {
+            "test_mark_as_failed": {
+                "line": 382,
+                "line_end": 390,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1142,
+                    "line_end": 1153,
+                    "indent": 4,
+                    "name": "mark_as_failed"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_logic/test_coprs_logic.py": {
+        "focal_file": "frontend/coprs_frontend/coprs/logic/coprs_logic.py",
+        "methods": {
+            "test_raise_if_cant_delete": {
+                "line": 84,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 385,
+                    "line_end": 400,
+                    "indent": 4,
+                    "name": "raise_if_cant_delete"
+                }
+            },
+            "test_update_from_names": {
+                "line": 128,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 921,
+                    "line_end": 1007,
+                    "indent": 4,
+                    "name": "update_from_names"
+                }
+            },
+            "test_filter_outdated": {
+                "line": 180,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1041,
+                    "line_end": 1054,
+                    "indent": 4,
+                    "name": "filter_outdated"
+                }
+            },
+            "test_add": {
+                "line": 311,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 224,
+                    "line_end": 276,
+                    "indent": 4,
+                    "name": "add"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_logic/test_outdated_chroots_logic.py": {
+        "focal_file": "frontend/coprs_frontend/coprs/logic/outdated_chroots_logic.py",
+        "methods": {
+            "test_outdated_chroots_flash_not_immediately": {
+                "line": 142,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "has_not_reviewed"
+                }
+            },
+            "test_outdated_chroots_flash_not_expired": {
+                "line": 158,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "has_not_reviewed"
+                }
+            },
+            "test_outdated_chroots_review_only_after_some_time": {
+                "line": 167,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "make_review"
+                }
+            },
+            "test_outdated_chroots_extend_or_expire": {
+                "line": 195,
+                "line_end": 219,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "expire"
+                }
+            }
+        }
+    },
+    "frontend/coprs_frontend/tests/test_logic/test_stat_logic.py": {
+        "focal_file": "frontend/coprs_frontend/coprs/logic/stat_logic.py",
+        "methods": {
+            "test_new_by_incr": {
+                "line": 25,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "incr"
+                }
+            }
+        }
+    },
+    "keygen/tests/test_logic.py": {
+        "focal_file": "keygen/src/copr_keygen/logic.py",
+        "methods": {
+            "test_ensure_passphrase_exist": {
+                "line": 63,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "ensure_passphrase_exist"
+                }
+            },
+            "test_exists": {
+                "line": 103,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "user_exists"
+                }
+            }
+        }
+    },
+    "python/copr/test/client_v2/test_client.py": {
+        "focal_file": "python/copr/client_v2/client.py",
+        "methods": {
+            "test_create_from_empty_params": {
+                "line": 58,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "create_from_params"
+                }
+            },
+            "test_create_from_params": {
+                "line": 67,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "create_from_params"
+                }
+            },
+            "test_post_init": {
+                "line": 79,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "CoprClient",
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 263,
+                    "indent": 4,
+                    "name": "post_init"
+                }
+            }
+        }
+    },
+    "python/copr/test/client_v2/test_entities.py": {
+        "focal_file": "python/copr/client_v2/entities.py",
+        "methods": {
+            "test_to_dict": {
+                "line": 33,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_to_json": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "to_json"
+                }
+            }
+        }
+    },
+    "python/copr/test/client_v2/test_handlers.py": {
+        "focal_file": "python/copr/client_v2/handlers.py",
+        "methods": {
+            "test_get_one": {
+                "line": 144,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "get_one"
+                }
+            },
+            "test_get_list": {
+                "line": 155,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "get_list"
+                }
+            },
+            "test_update": {
+                "line": 197,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 371,
+                    "line_end": 382,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_delete": {
+                "line": 207,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            }
+        }
+    },
+    "python/copr/test/client_v3/test_helpers.py": {
+        "focal_file": "python/copr/v3/helpers.py",
+        "methods": {
+            "test_succeeded": {
+                "line": 9,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "succeeded"
+                }
+            },
+            "test_wait": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 118,
+                    "indent": 0,
+                    "name": "wait"
+                }
+            }
+        }
+    },
+    "python/copr/test/client_v3/test_requests.py": {
+        "focal_file": "python/copr/v3/requests.py",
+        "methods": {
+            "test_munchify": {
+                "line": 8,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "munchify"
+                }
+            },
+            "test_send": {
+                "line": 31,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": "Request",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "send"
+                }
+            }
+        }
+    },
+    "rpmbuild/tests/test_helpers.py": {
+        "focal_file": "rpmbuild/copr_rpmbuild/helpers.py",
+        "methods": {
+            "test_string2list": {
+                "line": 9,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 146,
+                    "indent": 0,
+                    "name": "string2list"
+                }
+            },
+            "test_locate_srpm": {
+                "line": 16,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "locate_srpm"
+                }
+            }
+        }
+    },
+    "rpmbuild/tests/test_mock.py": {
+        "focal_file": "rpmbuild/copr_rpmbuild/builders/mock.py",
+        "methods": {
+            "test_render_config_template": {
+                "line": 111,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "render_config_template"
+                }
+            },
+            "test_produce_rpm": {
+                "line": 187,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "produce_rpm"
+                }
+            },
+            "test_touch_success_file": {
+                "line": 209,
+                "line_end": 213,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "touch_success_file"
+                }
+            }
+        }
+    },
+    "rpmbuild/tests/test_rubygems.py": {
+        "focal_file": "rpmbuild/copr_rpmbuild/providers/rubygems.py",
+        "methods": {
+            "test_produce_srpm": {
+                "line": 30,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "produce_srpm"
+                }
+            }
+        }
+    },
+    "rpmbuild/tests/test_spec.py": {
+        "focal_file": "rpmbuild/copr_rpmbuild/providers/spec.py",
+        "methods": {
+            "test_produce_srpm": {
+                "line": 44,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "produce_srpm"
+                }
+            },
+            "test_save_spec": {
+                "line": 58,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "save_spec"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "tests/test_http.py": {
+        "focal_file": "vase/http.py",
+        "methods": {
+            "test_has_form": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "_has_form"
+                }
+            },
+            "test_maybe_init_post": {
+                "line": 46,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "_maybe_init_post"
+                }
+            },
+            "test_write_headers": {
+                "line": 226,
+                "line_end": 230,
+                "indent": 4,
+                "focal_class": "HttpWriter",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "add_headers"
+                }
+            },
+            "test_maybe_finalize_headers": {
+                "line": 243,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": "HttpWriter",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "_maybe_send_headers"
+                }
+            },
+            "test_write_body": {
+                "line": 254,
+                "line_end": 258,
+                "indent": 4,
+                "focal_class": "HttpWriter",
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "write_body"
+                }
+            },
+            "test_writelines": {
+                "line": 260,
+                "line_end": 265,
+                "indent": 4,
+                "focal_class": "HttpWriter",
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "writelines"
+                }
+            }
+        }
+    },
+    "tests/test_websockets.py": {
+        "focal_file": "vase/websocket.py",
+        "methods": {
+            "test_build_first_byte": {
+                "line": 20,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "_build_first_byte"
+                }
+            },
+            "test_build_mask_and_length": {
+                "line": 38,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "_build_mask_and_length"
+                }
+            },
+            "test_mask_payload": {
+                "line": 50,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "_mask_payload"
+                }
+            },
+            "test_close_message": {
+                "line": 126,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "close_message"
+                }
+            },
+            "test_binary_message": {
+                "line": 159,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": "WebSocketParser",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "get_message"
+                }
+            },
+            "test_raise_on_first_continuation": {
+                "line": 225,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": "WebSocketParser",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "continuation"
+                }
+            },
+            "test_raise_on_text_after_text": {
+                "line": 237,
+                "line_end": 248,
+                "indent": 4,
+                "focal_class": "WebSocketParser",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "text"
+                }
+            },
+            "test_writer_send": {
+                "line": 380,
+                "line_end": 391,
+                "indent": 4,
+                "focal_class": "WebSocketWriter",
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "send"
+                }
+            },
+            "test_writer_close": {
+                "line": 393,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": "WebSocketWriter",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "tests/test_response.py": {
+        "focal_file": "vase/response.py",
+        "methods": {
+            "test_status_line": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 11,
+                    "indent": 0,
+                    "name": "status_line"
+                }
+            }
+        }
+    },
+    "tests/test_stream.py": {
+        "focal_file": "vase/stream.py",
+        "methods": {
+            "test_read": {
+                "line": 37,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "LimitedReader",
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "read"
+                }
+            }
+        }
+    }
+}

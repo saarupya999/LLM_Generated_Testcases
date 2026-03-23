@@ -1,0 +1,623 @@
+{
+    "src/bin/shipyard_airflow/tests/unit/common/deployment_group/test_deployment_group_manager.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/common/deployment_group/deployment_group_manager.py",
+        "methods": {
+            "test_no_next_group": {
+                "line": 170,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "get_next_group"
+                }
+            },
+            "test_group_list": {
+                "line": 174,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "group_list"
+                }
+            },
+            "test_fail_unsuccessful_nodes": {
+                "line": 182,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "fail_unsuccessful_nodes"
+                }
+            },
+            "test_evaluate_group_succ_criteria": {
+                "line": 210,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "evaluate_group_succ_criteria"
+                }
+            },
+            "test_critical_groups_failed": {
+                "line": 228,
+                "line_end": 232,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "critical_groups_failed"
+                }
+            },
+            "test_get_group_failures_for_stage_bad_input": {
+                "line": 272,
+                "line_end": 275,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 232,
+                    "indent": 4,
+                    "name": "get_group_failures_for_stage"
+                }
+            },
+            "test_get_group_failures_for_stage": {
+                "line": 277,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 232,
+                    "indent": 4,
+                    "name": "get_group_failures_for_stage"
+                }
+            },
+            "test_mark_node_deployed": {
+                "line": 331,
+                "line_end": 334,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "mark_node_deployed"
+                }
+            },
+            "test_mark_node_prepared": {
+                "line": 336,
+                "line_end": 339,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "mark_node_prepared"
+                }
+            },
+            "test_mark_node_failed": {
+                "line": 341,
+                "line_end": 344,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 264,
+                    "indent": 4,
+                    "name": "mark_node_failed"
+                }
+            },
+            "test_mark_node_failed_unknown": {
+                "line": 346,
+                "line_end": 349,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 264,
+                    "indent": 4,
+                    "name": "mark_node_failed"
+                }
+            },
+            "test_get_nodes_all": {
+                "line": 351,
+                "line_end": 356,
+                "indent": 4,
+                "focal_class": "DeploymentGroupManager",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "get_nodes"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_airflow/tests/unit/common/deployment_group/test_deployment_group.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/common/deployment_group/deployment_group.py",
+        "methods": {
+            "test_basic_class_no_succ_criteria": {
+                "line": 183,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": "DeploymentGroup",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "get_failed_success_criteria"
+                }
+            },
+            "test_succ_criteria_success": {
+                "line": 189,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": "DeploymentGroup",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "get_failed_success_criteria"
+                }
+            },
+            "test_succ_criteria_minimal_criteria": {
+                "line": 197,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": "DeploymentGroup",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "get_failed_success_criteria"
+                }
+            },
+            "test_succ_criteria_failure": {
+                "line": 205,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": "DeploymentGroup",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "get_failed_success_criteria"
+                }
+            },
+            "test_is_complete": {
+                "line": 258,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "is_complete"
+                }
+            },
+            "test_previous_stage": {
+                "line": 264,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "previous_stage"
+                }
+            },
+            "test_check_label_format": {
+                "line": 276,
+                "line_end": 300,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "check_label_format"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_airflow/tests/unit/control/test_actions_steps_id_api.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/control/action/actions_steps_id_api.py",
+        "methods": {
+            "test_get_action_step_success": {
+                "line": 120,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "ActionsStepsResource",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "get_action_step"
+                }
+            },
+            "test_get_action_step_error_action": {
+                "line": 133,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "ActionsStepsResource",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "get_action_step"
+                }
+            },
+            "test_get_action_step_error_step": {
+                "line": 148,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": "ActionsStepsResource",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "get_action_step"
+                }
+            },
+            "test_get_action_db": {
+                "line": 161,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": "ActionsStepsResource",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "get_action_db"
+                }
+            },
+            "test_get_tasks_db": {
+                "line": 168,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": "ActionsStepsResource",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_tasks_db"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_airflow/tests/unit/control/test_rendered_configdocs_api.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/control/configdocs/rendered_configdocs_api.py",
+        "methods": {
+            "test_validate_version_parameter": {
+                "line": 28,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "RenderedConfigDocsResource",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "_validate_version_parameter"
+                }
+            },
+            "test_get_rendered_configdocs": {
+                "line": 43,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": "RenderedConfigDocsResource",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "get_rendered_configdocs"
+                }
+            },
+            "test_get_rendered_last_site_action_configdocs": {
+                "line": 58,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": "RenderedConfigDocsResource",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "get_rendered_configdocs"
+                }
+            },
+            "test_get_rendered_successful_site_action_configdocs": {
+                "line": 74,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": "RenderedConfigDocsResource",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "get_rendered_configdocs"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_airflow/tests/unit/control/test_base_resource.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/control/base.py",
+        "methods": {
+            "test_on_options": {
+                "line": 24,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": "ShipyardRequestContext",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "on_options"
+                }
+            },
+            "test_to_json": {
+                "line": 81,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": "BaseResource",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "to_json"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_airflow/tests/unit/control/test_actions_validations_id_api.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/control/action/actions_validations_id_api.py",
+        "methods": {
+            "test_get_action_validation": {
+                "line": 68,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "ActionsValidationsResource",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "get_action_validation"
+                }
+            },
+            "test_get_action_db": {
+                "line": 94,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "ActionsValidationsResource",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "get_action_db"
+                }
+            },
+            "test_get_validation_db": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": "ActionsValidationsResource",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "get_validation_db"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_airflow/tests/unit/control/af_monitoring/test_workflow_api.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/control/af_monitoring/workflows_api.py",
+        "methods": {
+            "test_get_all_workflows": {
+                "line": 34,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": "WorkflowResource",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "get_all_workflows"
+                }
+            },
+            "test_get_workflow_detail_success": {
+                "line": 54,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "WorkflowIdResource",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_workflow_detail"
+                }
+            },
+            "test_get_workflow_detail_invalid_format": {
+                "line": 66,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "WorkflowIdResource",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_workflow_detail"
+                }
+            },
+            "test_get_workflow_detail_not_found": {
+                "line": 90,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "WorkflowIdResource",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_workflow_detail"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_airflow/tests/unit/plugins/test_deployment_status_operator.py": {
+        "focal_file": "src/bin/shipyard_airflow/shipyard_airflow/plugins/deployment_status_operator.py",
+        "methods": {
+            "test_execute": {
+                "line": 54,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "shipyard_airflow.plugins.deployment_status_operator.DeploymentStatusOperator",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            },
+            "test__store_as_config_map_map_does_not_exist": {
+                "line": 102,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "shipyard_airflow.plugins.deployment_status_operator.DeploymentStatusOperator",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "_store_as_config_map"
+                }
+            },
+            "test__store_as_config_map_map_already_exists": {
+                "line": 141,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": "shipyard_airflow.plugins.deployment_status_operator.DeploymentStatusOperator",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "_store_as_config_map"
+                }
+            },
+            "test__store_as_config_map_bad_exception": {
+                "line": 172,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": "shipyard_airflow.plugins.deployment_status_operator.DeploymentStatusOperator",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "_store_as_config_map"
+                }
+            },
+            "test__get_version_doc": {
+                "line": 206,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": "shipyard_airflow.plugins.deployment_status_operator.DeploymentStatusOperator",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "_get_version_doc"
+                }
+            },
+            "test__get_version_doc_does_not_exist": {
+                "line": 229,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": "shipyard_airflow.plugins.deployment_status_operator.DeploymentStatusOperator",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "_get_version_doc"
+                }
+            },
+            "test__get_status_and_revision": {
+                "line": 249,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": "shipyard_airflow.plugins.deployment_status_operator.DeploymentStatusOperator",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "_get_status_and_revision"
+                }
+            },
+            "test__get_k8s_client": {
+                "line": 274,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "_get_k8s_client"
+                }
+            },
+            "test__create_config_map_object": {
+                "line": 284,
+                "line_end": 304,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "_create_config_map_object"
+                }
+            }
+        }
+    },
+    "src/bin/shipyard_client/tests/unit/cli/test_auth_validations.py": {
+        "focal_file": "src/bin/shipyard_client/shipyard_client/cli/action.py",
+        "methods": {
+            "test_validate_auth_vars_valid": {
+                "line": 20,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "validate_auth_vars"
+                }
+            },
+            "test_validate_auth_vars_missing_required": {
+                "line": 29,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "validate_auth_vars"
+                }
+            }
+        }
+    }
+}

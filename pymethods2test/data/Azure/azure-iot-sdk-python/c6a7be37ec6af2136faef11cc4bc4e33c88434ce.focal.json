@@ -1,0 +1,1830 @@
+{
+    "azure-iot-device/tests/test_user_agent.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/user_agent.py",
+        "methods": {
+            "test_get_iothub_user_agent": {
+                "line": 22,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_iothub_user_agent"
+                }
+            },
+            "test_get_provisioning_user_agent_str": {
+                "line": 47,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "get_provisioning_user_agent"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/common/test_mqtt_transport.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/common/mqtt_transport.py",
+        "methods": {
+            "test_calls_paho_connect": {
+                "line": 402,
+                "line_end": 420,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 365,
+                    "line_end": 438,
+                    "indent": 4,
+                    "name": "connect"
+                }
+            },
+            "test_calls_paho_disconnect": {
+                "line": 723,
+                "line_end": 727,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 440,
+                    "line_end": 473,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_calls_paho_subscribe": {
+                "line": 1173,
+                "line_end": 1177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 503,
+                    "indent": 4,
+                    "name": "subscribe"
+                }
+            },
+            "test_calls_paho_unsubscribe": {
+                "line": 1448,
+                "line_end": 1452,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 505,
+                    "line_end": 529,
+                    "indent": 4,
+                    "name": "unsubscribe"
+                }
+            },
+            "test_calls_paho_publish": {
+                "line": 1709,
+                "line_end": 1715,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 531,
+                    "line_end": 564,
+                    "indent": 4,
+                    "name": "publish"
+                }
+            },
+            "test_no_early_completion": {
+                "line": 2149,
+                "line_end": 2155,
+                "indent": 4,
+                "focal_class": "OperationManager",
+                "focal_method": {
+                    "line": 583,
+                    "line_end": 620,
+                    "indent": 4,
+                    "name": "establish_operation"
+                }
+            },
+            "test_early_completion": {
+                "line": 2314,
+                "line_end": 2320,
+                "indent": 4,
+                "focal_class": "OperationManager",
+                "focal_method": {
+                    "line": 622,
+                    "line_end": 663,
+                    "indent": 4,
+                    "name": "complete_operation"
+                }
+            },
+            "test_complete_pending_operation": {
+                "line": 2260,
+                "line_end": 2270,
+                "indent": 4,
+                "focal_class": "OperationManager",
+                "focal_method": {
+                    "line": 622,
+                    "line_end": 663,
+                    "indent": 4,
+                    "name": "complete_operation"
+                }
+            },
+            "test_complete_pending_operation_callback": {
+                "line": 2273,
+                "line_end": 2283,
+                "indent": 4,
+                "focal_class": "OperationManager",
+                "focal_method": {
+                    "line": 622,
+                    "line_end": 663,
+                    "indent": 4,
+                    "name": "complete_operation"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/common/pipeline/pipeline_ops_test.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/common/pipeline/pipeline_ops_base.py",
+        "methods": {
+            "test_adds_callback": {
+                "line": 110,
+                "line_end": 124,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "add_callback"
+                }
+            },
+            "test_already_completed_callback": {
+                "line": 129,
+                "line_end": 134,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "add_callback"
+                }
+            },
+            "test_worker_op_completes_original_op": {
+                "line": 231,
+                "line_end": 252,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "complete"
+                }
+            },
+            "test_completing_set": {
+                "line": 406,
+                "line_end": 430,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "complete"
+                }
+            },
+            "test_halt_during_callback": {
+                "line": 500,
+                "line_end": 529,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "add_callback"
+                }
+            },
+            "test_marks_complete": {
+                "line": 534,
+                "line_end": 561,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "complete"
+                }
+            },
+            "test_already_complete": {
+                "line": 566,
+                "line_end": 590,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "complete"
+                }
+            },
+            "test_already_completed_op": {
+                "line": 733,
+                "line_end": 744,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "halt_completion"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/common/pipeline/test_pipeline_stages_base.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/common/pipeline/pipeline_stages_base.py",
+        "methods": {
+            "test_appends_new_stage": {
+                "line": 134,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 247,
+                    "indent": 4,
+                    "name": "append_stage"
+                }
+            },
+            "test_reruns": {
+                "line": 2675,
+                "line_end": 2687,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "run_op"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/iothub/test_edge_hsm.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/iothub/edge_hsm.py",
+        "methods": {
+            "test_returns_certificate": {
+                "line": 128,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "get_certificate"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/iothub/test_inbox_manager.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/iothub/inbox_manager.py",
+        "methods": {
+            "test_returns_inbox": {
+                "line": 111,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_unified_message_inbox"
+                }
+            },
+            "test_get_input_message_inbox_returns_inbox": {
+                "line": 125,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_input_message_inbox"
+                }
+            },
+            "test_get_method_request_inbox_returns_inbox": {
+                "line": 170,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_method_request_inbox"
+                }
+            },
+            "test_clear_all_method_requests_clears_named_method_request_inboxes": {
+                "line": 254,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_method_request_inbox"
+                }
+            },
+            "test_adds_message_to_c2d_message_inbox": {
+                "line": 272,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "get_c2d_message_inbox"
+                }
+            },
+            "test_DOES_NOT_add_message_to_unified_inbox": {
+                "line": 335,
+                "line_end": 344,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_unified_message_inbox"
+                }
+            },
+            "test_adds_message_to_unified_message_inbox": {
+                "line": 350,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_unified_message_inbox"
+                }
+            },
+            "test_DOES_NOT_add_message_to_c2d_inbox": {
+                "line": 302,
+                "line_end": 308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "get_c2d_message_inbox"
+                }
+            },
+            "test_adds_message_to_input_message_inbox": {
+                "line": 316,
+                "line_end": 324,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_input_message_inbox"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/iothub/test_sync_clients.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/iothub/abstract_clients.py",
+        "methods": {
+            "test_calls_pipeline_shutdown": {
+                "line": 109,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 368,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_calls_pipeline_connect": {
+                "line": 185,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 371,
+                    "line_end": 372,
+                    "indent": 4,
+                    "name": "connect"
+                }
+            },
+            "test_calls_pipeline_disconnect": {
+                "line": 260,
+                "line_end": 273,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 376,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_calls_pipeline_send_message": {
+                "line": 533,
+                "line_end": 536,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 384,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_wraps_data_in_message_and_calls_pipeline_send_message": {
+                "line": 621,
+                "line_end": 628,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 384,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_receive_method_request_can_be_called_in_mode": {
+                "line": 751,
+                "line_end": 763,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 387,
+                    "line_end": 388,
+                    "indent": 4,
+                    "name": "receive_method_request"
+                }
+            },
+            "test_receive_method_request_default_mode": {
+                "line": 770,
+                "line_end": 779,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 387,
+                    "line_end": 388,
+                    "indent": 4,
+                    "name": "receive_method_request"
+                }
+            },
+            "test_receive_mode_not_set": {
+                "line": 2406,
+                "line_end": 2414,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_receive_mode_set_api": {
+                "line": 2427,
+                "line_end": 2435,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_receive_mode_set_handler": {
+                "line": 2448,
+                "line_end": 2463,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_send_method_response_calls_pipeline": {
+                "line": 911,
+                "line_end": 915,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 392,
+                    "indent": 4,
+                    "name": "send_method_response"
+                }
+            },
+            "test_patch_twin_reported_properties_calls_pipeline": {
+                "line": 1122,
+                "line_end": 1130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 399,
+                    "line_end": 400,
+                    "indent": 4,
+                    "name": "patch_twin_reported_properties"
+                }
+            },
+            "test_calls_pipeline_get_storage_info_for_blob": {
+                "line": 1708,
+                "line_end": 1714,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 602,
+                    "line_end": 603,
+                    "indent": 4,
+                    "name": "get_storage_info_for_blob"
+                }
+            },
+            "test_returns_storage_info": {
+                "line": 1766,
+                "line_end": 1777,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 602,
+                    "line_end": 603,
+                    "indent": 4,
+                    "name": "get_storage_info_for_blob"
+                }
+            },
+            "test_calls_pipeline_notify_blob_upload_status": {
+                "line": 1785,
+                "line_end": 1798,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 606,
+                    "line_end": 609,
+                    "indent": 4,
+                    "name": "notify_blob_upload_status"
+                }
+            },
+            "test_calls_pipeline_send_message_to_output": {
+                "line": 2145,
+                "line_end": 2150,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_send_message_to_output_calls_pipeline_wraps_data_in_message": {
+                "line": 2237,
+                "line_end": 2245,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_raises_error_when_message_to_output_data_greater_than_256": {
+                "line": 2248,
+                "line_end": 2255,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_raises_error_when_message_to_output_size_greater_than_256": {
+                "line": 2258,
+                "line_end": 2266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_raises_error_when_message_to_output_data_equal_to_256": {
+                "line": 2269,
+                "line_end": 2284,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_returns_message_from_input_inbox": {
+                "line": 2316,
+                "line_end": 2328,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_calls_pipeline_invoke_method_for_device": {
+                "line": 2502,
+                "line_end": 2508,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 835,
+                    "line_end": 836,
+                    "indent": 4,
+                    "name": "invoke_method"
+                }
+            },
+            "test_calls_pipeline_invoke_method_for_module": {
+                "line": 2511,
+                "line_end": 2519,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 835,
+                    "line_end": 836,
+                    "indent": 4,
+                    "name": "invoke_method"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/iothub/test_sync_inbox.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/iothub/sync_inbox.py",
+        "methods": {
+            "test_instantiates_empty": {
+                "line": 19,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "SyncClientInbox",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "empty"
+                }
+            },
+            "test_check_if_empty": {
+                "line": 33,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": "SyncClientInbox",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "empty"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/iothub/aio/test_async_clients.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/iothub/abstract_clients.py",
+        "methods": {
+            "test_calls_pipeline_shutdown": {
+                "line": 96,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 368,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_calls_pipeline_connect": {
+                "line": 181,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 371,
+                    "line_end": 372,
+                    "indent": 4,
+                    "name": "connect"
+                }
+            },
+            "test_calls_pipeline_disconnect": {
+                "line": 260,
+                "line_end": 273,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 376,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_calls_pipeline_send_message": {
+                "line": 545,
+                "line_end": 548,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 384,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_wraps_data_in_message_and_calls_pipeline_send_message": {
+                "line": 631,
+                "line_end": 638,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 384,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_receive_mode_not_set": {
+                "line": 2091,
+                "line_end": 2099,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_receive_mode_set_api": {
+                "line": 2104,
+                "line_end": 2112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_receive_mode_set_handler": {
+                "line": 2117,
+                "line_end": 2132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_send_method_response_calls_pipeline": {
+                "line": 809,
+                "line_end": 814,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 392,
+                    "indent": 4,
+                    "name": "send_method_response"
+                }
+            },
+            "test_patch_twin_reported_properties_calls_pipeline": {
+                "line": 1027,
+                "line_end": 1035,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 399,
+                    "line_end": 400,
+                    "indent": 4,
+                    "name": "patch_twin_reported_properties"
+                }
+            },
+            "test_calls_pipeline_get_storage_info_for_blob": {
+                "line": 1466,
+                "line_end": 1470,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 602,
+                    "line_end": 603,
+                    "indent": 4,
+                    "name": "get_storage_info_for_blob"
+                }
+            },
+            "test_returns_storage_info": {
+                "line": 1525,
+                "line_end": 1534,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 602,
+                    "line_end": 603,
+                    "indent": 4,
+                    "name": "get_storage_info_for_blob"
+                }
+            },
+            "test_calls_pipeline_notify_blob_upload_status": {
+                "line": 1540,
+                "line_end": 1553,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 606,
+                    "line_end": 609,
+                    "indent": 4,
+                    "name": "notify_blob_upload_status"
+                }
+            },
+            "test_calls_pipeline_send_message_to_output": {
+                "line": 1901,
+                "line_end": 1906,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_send_message_to_output_calls_pipeline_wraps_data_in_message": {
+                "line": 1991,
+                "line_end": 1999,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_raises_error_when_message_to_output_data_greater_than_256": {
+                "line": 2002,
+                "line_end": 2011,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_raises_error_when_message_to_output_size_greater_than_256": {
+                "line": 2014,
+                "line_end": 2024,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_raises_error_when_message_to_output_data_equal_to_256": {
+                "line": 2027,
+                "line_end": 2043,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 828,
+                    "indent": 4,
+                    "name": "send_message_to_output"
+                }
+            },
+            "test_returns_message_from_input_inbox": {
+                "line": 2076,
+                "line_end": 2088,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "receive_message_on_input"
+                }
+            },
+            "test_calls_pipeline_invoke_method_for_device": {
+                "line": 2173,
+                "line_end": 2180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 835,
+                    "line_end": 836,
+                    "indent": 4,
+                    "name": "invoke_method"
+                }
+            },
+            "test_calls_pipeline_invoke_method_for_module": {
+                "line": 2183,
+                "line_end": 2193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 835,
+                    "line_end": 836,
+                    "indent": 4,
+                    "name": "invoke_method"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/iothub/aio/test_async_inbox.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/iothub/aio/async_inbox.py",
+        "methods": {
+            "test_instantiates_empty": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "AsyncClientInbox",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "empty"
+                }
+            },
+            "test_can_check_if_empty": {
+                "line": 37,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "AsyncClientInbox",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "empty"
+                }
+            },
+            "test_get_waits_for_item_to_be_added_if_inbox_empty": {
+                "line": 95,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": "AsyncClientInbox",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "empty"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/iothub/pipeline/test_mqtt_topic_iothub.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/iothub/pipeline/mqtt_topic_iothub.py",
+        "methods": {
+            "test_is_c2d_topic": {
+                "line": 393,
+                "line_end": 396,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "is_c2d_topic"
+                }
+            },
+            "test_is_input_topic": {
+                "line": 472,
+                "line_end": 476,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "is_input_topic"
+                }
+            },
+            "test_is_method_topic": {
+                "line": 563,
+                "line_end": 565,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "is_method_topic"
+                }
+            },
+            "test_is_twin_response_topic": {
+                "line": 586,
+                "line_end": 588,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "is_twin_response_topic"
+                }
+            },
+            "test_is_not_twin_response_topic": {
+                "line": 602,
+                "line_end": 603,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "is_twin_response_topic"
+                }
+            },
+            "test_is_desired_property_patch_topic": {
+                "line": 609,
+                "line_end": 611,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "is_twin_desired_property_patch_topic"
+                }
+            },
+            "test_is_not_desired_property_patch_topic": {
+                "line": 622,
+                "line_end": 623,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "is_twin_desired_property_patch_topic"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/provisioning/test_sync_provisioning_device_client.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/provisioning/provisioning_device_client.py",
+        "methods": {
+            "test_register_calls_pipeline_register": {
+                "line": 85,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "ProvisioningDeviceClient",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "register"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/provisioning/aio/test_async_provisioning_device_client.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/provisioning/aio/async_provisioning_device_client.py",
+        "methods": {
+            "test_register_calls_pipeline_register": {
+                "line": 94,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": "ProvisioningDeviceClient",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "register"
+                }
+            }
+        }
+    },
+    "azure-iot-device/tests/provisioning/pipeline/test_mqtt_topic_provisioning.py": {
+        "focal_file": "azure-iot-device/azure/iot/device/provisioning/pipeline/mqtt_topic_provisioning.py",
+        "methods": {
+            "test_is_dps_response_topic": {
+                "line": 149,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "is_dps_response_topic"
+                }
+            }
+        }
+    },
+    "azure-iot-hub/tests/test_digital_twin_client.py": {
+        "focal_file": "azure-iot-hub/azure/iot/hub/digital_twin_client.py",
+        "methods": {
+            "test_instantiates_with_empty_connection_string": {
+                "line": 101,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "from_connection_string"
+                }
+            },
+            "test_get_digital_twin": {
+                "line": 168,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "get_digital_twin"
+                }
+            },
+            "test_update_digital_twin": {
+                "line": 196,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "update_digital_twin"
+                }
+            },
+            "test_invoke_component_command": {
+                "line": 226,
+                "line_end": 246,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "invoke_component_command"
+                }
+            },
+            "test_invoke_command": {
+                "line": 266,
+                "line_end": 282,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "invoke_command"
+                }
+            }
+        }
+    },
+    "azure-iot-hub/tests/test_iothub_amqp_client.py": {
+        "focal_file": "azure-iot-hub/azure/iot/hub/iothub_amqp_client.py",
+        "methods": {
+            "test_send_message_to_device_app_prop": {
+                "line": 45,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "send_message_to_device"
+                }
+            },
+            "test_send_message_to_device_sys_prop": {
+                "line": 63,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "send_message_to_device"
+                }
+            },
+            "test_disconnect_sync": {
+                "line": 105,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "disconnect_sync"
+                }
+            }
+        }
+    },
+    "azure-iot-hub/tests/test_iothub_configuration_manager.py": {
+        "focal_file": "azure-iot-hub/azure/iot/hub/iothub_configuration_manager.py",
+        "methods": {
+            "test_create_configuration": {
+                "line": 185,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "create_configuration"
+                }
+            },
+            "test_update_configuration": {
+                "line": 199,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "update_configuration"
+                }
+            },
+            "test_delete_configuration": {
+                "line": 213,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "delete_configuration"
+                }
+            },
+            "test_delete_configuration_with_etag": {
+                "line": 224,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "delete_configuration"
+                }
+            },
+            "test_get_configurations": {
+                "line": 240,
+                "line_end": 248,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "get_configurations"
+                }
+            },
+            "test_apply_configuration_on_edge_device": {
+                "line": 267,
+                "line_end": 276,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "apply_configuration_on_edge_device"
+                }
+            }
+        }
+    },
+    "azure-iot-hub/tests/test_iothub_http_runtime_manager.py": {
+        "focal_file": "azure-iot-hub/azure/iot/hub/iothub_http_runtime_manager.py",
+        "methods": {
+            "test_receive_feedback_notification": {
+                "line": 162,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "receive_feedback_notification"
+                }
+            },
+            "test_complete_feedback_notification": {
+                "line": 174,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "complete_feedback_notification"
+                }
+            },
+            "test_abandon_feedback_notification": {
+                "line": 188,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "abandon_feedback_notification"
+                }
+            }
+        }
+    },
+    "azure-iot-hub/tests/test_iothub_registry_manager.py": {
+        "focal_file": "azure-iot-hub/azure/iot/hub/iothub_registry_manager.py",
+        "methods": {
+            "test_initializes_device_with_kwargs_for_sas": {
+                "line": 476,
+                "line_end": 509,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 337,
+                    "indent": 4,
+                    "name": "update_device_with_sas"
+                }
+            },
+            "test_calls_create_or_update_identity_for_sas": {
+                "line": 952,
+                "line_end": 975,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 559,
+                    "line_end": 591,
+                    "indent": 4,
+                    "name": "update_module_with_sas"
+                }
+            },
+            "test_initializes_device_with_kwargs_for_x509": {
+                "line": 560,
+                "line_end": 596,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 398,
+                    "indent": 4,
+                    "name": "update_device_with_x509"
+                }
+            },
+            "test_calls_create_or_update_identity_for_x509": {
+                "line": 1027,
+                "line_end": 1050,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 593,
+                    "line_end": 629,
+                    "indent": 4,
+                    "name": "update_module_with_x509"
+                }
+            },
+            "test_initializes_device_with_kwargs_for_certificate_authority": {
+                "line": 1056,
+                "line_end": 1076,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 631,
+                    "line_end": 658,
+                    "indent": 4,
+                    "name": "update_module_with_certificate_authority"
+                }
+            },
+            "test_calls_create_or_update_identity_for_certificate_authority": {
+                "line": 1081,
+                "line_end": 1097,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 631,
+                    "line_end": 658,
+                    "indent": 4,
+                    "name": "update_module_with_certificate_authority"
+                }
+            },
+            "test_get_device": {
+                "line": 692,
+                "line_end": 696,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 451,
+                    "line_end": 461,
+                    "indent": 4,
+                    "name": "get_device"
+                }
+            },
+            "test_delete_device": {
+                "line": 702,
+                "line_end": 708,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 477,
+                    "indent": 4,
+                    "name": "delete_device"
+                }
+            },
+            "test_delete_device_with_etag": {
+                "line": 711,
+                "line_end": 719,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 477,
+                    "indent": 4,
+                    "name": "delete_device"
+                }
+            },
+            "test_get_module": {
+                "line": 1115,
+                "line_end": 1121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 673,
+                    "line_end": 683,
+                    "indent": 4,
+                    "name": "get_modules"
+                }
+            },
+            "test_delete_module": {
+                "line": 1127,
+                "line_end": 1133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 685,
+                    "line_end": 700,
+                    "indent": 4,
+                    "name": "delete_module"
+                }
+            },
+            "test_delete_module_with_etag": {
+                "line": 1136,
+                "line_end": 1146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 685,
+                    "line_end": 700,
+                    "indent": 4,
+                    "name": "delete_module"
+                }
+            },
+            "test_get_service_statistics": {
+                "line": 1152,
+                "line_end": 1158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 702,
+                    "line_end": 710,
+                    "indent": 4,
+                    "name": "get_service_statistics"
+                }
+            },
+            "test_get_device_registry_statistics": {
+                "line": 1164,
+                "line_end": 1170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 712,
+                    "line_end": 720,
+                    "indent": 4,
+                    "name": "get_device_registry_statistics"
+                }
+            },
+            "test_get_devices": {
+                "line": 1186,
+                "line_end": 1191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 722,
+                    "line_end": 740,
+                    "indent": 4,
+                    "name": "get_devices"
+                }
+            },
+            "test_bulk_create_or_update_identitys": {
+                "line": 1197,
+                "line_end": 1202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 742,
+                    "line_end": 761,
+                    "indent": 4,
+                    "name": "bulk_create_or_update_devices"
+                }
+            },
+            "test_query_iot_hub": {
+                "line": 1231,
+                "line_end": 1240,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 789,
+                    "indent": 4,
+                    "name": "query_iot_hub"
+                }
+            },
+            "test_get_twin": {
+                "line": 1246,
+                "line_end": 1249,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 791,
+                    "line_end": 801,
+                    "indent": 4,
+                    "name": "get_twin"
+                }
+            },
+            "test_replace_twin": {
+                "line": 1255,
+                "line_end": 1260,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 803,
+                    "line_end": 818,
+                    "indent": 4,
+                    "name": "replace_twin"
+                }
+            },
+            "test_update_twin": {
+                "line": 1266,
+                "line_end": 1271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 820,
+                    "line_end": 835,
+                    "indent": 4,
+                    "name": "update_twin"
+                }
+            },
+            "test_get_module_twin": {
+                "line": 1277,
+                "line_end": 1282,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 837,
+                    "line_end": 848,
+                    "indent": 4,
+                    "name": "get_module_twin"
+                }
+            },
+            "test_replace_module_twin": {
+                "line": 1288,
+                "line_end": 1295,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 850,
+                    "line_end": 868,
+                    "indent": 4,
+                    "name": "replace_module_twin"
+                }
+            },
+            "test_update_module_twin": {
+                "line": 1301,
+                "line_end": 1308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 870,
+                    "line_end": 888,
+                    "indent": 4,
+                    "name": "update_module_twin"
+                }
+            },
+            "test_invoke_device_method_with_payload": {
+                "line": 1314,
+                "line_end": 1323,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 890,
+                    "line_end": 904,
+                    "indent": 4,
+                    "name": "invoke_device_method"
+                }
+            },
+            "test_invoke_device_method_payload_none": {
+                "line": 1329,
+                "line_end": 1338,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 890,
+                    "line_end": 904,
+                    "indent": 4,
+                    "name": "invoke_device_method"
+                }
+            },
+            "test_invoke_device_module_method_with_payload": {
+                "line": 1344,
+                "line_end": 1353,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 906,
+                    "line_end": 921,
+                    "indent": 4,
+                    "name": "invoke_device_module_method"
+                }
+            },
+            "test_invoke_device_module_method_payload_none": {
+                "line": 1359,
+                "line_end": 1368,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 906,
+                    "line_end": 921,
+                    "indent": 4,
+                    "name": "invoke_device_module_method"
+                }
+            },
+            "test_send_c2d_message": {
+                "line": 1374,
+                "line_end": 1383,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 923,
+                    "line_end": 933,
+                    "indent": 4,
+                    "name": "send_c2d_message"
+                }
+            },
+            "test_send_c2d_message_with_properties": {
+                "line": 1389,
+                "line_end": 1400,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 923,
+                    "line_end": 933,
+                    "indent": 4,
+                    "name": "send_c2d_message"
+                }
+            }
+        }
+    },
+    "azure-iot-hub/tests/test_job_manager.py": {
+        "focal_file": "azure-iot-hub/azure/iot/hub/iothub_job_manager.py",
+        "methods": {
+            "test_create_export_import_job": {
+                "line": 164,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "create_import_export_job"
+                }
+            },
+            "test_get_export_import_jobs": {
+                "line": 176,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "get_import_export_jobs"
+                }
+            },
+            "test_get_export_import_job": {
+                "line": 186,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "get_import_export_job"
+                }
+            },
+            "test_cancel_import_export_job": {
+                "line": 198,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "cancel_import_export_job"
+                }
+            },
+            "test_create_scheduled_job": {
+                "line": 210,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "create_scheduled_job"
+                }
+            },
+            "test_get_scheduled_job": {
+                "line": 222,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "get_scheduled_job"
+                }
+            },
+            "test_cancel_scheduled_job": {
+                "line": 232,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "cancel_scheduled_job"
+                }
+            },
+            "test_query_scheduled_jobs": {
+                "line": 242,
+                "line_end": 248,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "query_scheduled_jobs"
+                }
+            }
+        }
+    }
+}

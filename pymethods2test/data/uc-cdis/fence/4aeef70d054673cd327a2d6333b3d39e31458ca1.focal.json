@@ -1,0 +1,757 @@
+{
+    "tests/google/test_access_utils.py": {
+        "focal_file": "fence/resources/google/access_utils.py",
+        "methods": {
+            "test_is_valid_service_account_type_compute_engine_default": {
+                "line": 41,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 218,
+                    "indent": 0,
+                    "name": "is_valid_service_account_type"
+                }
+            },
+            "test_not_valid_service_account_type_google_api": {
+                "line": 52,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 218,
+                    "indent": 0,
+                    "name": "is_valid_service_account_type"
+                }
+            },
+            "test_not_valid_service_account_type_compute_engine_api": {
+                "line": 63,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 218,
+                    "indent": 0,
+                    "name": "is_valid_service_account_type"
+                }
+            },
+            "test_is_valid_service_account_type_user_managed": {
+                "line": 74,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 218,
+                    "indent": 0,
+                    "name": "is_valid_service_account_type"
+                }
+            },
+            "test_service_account_has_role_in_service_policy": {
+                "line": 83,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "service_account_has_external_access"
+                }
+            },
+            "test_service_account_has_user_managed_key_in_service_policy": {
+                "line": 109,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "service_account_has_external_access"
+                }
+            },
+            "test_service_account_does_not_have_external_access": {
+                "line": 124,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "service_account_has_external_access"
+                }
+            },
+            "test_service_account_has_external_access_raise_exception": {
+                "line": 140,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "service_account_has_external_access"
+                }
+            },
+            "test_service_account_has_external_access_no_authorization": {
+                "line": 152,
+                "line_end": 158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "service_account_has_external_access"
+                }
+            },
+            "test_service_account_does_not_exist": {
+                "line": 161,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1132,
+                    "line_end": 1152,
+                    "indent": 0,
+                    "name": "get_service_account_policy"
+                }
+            },
+            "test_remove_service_account_from_access": {
+                "line": 210,
+                "line_end": 239,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 620,
+                    "line_end": 663,
+                    "indent": 0,
+                    "name": "force_remove_service_account_from_access"
+                }
+            },
+            "test_remove_service_account_raise_NotFound_exc": {
+                "line": 242,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 620,
+                    "line_end": 663,
+                    "indent": 0,
+                    "name": "force_remove_service_account_from_access"
+                }
+            },
+            "test_remove_service_account_raise_GoogleAPI_exc": {
+                "line": 254,
+                "line_end": 265,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 620,
+                    "line_end": 663,
+                    "indent": 0,
+                    "name": "force_remove_service_account_from_access"
+                }
+            },
+            "test_extend_service_account_access": {
+                "line": 268,
+                "line_end": 289,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 925,
+                    "line_end": 981,
+                    "indent": 0,
+                    "name": "extend_service_account_access"
+                }
+            },
+            "test_update_user_service_account_success": {
+                "line": 292,
+                "line_end": 344,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_user_service_account_success2": {
+                "line": 347,
+                "line_end": 402,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_user_service_account_success3": {
+                "line": 405,
+                "line_end": 442,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_user_service_account_raise_NotFound_exc": {
+                "line": 445,
+                "line_end": 454,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_service_account_fail_no_project": {
+                "line": 457,
+                "line_end": 464,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_user_service_account_raise_GoogleAPI_exc": {
+                "line": 467,
+                "line_end": 479,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_user_service_account_raise_GoogleAPI_exc2": {
+                "line": 482,
+                "line_end": 496,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_user_service_account_raise_GoogleAPI_exc3": {
+                "line": 499,
+                "line_end": 513,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_update_user_service_account_raise_GoogleAPI_exc4": {
+                "line": 516,
+                "line_end": 528,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 555,
+                    "indent": 0,
+                    "name": "patch_user_service_account"
+                }
+            },
+            "test_whitelisted_service_accounts": {
+                "line": 531,
+                "line_end": 544,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1023,
+                    "line_end": 1051,
+                    "indent": 0,
+                    "name": "remove_white_listed_service_account_ids"
+                }
+            }
+        }
+    },
+    "tests/oidc/core/token/test_id_token.py": {
+        "focal_file": "fence/jwt/token.py",
+        "methods": {
+            "test_recode_id_token": {
+                "line": 17,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 263,
+                    "indent": 0,
+                    "name": "generate_signed_id_token"
+                }
+            },
+            "test_valid_id_token": {
+                "line": 67,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 263,
+                    "indent": 0,
+                    "name": "generate_signed_id_token"
+                }
+            }
+        }
+    },
+    "tests/data/test_data.py": {
+        "focal_file": "fence/blueprints/data/indexd.py",
+        "methods": {
+            "test_delete_files": {
+                "line": 1727,
+                "line_end": 1788,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 511,
+                    "line_end": 549,
+                    "indent": 4,
+                    "name": "delete_files"
+                }
+            }
+        }
+    },
+    "tests/session/test_session.py": {
+        "focal_file": "fence/jwt/token.py",
+        "methods": {
+            "test_valid_session_valid_access_token": {
+                "line": 185,
+                "line_end": 227,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 466,
+                    "indent": 0,
+                    "name": "generate_signed_access_token"
+                }
+            }
+        }
+    },
+    "tests/dbgap_sync/test_user_sync.py": {
+        "focal_file": "fence/sync/sync_users.py",
+        "methods": {
+            "test_sync": {
+                "line": 67,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1252,
+                    "line_end": 1257,
+                    "indent": 4,
+                    "name": "sync"
+                }
+            },
+            "test_sync_two_phsids_dict": {
+                "line": 376,
+                "line_end": 397,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 625,
+                    "line_end": 688,
+                    "indent": 4,
+                    "name": "sync_two_phsids_dict"
+                }
+            },
+            "test_sync_two_phsids_dict_combine": {
+                "line": 401,
+                "line_end": 420,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 625,
+                    "line_end": 688,
+                    "indent": 4,
+                    "name": "sync_two_phsids_dict"
+                }
+            },
+            "test_sync_two_user_info": {
+                "line": 424,
+                "line_end": 516,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 608,
+                    "line_end": 623,
+                    "indent": 4,
+                    "name": "sync_two_user_info_dict"
+                }
+            },
+            "test_user_sync_with_visas": {
+                "line": 619,
+                "line_end": 727,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2097,
+                    "line_end": 2102,
+                    "indent": 4,
+                    "name": "sync_visas"
+                }
+            }
+        }
+    },
+    "tests/scripting/test_fence-create.py": {
+        "focal_file": "fence/scripting/fence_create.py",
+        "methods": {
+            "test_client_delete": {
+                "line": 163,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "delete_client_action"
+                }
+            },
+            "test_client_delete_error": {
+                "line": 198,
+                "line_end": 232,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "delete_client_action"
+                }
+            },
+            "test_delete_users": {
+                "line": 235,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 661,
+                    "line_end": 674,
+                    "indent": 0,
+                    "name": "delete_users"
+                }
+            },
+            "test_create_user_access_token_with_no_found_user": {
+                "line": 267,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": "JWTCreator",
+                "focal_method": {
+                    "line": 875,
+                    "line_end": 897,
+                    "indent": 4,
+                    "name": "create_access_token"
+                }
+            },
+            "test_create_user_refresh_token_with_no_found_user": {
+                "line": 285,
+                "line_end": 300,
+                "indent": 0,
+                "focal_class": "JWTCreator",
+                "focal_method": {
+                    "line": 899,
+                    "line_end": 931,
+                    "indent": 4,
+                    "name": "create_refresh_token"
+                }
+            },
+            "test_delete_expired_service_accounts_with_one_fail_first": {
+                "line": 435,
+                "line_end": 483,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 677,
+                    "line_end": 711,
+                    "indent": 0,
+                    "name": "delete_expired_service_accounts"
+                }
+            },
+            "test_delete_expired_service_accounts_with_one_fail_second": {
+                "line": 486,
+                "line_end": 534,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 677,
+                    "line_end": 711,
+                    "indent": 0,
+                    "name": "delete_expired_service_accounts"
+                }
+            },
+            "test_delete_expired_service_accounts": {
+                "line": 537,
+                "line_end": 584,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 677,
+                    "line_end": 711,
+                    "indent": 0,
+                    "name": "delete_expired_service_accounts"
+                }
+            },
+            "test_delete_not_expired_service_account": {
+                "line": 587,
+                "line_end": 616,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 677,
+                    "line_end": 711,
+                    "indent": 0,
+                    "name": "delete_expired_service_accounts"
+                }
+            },
+            "test_verify_bucket_access_group_no_interested_accounts": {
+                "line": 619,
+                "line_end": 646,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 714,
+                    "line_end": 753,
+                    "indent": 0,
+                    "name": "verify_bucket_access_group"
+                }
+            },
+            "test_verify_bucket_access_group": {
+                "line": 649,
+                "line_end": 700,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 714,
+                    "line_end": 753,
+                    "indent": 0,
+                    "name": "verify_bucket_access_group"
+                }
+            },
+            "test_verify_google_group_member": {
+                "line": 703,
+                "line_end": 724,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 756,
+                    "line_end": 793,
+                    "indent": 0,
+                    "name": "_verify_google_group_member"
+                }
+            },
+            "test_verify_google_group_member_not_call_delete_operation": {
+                "line": 727,
+                "line_end": 750,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 756,
+                    "line_end": 793,
+                    "indent": 0,
+                    "name": "_verify_google_group_member"
+                }
+            },
+            "test_verify_google_service_account_member_call_delete_operation": {
+                "line": 753,
+                "line_end": 776,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 796,
+                    "line_end": 834,
+                    "indent": 0,
+                    "name": "_verify_google_service_account_member"
+                }
+            },
+            "test_verify_google_service_account_member_not_call_delete_operation": {
+                "line": 779,
+                "line_end": 802,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 796,
+                    "line_end": 834,
+                    "indent": 0,
+                    "name": "_verify_google_service_account_member"
+                }
+            },
+            "test_link_external_bucket": {
+                "line": 805,
+                "line_end": 822,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1323,
+                    "line_end": 1383,
+                    "indent": 0,
+                    "name": "link_external_bucket"
+                }
+            },
+            "test_delete_expired_service_account_keys_for_user": {
+                "line": 825,
+                "line_end": 873,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 536,
+                    "line_end": 604,
+                    "indent": 0,
+                    "name": "remove_expired_google_service_account_keys"
+                }
+            },
+            "test_delete_expired_service_account_keys_for_client": {
+                "line": 876,
+                "line_end": 931,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 536,
+                    "line_end": 604,
+                    "indent": 0,
+                    "name": "remove_expired_google_service_account_keys"
+                }
+            },
+            "test_delete_expired_service_account_keys_both_user_and_client": {
+                "line": 934,
+                "line_end": 992,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 536,
+                    "line_end": 604,
+                    "indent": 0,
+                    "name": "remove_expired_google_service_account_keys"
+                }
+            },
+            "test_list_client_action": {
+                "line": 995,
+                "line_end": 1004,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "list_client_action"
+                }
+            },
+            "test_modify_client_action": {
+                "line": 1007,
+                "line_end": 1032,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "modify_client_action"
+                }
+            },
+            "test_create_projects": {
+                "line": 1035,
+                "line_end": 1090,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 367,
+                    "indent": 0,
+                    "name": "create_projects"
+                }
+            },
+            "test_create_group": {
+                "line": 1093,
+                "line_end": 1112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 352,
+                    "line_end": 361,
+                    "indent": 0,
+                    "name": "create_group"
+                }
+            },
+            "test_modify_client_action_modify_allowed_scopes": {
+                "line": 1115,
+                "line_end": 1140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "modify_client_action"
+                }
+            },
+            "test_modify_client_action_modify_allowed_scopes_append_true": {
+                "line": 1143,
+                "line_end": 1169,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "modify_client_action"
+                }
+            },
+            "test_modify_client_action_modify_append_url": {
+                "line": 1172,
+                "line_end": 1197,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "modify_client_action"
+                }
+            }
+        }
+    },
+    "tests/jwt/test_tokens.py": {
+        "focal_file": "fence/jwt/token.py",
+        "methods": {
+            "test_passport_access_token": {
+                "line": 12,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 466,
+                    "indent": 0,
+                    "name": "generate_signed_access_token"
+                }
+            }
+        }
+    }
+}

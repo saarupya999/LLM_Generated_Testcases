@@ -1,0 +1,147 @@
+{
+    "src/tests/client/test_client.py": {
+        "focal_file": "src/client/client.py",
+        "methods": {
+            "testIsServerInList": {
+                "line": 11,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "Client",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "isServerInList"
+                }
+            }
+        }
+    },
+    "src/tests/client/test_haproxy.py": {
+        "focal_file": "src/client/haproxy.py",
+        "methods": {
+            "testBackendConfReadyIfGoodBackend": {
+                "line": 21,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "HAProxy",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "backendConfReady"
+                }
+            },
+            "testBackendConfReadyIfBadBackend": {
+                "line": 48,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "HAProxy",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "backendConfReady"
+                }
+            },
+            "testPrepareDisabledServer": {
+                "line": 123,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": "HAProxy",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "prepareServer"
+                }
+            },
+            "testPrepareEnabledServer": {
+                "line": 140,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": "HAProxy",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "prepareServer"
+                }
+            }
+        }
+    },
+    "src/tests/common/test_dynamodb.py": {
+        "focal_file": "src/common/dynamodb.py",
+        "methods": {
+            "testFillServer": {
+                "line": 9,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "DynamoDB",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "fillServer"
+                }
+            }
+        }
+    },
+    "src/tests/common/test_prometheus.py": {
+        "focal_file": "src/common/prometheus.py",
+        "methods": {
+            "testMetric": {
+                "line": 10,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": "Prometheus",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "removeMetric"
+                }
+            }
+        }
+    },
+    "src/tests/server/test_server.py": {
+        "focal_file": "src/server/server.py",
+        "methods": {
+            "testUpdateweight": {
+                "line": 14,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": "Server",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "updateWeight"
+                }
+            },
+            "testRemoveDoublonServers": {
+                "line": 69,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": "Server",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "removeDoublonServers"
+                }
+            },
+            "testRemoveUnexistingServers": {
+                "line": 108,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": "Server",
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "removeUnexistingServers"
+                }
+            }
+        }
+    }
+}

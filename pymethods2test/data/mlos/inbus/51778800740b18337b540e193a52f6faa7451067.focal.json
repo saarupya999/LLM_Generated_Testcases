@@ -1,0 +1,84 @@
+{
+    "tests/test_message_sender.py": {
+        "focal_file": "src/inbus/server/message_sender.py",
+        "methods": {
+            "test_message_sender_send_should_call_translate_and_socket_send": {
+                "line": 29,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": "MessageSender",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "send"
+                }
+            }
+        }
+    },
+    "tests/test_registry.py": {
+        "focal_file": "src/inbus/server/registry.py",
+        "methods": {
+            "test_registry_unregistering_only_registered_subscriber_yields_empty_subscribers": {
+                "line": 28,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": "Registry",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "subscribers"
+                }
+            },
+            "test_registry_registering_two_subscribers_differing_in_addr_yields_two_subscribers": {
+                "line": 44,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": "Registry",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "subscribers"
+                }
+            },
+            "test_registry_registering_two_subscribers_differing_in_app_yields_to_subscribers": {
+                "line": 54,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": "Registry",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "subscribers"
+                }
+            },
+            "test_registry_registering_two_same_and_one_different_subscriber_yields_two_subscribers": {
+                "line": 64,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": "Registry",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "subscribers"
+                }
+            },
+            "test_registry_unsubscribing_non_existing_subscribers_does_not_affeect_subscribers": {
+                "line": 75,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": "Registry",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "subscribers"
+                }
+            }
+        }
+    }
+}

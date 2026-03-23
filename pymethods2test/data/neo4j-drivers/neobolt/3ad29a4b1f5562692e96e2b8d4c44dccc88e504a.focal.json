@@ -1,0 +1,255 @@
+{
+    "test/stub/test_routing.py": {
+        "focal_file": "neobolt/routing.py",
+        "methods": {
+            "test_should_not_update_if_fresh": {
+                "line": 306,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 376,
+                    "indent": 4,
+                    "name": "ensure_routing_table_is_fresh"
+                }
+            },
+            "test_should_remove_router_from_routing_table_if_present": {
+                "line": 513,
+                "line_end": 521,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 376,
+                    "indent": 4,
+                    "name": "ensure_routing_table_is_fresh"
+                }
+            },
+            "test_should_remove_reader_from_routing_table_if_present": {
+                "line": 524,
+                "line_end": 532,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 376,
+                    "indent": 4,
+                    "name": "ensure_routing_table_is_fresh"
+                }
+            },
+            "test_should_remove_writer_from_routing_table_if_present": {
+                "line": 535,
+                "line_end": 543,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 376,
+                    "indent": 4,
+                    "name": "ensure_routing_table_is_fresh"
+                }
+            }
+        }
+    },
+    "test/stub/test_direct.py": {
+        "focal_file": "neobolt/direct.py",
+        "methods": {
+            "test_disconnect_on_run": {
+                "line": 178,
+                "line_end": 186,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_disconnect_on_pull_all": {
+                "line": 189,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 455,
+                    "line_end": 457,
+                    "indent": 4,
+                    "name": "pull_all"
+                }
+            },
+            "test_fail_on_commit": {
+                "line": 214,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 481,
+                    "line_end": 483,
+                    "indent": 4,
+                    "name": "commit"
+                }
+            },
+            "test_connection_error_on_commit": {
+                "line": 231,
+                "line_end": 245,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 481,
+                    "line_end": 483,
+                    "indent": 4,
+                    "name": "commit"
+                }
+            }
+        }
+    },
+    "test/unit/test_routing.py": {
+        "focal_file": "neobolt/routing.py",
+        "methods": {
+            "test_should_be_able_to_clear": {
+                "line": 101,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "OrderedSet",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            },
+            "test_should_be_able_to_update": {
+                "line": 126,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": "OrderedSet",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_should_be_able_to_replace": {
+                "line": 131,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": "OrderedSet",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "replace"
+                }
+            },
+            "test_writer_selection_with_clash": {
+                "line": 300,
+                "line_end": 307,
+                "indent": 4,
+                "focal_class": "LeastConnectedLoadBalancingStrategy",
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "select_writer"
+                }
+            }
+        }
+    },
+    "test/unit/test_packstream.py": {
+        "focal_file": "neobolt/packstream/packer.py",
+        "methods": {
+            "test_list_stream": {
+                "line": 197,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": "Packer",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "pack_list_stream_header"
+                }
+            },
+            "test_map_stream": {
+                "line": 242,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": "Packer",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 290,
+                    "indent": 4,
+                    "name": "pack_map_stream_header"
+                }
+            }
+        }
+    },
+    "test/unit/test_direct.py": {
+        "focal_file": "neobolt/direct.py",
+        "methods": {
+            "test_conn_timedout": {
+                "line": 76,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "Connection",
+                "focal_method": {
+                    "line": 627,
+                    "line_end": 628,
+                    "indent": 4,
+                    "name": "timedout"
+                }
+            },
+            "test_conn_not_timedout": {
+                "line": 88,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "Connection",
+                "focal_method": {
+                    "line": 627,
+                    "line_end": 628,
+                    "indent": 4,
+                    "name": "timedout"
+                }
+            },
+            "test_can_acquire_and_release": {
+                "line": 140,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 750,
+                    "line_end": 756,
+                    "indent": 4,
+                    "name": "release"
+                }
+            },
+            "test_cannot_acquire_after_close": {
+                "line": 155,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": "ConnectionPool",
+                "focal_method": {
+                    "line": 645,
+                    "line_end": 662,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_in_use_count": {
+                "line": 162,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 758,
+                    "line_end": 767,
+                    "indent": 4,
+                    "name": "in_use_connection_count"
+                }
+            }
+        }
+    }
+}

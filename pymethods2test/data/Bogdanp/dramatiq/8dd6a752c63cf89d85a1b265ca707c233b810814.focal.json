@@ -1,0 +1,159 @@
+{
+    "tests/test_broker.py": {
+        "focal_file": "dramatiq/broker.py",
+        "methods": {
+            "test_broker_middleware_can_be_added_before_other_middleware": {
+                "line": 27,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "add_middleware"
+                }
+            },
+            "test_broker_middleware_can_be_added_after_other_middleware": {
+                "line": 41,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "add_middleware"
+                }
+            }
+        }
+    },
+    "tests/test_canteen.py": {
+        "focal_file": "dramatiq/canteen.py",
+        "methods": {
+            "test_canteen_add_adds_paths": {
+                "line": 8,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "canteen_add"
+                }
+            },
+            "test_canteen_try_init_runs_at_most_once": {
+                "line": 32,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "canteen_try_init"
+                }
+            }
+        }
+    },
+    "tests/test_rabbitmq.py": {
+        "focal_file": "dramatiq/brokers/rabbitmq.py",
+        "methods": {
+            "test_rabbitmq_broker_reconnects_after_enqueue_failure": {
+                "line": 276,
+                "line_end": 290,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_rabbitmq_consumers_ignore_unknown_messages_in_ack_and_nack": {
+                "line": 332,
+                "line_end": 341,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 478,
+                    "line_end": 488,
+                    "indent": 4,
+                    "name": "nack"
+                }
+            },
+            "test_rabbitmq_broker_can_join_with_timeout": {
+                "line": 363,
+                "line_end": 375,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 422,
+                    "indent": 4,
+                    "name": "join"
+                }
+            },
+            "test_rabbitmq_broker_can_flush_queues": {
+                "line": 378,
+                "line_end": 392,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 385,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "flush_all"
+                }
+            }
+        }
+    },
+    "tests/test_results.py": {
+        "focal_file": "dramatiq/message.py",
+        "methods": {
+            "test_actors_can_store_results": {
+                "line": 12,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "get_result"
+                }
+            },
+            "test_messages_can_get_results_from_backend": {
+                "line": 117,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "get_result"
+                }
+            }
+        }
+    },
+    "tests/middleware/test_threading.py": {
+        "focal_file": "dramatiq/middleware/threading.py",
+        "methods": {
+            "test_raise_thread_exception": {
+                "line": 13,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "raise_thread_exception"
+                }
+            }
+        }
+    }
+}

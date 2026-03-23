@@ -1,0 +1,173 @@
+{
+    "tests/unit/test_semantic_syntax_highlight.py": {
+        "focal_file": "services/source_code_model/semantic_syntax_highlight/semantic_syntax_highlight.py",
+        "methods": {
+            "test_if_semantic_syntax_highlight_visitor_does_not_recurse_into_symbols_from_other_tunits": {
+                "line": 44,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "semantic_syntax_highlight_visitor"
+                }
+            },
+            "test_if_semantic_syntax_highlight_visitor_invokes_client_callback_for_supported_ast_nodes": {
+                "line": 64,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "semantic_syntax_highlight_visitor"
+                }
+            }
+        }
+    },
+    "tests/unit/test_service.py": {
+        "focal_file": "service.py",
+        "methods": {
+            "test_if_send_startup_request_enqueues_correct_data": {
+                "line": 11,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "send_startup_request"
+                }
+            },
+            "test_if_send_shutdown_request_enqueues_correct_data": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "send_shutdown_request"
+                }
+            },
+            "test_if_service_is_not_started_by_default": {
+                "line": 26,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "is_started_up"
+                }
+            },
+            "test_if_service_is_started_after_send_startup_request": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "send_startup_request"
+                }
+            },
+            "test_if_service_is_shut_down_after_send_shutdown_request": {
+                "line": 34,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "send_shutdown_request"
+                }
+            },
+            "test_if_service_is_left_started_after_send_request": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "send_request"
+                }
+            },
+            "test_if_send_shutdown_request_returns_false_after_shutdown": {
+                "line": 189,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "send_shutdown_request"
+                }
+            },
+            "test_if_service_restart_is_handled_well": {
+                "line": 223,
+                "line_end": 232,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "is_started_up"
+                }
+            }
+        }
+    },
+    "tests/unit/test_clang_indexer.py": {
+        "focal_file": "services/source_code_model/indexer/clang_indexer.py",
+        "methods": {
+            "test_if_get_clang_index_path_returns_a_valid_path": {
+                "line": 655,
+                "line_end": 656,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 341,
+                    "indent": 0,
+                    "name": "get_clang_index_path"
+                }
+            },
+            "test_if_get_cpp_file_list_returns_cpp_files_only": {
+                "line": 658,
+                "line_end": 665,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 343,
+                    "line_end": 351,
+                    "indent": 0,
+                    "name": "get_cpp_file_list"
+                }
+            },
+            "test_if_start_indexing_subprocess_invokes_correctly_clang_index_script": {
+                "line": 730,
+                "line_end": 745,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 363,
+                    "line_end": 370,
+                    "indent": 0,
+                    "name": "start_indexing_subprocess"
+                }
+            }
+        }
+    }
+}

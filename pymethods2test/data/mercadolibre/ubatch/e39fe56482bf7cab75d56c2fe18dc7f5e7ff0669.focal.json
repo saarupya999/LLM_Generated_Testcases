@@ -1,0 +1,257 @@
+{
+    "tests/test_data_request.py": {
+        "focal_file": "ubatch/data_request.py",
+        "methods": {
+            "test_datarequest_elapsed_time_use_current_time": {
+                "line": 79,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": "DataRequest",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "elapsed_time"
+                }
+            },
+            "test_datarequest_time_is_over_is_false_if_tll_is_larger_than_zero": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": "DataRequest",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "time_is_over"
+                }
+            },
+            "test_datarequest_time_is_over_is_false_if_tll_is_less_than_zero": {
+                "line": 100,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": "DataRequest",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "time_is_over"
+                }
+            },
+            "test_datarequest_ttl_is_in_s": {
+                "line": 107,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": "DataRequest",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "ttl"
+                }
+            },
+            "test_datarequest_elapsed_time_is_in_s": {
+                "line": 114,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": "DataRequest",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "elapsed_time"
+                }
+            }
+        }
+    },
+    "tests/test_data_request_buffer.py": {
+        "focal_file": "ubatch/data_request.py",
+        "methods": {
+            "test_data_request_buffer_time_is_over_false_on_empty_buffer": {
+                "line": 54,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "time_is_over"
+                }
+            },
+            "test_data_request_buffer_time_is_over_true_if_any": {
+                "line": 60,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": "DataRequest",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "time_is_over"
+                }
+            },
+            "test_data_request_buffer_time_is_over_in_future_if_any": {
+                "line": 78,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": "DataRequest",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "time_is_over"
+                }
+            },
+            "test_data_request_buffer_full_true_if_full": {
+                "line": 95,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "full"
+                }
+            },
+            "test_data_request_buffer_full_false_if_not_full": {
+                "line": 104,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "full"
+                }
+            },
+            "test_data_request_buffer_space_left_when_not_elements": {
+                "line": 112,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "space_left"
+                }
+            },
+            "test_data_request_buffer_space_left_decrease_on_elements": {
+                "line": 117,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "space_left"
+                }
+            },
+            "test_data_request_buffer_get_inputs_return_data_value": {
+                "line": 130,
+                "line_end": 135,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "get_inputs"
+                }
+            },
+            "test_data_request_buffer_set_outputs_store_outputs_in_order": {
+                "line": 138,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "set_outputs"
+                }
+            },
+            "test_data_request_buffer_set_exception_store_exception_in_all": {
+                "line": 151,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": "DataRequestBuffer",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "set_exception"
+                }
+            }
+        }
+    },
+    "tests/test_ubatch.py": {
+        "focal_file": "ubatch/ubatch.py",
+        "methods": {
+            "test_ubatch_procces_in_batch_set_outputs": {
+                "line": 40,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_procces_in_batch"
+                }
+            },
+            "test_ubatch_procces_in_batch_set_exceptions": {
+                "line": 58,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_procces_in_batch"
+                }
+            },
+            "test_ubatch_wait_ready_buffer_break_when_buffer_full": {
+                "line": 82,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "_wait_buffer_ready"
+                }
+            },
+            "test_ubatch_wait_ready_buffer_break_when_buffer_timeout": {
+                "line": 96,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "_wait_buffer_ready"
+                }
+            },
+            "test_procces_in_batch_raise_handler_not_set": {
+                "line": 129,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_procces_in_batch"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,582 @@
+{
+    "packages/source/cinder/cinder/tests/test_xenapi_sm.py": {
+        "focal_file": "packages/source/cinder/cinder/volume/drivers/xenapi/sm.py",
+        "methods": {
+            "test_do_setup": {
+                "line": 67,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": "cinder.volume.driver.XenAPINFSDriver",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "do_setup"
+                }
+            },
+            "test_create_volume": {
+                "line": 95,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "create_volume"
+                }
+            },
+            "test_delete_volume": {
+                "line": 116,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "delete_volume"
+                }
+            },
+            "test_initialize_connection": {
+                "line": 140,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "initialize_connection"
+                }
+            },
+            "test_initialize_connection_null_values": {
+                "line": 172,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "initialize_connection"
+                }
+            },
+            "test_create_snapshot": {
+                "line": 220,
+                "line_end": 239,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "create_snapshot"
+                }
+            },
+            "test_create_volume_from_snapshot": {
+                "line": 241,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "create_volume_from_snapshot"
+                }
+            },
+            "test_delete_snapshot": {
+                "line": 261,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "delete_snapshot"
+                }
+            },
+            "test_copy_volume_to_image_xenserver_case": {
+                "line": 274,
+                "line_end": 293,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "copy_volume_to_image"
+                }
+            },
+            "test_copy_volume_to_image_non_xenserver_case": {
+                "line": 295,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "copy_volume_to_image"
+                }
+            },
+            "test_use_image_utils_to_upload_volume": {
+                "line": 316,
+                "line_end": 335,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "_use_image_utils_to_upload_volume"
+                }
+            },
+            "test_copy_image_to_volume_xenserver_case": {
+                "line": 357,
+                "line_end": 373,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "copy_image_to_volume"
+                }
+            },
+            "test_copy_image_to_volume_non_xenserver_case": {
+                "line": 375,
+                "line_end": 390,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "copy_image_to_volume"
+                }
+            },
+            "test_use_image_utils_to_pipe_bytes_to_volume": {
+                "line": 392,
+                "line_end": 411,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "_use_image_utils_to_pipe_bytes_to_volume"
+                }
+            },
+            "test_use_glance_plugin_to_copy_image_to_volume_success": {
+                "line": 413,
+                "line_end": 435,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "_use_glance_plugin_to_copy_image_to_volume"
+                }
+            },
+            "test_use_glance_plugin_to_copy_image_to_volume_fail": {
+                "line": 437,
+                "line_end": 460,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "_use_glance_plugin_to_copy_image_to_volume"
+                }
+            },
+            "test_get_volume_stats_reports_required_keys": {
+                "line": 462,
+                "line_end": 474,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "get_volume_stats"
+                }
+            },
+            "test_get_volume_stats_reports_unknown_cap": {
+                "line": 476,
+                "line_end": 481,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "get_volume_stats"
+                }
+            }
+        }
+    },
+    "packages/source/swift/test/unit/common/test_constraints.py": {
+        "focal_file": "packages/source/swift/swift/common/constraints.py",
+        "methods": {
+            "test_check_metadata_empty": {
+                "line": 28,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "check_metadata"
+                }
+            },
+            "test_check_metadata_good": {
+                "line": 33,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "check_metadata"
+                }
+            },
+            "test_check_metadata_count": {
+                "line": 63,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "check_metadata"
+                }
+            },
+            "test_check_metadata_size": {
+                "line": 73,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "check_metadata"
+                }
+            },
+            "test_check_object_creation_content_length": {
+                "line": 98,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "check_object_creation"
+                }
+            },
+            "test_check_object_creation_name_length": {
+                "line": 117,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "check_object_creation"
+                }
+            },
+            "test_check_object_creation_content_type": {
+                "line": 128,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "check_object_creation"
+                }
+            },
+            "test_check_object_creation_bad_content_type": {
+                "line": 138,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "check_object_creation"
+                }
+            },
+            "test_check_mount": {
+                "line": 172,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "check_mount"
+                }
+            },
+            "test_check_float": {
+                "line": 183,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "check_float"
+                }
+            },
+            "test_check_utf8": {
+                "line": 187,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 207,
+                    "indent": 0,
+                    "name": "check_utf8"
+                }
+            }
+        }
+    },
+    "packages/source/swift/test/unit/common/test_daemon.py": {
+        "focal_file": "packages/source/swift/swift/common/daemon.py",
+        "methods": {
+            "test_run": {
+                "line": 72,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_run_daemon": {
+                "line": 83,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "run_daemon"
+                }
+            }
+        }
+    },
+    "packages/source/swift/test/unit/common/middleware/test_acl.py": {
+        "focal_file": "packages/source/swift/swift/common/middleware/acl.py",
+        "methods": {
+            "test_clean_acl": {
+                "line": 23,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "clean_acl"
+                }
+            },
+            "test_parse_acl": {
+                "line": 69,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "parse_acl"
+                }
+            },
+            "test_referrer_allowed": {
+                "line": 84,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "referrer_allowed"
+                }
+            }
+        }
+    },
+    "packages/source/swift/test/unit/common/middleware/test_keystoneauth.py": {
+        "focal_file": "packages/source/swift/swift/common/middleware/keystoneauth.py",
+        "methods": {
+            "test_blank_reseller_prefix": {
+                "line": 113,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_reseller_check"
+                }
+            },
+            "test_cross_tenant_authorization_success": {
+                "line": 287,
+                "line_end": 293,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "_authorize_cross_tenant"
+                }
+            }
+        }
+    },
+    "packages/source/swift/test/unit/common/middleware/test_tempurl.py": {
+        "focal_file": "packages/source/swift/swift/common/middleware/tempurl.py",
+        "methods": {
+            "test_get_account": {
+                "line": 497,
+                "line_end": 525,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 292,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "_get_account"
+                }
+            },
+            "test_get_temp_url_info": {
+                "line": 527,
+                "line_end": 545,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 311,
+                    "line_end": 335,
+                    "indent": 4,
+                    "name": "_get_temp_url_info"
+                }
+            },
+            "test_get_hmac": {
+                "line": 570,
+                "line_end": 578,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 372,
+                    "line_end": 393,
+                    "indent": 4,
+                    "name": "_get_hmac"
+                }
+            },
+            "test_invalid": {
+                "line": 580,
+                "line_end": 590,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 395,
+                    "line_end": 410,
+                    "indent": 4,
+                    "name": "_invalid"
+                }
+            },
+            "test_clean_incoming_headers": {
+                "line": 592,
+                "line_end": 638,
+                "indent": 4,
+                "focal_class": "swift.common.middleware.tempurl.TempURL",
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 435,
+                    "indent": 4,
+                    "name": "_clean_incoming_headers"
+                }
+            },
+            "test_clean_outgoing_headers": {
+                "line": 640,
+                "line_end": 691,
+                "indent": 4,
+                "focal_class": "swift.common.middleware.tempurl.TempURL",
+                "focal_method": {
+                    "line": 437,
+                    "line_end": 467,
+                    "indent": 4,
+                    "name": "_clean_outgoing_headers"
+                }
+            }
+        }
+    },
+    "packages/source/swift/test/unit/common/ring/test_utils.py": {
+        "focal_file": "packages/source/swift/swift/common/ring/utils.py",
+        "methods": {
+            "test_tiers_for_dev": {
+                "line": 57,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "tiers_for_dev"
+                }
+            },
+            "test_build_tier_tree": {
+                "line": 64,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "build_tier_tree"
+                }
+            }
+        }
+    },
+    "packages/source/swift/test/unit/container/test_replicator.py": {
+        "focal_file": "packages/source/swift/swift/container/replicator.py",
+        "methods": {
+            "test_report_up_to_date": {
+                "line": 30,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "swift.container.replicator.ContainerReplicator",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "report_up_to_date"
+                }
+            }
+        }
+    }
+}

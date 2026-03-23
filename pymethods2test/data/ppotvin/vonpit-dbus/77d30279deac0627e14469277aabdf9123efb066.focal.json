@@ -1,0 +1,89 @@
+{
+    "src/vonpit_dbus/auth_mechanism/tests/test_anonymous.py": {
+        "focal_file": "src/vonpit_dbus/auth_mechanism/anonymous.py",
+        "methods": {
+            "test_when_get_initial_response_should_return_nothing": {
+                "line": 14,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": "AnonymousAuthMechanism",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "get_initial_response"
+                }
+            }
+        }
+    },
+    "src/vonpit_dbus/tests/test_client_connection.py": {
+        "focal_file": "src/vonpit_dbus/client_connection.py",
+        "methods": {
+            "test_when_request_available_mechanisms_should_return_available_mechanisms": {
+                "line": 23,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "request_available_mechanisms"
+                }
+            },
+            "test_invalid_answer_when_request_available_mechanisms_should_raise_DbusConnectionError": {
+                "line": 38,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "request_available_mechanisms"
+                }
+            },
+            "test_error_answer_when_request_available_mechanisms_should_raise_DbusConnectionError": {
+                "line": 50,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "request_available_mechanisms"
+                }
+            }
+        }
+    },
+    "src/vonpit_dbus/transports/tests/test_socket.py": {
+        "focal_file": "src/vonpit_dbus/transports/socket.py",
+        "methods": {
+            "test_when_send_null_byte_should_send_null_byte": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": "SocketClientTransport",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "send_null_byte"
+                }
+            },
+            "test_when_send_line_should_send_line": {
+                "line": 22,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "SocketClientTransport",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "send_line"
+                }
+            }
+        }
+    }
+}

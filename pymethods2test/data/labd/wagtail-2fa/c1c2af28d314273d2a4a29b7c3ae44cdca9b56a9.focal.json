@@ -1,0 +1,48 @@
+{
+    "tests/test_middleware.py": {
+        "focal_file": "src/wagtail_2fa/middleware.py",
+        "methods": {
+            "test_verified_request": {
+                "line": 11,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": "VerifyUserMiddleware",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "process_request"
+                }
+            },
+            "test_get_paths": {
+                "line": 97,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": "VerifyUserMiddleware",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "_get_paths"
+                }
+            }
+        }
+    },
+    "tests/test_mixins.py": {
+        "focal_file": "src/wagtail_2fa/mixins.py",
+        "methods": {
+            "test_handle_no_permission_raises_if_authenticated": {
+                "line": 13,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "OtpRequiredMixin",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "handle_no_permission"
+                }
+            }
+        }
+    }
+}

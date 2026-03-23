@@ -1,0 +1,392 @@
+{
+    "tests/nn/initializers_test.py": {
+        "focal_file": "allennlp/nn/initializers.py",
+        "methods": {
+            "test_block_orthogonal_can_initialize": {
+                "line": 55,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "block_orthogonal"
+                }
+            },
+            "test_uniform_unit_scaling_can_initialize": {
+                "line": 74,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "uniform_unit_scaling"
+                }
+            }
+        }
+    },
+    "tests/nn/util_test.py": {
+        "focal_file": "allennlp/nn/util.py",
+        "methods": {
+            "test_get_sequence_lengths_from_binary_mask": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "get_lengths_from_binary_sequence_mask"
+                }
+            },
+            "test_sort_tensor_by_length": {
+                "line": 34,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "sort_batch_by_length"
+                }
+            },
+            "test_masked_softmax_no_mask": {
+                "line": 62,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "masked_softmax"
+                }
+            },
+            "test_masked_softmax_masked": {
+                "line": 95,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "masked_softmax"
+                }
+            },
+            "test_masked_log_softmax_masked": {
+                "line": 174,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "masked_log_softmax"
+                }
+            },
+            "test_viterbi_decode": {
+                "line": 339,
+                "line_end": 412,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 257,
+                    "indent": 0,
+                    "name": "viterbi_decode"
+                }
+            },
+            "test_sequence_cross_entropy_with_logits_masks_loss_correctly": {
+                "line": 414,
+                "line_end": 439,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 380,
+                    "line_end": 434,
+                    "indent": 0,
+                    "name": "sequence_cross_entropy_with_logits"
+                }
+            },
+            "test_sequence_cross_entropy_with_logits_averages_batch_correctly": {
+                "line": 441,
+                "line_end": 460,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 380,
+                    "line_end": 434,
+                    "indent": 0,
+                    "name": "sequence_cross_entropy_with_logits"
+                }
+            },
+            "test_logsumexp": {
+                "line": 468,
+                "line_end": 484,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 564,
+                    "line_end": 586,
+                    "indent": 0,
+                    "name": "logsumexp"
+                }
+            },
+            "test_flatten_and_batch_shift_indices": {
+                "line": 486,
+                "line_end": 498,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 588,
+                    "line_end": 629,
+                    "indent": 0,
+                    "name": "flatten_and_batch_shift_indices"
+                }
+            },
+            "test_batched_index_select": {
+                "line": 500,
+                "line_end": 523,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 632,
+                    "line_end": 682,
+                    "indent": 0,
+                    "name": "batched_index_select"
+                }
+            },
+            "test_flattened_index_select": {
+                "line": 525,
+                "line_end": 551,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 685,
+                    "line_end": 714,
+                    "indent": 0,
+                    "name": "flattened_index_select"
+                }
+            },
+            "test_bucket_values": {
+                "line": 553,
+                "line_end": 557,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 729,
+                    "line_end": 766,
+                    "indent": 0,
+                    "name": "bucket_values"
+                }
+            },
+            "test_add_sentence_boundary_token_ids_handles_2D_input": {
+                "line": 559,
+                "line_end": 568,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 822,
+                    "indent": 0,
+                    "name": "add_sentence_boundary_token_ids"
+                }
+            },
+            "test_add_sentence_boundary_token_ids_handles_3D_input": {
+                "line": 570,
+                "line_end": 593,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 822,
+                    "indent": 0,
+                    "name": "add_sentence_boundary_token_ids"
+                }
+            },
+            "test_remove_sentence_boundaries": {
+                "line": 595,
+                "line_end": 615,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 824,
+                    "line_end": 864,
+                    "indent": 0,
+                    "name": "remove_sentence_boundaries"
+                }
+            },
+            "test_add_positional_features": {
+                "line": 617,
+                "line_end": 641,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 867,
+                    "line_end": 918,
+                    "indent": 0,
+                    "name": "add_positional_features"
+                }
+            }
+        }
+    },
+    "tests/common/file_utils_test.py": {
+        "focal_file": "allennlp/common/file_utils.py",
+        "methods": {
+            "test_url_to_filename": {
+                "line": 55,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "url_to_filename"
+                }
+            },
+            "test_url_to_filename_with_etags": {
+                "line": 65,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "url_to_filename"
+                }
+            },
+            "test_get_from_cache": {
+                "line": 86,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "get_from_cache"
+                }
+            },
+            "test_cached_path": {
+                "line": 130,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "cached_path"
+                }
+            }
+        }
+    },
+    "tests/data/vocabulary_test.py": {
+        "focal_file": "allennlp/data/vocabulary.py",
+        "methods": {
+            "test_namespaces": {
+                "line": 106,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": "Vocabulary",
+                "focal_method": {
+                    "line": 380,
+                    "line_end": 394,
+                    "indent": 4,
+                    "name": "add_token_to_namespace"
+                }
+            },
+            "test_from_params": {
+                "line": 266,
+                "line_end": 294,
+                "indent": 4,
+                "focal_class": "Vocabulary",
+                "focal_method": {
+                    "line": 337,
+                    "line_end": 378,
+                    "indent": 4,
+                    "name": "from_params"
+                }
+            }
+        }
+    },
+    "tests/training/trainer_test.py": {
+        "focal_file": "allennlp/training/trainer.py",
+        "methods": {
+            "test_trainer_can_run": {
+                "line": 41,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "Trainer",
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 411,
+                    "indent": 4,
+                    "name": "train"
+                }
+            },
+            "test_trainer_can_resume_training": {
+                "line": 46,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "Trainer",
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 411,
+                    "indent": 4,
+                    "name": "train"
+                }
+            },
+            "test_should_stop_early_with_increasing_metric": {
+                "line": 64,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "Trainer",
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 276,
+                    "indent": 4,
+                    "name": "_should_stop_early"
+                }
+            },
+            "test_should_stop_early_with_decreasing_metric": {
+                "line": 73,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "Trainer",
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 276,
+                    "indent": 4,
+                    "name": "_should_stop_early"
+                }
+            }
+        }
+    },
+    "tests/models/semantic_role_labeler_test.py": {
+        "focal_file": "allennlp/models/semantic_role_labeler.py",
+        "methods": {
+            "test_bio_tags_correctly_convert_to_conll_format": {
+                "line": 49,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 304,
+                    "indent": 0,
+                    "name": "convert_bio_tags_to_conll_format"
+                }
+            }
+        }
+    }
+}

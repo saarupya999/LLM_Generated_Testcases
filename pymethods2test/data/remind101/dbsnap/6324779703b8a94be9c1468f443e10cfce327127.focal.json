@@ -1,0 +1,274 @@
+{
+    "tests/test_dbsnap_copy.py": {
+        "focal_file": "dbsnap_copy/__init__.py",
+        "methods": {
+            "test_invalid_parse_source": {
+                "line": 18,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "parse_source"
+                }
+            },
+            "test_valid_parse_source": {
+                "line": 23,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "parse_source"
+                }
+            },
+            "test_invalid_parse_destination": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "parse_destination"
+                }
+            },
+            "test_valid_parse_destination": {
+                "line": 43,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "parse_destination"
+                }
+            },
+            "test_sanitize_snapshot_name": {
+                "line": 59,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "sanitize_snapshot_name"
+                }
+            },
+            "test_get_snapshot_target_name": {
+                "line": 70,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "get_snapshot_target_name"
+                }
+            }
+        }
+    },
+    "tests/test_datadog_output.py": {
+        "focal_file": "dbsnap_verify/datadog_output.py",
+        "methods": {
+            "test_datadog_check_ok": {
+                "line": 10,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "datadog_lambda_check_output"
+                }
+            },
+            "test_datadog_check_critical": {
+                "line": 20,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "datadog_lambda_check_output"
+                }
+            },
+            "test_datadog_check_multi_tags": {
+                "line": 30,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "datadog_lambda_check_output"
+                }
+            },
+            "test_datadog_check_string_tag": {
+                "line": 38,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "datadog_lambda_check_output"
+                }
+            },
+            "test_datadog_check_string_tag2": {
+                "line": 46,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "datadog_lambda_check_output"
+                }
+            },
+            "test_datadog_check_list_tags": {
+                "line": 54,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "datadog_lambda_check_output"
+                }
+            },
+            "test_datadog_output_invalid_metric_type": {
+                "line": 62,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "datadog_lambda_metric_output"
+                }
+            }
+        }
+    },
+    "tests/test_integration.py": {
+        "focal_file": "dbsnap_verify/state_doc.py",
+        "methods": {
+            "test_get_or_create_state_doc_in_s3_doc_found_in_s3": {
+                "line": 57,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 348,
+                    "indent": 0,
+                    "name": "get_or_create_state_doc"
+                }
+            },
+            "test_get_or_create_state_doc_in_s3_missing_key": {
+                "line": 68,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 348,
+                    "indent": 0,
+                    "name": "get_or_create_state_doc"
+                }
+            },
+            "test_get_or_create_state_doc_from_sns_rds_event_found": {
+                "line": 80,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 348,
+                    "indent": 0,
+                    "name": "get_or_create_state_doc"
+                }
+            }
+        }
+    },
+    "tests/test_state_doc.py": {
+        "focal_file": "dbsnap_verify/state_doc.py",
+        "methods": {
+            "test_transition": {
+                "line": 97,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "transition_state"
+                }
+            },
+            "test_transition_2": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "transition_state"
+                }
+            },
+            "test_clean": {
+                "line": 145,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "clean"
+                }
+            },
+            "test_valid_transitions": {
+                "line": 155,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "transition_state"
+                }
+            },
+            "test_invalid_transitions": {
+                "line": 180,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "transition_state"
+                }
+            }
+        }
+    }
+}

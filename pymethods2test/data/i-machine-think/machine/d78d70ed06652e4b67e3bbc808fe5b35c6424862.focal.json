@@ -1,0 +1,60 @@
+{
+    "test/test_loss_loss.py": {
+        "focal_file": "machine/loss/loss.py",
+        "methods": {
+            "test_loss_backward_WITH_NO_LOSS": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "torch.nn.NLLLoss",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            },
+            "test_nllloss": {
+                "line": 49,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "torch.nn.NLLLoss",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "get_loss"
+                }
+            }
+        }
+    },
+    "test/test_checkpoint.py": {
+        "focal_file": "machine/util/checkpoint.py",
+        "methods": {
+            "test_save_checkpoint_calls_torch_save": {
+                "line": 27,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "Checkpoint",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_load": {
+                "line": 61,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    }
+}

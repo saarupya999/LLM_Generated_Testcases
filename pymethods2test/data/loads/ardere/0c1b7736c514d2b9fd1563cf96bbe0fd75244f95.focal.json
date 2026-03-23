@@ -1,0 +1,593 @@
+{
+    "tests/test_aws.py": {
+        "focal_file": "ardere/aws.py",
+        "methods": {
+            "test_query_active": {
+                "line": 42,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "query_active_instances"
+                }
+            },
+            "test_calculate_missing_instances": {
+                "line": 64,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 249,
+                    "indent": 4,
+                    "name": "calculate_missing_instances"
+                }
+            },
+            "test_has_metrics_node": {
+                "line": 71,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "has_metrics_node"
+                }
+            },
+            "test_has_started_metric_creation": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 266,
+                    "indent": 4,
+                    "name": "has_started_metric_creation"
+                }
+            },
+            "test_has_finished_metric_creation": {
+                "line": 98,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 268,
+                    "line_end": 276,
+                    "indent": 4,
+                    "name": "has_finished_metric_creation"
+                }
+            },
+            "test_request_instances": {
+                "line": 103,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 278,
+                    "line_end": 305,
+                    "indent": 4,
+                    "name": "request_instances"
+                }
+            },
+            "test_locate_metrics_container_ip": {
+                "line": 114,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 307,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "locate_metrics_container_ip"
+                }
+            },
+            "test_locate_metrics_container_ip_not_found": {
+                "line": 129,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 307,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "locate_metrics_container_ip"
+                }
+            },
+            "test_locate_metrics_service": {
+                "line": 137,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 332,
+                    "line_end": 343,
+                    "indent": 4,
+                    "name": "locate_metrics_service"
+                }
+            },
+            "test_locate_metrics_service_not_found": {
+                "line": 147,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 332,
+                    "line_end": 343,
+                    "indent": 4,
+                    "name": "locate_metrics_service"
+                }
+            },
+            "test_create_metrics_service": {
+                "line": 155,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "create_metrics_service"
+                }
+            },
+            "test_run_metric_creation_task": {
+                "line": 171,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 489,
+                    "indent": 4,
+                    "name": "run_metric_creation_task"
+                }
+            },
+            "test_create_service": {
+                "line": 177,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 491,
+                    "line_end": 609,
+                    "indent": 4,
+                    "name": "create_service"
+                }
+            },
+            "test_create_services": {
+                "line": 207,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 611,
+                    "line_end": 615,
+                    "indent": 4,
+                    "name": "create_services"
+                }
+            },
+            "test_create_services_ecs_error": {
+                "line": 213,
+                "line_end": 225,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 611,
+                    "line_end": 615,
+                    "indent": 4,
+                    "name": "create_services"
+                }
+            },
+            "test_service_ready_true": {
+                "line": 227,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 617,
+                    "line_end": 630,
+                    "indent": 4,
+                    "name": "service_ready"
+                }
+            },
+            "test_service_not_known_yet": {
+                "line": 243,
+                "line_end": 252,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 617,
+                    "line_end": 630,
+                    "indent": 4,
+                    "name": "service_ready"
+                }
+            },
+            "test_all_services_ready": {
+                "line": 254,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 632,
+                    "line_end": 637,
+                    "indent": 4,
+                    "name": "all_services_ready"
+                }
+            },
+            "test_service_done_true": {
+                "line": 261,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 639,
+                    "line_end": 650,
+                    "indent": 4,
+                    "name": "service_done"
+                }
+            },
+            "test_service_not_known": {
+                "line": 274,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 639,
+                    "line_end": 650,
+                    "indent": 4,
+                    "name": "service_done"
+                }
+            },
+            "test_all_services_done": {
+                "line": 287,
+                "line_end": 291,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 652,
+                    "line_end": 658,
+                    "indent": 4,
+                    "name": "all_services_done"
+                }
+            },
+            "test_stop_finished_service_stopped": {
+                "line": 293,
+                "line_end": 301,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 660,
+                    "line_end": 678,
+                    "indent": 4,
+                    "name": "stop_finished_service"
+                }
+            },
+            "test_stop_finished_service_stop_already_stopped": {
+                "line": 303,
+                "line_end": 311,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 660,
+                    "line_end": 678,
+                    "indent": 4,
+                    "name": "stop_finished_service"
+                }
+            },
+            "test_stop_finished_service_still_running": {
+                "line": 313,
+                "line_end": 321,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 660,
+                    "line_end": 678,
+                    "indent": 4,
+                    "name": "stop_finished_service"
+                }
+            },
+            "test_stop_finished_services": {
+                "line": 323,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 680,
+                    "line_end": 684,
+                    "indent": 4,
+                    "name": "stop_finished_services"
+                }
+            },
+            "test_shutdown_plan": {
+                "line": 331,
+                "line_end": 349,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 686,
+                    "line_end": 751,
+                    "indent": 4,
+                    "name": "shutdown_plan"
+                }
+            },
+            "test_shutdown_plan_update_error": {
+                "line": 351,
+                "line_end": 373,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 686,
+                    "line_end": 751,
+                    "indent": 4,
+                    "name": "shutdown_plan"
+                }
+            },
+            "test_shutdown_plan_describe_error": {
+                "line": 375,
+                "line_end": 395,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 686,
+                    "line_end": 751,
+                    "indent": 4,
+                    "name": "shutdown_plan"
+                }
+            },
+            "test_shutdown_plan_delete_error": {
+                "line": 397,
+                "line_end": 419,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 686,
+                    "line_end": 751,
+                    "indent": 4,
+                    "name": "shutdown_plan"
+                }
+            },
+            "test_shutdown_plan_deregister_error": {
+                "line": 421,
+                "line_end": 444,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 686,
+                    "line_end": 751,
+                    "indent": 4,
+                    "name": "shutdown_plan"
+                }
+            }
+        }
+    },
+    "tests/test_metric_creator.py": {
+        "focal_file": "ardere/scripts/metric_creator.py",
+        "methods": {
+            "test_load_dashboard": {
+                "line": 15,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "_load_dashboard"
+                }
+            },
+            "test_create_dashboard": {
+                "line": 30,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "_create_dashboard"
+                }
+            },
+            "test_ensure_dashboard_create": {
+                "line": 45,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "_ensure_dashboard"
+                }
+            },
+            "test_create_datasources": {
+                "line": 65,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "create_datasources"
+                }
+            }
+        }
+    },
+    "tests/test_step_functions.py": {
+        "focal_file": "ardere/step_functions.py",
+        "methods": {
+            "test_build_instance_map": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "_build_instance_map"
+                }
+            },
+            "test_find_test_plan_duration": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "_find_test_plan_duration"
+                }
+            },
+            "test_populate_missing_instances": {
+                "line": 48,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "populate_missing_instances"
+                }
+            },
+            "test_ensure_metrics_available_running": {
+                "line": 100,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "ensure_metrics_available"
+                }
+            },
+            "test_ensure_metrics_available_disabled": {
+                "line": 142,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "ensure_metrics_available"
+                }
+            },
+            "test_ensure_metric_sources_created": {
+                "line": 146,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 285,
+                    "indent": 4,
+                    "name": "ensure_metric_sources_created"
+                }
+            },
+            "test_ensure_metric_sources_created_not_enabled": {
+                "line": 170,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 285,
+                    "indent": 4,
+                    "name": "ensure_metric_sources_created"
+                }
+            },
+            "test_create_ecs_services": {
+                "line": 209,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "create_ecs_services"
+                }
+            },
+            "test_wait_for_cluster_ready_all_ready": {
+                "line": 220,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 300,
+                    "indent": 4,
+                    "name": "wait_for_cluster_ready"
+                }
+            },
+            "test_signal_cluster_start": {
+                "line": 225,
+                "line_end": 229,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 316,
+                    "indent": 4,
+                    "name": "signal_cluster_start"
+                }
+            },
+            "test_check_for_cluster_done_not_done": {
+                "line": 231,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 318,
+                    "line_end": 345,
+                    "indent": 4,
+                    "name": "check_for_cluster_done"
+                }
+            },
+            "test_cleanup_cluster": {
+                "line": 279,
+                "line_end": 283,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "cleanup_cluster"
+                }
+            },
+            "test_cleanup_cluster_error": {
+                "line": 285,
+                "line_end": 294,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "cleanup_cluster"
+                }
+            },
+            "test_drain_check_draining": {
+                "line": 296,
+                "line_end": 302,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 363,
+                    "line_end": 368,
+                    "indent": 4,
+                    "name": "check_drained"
+                }
+            }
+        }
+    }
+}

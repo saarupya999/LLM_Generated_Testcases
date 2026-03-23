@@ -1,0 +1,253 @@
+{
+    "tests/integration/oauth_adapter_test.py": {
+        "focal_file": "bond_app/oauth_adapter.py",
+        "methods": {
+            "test_build_authz_url": {
+                "line": 89,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "build_authz_url"
+                }
+            },
+            "test_refresh_access_token": {
+                "line": 108,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "refresh_access_token"
+                }
+            },
+            "test_revoke_refresh_token": {
+                "line": 121,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "revoke_refresh_token"
+                }
+            }
+        }
+    },
+    "tests/unit/bond_test.py": {
+        "focal_file": "bond_app/bond.py",
+        "methods": {
+            "test_exchange_authz_code": {
+                "line": 57,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "exchange_authz_code"
+                }
+            },
+            "test_exchange_authz_code_missing_token": {
+                "line": 62,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "Bond",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "exchange_authz_code"
+                }
+            },
+            "test_generate_access_token": {
+                "line": 106,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "generate_access_token"
+                }
+            },
+            "test_link_info_exists": {
+                "line": 140,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_link_info"
+                }
+            },
+            "test_build_authz_url_with_extra_params": {
+                "line": 161,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "build_authz_url"
+                }
+            }
+        }
+    },
+    "tests/unit/open_id_config_test.py": {
+        "focal_file": "bond_app/open_id_config.py",
+        "methods": {
+            "test_get_open_id_config_value_missing": {
+                "line": 29,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_config_value"
+                }
+            },
+            "test_get_open_id_config_value_missing_no_exception": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_config_value"
+                }
+            },
+            "test_get_token_info_url": {
+                "line": 36,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "get_token_info_url"
+                }
+            },
+            "test_get_revoke_url": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_revoke_url"
+                }
+            }
+        }
+    },
+    "tests/unit/fence_token_vending_test.py": {
+        "focal_file": "bond_app/fence_token_vending.py",
+        "methods": {
+            "test_no_service_account": {
+                "line": 24,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "FenceTokenVendingMachine",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "get_service_account_key_json"
+                }
+            }
+        }
+    },
+    "tests/datastore_emulator/token_store_test.py": {
+        "focal_file": "bond_app/token_store.py",
+        "methods": {
+            "test_save": {
+                "line": 23,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "TokenStore",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_lookup": {
+                "line": 33,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "TokenStore",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "lookup"
+                }
+            },
+            "test_kind_name": {
+                "line": 46,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "kind_name"
+                }
+            }
+        }
+    },
+    "tests/datastore_emulator/fence_token_storage_test.py": {
+        "focal_file": "bond_app/fence_token_storage.py",
+        "methods": {
+            "test_delete": {
+                "line": 113,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "FenceTokenStorage",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            }
+        }
+    },
+    "tests/datastore_emulator/datastore_cache_api_test.py": {
+        "focal_file": "bond_app/datastore_cache_api.py",
+        "methods": {
+            "test_delete_removes_expired_entries": {
+                "line": 14,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "DatastoreCacheApi",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "delete_expired_entries"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,416 @@
+{
+    "tests/unit/test_cache.py": {
+        "focal_file": "greendns/cache.py",
+        "methods": {
+            "test_iteritems": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "iteritems"
+                }
+            },
+            "test_remove": {
+                "line": 26,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_find": {
+                "line": 36,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "find"
+                }
+            },
+            "test_validate": {
+                "line": 47,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            }
+        }
+    },
+    "tests/unit/test_connection.py": {
+        "focal_file": "greendns/connection.py",
+        "methods": {
+            "test_udp_bind": {
+                "line": 103,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": "greendns.connection.UDPConnection",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "bind"
+                }
+            },
+            "test_tcp_bind": {
+                "line": 189,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": "greendns.connection.TCPConnection",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "bind"
+                }
+            },
+            "test_aconnect_fail": {
+                "line": 197,
+                "line_end": 205,
+                "indent": 0,
+                "focal_class": "greendns.connection.TCPConnection",
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "aconnect"
+                }
+            }
+        }
+    },
+    "tests/unit/test_handler_greendns.py": {
+        "focal_file": "greendns/handler_greendns.py",
+        "methods": {
+            "test_init": {
+                "line": 53,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "init"
+                }
+            },
+            "test_new_session": {
+                "line": 61,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "new_session"
+                }
+            },
+            "test_on_client_request_invalid": {
+                "line": 66,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "on_client_request"
+                }
+            },
+            "test_on_client_request_without_cached": {
+                "line": 74,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "on_client_request"
+                }
+            },
+            "test_on_client_request_with_cached": {
+                "line": 81,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "on_client_request"
+                }
+            },
+            "test_on_client_request_with_cache_expired": {
+                "line": 98,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "on_client_request"
+                }
+            },
+            "test_on_upstream_response_BD": {
+                "line": 114,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            },
+            "test_on_upstream_response_AD": {
+                "line": 134,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            },
+            "test_on_upstream_response_AC": {
+                "line": 154,
+                "line_end": 171,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            },
+            "test_on_upstream_response_BC": {
+                "line": 174,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            },
+            "test_on_upstream_response_invalid_A": {
+                "line": 194,
+                "line_end": 209,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            },
+            "test_on_upstream_response_not_A": {
+                "line": 212,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            },
+            "test_on_upstream_response_invalid_not_A": {
+                "line": 229,
+                "line_end": 234,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            }
+        }
+    },
+    "tests/unit/test_handler_quickest.py": {
+        "focal_file": "greendns/handler_quickest.py",
+        "methods": {
+            "test_new_session": {
+                "line": 13,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "new_session"
+                }
+            },
+            "test_on_upstream_response": {
+                "line": 18,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "on_upstream_response"
+                }
+            }
+        }
+    },
+    "tests/unit/test_ioloop.py": {
+        "focal_file": "greendns/ioloop.py",
+        "methods": {
+            "test_register": {
+                "line": 43,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_unregister": {
+                "line": 52,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "register"
+                }
+            }
+        }
+    },
+    "tests/unit/test_server.py": {
+        "focal_file": "greendns/server.py",
+        "methods": {
+            "test_check_loglevel": {
+                "line": 82,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "check_loglevel"
+                }
+            },
+            "test_load_mod": {
+                "line": 89,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "load_mod"
+                }
+            },
+            "test_check_handler": {
+                "line": 96,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "check_handler"
+                }
+            },
+            "test_setup_logger": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "setup_logger"
+                }
+            },
+            "test_parse_config": {
+                "line": 110,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "parse_config"
+                }
+            },
+            "test_parse_config_without_listen_ip": {
+                "line": 124,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "parse_config"
+                }
+            },
+            "test_parse_config_help": {
+                "line": 135,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "parse_config"
+                }
+            },
+            "test_run_forwarder": {
+                "line": 146,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "init_forwarder"
+                }
+            }
+        }
+    }
+}

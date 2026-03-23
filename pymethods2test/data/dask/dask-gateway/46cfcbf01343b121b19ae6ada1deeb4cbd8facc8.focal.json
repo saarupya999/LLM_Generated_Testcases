@@ -1,0 +1,294 @@
+{
+    "tests/test_client.py": {
+        "focal_file": "dask-gateway/dask_gateway/client.py",
+        "methods": {
+            "test_get_versions": {
+                "line": 224,
+                "line_end": 232,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 489,
+                    "indent": 4,
+                    "name": "get_versions"
+                }
+            },
+            "test_client_reprs": {
+                "line": 236,
+                "line_end": 255,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1071,
+                    "line_end": 1087,
+                    "indent": 4,
+                    "name": "get_client"
+                }
+            },
+            "test_create_cluster_with_GatewayCluster_constructor": {
+                "line": 312,
+                "line_end": 334,
+                "indent": 0,
+                "focal_class": "GatewayCluster",
+                "focal_method": {
+                    "line": 441,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "list_clusters"
+                }
+            }
+        }
+    },
+    "tests/test_db_backend.py": {
+        "focal_file": "dask-gateway-server/dask_gateway_server/backends/db_base.py",
+        "methods": {
+            "test_encryption": {
+                "line": 220,
+                "line_end": 255,
+                "indent": 0,
+                "focal_class": "DataManager",
+                "focal_method": {
+                    "line": 405,
+                    "line_end": 407,
+                    "indent": 4,
+                    "name": "encrypt"
+                }
+            },
+            "test_normalize_encrypt_key": {
+                "line": 258,
+                "line_end": 281,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "_normalize_encrypt_key"
+                }
+            },
+            "test_cleanup_expired_clusters": {
+                "line": 312,
+                "line_end": 379,
+                "indent": 0,
+                "focal_class": "DataManager",
+                "focal_method": {
+                    "line": 380,
+                    "line_end": 403,
+                    "indent": 4,
+                    "name": "cleanup_expired"
+                }
+            },
+            "test_slow_cluster_connect": {
+                "line": 404,
+                "line_end": 422,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 327,
+                    "indent": 12,
+                    "name": "connect"
+                }
+            },
+            "test_cluster_fails_between_start_and_connect": {
+                "line": 448,
+                "line_end": 464,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 327,
+                    "indent": 12,
+                    "name": "connect"
+                }
+            },
+            "test_successful_cluster": {
+                "line": 600,
+                "line_end": 631,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 442,
+                    "indent": 4,
+                    "name": "list_clusters"
+                }
+            }
+        }
+    },
+    "tests/test_options.py": {
+        "focal_file": "dask-gateway/dask_gateway/options.py",
+        "methods": {
+            "test_client_options_widget": {
+                "line": 497,
+                "line_end": 504,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "_widget"
+                }
+            }
+        }
+    },
+    "tests/test_workqueue.py": {
+        "focal_file": "dask-gateway-server/dask_gateway_server/workqueue.py",
+        "methods": {
+            "test_backoff": {
+                "line": 9,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": "Backoff",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "backoff"
+                }
+            },
+            "test_workqueue_put_after": {
+                "line": 92,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": "WorkQueue",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "put_after"
+                }
+            },
+            "test_workqueue_put_backoff": {
+                "line": 145,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": "WorkQueue",
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "put_backoff"
+                }
+            },
+            "test_workqueue_close": {
+                "line": 161,
+                "line_end": 180,
+                "indent": 0,
+                "focal_class": "WorkQueue",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "tests/test_pbs_backend.py": {
+        "focal_file": "dask-gateway-server/dask_gateway_server/backends/jobqueue/pbs.py",
+        "methods": {
+            "test_qsub_format_memory": {
+                "line": 117,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "qsub_format_memory"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "dask-gateway-server/dask_gateway_server/utils.py",
+        "methods": {
+            "test_normalize_address": {
+                "line": 22,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 146,
+                    "indent": 0,
+                    "name": "normalize_address"
+                }
+            },
+            "test_format_bytes": {
+                "line": 40,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "format_bytes"
+                }
+            },
+            "test_classname": {
+                "line": 53,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 177,
+                    "indent": 0,
+                    "name": "classname"
+                }
+            },
+            "test_awaitable": {
+                "line": 87,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 218,
+                    "indent": 0,
+                    "name": "awaitable"
+                }
+            }
+        }
+    },
+    "tests/test_slurm_backend.py": {
+        "focal_file": "dask-gateway-server/dask_gateway_server/backends/jobqueue/slurm.py",
+        "methods": {
+            "test_slurm_format_memory": {
+                "line": 124,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "slurm_format_memory"
+                }
+            }
+        }
+    },
+    "tests/test_proxies.py": {
+        "focal_file": "dask-gateway-server/dask_gateway_server/utils.py",
+        "methods": {
+            "test_web_proxy_bad_target": {
+                "line": 127,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    }
+}

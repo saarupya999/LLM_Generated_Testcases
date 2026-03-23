@@ -1,0 +1,845 @@
+{
+    "tests/app/test_new_relic.py": {
+        "focal_file": "app/new_relic.py",
+        "methods": {
+            "test_new_relic_is_enabled": {
+                "line": 9,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 3,
+                    "indent": 0,
+                    "name": "setup_newrelic"
+                }
+            }
+        }
+    },
+    "tests/app/test_secrets.py": {
+        "focal_file": "app/secrets.py",
+        "methods": {
+            "test_validate_required_secrets_fails_on_missing": {
+                "line": 7,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "validate_required_secrets"
+                }
+            },
+            "test_validate_required_secrets_passes": {
+                "line": 19,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "validate_required_secrets"
+                }
+            }
+        }
+    },
+    "tests/app/authentication/test_user_id_generator.py": {
+        "focal_file": "app/authentication/user_id_generator.py",
+        "methods": {
+            "test_generate_id": {
+                "line": 13,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "UserIDGenerator",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "generate_id"
+                }
+            },
+            "test_generate_ik": {
+                "line": 43,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "UserIDGenerator",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "generate_ik"
+                }
+            }
+        }
+    },
+    "tests/app/data_model/test_answer_store.py": {
+        "focal_file": "app/data_model/answer_store.py",
+        "methods": {
+            "test_escaped": {
+                "line": 205,
+                "line_end": 229,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "escaped"
+                }
+            },
+            "test_filter_answers_does_not_escapes_values": {
+                "line": 231,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "values"
+                }
+            },
+            "test_filter_chaining_escaped": {
+                "line": 253,
+                "line_end": 281,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "escaped"
+                }
+            },
+            "test_filter_chaining_count": {
+                "line": 283,
+                "line_end": 301,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "count"
+                }
+            },
+            "tests_upgrade_reformats_date": {
+                "line": 303,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": "AnswerStore",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "upgrade_to_1_update_date_formats"
+                }
+            },
+            "test_upgrade_add_group_instance_id": {
+                "line": 445,
+                "line_end": 512,
+                "indent": 4,
+                "focal_class": "AnswerStore",
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 247,
+                    "indent": 0,
+                    "name": "upgrade_to_2_add_group_instance_id"
+                }
+            },
+            "test_remove_answer": {
+                "line": 610,
+                "line_end": 624,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "remove_answer"
+                }
+            }
+        }
+    },
+    "tests/app/data_model/test_questionnaire_store.py": {
+        "focal_file": "app/data_model/questionnaire_store.py",
+        "methods": {
+            "test_questionnaire_store_removes_completed_location": {
+                "line": 185,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": "QuestionnaireStore",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "remove_completed_blocks"
+                }
+            },
+            "test_questionnaire_store_removes_completed_location_from_many": {
+                "line": 196,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": "QuestionnaireStore",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "remove_completed_blocks"
+                }
+            },
+            "test_questionnaire_store_removes_completed_location_by_group": {
+                "line": 209,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": "QuestionnaireStore",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "remove_completed_blocks"
+                }
+            },
+            "test_questionnaire_store_raises_on_invalid_group_remove_completed_blocks_call": {
+                "line": 222,
+                "line_end": 232,
+                "indent": 4,
+                "focal_class": "QuestionnaireStore",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "remove_completed_blocks"
+                }
+            },
+            "test_questionnaire_store_raises_on_invalid_location_remove_completed_blocks_call": {
+                "line": 235,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": "QuestionnaireStore",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "remove_completed_blocks"
+                }
+            }
+        }
+    },
+    "tests/app/helpers/test_form_helper.py": {
+        "focal_file": "app/helpers/form_helper.py",
+        "methods": {
+            "test_get_form_for_block_location": {
+                "line": 17,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "get_form_for_location"
+                }
+            },
+            "test_post_form_for_block_location": {
+                "line": 58,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "post_form_for_location"
+                }
+            },
+            "test_post_form_and_disable_mandatory": {
+                "line": 88,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "post_form_for_location"
+                }
+            },
+            "test_get_form_for_household_composition": {
+                "line": 109,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "get_form_for_location"
+                }
+            },
+            "test_post_form_for_household_composition": {
+                "line": 128,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "post_form_for_location"
+                }
+            },
+            "test_get_form_for_household_relationship": {
+                "line": 154,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "get_form_for_location"
+                }
+            },
+            "test_post_form_for_household_relationship": {
+                "line": 200,
+                "line_end": 248,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "post_form_for_location"
+                }
+            },
+            "test_post_form_for_radio_other_not_selected": {
+                "line": 391,
+                "line_end": 420,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "post_form_for_location"
+                }
+            },
+            "test_post_form_for_radio_other_selected": {
+                "line": 422,
+                "line_end": 451,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "post_form_for_location"
+                }
+            },
+            "test_maps_and_filters_answers": {
+                "line": 462,
+                "line_end": 521,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "get_mapped_answers"
+                }
+            }
+        }
+    },
+    "tests/app/questionnaire/test_answer_dependencies.py": {
+        "focal_file": "app/questionnaire/answer_dependencies.py",
+        "methods": {
+            "test_dependencies_can_be_added_with_update": {
+                "line": 40,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "AnswerDependencies",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_min_values_from_answer_ids_are_added_to_dependencies": {
+                "line": 61,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_answer_dependencies"
+                }
+            },
+            "test_max_values_from_answer_ids_are_added_to_dependencies": {
+                "line": 118,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_answer_dependencies"
+                }
+            },
+            "test_calculation_ids_are_added_to_dependencies": {
+                "line": 176,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_answer_dependencies"
+                }
+            }
+        }
+    },
+    "tests/app/questionnaire/test_answer_store_updater.py": {
+        "focal_file": "app/questionnaire/answer_store_updater.py",
+        "methods": {
+            "test_remove_empty_household_members_from_answer_store": {
+                "line": 162,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "remove_empty_household_members"
+                }
+            },
+            "test_remove_empty_household_members_values_entered_are_stored": {
+                "line": 220,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "remove_empty_household_members"
+                }
+            },
+            "test_remove_empty_household_members_partial_answers_are_stored": {
+                "line": 280,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "remove_empty_household_members"
+                }
+            },
+            "test_remove_empty_household_members_middle_name_only_not_stored": {
+                "line": 360,
+                "line_end": 394,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "remove_empty_household_members"
+                }
+            }
+        }
+    },
+    "tests/app/questionnaire/test_group_dependencies.py": {
+        "focal_file": "app/questionnaire/group_dependencies.py",
+        "methods": {
+            "test_repeat_with_group_ids_added_to_dependencies": {
+                "line": 79,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "get_group_dependencies"
+                }
+            },
+            "test_repeat_with_answer_count_added_to_dependencies": {
+                "line": 119,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "get_group_dependencies"
+                }
+            }
+        }
+    },
+    "tests/app/questionnaire/test_path_finder.py": {
+        "focal_file": "app/questionnaire/path_finder.py",
+        "methods": {
+            "test_next_block": {
+                "line": 14,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_previous_block": {
+                "line": 32,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "get_previous_location"
+                }
+            },
+            "test_routing_basic_path": {
+                "line": 122,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "get_full_routing_path"
+                }
+            },
+            "test_get_next_location_introduction": {
+                "line": 177,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_next_location_summary": {
+                "line": 189,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_previous_location_introduction": {
+                "line": 224,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "get_previous_location"
+                }
+            },
+            "test_previous_with_conditional_path": {
+                "line": 236,
+                "line_end": 276,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "get_previous_location"
+                }
+            },
+            "test_next_location_goto_summary": {
+                "line": 311,
+                "line_end": 335,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_next_location_empty_routing_rules": {
+                "line": 337,
+                "line_end": 367,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_repeating_groups_previous_location_first_instance": {
+                "line": 510,
+                "line_end": 518,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "get_previous_location"
+                }
+            },
+            "test_repeating_groups_previous_location_second_instance": {
+                "line": 520,
+                "line_end": 528,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "get_previous_location"
+                }
+            },
+            "test_repeating_groups_previous_location": {
+                "line": 530,
+                "line_end": 565,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "get_previous_location"
+                }
+            },
+            "test_repeating_groups_next_location": {
+                "line": 567,
+                "line_end": 602,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_next_location_should_skip_block": {
+                "line": 996,
+                "line_end": 1011,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_next_location_should_skip_group": {
+                "line": 1013,
+                "line_end": 1028,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_next_location_should_not_skip_group": {
+                "line": 1030,
+                "line_end": 1045,
+                "indent": 4,
+                "focal_class": "PathFinder",
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            }
+        }
+    },
+    "tests/app/questionnaire/test_router.py": {
+        "focal_file": "app/questionnaire/router.py",
+        "methods": {
+            "test_is_not_valid_location": {
+                "line": 28,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "Router",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_next_location_invalid_current_location": {
+                "line": 54,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "Router",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_next_location_no_completed_blocks": {
+                "line": 70,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "Router",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            },
+            "test_get_next_location_some_completed_blocks": {
+                "line": 84,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": "Router",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_next_location"
+                }
+            }
+        }
+    },
+    "tests/app/storage/test_storage_encryption.py": {
+        "focal_file": "app/storage/storage_encryption.py",
+        "methods": {
+            "test_encryption_decryption": {
+                "line": 46,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "decrypt_data"
+                }
+            }
+        }
+    },
+    "tests/app/templating/test_schema_context.py": {
+        "focal_file": "app/templating/schema_context.py",
+        "methods": {
+            "test_build_schema_context": {
+                "line": 43,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "build_schema_context"
+                }
+            },
+            "test_build_answers": {
+                "line": 66,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_build_answers"
+                }
+            },
+            "test_build_schema_metadata": {
+                "line": 305,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "build_schema_metadata"
+                }
+            }
+        }
+    },
+    "tests/app/templating/test_templating_utils.py": {
+        "focal_file": "app/templating/utils.py",
+        "methods": {
+            "test_get_question_title_returns_empty_title": {
+                "line": 8,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "get_question_title"
+                }
+            },
+            "test_get_question_title_title_returned_if_present": {
+                "line": 24,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "get_question_title"
+                }
+            }
+        }
+    },
+    "tests/app/utilities/test_strings.py": {
+        "focal_file": "app/utilities/strings.py",
+        "methods": {
+            "test_to_string_with_string": {
+                "line": 20,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 20,
+                    "indent": 0,
+                    "name": "to_str"
+                }
+            }
+        }
+    }
+}

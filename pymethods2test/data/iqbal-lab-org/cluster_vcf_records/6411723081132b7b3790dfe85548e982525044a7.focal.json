@@ -1,0 +1,594 @@
+{
+    "tests/test_vcf_file_read.py": {
+        "focal_file": "cluster_vcf_records/vcf_file_read.py",
+        "methods": {
+            "test_open_vcf_file_for_reading": {
+                "line": 13,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "open_vcf_file_for_reading"
+                }
+            },
+            "test_vcf_file_to_dict": {
+                "line": 41,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 160,
+                    "indent": 0,
+                    "name": "vcf_file_to_dict"
+                }
+            },
+            "test_vcf_file_to_list": {
+                "line": 105,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "vcf_file_to_list"
+                }
+            },
+            "test_get_sample_name_from_vcf_header_lines": {
+                "line": 124,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 238,
+                    "indent": 0,
+                    "name": "get_sample_name_from_vcf_header_lines"
+                }
+            },
+            "test_vcf_file_has_at_least_one_record": {
+                "line": 157,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 251,
+                    "indent": 0,
+                    "name": "vcf_file_has_at_least_one_record"
+                }
+            },
+            "test_get_header_lines_from_vcf_file": {
+                "line": 170,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 261,
+                    "indent": 0,
+                    "name": "get_header_lines_from_vcf_file"
+                }
+            },
+            "test_get_sample_name_from_vcf_file": {
+                "line": 184,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "get_sample_name_from_vcf_file"
+                }
+            },
+            "test_vcf_file_to_dict_of_vars": {
+                "line": 202,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 319,
+                    "indent": 0,
+                    "name": "vcf_file_to_dict_of_vars"
+                }
+            },
+            "test_vcf_files_to_dict_of_vars": {
+                "line": 216,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 322,
+                    "line_end": 353,
+                    "indent": 0,
+                    "name": "vcf_files_to_dict_of_vars"
+                }
+            }
+        }
+    },
+    "tests/test_vcf_record_cluster.py": {
+        "focal_file": "cluster_vcf_records/vcf_record_cluster.py",
+        "methods": {
+            "test_add_vcf_record_and_len": {
+                "line": 14,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record_cluster.VcfRecordCluster",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "add_vcf_record"
+                }
+            },
+            "test_start_and_end": {
+                "line": 56,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record_cluster.VcfRecordCluster",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "start_and_end"
+                }
+            },
+            "test_make_one_merged_vcf_record_for_gramtools": {
+                "line": 71,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record_cluster.VcfRecordCluster",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "make_one_merged_vcf_record_for_gramtools"
+                }
+            },
+            "test_make_simple_merged_vcf_with_no_combinations": {
+                "line": 199,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record_cluster.VcfRecordCluster",
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "make_simple_merged_vcf_with_no_combinations"
+                }
+            },
+            "test_make_simple_gt_aware_merged_vcf_with_no_combinations": {
+                "line": 252,
+                "line_end": 349,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record_cluster.VcfRecordCluster",
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 232,
+                    "indent": 4,
+                    "name": "make_simple_gt_aware_merged_vcf_with_no_combinations"
+                }
+            },
+            "test_make_separate_indels_and_one_alt_with_all_snps_no_combinations": {
+                "line": 351,
+                "line_end": 374,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record_cluster.VcfRecordCluster",
+                "focal_method": {
+                    "line": 234,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "make_separate_indels_and_one_alt_with_all_snps_no_combinations"
+                }
+            }
+        }
+    },
+    "tests/test_vcf_record.py": {
+        "focal_file": "cluster_vcf_records/vcf_record.py",
+        "methods": {
+            "test_ref_string_matches_ref_sequence": {
+                "line": 71,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "ref_string_matches_ref_sequence"
+                }
+            },
+            "test_ref_string_matches_dict_of_ref_sequences": {
+                "line": 89,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "ref_string_matches_dict_of_ref_sequences"
+                }
+            },
+            "test_remove_asterisk_alts": {
+                "line": 99,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "remove_asterisk_alts"
+                }
+            },
+            "test_is_snp": {
+                "line": 113,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "is_snp"
+                }
+            },
+            "test_is_homozygous": {
+                "line": 132,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "is_homozygous"
+                }
+            },
+            "test_set_format_key_value": {
+                "line": 155,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "set_format_key_value"
+                }
+            },
+            "test_intersects": {
+                "line": 167,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "intersects"
+                }
+            },
+            "test_merge": {
+                "line": 182,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            },
+            "test_add_flanking_seqs": {
+                "line": 219,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 317,
+                    "indent": 4,
+                    "name": "add_flanking_seqs"
+                }
+            },
+            "test_merge_by_adding_new_alts": {
+                "line": 235,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 343,
+                    "indent": 4,
+                    "name": "merge_by_adding_new_alts"
+                }
+            },
+            "test_ref_end_pos": {
+                "line": 276,
+                "line_end": 292,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "ref_end_pos"
+                }
+            },
+            "test_remove_useless_start_nucleotides": {
+                "line": 294,
+                "line_end": 330,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 367,
+                    "indent": 4,
+                    "name": "remove_useless_start_nucleotides"
+                }
+            },
+            "test_near_to_position": {
+                "line": 332,
+                "line_end": 345,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 369,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "near_to_position"
+                }
+            },
+            "test_inferred_var_seqs_plus_flanks": {
+                "line": 347,
+                "line_end": 441,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 397,
+                    "indent": 4,
+                    "name": "inferred_var_seqs_plus_flanks"
+                }
+            },
+            "test_total_coverage": {
+                "line": 443,
+                "line_end": 452,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 399,
+                    "line_end": 404,
+                    "indent": 4,
+                    "name": "total_coverage"
+                }
+            },
+            "test_called_alts_from_genotype": {
+                "line": 454,
+                "line_end": 471,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 406,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "called_alts_from_genotype"
+                }
+            },
+            "test_is_the_same_indel": {
+                "line": 473,
+                "line_end": 545,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "is_the_same_indel"
+                }
+            },
+            "test_to_record_per_alt": {
+                "line": 547,
+                "line_end": 554,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 465,
+                    "indent": 4,
+                    "name": "to_record_per_alt"
+                }
+            },
+            "test_split_into_snps": {
+                "line": 556,
+                "line_end": 655,
+                "indent": 4,
+                "focal_class": "cluster_vcf_records.vcf_record.VcfRecord",
+                "focal_method": {
+                    "line": 467,
+                    "line_end": 545,
+                    "indent": 4,
+                    "name": "split_into_snps"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "cluster_vcf_records/utils.py",
+        "methods": {
+            "test_simplify_vcf": {
+                "line": 12,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "simplify_vcf"
+                }
+            },
+            "test_normalise_vcf": {
+                "line": 31,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 126,
+                    "indent": 0,
+                    "name": "normalise_vcf"
+                }
+            }
+        }
+    },
+    "tests/test_vcf_clusterer.py": {
+        "focal_file": "cluster_vcf_records/vcf_clusterer.py",
+        "methods": {
+            "test_load_vcf_files": {
+                "line": 12,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "_load_vcf_files"
+                }
+            },
+            "test_expand_alts_in_vcf_record_list": {
+                "line": 59,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "_expand_alts_in_vcf_record_list"
+                }
+            },
+            "test_expand_alts_and_remove_duplicates_in_list": {
+                "line": 76,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "_expand_alts_and_remove_duplicates_in_list"
+                }
+            },
+            "test_cluster_vcf_record_list": {
+                "line": 103,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 217,
+                    "indent": 4,
+                    "name": "_cluster_vcf_record_list"
+                }
+            }
+        }
+    },
+    "tests/test_vcf_merge.py": {
+        "focal_file": "cluster_vcf_records/vcf_merge.py",
+        "methods": {
+            "test_dict_of_vars_to_vcf_file": {
+                "line": 29,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "_dict_of_vars_to_vcf_file"
+                }
+            },
+            "test_merge_vcf_files": {
+                "line": 41,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "merge_vcf_files"
+                }
+            }
+        }
+    },
+    "tests/test_allele_combinations.py": {
+        "focal_file": "cluster_vcf_records/allele_combinations.py",
+        "methods": {
+            "test_any_vars_overlap": {
+                "line": 23,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "any_vars_overlap"
+                }
+            }
+        }
+    },
+    "tests/test_variant_tracking.py": {
+        "focal_file": "cluster_vcf_records/variant_tracking.py",
+        "methods": {
+            "test_vcf_records_make_same_allele_combination": {
+                "line": 14,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "vcf_records_make_same_allele_combination"
+                }
+            },
+            "test_load_one_vcf_file": {
+                "line": 237,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "_load_one_vcf_file"
+                }
+            },
+            "test_VariantTracker_make_from_vcf_then_save_then_load_then_cluster": {
+                "line": 264,
+                "line_end": 337,
+                "indent": 0,
+                "focal_class": "cluster_vcf_records.variant_tracking.Variants",
+                "focal_method": {
+                    "line": 670,
+                    "line_end": 695,
+                    "indent": 4,
+                    "name": "cluster"
+                }
+            }
+        }
+    }
+}

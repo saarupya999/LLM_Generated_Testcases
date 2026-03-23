@@ -1,0 +1,899 @@
+{
+    "tests/cloudformation/parser/test_cfn_yaml.py": {
+        "focal_file": "checkov/cloudformation/context_parser.py",
+        "methods": {
+            "test_trim_lines": {
+                "line": 72,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "trim_lines"
+                }
+            },
+            "test_parameter_import_lines": {
+                "line": 121,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "ContextParser",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "extract_cf_resource_code_lines"
+                }
+            }
+        }
+    },
+    "tests/common/test_platform_integration.py": {
+        "focal_file": "checkov/common/bridgecrew/platform_integration.py",
+        "methods": {
+            "test_skip_mapping": {
+                "line": 27,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "BcPlatformIntegration",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "get_id_mapping"
+                }
+            },
+            "test_skip_mapping_false": {
+                "line": 34,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": "BcPlatformIntegration",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "get_id_mapping"
+                }
+            }
+        }
+    },
+    "tests/common/test_runner_filter.py": {
+        "focal_file": "checkov/runner_filter.py",
+        "methods": {
+            "test_should_run_default": {
+                "line": 20,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_specific_enable": {
+                "line": 24,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_specific_disable": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_external": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_external2": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_external3": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_external4": {
+                "line": 55,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_omitted_wildcard": {
+                "line": 74,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_omitted_wildcard2": {
+                "line": 78,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_omitted_wildcard3": {
+                "line": 82,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            },
+            "test_should_run_omitted_wildcard4": {
+                "line": 86,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "RunnerFilter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "should_run_check"
+                }
+            }
+        }
+    },
+    "tests/common/checks/test_base_check_registry.py": {
+        "focal_file": "checkov/common/checks/base_check_registry.py",
+        "methods": {
+            "test__is_wildcard": {
+                "line": 48,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "_is_wildcard"
+                }
+            },
+            "test_get_check_by_id": {
+                "line": 57,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "BaseCheckRegistry",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "get_check_by_id"
+                }
+            },
+            "test_get_check_no_wildcard": {
+                "line": 74,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": "BaseCheckRegistry",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "get_checks"
+                }
+            },
+            "test_get_check_wildcard": {
+                "line": 95,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": "BaseCheckRegistry",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "get_checks"
+                }
+            },
+            "test_get_check_mixed": {
+                "line": 141,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": "BaseCheckRegistry",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "get_checks"
+                }
+            }
+        }
+    },
+    "tests/common/integration_features/test_custom_policies_integration.py": {
+        "focal_file": "checkov/common/bridgecrew/integration_features/features/custom_policies_integration.py",
+        "methods": {
+            "test_integration_valid": {
+                "line": 15,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "CustomPoliciesIntegration",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "is_valid"
+                }
+            }
+        }
+    },
+    "tests/common/integration_features/test_fixes_integration.py": {
+        "focal_file": "checkov/common/bridgecrew/integration_features/features/fixes_integration.py",
+        "methods": {
+            "test_integration_valid": {
+                "line": 10,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "FixesIntegration",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "is_valid"
+                }
+            }
+        }
+    },
+    "tests/common/integration_features/test_suppressions_integration.py": {
+        "focal_file": "checkov/common/bridgecrew/integration_features/features/suppressions_integration.py",
+        "methods": {
+            "test_integration_valid": {
+                "line": 12,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "SuppressionsIntegration",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "is_valid"
+                }
+            },
+            "test_suppression_valid": {
+                "line": 55,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": "SuppressionsIntegration",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_suppression_valid_for_run"
+                }
+            },
+            "test_policy_suppression": {
+                "line": 156,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": "SuppressionsIntegration",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "_check_suppression"
+                }
+            },
+            "test_account_suppression": {
+                "line": 183,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": "SuppressionsIntegration",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "_check_suppression"
+                }
+            },
+            "test_resource_suppression": {
+                "line": 209,
+                "line_end": 247,
+                "indent": 4,
+                "focal_class": "SuppressionsIntegration",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "_check_suppression"
+                }
+            },
+            "test_tag_suppression": {
+                "line": 249,
+                "line_end": 313,
+                "indent": 4,
+                "focal_class": "SuppressionsIntegration",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "_check_suppression"
+                }
+            }
+        }
+    },
+    "tests/common/runners/test_base_runner.py": {
+        "focal_file": "checkov/common/runners/base_runner.py",
+        "methods": {
+            "test_filter_ignored_directories_regex_legacy": {
+                "line": 9,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "filter_ignored_paths"
+                }
+            }
+        }
+    },
+    "tests/common/utils/test_utils.py": {
+        "focal_file": "checkov/common/util/data_structures_utils.py",
+        "methods": {
+            "test_merge_dicts": {
+                "line": 11,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "merge_dicts"
+                }
+            }
+        }
+    },
+    "tests/serverless/test_parser.py": {
+        "focal_file": "checkov/serverless/parsers/parser.py",
+        "methods": {
+            "test_overwriting_variables": {
+                "line": 257,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "process_variables"
+                }
+            },
+            "test_custom_variable_syntax": {
+                "line": 268,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "process_variables"
+                }
+            },
+            "test_tokenize_by_commas": {
+                "line": 335,
+                "line_end": 355,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 337,
+                    "indent": 0,
+                    "name": "_tokenize_by_commas"
+                }
+            },
+            "test_token_to_type_and_loc": {
+                "line": 357,
+                "line_end": 367,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "_token_to_type_and_loc"
+                }
+            },
+            "test_parse_var": {
+                "line": 369,
+                "line_end": 382,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "_parse_var"
+                }
+            }
+        }
+    },
+    "tests/terraform/checks/data/test_base_data_check.py": {
+        "focal_file": "checkov/terraform/checks/data/base_check.py",
+        "methods": {
+            "test_scan_entity_conf": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "scan_entity_conf"
+                }
+            }
+        }
+    },
+    "tests/terraform/checks/resource/test_base_resource_check.py": {
+        "focal_file": "checkov/terraform/checks/resource/base_resource_check.py",
+        "methods": {
+            "test_scan_entity_conf": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "scan_entity_conf"
+                }
+            }
+        }
+    },
+    "tests/terraform/graph/checks/test_yaml_policies.py": {
+        "focal_file": "checkov/common/checks_infra/registry.py",
+        "methods": {
+            "test_registry_load": {
+                "line": 176,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": "Registry",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "load_checks"
+                }
+            }
+        }
+    },
+    "tests/terraform/graph/graph_builder/test_local_graph.py": {
+        "focal_file": "checkov/terraform/graph_builder/local_graph.py",
+        "methods": {
+            "test_update_vertices_configs_attribute_like_resource_name": {
+                "line": 24,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "LocalGraph",
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 400,
+                    "indent": 4,
+                    "name": "update_vertices_configs"
+                }
+            }
+        }
+    },
+    "tests/terraform/graph/graph_builder/graph_components/test_blocks.py": {
+        "focal_file": "checkov/terraform/graph_builder/graph_components/blocks.py",
+        "methods": {
+            "test_update_inner_attribute_1": {
+                "line": 8,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": "Block",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "update_inner_attribute"
+                }
+            },
+            "test_update_inner_attribute_2": {
+                "line": 32,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "Block",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "update_inner_attribute"
+                }
+            },
+            "test_update_inner_attribute_3": {
+                "line": 54,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": "Block",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "update_inner_attribute"
+                }
+            },
+            "test_update_inner_attribute_bad_index": {
+                "line": 161,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": "Block",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "update_inner_attribute"
+                }
+            },
+            "test_update_inner_attribute_bad_map_entry": {
+                "line": 175,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": "Block",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "update_inner_attribute"
+                }
+            }
+        }
+    },
+    "tests/terraform/graph/runner/test_graph_builder.py": {
+        "focal_file": "checkov/terraform/runner.py",
+        "methods": {
+            "test_run_persistent_data": {
+                "line": 35,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "set_external_data"
+                }
+            }
+        }
+    },
+    "tests/terraform/graph/utils/test_utils.py": {
+        "focal_file": "checkov/terraform/checks/utils/utils.py",
+        "methods": {
+            "test_replace_map_attribute_access_with_dot": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "replace_map_attribute_access_with_dot"
+                }
+            },
+            "test_update_dictionary_attribute_nested": {
+                "line": 54,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 278,
+                    "indent": 0,
+                    "name": "update_dictionary_attribute"
+                }
+            },
+            "test_update_dictionary_attribute": {
+                "line": 62,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 278,
+                    "indent": 0,
+                    "name": "update_dictionary_attribute"
+                }
+            },
+            "test_update_dictionary_locals": {
+                "line": 70,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 278,
+                    "indent": 0,
+                    "name": "update_dictionary_attribute"
+                }
+            },
+            "test_generate_possible_strings_from_wildcards": {
+                "line": 78,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 318,
+                    "indent": 0,
+                    "name": "generate_possible_strings_from_wildcards"
+                }
+            },
+            "test__attribute_has_nested_attributes_dictionary": {
+                "line": 174,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 321,
+                    "line_end": 335,
+                    "indent": 0,
+                    "name": "attribute_has_nested_attributes"
+                }
+            },
+            "test__attribute_has_nested_attributes_list": {
+                "line": 180,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 321,
+                    "line_end": 335,
+                    "indent": 0,
+                    "name": "attribute_has_nested_attributes"
+                }
+            }
+        }
+    },
+    "tests/terraform/graph/variable_rendering/test_string_evaluation.py": {
+        "focal_file": "checkov/terraform/variable_rendering/evaluate_terraform.py",
+        "methods": {
+            "test_replace_with_map": {
+                "line": 260,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "replace_string_value"
+                }
+            },
+            "test_replace_interpolation": {
+                "line": 266,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "replace_string_value"
+                }
+            },
+            "test_remove_interpolation1": {
+                "line": 272,
+                "line_end": 276,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "remove_interpolation"
+                }
+            }
+        }
+    },
+    "tests/terraform/parser/test_parser_var_blocks.py": {
+        "focal_file": "checkov/terraform/parser_utils.py",
+        "methods": {
+            "test_split_merge_args": {
+                "line": 10,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 231,
+                    "indent": 0,
+                    "name": "split_merge_args"
+                }
+            },
+            "test_find_var_blocks": {
+                "line": 43,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "find_var_blocks"
+                }
+            }
+        }
+    },
+    "tests/terraform/runner/test_runner.py": {
+        "focal_file": "checkov/terraform/runner.py",
+        "methods": {
+            "test_external_definitions_context": {
+                "line": 397,
+                "line_end": 484,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "set_external_data"
+                }
+            },
+            "test_loading_external_checks_yaml": {
+                "line": 649,
+                "line_end": 658,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "load_external_checks"
+                }
+            },
+            "test_loading_external_checks_yaml_multiple_times": {
+                "line": 660,
+                "line_end": 671,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "load_external_checks"
+                }
+            },
+            "test_loading_external_checks_python": {
+                "line": 673,
+                "line_end": 684,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "load_external_checks"
+                }
+            },
+            "test_loading_external_checks_python_multiple_times": {
+                "line": 686,
+                "line_end": 700,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "load_external_checks"
+                }
+            },
+            "test_loading_external_checks_python_and_yaml": {
+                "line": 702,
+                "line_end": 714,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "load_external_checks"
+                }
+            },
+            "test_entity_context_fetching": {
+                "line": 733,
+                "line_end": 746,
+                "indent": 4,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "get_entity_context_and_evaluations"
+                }
+            }
+        }
+    },
+    "tests/unit/test_secrets.py": {
+        "focal_file": "checkov/common/util/secrets.py",
+        "methods": {
+            "test_secrets": {
+                "line": 9,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "string_has_secrets"
+                }
+            },
+            "test_does_not_consider_single_hash_as_a_secret": {
+                "line": 33,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "string_has_secrets"
+                }
+            }
+        }
+    }
+}

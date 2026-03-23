@@ -1,0 +1,209 @@
+{
+    "tests/test_config_parser.py": {
+        "focal_file": "src/butter_backup/config_parser.py",
+        "methods": {
+            "test_load_configuration_rejects_missing_cfg": {
+                "line": 44,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "load_configuration"
+                }
+            },
+            "test_load_configuration_rejects_empty_file": {
+                "line": 52,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "load_configuration"
+                }
+            },
+            "test_load_configuration_parses": {
+                "line": 62,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "load_configuration"
+                }
+            },
+            "test_butter_config_accepts_raw_config": {
+                "line": 112,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "from_raw_config"
+                }
+            }
+        }
+    },
+    "tests/test_device_manager.py": {
+        "focal_file": "src/butter_backup/device_managers.py",
+        "methods": {
+            "test_mounted_device": {
+                "line": 9,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "mounted_device"
+                }
+            },
+            "test_mounted_device_takes_over_already_mounted_device": {
+                "line": 20,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "mounted_device"
+                }
+            },
+            "test_is_mounted_detects": {
+                "line": 40,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "get_mounted_devices"
+                }
+            },
+            "test_is_mounted_rejects": {
+                "line": 44,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "is_mounted"
+                }
+            },
+            "test_get_mounted_devices_includes_correct_mountpoints": {
+                "line": 49,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "get_mounted_devices"
+                }
+            },
+            "test_unmount_device": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "unmount_device"
+                }
+            },
+            "test_decrypted_device": {
+                "line": 61,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "decrypted_device"
+                }
+            }
+        }
+    },
+    "tests/test_shell_interface.py": {
+        "focal_file": "src/butter_backup/shell_interface.py",
+        "methods": {
+            "test_run_cmd_succeeds": {
+                "line": 16,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "run_cmd"
+                }
+            },
+            "test_run_cmd_fails": {
+                "line": 21,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "run_cmd"
+                }
+            },
+            "test_run_piped_commands_fails_on_empty_list": {
+                "line": 34,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "run_piped_commands"
+                }
+            },
+            "test_run_piped_commands_fails_on_one_element_list": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "run_piped_commands"
+                }
+            },
+            "test_run_piped_commands_works": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "run_piped_commands"
+                }
+            }
+        }
+    }
+}

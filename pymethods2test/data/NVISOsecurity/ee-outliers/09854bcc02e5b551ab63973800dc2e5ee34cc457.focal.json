@@ -1,0 +1,872 @@
+{
+    "app/tests/unit_tests/test_housekeeping.py": {
+        "focal_file": "app/helpers/housekeeping.py",
+        "methods": {
+            "test_housekeeping_execute_no_whitelist_parameter_change": {
+                "line": 91,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": "HousekeepingJob",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "execute_housekeeping"
+                }
+            }
+        }
+    },
+    "app/tests/unit_tests/test_analyzer_terms.py": {
+        "focal_file": "app/analyzers/terms.py",
+        "methods": {
+            "test_evaluate_batch_for_outliers_not_enough_target_buckets_one_doc_max_two": {
+                "line": 173,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "_evaluate_batch_for_outliers"
+                }
+            },
+            "test_evaluate_batch_for_outliers_limit_target_buckets_two_doc_max_two": {
+                "line": 185,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "_evaluate_batch_for_outliers"
+                }
+            },
+            "test_add_document_to_batch_empty_target": {
+                "line": 352,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "_add_document_to_batch"
+                }
+            },
+            "test_add_document_to_batch_empty_aggergator": {
+                "line": 360,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "_add_document_to_batch"
+                }
+            }
+        }
+    },
+    "app/tests/unit_tests/test_es.py": {
+        "focal_file": "app/helpers/es.py",
+        "methods": {
+            "test_add_tag_to_document_no_tag": {
+                "line": 32,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 635,
+                    "line_end": 648,
+                    "indent": 0,
+                    "name": "add_tag_to_document"
+                }
+            },
+            "test_add_tag_to_document_already_a_tag": {
+                "line": 46,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 635,
+                    "line_end": 648,
+                    "indent": 0,
+                    "name": "add_tag_to_document"
+                }
+            },
+            "test_remove_all_whitelisted_outliers": {
+                "line": 61,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 356,
+                    "indent": 4,
+                    "name": "remove_all_whitelisted_outliers"
+                }
+            },
+            "test_get_highlight_settings_with_metrics_analyzer": {
+                "line": 83,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 568,
+                    "line_end": 587,
+                    "indent": 4,
+                    "name": "_get_highlight_settings"
+                }
+            },
+            "test_get_highlight_settings_with_terms_analyzer": {
+                "line": 89,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 568,
+                    "line_end": 587,
+                    "indent": 4,
+                    "name": "_get_highlight_settings"
+                }
+            },
+            "test_build_search_query": {
+                "line": 127,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 664,
+                    "line_end": 710,
+                    "indent": 0,
+                    "name": "build_search_query"
+                }
+            }
+        }
+    },
+    "app/tests/unit_tests/test_settings.py": {
+        "focal_file": "app/helpers/settings.py",
+        "methods": {
+            "test_error_when_multiple_failed_config_files_exist": {
+                "line": 105,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "print_failed_configs_and_exit"
+                }
+            },
+            "test_error_when_no_failed_config_paths_exist": {
+                "line": 118,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "print_failed_configs_and_exit"
+                }
+            }
+        }
+    },
+    "app/tests/unit_tests/test_utils.py": {
+        "focal_file": "app/helpers/utils.py",
+        "methods": {
+            "test_ip_ranges": {
+                "line": 33,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "match_ip_ranges"
+                }
+            },
+            "test_flatten_dict_simple_case_1": {
+                "line": 49,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "flatten_dict"
+                }
+            },
+            "test_flatten_dict_simple_case_2": {
+                "line": 55,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "flatten_dict"
+                }
+            },
+            "test_flatten_dict_simple_case_3": {
+                "line": 59,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "flatten_dict"
+                }
+            },
+            "test_flatten_dict_complex_case_1": {
+                "line": 63,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "flatten_dict"
+                }
+            },
+            "test_shannon_entropy_dummy": {
+                "line": 73,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "shannon_entropy"
+                }
+            },
+            "test_shannon_entropy_empty_string": {
+                "line": 78,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "shannon_entropy"
+                }
+            },
+            "test_flatten_sentence_two_elements": {
+                "line": 96,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "flatten_sentence"
+                }
+            },
+            "test_flatten_sentence_complex_nested_list": {
+                "line": 100,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "flatten_sentence"
+                }
+            },
+            "test_flatten_single_number": {
+                "line": 104,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "flatten_sentence"
+                }
+            },
+            "test_flatten_none": {
+                "line": 112,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "flatten_sentence"
+                }
+            },
+            "test_flatten_test_string": {
+                "line": 116,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "flatten_sentence"
+                }
+            },
+            "test_flatten_fields_into_sentences_1": {
+                "line": 122,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "flatten_fields_into_sentences"
+                }
+            },
+            "test_flatten_fields_into_sentences_2": {
+                "line": 131,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "flatten_fields_into_sentences"
+                }
+            },
+            "test_flatten_fields_into_sentences_3": {
+                "line": 139,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "flatten_fields_into_sentences"
+                }
+            },
+            "test_flatten_fields_into_sentences_complex": {
+                "line": 148,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "flatten_fields_into_sentences"
+                }
+            },
+            "test_replace_placeholder_fields_with_values_no_match": {
+                "line": 163,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "replace_placeholder_fields_with_values"
+                }
+            },
+            "test_replace_placeholder_fields_with_values_single_match": {
+                "line": 168,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "replace_placeholder_fields_with_values"
+                }
+            },
+            "test_replace_placeholder_fields_with_values_two_matches": {
+                "line": 173,
+                "line_end": 176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "replace_placeholder_fields_with_values"
+                }
+            },
+            "test_replace_placeholder_fields_with_values_case_insensitive_match": {
+                "line": 178,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "replace_placeholder_fields_with_values"
+                }
+            },
+            "test_is_base64_encoded_none": {
+                "line": 184,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "is_base64_encoded"
+                }
+            },
+            "test_is_base64_encoded_hello_world": {
+                "line": 189,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "is_base64_encoded"
+                }
+            },
+            "test_is_base64_encoded_actual_encoded_string": {
+                "line": 194,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "is_base64_encoded"
+                }
+            },
+            "test_is_base64_encoded_empty_string": {
+                "line": 199,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "is_base64_encoded"
+                }
+            },
+            "test_is_hex_encoded_none": {
+                "line": 204,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "is_hex_encoded"
+                }
+            },
+            "test_is_hex_encoded_valid_int": {
+                "line": 209,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "is_hex_encoded"
+                }
+            },
+            "test_is_hex_encoded_zero": {
+                "line": 214,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "is_hex_encoded"
+                }
+            },
+            "test_is_hex_encoded_invalid_str": {
+                "line": 219,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "is_hex_encoded"
+                }
+            },
+            "test_decision_frontier_not_exist": {
+                "line": 256,
+                "line_end": 258,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_percentile": {
+                "line": 260,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_pct_of_max_value": {
+                "line": 276,
+                "line_end": 287,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_pct_of_median_value": {
+                "line": 289,
+                "line_end": 300,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_pct_of_avg_value": {
+                "line": 302,
+                "line_end": 318,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_mad_low": {
+                "line": 320,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_mad_high": {
+                "line": 338,
+                "line_end": 349,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_mad_zero": {
+                "line": 351,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_madpos_low": {
+                "line": 368,
+                "line_end": 380,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_madpos_high": {
+                "line": 382,
+                "line_end": 395,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_madpos_zero": {
+                "line": 397,
+                "line_end": 414,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_stdev_low": {
+                "line": 416,
+                "line_end": 434,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_stdev_high": {
+                "line": 436,
+                "line_end": 447,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_stdev_not_valid": {
+                "line": 449,
+                "line_end": 454,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_decision_frontier_float": {
+                "line": 456,
+                "line_end": 459,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "get_decision_frontier"
+                }
+            },
+            "test_is_outlier_high_valid": {
+                "line": 468,
+                "line_end": 473,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "is_outlier"
+                }
+            },
+            "test_is_outlier_low_invalid": {
+                "line": 482,
+                "line_end": 487,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "is_outlier"
+                }
+            },
+            "test_is_outlier_low_valid": {
+                "line": 489,
+                "line_end": 494,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 443,
+                    "indent": 0,
+                    "name": "is_outlier"
+                }
+            },
+            "test_extract_outlier_asset_information_simple_matching": {
+                "line": 510,
+                "line_end": 519,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 155,
+                    "indent": 0,
+                    "name": "extract_outlier_asset_information"
+                }
+            },
+            "test_extract_outlier_asset_information_list_values": {
+                "line": 521,
+                "line_end": 531,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 155,
+                    "indent": 0,
+                    "name": "extract_outlier_asset_information"
+                }
+            },
+            "test_extract_outlier_asset_information_case_insensitive_value": {
+                "line": 534,
+                "line_end": 541,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 155,
+                    "indent": 0,
+                    "name": "extract_outlier_asset_information"
+                }
+            },
+            "test_nested_dict_values_one_dict": {
+                "line": 611,
+                "line_end": 617,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 457,
+                    "indent": 0,
+                    "name": "nested_dict_values"
+                }
+            },
+            "test_nested_dict_values_two_nested_dict": {
+                "line": 619,
+                "line_end": 625,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 457,
+                    "indent": 0,
+                    "name": "nested_dict_values"
+                }
+            },
+            "test_nested_dict_values_three_nested_dict": {
+                "line": 627,
+                "line_end": 633,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 457,
+                    "indent": 0,
+                    "name": "nested_dict_values"
+                }
+            },
+            "test_nested_dict_values_empty_dict": {
+                "line": 635,
+                "line_end": 638,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 457,
+                    "indent": 0,
+                    "name": "nested_dict_values"
+                }
+            }
+        }
+    },
+    "app/tests/unit_tests/test_analyzer_metrics.py": {
+        "focal_file": "app/analyzers/metrics.py",
+        "methods": {
+            "test_add_metric_to_batch_empty": {
+                "line": 347,
+                "line_end": 365,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "add_metric_to_batch"
+                }
+            },
+            "test_evaluate_batch_for_outliers_fetch_remain_metrics": {
+                "line": 423,
+                "line_end": 435,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "_evaluate_batch_for_outliers"
+                }
+            },
+            "test_evaluate_batch_for_outliers_add_outlier": {
+                "line": 437,
+                "line_end": 453,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "_evaluate_batch_for_outliers"
+                }
+            },
+            "test_remove_metric_from_batch_simple_value": {
+                "line": 469,
+                "line_end": 487,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "remove_metric_from_batch"
+                }
+            }
+        }
+    }
+}

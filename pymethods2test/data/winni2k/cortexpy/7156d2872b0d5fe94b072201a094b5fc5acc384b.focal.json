@@ -1,0 +1,207 @@
+{
+    "tests/test_unit/test_links.py": {
+        "focal_file": "src/cortexpy/links.py",
+        "methods": {
+            "test_with_single_link_returns_each_junctions_base": {
+                "line": 108,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "next_junction_bases"
+                }
+            }
+        }
+    },
+    "tests/test_unit/test_graph/test_unitig_search.py": {
+        "focal_file": "src/cortexpy/graph/serializer/unitig.py",
+        "methods": {
+            "test_returns_two_nodes_in_order": {
+                "line": 197,
+                "line_end": 213,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "next_unitig_node_iter"
+                }
+            }
+        }
+    },
+    "tests/test_unit/test_graph/test_parser/test_kmer.py": {
+        "focal_file": "src/cortexpy/graph/parser/kmer.py",
+        "methods": {
+            "test_increases_color_count": {
+                "line": 84,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "EmptyKmerBuilder",
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "increment_color_coverage"
+                }
+            },
+            "test_connects_revcomp_kmer_to_itself": {
+                "line": 114,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "EmptyKmerBuilder",
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "connect_kmers"
+                }
+            },
+            "test_connects_kmer_to_itself": {
+                "line": 126,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "EmptyKmerBuilder",
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "connect_kmers"
+                }
+            },
+            "test_converts_to_raw": {
+                "line": 351,
+                "line_end": 367,
+                "indent": 4,
+                "focal_class": "StringKmerConverter",
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "to_raw"
+                }
+            }
+        }
+    },
+    "tests/test_unit/test_graph/test_parser/test_header_parser.py": {
+        "focal_file": "src/cortexpy/test/builder/graph/header.py",
+        "methods": {
+            "test_raises_on_incorrect_magic_word": {
+                "line": 25,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "Header",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "with_magic_word"
+                }
+            },
+            "test_raises_on_invalid_kmer_size": {
+                "line": 46,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "Header",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "with_kmer_size"
+                }
+            },
+            "test_raises_on_invalid_kmer_container_size": {
+                "line": 54,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "Header",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "with_kmer_container_size"
+                }
+            }
+        }
+    },
+    "tests/test_unit/test_graph/test_parser/test_edge_set.py": {
+        "focal_file": "src/cortexpy/edge_set.py",
+        "methods": {
+            "test_adds_each_edge": {
+                "line": 20,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "EdgeSet",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "add_edge"
+                }
+            },
+            "test_removes_each_edge": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "EdgeSet",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "remove_edge"
+                }
+            },
+            "test_no_incoming_or_outgoing": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": "EdgeSet",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_incoming_kmers"
+                }
+            },
+            "test_all_incoming_no_outgoing": {
+                "line": 57,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "EdgeSet",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_incoming_kmers"
+                }
+            },
+            "test_no_incoming_all_outgoing": {
+                "line": 62,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "EdgeSet",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_incoming_kmers"
+                }
+            },
+            "test_raises_on_non_lexlo_kmer": {
+                "line": 87,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "EdgeSet",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_incoming_kmers"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1779 @@
+{
+    "tests/test_activate.py": {
+        "focal_file": "conda/activate.py",
+        "methods": {
+            "test_add_prefix_to_path_posix": {
+                "line": 190,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 574,
+                    "line_end": 591,
+                    "indent": 4,
+                    "name": "_add_prefix_to_path"
+                }
+            },
+            "test_add_prefix_to_path_cmdexe": {
+                "line": 208,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": "CmdExeActivator",
+                "focal_method": {
+                    "line": 574,
+                    "line_end": 591,
+                    "indent": 4,
+                    "name": "_add_prefix_to_path"
+                }
+            },
+            "test_remove_prefix_from_path_1": {
+                "line": 224,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 593,
+                    "line_end": 594,
+                    "indent": 4,
+                    "name": "_remove_prefix_from_path"
+                }
+            },
+            "test_remove_prefix_from_path_2": {
+                "line": 237,
+                "line_end": 249,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 593,
+                    "line_end": 594,
+                    "indent": 4,
+                    "name": "_remove_prefix_from_path"
+                }
+            },
+            "test_replace_prefix_in_path_1": {
+                "line": 251,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 596,
+                    "line_end": 639,
+                    "indent": 4,
+                    "name": "_replace_prefix_in_path"
+                }
+            },
+            "test_replace_prefix_in_path_2": {
+                "line": 270,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 596,
+                    "line_end": 639,
+                    "indent": 4,
+                    "name": "_replace_prefix_in_path"
+                }
+            },
+            "test_default_env": {
+                "line": 288,
+                "line_end": 296,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 649,
+                    "line_end": 652,
+                    "indent": 4,
+                    "name": "_default_env"
+                }
+            },
+            "test_build_activate_dont_activate_unset_var": {
+                "line": 298,
+                "line_end": 352,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "add_export_unset_vars"
+                }
+            },
+            "test_build_activate_shlvl_0": {
+                "line": 412,
+                "line_end": 457,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 300,
+                    "indent": 4,
+                    "name": "build_activate"
+                }
+            },
+            "test_build_activate_shlvl_1": {
+                "line": 460,
+                "line_end": 560,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 300,
+                    "indent": 4,
+                    "name": "build_activate"
+                }
+            },
+            "test_build_stack_shlvl_1": {
+                "line": 563,
+                "line_end": 662,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "build_stack"
+                }
+            },
+            "test_activate_same_environment": {
+                "line": 664,
+                "line_end": 702,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 931,
+                    "line_end": 939,
+                    "indent": 4,
+                    "name": "path_conversion"
+                }
+            },
+            "test_build_deactivate_shlvl_2_from_stack": {
+                "line": 705,
+                "line_end": 801,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 486,
+                    "indent": 4,
+                    "name": "build_deactivate"
+                }
+            },
+            "test_build_deactivate_shlvl_2_from_activate": {
+                "line": 804,
+                "line_end": 894,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 486,
+                    "indent": 4,
+                    "name": "build_deactivate"
+                }
+            },
+            "test_build_deactivate_shlvl_1": {
+                "line": 896,
+                "line_end": 942,
+                "indent": 4,
+                "focal_class": "PosixActivator",
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 486,
+                    "indent": 4,
+                    "name": "build_deactivate"
+                }
+            },
+            "test_native_path_to_unix": {
+                "line": 1111,
+                "line_end": 1130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 769,
+                    "line_end": 820,
+                    "indent": 0,
+                    "name": "native_path_to_unix"
+                }
+            }
+        }
+    },
+    "tests/test_logic.py": {
+        "focal_file": "conda/common/logic.py",
+        "methods": {
+            "test_LinearBound": {
+                "line": 203,
+                "line_end": 253,
+                "indent": 0,
+                "focal_class": "Clauses",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "LinearBound"
+                }
+            },
+            "test_sat": {
+                "line": 256,
+                "line_end": 274,
+                "indent": 0,
+                "focal_class": "Clauses",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "sat"
+                }
+            },
+            "test_minimize": {
+                "line": 277,
+                "line_end": 296,
+                "indent": 0,
+                "focal_class": "Clauses",
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "minimize"
+                }
+            },
+            "test_minimal_unsatisfiable_subset": {
+                "line": 300,
+                "line_end": 321,
+                "indent": 0,
+                "focal_class": "Clauses",
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 290,
+                    "indent": 0,
+                    "name": "minimal_unsatisfiable_subset"
+                }
+            }
+        }
+    },
+    "tests/test_misc.py": {
+        "focal_file": "conda/misc.py",
+        "methods": {
+            "test_walk_prefix": {
+                "line": 61,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 159,
+                    "indent": 0,
+                    "name": "walk_prefix"
+                }
+            }
+        }
+    },
+    "tests/test_plan.py": {
+        "focal_file": "conda/plan.py",
+        "methods": {
+            "test_display_actions_0": {
+                "line": 101,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "display_actions"
+                }
+            },
+            "test_display_actions_show_channel_urls": {
+                "line": 300,
+                "line_end": 551,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "display_actions"
+                }
+            },
+            "test_display_actions_link_type": {
+                "line": 556,
+                "line_end": 764,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "display_actions"
+                }
+            },
+            "test_display_actions_features": {
+                "line": 767,
+                "line_end": 1043,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "display_actions"
+                }
+            },
+            "test_execute_plan": {
+                "line": 1058,
+                "line_end": 1076,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 495,
+                    "line_end": 500,
+                    "indent": 0,
+                    "name": "execute_plan"
+                }
+            }
+        }
+    },
+    "tests/test_resolve.py": {
+        "focal_file": "conda/resolve.py",
+        "methods": {
+            "test_get_reduced_index_unmanageable": {
+                "line": 294,
+                "line_end": 309,
+                "indent": 0,
+                "focal_class": "Resolve",
+                "focal_method": {
+                    "line": 562,
+                    "line_end": 766,
+                    "indent": 4,
+                    "name": "get_reduced_index"
+                }
+            },
+            "test_broken_install": {
+                "line": 1167,
+                "line_end": 1210,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1196,
+                    "line_end": 1202,
+                    "indent": 4,
+                    "name": "install"
+                }
+            },
+            "test_remove": {
+                "line": 1230,
+                "line_end": 1280,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1236,
+                    "line_end": 1240,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_dependency_sort": {
+                "line": 1811,
+                "line_end": 1833,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1035,
+                    "line_end": 1069,
+                    "indent": 4,
+                    "name": "dependency_sort"
+                }
+            }
+        }
+    },
+    "tests/test_toposort.py": {
+        "focal_file": "conda/common/toposort.py",
+        "methods": {
+            "test_pop_key": {
+                "line": 8,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "pop_key"
+                }
+            }
+        }
+    },
+    "tests/base/test_context.py": {
+        "focal_file": "conda/base/context.py",
+        "methods": {
+            "test_client_ssl_cert": {
+                "line": 118,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1345,
+                    "line_end": 1352,
+                    "indent": 0,
+                    "name": "reset_context"
+                }
+            },
+            "test_conda_envs_path": {
+                "line": 127,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1345,
+                    "line_end": 1352,
+                    "indent": 0,
+                    "name": "reset_context"
+                }
+            },
+            "test_context_parameters_have_descriptions": {
+                "line": 225,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 971,
+                    "line_end": 972,
+                    "indent": 4,
+                    "name": "get_descriptions"
+                }
+            }
+        }
+    },
+    "tests/cli/test_common.py": {
+        "focal_file": "conda/cli/common.py",
+        "methods": {
+            "test_confirm_yn_yes": {
+                "line": 53,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "confirm_yn"
+                }
+            },
+            "test_confirm_yn_no": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "confirm_yn"
+                }
+            }
+        }
+    },
+    "tests/common/test_configuration.py": {
+        "focal_file": "conda/common/configuration.py",
+        "methods": {
+            "test_load_raw_configs": {
+                "line": 365,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 468,
+                    "indent": 0,
+                    "name": "load_file_configs"
+                }
+            }
+        }
+    },
+    "tests/common/pkg_formats/test_python.py": {
+        "focal_file": "conda/common/pkg_formats/python.py",
+        "methods": {
+            "test_norm_package_name": {
+                "line": 63,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 794,
+                    "line_end": 795,
+                    "indent": 0,
+                    "name": "norm_package_name"
+                }
+            },
+            "test_pypi_name_to_conda_name": {
+                "line": 79,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 798,
+                    "line_end": 799,
+                    "indent": 0,
+                    "name": "pypi_name_to_conda_name"
+                }
+            },
+            "test_norm_package_version": {
+                "line": 91,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 802,
+                    "line_end": 814,
+                    "indent": 0,
+                    "name": "norm_package_version"
+                }
+            },
+            "test_split_spec": {
+                "line": 108,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 817,
+                    "line_end": 824,
+                    "indent": 0,
+                    "name": "split_spec"
+                }
+            },
+            "test_parse_specification": {
+                "line": 125,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 870,
+                    "indent": 0,
+                    "name": "parse_specification"
+                }
+            },
+            "test_get_site_packages_anchor_files": {
+                "line": 214,
+                "line_end": 243,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 873,
+                    "line_end": 902,
+                    "indent": 0,
+                    "name": "get_site_packages_anchor_files"
+                }
+            },
+            "test_get_dist_file_from_egg_link": {
+                "line": 246,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 905,
+                    "line_end": 949,
+                    "indent": 0,
+                    "name": "get_dist_file_from_egg_link"
+                }
+            },
+            "test_basepydist_load_requires_provides_file": {
+                "line": 445,
+                "line_end": 452,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "_load_requires_provides_file"
+                }
+            },
+            "test_dist_get_paths": {
+                "line": 455,
+                "line_end": 466,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "get_paths"
+                }
+            },
+            "test_dist_get_paths_no_paths": {
+                "line": 469,
+                "line_end": 473,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "get_paths"
+                }
+            },
+            "test_get_dist_requirements": {
+                "line": 476,
+                "line_end": 487,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 296,
+                    "indent": 4,
+                    "name": "get_dist_requirements"
+                }
+            },
+            "test_get_extra_provides": {
+                "line": 490,
+                "line_end": 501,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 315,
+                    "indent": 4,
+                    "name": "get_extra_provides"
+                }
+            },
+            "test_get_entry_points": {
+                "line": 504,
+                "line_end": 515,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 357,
+                    "indent": 4,
+                    "name": "get_entry_points"
+                }
+            },
+            "test_python_dist_info": {
+                "line": 536,
+                "line_end": 554,
+                "indent": 0,
+                "focal_class": "PythonInstalledDistribution",
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "get_python_requirements"
+                }
+            },
+            "test_python_dist_info_conda_dependencies": {
+                "line": 557,
+                "line_end": 590,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 344,
+                    "indent": 4,
+                    "name": "get_conda_dependencies"
+                }
+            },
+            "test_python_dist_info_conda_dependencies_2": {
+                "line": 593,
+                "line_end": 602,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 344,
+                    "indent": 4,
+                    "name": "get_conda_dependencies"
+                }
+            },
+            "test_python_dist_info_conda_dependencies_3": {
+                "line": 605,
+                "line_end": 614,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 344,
+                    "indent": 4,
+                    "name": "get_conda_dependencies"
+                }
+            },
+            "test_python_dist_egg_path": {
+                "line": 617,
+                "line_end": 627,
+                "indent": 0,
+                "focal_class": "PythonEggInfoDistribution",
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "get_paths"
+                }
+            },
+            "test_get_default_marker_context": {
+                "line": 679,
+                "line_end": 686,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1127,
+                    "line_end": 1166,
+                    "indent": 0,
+                    "name": "get_default_marker_context"
+                }
+            }
+        }
+    },
+    "tests/conda_env/test_cli.py": {
+        "focal_file": "conda/install.py",
+        "methods": {
+            "test_env_export_with_variables": {
+                "line": 527,
+                "line_end": 556,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 8,
+                    "name": "keys"
+                }
+            }
+        }
+    },
+    "tests/conda_env/test_env.py": {
+        "focal_file": "conda_env/env.py",
+        "methods": {
+            "test_add_channels": {
+                "line": 158,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": "conda_env.env.Environment",
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 239,
+                    "indent": 4,
+                    "name": "add_channels"
+                }
+            },
+            "test_remove_channels": {
+                "line": 163,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": "conda_env.env.Environment",
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "remove_channels"
+                }
+            },
+            "test_dependencies_update_after_adding": {
+                "line": 267,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_creates_file_on_save": {
+                "line": 369,
+                "line_end": 375,
+                "indent": 4,
+                "focal_class": "conda_env.env.Environment",
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "save"
+                }
+            }
+        }
+    },
+    "tests/conda_env/test_pip_util.py": {
+        "focal_file": "conda_env/pip_util.py",
+        "methods": {
+            "test_get_pip_installed_packages": {
+                "line": 69,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "get_pip_installed_packages"
+                }
+            },
+            "test_get_pip_installed_packages_none": {
+                "line": 75,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "get_pip_installed_packages"
+                }
+            }
+        }
+    },
+    "tests/conda_env/installers/test_pip.py": {
+        "focal_file": "conda_env/installers/pip.py",
+        "methods": {
+            "test_straight_install": {
+                "line": 13,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "install"
+                }
+            }
+        }
+    },
+    "tests/core/test_envs_manager.py": {
+        "focal_file": "conda/core/envs_manager.py",
+        "methods": {
+            "test_register_unregister_location_env": {
+                "line": 48,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "unregister_env"
+                }
+            },
+            "test_rewrite_environments_txt_file": {
+                "line": 81,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 118,
+                    "indent": 0,
+                    "name": "_clean_environments_txt"
+                }
+            }
+        }
+    },
+    "tests/core/test_index.py": {
+        "focal_file": "conda/core/index.py",
+        "methods": {
+            "test_basic_get_reduced_index": {
+                "line": 126,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 327,
+                    "indent": 0,
+                    "name": "get_reduced_index"
+                }
+            }
+        }
+    },
+    "tests/core/test_initialize.py": {
+        "focal_file": "conda/core/initialize.py",
+        "methods": {
+            "test_get_python_info": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1691,
+                    "line_end": 1704,
+                    "indent": 0,
+                    "name": "_get_python_info"
+                }
+            },
+            "test_make_install_plan": {
+                "line": 60,
+                "line_end": 308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 242,
+                    "line_end": 432,
+                    "indent": 0,
+                    "name": "make_install_plan"
+                }
+            },
+            "test_make_initialize_plan_bash_zsh": {
+                "line": 310,
+                "line_end": 317,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 627,
+                    "indent": 0,
+                    "name": "make_initialize_plan"
+                }
+            },
+            "test_make_initialize_plan_cmd_exe": {
+                "line": 319,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 627,
+                    "indent": 0,
+                    "name": "make_initialize_plan"
+                }
+            },
+            "test_make_entry_point": {
+                "line": 330,
+                "line_end": 364,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 738,
+                    "line_end": 789,
+                    "indent": 0,
+                    "name": "make_entry_point"
+                }
+            },
+            "test_make_entry_point_exe": {
+                "line": 366,
+                "line_end": 376,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 792,
+                    "line_end": 807,
+                    "indent": 0,
+                    "name": "make_entry_point_exe"
+                }
+            },
+            "test_install_conda_sh": {
+                "line": 378,
+                "line_end": 402,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 865,
+                    "line_end": 868,
+                    "indent": 0,
+                    "name": "install_conda_sh"
+                }
+            },
+            "test_install_conda_fish": {
+                "line": 404,
+                "line_end": 433,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 967,
+                    "line_end": 970,
+                    "indent": 0,
+                    "name": "install_conda_fish"
+                }
+            },
+            "test_install_conda_xsh": {
+                "line": 435,
+                "line_end": 458,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 985,
+                    "line_end": 988,
+                    "indent": 0,
+                    "name": "install_conda_xsh"
+                }
+            },
+            "test_install_conda_csh": {
+                "line": 460,
+                "line_end": 487,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 991,
+                    "line_end": 994,
+                    "indent": 0,
+                    "name": "install_conda_csh"
+                }
+            },
+            "test_install_condabin_conda_bat": {
+                "line": 489,
+                "line_end": 506,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 919,
+                    "line_end": 924,
+                    "indent": 0,
+                    "name": "install_condabin_conda_bat"
+                }
+            },
+            "test__get_python_info": {
+                "line": 508,
+                "line_end": 512,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1691,
+                    "line_end": 1704,
+                    "indent": 0,
+                    "name": "_get_python_info"
+                }
+            },
+            "test_install_1": {
+                "line": 514,
+                "line_end": 564,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "install"
+                }
+            },
+            "test_initialize_dev_bash": {
+                "line": 566,
+                "line_end": 635,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 235,
+                    "indent": 0,
+                    "name": "initialize_dev"
+                }
+            },
+            "test_initialize_dev_cmd_exe": {
+                "line": 637,
+                "line_end": 702,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 235,
+                    "indent": 0,
+                    "name": "initialize_dev"
+                }
+            },
+            "test_init_sh_user_unix": {
+                "line": 705,
+                "line_end": 790,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1240,
+                    "line_end": 1335,
+                    "indent": 0,
+                    "name": "init_sh_user"
+                }
+            },
+            "test_init_sh_user_tcsh_unix": {
+                "line": 793,
+                "line_end": 806,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1240,
+                    "line_end": 1335,
+                    "indent": 0,
+                    "name": "init_sh_user"
+                }
+            },
+            "test_init_sh_user_windows": {
+                "line": 809,
+                "line_end": 886,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1240,
+                    "line_end": 1335,
+                    "indent": 0,
+                    "name": "init_sh_user"
+                }
+            },
+            "test_init_cmd_exe_registry": {
+                "line": 889,
+                "line_end": 928,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1414,
+                    "line_end": 1473,
+                    "indent": 0,
+                    "name": "init_cmd_exe_registry"
+                }
+            },
+            "test_init_enable_long_path": {
+                "line": 932,
+                "line_end": 957,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1476,
+                    "line_end": 1496,
+                    "indent": 0,
+                    "name": "init_long_path"
+                }
+            },
+            "test_init_sh_system": {
+                "line": 959,
+                "line_end": 971,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1338,
+                    "line_end": 1365,
+                    "indent": 0,
+                    "name": "init_sh_system"
+                }
+            }
+        }
+    },
+    "tests/core/test_package_cache_data.py": {
+        "focal_file": "conda/core/package_cache_data.py",
+        "methods": {
+            "test_ProgressiveFetchExtract_prefers_conda_v2_format": {
+                "line": 71,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 472,
+                    "line_end": 585,
+                    "indent": 4,
+                    "name": "make_actions_for_record"
+                }
+            }
+        }
+    },
+    "tests/core/test_path_actions.py": {
+        "focal_file": "conda/core/path_actions.py",
+        "methods": {
+            "test_CompileMultiPycAction_generic": {
+                "line": 86,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 455,
+                    "line_end": 461,
+                    "indent": 4,
+                    "name": "create_actions"
+                }
+            },
+            "test_CompileMultiPycAction_noarch_python": {
+                "line": 102,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 455,
+                    "line_end": 461,
+                    "indent": 4,
+                    "name": "create_actions"
+                }
+            },
+            "test_CreatePythonEntryPointAction_generic": {
+                "line": 187,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 455,
+                    "line_end": 461,
+                    "indent": 4,
+                    "name": "create_actions"
+                }
+            },
+            "test_CreatePythonEntryPointAction_noarch_python": {
+                "line": 192,
+                "line_end": 257,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 455,
+                    "line_end": 461,
+                    "indent": 4,
+                    "name": "create_actions"
+                }
+            }
+        }
+    },
+    "tests/core/test_portability.py": {
+        "focal_file": "conda/core/portability.py",
+        "methods": {
+            "test_replace_long_shebang": {
+                "line": 51,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "replace_long_shebang"
+                }
+            }
+        }
+    },
+    "tests/core/test_prefix_data.py": {
+        "focal_file": "conda/core/prefix_data.py",
+        "methods": {
+            "test_get_environment_env_vars": {
+                "line": 202,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 326,
+                    "indent": 4,
+                    "name": "get_environment_env_vars"
+                }
+            },
+            "test_set_unset_environment_env_vars": {
+                "line": 211,
+                "line_end": 229,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 338,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "unset_environment_env_vars"
+                }
+            },
+            "test_set_unset_environment_env_vars_no_exist": {
+                "line": 231,
+                "line_end": 239,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 338,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "unset_environment_env_vars"
+                }
+            }
+        }
+    },
+    "tests/core/test_subdir_data.py": {
+        "focal_file": "conda/core/subdir_data.py",
+        "methods": {
+            "test_read_mod_and_etag_mod_only": {
+                "line": 81,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 605,
+                    "line_end": 621,
+                    "indent": 0,
+                    "name": "read_mod_and_etag"
+                }
+            },
+            "test_read_mod_and_etag_etag_only": {
+                "line": 101,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 605,
+                    "line_end": 621,
+                    "indent": 0,
+                    "name": "read_mod_and_etag"
+                }
+            },
+            "test_read_mod_and_etag_etag_mod": {
+                "line": 115,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 605,
+                    "line_end": 621,
+                    "indent": 0,
+                    "name": "read_mod_and_etag"
+                }
+            },
+            "test_read_mod_and_etag_mod_etag": {
+                "line": 130,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 605,
+                    "line_end": 621,
+                    "indent": 0,
+                    "name": "read_mod_and_etag"
+                }
+            },
+            "test_cache_fn_url_repo_continuum_io": {
+                "line": 145,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 856,
+                    "line_end": 866,
+                    "indent": 0,
+                    "name": "cache_fn_url"
+                }
+            },
+            "test_cache_fn_url_repo_anaconda_com": {
+                "line": 160,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 856,
+                    "line_end": 866,
+                    "indent": 0,
+                    "name": "cache_fn_url"
+                }
+            },
+            "test_fetch_repodata_remote_request_invalid_arch": {
+                "line": 178,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 683,
+                    "line_end": 837,
+                    "indent": 0,
+                    "name": "fetch_repodata_remote_request"
+                }
+            },
+            "test_fetch_repodata_remote_request_invalid_noarch": {
+                "line": 186,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 683,
+                    "line_end": 837,
+                    "indent": 0,
+                    "name": "fetch_repodata_remote_request"
+                }
+            }
+        }
+    },
+    "tests/gateways/test_connection.py": {
+        "focal_file": "conda/gateways/connection/session.py",
+        "methods": {
+            "test_add_binstar_token": {
+                "line": 23,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "add_binstar_token"
+                }
+            }
+        }
+    },
+    "tests/gateways/disk/test_delete.py": {
+        "focal_file": "conda/gateways/disk/delete.py",
+        "methods": {
+            "test_backoff_unlink": {
+                "line": 155,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 204,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "backoff_rmdir"
+                }
+            }
+        }
+    },
+    "tests/gateways/disk/test_permissions.py": {
+        "focal_file": "conda/gateways/disk/permissions.py",
+        "methods": {
+            "test_make_writable": {
+                "line": 83,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "make_writable"
+                }
+            },
+            "test_make_writable_doesnt_exist": {
+                "line": 99,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "make_writable"
+                }
+            },
+            "test_make_writable_dir_EPERM": {
+                "line": 106,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "make_writable"
+                }
+            },
+            "test_make_writable_dir_EACCES": {
+                "line": 115,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "make_writable"
+                }
+            },
+            "test_make_writable_dir_EROFS": {
+                "line": 124,
+                "line_end": 130,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "make_writable"
+                }
+            },
+            "test_recursive_make_writable": {
+                "line": 133,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "recursive_make_writable"
+                }
+            },
+            "test_make_executable": {
+                "line": 149,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "make_executable"
+                }
+            }
+        }
+    },
+    "tests/models/test_channel.py": {
+        "focal_file": "conda/models/channel.py",
+        "methods": {
+            "test_old_channel_alias": {
+                "line": 624,
+                "line_end": 643,
+                "indent": 4,
+                "focal_class": "Channel",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "urls"
+                }
+            },
+            "test_channel_alias": {
+                "line": 801,
+                "line_end": 843,
+                "indent": 4,
+                "focal_class": "Channel",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "urls"
+                }
+            },
+            "test_file_urls": {
+                "line": 881,
+                "line_end": 897,
+                "indent": 4,
+                "focal_class": "Channel",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "urls"
+                }
+            }
+        }
+    },
+    "tests/models/test_match_spec.py": {
+        "focal_file": "conda/models/match_spec.py",
+        "methods": {
+            "test_match_1": {
+                "line": 46,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_to_filename": {
+                "line": 100,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 267,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "_to_filename_do_not_use"
+                }
+            },
+            "test_exact_values": {
+                "line": 283,
+                "line_end": 296,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "get_exact_value"
+                }
+            },
+            "test_openssl_match": {
+                "line": 395,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_track_features_match": {
+                "line": 400,
+                "line_end": 436,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_license_match": {
+                "line": 459,
+                "line_end": 476,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_parse_spec_str_tarball_url": {
+                "line": 534,
+                "line_end": 567,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 735,
+                    "indent": 0,
+                    "name": "_parse_spec_str"
+                }
+            },
+            "test_parse_spec_str_no_brackets": {
+                "line": 589,
+                "line_end": 629,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 735,
+                    "indent": 0,
+                    "name": "_parse_spec_str"
+                }
+            },
+            "test_parse_spec_str_with_brackets": {
+                "line": 631,
+                "line_end": 657,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 735,
+                    "indent": 0,
+                    "name": "_parse_spec_str"
+                }
+            },
+            "test_parse_hard": {
+                "line": 699,
+                "line_end": 749,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 735,
+                    "indent": 0,
+                    "name": "_parse_spec_str"
+                }
+            },
+            "test_parse_errors": {
+                "line": 751,
+                "line_end": 753,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 735,
+                    "indent": 0,
+                    "name": "_parse_spec_str"
+                }
+            },
+            "test_parse_channel_subdir": {
+                "line": 755,
+                "line_end": 777,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 735,
+                    "indent": 0,
+                    "name": "_parse_spec_str"
+                }
+            },
+            "test_parse_parens": {
+                "line": 779,
+                "line_end": 787,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 735,
+                    "indent": 0,
+                    "name": "_parse_spec_str"
+                }
+            },
+            "test_channel_merge": {
+                "line": 933,
+                "line_end": 950,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 464,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            },
+            "test_subdir_merge": {
+                "line": 952,
+                "line_end": 965,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 464,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            },
+            "test_build_merge": {
+                "line": 967,
+                "line_end": 975,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 464,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            },
+            "test_build_number_merge": {
+                "line": 977,
+                "line_end": 985,
+                "indent": 4,
+                "focal_class": "MatchSpec",
+                "focal_method": {
+                    "line": 464,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            }
+        }
+    },
+    "tests/models/test_prefix_graph.py": {
+        "focal_file": "conda/models/prefix_graph.py",
+        "methods": {
+            "test_remove_youngest_descendant_nodes_with_specs": {
+                "line": 394,
+                "line_end": 564,
+                "indent": 0,
+                "focal_class": "PrefixGraph",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "remove_youngest_descendant_nodes_with_specs"
+                }
+            }
+        }
+    },
+    "tests/models/test_version.py": {
+        "focal_file": "conda/models/version.py",
+        "methods": {
+            "test_ver_eval": {
+                "line": 159,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "ver_eval"
+                }
+            }
+        }
+    }
+}

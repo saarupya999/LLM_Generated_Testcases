@@ -1,0 +1,255 @@
+{
+    "src/python/mechanic/config_test.py": {
+        "focal_file": "src/python/mechanic/config.py",
+        "methods": {
+            "testGetMigrationTmpDirIsExpanded": {
+                "line": 13,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 32,
+                    "indent": 2,
+                    "name": "getMigrationTmpDir"
+                }
+            },
+            "testGetInventoryDbFileIsExpanded": {
+                "line": 16,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 68,
+                    "indent": 2,
+                    "name": "getInventoryDbFile"
+                }
+            },
+            "testGetMigrationDirsIsExpanded": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 58,
+                    "indent": 2,
+                    "name": "getMigrationDirs"
+                }
+            },
+            "testGetPreMigrationDirsIsExpanded": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 2,
+                    "name": "getPreMigrationDirs"
+                }
+            },
+            "testGetPostMigrationDirsIsExpanded": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 65,
+                    "indent": 2,
+                    "name": "getPostMigrationDirs"
+                }
+            }
+        }
+    },
+    "src/python/mechanic/inventory_db_test.py": {
+        "focal_file": "src/python/mechanic/inventory_db.py",
+        "methods": {
+            "testMarkStartedAndSucceeded": {
+                "line": 20,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 33,
+                    "indent": 2,
+                    "name": "hasMigrationSucceeded"
+                }
+            },
+            "testListMigrationsWhenEmpty": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 53,
+                    "indent": 2,
+                    "name": "listMigrations"
+                }
+            },
+            "testListMigrationsAfterOneStarted": {
+                "line": 30,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 19,
+                    "indent": 2,
+                    "name": "markMigrationAsStarted"
+                }
+            }
+        }
+    },
+    "src/python/mechanic/inventory_test.py": {
+        "focal_file": "src/python/mechanic/inventory.py",
+        "methods": {
+            "testListUnappliedMigrationsFromEmptyDir": {
+                "line": 23,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 20,
+                    "indent": 2,
+                    "name": "listUnappliedMigrations"
+                }
+            },
+            "testListPreMigrationsFromEmptyDir": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 25,
+                    "indent": 2,
+                    "name": "listPreMigrations"
+                }
+            },
+            "testListPostMigrationsFromEmptyDir": {
+                "line": 31,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 30,
+                    "indent": 2,
+                    "name": "listPostMigrations"
+                }
+            },
+            "testMarkMigrationAsStarted": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 2,
+                    "name": "markMigrationAsStarted"
+                }
+            },
+            "testMarkMigrationAsFailed": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 36,
+                    "indent": 2,
+                    "name": "markMigrationAsFailed"
+                }
+            },
+            "testMarkMigrationAsSucceeded": {
+                "line": 43,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 39,
+                    "indent": 2,
+                    "name": "markMigrationAsSucceeded"
+                }
+            },
+            "testListMigrations": {
+                "line": 47,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 2,
+                    "name": "listMigrations"
+                }
+            }
+        }
+    },
+    "src/python/mechanic/migration_collector_test.py": {
+        "focal_file": "src/python/mechanic/migration_collector.py",
+        "methods": {
+            "testCollectingFromEmptyDirGivesNoMigrations": {
+                "line": 28,
+                "line_end": 30,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 27,
+                    "indent": 2,
+                    "name": "collectMigrationsFrom"
+                }
+            },
+            "testCollectingFromDirGivesFileBasedMigrations": {
+                "line": 37,
+                "line_end": 44,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 27,
+                    "indent": 2,
+                    "name": "collectMigrationsFrom"
+                }
+            }
+        }
+    },
+    "src/python/mechanic/migration_executor_test.py": {
+        "focal_file": "src/python/mechanic/migration_executor.py",
+        "methods": {
+            "testApplyMigrationWithSuccess": {
+                "line": 24,
+                "line_end": 27,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 52,
+                    "indent": 2,
+                    "name": "applyMigration"
+                }
+            },
+            "testApplyMigrationWithFailure": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 52,
+                    "indent": 2,
+                    "name": "applyMigration"
+                }
+            }
+        }
+    }
+}

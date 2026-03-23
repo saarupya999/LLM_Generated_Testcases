@@ -1,0 +1,868 @@
+{
+    "swh/scheduler/tests/test_cli.py": {
+        "focal_file": "swh/scheduler/utils.py",
+        "methods": {
+            "test_list_tasks_id": {
+                "line": 372,
+                "line_end": 396,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "create_task_dict"
+                }
+            },
+            "test_list_tasks_limit": {
+                "line": 479,
+                "line_end": 514,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "create_task_dict"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/test_cli_origin.py": {
+        "focal_file": "swh/scheduler/cli/origin.py",
+        "methods": {
+            "test_format_origins_basic": {
+                "line": 29,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "format_origins"
+                }
+            },
+            "test_format_origins_fields_unknown": {
+                "line": 40,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "format_origins"
+                }
+            },
+            "test_format_origins_fields": {
+                "line": 49,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "format_origins"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/test_config.py": {
+        "focal_file": "swh/scheduler/celery_backend/config.py",
+        "methods": {
+            "test_route_for_task_routing": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 179,
+                    "indent": 0,
+                    "name": "route_for_task"
+                }
+            },
+            "test_route_for_task_no_routing": {
+                "line": 22,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 179,
+                    "indent": 0,
+                    "name": "route_for_task"
+                }
+            },
+            "test_get_available_slots_no_max_length": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 246,
+                    "indent": 0,
+                    "name": "get_available_slots"
+                }
+            },
+            "test_get_available_slots_issue_when_reading_queue": {
+                "line": 31,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 246,
+                    "indent": 0,
+                    "name": "get_available_slots"
+                }
+            },
+            "test_get_available_slots_no_queue_length": {
+                "line": 40,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 246,
+                    "indent": 0,
+                    "name": "get_available_slots"
+                }
+            },
+            "test_get_available_slots": {
+                "line": 48,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 246,
+                    "indent": 0,
+                    "name": "get_available_slots"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/test_init.py": {
+        "focal_file": "swh/scheduler/__init__.py",
+        "methods": {
+            "test_init_get_scheduler_failure": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "get_scheduler"
+                }
+            },
+            "test_init_get_scheduler": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "get_scheduler"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/test_journal_client.py": {
+        "focal_file": "swh/scheduler/journal_client.py",
+        "methods": {
+            "test_max_date": {
+                "line": 62,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "max_date"
+                }
+            },
+            "test_max_date_raise": {
+                "line": 66,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "max_date"
+                }
+            },
+            "test_journal_client_from_position_offset_to_days": {
+                "line": 815,
+                "line_end": 816,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "from_position_offset_to_days"
+                }
+            },
+            "test_journal_client_from_position_offset_to_days_only_positive_input": {
+                "line": 819,
+                "line_end": 821,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "from_position_offset_to_days"
+                }
+            },
+            "test_next_visit_queue_position": {
+                "line": 827,
+                "line_end": 845,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "next_visit_queue_position"
+                }
+            },
+            "test_next_visit_queue_position_with_state": {
+                "line": 851,
+                "line_end": 868,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "next_visit_queue_position"
+                }
+            },
+            "test_next_visit_queue_position_with_next_visit_queue": {
+                "line": 874,
+                "line_end": 895,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "next_visit_queue_position"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/test_scheduler.py": {
+        "focal_file": "swh/scheduler/interface.py",
+        "methods": {
+            "test_add_task_type": {
+                "line": 88,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "get_task_type"
+                }
+            },
+            "test_create_task_type_idempotence": {
+                "line": 97,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "create_task_type"
+                }
+            },
+            "test_get_task_types": {
+                "line": 103,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "get_task_types"
+                }
+            },
+            "test_create_tasks": {
+                "line": 111,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "create_tasks"
+                }
+            },
+            "test_peek_ready_tasks_no_priority": {
+                "line": 161,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "peek_ready_tasks"
+                }
+            },
+            "test_grab_ready_tasks": {
+                "line": 230,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "grab_ready_tasks"
+                }
+            },
+            "test_grab_ready_priority_tasks": {
+                "line": 256,
+                "line_end": 289,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "grab_ready_priority_tasks"
+                }
+            },
+            "test_get_tasks": {
+                "line": 291,
+                "line_end": 305,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "get_tasks"
+                }
+            },
+            "test_search_tasks": {
+                "line": 307,
+                "line_end": 316,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "search_tasks"
+                }
+            },
+            "test_filter_task_to_archive": {
+                "line": 333,
+                "line_end": 456,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "filter_task_to_archive"
+                }
+            },
+            "test_delete_archived_tasks": {
+                "line": 458,
+                "line_end": 490,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "delete_archived_tasks"
+                }
+            },
+            "test_get_task_runs_no_task": {
+                "line": 492,
+                "line_end": 499,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 322,
+                    "line_end": 324,
+                    "indent": 4,
+                    "name": "get_task_runs"
+                }
+            },
+            "test_get_task_runs_with_executed": {
+                "line": 570,
+                "line_end": 624,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 322,
+                    "line_end": 324,
+                    "indent": 4,
+                    "name": "get_task_runs"
+                }
+            },
+            "test_get_or_create_lister": {
+                "line": 626,
+                "line_end": 639,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 342,
+                    "line_end": 348,
+                    "indent": 4,
+                    "name": "get_or_create_lister"
+                }
+            },
+            "test_get_lister": {
+                "line": 641,
+                "line_end": 654,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 339,
+                    "indent": 4,
+                    "name": "get_lister"
+                }
+            },
+            "test_get_listers": {
+                "line": 656,
+                "line_end": 663,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "get_listers"
+                }
+            },
+            "test_update_lister": {
+                "line": 665,
+                "line_end": 671,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "update_lister"
+                }
+            },
+            "test_update_lister_stale": {
+                "line": 673,
+                "line_end": 678,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "update_lister"
+                }
+            },
+            "test_record_listed_origins": {
+                "line": 680,
+                "line_end": 687,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 373,
+                    "indent": 4,
+                    "name": "record_listed_origins"
+                }
+            },
+            "test_record_listed_origins_upsert": {
+                "line": 689,
+                "line_end": 706,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 373,
+                    "indent": 4,
+                    "name": "record_listed_origins"
+                }
+            },
+            "test_get_listed_origins_exact": {
+                "line": 708,
+                "line_end": 719,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 376,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "get_listed_origins"
+                }
+            },
+            "test_get_listed_origins_limit": {
+                "line": 722,
+                "line_end": 750,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 376,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "get_listed_origins"
+                }
+            },
+            "test_get_listed_origins_all": {
+                "line": 752,
+                "line_end": 757,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 376,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "get_listed_origins"
+                }
+            },
+            "test_grab_next_visits_underflow": {
+                "line": 1018,
+                "line_end": 1033,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 392,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "grab_next_visits"
+                }
+            },
+            "test_grab_next_visits_unknown_policy": {
+                "line": 1160,
+                "line_end": 1164,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 392,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "grab_next_visits"
+                }
+            },
+            "test_origin_visit_stats_get_empty": {
+                "line": 1170,
+                "line_end": 1171,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 441,
+                    "indent": 4,
+                    "name": "origin_visit_stats_get"
+                }
+            },
+            "test_origin_visit_stats_get_pagination": {
+                "line": 1173,
+                "line_end": 1194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 441,
+                    "indent": 4,
+                    "name": "origin_visit_stats_get"
+                }
+            },
+            "test_origin_visit_stats_upsert": {
+                "line": 1196,
+                "line_end": 1227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 429,
+                    "indent": 4,
+                    "name": "origin_visit_stats_upsert"
+                }
+            },
+            "test_origin_visit_stats_upsert_with_snapshot": {
+                "line": 1229,
+                "line_end": 1242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 429,
+                    "indent": 4,
+                    "name": "origin_visit_stats_upsert"
+                }
+            },
+            "test_origin_visit_stats_upsert_batch": {
+                "line": 1244,
+                "line_end": 1266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 429,
+                    "indent": 4,
+                    "name": "origin_visit_stats_upsert"
+                }
+            },
+            "test_origin_visit_stats_upsert_cardinality_failing": {
+                "line": 1268,
+                "line_end": 1288,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 429,
+                    "indent": 4,
+                    "name": "origin_visit_stats_upsert"
+                }
+            },
+            "test_visit_scheduler_queue_position": {
+                "line": 1290,
+                "line_end": 1308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 444,
+                    "line_end": 451,
+                    "indent": 4,
+                    "name": "visit_scheduler_queue_position_get"
+                }
+            },
+            "test_update_metrics_explicit_lister": {
+                "line": 1387,
+                "line_end": 1395,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 477,
+                    "indent": 4,
+                    "name": "update_metrics"
+                }
+            },
+            "test_update_metrics_twice": {
+                "line": 1406,
+                "line_end": 1415,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 463,
+                    "line_end": 477,
+                    "indent": 4,
+                    "name": "update_metrics"
+                }
+            },
+            "test_get_metrics": {
+                "line": 1417,
+                "line_end": 1422,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 480,
+                    "line_end": 489,
+                    "indent": 4,
+                    "name": "get_metrics"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/test_server.py": {
+        "focal_file": "swh/scheduler/api/server.py",
+        "methods": {
+            "test_load_and_check_config_no_configuration": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "load_and_check_config"
+                }
+            },
+            "test_load_and_check_config_inexistent_fil": {
+                "line": 41,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "load_and_check_config"
+                }
+            },
+            "test_load_and_check_config_wrong_configuration": {
+                "line": 49,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "load_and_check_config"
+                }
+            },
+            "test_load_and_check_config_remote_config_local_type_raise": {
+                "line": 56,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "load_and_check_config"
+                }
+            },
+            "test_load_and_check_config_local_incomplete_configuration": {
+                "line": 67,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "load_and_check_config"
+                }
+            },
+            "test_load_and_check_config_local_config_fine": {
+                "line": 77,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "load_and_check_config"
+                }
+            },
+            "test_load_and_check_config_remote_config_fine": {
+                "line": 85,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "load_and_check_config"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/test_utils.py": {
+        "focal_file": "swh/scheduler/utils.py",
+        "methods": {
+            "test_create_oneshot_task_dict_simple": {
+                "line": 15,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "create_oneshot_task_dict"
+                }
+            },
+            "test_create_oneshot_task_dict_other_call": {
+                "line": 31,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "create_oneshot_task_dict"
+                }
+            },
+            "test_create_task_dict": {
+                "line": 53,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "create_task_dict"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/es/test_backend_es.py": {
+        "focal_file": "swh/scheduler/backend_es.py",
+        "methods": {
+            "test_get_elasticsearch": {
+                "line": 16,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "get_elasticsearch"
+                }
+            },
+            "test_backend_setup_index": {
+                "line": 51,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "is_index_opened"
+                }
+            }
+        }
+    },
+    "swh/scheduler/tests/es/test_elasticsearch_memory.py": {
+        "focal_file": "swh/scheduler/elasticsearch_memory.py",
+        "methods": {
+            "test_bulk_and_mget": {
+                "line": 76,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "mget"
+                }
+            }
+        }
+    }
+}

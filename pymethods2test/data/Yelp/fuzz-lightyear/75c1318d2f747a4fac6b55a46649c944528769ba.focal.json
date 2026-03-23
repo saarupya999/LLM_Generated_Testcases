@@ -1,0 +1,116 @@
+{
+    "tests/integration/request_test.py": {
+        "focal_file": "fuzz_lightyear/request.py",
+        "methods": {
+            "test_json": {
+                "line": 13,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": "FuzzingRequest",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "json"
+                }
+            },
+            "test_send_body": {
+                "line": 56,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": "FuzzingRequest",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "send"
+                }
+            }
+        }
+    },
+    "tests/integration/result_test.py": {
+        "focal_file": "fuzz_lightyear/result.py",
+        "methods": {
+            "test_successful_sequence": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": "FuzzingResult",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "is_successful"
+                }
+            }
+        }
+    },
+    "tests/integration/runner_test.py": {
+        "focal_file": "fuzz_lightyear/runner.py",
+        "methods": {
+            "test_invalid_request": {
+                "line": 22,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "validate_sequence"
+                }
+            }
+        }
+    },
+    "tests/unit/datastore_test.py": {
+        "focal_file": "fuzz_lightyear/datastore.py",
+        "methods": {
+            "test_registering_hooks_by_operation": {
+                "line": 23,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "register_post_fuzz_hook"
+                }
+            }
+        }
+    },
+    "tests/unit/discovery_test.py": {
+        "focal_file": "fuzz_lightyear/discovery.py",
+        "methods": {
+            "test_import_module_from_path": {
+                "line": 41,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "import_module_from_path"
+                }
+            }
+        }
+    },
+    "tests/unit/supplements/factory_supplements_test.py": {
+        "focal_file": "fuzz_lightyear/datastore.py",
+        "methods": {
+            "test_uses_default": {
+                "line": 94,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 114,
+                    "indent": 0,
+                    "name": "get_user_defined_mapping"
+                }
+            }
+        }
+    }
+}

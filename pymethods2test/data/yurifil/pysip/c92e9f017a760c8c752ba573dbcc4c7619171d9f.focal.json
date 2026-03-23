@@ -1,0 +1,776 @@
+{
+    "test/message/test_branch.py": {
+        "focal_file": "pysip/message/branch.py",
+        "methods": {
+            "test_is_rfc3261": {
+                "line": 6,
+                "line_end": 7,
+                "indent": 0,
+                "focal_class": "Branch",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "is_rfc3261"
+                }
+            },
+            "test_not_rfc3261": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": "Branch",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "is_rfc3261"
+                }
+            },
+            "test_key_is_rfc3261": {
+                "line": 16,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": "BranchKey",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "is_rfc3261"
+                }
+            },
+            "test_key_not_rfc3621": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": "BranchKey",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "is_rfc3261"
+                }
+            },
+            "test_make_rfc3261": {
+                "line": 39,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "make_rfc3261"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr.py": {
+        "focal_file": "pysip/message/hdr.py",
+        "methods": {
+            "test_as_integer": {
+                "line": 9,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": "Header",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "as_integer"
+                }
+            },
+            "test_serialize_single_value": {
+                "line": 21,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": "Header",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "serialize_to_string"
+                }
+            },
+            "test_serialize_multi_values": {
+                "line": 28,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": "Header",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "serialize_to_bytes"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr_contact.py": {
+        "focal_file": "pysip/message/hdr_contact.py",
+        "methods": {
+            "test_expires": {
+                "line": 41,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": "ContactHeader",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "set_expires"
+                }
+            },
+            "test_qvalue": {
+                "line": 54,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": "ContactHeader",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "set_qvalue"
+                }
+            },
+            "test_set_param": {
+                "line": 68,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": "ContactHeader",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "set_param"
+                }
+            },
+            "test_set_param_error": {
+                "line": 84,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": "ContactHeader",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "set_param"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr_content_type.py": {
+        "focal_file": "pysip/message/hdr_content_type.py",
+        "methods": {
+            "test_reassemble": {
+                "line": 67,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": "ContentTypeHeader",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "assemble"
+                }
+            },
+            "test_build": {
+                "line": 74,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": "ContentTypeHeader",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "build"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr_cseq.py": {
+        "focal_file": "pysip/message/hdr_cseq.py",
+        "methods": {
+            "test_reassemble": {
+                "line": 50,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": "CSeqHeader",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "assemble"
+                }
+            },
+            "test_build": {
+                "line": 55,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": "CSeqHeader",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "build"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr_date.py": {
+        "focal_file": "pysip/message/hdr_date.py",
+        "methods": {
+            "test_now": {
+                "line": 73,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "now"
+                }
+            },
+            "test_reassemble": {
+                "line": 80,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": "DateHeader",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "assemble"
+                }
+            },
+            "test_build": {
+                "line": 85,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": "DateHeader",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "build"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr_fromto.py": {
+        "focal_file": "pysip/message/hdr_fromto.py",
+        "methods": {
+            "test_reassemble": {
+                "line": 72,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": "FromToHeader",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "assemble"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr_maxforwards.py": {
+        "focal_file": "pysip/message/hdr_maxforwards.py",
+        "methods": {
+            "test_decrement": {
+                "line": 26,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": "MaxForwardsHeader",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "decrement"
+                }
+            },
+            "test_decrement_error": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "MaxForwardsHeader",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "decrement"
+                }
+            }
+        }
+    },
+    "test/message/test_hdr_via.py": {
+        "focal_file": "pysip/message/hdr_via.py",
+        "methods": {
+            "test_topmost_via": {
+                "line": 10,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": "SentProtocol",
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 445,
+                    "indent": 4,
+                    "name": "topmost_via"
+                }
+            },
+            "test_via_params": {
+                "line": 31,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": "ViaHeader",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "get_raw_param"
+                }
+            },
+            "test_via_gen_params": {
+                "line": 58,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "get_raw_param"
+                }
+            },
+            "test_assemble": {
+                "line": 188,
+                "line_end": 193,
+                "indent": 0,
+                "focal_class": "ViaHeader",
+                "focal_method": {
+                    "line": 485,
+                    "line_end": 495,
+                    "indent": 4,
+                    "name": "assemble"
+                }
+            }
+        }
+    },
+    "test/message/test_hparams.py": {
+        "focal_file": "pysip/message/hparams.py",
+        "methods": {
+            "test_find_raw": {
+                "line": 27,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": "HParams",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "find_raw"
+                }
+            },
+            "test_find_raw_set": {
+                "line": 33,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": "HParams",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "set"
+                }
+            },
+            "test_set_raw": {
+                "line": 44,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": "HParams",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "set_raw"
+                }
+            },
+            "test_assemble": {
+                "line": 53,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": "HParams",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "assemble"
+                }
+            },
+            "test_set_find": {
+                "line": 58,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": "HParams",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "find"
+                }
+            }
+        }
+    },
+    "test/message/test_message.py": {
+        "focal_file": "pysip/message/message.py",
+        "methods": {
+            "test_message_serialize_request": {
+                "line": 70,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": "RequestType",
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "serialize"
+                }
+            },
+            "test_message_serialize_response": {
+                "line": 91,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": "Message",
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "serialize"
+                }
+            },
+            "test_message_clear_headers": {
+                "line": 138,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": "RequestType",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "clear_header"
+                }
+            }
+        }
+    },
+    "test/message/test_parser_aux.py": {
+        "focal_file": "pysip/message/parser_aux.py",
+        "methods": {
+            "test_parse_token": {
+                "line": 9,
+                "line_end": 10,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "parse_token"
+                }
+            }
+        }
+    },
+    "test/message/test_qvalue.py": {
+        "focal_file": "pysip/message/qvalue.py",
+        "methods": {
+            "test_set": {
+                "line": 74,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": "QValue",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "set"
+                }
+            }
+        }
+    },
+    "test/message/test_route_set.py": {
+        "focal_file": "pysip/message/route_set.py",
+        "methods": {
+            "test_is_empty": {
+                "line": 6,
+                "line_end": 11,
+                "indent": 0,
+                "focal_class": "RouteSet",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "is_empty"
+                }
+            }
+        }
+    },
+    "test/message/test_status.py": {
+        "focal_file": "pysip/message/status.py",
+        "methods": {
+            "test_response_type": {
+                "line": 8,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "response_type"
+                }
+            },
+            "test_reason_phrase": {
+                "line": 29,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "reason_phrase"
+                }
+            },
+            "test_phrase": {
+                "line": 30,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "reason_phrase"
+                }
+            }
+        }
+    },
+    "test/proxy/test_proxy_common.py": {
+        "focal_file": "pysip/proxy/proxy_common.py",
+        "methods": {
+            "test_process_route_info_strict_routing": {
+                "line": 416,
+                "line_end": 441,
+                "indent": 0,
+                "focal_class": "ValidationOptions",
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "process_route_info"
+                }
+            },
+            "test_process_route_info_loose_routing": {
+                "line": 444,
+                "line_end": 469,
+                "indent": 0,
+                "focal_class": "ValidationOptions",
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "process_route_info"
+                }
+            },
+            "test_process_route_info_no_rr_checker": {
+                "line": 472,
+                "line_end": 493,
+                "indent": 0,
+                "focal_class": "ValidationOptions",
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "process_route_info"
+                }
+            },
+            "test_process_route_info_no_routes_loose_route": {
+                "line": 496,
+                "line_end": 514,
+                "indent": 0,
+                "focal_class": "ValidationOptions",
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "process_route_info"
+                }
+            },
+            "test_process_route_info_no_routes_strict_route": {
+                "line": 517,
+                "line_end": 535,
+                "indent": 0,
+                "focal_class": "ValidationOptions",
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "process_route_info"
+                }
+            },
+            "test_forward_request_set_ruri": {
+                "line": 538,
+                "line_end": 557,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_add_maxforwars": {
+                "line": 560,
+                "line_end": 575,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_record_route_add": {
+                "line": 598,
+                "line_end": 618,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_record_route_append": {
+                "line": 621,
+                "line_end": 646,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_no_rr_sip_to_sips": {
+                "line": 697,
+                "line_end": 716,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_no_rr_sips_to_sip": {
+                "line": 719,
+                "line_end": 740,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_no_rr_sips_to_sips": {
+                "line": 766,
+                "line_end": 783,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_to_strict_router": {
+                "line": 786,
+                "line_end": 807,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            },
+            "test_forward_request_to_loose_router": {
+                "line": 810,
+                "line_end": 829,
+                "indent": 0,
+                "focal_class": "ProxyOptionsDetails",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 498,
+                    "indent": 4,
+                    "name": "forward_request"
+                }
+            }
+        }
+    },
+    "test/transport/test_parser.py": {
+        "focal_file": "pysip/transport/parser.py",
+        "methods": {
+            "test_message_too_long_on_success_parse": {
+                "line": 80,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_too_long_on_header_parse": {
+                "line": 116,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "test/uri/test_uri.py": {
+        "focal_file": "pysip/uri/uri.py",
+        "methods": {
+            "test_get": {
+                "line": 319,
+                "line_end": 324,
+                "indent": 0,
+                "focal_class": "Uri",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    }
+}

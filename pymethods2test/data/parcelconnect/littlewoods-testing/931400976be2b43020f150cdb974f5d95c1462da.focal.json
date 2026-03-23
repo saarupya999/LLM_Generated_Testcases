@@ -1,0 +1,277 @@
+{
+    "tests/test_mover/test_domain.py": {
+        "focal_file": "idv/mover/domain.py",
+        "methods": {
+            "test_returns_none_if_no_checkpoint": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "get_last_move_checkpoint"
+                }
+            },
+            "test_returns_http_proxy_when_settings_set": {
+                "line": 44,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "get_http_proxy_from_settings"
+                }
+            },
+            "test_invokes_move_credential_file_once_per_credential": {
+                "line": 58,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "move_credential_files"
+                }
+            }
+        }
+    },
+    "tests/test_mover/test_commands.py": {
+        "focal_file": "idv/mover/commands.py",
+        "methods": {
+            "test_logs_start_of_successful_move": {
+                "line": 25,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "move"
+                }
+            },
+            "test_does_not_log_start_of_failed_move": {
+                "line": 36,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "move"
+                }
+            }
+        }
+    },
+    "tests/test_tracker/test_status_descriptions.py": {
+        "focal_file": "idv/tracker/status_descriptions.py",
+        "methods": {
+            "test_returns_status_description": {
+                "line": 16,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "map_status_to_description"
+                }
+            },
+            "test_returns_event_type_if_no_description_found": {
+                "line": 21,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "map_status_to_description"
+                }
+            }
+        }
+    },
+    "tests/test_collector/test_domain.py": {
+        "focal_file": "idv/collector/domain.py",
+        "methods": {
+            "test_account_retrieval": {
+                "line": 25,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "get_or_create_account"
+                }
+            },
+            "test_whitelisted_lowercase_extension": {
+                "line": 77,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "has_whitelisted_extension"
+                }
+            },
+            "test_whitelisted_mixedcase_extension": {
+                "line": 81,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "has_whitelisted_extension"
+                }
+            },
+            "test_non_whitelisted_mixedcase_extension": {
+                "line": 85,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "has_whitelisted_extension"
+                }
+            },
+            "test_missing_extension": {
+                "line": 89,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "has_whitelisted_extension"
+                }
+            }
+        }
+    },
+    "tests/test_collector/test_models.py": {
+        "focal_file": "idv/collector/models.py",
+        "methods": {
+            "test_blocked_query": {
+                "line": 51,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "mark_as_blocked"
+                }
+            },
+            "test_marks_as_found": {
+                "line": 64,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "mark_as_found"
+                }
+            },
+            "test_marks_as_not_found": {
+                "line": 69,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "mark_as_not_found"
+                }
+            },
+            "test_marks_as_copied": {
+                "line": 75,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "mark_as_copied"
+                }
+            },
+            "test_marks_as_moved": {
+                "line": 85,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "mark_as_moved"
+                }
+            },
+            "test_marks_as_blocked": {
+                "line": 95,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "mark_as_blocked"
+                }
+            }
+        }
+    },
+    "tests/test_giftwrap/test_ifs.py": {
+        "focal_file": "idv/giftwrap/ifs.py",
+        "methods": {
+            "test_returns_client_when_settings_valid": {
+                "line": 158,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "get_client_from_settings"
+                }
+            }
+        }
+    },
+    "tests/test_common/test_fastway/test_utils.py": {
+        "focal_file": "idv/common/fastway/utils.py",
+        "methods": {
+            "test_returns_valid_client_when_settings_set": {
+                "line": 11,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "get_client_from_settings"
+                }
+            }
+        }
+    }
+}

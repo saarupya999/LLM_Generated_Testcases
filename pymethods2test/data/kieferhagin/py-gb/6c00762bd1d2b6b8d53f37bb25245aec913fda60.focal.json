@@ -1,0 +1,978 @@
+{
+    "gameboy/cycle_clock_test.py": {
+        "focal_file": "gameboy/cycle_clock.py",
+        "methods": {
+            "test_cycle_clock_reset": {
+                "line": 16,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "reset"
+                }
+            },
+            "test_tick": {
+                "line": 26,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 10,
+                    "indent": 4,
+                    "name": "tick"
+                }
+            },
+            "test_get_total_machine_cycles": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 4,
+                    "name": "get_total_machine_cycles"
+                }
+            },
+            "test_get_total_clock_cycles": {
+                "line": 44,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "get_total_clock_cycles"
+                }
+            },
+            "test_get_last_machine_cycle_count": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "get_last_machine_cycle_count"
+                }
+            }
+        }
+    },
+    "gameboy/gameboy_test.py": {
+        "focal_file": "gameboy/gameboy.py",
+        "methods": {
+            "test_gameboy_get_memory_unit": {
+                "line": 20,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "get_memory_unit"
+                }
+            },
+            "test_gameboy_it_should_load_rom": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "load_rom"
+                }
+            }
+        }
+    },
+    "gameboy/cpu/cpu_registers_test.py": {
+        "focal_file": "gameboy/cpu/cpu_registers.py",
+        "methods": {
+            "test_cpu_registers_reset": {
+                "line": 27,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "reset"
+                }
+            },
+            "test_mask_program_counter": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "mask_program_counter"
+                }
+            },
+            "test_cpu_registers_disable_interrupts": {
+                "line": 67,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "disable_interrupts"
+                }
+            },
+            "test_cpu_registers_enable_interrupts": {
+                "line": 74,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "enable_interrupts"
+                }
+            },
+            "test_cpu_registers_increment_program_counter": {
+                "line": 81,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "increment_program_counter"
+                }
+            },
+            "test_cpu_registers_get_program_counter": {
+                "line": 95,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "get_program_counter"
+                }
+            },
+            "test_cpu_registers_get_stack_pointer": {
+                "line": 101,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_stack_pointer"
+                }
+            },
+            "test_cpu_registers_set_stack_pointer": {
+                "line": 106,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "set_stack_pointer"
+                }
+            },
+            "test_cpu_registers_read_af": {
+                "line": 113,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "read_af"
+                }
+            },
+            "test_cpu_registers_read_bc": {
+                "line": 120,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "read_bc"
+                }
+            },
+            "test_cpu_registers_read_de": {
+                "line": 127,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "read_de"
+                }
+            },
+            "test_cpu_registers_read_hl": {
+                "line": 134,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "read_hl"
+                }
+            },
+            "test_cpu_registers_write_af": {
+                "line": 141,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "write_af"
+                }
+            },
+            "test_cpu_registers_write_bc": {
+                "line": 147,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "write_bc"
+                }
+            },
+            "test_cpu_registers_write_de": {
+                "line": 153,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "write_de"
+                }
+            },
+            "test_cpu_registers_write_hl": {
+                "line": 159,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "write_hl"
+                }
+            },
+            "test_cpu_registers_update_flag_zero": {
+                "line": 165,
+                "line_end": 172,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "update_flag_zero"
+                }
+            },
+            "test_cpu_registers_update_flag_subtract": {
+                "line": 175,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "update_flag_subtract"
+                }
+            },
+            "test_cpu_registers_update_flag_half_carry": {
+                "line": 185,
+                "line_end": 192,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "update_flag_half_carry"
+                }
+            },
+            "test_cpu_registers_update_flag_carry": {
+                "line": 195,
+                "line_end": 202,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "update_flag_carry"
+                }
+            },
+            "test_cpu_registers_update_multiple_flags": {
+                "line": 205,
+                "line_end": 215,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "update_flags"
+                }
+            },
+            "test_cpu_registers_read_flag_zero": {
+                "line": 218,
+                "line_end": 223,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "read_flag_zero"
+                }
+            },
+            "test_cpu_registers_read_flag_subtract": {
+                "line": 226,
+                "line_end": 231,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "read_flag_subtract"
+                }
+            },
+            "test_cpu_registers_read_flag_half_carry": {
+                "line": 234,
+                "line_end": 239,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "read_flag_half_carry"
+                }
+            },
+            "test_cpu_registers_read_flag_carry": {
+                "line": 242,
+                "line_end": 247,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "read_flag_carry"
+                }
+            }
+        }
+    },
+    "gameboy/gpu/gpu_sprite_test.py": {
+        "focal_file": "gameboy/gpu/gpu_sprite.py",
+        "methods": {
+            "test_gpu_sprite_get_x": {
+                "line": 11,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 9,
+                    "indent": 4,
+                    "name": "get_x"
+                }
+            },
+            "test_gpu_sprite_get_y": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 12,
+                    "indent": 4,
+                    "name": "get_y"
+                }
+            },
+            "test_gpu_sprite_get_pixels": {
+                "line": 23,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "get_pixels"
+                }
+            },
+            "test_gpu_sprite_get_attributes_byte": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "get_attributes_byte"
+                }
+            },
+            "test_gpu_sprite_get_flip_y": {
+                "line": 35,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "get_flip_y"
+                }
+            }
+        }
+    },
+    "gameboy/memory/interrupt_enable_register_test.py": {
+        "focal_file": "gameboy/memory/interrupt_enable_register.py",
+        "methods": {
+            "test_interrupt_flag_register_enable_vblank": {
+                "line": 17,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "enable_vblank_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_enable_lcdc": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "enable_lcdc_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_enable_tima": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "enable_tima_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_enable_serial": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "enable_serial_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_enable_joypad": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "enable_joypad_interrupt"
+                }
+            },
+            "test_disable_interrupt_flag_register_vblank": {
+                "line": 42,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "enable_vblank_interrupt"
+                }
+            },
+            "test_disable_interrupt_flag_register_lcdc": {
+                "line": 49,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "disable_lcdc_interrupt"
+                }
+            },
+            "test_disable_interrupt_flag_register_joypad": {
+                "line": 70,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "enable_joypad_interrupt"
+                }
+            },
+            "test_interrupt_register_get_interrupt": {
+                "line": 77,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_interrupt_enabled_bits"
+                }
+            }
+        }
+    },
+    "gameboy/memory/interrupt_flag_register_test.py": {
+        "focal_file": "gameboy/memory/interrupt_flag_register.py",
+        "methods": {
+            "test_interrupt_flag_register_set_vblank": {
+                "line": 17,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "set_vblank_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_set_lcdc": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "set_lcdc_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_set_tima": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "set_tima_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_set_serial": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "set_serial_interrupt"
+                }
+            },
+            "test_interrupt_flag_register_set_joypad": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "set_joypad_interrupt"
+                }
+            },
+            "test_clear_interrupt_flag_register_vblank": {
+                "line": 42,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "set_vblank_interrupt"
+                }
+            },
+            "test_clear_interrupt_flag_register_lcdc": {
+                "line": 49,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "set_lcdc_interrupt"
+                }
+            },
+            "test_clear_interrupt_flag_register_joypad": {
+                "line": 70,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "set_joypad_interrupt"
+                }
+            },
+            "test_interrupt_register_write_byte_maintains_top_4_bit_1s": {
+                "line": 77,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "write_byte"
+                }
+            },
+            "test_interrupt_register_get_interrupt": {
+                "line": 83,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "get_interrupt_bits"
+                }
+            },
+            "test_interrupt_flag_register_clear_by_bit": {
+                "line": 93,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "clear_interrupt_by_bit"
+                }
+            }
+        }
+    },
+    "gameboy/memory/io_ram_test.py": {
+        "focal_file": "gameboy/memory/io_ram.py",
+        "methods": {
+            "test_set_lcd_stat_bits": {
+                "line": 35,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "set_lcd_stat_bits"
+                }
+            },
+            "test_get_sprite_height": {
+                "line": 53,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "get_sprite_height"
+                }
+            },
+            "test_get_window_enable": {
+                "line": 63,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_lcd_window_enable"
+                }
+            },
+            "test_get_sprite_enable": {
+                "line": 73,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "get_lcd_sprite_enable"
+                }
+            },
+            "test_get_bg_enable": {
+                "line": 83,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "get_lcd_background_enable"
+                }
+            },
+            "test_get_low_tiles": {
+                "line": 113,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "get_lcd_low_tiles"
+                }
+            },
+            "test_get_lcd_on": {
+                "line": 123,
+                "line_end": 130,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_lcd_on"
+                }
+            },
+            "test_get_lcd_y_compare": {
+                "line": 133,
+                "line_end": 136,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "get_lcd_y_compare"
+                }
+            },
+            "test_get_lcd_stat": {
+                "line": 139,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "get_lcd_stat"
+                }
+            },
+            "test_get_coincidence_bit_set": {
+                "line": 145,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "is_lcd_y_coincidence_bit_set"
+                }
+            },
+            "test_get_lcd_win_x": {
+                "line": 155,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "get_lcd_window_x"
+                }
+            },
+            "test_get_lcd_win_y": {
+                "line": 165,
+                "line_end": 172,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "get_lcd_window_y"
+                }
+            },
+            "test_get_lcd_scroll_x": {
+                "line": 175,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "get_lcd_scroll_x"
+                }
+            },
+            "test_get_lcd_scroll_y": {
+                "line": 185,
+                "line_end": 192,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "get_lcd_scroll_y"
+                }
+            },
+            "test_get_lcd_background_palette": {
+                "line": 195,
+                "line_end": 202,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "get_lcd_background_palette"
+                }
+            },
+            "test_get_lcd_object_palette0": {
+                "line": 205,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_lcd_object_palette0"
+                }
+            },
+            "test_get_lcd_object_palette1": {
+                "line": 215,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "get_lcd_object_palette1"
+                }
+            }
+        }
+    },
+    "gameboy/memory/memory_region_test.py": {
+        "focal_file": "gameboy/memory/memory_region.py",
+        "methods": {
+            "test_read_byte": {
+                "line": 16,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 7,
+                    "indent": 4,
+                    "name": "read_byte"
+                }
+            },
+            "test_write_byte": {
+                "line": 21,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 10,
+                    "indent": 4,
+                    "name": "write_byte"
+                }
+            },
+            "test_read_word": {
+                "line": 31,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 4,
+                    "name": "read_word"
+                }
+            },
+            "test_write_word": {
+                "line": 38,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "write_word"
+                }
+            }
+        }
+    }
+}

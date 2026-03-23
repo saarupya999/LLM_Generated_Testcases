@@ -1,0 +1,969 @@
+{
+    "tests/authentication/test_authentication.py": {
+        "focal_file": "limberframework/authentication/authenticators.py",
+        "methods": {
+            "test_make_authenticator_unknown_driver": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 165,
+                    "indent": 0,
+                    "name": "make_authenticator"
+                }
+            },
+            "test_make_authenticator_known_driver": {
+                "line": 25,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 165,
+                    "indent": 0,
+                    "name": "make_authenticator"
+                }
+            },
+            "test_api_key_get_user_id": {
+                "line": 33,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "ApiKey",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "get_user_id"
+                }
+            },
+            "test_http_basic_get_user_id": {
+                "line": 49,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": "HttpBasic",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "get_user_id"
+                }
+            },
+            "test_api_key_authorise_unauthorised": {
+                "line": 71,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": "ApiKey",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "authorise"
+                }
+            },
+            "test_api_key_authorise_authorised": {
+                "line": 85,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": "ApiKey",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "authorise"
+                }
+            },
+            "test_http_basic_authorise_unauthorised": {
+                "line": 101,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": "HttpBasic",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "authorise"
+                }
+            },
+            "test_http_basic_authorise_authorised": {
+                "line": 115,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": "HttpBasic",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "authorise"
+                }
+            },
+            "test_authorise": {
+                "line": 130,
+                "line_end": 139,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "authorise"
+                }
+            }
+        }
+    },
+    "tests/cache/test_cache.py": {
+        "focal_file": "limberframework/cache/cache.py",
+        "methods": {
+            "test_load": {
+                "line": 16,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": "Cache",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_update": {
+                "line": 38,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": "Cache",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_lock": {
+                "line": 53,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": "Cache",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "lock"
+                }
+            },
+            "test_unlock": {
+                "line": 83,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": "Cache",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "unlock"
+                }
+            },
+            "test_secure": {
+                "line": 116,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": "Cache",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "secure"
+                }
+            }
+        }
+    },
+    "tests/cache/test_lockers.py": {
+        "focal_file": "limberframework/cache/lockers.py",
+        "methods": {
+            "test_async_redis_locker_lock": {
+                "line": 19,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": "AsyncRedisLocker",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "lock"
+                }
+            },
+            "test_async_redis_locker_unlock": {
+                "line": 35,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": "AsyncRedisLocker",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "unlock"
+                }
+            },
+            "test_make_locker_with_password": {
+                "line": 81,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "make_locker"
+                }
+            }
+        }
+    },
+    "tests/cache/test_store.py": {
+        "focal_file": "limberframework/cache/stores.py",
+        "methods": {
+            "test_make_store": {
+                "line": 49,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 438,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "make_store"
+                }
+            },
+            "test_file_store_path": {
+                "line": 91,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": "FileStore",
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "path"
+                }
+            },
+            "test_file_store_get": {
+                "line": 102,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "FileStore",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_file_store_get_expired": {
+                "line": 116,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": "FileStore",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_file_store_get_invalid_file": {
+                "line": 130,
+                "line_end": 136,
+                "indent": 0,
+                "focal_class": "FileStore",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_file_store_put": {
+                "line": 141,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": "FileStore",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "put"
+                }
+            },
+            "test_file_store_add_invalid_file": {
+                "line": 155,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": "FileStore",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_file_store_add": {
+                "line": 169,
+                "line_end": 178,
+                "indent": 0,
+                "focal_class": "FileStore",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_store_has_expired": {
+                "line": 204,
+                "line_end": 209,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "has_expired"
+                }
+            },
+            "test_store_encode": {
+                "line": 212,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "encode"
+                }
+            },
+            "test_store_decode": {
+                "line": 221,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "decode"
+                }
+            },
+            "test_store_process": {
+                "line": 239,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "process"
+                }
+            },
+            "test_payload": {
+                "line": 255,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "payload"
+                }
+            },
+            "test_redis_store_get": {
+                "line": 261,
+                "line_end": 268,
+                "indent": 0,
+                "focal_class": "RedisStore",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_redis_store_add": {
+                "line": 273,
+                "line_end": 289,
+                "indent": 0,
+                "focal_class": "RedisStore",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_redis_store_put": {
+                "line": 294,
+                "line_end": 310,
+                "indent": 0,
+                "focal_class": "RedisStore",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "put"
+                }
+            },
+            "test_memcache_store_get": {
+                "line": 314,
+                "line_end": 321,
+                "indent": 0,
+                "focal_class": "MemcacheStore",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_memcache_store_add": {
+                "line": 326,
+                "line_end": 343,
+                "indent": 0,
+                "focal_class": "MemcacheStore",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_memcache_store_add_existing": {
+                "line": 347,
+                "line_end": 354,
+                "indent": 0,
+                "focal_class": "MemcacheStore",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_memcache_store_put": {
+                "line": 359,
+                "line_end": 375,
+                "indent": 0,
+                "focal_class": "MemcacheStore",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "put"
+                }
+            },
+            "test_async_redis_get": {
+                "line": 379,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": "AsyncRedisStore",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    },
+    "tests/database/test_connections.py": {
+        "focal_file": "limberframework/database/connections.py",
+        "methods": {
+            "test_pgsql_connection_get_url": {
+                "line": 82,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": "PostgresConnection",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_url"
+                }
+            },
+            "test_sqlite_connection_get_url": {
+                "line": 98,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": "SqliteConnection",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_url"
+                }
+            },
+            "test_make_connection_with_invalid_config": {
+                "line": 107,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "make_connection"
+                }
+            },
+            "test_make_connection_with_invalid_driver": {
+                "line": 117,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "make_connection"
+                }
+            },
+            "test_make_connection_pgsql": {
+                "line": 127,
+                "line_end": 139,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "make_connection"
+                }
+            }
+        }
+    },
+    "tests/database/test_models.py": {
+        "focal_file": "limberframework/database/models.py",
+        "methods": {
+            "test_check_soft_deletes_true": {
+                "line": 28,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "Model",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "check_soft_deletes"
+                }
+            },
+            "test_check_soft_deletes_false": {
+                "line": 38,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "check_soft_deletes"
+                }
+            },
+            "test_first": {
+                "line": 63,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "first"
+                }
+            },
+            "test_get": {
+                "line": 70,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_filter": {
+                "line": 78,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "filter"
+                }
+            },
+            "test_create": {
+                "line": 87,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "create"
+                }
+            },
+            "test_save": {
+                "line": 96,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_update": {
+                "line": 103,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "update"
+                }
+            }
+        }
+    },
+    "tests/filesystem/test_filesystem.py": {
+        "focal_file": "limberframework/filesystem/filesystem.py",
+        "methods": {
+            "test_has_file": {
+                "line": 29,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "has_file"
+                }
+            },
+            "test_read_file": {
+                "line": 34,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "read_file"
+                }
+            },
+            "test_write_file": {
+                "line": 48,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "write_file"
+                }
+            },
+            "test_remove": {
+                "line": 62,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            }
+        }
+    },
+    "tests/foundation/test_application.py": {
+        "focal_file": "limberframework/foundation/application.py",
+        "methods": {
+            "test_load_services": {
+                "line": 93,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "load_services"
+                }
+            }
+        }
+    },
+    "tests/routing/test_rate_limiter.py": {
+        "focal_file": "limberframework/routing/rate_limiter.py",
+        "methods": {
+            "test_get_hits": {
+                "line": 13,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": "RateLimiter",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "get_hits"
+                }
+            },
+            "test_set_hits": {
+                "line": 24,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "set_hits"
+                }
+            },
+            "test_remaining_hits": {
+                "line": 51,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": "RateLimiter",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "remaining_hits"
+                }
+            },
+            "test_available_in": {
+                "line": 64,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": "RateLimiter",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "available_in"
+                }
+            },
+            "test_available_in_no_expiry": {
+                "line": 78,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": "RateLimiter",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "available_in"
+                }
+            },
+            "test_hit": {
+                "line": 105,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "hit"
+                }
+            }
+        }
+    },
+    "tests/routing/test_routing_middleware.py": {
+        "focal_file": "limberframework/routing/middleware.py",
+        "methods": {
+            "test_get_headers": {
+                "line": 43,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": "ThrottleRequestMiddleware",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "get_headers"
+                }
+            },
+            "test_add_headers": {
+                "line": 52,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": "ThrottleRequestMiddleware",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "add_headers"
+                }
+            },
+            "test_request_signature": {
+                "line": 73,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": "ThrottleRequestMiddleware",
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "request_signature"
+                }
+            },
+            "test_dispatch": {
+                "line": 124,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": "ThrottleRequestMiddleware",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "dispatch"
+                }
+            }
+        }
+    },
+    "tests/support/test_services.py": {
+        "focal_file": "limberframework/support/services.py",
+        "methods": {
+            "test_database_service_provider_database_connection": {
+                "line": 43,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_database_service_provider_database_session": {
+                "line": 68,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_config_service_provider": {
+                "line": 84,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_config_service_provider_config_service": {
+                "line": 96,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_authentication_service_provider": {
+                "line": 121,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_cache_service_provider_cache_store": {
+                "line": 138,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_cache_service_provider_redis_store_without_password": {
+                "line": 154,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_cache_service_provider_cache": {
+                "line": 173,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_cache_service_provider_cache_locker": {
+                "line": 194,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_cache_service_provider_locker_without_password": {
+                "line": 213,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register"
+                }
+            }
+        }
+    }
+}

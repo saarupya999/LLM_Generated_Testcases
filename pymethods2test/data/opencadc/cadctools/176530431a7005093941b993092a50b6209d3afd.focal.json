@@ -1,0 +1,571 @@
+{
+    "cadccutout/cadccutout/int_tests/test_hst_mef_cutout.py": {
+        "focal_file": "cadccutout/cadccutout/core.py",
+        "methods": {
+            "test_hst_mef_cutout_missing_one": {
+                "line": 98,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": "OpenCADCCutout",
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 254,
+                    "indent": 4,
+                    "name": "cutout_from_string"
+                }
+            }
+        }
+    },
+    "cadccutout/cadccutout/tests/test_core.py": {
+        "focal_file": "cadccutout/cadccutout/core.py",
+        "methods": {
+            "test__parse_input": {
+                "line": 89,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": "OpenCADCCutout",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "_parse_input"
+                }
+            },
+            "test__sanity_check_input": {
+                "line": 126,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": "OpenCADCCutout",
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 226,
+                    "indent": 4,
+                    "name": "_sanity_check_input"
+                }
+            },
+            "test_write_stream": {
+                "line": 143,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": "WriteOnlyStream",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_construct": {
+                "line": 156,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": "OpenCADCCutout",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "cutout"
+                }
+            }
+        }
+    },
+    "cadccutout/cadccutout/tests/test_cutoutnd.py": {
+        "focal_file": "cadccutout/cadccutout/cutoutnd.py",
+        "methods": {
+            "test_extract": {
+                "line": 86,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": "CutoutND",
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "extract"
+                }
+            },
+            "test_extract_striding": {
+                "line": 135,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": "CutoutND",
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "extract"
+                }
+            },
+            "test_extract_invalid": {
+                "line": 175,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": "CutoutND",
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "extract"
+                }
+            }
+        }
+    },
+    "cadccutout/cadccutout/tests/test_pixel_cutout_hdu.py": {
+        "focal_file": "cadccutout/cadccutout/pixel_cutout_hdu.py",
+        "methods": {
+            "test_get_ranges": {
+                "line": 103,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": "PixelCutoutHDU",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "get_ranges"
+                }
+            }
+        }
+    },
+    "cadccutout/cadccutout/tests/test_pixel_range_input_parser.py": {
+        "focal_file": "cadccutout/cadccutout/pixel_range_input_parser.py",
+        "methods": {
+            "test_parse": {
+                "line": 84,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": "PixelRangeInputParser",
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "cadccutout/cadccutout/tests/test_transform.py": {
+        "focal_file": "cadccutout/cadccutout/transform.py",
+        "methods": {
+            "test_parse_world": {
+                "line": 126,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 369,
+                    "line_end": 395,
+                    "indent": 4,
+                    "name": "parse_world"
+                }
+            },
+            "test_world_to_shape": {
+                "line": 179,
+                "line_end": 295,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 340,
+                    "line_end": 367,
+                    "indent": 4,
+                    "name": "world_to_shape"
+                }
+            },
+            "test_world_to_pixels_no_content": {
+                "line": 298,
+                "line_end": 344,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "world_to_pixels"
+                }
+            },
+            "test__append_world_to_circle_pixels": {
+                "line": 347,
+                "line_end": 360,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "_append_world_to_circle_pixels"
+                }
+            },
+            "test_get_circle_cutout_pixels_vlass": {
+                "line": 363,
+                "line_end": 377,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "get_circle_cutout_pixels"
+                }
+            },
+            "test_get_circle_cutout_pixels_cgps_galactic": {
+                "line": 380,
+                "line_end": 394,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "get_circle_cutout_pixels"
+                }
+            },
+            "test_get_circle_cutout_pixels_iris_no_overlap": {
+                "line": 397,
+                "line_end": 408,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "get_circle_cutout_pixels"
+                }
+            },
+            "test_get_circle_cutout_pixels_iris_all_overlap": {
+                "line": 411,
+                "line_end": 427,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "get_circle_cutout_pixels"
+                }
+            },
+            "test_get_polygon_cutout_pixels_vlass": {
+                "line": 430,
+                "line_end": 445,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 495,
+                    "indent": 4,
+                    "name": "get_polygon_cutout_pixels"
+                }
+            },
+            "test_get_energy_cutout_pixels_vlass": {
+                "line": 448,
+                "line_end": 466,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 534,
+                    "indent": 4,
+                    "name": "get_energy_cutout_pixels"
+                }
+            },
+            "test_get_energy_cutout_pixels_cgps_raises_error": {
+                "line": 469,
+                "line_end": 486,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 534,
+                    "indent": 4,
+                    "name": "get_energy_cutout_pixels"
+                }
+            },
+            "test_get_energy_cutout_pixels_jcmt": {
+                "line": 491,
+                "line_end": 507,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 534,
+                    "indent": 4,
+                    "name": "get_energy_cutout_pixels"
+                }
+            },
+            "test_get_polarization_cutout_pixels_vlass": {
+                "line": 510,
+                "line_end": 573,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 549,
+                    "line_end": 601,
+                    "indent": 4,
+                    "name": "get_polarization_cutout_pixels"
+                }
+            },
+            "test_get_polarization_cutout_pixels_cgps": {
+                "line": 576,
+                "line_end": 597,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 549,
+                    "line_end": 601,
+                    "indent": 4,
+                    "name": "get_polarization_cutout_pixels"
+                }
+            },
+            "test_world_to_pixels_vlass": {
+                "line": 600,
+                "line_end": 621,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "world_to_pixels"
+                }
+            }
+        }
+    },
+    "cadccutout/cadccutout/tests/test_transform_soda.py": {
+        "focal_file": "cadccutout/cadccutout/transform.py",
+        "methods": {
+            "test_interval_polygon": {
+                "line": 144,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 495,
+                    "indent": 4,
+                    "name": "get_polygon_cutout_pixels"
+                }
+            },
+            "test_circle_no_overlap": {
+                "line": 186,
+                "line_end": 197,
+                "indent": 0,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "get_circle_cutout_pixels"
+                }
+            }
+        }
+    },
+    "cadcdata/cadcdata/tests/test_core.py": {
+        "focal_file": "cadcdata/cadcdata/core.py",
+        "methods": {
+            "test_get_file": {
+                "line": 107,
+                "line_end": 270,
+                "indent": 0,
+                "focal_class": "CadcDataClient",
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 295,
+                    "indent": 4,
+                    "name": "get_file"
+                }
+            },
+            "test_put_file": {
+                "line": 276,
+                "line_end": 338,
+                "indent": 0,
+                "focal_class": "CadcDataClient",
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 484,
+                    "indent": 4,
+                    "name": "put_file"
+                }
+            }
+        }
+    },
+    "cadcdata/cadcdata/tests/test_inventory.py": {
+        "focal_file": "cadcdata/cadcdata/storageinv.py",
+        "methods": {
+            "test_remove": {
+                "line": 483,
+                "line_end": 504,
+                "indent": 0,
+                "focal_class": "StorageInventoryClient",
+                "focal_method": {
+                    "line": 655,
+                    "line_end": 694,
+                    "indent": 4,
+                    "name": "cadcremove"
+                }
+            },
+            "test_cadcget_cli": {
+                "line": 567,
+                "line_end": 578,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 824,
+                    "line_end": 858,
+                    "indent": 0,
+                    "name": "cadcget_cli"
+                }
+            },
+            "test_cadcinfo_cli": {
+                "line": 583,
+                "line_end": 630,
+                "indent": 0,
+                "focal_class": "cadcdata.FileInfo",
+                "focal_method": {
+                    "line": 861,
+                    "line_end": 896,
+                    "indent": 0,
+                    "name": "cadcinfo_cli"
+                }
+            },
+            "test_cadcput_cli": {
+                "line": 635,
+                "line_end": 706,
+                "indent": 0,
+                "focal_class": "StorageInventoryClient",
+                "focal_method": {
+                    "line": 745,
+                    "line_end": 821,
+                    "indent": 0,
+                    "name": "cadcput_cli"
+                }
+            },
+            "test_cadcremove_cli": {
+                "line": 711,
+                "line_end": 731,
+                "indent": 0,
+                "focal_class": "StorageInventoryClient",
+                "focal_method": {
+                    "line": 899,
+                    "line_end": 920,
+                    "indent": 0,
+                    "name": "cadcremove_cli"
+                }
+            },
+            "test_validate_uri": {
+                "line": 734,
+                "line_end": 751,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 203,
+                    "indent": 0,
+                    "name": "validate_uri"
+                }
+            }
+        }
+    },
+    "cadctap/cadctap/tests/test_core.py": {
+        "focal_file": "cadctap/cadctap/core.py",
+        "methods": {
+            "test_exit_on_exception": {
+                "line": 766,
+                "line_end": 815,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 866,
+                    "line_end": 901,
+                    "indent": 0,
+                    "name": "exit_on_exception"
+                }
+            }
+        }
+    },
+    "cadcutils/cadcutils/net/tests/test_auth.py": {
+        "focal_file": "cadcutils/cadcutils/net/auth.py",
+        "methods": {
+            "test_get_cert_main": {
+                "line": 95,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 342,
+                    "indent": 0,
+                    "name": "get_cert_main"
+                }
+            },
+            "test_get_cert_main_help": {
+                "line": 140,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 342,
+                    "indent": 0,
+                    "name": "get_cert_main"
+                }
+            }
+        }
+    },
+    "cadcutils/cadcutils/net/tests/test_ws.py": {
+        "focal_file": "cadcutils/cadcutils/net/ws.py",
+        "methods": {
+            "test_list_resources": {
+                "line": 94,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 162,
+                    "indent": 0,
+                    "name": "list_resources"
+                }
+            },
+            "test_get_content": {
+                "line": 676,
+                "line_end": 691,
+                "indent": 4,
+                "focal_class": "cadcutils.net.ws.WsCapabilities",
+                "focal_method": {
+                    "line": 656,
+                    "line_end": 703,
+                    "indent": 4,
+                    "name": "_get_content"
+                }
+            }
+        }
+    },
+    "cadcutils/cadcutils/tests/test_old_get_cert.py": {
+        "focal_file": "cadcutils/cadcutils/old_get_cert.py",
+        "methods": {
+            "test_get_cert_main": {
+                "line": 91,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "_main"
+                }
+            },
+            "test_get_cert_main_help": {
+                "line": 168,
+                "line_end": 180,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "_main"
+                }
+            }
+        }
+    }
+}

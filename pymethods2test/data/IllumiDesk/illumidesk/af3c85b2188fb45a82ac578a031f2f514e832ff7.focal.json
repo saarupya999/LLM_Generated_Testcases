@@ -1,0 +1,340 @@
+{
+    "src/illumidesk/tests/illumidesk/apis/test_jupyterhub_api.py": {
+        "focal_file": "src/illumidesk/illumidesk/apis/jupyterhub_api.py",
+        "methods": {
+            "test_add_student_to_jupyterhub_group_raises_error_when_empty": {
+                "line": 143,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": "JupyterHubAPI",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "add_student_to_jupyterhub_group"
+                }
+            },
+            "test_add_instructor_to_jupyterhub_group_raises_error_when_empty": {
+                "line": 161,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": "JupyterHubAPI",
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "add_instructor_to_jupyterhub_group"
+                }
+            },
+            "test_add_user_to_jupyterhub_group_raises_error_when_empty": {
+                "line": 179,
+                "line_end": 193,
+                "indent": 0,
+                "focal_class": "JupyterHubAPI",
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "_add_user_to_jupyterhub_group"
+                }
+            }
+        }
+    },
+    "src/illumidesk/tests/illumidesk/apis/test_nbgrader_service_helper.py": {
+        "focal_file": "src/illumidesk/illumidesk/apis/nbgrader_service.py",
+        "methods": {
+            "test_add_user_to_nbgrader_gradebook_raises_error_when_empty": {
+                "line": 33,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "add_user_to_nbgrader_gradebook"
+                }
+            },
+            "test_nbgrader_format_db_url_method_uses_env_vars_to_get_db_url": {
+                "line": 47,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "nbgrader_format_db_url"
+                }
+            }
+        }
+    },
+    "src/illumidesk/tests/illumidesk/authenticators/test_lti13_authenticator.py": {
+        "focal_file": "src/illumidesk/illumidesk/authenticators/authenticator.py",
+        "methods": {
+            "test_authenticator_returns_auth_state_name_from_lti13_email_claim": {
+                "line": 171,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": "LTI13Authenticator",
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 310,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_authenticator_returns_learner_role_in_auth_state": {
+                "line": 393,
+                "line_end": 419,
+                "indent": 0,
+                "focal_class": "LTI13Authenticator",
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 310,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            }
+        }
+    },
+    "src/illumidesk/tests/illumidesk/authenticators/test_lti13_validator.py": {
+        "focal_file": "src/illumidesk/illumidesk/authenticators/validator.py",
+        "methods": {
+            "test_validator_jwt_verify_and_decode_invokes_retrieve_matching_jwk": {
+                "line": 10,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": "LTI13LaunchValidator",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 222,
+                    "indent": 4,
+                    "name": "jwt_verify_and_decode"
+                }
+            },
+            "test_validator_jwt_verify_and_decode_raises_an_error_with_no_retrieved_platform_keys": {
+                "line": 31,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": "LTI13LaunchValidator",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 222,
+                    "indent": 4,
+                    "name": "jwt_verify_and_decode"
+                }
+            },
+            "test_validate_invalid_version_request_claim_value": {
+                "line": 111,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": "LTI13LaunchValidator",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "validate_launch_request"
+                }
+            }
+        }
+    },
+    "src/illumidesk/tests/illumidesk/authenticators/test_setup_course_hook.py": {
+        "focal_file": "src/illumidesk/illumidesk/authenticators/authenticator.py",
+        "methods": {
+            "test_setup_course_hook_initialize_data_dict": {
+                "line": 241,
+                "line_end": 278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "setup_course_hook"
+                }
+            }
+        }
+    },
+    "src/illumidesk/tests/illumidesk/authenticators/test_utils.py": {
+        "focal_file": "src/illumidesk/illumidesk/authenticators/utils.py",
+        "methods": {
+            "test_normalize_string_with_long_name": {
+                "line": 22,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": "LTIUtils",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "normalize_string"
+                }
+            },
+            "test_normalize_string_with_special_characters": {
+                "line": 33,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": "LTIUtils",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "normalize_string"
+                }
+            },
+            "test_convert_request_arguments_with_one_encoded_item_to_dict": {
+                "line": 86,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": "LTIUtils",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "convert_request_to_dict"
+                }
+            },
+            "test_convert_request_arguments_with_more_than_one_encoded_item_to_dict": {
+                "line": 106,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": "LTIUtils",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "convert_request_to_dict"
+                }
+            },
+            "test_email_to_username_converts_username_in_lowecase": {
+                "line": 139,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": "LTIUtils",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "email_to_username"
+                }
+            },
+            "test_user_is_a_student_method_ignores_case": {
+                "line": 183,
+                "line_end": 187,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "user_is_a_student"
+                }
+            },
+            "test_user_is_an_instructor_method_ignores_case": {
+                "line": 195,
+                "line_end": 197,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "user_is_an_instructor"
+                }
+            }
+        }
+    },
+    "src/illumidesk/tests/illumidesk/lti13/test_auth.py": {
+        "focal_file": "src/illumidesk/illumidesk/lti13/auth.py",
+        "methods": {
+            "test_get_pem_text_from_file_raises_an_error_if_pem_cannot_be_read": {
+                "line": 11,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "get_pem_text_from_file"
+                }
+            },
+            "test_get_pem_text_from_file_parses_the_pem_file": {
+                "line": 22,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "get_pem_text_from_file"
+                }
+            },
+            "test_get_lms_access_token_calls_get_pem_text_from_file": {
+                "line": 33,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "get_lms_access_token"
+                }
+            }
+        }
+    },
+    "src/illumideskdummyauthenticator/tests/test_authenticator.py": {
+        "focal_file": "src/illumideskdummyauthenticator/illumideskdummyauthenticator/authenticator.py",
+        "methods": {
+            "test_authenticator_returns_auth_state": {
+                "line": 12,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": "IllumiDeskDummyAuthenticator",
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            }
+        }
+    },
+    "src/illumideskdummyauthenticator/tests/test_handlers.py": {
+        "focal_file": "src/illumideskdummyauthenticator/illumideskdummyauthenticator/authenticator.py",
+        "methods": {
+            "test_handlers": {
+                "line": 6,
+                "line_end": 10,
+                "indent": 0,
+                "focal_class": "IllumiDeskDummyAuthenticator",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "get_handlers"
+                }
+            }
+        }
+    },
+    "src/illumideskdummyauthenticator/tests/test_validator.py": {
+        "focal_file": "src/illumideskdummyauthenticator/illumideskdummyauthenticator/validators.py",
+        "methods": {
+            "test_basic_login_request": {
+                "line": 6,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": "IllumiDeskDummyValidator",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "validate_login_request"
+                }
+            }
+        }
+    }
+}

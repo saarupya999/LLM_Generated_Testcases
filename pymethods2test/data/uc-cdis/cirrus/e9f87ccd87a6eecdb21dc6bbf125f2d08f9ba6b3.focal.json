@@ -1,0 +1,576 @@
+{
+    "test/test_utils.py": {
+        "focal_file": "cirrus/google_cloud/utils.py",
+        "methods": {
+            "test_get_valid_service_account_id_for_user_prefix": {
+                "line": 24,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "get_valid_service_account_id_for_user"
+                }
+            },
+            "test_get_valid_service_account_id_for_client": {
+                "line": 45,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_valid_service_account_id_for_client"
+                }
+            },
+            "test_get_string_to_sign": {
+                "line": 58,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "_get_string_to_sign"
+                }
+            },
+            "test_get_string_to_sign_escaped": {
+                "line": 86,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "_get_string_to_sign"
+                }
+            },
+            "test_get_string_to_sign_no_optional_params": {
+                "line": 114,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "_get_string_to_sign"
+                }
+            }
+        }
+    },
+    "test/test_google_cloud_manage.py": {
+        "focal_file": "cirrus/google_cloud/manager.py",
+        "methods": {
+            "test_get_service_account_valid": {
+                "line": 109,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 594,
+                    "line_end": 625,
+                    "indent": 4,
+                    "name": "get_service_account"
+                }
+            },
+            "test_get_service_accounts_valid": {
+                "line": 127,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 646,
+                    "line_end": 685,
+                    "indent": 4,
+                    "name": "get_all_service_accounts"
+                }
+            },
+            "test_get_all_service_accounts_pagination": {
+                "line": 169,
+                "line_end": 210,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 646,
+                    "line_end": 685,
+                    "indent": 4,
+                    "name": "get_all_service_accounts"
+                }
+            },
+            "test_create_service_account_valid": {
+                "line": 213,
+                "line_end": 247,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 756,
+                    "indent": 4,
+                    "name": "create_service_account"
+                }
+            },
+            "test_create_service_account_already_exists": {
+                "line": 250,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 756,
+                    "indent": 4,
+                    "name": "create_service_account"
+                }
+            },
+            "test_delete_service_account": {
+                "line": 285,
+                "line_end": 305,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 759,
+                    "line_end": 785,
+                    "indent": 4,
+                    "name": "delete_service_account"
+                }
+            },
+            "test_delete_service_account_doesnt_exist": {
+                "line": 308,
+                "line_end": 328,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 759,
+                    "line_end": 785,
+                    "indent": 4,
+                    "name": "delete_service_account"
+                }
+            },
+            "test_create_service_account_key": {
+                "line": 331,
+                "line_end": 366,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 788,
+                    "line_end": 830,
+                    "indent": 4,
+                    "name": "create_service_account_key"
+                }
+            },
+            "test_delete_service_account_key": {
+                "line": 369,
+                "line_end": 392,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 833,
+                    "line_end": 866,
+                    "indent": 4,
+                    "name": "delete_service_account_key"
+                }
+            },
+            "test_get_service_account_keys_info": {
+                "line": 395,
+                "line_end": 445,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 995,
+                    "line_end": 1030,
+                    "indent": 4,
+                    "name": "get_service_account_keys_info"
+                }
+            },
+            "test_create_service_account_key_invalid_account": {
+                "line": 448,
+                "line_end": 472,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 788,
+                    "line_end": 830,
+                    "indent": 4,
+                    "name": "create_service_account_key"
+                }
+            },
+            "test_get_service_account_key": {
+                "line": 475,
+                "line_end": 490,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 957,
+                    "line_end": 992,
+                    "indent": 4,
+                    "name": "get_service_account_key"
+                }
+            },
+            "test_get_service_account_policy_valid": {
+                "line": 493,
+                "line_end": 516,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1045,
+                    "line_end": 1086,
+                    "indent": 4,
+                    "name": "get_service_account_policy"
+                }
+            },
+            "test_set_iam_policy": {
+                "line": 519,
+                "line_end": 543,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1089,
+                    "line_end": 1142,
+                    "indent": 4,
+                    "name": "set_iam_policy"
+                }
+            },
+            "test_get_group": {
+                "line": 546,
+                "line_end": 566,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1437,
+                    "line_end": 1469,
+                    "indent": 4,
+                    "name": "get_group"
+                }
+            },
+            "test_create_group": {
+                "line": 569,
+                "line_end": 599,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1252,
+                    "line_end": 1300,
+                    "indent": 4,
+                    "name": "create_group"
+                }
+            },
+            "test_create_group_already_exists": {
+                "line": 602,
+                "line_end": 652,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1252,
+                    "line_end": 1300,
+                    "indent": 4,
+                    "name": "create_group"
+                }
+            },
+            "test_get_group_members": {
+                "line": 655,
+                "line_end": 705,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1497,
+                    "line_end": 1534,
+                    "indent": 4,
+                    "name": "get_group_members"
+                }
+            },
+            "test_get_group_members_pagination": {
+                "line": 708,
+                "line_end": 771,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1497,
+                    "line_end": 1534,
+                    "indent": 4,
+                    "name": "get_group_members"
+                }
+            },
+            "test_add_member_to_group": {
+                "line": 774,
+                "line_end": 814,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1304,
+                    "line_end": 1361,
+                    "indent": 4,
+                    "name": "add_member_to_group"
+                }
+            },
+            "test_remove_member_from_group": {
+                "line": 817,
+                "line_end": 846,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1384,
+                    "line_end": 1433,
+                    "indent": 4,
+                    "name": "remove_member_from_group"
+                }
+            },
+            "test_get_primary_service_account": {
+                "line": 849,
+                "line_end": 885,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 382,
+                    "indent": 4,
+                    "name": "get_primary_service_account"
+                }
+            },
+            "test_get_all_groups": {
+                "line": 936,
+                "line_end": 974,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1193,
+                    "line_end": 1248,
+                    "indent": 4,
+                    "name": "get_all_groups"
+                }
+            },
+            "test_get_all_groups_pagination": {
+                "line": 977,
+                "line_end": 1020,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1193,
+                    "line_end": 1248,
+                    "indent": 4,
+                    "name": "get_all_groups"
+                }
+            },
+            "test_delete_group": {
+                "line": 1024,
+                "line_end": 1047,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1473,
+                    "line_end": 1493,
+                    "indent": 4,
+                    "name": "delete_group"
+                }
+            },
+            "test_delete_group_doesnt_exist": {
+                "line": 1050,
+                "line_end": 1074,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1473,
+                    "line_end": 1493,
+                    "indent": 4,
+                    "name": "delete_group"
+                }
+            },
+            "test_handle_expired_service_account_keys": {
+                "line": 1085,
+                "line_end": 1142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1032,
+                    "line_end": 1042,
+                    "indent": 4,
+                    "name": "handle_expired_service_account_keys"
+                }
+            },
+            "test_service_account_keys_when_empty": {
+                "line": 1145,
+                "line_end": 1172,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 995,
+                    "line_end": 1030,
+                    "indent": 4,
+                    "name": "get_service_account_keys_info"
+                }
+            },
+            "test_get_service_account_type_compute_engine_default": {
+                "line": 1175,
+                "line_end": 1184,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 627,
+                    "line_end": 643,
+                    "indent": 4,
+                    "name": "get_service_account_type"
+                }
+            },
+            "test_get_service_account_type_google_api": {
+                "line": 1187,
+                "line_end": 1196,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 627,
+                    "line_end": 643,
+                    "indent": 4,
+                    "name": "get_service_account_type"
+                }
+            },
+            "test_get_service_account_type_compute_engine_api": {
+                "line": 1199,
+                "line_end": 1208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 627,
+                    "line_end": 643,
+                    "indent": 4,
+                    "name": "get_service_account_type"
+                }
+            },
+            "test_get_service_account_type_user_managed": {
+                "line": 1211,
+                "line_end": 1220,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 627,
+                    "line_end": 643,
+                    "indent": 4,
+                    "name": "get_service_account_type"
+                }
+            },
+            "test_get_project_membership": {
+                "line": 1223,
+                "line_end": 1253,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1650,
+                    "line_end": 1661,
+                    "indent": 4,
+                    "name": "get_project_membership"
+                }
+            },
+            "test_get_project_ancestry": {
+                "line": 1256,
+                "line_end": 1275,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1607,
+                    "line_end": 1636,
+                    "indent": 4,
+                    "name": "get_project_ancestry"
+                }
+            },
+            "test_has_parent_organization": {
+                "line": 1278,
+                "line_end": 1294,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1638,
+                    "line_end": 1647,
+                    "indent": 4,
+                    "name": "has_parent_organization"
+                }
+            },
+            "test_has_no_parent_organization": {
+                "line": 1297,
+                "line_end": 1307,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1638,
+                    "line_end": 1647,
+                    "indent": 4,
+                    "name": "has_parent_organization"
+                }
+            },
+            "test_get_parent_organization_with_org": {
+                "line": 1310,
+                "line_end": 1325,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 384,
+                    "line_end": 404,
+                    "indent": 4,
+                    "name": "get_project_organization"
+                }
+            },
+            "test_get_parent_organization_without_org": {
+                "line": 1328,
+                "line_end": 1342,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 384,
+                    "line_end": 404,
+                    "indent": 4,
+                    "name": "get_project_organization"
+                }
+            },
+            "test_add_member_backoff_giveup": {
+                "line": 1370,
+                "line_end": 1392,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1304,
+                    "line_end": 1361,
+                    "indent": 4,
+                    "name": "add_member_to_group"
+                }
+            },
+            "test_delete_data_file": {
+                "line": 1560,
+                "line_end": 1584,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 563,
+                    "line_end": 591,
+                    "indent": 4,
+                    "name": "delete_data_file"
+                }
+            },
+            "test_delete_data_file_doesnt_exist": {
+                "line": 1587,
+                "line_end": 1611,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 563,
+                    "line_end": 591,
+                    "indent": 4,
+                    "name": "delete_data_file"
+                }
+            },
+            "test_delete_data_file_error_handling": {
+                "line": 1614,
+                "line_end": 1640,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 563,
+                    "line_end": 591,
+                    "indent": 4,
+                    "name": "delete_data_file"
+                }
+            }
+        }
+    }
+}

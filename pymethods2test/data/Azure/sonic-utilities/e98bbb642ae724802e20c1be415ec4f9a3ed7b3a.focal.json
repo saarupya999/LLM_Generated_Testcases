@@ -1,0 +1,488 @@
+{
+    "tests/acl_loader_test.py": {
+        "focal_file": "acl_loader/main.py",
+        "methods": {
+            "test_validate_mirror_action": {
+                "line": 29,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 434,
+                    "indent": 4,
+                    "name": "validate_actions"
+                }
+            }
+        }
+    },
+    "tests/dump_tests/match_engine_test.py": {
+        "focal_file": "dump/match_infra.py",
+        "methods": {
+            "test_match_entire_list": {
+                "line": 209,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": "MatchRequest",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "fetch"
+                }
+            }
+        }
+    },
+    "tests/generic_config_updater/generic_updater_test.py": {
+        "focal_file": "generic_config_updater/generic_updater.py",
+        "methods": {
+            "test_replace__creates_replacer_and_replace": {
+                "line": 500,
+                "line_end": 516,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "replace"
+                }
+            },
+            "test_rollback__creates_rollbacker_and_rollback": {
+                "line": 518,
+                "line_end": 533,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "rollback"
+                }
+            },
+            "test_checkpoint__creates_rollbacker_and_checkpoint": {
+                "line": 535,
+                "line_end": 550,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "checkpoint"
+                }
+            },
+            "test_delete_checkpoint__creates_rollbacker_and_deletes_checkpoint": {
+                "line": 552,
+                "line_end": 567,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "delete_checkpoint"
+                }
+            },
+            "test_list_checkpoints__creates_rollbacker_and_list_checkpoints": {
+                "line": 569,
+                "line_end": 586,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "list_checkpoints"
+                }
+            },
+            "test_replace__calls_decorated_replacer": {
+                "line": 609,
+                "line_end": 614,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "replace"
+                }
+            },
+            "test_rollback__calls_decorated_rollbacker": {
+                "line": 616,
+                "line_end": 621,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "rollback"
+                }
+            }
+        }
+    },
+    "tests/generic_config_updater/gu_common_test.py": {
+        "focal_file": "generic_config_updater/gu_common.py",
+        "methods": {
+            "test_get_sonic_yang_as_json__returns_sonic_yang_as_json": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "get_sonic_yang_as_json"
+                }
+            },
+            "test_convert_config_db_to_sonic_yang__empty_config_db__returns_empty_sonic_yang": {
+                "line": 34,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "convert_config_db_to_sonic_yang"
+                }
+            },
+            "test_convert_config_db_to_sonic_yang__non_empty_config_db__returns_sonic_yang_as_json": {
+                "line": 45,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "convert_config_db_to_sonic_yang"
+                }
+            },
+            "test_convert_sonic_yang_to_config_db__empty_sonic_yang__returns_empty_config_db": {
+                "line": 56,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "convert_sonic_yang_to_config_db"
+                }
+            },
+            "test_convert_sonic_yang_to_config_db__non_empty_sonic_yang__returns_config_db_as_json": {
+                "line": 67,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "convert_sonic_yang_to_config_db"
+                }
+            },
+            "test_validate_sonic_yang_config__valid_config__returns_true": {
+                "line": 99,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "validate_sonic_yang_config"
+                }
+            },
+            "test_validate_sonic_yang_config__invvalid_config__returns_false": {
+                "line": 110,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "validate_sonic_yang_config"
+                }
+            },
+            "test_validate_config_db_config__valid_config__returns_true": {
+                "line": 121,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "validate_config_db_config"
+                }
+            },
+            "test_validate_config_db_config__invalid_config__returns_false": {
+                "line": 132,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "validate_config_db_config"
+                }
+            },
+            "test_validate_config_db_patch_has_yang_models__table_without_yang_model__returns_false": {
+                "line": 159,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "validate_config_db_patch_has_yang_models"
+                }
+            },
+            "test_validate_config_db_patch_has_yang_models__table_with_yang_model__returns_true": {
+                "line": 171,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "validate_config_db_patch_has_yang_models"
+                }
+            },
+            "test_convert_config_db_patch_to_sonic_yang_patch__empty_patch__returns_empty_patch": {
+                "line": 252,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "convert_config_db_patch_to_sonic_yang_patch"
+                }
+            },
+            "test_convert_config_db_patch_to_sonic_yang_patch__single_operation_patch__returns_sonic_yang_patch": {
+                "line": 264,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "convert_config_db_patch_to_sonic_yang_patch"
+                }
+            },
+            "test_convert_config_db_patch_to_sonic_yang_patch__multiple_operations_patch__returns_sonic_yang_patch": {
+                "line": 276,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "convert_config_db_patch_to_sonic_yang_patch"
+                }
+            },
+            "test_convert_sonic_yang_patch_to_config_db_patch__empty_patch__returns_empty_patch": {
+                "line": 288,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "convert_sonic_yang_patch_to_config_db_patch"
+                }
+            },
+            "test_convert_sonic_yang_patch_to_config_db_patch__single_operation_patch__returns_config_db_patch": {
+                "line": 300,
+                "line_end": 310,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "convert_sonic_yang_patch_to_config_db_patch"
+                }
+            },
+            "test_convert_sonic_yang_patch_to_config_db_patch__multiple_operations_patch__returns_config_db_patch": {
+                "line": 312,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "convert_sonic_yang_patch_to_config_db_patch"
+                }
+            }
+        }
+    },
+    "tests/sonic_package_manager/test_database.py": {
+        "focal_file": "sonic_package_manager/database.py",
+        "methods": {
+            "test_database_get_package": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "get_package"
+                }
+            },
+            "test_database_get_package_not_builtin": {
+                "line": 23,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "get_package"
+                }
+            },
+            "test_database_get_package_not_existing": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "get_package"
+                }
+            },
+            "test_database_add_package": {
+                "line": 37,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "add_package"
+                }
+            },
+            "test_database_add_package_existing": {
+                "line": 47,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "add_package"
+                }
+            },
+            "test_database_update_package": {
+                "line": 52,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "update_package"
+                }
+            },
+            "test_database_update_package_non_existing": {
+                "line": 62,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": "PackageEntry",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "update_package"
+                }
+            },
+            "test_database_remove_package": {
+                "line": 68,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "remove_package"
+                }
+            },
+            "test_database_remove_package_non_existing": {
+                "line": 73,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "remove_package"
+                }
+            },
+            "test_database_remove_package_installed": {
+                "line": 78,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "remove_package"
+                }
+            },
+            "test_database_remove_package_built_in": {
+                "line": 85,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "remove_package"
+                }
+            }
+        }
+    },
+    "tests/sonic_package_manager/test_manifest.py": {
+        "focal_file": "sonic_package_manager/manifest.py",
+        "methods": {
+            "test_manifest_v1_unmarshal": {
+                "line": 74,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 223,
+                    "indent": 4,
+                    "name": "unmarshal"
+                }
+            }
+        }
+    }
+}

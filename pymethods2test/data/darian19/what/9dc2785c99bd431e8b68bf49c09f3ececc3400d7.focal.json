@@ -1,0 +1,972 @@
+{
+    "grok/tests/py/unit/app/aws/cloudwatch_utils_test.py": {
+        "focal_file": "grok/tests/py/unit/app/aws/cloudwatch_utils_test.py",
+        "methods": {
+            "testRetryOnThrottling": {
+                "line": 121,
+                "line_end": 128,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 88,
+                    "indent": 2,
+                    "name": "_testRetryCommon"
+                }
+            },
+            "testRetryOnConnectionError": {
+                "line": 131,
+                "line_end": 133,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 88,
+                    "indent": 2,
+                    "name": "_testRetryCommon"
+                }
+            }
+        }
+    },
+    "htmengine/tests/unit/model_checkpoint_mgr/model_checkpoint_mgr_test.py": {
+        "focal_file": "htmengine/htmengine/model_checkpoint_mgr/model_checkpoint_mgr.py",
+        "methods": {
+            "testRemoveAndGetModelIDs": {
+                "line": 56,
+                "line_end": 95,
+                "indent": 2,
+                "focal_class": "ModelCheckpointMgr",
+                "focal_method": {
+                    "line": 627,
+                    "line_end": 639,
+                    "indent": 2,
+                    "name": "getModelIDs"
+                }
+            },
+            "testUpdateCheckpointAttributesNoModelEntry": {
+                "line": 330,
+                "line_end": 341,
+                "indent": 2,
+                "focal_class": "ModelCheckpointMgr",
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 508,
+                    "indent": 2,
+                    "name": "updateCheckpointAttributes"
+                }
+            },
+            "testUpdateCheckpointAttributesWithNoModeCheckpointException": {
+                "line": 344,
+                "line_end": 356,
+                "indent": 2,
+                "focal_class": "ModelCheckpointMgr",
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 508,
+                    "indent": 2,
+                    "name": "updateCheckpointAttributes"
+                }
+            },
+            "testUpdateCheckpointAttributes": {
+                "line": 359,
+                "line_end": 382,
+                "indent": 2,
+                "focal_class": "ModelCheckpointMgr",
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 508,
+                    "indent": 2,
+                    "name": "updateCheckpointAttributes"
+                }
+            },
+            "testCloneModelWithDefinitionOnly": {
+                "line": 403,
+                "line_end": 429,
+                "indent": 2,
+                "focal_class": "ModelCheckpointMgr",
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 348,
+                    "indent": 2,
+                    "name": "loadModelDefinition"
+                }
+            }
+        }
+    },
+    "htmengine/tests/unit/model_swapper/model_swapper_interface_test.py": {
+        "focal_file": "htmengine/htmengine/model_swapper/model_swapper_interface.py",
+        "methods": {
+            "testMarshalUnmarshal": {
+                "line": 450,
+                "line_end": 462,
+                "indent": 2,
+                "focal_class": "ModelCommandResult",
+                "focal_method": {
+                    "line": 426,
+                    "line_end": 450,
+                    "indent": 2,
+                    "name": "marshal"
+                }
+            },
+            "testMarshalAndUnmarshal": {
+                "line": 497,
+                "line_end": 514,
+                "indent": 2,
+                "focal_class": "ModelCommandResult",
+                "focal_method": {
+                    "line": 426,
+                    "line_end": 450,
+                    "indent": 2,
+                    "name": "marshal"
+                }
+            },
+            "testSubmitRequestsWithContextManager": {
+                "line": 576,
+                "line_end": 607,
+                "indent": 2,
+                "focal_class": "ModelCommand",
+                "focal_method": {
+                    "line": 798,
+                    "line_end": 858,
+                    "indent": 2,
+                    "name": "submitRequests"
+                }
+            },
+            "testContextManagerAndConsumeRequests": {
+                "line": 677,
+                "line_end": 720,
+                "indent": 2,
+                "focal_class": "ModelCommand",
+                "focal_method": {
+                    "line": 861,
+                    "line_end": 906,
+                    "indent": 2,
+                    "name": "consumeRequests"
+                }
+            },
+            "testConsumeRequestsNonBlocking": {
+                "line": 726,
+                "line_end": 773,
+                "indent": 2,
+                "focal_class": "ModelCommand",
+                "focal_method": {
+                    "line": 861,
+                    "line_end": 906,
+                    "indent": 2,
+                    "name": "consumeRequests"
+                }
+            },
+            "testDefineModel": {
+                "line": 810,
+                "line_end": 823,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 670,
+                    "line_end": 698,
+                    "indent": 2,
+                    "name": "defineModel"
+                }
+            },
+            "testDeleteModel": {
+                "line": 827,
+                "line_end": 839,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 724,
+                    "line_end": 752,
+                    "indent": 2,
+                    "name": "deleteModel"
+                }
+            },
+            "testCleanUpAfterModelDeletion": {
+                "line": 890,
+                "line_end": 897,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 755,
+                    "line_end": 760,
+                    "indent": 2,
+                    "name": "cleanUpAfterModelDeletion"
+                }
+            },
+            "testModelInputPendingYes": {
+                "line": 903,
+                "line_end": 915,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 774,
+                    "indent": 2,
+                    "name": "modelInputPending"
+                }
+            },
+            "testModelInputPendingNo": {
+                "line": 921,
+                "line_end": 933,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 774,
+                    "indent": 2,
+                    "name": "modelInputPending"
+                }
+            },
+            "testGetModelsWithInputPending": {
+                "line": 959,
+                "line_end": 1002,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 777,
+                    "line_end": 795,
+                    "indent": 2,
+                    "name": "getModelsWithInputPending"
+                }
+            },
+            "testSubmitResults": {
+                "line": 1006,
+                "line_end": 1028,
+                "indent": 2,
+                "focal_class": "ModelCommandResult",
+                "focal_method": {
+                    "line": 913,
+                    "line_end": 943,
+                    "indent": 2,
+                    "name": "submitResults"
+                }
+            },
+            "testSubmitResultsFailure": {
+                "line": 1072,
+                "line_end": 1106,
+                "indent": 2,
+                "focal_class": "ModelCommandResult",
+                "focal_method": {
+                    "line": 913,
+                    "line_end": 943,
+                    "indent": 2,
+                    "name": "submitResults"
+                }
+            },
+            "testContextManagerAndConsumeResults": {
+                "line": 1112,
+                "line_end": 1153,
+                "indent": 2,
+                "focal_class": "ModelCommandResult",
+                "focal_method": {
+                    "line": 946,
+                    "line_end": 972,
+                    "indent": 2,
+                    "name": "consumeResults"
+                }
+            },
+            "testInitSchedulerNotification": {
+                "line": 1222,
+                "line_end": 1228,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 975,
+                    "line_end": 980,
+                    "indent": 2,
+                    "name": "initSchedulerNotification"
+                }
+            },
+            "testConsumeModelSchedulerNotifications": {
+                "line": 1234,
+                "line_end": 1264,
+                "indent": 2,
+                "focal_class": "ModelSwapperInterface",
+                "focal_method": {
+                    "line": 983,
+                    "line_end": 1008,
+                    "indent": 2,
+                    "name": "consumeModelSchedulerNotifications"
+                }
+            }
+        }
+    },
+    "htmengine/tests/unit/model_swapper/slot_agent_test.py": {
+        "focal_file": "htmengine/htmengine/model_swapper/slot_agent.py",
+        "methods": {
+            "testStartModelAndStopIt": {
+                "line": 75,
+                "line_end": 106,
+                "indent": 2,
+                "focal_class": "htmengine.model_swapper.slot_agent.SlotAgent",
+                "focal_method": {
+                    "line": 234,
+                    "line_end": 250,
+                    "indent": 2,
+                    "name": "startModel"
+                }
+            }
+        }
+    },
+    "htmengine/tests/unit/runtime/metric_streamer_util_test.py": {
+        "focal_file": "htmengine/htmengine/runtime/metric_streamer_util.py",
+        "methods": {
+            "testScrubDataSamplesOutOfOrder": {
+                "line": 44,
+                "line_end": 79,
+                "indent": 2,
+                "focal_class": "htmengine.runtime.metric_streamer_util.MetricStreamer",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 132,
+                    "indent": 2,
+                    "name": "_scrubDataSamples"
+                }
+            },
+            "testSendInputRowsToModel": {
+                "line": 82,
+                "line_end": 160,
+                "indent": 2,
+                "focal_class": "htmengine.runtime.metric_streamer_util.MetricStreamer",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 180,
+                    "indent": 2,
+                    "name": "_sendInputRowsToModel"
+                }
+            },
+            "testSendInputRowsToModelModelNotFoundError": {
+                "line": 163,
+                "line_end": 200,
+                "indent": 2,
+                "focal_class": "htmengine.runtime.metric_streamer_util.MetricStreamer",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 180,
+                    "indent": 2,
+                    "name": "_sendInputRowsToModel"
+                }
+            },
+            "testSendInputRowsToModelSubmitRequestsOtherError": {
+                "line": 203,
+                "line_end": 263,
+                "indent": 2,
+                "focal_class": "htmengine.runtime.metric_streamer_util.MetricStreamer",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 180,
+                    "indent": 2,
+                    "name": "_sendInputRowsToModel"
+                }
+            }
+        }
+    },
+    "nta.utils/tests/integration/message_bus_connector_test.py": {
+        "focal_file": "nta.utils/nta/utils/message_bus_connector.py",
+        "methods": {
+            "testCreateDurableMessageQueue": {
+                "line": 93,
+                "line_end": 106,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 161,
+                    "indent": 2,
+                    "name": "createMessageQueue"
+                }
+            },
+            "testCreateDurableMessageQueueSecondTime": {
+                "line": 109,
+                "line_end": 125,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 161,
+                    "indent": 2,
+                    "name": "createMessageQueue"
+                }
+            },
+            "testCreateNonDurableMessageQueue": {
+                "line": 128,
+                "line_end": 141,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 161,
+                    "indent": 2,
+                    "name": "createMessageQueue"
+                }
+            },
+            "testCreateNonDurableMessageQueueSecondTime": {
+                "line": 144,
+                "line_end": 159,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 161,
+                    "indent": 2,
+                    "name": "createMessageQueue"
+                }
+            },
+            "testDeleteMessageQueue": {
+                "line": 162,
+                "line_end": 181,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 196,
+                    "indent": 2,
+                    "name": "deleteMessageQueue"
+                }
+            },
+            "testDeleteMessageQueueThatDoesNotExist": {
+                "line": 184,
+                "line_end": 197,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 196,
+                    "indent": 2,
+                    "name": "deleteMessageQueue"
+                }
+            },
+            "testPurge": {
+                "line": 200,
+                "line_end": 226,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 217,
+                    "indent": 2,
+                    "name": "purge"
+                }
+            },
+            "testGetAllMessageQueues": {
+                "line": 294,
+                "line_end": 307,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 289,
+                    "indent": 2,
+                    "name": "getAllMessageQueues"
+                }
+            },
+            "testPublish": {
+                "line": 345,
+                "line_end": 376,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 327,
+                    "indent": 2,
+                    "name": "publish"
+                }
+            },
+            "testPublishExg": {
+                "line": 455,
+                "line_end": 527,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 366,
+                    "indent": 2,
+                    "name": "publishExg"
+                }
+            },
+            "testPollOneMessage": {
+                "line": 566,
+                "line_end": 598,
+                "indent": 2,
+                "focal_class": "MessageBusConnector",
+                "focal_method": {
+                    "line": 614,
+                    "line_end": 637,
+                    "indent": 2,
+                    "name": "pollOneMessage"
+                }
+            }
+        }
+    },
+    "nta.utils/tests/integration/synchronous_amqp_client_test.py": {
+        "focal_file": "nta.utils/nta/utils/amqp/synchronous_amqp_client.py",
+        "methods": {
+            "testDeclareAndDeleteDirectExchange": {
+                "line": 245,
+                "line_end": 261,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 785,
+                    "line_end": 797,
+                    "indent": 2,
+                    "name": "deleteExchange"
+                }
+            },
+            "testDeclareAndDeleteFanoutExchange": {
+                "line": 264,
+                "line_end": 280,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 785,
+                    "line_end": 797,
+                    "indent": 2,
+                    "name": "deleteExchange"
+                }
+            },
+            "testDeclareAndDeleteTopicExchange": {
+                "line": 283,
+                "line_end": 299,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 785,
+                    "line_end": 797,
+                    "indent": 2,
+                    "name": "deleteExchange"
+                }
+            },
+            "testDeclareAndDeleteQueue": {
+                "line": 302,
+                "line_end": 326,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 845,
+                    "line_end": 865,
+                    "indent": 2,
+                    "name": "deleteQueue"
+                }
+            },
+            "testBindUnbindQueue": {
+                "line": 329,
+                "line_end": 415,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 881,
+                    "line_end": 905,
+                    "indent": 2,
+                    "name": "bindQueue"
+                }
+            },
+            "testCreateCloseConsumer": {
+                "line": 637,
+                "line_end": 668,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 550,
+                    "line_end": 594,
+                    "indent": 2,
+                    "name": "createConsumer"
+                }
+            },
+            "testConsumerGetNextEvent": {
+                "line": 671,
+                "line_end": 702,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 608,
+                    "line_end": 628,
+                    "indent": 2,
+                    "name": "getNextEvent"
+                }
+            }
+        }
+    },
+    "nta.utils/tests/unit/logging_support_test.py": {
+        "focal_file": "nta.utils/nta/utils/logging_support_raw.py",
+        "methods": {
+            "testInitLoggingInputs": {
+                "line": 119,
+                "line_end": 126,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 286,
+                    "indent": 2,
+                    "name": "initLogging"
+                }
+            },
+            "testInitLoggingNullHandlers": {
+                "line": 129,
+                "line_end": 134,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 286,
+                    "indent": 2,
+                    "name": "initLogging"
+                }
+            },
+            "testLogFilePathExists": {
+                "line": 137,
+                "line_end": 143,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 329,
+                    "indent": 2,
+                    "name": "getApplicationLogFilePath"
+                }
+            },
+            "testLoggingRootPath": {
+                "line": 161,
+                "line_end": 166,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 291,
+                    "line_end": 300,
+                    "indent": 2,
+                    "name": "getLoggingRootDir"
+                }
+            },
+            "testLoggingConfigPath": {
+                "line": 169,
+                "line_end": 174,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 312,
+                    "indent": 2,
+                    "name": "getLoggingConfTemplatePath"
+                }
+            },
+            "testLoggingAppPath": {
+                "line": 177,
+                "line_end": 183,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 286,
+                    "indent": 2,
+                    "name": "initLogging"
+                }
+            }
+        }
+    },
+    "nta.utils/tests/unit/sqlalchemy_retry_on_transient_error_test.py": {
+        "focal_file": "nta.utils/nta/utils/sqlalchemy_utils.py",
+        "methods": {
+            "testNonTransientError": {
+                "line": 98,
+                "line_end": 111,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "retryOnTransientErrors"
+                }
+            }
+        }
+    },
+    "taurus.metric_collectors/tests/integration/metric_utils_test.py": {
+        "focal_file": "taurus.metric_collectors/taurus/metric_collectors/metric_utils.py",
+        "methods": {
+            "testEmittedSampleDatetime": {
+                "line": 78,
+                "line_end": 104,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 492,
+                    "line_end": 502,
+                    "indent": 0,
+                    "name": "queryLastEmittedSampleDatetime"
+                }
+            },
+            "testEmittedNonMetricSequence": {
+                "line": 107,
+                "line_end": 121,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 527,
+                    "line_end": 537,
+                    "indent": 0,
+                    "name": "queryLastEmittedNonMetricSequence"
+                }
+            },
+            "testMetricDataBatchWrite": {
+                "line": 124,
+                "line_end": 189,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 614,
+                    "line_end": 671,
+                    "indent": 0,
+                    "name": "metricDataBatchWrite"
+                }
+            }
+        }
+    },
+    "taurus.metric_collectors/tests/integration/xignite_stock_agent_test.py": {
+        "focal_file": "taurus.metric_collectors/taurus/metric_collectors/xignite/xignite_stock_agent.py",
+        "methods": {
+            "testGetEasternLocalizedTimestampFromSample": {
+                "line": 76,
+                "line_end": 88,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "getEasternLocalizedTimestampFromSample"
+                }
+            },
+            "testGetEasternLocalizedEndTimestampFromSampleRow": {
+                "line": 91,
+                "line_end": 107,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 156,
+                    "indent": 0,
+                    "name": "getEasternLocalizedEndTimestampFromSampleRow"
+                }
+            }
+        }
+    },
+    "taurus.monitoring/tests/unit/metric_order_monitor_test.py": {
+        "focal_file": "taurus.monitoring/taurus/monitoring/metric_order_monitor/metric_order_monitor.py",
+        "methods": {
+            "testReportDatabaseIssue_ValueError": {
+                "line": 53,
+                "line_end": 68,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "_reportDatabaseIssue"
+                }
+            },
+            "testReportDatabaseIssue_AlreadyFlagged": {
+                "line": 74,
+                "line_end": 89,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "_reportDatabaseIssue"
+                }
+            },
+            "testReportDatabaseIssue_NotFlagged": {
+                "line": 95,
+                "line_end": 115,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "_reportDatabaseIssue"
+                }
+            },
+            "testClearDatabaseIssue_NotPresent": {
+                "line": 120,
+                "line_end": 129,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "_clearDatabaseIssue"
+                }
+            },
+            "testClearDatabaseIssue_Present": {
+                "line": 134,
+                "line_end": 143,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "_clearDatabaseIssue"
+                }
+            },
+            "testGetOutOfOrderMetrics": {
+                "line": 146,
+                "line_end": 164,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "_getOutOfOrderMetrics"
+                }
+            },
+            "testReportMetrics_NoFailures": {
+                "line": 171,
+                "line_end": 183,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_reportMetrics"
+                }
+            },
+            "testReportMetrics_HasFailures": {
+                "line": 190,
+                "line_end": 211,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_reportMetrics"
+                }
+            }
+        }
+    },
+    "taurus.monitoring/tests/unit/taurus_models_monitor_test.py": {
+        "focal_file": "taurus.monitoring/taurus/monitoring/models_monitor/taurus_models_monitor.py",
+        "methods": {
+            "testGetIssueString": {
+                "line": 40,
+                "line_end": 45,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "_getIssueString"
+                }
+            },
+            "testConnectAndCheckModelsRequestsException": {
+                "line": 52,
+                "line_end": 72,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "_connectAndCheckModels"
+                }
+            },
+            "testConnectAndCheckModelsResponseCode": {
+                "line": 79,
+                "line_end": 108,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "_connectAndCheckModels"
+                }
+            },
+            "testConnectAndCheckModelsValueError": {
+                "line": 115,
+                "line_end": 143,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "_connectAndCheckModels"
+                }
+            },
+            "testConnectAndCheckModelsSuccess": {
+                "line": 151,
+                "line_end": 176,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "_connectAndCheckModels"
+                }
+            },
+            "testCheckModelsStatusNoModels": {
+                "line": 186,
+                "line_end": 201,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "_checkModelsStatus"
+                }
+            },
+            "testCheckModelsStatusGoodModels": {
+                "line": 211,
+                "line_end": 229,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "_checkModelsStatus"
+                }
+            }
+        }
+    },
+    "taurus/tests/unit/runtime/dynamodb/dynamodb_service_test.py": {
+        "focal_file": "taurus/taurus/engine/runtime/dynamodb/dynamodb_service.py",
+        "methods": {
+            "testPublishMetricDataWithDuplicateKeys": {
+                "line": 408,
+                "line_end": 435,
+                "indent": 2,
+                "focal_class": "DynamoDBService",
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 289,
+                    "indent": 2,
+                    "name": "_publishMetricData"
+                }
+            },
+            "testPublishInstanceDataHourly": {
+                "line": 438,
+                "line_end": 506,
+                "indent": 2,
+                "focal_class": "DynamoDBService",
+                "focal_method": {
+                    "line": 292,
+                    "line_end": 404,
+                    "indent": 2,
+                    "name": "_publishInstanceDataHourly"
+                }
+            }
+        }
+    }
+}

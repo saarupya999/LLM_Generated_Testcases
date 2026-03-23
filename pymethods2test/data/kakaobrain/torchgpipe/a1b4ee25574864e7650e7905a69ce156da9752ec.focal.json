@@ -1,0 +1,472 @@
+{
+    "tests/test_deferred_batch_norm.py": {
+        "focal_file": "torchgpipe/batchnorm.py",
+        "methods": {
+            "test_convert_deferred_batch_norm": {
+                "line": 79,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": "DeferredBatchNorm",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "convert_deferred_batch_norm"
+                }
+            }
+        }
+    },
+    "tests/test_dependency.py": {
+        "focal_file": "torchgpipe/dependency.py",
+        "methods": {
+            "test_fork_join": {
+                "line": 10,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "join"
+                }
+            }
+        }
+    },
+    "tests/test_microbatch.py": {
+        "focal_file": "torchgpipe/microbatch.py",
+        "methods": {
+            "test_batch_call": {
+                "line": 39,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": "Batch",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "call"
+                }
+            },
+            "test_check": {
+                "line": 81,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "check"
+                }
+            },
+            "test_scatter_tensor": {
+                "line": 115,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "scatter"
+                }
+            },
+            "test_scatter_tuple": {
+                "line": 124,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "scatter"
+                }
+            }
+        }
+    },
+    "tests/test_balance.py": {
+        "focal_file": "torchgpipe/balance/blockpartition.py",
+        "methods": {
+            "test_blockpartition": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "solve"
+                }
+            },
+            "test_blockpartition_zeros": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "solve"
+                }
+            },
+            "test_blockpartition_short_sequence": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "solve"
+                }
+            }
+        }
+    },
+    "tests/test_worker.py": {
+        "focal_file": "torchgpipe/worker.py",
+        "methods": {
+            "test_join_running_workers": {
+                "line": 20,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 150,
+                    "indent": 0,
+                    "name": "spawn_workers"
+                }
+            }
+        }
+    },
+    "tests/test_checkpoint.py": {
+        "focal_file": "torchgpipe/checkpoint.py",
+        "methods": {
+            "test_serial_checkpoints": {
+                "line": 18,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "checkpoint"
+                }
+            },
+            "test_random_in_checkpoint": {
+                "line": 94,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "checkpoint"
+                }
+            },
+            "test_detect_checkpointing_recomputing": {
+                "line": 110,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "is_checkpointing"
+                }
+            }
+        }
+    },
+    "tests/test_stream.py": {
+        "focal_file": "torchgpipe/stream.py",
+        "methods": {
+            "test_new_stream_cpu": {
+                "line": 11,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_new_stream_cuda": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_current_stream_cpu": {
+                "line": 23,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "current_stream"
+                }
+            },
+            "test_current_stream_cuda": {
+                "line": 28,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "current_stream"
+                }
+            },
+            "test_default_stream_cpu": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "default_stream"
+                }
+            },
+            "test_default_stream_cuda": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "default_stream"
+                }
+            },
+            "test_use_device_cpu": {
+                "line": 47,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "use_device"
+                }
+            },
+            "test_use_device_cuda": {
+                "line": 52,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "use_device"
+                }
+            },
+            "test_use_stream_cpu": {
+                "line": 58,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "use_stream"
+                }
+            },
+            "test_use_stream_cuda": {
+                "line": 63,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "use_stream"
+                }
+            },
+            "test_get_device_cpu": {
+                "line": 70,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "get_device"
+                }
+            },
+            "test_get_device_cuda": {
+                "line": 74,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "get_device"
+                }
+            },
+            "test_wait_stream_cpu_cuda": {
+                "line": 97,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_wait_stream_cuda_cpu": {
+                "line": 103,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_record_stream_cpu": {
+                "line": 116,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "record_stream"
+                }
+            },
+            "test_record_stream_cuda": {
+                "line": 122,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "record_stream"
+                }
+            },
+            "test_record_stream_shifted_view": {
+                "line": 152,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "record_stream"
+                }
+            }
+        }
+    },
+    "tests/test_gpipe.py": {
+        "focal_file": "torchgpipe/gpipe.py",
+        "methods": {
+            "test_verify_module_non_sequential": {
+                "line": 518,
+                "line_end": 520,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "verify_module"
+                }
+            },
+            "test_verify_module_duplicate_children": {
+                "line": 523,
+                "line_end": 528,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "verify_module"
+                }
+            }
+        }
+    },
+    "tests/skip/test_portal.py": {
+        "focal_file": "torchgpipe/skip/portal.py",
+        "methods": {
+            "test_blue_orange": {
+                "line": 23,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "Portal",
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "orange"
+                }
+            },
+            "test_use_grad": {
+                "line": 75,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": "Portal",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "use_grad"
+                }
+            }
+        }
+    },
+    "tests/skip/test_tracker.py": {
+        "focal_file": "torchgpipe/skip/tracker.py",
+        "methods": {
+            "test_default_skip_tracker": {
+                "line": 15,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 179,
+                    "indent": 0,
+                    "name": "current_skip_tracker"
+                }
+            }
+        }
+    }
+}

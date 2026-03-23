@@ -1,0 +1,549 @@
+{
+    "tests/configuration.py": {
+        "focal_file": "airflow/configuration.py",
+        "methods": {
+            "test_conf_as_dict": {
+                "line": 31,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 804,
+                    "line_end": 806,
+                    "indent": 0,
+                    "name": "as_dict"
+                }
+            }
+        }
+    },
+    "tests/core.py": {
+        "focal_file": "airflow/models.py",
+        "methods": {
+            "test_clear_api": {
+                "line": 380,
+                "line_end": 386,
+                "indent": 4,
+                "focal_class": "airflow.models.TaskInstance",
+                "focal_method": {
+                    "line": 2206,
+                    "line_end": 2240,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            },
+            "test_trigger_dagrun": {
+                "line": 419,
+                "line_end": 429,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1146,
+                    "line_end": 1331,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_dryrun": {
+                "line": 431,
+                "line_end": 436,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1333,
+                    "line_end": 1339,
+                    "indent": 4,
+                    "name": "dry_run"
+                }
+            },
+            "test_template_non_bool": {
+                "line": 618,
+                "line_end": 632,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2174,
+                    "line_end": 2186,
+                    "indent": 4,
+                    "name": "resolve_template_files"
+                }
+            },
+            "test_variable_setdefault_round_trip": {
+                "line": 694,
+                "line_end": 698,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 3405,
+                    "line_end": 3431,
+                    "indent": 4,
+                    "name": "setdefault"
+                }
+            },
+            "test_variable_setdefault_round_trip_json": {
+                "line": 700,
+                "line_end": 704,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 3405,
+                    "line_end": 3431,
+                    "indent": 4,
+                    "name": "setdefault"
+                }
+            },
+            "test_cli_run": {
+                "line": 1193,
+                "line_end": 1196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1146,
+                    "line_end": 1331,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_subdag_clear": {
+                "line": 1218,
+                "line_end": 1224,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2206,
+                    "line_end": 2240,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            },
+            "test_sensor": {
+                "line": 1741,
+                "line_end": 1752,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1146,
+                    "line_end": 1331,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/jobs.py": {
+        "focal_file": "airflow/jobs.py",
+        "methods": {
+            "test_scheduler_start_date": {
+                "line": 362,
+                "line_end": 405,
+                "indent": 4,
+                "focal_class": "BackfillJob",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_scheduler_multiprocessing": {
+                "line": 407,
+                "line_end": 426,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_scheduler_dagrun_once": {
+                "line": 428,
+                "line_end": 443,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "create_dag_run"
+                }
+            },
+            "test_scheduler_process_task_instances": {
+                "line": 445,
+                "line_end": 474,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 783,
+                    "line_end": 844,
+                    "indent": 4,
+                    "name": "_process_task_instances"
+                }
+            },
+            "test_scheduler_do_not_run_finished": {
+                "line": 532,
+                "line_end": 562,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 783,
+                    "line_end": 844,
+                    "indent": 4,
+                    "name": "_process_task_instances"
+                }
+            },
+            "test_scheduler_add_new_task": {
+                "line": 564,
+                "line_end": 601,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 783,
+                    "line_end": 844,
+                    "indent": 4,
+                    "name": "_process_task_instances"
+                }
+            },
+            "test_scheduler_verify_max_active_runs": {
+                "line": 603,
+                "line_end": 630,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "create_dag_run"
+                }
+            },
+            "test_scheduler_fail_dagrun_timeout": {
+                "line": 632,
+                "line_end": 664,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "create_dag_run"
+                }
+            },
+            "test_scheduler_auto_align": {
+                "line": 801,
+                "line_end": 850,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "create_dag_run"
+                }
+            },
+            "test_scheduler_reschedule": {
+                "line": 852,
+                "line_end": 900,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_scheduler_run_duration": {
+                "line": 902,
+                "line_end": 923,
+                "indent": 4,
+                "focal_class": "SchedulerJob",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/models.py": {
+        "focal_file": "airflow/models.py",
+        "methods": {
+            "test_id_for_date": {
+                "line": 121,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 3712,
+                    "line_end": 3713,
+                    "indent": 4,
+                    "name": "id_for_date"
+                }
+            },
+            "test_next_retry_datetime": {
+                "line": 440,
+                "line_end": 470,
+                "indent": 4,
+                "focal_class": "airflow.models.DAG",
+                "focal_method": {
+                    "line": 1089,
+                    "line_end": 1100,
+                    "indent": 4,
+                    "name": "next_retry_datetime"
+                }
+            }
+        }
+    },
+    "tests/contrib/hooks/bigquery_hook.py": {
+        "focal_file": "airflow/contrib/hooks/bigquery_hook.py",
+        "methods": {
+            "test_split_dataset_table": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 877,
+                    "line_end": 925,
+                    "indent": 0,
+                    "name": "_split_tablename"
+                }
+            }
+        }
+    },
+    "tests/contrib/hooks/test_ftp_hook.py": {
+        "focal_file": "airflow/contrib/hooks/ftp_hook.py",
+        "methods": {
+            "test_close_conn": {
+                "line": 40,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "close_conn"
+                }
+            },
+            "test_list_directory": {
+                "line": 47,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "list_directory"
+                }
+            },
+            "test_create_directory": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "create_directory"
+                }
+            },
+            "test_delete_directory": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "delete_directory"
+                }
+            },
+            "test_delete_file": {
+                "line": 66,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "delete_file"
+                }
+            },
+            "test_rename": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "rename"
+                }
+            }
+        }
+    },
+    "tests/contrib/operators/ecs_operator.py": {
+        "focal_file": "airflow/contrib/operators/ecs_operator.py",
+        "methods": {
+            "test_wait_end_tasks": {
+                "line": 122,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "_wait_for_task_ended"
+                }
+            },
+            "test_check_success_tasks_raises": {
+                "line": 133,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "_check_success_task"
+                }
+            },
+            "test_check_success_tasks_raises_pending": {
+                "line": 153,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "_check_success_task"
+                }
+            },
+            "test_check_success_tasks_raises_mutliple": {
+                "line": 170,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "_check_success_task"
+                }
+            },
+            "test_check_success_task_not_raises": {
+                "line": 189,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "_check_success_task"
+                }
+            }
+        }
+    },
+    "tests/contrib/operators/hipchat_operator.py": {
+        "focal_file": "airflow/contrib/operators/hipchat_operator.py",
+        "methods": {
+            "test_execute": {
+                "line": 38,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "HipChatAPISendRoomNotificationOperator",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            }
+        }
+    },
+    "tests/contrib/sensors/datadog_sensor.py": {
+        "focal_file": "airflow/contrib/sensors/datadog_sensor.py",
+        "methods": {
+            "test_sensor_ok": {
+                "line": 56,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "DatadogSensor",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "poke"
+                }
+            }
+        }
+    },
+    "tests/operators/docker_operator.py": {
+        "focal_file": "airflow/operators/docker_operator.py",
+        "methods": {
+            "test_execute": {
+                "line": 38,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "DockerOperator",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            },
+            "test_execute_tls": {
+                "line": 79,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": "DockerOperator",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            },
+            "test_on_kill": {
+                "line": 123,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": "DockerOperator",
+                "focal_method": {
+                    "line": 194,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "on_kill"
+                }
+            }
+        }
+    },
+    "tests/operators/hive_operator.py": {
+        "focal_file": "airflow/operators/hive_operator.py",
+        "methods": {
+            "test_hive_dryrun": {
+                "line": 187,
+                "line_end": 191,
+                "indent": 8,
+                "focal_class": "airflow.operators.hive_operator.HiveOperator",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "dry_run"
+                }
+            }
+        }
+    }
+}

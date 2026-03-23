@@ -1,0 +1,889 @@
+{
+    "api/tests/music/test_tasks.py": {
+        "focal_file": "api/funkwhale_api/music/tasks.py",
+        "methods": {
+            "test_can_create_track_from_file_metadata_no_mbid": {
+                "line": 19,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 506,
+                    "indent": 0,
+                    "name": "get_track_from_import_metadata"
+                }
+            },
+            "test_can_create_track_from_file_metadata_mbid": {
+                "line": 41,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 506,
+                    "indent": 0,
+                    "name": "get_track_from_import_metadata"
+                }
+            },
+            "test_can_create_track_from_file_metadata_federation": {
+                "line": 126,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 506,
+                    "indent": 0,
+                    "name": "get_track_from_import_metadata"
+                }
+            },
+            "test_sort_candidates": {
+                "line": 165,
+                "line_end": 171,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 334,
+                    "line_end": 363,
+                    "indent": 0,
+                    "name": "sort_candidates"
+                }
+            },
+            "test_update_album_cover_mbid": {
+                "line": 357,
+                "line_end": 363,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "update_album_cover"
+                }
+            },
+            "test_update_album_cover_file_data": {
+                "line": 366,
+                "line_end": 371,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "update_album_cover"
+                }
+            },
+            "test_federation_audio_track_to_metadata": {
+                "line": 390,
+                "line_end": 459,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 304,
+                    "indent": 0,
+                    "name": "federation_audio_track_to_metadata"
+                }
+            }
+        }
+    },
+    "api/tests/music/test_metadata.py": {
+        "focal_file": "api/funkwhale_api/music/metadata.py",
+        "methods": {
+            "test_can_get_pictures": {
+                "line": 133,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": "funkwhale_api.music.metadata.Metadata",
+                "focal_method": {
+                    "line": 292,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "get_picture"
+                }
+            }
+        }
+    },
+    "api/tests/music/test_import.py": {
+        "focal_file": "api/funkwhale_api/music/importers.py",
+        "methods": {
+            "test_importer_cleans": {
+                "line": 13,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": "funkwhale_api.music.importers.Importer",
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 3,
+                    "indent": 0,
+                    "name": "load"
+                }
+            }
+        }
+    },
+    "api/tests/music/test_models.py": {
+        "focal_file": "api/funkwhale_api/music/models.py",
+        "methods": {
+            "test_import_track_from_release": {
+                "line": 49,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 501,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "get_or_create_from_release"
+                }
+            },
+            "test_track_get_file_size": {
+                "line": 175,
+                "line_end": 180,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 694,
+                    "line_end": 699,
+                    "indent": 4,
+                    "name": "get_file_size"
+                }
+            },
+            "test_track_get_file_size_in_place": {
+                "line": 183,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 694,
+                    "line_end": 699,
+                    "indent": 4,
+                    "name": "get_file_size"
+                }
+            },
+            "test_album_get_image_content": {
+                "line": 191,
+                "line_end": 196,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "get_image"
+                }
+            },
+            "test_library_schedule_scan": {
+                "line": 419,
+                "line_end": 436,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 915,
+                    "line_end": 932,
+                    "indent": 4,
+                    "name": "schedule_scan"
+                }
+            },
+            "test_library_schedule_scan_too_recent": {
+                "line": 439,
+                "line_end": 444,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 915,
+                    "line_end": 932,
+                    "indent": 4,
+                    "name": "schedule_scan"
+                }
+            },
+            "test_get_audio_data": {
+                "line": 447,
+                "line_end": 452,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 707,
+                    "line_end": 718,
+                    "indent": 4,
+                    "name": "get_audio_data"
+                }
+            },
+            "test_library_queryset_with_follows": {
+                "line": 455,
+                "line_end": 464,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 853,
+                    "line_end": 860,
+                    "indent": 4,
+                    "name": "with_follows"
+                }
+            },
+            "test_annotate_duration": {
+                "line": 467,
+                "line_end": 472,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 406,
+                    "line_end": 410,
+                    "indent": 4,
+                    "name": "annotate_duration"
+                }
+            },
+            "test_annotate_file_data": {
+                "line": 475,
+                "line_end": 482,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 418,
+                    "indent": 4,
+                    "name": "annotate_file_data"
+                }
+            }
+        }
+    },
+    "api/tests/music/test_utils.py": {
+        "focal_file": "api/funkwhale_api/music/utils.py",
+        "methods": {
+            "test_get_audio_file_data": {
+                "line": 33,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "get_audio_file_data"
+                }
+            }
+        }
+    },
+    "api/tests/common/test_permissions.py": {
+        "focal_file": "api/funkwhale_api/common/permissions.py",
+        "methods": {
+            "test_owner_permission_read_only": {
+                "line": 32,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": "funkwhale_api.common.permissions.OwnerPermission",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "has_object_permission"
+                }
+            }
+        }
+    },
+    "api/tests/common/test_fields.py": {
+        "focal_file": "api/funkwhale_api/common/fields.py",
+        "methods": {
+            "test_privacy_level_query": {
+                "line": 20,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "privacy_level_query"
+                }
+            }
+        }
+    },
+    "api/tests/common/test_search.py": {
+        "focal_file": "api/funkwhale_api/common/search.py",
+        "methods": {
+            "test_apply": {
+                "line": 72,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "apply"
+                }
+            }
+        }
+    },
+    "api/tests/common/test_preferences.py": {
+        "focal_file": "api/funkwhale_api/common/preferences.py",
+        "methods": {
+            "test_string_list_serializer_to_db": {
+                "line": 28,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "to_db"
+                }
+            },
+            "test_string_list_serializer_to_python": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "to_python"
+                }
+            }
+        }
+    },
+    "api/tests/radios/test_filters.py": {
+        "focal_file": "api/funkwhale_api/radios/filters.py",
+        "methods": {
+            "test_artist_filter_clean_config": {
+                "line": 127,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "clean_config"
+                }
+            }
+        }
+    },
+    "api/tests/federation/test_serializers.py": {
+        "focal_file": "api/funkwhale_api/federation/serializers.py",
+        "methods": {
+            "test_follow_serializer_save": {
+                "line": 164,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": "funkwhale_api.federation.serializers.FollowSerializer",
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_accept_follow_serializer_save": {
+                "line": 227,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": "funkwhale_api.federation.serializers.AcceptFollowSerializer",
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_undo_follow_serializer_save": {
+                "line": 295,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": "funkwhale_api.federation.serializers.UndoFollowSerializer",
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_activity_pub_upload_serializer_validtes_library_actor": {
+                "line": 820,
+                "line_end": 827,
+                "indent": 0,
+                "focal_class": "funkwhale_api.federation.serializers.UploadSerializer",
+                "focal_method": {
+                    "line": 797,
+                    "line_end": 811,
+                    "indent": 4,
+                    "name": "validate_library"
+                }
+            },
+            "test_activity_serializer_validate_recipients_empty": {
+                "line": 913,
+                "line_end": 923,
+                "indent": 0,
+                "focal_class": "funkwhale_api.federation.serializers.BaseActivitySerializer",
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "validate_recipients"
+                }
+            }
+        }
+    },
+    "api/tests/federation/test_routes.py": {
+        "focal_file": "api/funkwhale_api/federation/routes.py",
+        "methods": {
+            "test_outbox_accept": {
+                "line": 114,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "outbox_accept"
+                }
+            },
+            "test_inbox_accept": {
+                "line": 131,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "inbox_accept"
+                }
+            },
+            "test_outbox_create_audio": {
+                "line": 168,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 147,
+                    "indent": 0,
+                    "name": "outbox_create_audio"
+                }
+            },
+            "test_inbox_create_audio": {
+                "line": 187,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 163,
+                    "indent": 0,
+                    "name": "inbox_create_audio"
+                }
+            },
+            "test_inbox_delete_library": {
+                "line": 214,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 180,
+                    "indent": 0,
+                    "name": "inbox_delete_library"
+                }
+            },
+            "test_inbox_delete_library_impostor": {
+                "line": 233,
+                "line_end": 249,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 180,
+                    "indent": 0,
+                    "name": "inbox_delete_library"
+                }
+            },
+            "test_outbox_delete_library": {
+                "line": 252,
+                "line_end": 262,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 195,
+                    "indent": 0,
+                    "name": "outbox_delete_library"
+                }
+            },
+            "test_inbox_delete_audio": {
+                "line": 265,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "inbox_delete_audio"
+                }
+            },
+            "test_inbox_delete_audio_impostor": {
+                "line": 285,
+                "line_end": 302,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "inbox_delete_audio"
+                }
+            },
+            "test_outbox_delete_audio": {
+                "line": 305,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "outbox_delete_audio"
+                }
+            }
+        }
+    },
+    "api/tests/federation/test_webfinger.py": {
+        "focal_file": "api/funkwhale_api/federation/webfinger.py",
+        "methods": {
+            "test_webfinger_clean_resource": {
+                "line": 7,
+                "line_end": 10,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "clean_resource"
+                }
+            },
+            "test_webfinger_clean_resource_errors": {
+                "line": 21,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "clean_resource"
+                }
+            },
+            "test_webfinger_clean_acct": {
+                "line": 28,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "clean_acct"
+                }
+            },
+            "test_webfinger_get_resource": {
+                "line": 49,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "get_resource"
+                }
+            }
+        }
+    },
+    "api/tests/federation/test_tasks.py": {
+        "focal_file": "api/funkwhale_api/federation/tasks.py",
+        "methods": {
+            "test_clean_federation_music_cache_if_no_listen": {
+                "line": 11,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "clean_music_cache"
+                }
+            },
+            "test_clean_federation_music_cache_orphaned": {
+                "line": 47,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "clean_music_cache"
+                }
+            },
+            "test_dispatch_outbox": {
+                "line": 84,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "dispatch_outbox"
+                }
+            }
+        }
+    },
+    "api/tests/federation/test_activity.py": {
+        "focal_file": "api/funkwhale_api/federation/activity.py",
+        "methods": {
+            "test_get_actors_from_audience_urls": {
+                "line": 49,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 388,
+                    "indent": 0,
+                    "name": "get_actors_from_audience"
+                }
+            },
+            "test_get_inbox_urls": {
+                "line": 81,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 400,
+                    "indent": 0,
+                    "name": "get_inbox_urls"
+                }
+            },
+            "test_outbox_router_dispatch": {
+                "line": 196,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": "funkwhale_api.federation.activity.OutboxRouter",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 186,
+                    "indent": 4,
+                    "name": "dispatch"
+                }
+            },
+            "test_prepare_deliveries_and_inbox_items": {
+                "line": 243,
+                "line_end": 345,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 337,
+                    "indent": 0,
+                    "name": "prepare_deliveries_and_inbox_items"
+                }
+            }
+        }
+    },
+    "api/tests/federation/test_utils.py": {
+        "focal_file": "api/funkwhale_api/federation/utils.py",
+        "methods": {
+            "test_full_url": {
+                "line": 16,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "full_url"
+                }
+            },
+            "test_retrieve": {
+                "line": 56,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "retrieve"
+                }
+            }
+        }
+    },
+    "api/tests/federation/test_keys.py": {
+        "focal_file": "api/funkwhale_api/federation/keys.py",
+        "methods": {
+            "test_get_key_from_header": {
+                "line": 13,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "get_key_id_from_signature_header"
+                }
+            }
+        }
+    },
+    "api/tests/users/test_permissions.py": {
+        "focal_file": "api/funkwhale_api/users/permissions.py",
+        "methods": {
+            "test_has_user_permission_no_user": {
+                "line": 7,
+                "line_end": 11,
+                "indent": 0,
+                "focal_class": "funkwhale_api.users.permissions.HasUserPermission",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            },
+            "test_has_user_permission_anonymous": {
+                "line": 14,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": "funkwhale_api.users.permissions.HasUserPermission",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "has_permission"
+                }
+            }
+        }
+    },
+    "api/tests/users/test_models.py": {
+        "focal_file": "api/funkwhale_api/users/models.py",
+        "methods": {
+            "test__str__": {
+                "line": 10,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "__str__"
+                }
+            },
+            "test_get_permissions_superuser": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "get_permissions"
+                }
+            },
+            "test_get_permissions_regular": {
+                "line": 37,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "get_permissions"
+                }
+            },
+            "test_get_permissions_default": {
+                "line": 48,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "get_permissions"
+                }
+            },
+            "test_has_permissions_and": {
+                "line": 68,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "has_permissions"
+                }
+            },
+            "test_has_permissions_or": {
+                "line": 82,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "has_permissions"
+                }
+            },
+            "test_record_activity": {
+                "line": 87,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "record_activity"
+                }
+            },
+            "test_get_channels_groups": {
+                "line": 179,
+                "line_end": 185,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "get_channels_groups"
+                }
+            },
+            "test_user_get_quota_status": {
+                "line": 202,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "get_quota_status"
+                }
+            }
+        }
+    }
+}

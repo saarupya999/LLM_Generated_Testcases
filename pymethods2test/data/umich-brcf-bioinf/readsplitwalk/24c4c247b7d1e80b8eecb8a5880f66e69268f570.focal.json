@@ -1,0 +1,603 @@
+{
+    "test/split_read_test.py": {
+        "focal_file": "bin/split_read.py",
+        "methods": {
+            "test_parse": {
+                "line": 10,
+                "line_end": 17,
+                "indent": 1,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_split": {
+                "line": 19,
+                "line_end": 38,
+                "indent": 1,
+                "focal_class": "FQStanza",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "split"
+                }
+            },
+            "test_build_splits": {
+                "line": 52,
+                "line_end": 67,
+                "indent": 1,
+                "focal_class": "FQStanza",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "build_splits"
+                }
+            },
+            "test_write_stanzas": {
+                "line": 69,
+                "line_end": 80,
+                "indent": 1,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "write_stanzas"
+                }
+            },
+            "test_stanza_generator": {
+                "line": 82,
+                "line_end": 99,
+                "indent": 1,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "stanza_generator"
+                }
+            },
+            "test_stanza_generator_tricky_stanza": {
+                "line": 103,
+                "line_end": 120,
+                "indent": 1,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "stanza_generator"
+                }
+            }
+        }
+    },
+    "test/identify_pairs_test.py": {
+        "focal_file": "bin/identify_pairs.py",
+        "methods": {
+            "test_build": {
+                "line": 48,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "SamSplitReadBuilder",
+                "focal_method": {
+                    "line": 343,
+                    "line_end": 351,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_format": {
+                "line": 76,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "format"
+                }
+            },
+            "test_gap_distance": {
+                "line": 81,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "gap_distance"
+                }
+            },
+            "test_is_oriented_true": {
+                "line": 104,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "is_oriented"
+                }
+            },
+            "test_is_oriented_false": {
+                "line": 115,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "is_oriented"
+                }
+            },
+            "test_is_oriented_falseIfSideSame": {
+                "line": 138,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "is_oriented"
+                }
+            },
+            "test_left_name": {
+                "line": 144,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "left_name"
+                }
+            },
+            "test_add_to_read_groups_addsToCorrectSide": {
+                "line": 245,
+                "line_end": 258,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "add_to_read_groups"
+                }
+            },
+            "test_add_to_group_keys": {
+                "line": 260,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": "SplitRead",
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 258,
+                    "indent": 4,
+                    "name": "add_to_group_keys"
+                }
+            },
+            "test_check_split_length": {
+                "line": 277,
+                "line_end": 281,
+                "indent": 4,
+                "focal_class": "ReadLengthValidator",
+                "focal_method": {
+                    "line": 260,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "check_split_length"
+                }
+            },
+            "test_check_read_length": {
+                "line": 283,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": "ReadLengthValidator",
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 333,
+                    "indent": 4,
+                    "name": "check_read_length"
+                }
+            },
+            "test_identify_common_group_keys": {
+                "line": 303,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 446,
+                    "indent": 0,
+                    "name": "_identify_common_group_keys"
+                }
+            },
+            "test_identify_common_group_keys_noCommonKeys": {
+                "line": 314,
+                "line_end": 323,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 446,
+                    "indent": 0,
+                    "name": "_identify_common_group_keys"
+                }
+            },
+            "test_identify_common_group_keys_keyOnlyOnOneSide": {
+                "line": 325,
+                "line_end": 334,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 446,
+                    "indent": 0,
+                    "name": "_identify_common_group_keys"
+                }
+            },
+            "test_build_read_groups_twoDistinctReads": {
+                "line": 336,
+                "line_end": 347,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "_build_read_groups"
+                }
+            },
+            "test_build_read_groups_skipsHeaderLines": {
+                "line": 349,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "_build_read_groups"
+                }
+            },
+            "test_write_rsw_pairs": {
+                "line": 360,
+                "line_end": 369,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 535,
+                    "line_end": 548,
+                    "indent": 0,
+                    "name": "_write_rsw_pairs"
+                }
+            },
+            "test_write_sam_pairs_headersPassThrough": {
+                "line": 372,
+                "line_end": 383,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 551,
+                    "line_end": 565,
+                    "indent": 0,
+                    "name": "_write_sam_pairs"
+                }
+            },
+            "test_write_sam_pairs": {
+                "line": 385,
+                "line_end": 395,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 551,
+                    "line_end": 565,
+                    "indent": 0,
+                    "name": "_write_sam_pairs"
+                }
+            },
+            "test_build_pairs_from_groups_simpleDiad": {
+                "line": 397,
+                "line_end": 405,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 493,
+                    "indent": 0,
+                    "name": "_build_pairs_from_groups"
+                }
+            },
+            "test_build_pairs_from_groups": {
+                "line": 407,
+                "line_end": 422,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 493,
+                    "indent": 0,
+                    "name": "_build_pairs_from_groups"
+                }
+            },
+            "test_filter_pairs": {
+                "line": 425,
+                "line_end": 433,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 514,
+                    "indent": 0,
+                    "name": "_filter_pairs"
+                }
+            },
+            "test_distance_filter": {
+                "line": 436,
+                "line_end": 449,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 517,
+                    "line_end": 522,
+                    "indent": 0,
+                    "name": "_distance_filter"
+                }
+            },
+            "test_orientation_filter": {
+                "line": 452,
+                "line_end": 460,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 524,
+                    "line_end": 525,
+                    "indent": 0,
+                    "name": "_orientation_filter"
+                }
+            },
+            "test_composite_filter": {
+                "line": 462,
+                "line_end": 471,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 527,
+                    "line_end": 533,
+                    "indent": 0,
+                    "name": "_composite_filter"
+                }
+            }
+        }
+    },
+    "test/cluster_gaps_test.py": {
+        "focal_file": "bin/cluster_gaps.py",
+        "methods": {
+            "test_gap_width": {
+                "line": 7,
+                "line_end": 8,
+                "indent": 4,
+                "focal_class": "Gap",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "gap_width"
+                }
+            },
+            "test_read_width": {
+                "line": 10,
+                "line_end": 11,
+                "indent": 4,
+                "focal_class": "Gap",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "_read_width"
+                }
+            },
+            "test_original_read_name": {
+                "line": 13,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": "Gap",
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "_original_read_name"
+                }
+            },
+            "test_additional_sam_tags": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "Gap",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "additional_sam_tags"
+                }
+            },
+            "test_header": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "header"
+                }
+            },
+            "test_format": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "Gap",
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "format"
+                }
+            },
+            "test_write_gap_file": {
+                "line": 147,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": "GapUtility",
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "write_gap_file"
+                }
+            },
+            "test_write_sam_file": {
+                "line": 159,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": "GapUtility",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "write_sam_file"
+                }
+            }
+        }
+    },
+    "test/cluster_utility_test.py": {
+        "focal_file": "bin/cluster_utility.py",
+        "methods": {
+            "test_cluster_gaps_simpleCluster": {
+                "line": 6,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "DbscanClusterUtility",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_cluster_gaps"
+                }
+            },
+            "test_cluster_gaps_singletonCluster": {
+                "line": 24,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "DbscanClusterUtility",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_cluster_gaps"
+                }
+            },
+            "test_cluster_gaps_noClusters": {
+                "line": 33,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "DbscanClusterUtility",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_cluster_gaps"
+                }
+            },
+            "test_cluster_standardClusterA": {
+                "line": 43,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "DbscanClusterUtility",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_cluster_gaps"
+                }
+            },
+            "test_cluster_standardClusterB": {
+                "line": 61,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "DbscanClusterUtility",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_cluster_gaps"
+                }
+            },
+            "test_cluster_gaps_complexCluster": {
+                "line": 80,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": "DbscanClusterUtility",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_cluster_gaps"
+                }
+            }
+        }
+    },
+    "test/partition_file_test.py": {
+        "focal_file": "bin/partition_file.py",
+        "methods": {
+            "test_splitfile_identity": {
+                "line": 9,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "splitfile"
+                }
+            },
+            "test_splitfile_twoFiles": {
+                "line": 26,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "splitfile"
+                }
+            },
+            "test_splitfile_funkyRE": {
+                "line": 48,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "splitfile"
+                }
+            }
+        }
+    }
+}

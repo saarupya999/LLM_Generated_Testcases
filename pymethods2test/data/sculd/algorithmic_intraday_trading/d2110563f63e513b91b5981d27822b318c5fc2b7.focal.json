@@ -1,0 +1,226 @@
+{
+    "ingest/streaming/aggregation_test.py": {
+        "focal_file": "ingest/streaming/aggregation.py",
+        "methods": {
+            "test_bar_on_trade": {
+                "line": 7,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "on_trade"
+                }
+            },
+            "test_on_trade": {
+                "line": 31,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "Aggregation",
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "on_trade"
+                }
+            },
+            "test_on_bar_with_time": {
+                "line": 84,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": "Bar",
+                "focal_method": {
+                    "line": 316,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "on_bar_with_time"
+                }
+            },
+            "test_on_bar_with_time_by_second": {
+                "line": 127,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": "Bar",
+                "focal_method": {
+                    "line": 316,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "on_bar_with_time"
+                }
+            },
+            "test_minute_df": {
+                "line": 160,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": "Bar",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 371,
+                    "indent": 4,
+                    "name": "get_minute_df"
+                }
+            },
+            "test_get_quantity_list": {
+                "line": 208,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": "Aggregation",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "_get_quantity_list"
+                }
+            },
+            "test_get_minimal_quantity": {
+                "line": 225,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": "Aggregation",
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "get_minimal_quantity"
+                }
+            },
+            "test_get_cumulative_quantity": {
+                "line": 237,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": "Aggregation",
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "get_cumulative_quantity"
+                }
+            },
+            "test_get_value_lists": {
+                "line": 247,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": "Trade",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "_get_value_lists"
+                }
+            }
+        }
+    },
+    "strategy/factors/bar_with_times_factors/factor_test.py": {
+        "focal_file": "strategy/factors/bar_with_times_factors/factor.py",
+        "methods": {
+            "test_get_change": {
+                "line": 12,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "BarWithTimesFactor",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "get_change_list"
+                }
+            },
+            "test_get_change_list_overflow": {
+                "line": 30,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "BarWithTimesFactor",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "get_change_list"
+                }
+            },
+            "test_get_max_amplitude_change_trivial": {
+                "line": 41,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "BarWithTimesFactor",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "get_max_amplitude_change"
+                }
+            },
+            "test_get_max_amplitude_change_drop_jump": {
+                "line": 53,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "BarWithTimesFactor",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "get_max_amplitude_change"
+                }
+            },
+            "test_get_max_amplitude_change_jump_drop": {
+                "line": 65,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "BarWithTimesFactor",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "get_max_amplitude_change"
+                }
+            },
+            "test_get_max_amplitude_change_too_early_drop_jump": {
+                "line": 77,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "BarWithTimesFactor",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "get_max_amplitude_change"
+                }
+            }
+        }
+    },
+    "strategy/factors/bar_with_times_factors/sudden_move_test.py": {
+        "focal_file": "strategy/factors/bar_with_times_factors/sudden_move.py",
+        "methods": {
+            "test_get_market_signal": {
+                "line": 8,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "SuddenMoveParameter",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "get_market_signal"
+                }
+            }
+        }
+    },
+    "strategy/factors/orderbook_factors/average_trade_price_test.py": {
+        "focal_file": "strategy/factors/orderbook_factors/average_trade_price.py",
+        "methods": {
+            "test_get": {
+                "line": 8,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "AverageTradePriceParameter",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    }
+}

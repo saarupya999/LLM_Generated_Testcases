@@ -1,0 +1,391 @@
+{
+    "tests/_internal/test_detect_candidate_devices.py": {
+        "focal_file": "mbed_devices/_internal/detect_candidate_devices.py",
+        "methods": {
+            "test_returns_candidates_using_os_specific_detector": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "detect_candidate_devices"
+                }
+            }
+        }
+    },
+    "tests/_internal/test_htm_file.py": {
+        "focal_file": "mbed_devices/_internal/htm_file.py",
+        "methods": {
+            "test_reads_product_code_from_code_attribute": {
+                "line": 11,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "read_product_code"
+                }
+            },
+            "test_reads_product_code_from_auth_attribute": {
+                "line": 17,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "read_product_code"
+                }
+            },
+            "test_none_if_no_product_code": {
+                "line": 26,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "read_product_code"
+                }
+            },
+            "test_reads_online_id_from_url": {
+                "line": 31,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "OnlineId",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "read_online_id"
+                }
+            }
+        }
+    },
+    "tests/_internal/test_resolve_board.py": {
+        "focal_file": "mbed_devices/_internal/resolve_board.py",
+        "methods": {
+            "test_returns_resolved_board": {
+                "line": 60,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "resolve_board"
+                }
+            },
+            "test_returns_contents_of_all_htm_files_in_given_directories": {
+                "line": 114,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "_get_all_htm_files_contents"
+                }
+            },
+            "test_handles_unreadable_htm_file": {
+                "line": 131,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "_read_htm_file_contents"
+                }
+            },
+            "test_text_file": {
+                "line": 154,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 114,
+                    "indent": 0,
+                    "name": "_is_htm_file"
+                }
+            }
+        }
+    },
+    "tests/_internal/darwin/test_device_detector.py": {
+        "focal_file": "mbed_devices/_internal/darwin/device_detector.py",
+        "methods": {
+            "test_builds_candidate_using_assembled_data": {
+                "line": 43,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "_build_candidate"
+                }
+            },
+            "test_maps_storage_identifiers_to_mount_points": {
+                "line": 95,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "_get_mount_points"
+                }
+            },
+            "test_builds_ioreg_device_name_from_system_profiler_data": {
+                "line": 128,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "_build_ioreg_device_name"
+                }
+            }
+        }
+    },
+    "tests/_internal/darwin/test_diskutil.py": {
+        "focal_file": "mbed_devices/_internal/darwin/diskutil.py",
+        "methods": {
+            "test_returns_mountpoint_if_avaiable": {
+                "line": 83,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "get_mount_point"
+                }
+            },
+            "test_returns_none_if_no_mountpoint": {
+                "line": 89,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "get_mount_point"
+                }
+            }
+        }
+    },
+    "tests/_internal/darwin/test_system_profiler.py": {
+        "focal_file": "mbed_devices/_internal/darwin/system_profiler.py",
+        "methods": {
+            "test_identifies_nested_end_devices": {
+                "line": 53,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_end_usb_devices_data"
+                }
+            }
+        }
+    },
+    "tests/_internal/linux/test_linux_device_detector.py": {
+        "focal_file": "mbed_devices/_internal/linux/device_detector.py",
+        "methods": {
+            "test_builds_list_of_candidates": {
+                "line": 28,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "mbed_devices._internal.linux.device_detector.LinuxDeviceDetector",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "find_candidates"
+                }
+            },
+            "test_finds_fs_mountpoints_for_device_files": {
+                "line": 91,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "_find_fs_mounts_for_device"
+                }
+            }
+        }
+    },
+    "tests/_internal/mbed_tools/test_list_connected_devices.py": {
+        "focal_file": "mbed_devices/_internal/mbed_tools/list_connected_devices.py",
+        "methods": {
+            "test_sorts_devices_by_board_name": {
+                "line": 90,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "_sort_devices"
+                }
+            },
+            "test_sorts_devices_by_serial_number": {
+                "line": 105,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "_sort_devices"
+                }
+            }
+        }
+    },
+    "tests/_internal/windows/test_component_descriptor_utils.py": {
+        "focal_file": "mbed_devices/_internal/windows/component_descriptor_utils.py",
+        "methods": {
+            "test_is_value_undefined": {
+                "line": 25,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "is_undefined_value"
+                }
+            },
+            "test_is_data_object_undefined": {
+                "line": 29,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "is_undefined_data_object"
+                }
+            },
+            "test_to_dict": {
+                "line": 37,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "data_object_to_dict"
+                }
+            }
+        }
+    },
+    "tests/_internal/windows/test_system_data_loader.py": {
+        "focal_file": "mbed_devices/_internal/windows/system_data_loader.py",
+        "methods": {
+            "test_system_data_load": {
+                "line": 14,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_system_data"
+                }
+            }
+        }
+    },
+    "tests/_internal/windows/test_usb_hub_data_loader.py": {
+        "focal_file": "mbed_devices/_internal/windows/usb_hub_data_loader.py",
+        "methods": {
+            "test_get_usb_interfaces": {
+                "line": 205,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get_usb_devices"
+                }
+            }
+        }
+    },
+    "tests/_internal/windows/test_windows_component.py": {
+        "focal_file": "mbed_devices/_internal/windows/component_descriptor.py",
+        "methods": {
+            "test_set_values": {
+                "line": 47,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "set_data_values"
+                }
+            }
+        }
+    },
+    "tests/_internal/windows/test_windows_identifier.py": {
+        "focal_file": "mbed_devices/_internal/windows/windows_identifier.py",
+        "methods": {
+            "test_is_instance_id": {
+                "line": 20,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "is_device_instance_id"
+                }
+            },
+            "test_serial_number": {
+                "line": 91,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": "WindowsUID",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "contains_genuine_serial_number"
+                }
+            }
+        }
+    }
+}

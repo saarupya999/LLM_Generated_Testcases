@@ -1,0 +1,185 @@
+{
+    "tests/test_acl_backend.py": {
+        "focal_file": "course_access_groups/acl_backends.py",
+        "methods": {
+            "test_site_staff_have_access": {
+                "line": 69,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "user_has_access"
+                }
+            },
+            "test_superuser_have_access": {
+                "line": 77,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "user_has_access"
+                }
+            },
+            "test_org_admins_have_access": {
+                "line": 85,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "user_has_access"
+                }
+            }
+        }
+    },
+    "tests/test_feature_flag.py": {
+        "focal_file": "course_access_groups/feature_flag.py",
+        "methods": {
+            "test_is_feature_enabled": {
+                "line": 14,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "is_feature_enabled"
+                }
+            },
+            "test_is_feature_disabled_org_disabled": {
+                "line": 25,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "is_feature_enabled"
+                }
+            },
+            "test_is_feature_enabled_but_orgs_disabled": {
+                "line": 36,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "is_feature_enabled"
+                }
+            }
+        }
+    },
+    "tests/test_permissions.py": {
+        "focal_file": "course_access_groups/permissions.py",
+        "methods": {
+            "test_no_organization": {
+                "line": 43,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "get_current_organization"
+                }
+            },
+            "test_two_organizations": {
+                "line": 52,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "get_current_organization"
+                }
+            },
+            "test_single_organization": {
+                "line": 63,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "get_current_organization"
+                }
+            },
+            "test_none_user": {
+                "line": 163,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 145,
+                    "indent": 0,
+                    "name": "is_active_staff_or_superuser"
+                }
+            },
+            "test_active_user": {
+                "line": 172,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 145,
+                    "indent": 0,
+                    "name": "is_active_staff_or_superuser"
+                }
+            },
+            "test_inactive_user": {
+                "line": 182,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 145,
+                    "indent": 0,
+                    "name": "is_active_staff_or_superuser"
+                }
+            },
+            "test_courses_not_public_by_default": {
+                "line": 198,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "is_course_with_public_access"
+                }
+            },
+            "test_access_for_public_courses": {
+                "line": 201,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "is_course_with_public_access"
+                }
+            }
+        }
+    }
+}

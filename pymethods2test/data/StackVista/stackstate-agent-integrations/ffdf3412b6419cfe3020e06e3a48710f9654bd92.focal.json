@@ -1,0 +1,808 @@
+{
+    "aws_topology/tests/test_utils.py": {
+        "focal_file": "aws_topology/stackstate_checks/aws_topology/resources/utils.py",
+        "methods": {
+            "test_utils_partition_name": {
+                "line": 29,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_partition_name"
+                }
+            },
+            "test_utils_extract_dimension_name_no_match_returns_empty_string": {
+                "line": 38,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "extract_dimension_name"
+                }
+            },
+            "test_utils_replace_stage_variables": {
+                "line": 41,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "replace_stage_variables"
+                }
+            },
+            "test_utils_custom_list_data_comparator": {
+                "line": 45,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 165,
+                    "indent": 0,
+                    "name": "custom_list_data_comparator"
+                }
+            },
+            "test_utils_client_array_operation": {
+                "line": 51,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "client_array_operation"
+                }
+            },
+            "test_utils_transformation": {
+                "line": 67,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "transformation"
+                }
+            },
+            "test_utils_create_security_group_relations": {
+                "line": 137,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "create_security_group_relations"
+                }
+            },
+            "test_ignore_codes": {
+                "line": 109,
+                "line_end": 110,
+                "indent": 12,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 228,
+                    "indent": 0,
+                    "name": "set_required_access_v2"
+                }
+            }
+        }
+    },
+    "kubelet/tests/test_prometheus.py": {
+        "focal_file": "kubelet/stackstate_checks/kubelet/prometheus.py",
+        "methods": {
+            "test_is_container_metric": {
+                "line": 60,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "_is_container_metric"
+                }
+            },
+            "test_is_pod_metric": {
+                "line": 95,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "_is_pod_metric"
+                }
+            },
+            "test_get_container_label": {
+                "line": 117,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "_get_container_label"
+                }
+            },
+            "test_get_container_id": {
+                "line": 123,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "_get_container_id"
+                }
+            },
+            "test_get_entity_id_if_container_metric": {
+                "line": 130,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "_get_entity_id_if_container_metric"
+                }
+            },
+            "test_get_pod_uid": {
+                "line": 145,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "_get_pod_uid"
+                }
+            },
+            "test_is_pod_host_networked": {
+                "line": 151,
+                "line_end": 155,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 220,
+                    "indent": 4,
+                    "name": "_is_pod_host_networked"
+                }
+            },
+            "test_get_pod_by_metric_label": {
+                "line": 158,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "_get_pod_by_metric_label"
+                }
+            },
+            "test_get_kube_container_name": {
+                "line": 170,
+                "line_end": 186,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 244,
+                    "indent": 4,
+                    "name": "_get_kube_container_name"
+                }
+            }
+        }
+    },
+    "nagios/tests/test_nagios.py": {
+        "focal_file": "nagios/stackstate_checks/nagios/nagios.py",
+        "methods": {
+            "test_create_event": {
+                "line": 121,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 450,
+                    "line_end": 476,
+                    "indent": 0,
+                    "name": "create_event"
+                }
+            },
+            "test_get_topology": {
+                "line": 565,
+                "line_end": 593,
+                "indent": 4,
+                "focal_class": "NagiosCheck",
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "get_topology"
+                }
+            }
+        }
+    },
+    "stackstate_checks_dev/tests/test_docker.py": {
+        "focal_file": "stackstate_checks_dev/stackstate_checks/dev/docker.py",
+        "methods": {
+            "test_compose_file": {
+                "line": 34,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "compose_file_active"
+                }
+            }
+        }
+    },
+    "stackstate_checks_dev/tests/tooling/test_release.py": {
+        "focal_file": "stackstate_checks_dev/stackstate_checks/dev/tooling/release.py",
+        "methods": {
+            "test_get_package_name": {
+                "line": 13,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "get_package_name"
+                }
+            },
+            "test_get_folder_name": {
+                "line": 18,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "get_folder_name"
+                }
+            },
+            "test_get_agent_requirement_line": {
+                "line": 23,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "get_agent_requirement_line"
+                }
+            }
+        }
+    },
+    "vsphere/tests/test_vsphere.py": {
+        "focal_file": "vsphere/stackstate_checks/vsphere/vsphere.py",
+        "methods": {
+            "test_excluded_host_tags": {
+                "line": 62,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": "VSphereCheck",
+                "focal_method": {
+                    "line": 368,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "get_external_host_tags"
+                }
+            },
+            "test__is_excluded": {
+                "line": 116,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 633,
+                    "line_end": 666,
+                    "indent": 4,
+                    "name": "_is_excluded"
+                }
+            },
+            "test__get_all_objs": {
+                "line": 197,
+                "line_end": 265,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 521,
+                    "line_end": 630,
+                    "indent": 4,
+                    "name": "_get_all_objs"
+                }
+            },
+            "test__cache_morlist_raw": {
+                "line": 268,
+                "line_end": 335,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 668,
+                    "line_end": 705,
+                    "indent": 4,
+                    "name": "_cache_morlist_raw"
+                }
+            },
+            "test__collect_mors_and_attributes": {
+                "line": 338,
+                "line_end": 357,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 519,
+                    "indent": 4,
+                    "name": "_collect_mors_and_attributes"
+                }
+            },
+            "test__process_mor_objects_queue": {
+                "line": 386,
+                "line_end": 414,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 734,
+                    "line_end": 775,
+                    "indent": 4,
+                    "name": "_process_mor_objects_queue"
+                }
+            },
+            "test__cache_metrics_metadata": {
+                "line": 437,
+                "line_end": 443,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 777,
+                    "line_end": 818,
+                    "indent": 4,
+                    "name": "_cache_metrics_metadata"
+                }
+            },
+            "test__cache_metrics_metadata_compatibility": {
+                "line": 446,
+                "line_end": 473,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 777,
+                    "line_end": 818,
+                    "indent": 4,
+                    "name": "_cache_metrics_metadata"
+                }
+            },
+            "test_in_compatibility_mode": {
+                "line": 476,
+                "line_end": 495,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 828,
+                    "line_end": 845,
+                    "indent": 4,
+                    "name": "in_compatibility_mode"
+                }
+            },
+            "test_format_metric_name": {
+                "line": 498,
+                "line_end": 507,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 822,
+                    "line_end": 826,
+                    "indent": 4,
+                    "name": "format_metric_name"
+                }
+            },
+            "test_collect_metrics": {
+                "line": 510,
+                "line_end": 521,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 933,
+                    "line_end": 1013,
+                    "indent": 4,
+                    "name": "collect_metrics"
+                }
+            },
+            "test__collect_metrics_async_compatibility": {
+                "line": 524,
+                "line_end": 540,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 863,
+                    "line_end": 930,
+                    "indent": 4,
+                    "name": "_collect_metrics_async"
+                }
+            },
+            "test__collect_metrics_async_hostname": {
+                "line": 543,
+                "line_end": 558,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 863,
+                    "line_end": 930,
+                    "indent": 4,
+                    "name": "_collect_metrics_async"
+                }
+            },
+            "test__instance_key": {
+                "line": 604,
+                "line_end": 608,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "_instance_key"
+                }
+            },
+            "test__should_cache": {
+                "line": 611,
+                "line_end": 635,
+                "indent": 0,
+                "focal_class": "VSphereCheck",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "_should_cache"
+                }
+            },
+            "test_get_topology_items_vms_hosts": {
+                "line": 745,
+                "line_end": 799,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1035,
+                    "line_end": 1204,
+                    "indent": 4,
+                    "name": "get_topology_items"
+                }
+            },
+            "test_get_topology_items_ds_dc": {
+                "line": 802,
+                "line_end": 866,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1035,
+                    "line_end": 1204,
+                    "indent": 4,
+                    "name": "get_topology_items"
+                }
+            },
+            "test_get_topology_items_regex_vms": {
+                "line": 869,
+                "line_end": 900,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1035,
+                    "line_end": 1204,
+                    "indent": 4,
+                    "name": "get_topology_items"
+                }
+            }
+        }
+    },
+    "vsphere/tests/test_objects_queue.py": {
+        "focal_file": "vsphere/stackstate_checks/vsphere/objects_queue.py",
+        "methods": {
+            "test_objects_queue_fill": {
+                "line": 18,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "fill"
+                }
+            },
+            "test_objects_queue_contains": {
+                "line": 24,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            },
+            "test_objects_queue_size": {
+                "line": 30,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "size"
+                }
+            },
+            "test_objects_queue_pop": {
+                "line": 38,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "pop"
+                }
+            }
+        }
+    },
+    "vsphere/tests/test_mor_cache.py": {
+        "focal_file": "vsphere/stackstate_checks/vsphere/mor_cache.py",
+        "methods": {
+            "test_contains": {
+                "line": 18,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            },
+            "test_instance_size": {
+                "line": 24,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "instance_size"
+                }
+            },
+            "test_set_mor": {
+                "line": 33,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "set_mor"
+                }
+            },
+            "test_get_mor": {
+                "line": 48,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "get_mor"
+                }
+            },
+            "test_set_metrics": {
+                "line": 60,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "set_metrics"
+                }
+            },
+            "test_mors": {
+                "line": 73,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "mors"
+                }
+            },
+            "test_mors_batch_realtime": {
+                "line": 83,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "mors_batch"
+                }
+            },
+            "test_mors_batch_historical": {
+                "line": 113,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "mors_batch"
+                }
+            },
+            "test_purge": {
+                "line": 169,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "purge"
+                }
+            }
+        }
+    },
+    "vsphere/tests/test_metadata_cache.py": {
+        "focal_file": "vsphere/stackstate_checks/vsphere/metadata_cache.py",
+        "methods": {
+            "test_contains": {
+                "line": 14,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            },
+            "test_set_metadata": {
+                "line": 22,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "set_metadata"
+                }
+            },
+            "test_set_metrics": {
+                "line": 28,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "set_metric_ids"
+                }
+            },
+            "test_get_metadata": {
+                "line": 35,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "get_metadata"
+                }
+            },
+            "test_get_metrics": {
+                "line": 47,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "get_metric_ids"
+                }
+            }
+        }
+    },
+    "vsphere/tests/test_cache_config.py": {
+        "focal_file": "vsphere/stackstate_checks/vsphere/cache_config.py",
+        "methods": {
+            "test__check_type": {
+                "line": 17,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": "CacheConfig",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "_check_type"
+                }
+            },
+            "test_clear": {
+                "line": 25,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": "CacheConfig",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            },
+            "test_get_set_last": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": "CacheConfig",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "set_last"
+                }
+            },
+            "test_get_set_interval": {
+                "line": 39,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": "CacheConfig",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "set_interval"
+                }
+            }
+        }
+    }
+}

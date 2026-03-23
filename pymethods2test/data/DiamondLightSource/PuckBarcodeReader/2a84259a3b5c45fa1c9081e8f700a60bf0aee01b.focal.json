@@ -1,0 +1,352 @@
+{
+    "tests/unit_tests/test_dls_barcode/test_main_manager.py": {
+        "focal_file": "dls_barcode/main_manager.py",
+        "methods": {
+            "test_cleanup_calls_kill_when_camera_capture_is_alive": {
+                "line": 35,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "_camera_capture_alive"
+                }
+            },
+            "test_restart_live_capture_from_top_runs_the_camera_switch_method_once": {
+                "line": 44,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "_restart_live_capture_from_top"
+                }
+            },
+            "test_restart_live_capture_from_side_runs_the_camera_switch_method_once": {
+                "line": 48,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "_restart_live_capture_from_side"
+                }
+            },
+            "test_restart_live_capture_from_side_runs_reset_msg_timer": {
+                "line": 52,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "_restart_live_capture_from_side"
+                }
+            },
+            "test_reset_msg_timer": {
+                "line": 58,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "_reset_msg_timer"
+                }
+            },
+            "test_start_msg_timer_starts_timer": {
+                "line": 63,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "_start_msg_timer"
+                }
+            },
+            "test__has_msg_timer_timeout": {
+                "line": 73,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "_has_msg_timer_timeout"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_barcode/test_camera/test_capture_command.py": {
+        "focal_file": "dls_barcode/camera/capture_command.py",
+        "methods": {
+            "test_stop_command_has_no_camera_position": {
+                "line": 8,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": "CaptureCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "get_camera_position"
+                }
+            },
+            "test_stop_command_ignores_camera_position": {
+                "line": 19,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "CaptureCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "get_camera_position"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_barcode/test_camera/test_plate_overlay.py": {
+        "focal_file": "dls_barcode/camera/plate_overlay.py",
+        "methods": {
+            "test_expired_overlay_is_not_drawn_on_image": {
+                "line": 38,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "PlateOverlay",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "draw_on_image"
+                }
+            },
+            "test_not_expired_plate_is_drawn_on_image": {
+                "line": 51,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "PlateOverlay",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "draw_on_image"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_barcode/test_data_store/test_backup.py": {
+        "focal_file": "dls_barcode/data_store/backup.py",
+        "methods": {
+            "test_backup_records_to_csv_file": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "Backup",
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 11,
+                    "indent": 4,
+                    "name": "backup_records"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_barcode/test_data_store/test_record.py": {
+        "focal_file": "dls_barcode/data_store/record.py",
+        "methods": {
+            "test_record_can_be_constructed_from_plate_info": {
+                "line": 77,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "from_plate"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_barcode/test_data_store/test_store_loader.py": {
+        "focal_file": "dls_barcode/data_store/store_loader.py",
+        "methods": {
+            "test_load_record_skip_invalid_lines": {
+                "line": 22,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "StoreLoader",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "load_records_from_file"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_barcode/test_data_store/test_store_writer.py": {
+        "focal_file": "dls_barcode/data_store/store_writer.py",
+        "methods": {
+            "test_to_image_sets_image_path": {
+                "line": 102,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": "StoreWriter",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "get_img_path"
+                }
+            },
+            "test_get_image_returns_image_path": {
+                "line": 121,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "StoreWriter",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "get_img_path"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_barcode/test_geometry/test_unipuck_calculator.py": {
+        "focal_file": "dls_barcode/geometry/unipuck_calculator.py",
+        "methods": {
+            "test_perform_alignment_raises_error_when_too_many_slots_detected_to_perform_alignment": {
+                "line": 15,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "perform_alignment"
+                }
+            },
+            "test_perform_alignment_raises_error_when_not_enough_slots_detected_to_perform_alignment": {
+                "line": 22,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "perform_alignment"
+                }
+            },
+            "test_center_minimiser_returns_0_for_ideal_case": {
+                "line": 77,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "_center_minimiser"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_util/test_object_with_lifetime.py": {
+        "focal_file": "dls_util/object_with_lifetime.py",
+        "methods": {
+            "test_object_with_life_greater_than_lifetime_has_expired": {
+                "line": 17,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "ObjectWithLifetime",
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "has_expired"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dls_util/test_cv/test_circle_detector.py": {
+        "focal_file": "dls_util/cv/circle_detector.py",
+        "methods": {
+            "test_set_canny_thresh_sets_the_value_correctly": {
+                "line": 44,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": "CircleDetector",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "set_canny_threshold"
+                }
+            },
+            "test_set_accumulator_threshold_sets_the_value_correctly": {
+                "line": 49,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "CircleDetector",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "set_accumulator_threshold"
+                }
+            },
+            "test_set_minimum_separation_sets_the_value_correctly": {
+                "line": 59,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "CircleDetector",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "set_minimum_separation"
+                }
+            },
+            "test_set_minimum_radius_sets_the_value_correctly": {
+                "line": 64,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": "CircleDetector",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "set_minimum_radius"
+                }
+            },
+            "test_set_maximum_radius_sets_the_value_correctly": {
+                "line": 69,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "CircleDetector",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "set_maximum_radius"
+                }
+            }
+        }
+    }
+}

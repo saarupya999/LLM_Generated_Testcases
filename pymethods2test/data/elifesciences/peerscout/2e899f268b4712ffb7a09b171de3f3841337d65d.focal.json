@@ -1,0 +1,236 @@
+{
+    "tests/preprocessing/enrichData_test.py": {
+        "focal_file": "peerscout/preprocessing/enrichData.py",
+        "methods": {
+            "test_should_false_if_author_does_not_have_orcid": {
+                "line": 206,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "contains_author_with_orcid"
+                }
+            },
+            "test_should_import_one_by_orcid": {
+                "line": 329,
+                "line_end": 351,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "get_crossref_works_by_orcid_url"
+                }
+            },
+            "test_should_import_one_by_full_name": {
+                "line": 353,
+                "line_end": 377,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "get_crossref_works_by_full_name_url"
+                }
+            }
+        }
+    },
+    "tests/preprocessing/importDataToDatabase_test.py": {
+        "focal_file": "peerscout/preprocessing/importDataToDatabase.py",
+        "methods": {
+            "test_should_not_extract_keyword_from_note_with_different_note_type": {
+                "line": 295,
+                "line_end": 308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "extract_person_keywords_from_person_node"
+                }
+            },
+            "test_should_extract_multiple_keyword_from_single_note": {
+                "line": 310,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "extract_person_keywords_from_person_node"
+                }
+            }
+        }
+    },
+    "tests/server/services/RecommendReviewers_test.py": {
+        "focal_file": "peerscout/server/services/RecommendReviewers.py",
+        "methods": {
+            "test_should_include_manuscript_keywords_in_all_keywords": {
+                "line": 1107,
+                "line_end": 1113,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 564,
+                    "line_end": 565,
+                    "indent": 4,
+                    "name": "get_all_keywords"
+                }
+            },
+            "test_should_include_person_keywords_in_all_keywords": {
+                "line": 1115,
+                "line_end": 1121,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 564,
+                    "line_end": 565,
+                    "indent": 4,
+                    "name": "get_all_keywords"
+                }
+            },
+            "test_should_return_wether_user_has_role": {
+                "line": 1124,
+                "line_end": 1135,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 567,
+                    "line_end": 568,
+                    "indent": 4,
+                    "name": "user_has_role_by_email"
+                }
+            }
+        }
+    },
+    "tests/server/services/manuscript_person_relationship_service_test.py": {
+        "focal_file": "peerscout/server/services/manuscript_person_relationship_service.py",
+        "methods": {
+            "test_should_return_person_ids_for_individual_relationship_types": {
+                "line": 99,
+                "line_end": 116,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "get_version_ids_by_person_id_and_relationship_type"
+                }
+            },
+            "test_should_return_person_ids_for_all_relationship_types": {
+                "line": 65,
+                "line_end": 83,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "get_person_ids_by_version_id_for_relationship_types"
+                }
+            }
+        }
+    },
+    "tests/server/services/manuscript_subject_areas_test.py": {
+        "focal_file": "peerscout/server/services/manuscript_subject_areas.py",
+        "methods": {
+            "test_should_return_single_subject_area_of_matching_id": {
+                "line": 98,
+                "line_end": 110,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "get_subject_areas_by_id"
+                }
+            },
+            "test_should_return_multiple_subject_areas_of_matching_id": {
+                "line": 112,
+                "line_end": 125,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "get_subject_areas_by_id"
+                }
+            }
+        }
+    },
+    "tests/server/services/person_roles_test.py": {
+        "focal_file": "peerscout/server/services/person_roles.py",
+        "methods": {
+            "test_should_not_filter_if_role_is_none": {
+                "line": 33,
+                "line_end": 39,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "filter_person_ids_by_role"
+                }
+            },
+            "test_should_include_person_with_specified_role": {
+                "line": 41,
+                "line_end": 50,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "filter_person_ids_by_role"
+                }
+            },
+            "test_should_not_include_person_with_other_role": {
+                "line": 63,
+                "line_end": 72,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "filter_person_ids_by_role"
+                }
+            },
+            "test_should_include_person_with_multiple_roles": {
+                "line": 74,
+                "line_end": 86,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "filter_person_ids_by_role"
+                }
+            },
+            "test_should_return_whether_user_has_role": {
+                "line": 100,
+                "line_end": 111,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "user_has_role_by_email"
+                }
+            }
+        }
+    }
+}

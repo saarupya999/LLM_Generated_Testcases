@@ -1,0 +1,144 @@
+{
+    "tests/test_batch_executor.py": {
+        "focal_file": "airflow_aws_executors/batch_executor.py",
+        "methods": {
+            "test_running_jobs": {
+                "line": 55,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "BatchJob",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_job_state"
+                }
+            },
+            "test_success_jobs": {
+                "line": 62,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": "BatchJob",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_job_state"
+                }
+            },
+            "test_sync": {
+                "line": 109,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "BatchJobDetailSchema",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "sync"
+                }
+            },
+            "test_failed_sync": {
+                "line": 131,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": "BatchJobDetailSchema",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "sync"
+                }
+            },
+            "test_terminate": {
+                "line": 150,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": "BatchJobDetailSchema",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "terminate"
+                }
+            },
+            "test_end": {
+                "line": 161,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 182,
+                    "indent": 4,
+                    "name": "end"
+                }
+            }
+        }
+    },
+    "tests/test_ecs_fargate_executor.py": {
+        "focal_file": "airflow_aws_executors/ecs_fargate_executor.py",
+        "methods": {
+            "test_running_tasks": {
+                "line": 108,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": "EcsFargateTask",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_task_state"
+                }
+            },
+            "test_removed_tasks": {
+                "line": 118,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "EcsFargateTask",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_task_state"
+                }
+            },
+            "test_failed_sync": {
+                "line": 230,
+                "line_end": 247,
+                "indent": 4,
+                "focal_class": "BotoTaskSchema",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "sync"
+                }
+            },
+            "test_terminate": {
+                "line": 283,
+                "line_end": 292,
+                "indent": 4,
+                "focal_class": "BotoTaskSchema",
+                "focal_method": {
+                    "line": 267,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "terminate"
+                }
+            },
+            "test_end": {
+                "line": 297,
+                "line_end": 313,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "end"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1465 @@
+{
+    "tests/test_train.py": {
+        "focal_file": "rasa/train.py",
+        "methods": {
+            "test_package_model": {
+                "line": 25,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 441,
+                    "line_end": 459,
+                    "indent": 0,
+                    "name": "_package_model"
+                }
+            },
+            "test_get_valid_config": {
+                "line": 67,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 438,
+                    "indent": 0,
+                    "name": "_get_valid_config"
+                }
+            }
+        }
+    },
+    "tests/test_skill.py": {
+        "focal_file": "rasa/skill.py",
+        "methods": {
+            "test_in_imports": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": "SkillSelector",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "is_imported"
+                }
+            },
+            "test_not_in_imports": {
+                "line": 100,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": "SkillSelector",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "is_imported"
+                }
+            },
+            "test_merge": {
+                "line": 106,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "SkillSelector",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            },
+            "test_training_paths": {
+                "line": 114,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": "SkillSelector",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "training_paths"
+                }
+            }
+        }
+    },
+    "tests/core/test_channels.py": {
+        "focal_file": "rasa/core/channels/channel.py",
+        "methods": {
+            "test_send_response": {
+                "line": 31,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "send_response"
+                }
+            },
+            "test_slackbot_send_attachment_only": {
+                "line": 651,
+                "line_end": 705,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "send_attachment"
+                }
+            },
+            "test_slackbot_send_attachment_withtext": {
+                "line": 709,
+                "line_end": 765,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "send_attachment"
+                }
+            },
+            "test_slackbot_send_image_url": {
+                "line": 769,
+                "line_end": 793,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "send_image_url"
+                }
+            },
+            "test_slackbot_send_text": {
+                "line": 797,
+                "line_end": 819,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "send_text_message"
+                }
+            },
+            "test_send_elements_without_buttons": {
+                "line": 864,
+                "line_end": 873,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 263,
+                    "indent": 4,
+                    "name": "send_elements"
+                }
+            }
+        }
+    },
+    "tests/core/test_policies.py": {
+        "focal_file": "rasa/core/policies/keras_policy.py",
+        "methods": {
+            "test_persist_and_load": {
+                "line": 113,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 333,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    },
+    "tests/core/test_nlg.py": {
+        "focal_file": "rasa/core/nlg/template.py",
+        "methods": {
+            "test_nlg_fill_template_text": {
+                "line": 106,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": "TemplatedNaturalLanguageGenerator",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_fill_template_text"
+                }
+            },
+            "test_nlg_fill_template_text_w_bad_slot_name2": {
+                "line": 116,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": "TemplatedNaturalLanguageGenerator",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_fill_template_text"
+                }
+            }
+        }
+    },
+    "tests/core/test_actions.py": {
+        "focal_file": "rasa/core/actions/action.py",
+        "methods": {
+            "test_action_instantiation_from_names": {
+                "line": 67,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "actions_from_names"
+                }
+            },
+            "test_remote_action_runs": {
+                "line": 116,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": "rasa.core.actions.action.RemoteAction",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_remote_action_logs_events": {
+                "line": 157,
+                "line_end": 205,
+                "indent": 0,
+                "focal_class": "rasa.core.actions.action.RemoteAction",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_remote_action_without_endpoint": {
+                "line": 208,
+                "line_end": 217,
+                "indent": 0,
+                "focal_class": "rasa.core.actions.action.RemoteAction",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_remote_action_endpoint_not_running": {
+                "line": 220,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": "rasa.core.actions.action.RemoteAction",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_remote_action_endpoint_responds_500": {
+                "line": 233,
+                "line_end": 246,
+                "indent": 0,
+                "focal_class": "rasa.core.actions.action.RemoteAction",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_remote_action_endpoint_responds_400": {
+                "line": 249,
+                "line_end": 268,
+                "indent": 0,
+                "focal_class": "rasa.core.actions.action.RemoteAction",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_action_utter_template_unknown_template": {
+                "line": 281,
+                "line_end": 288,
+                "indent": 0,
+                "focal_class": "ActionUtterTemplate",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_action_utter_template_with_buttons": {
+                "line": 291,
+                "line_end": 308,
+                "indent": 0,
+                "focal_class": "ActionUtterTemplate",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_action_utter_template_invalid_template": {
+                "line": 311,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": "ActionUtterTemplate",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_action_utter_template_channel_specific": {
+                "line": 323,
+                "line_end": 336,
+                "indent": 0,
+                "focal_class": "ActionUtterTemplate",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/core/test_interpreter.py": {
+        "focal_file": "rasa/core/interpreter.py",
+        "methods": {
+            "test_regex_interpreter_intent": {
+                "line": 18,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_regex_interpreter_entities": {
+                "line": 34,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_regex_interpreter_confidence": {
+                "line": 52,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_regex_interpreter_confidence_and_entities": {
+                "line": 68,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_regex_interpreter_adds_intent_prefix": {
+                "line": 86,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "tests/core/test_slots.py": {
+        "focal_file": "rasa/core/slots.py",
+        "methods": {
+            "test_featurization": {
+                "line": 25,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "as_feature"
+                }
+            }
+        }
+    },
+    "tests/core/test_data.py": {
+        "focal_file": "rasa/data.py",
+        "methods": {
+            "test_get_core_directory": {
+                "line": 13,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "get_core_directory"
+                }
+            },
+            "test_get_nlu_directory": {
+                "line": 22,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_nlu_directory"
+                }
+            },
+            "test_get_nlu_file": {
+                "line": 32,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_nlu_directory"
+                }
+            },
+            "test_get_core_nlu_files": {
+                "line": 45,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_core_nlu_files"
+                }
+            },
+            "test_get_core_nlu_directories": {
+                "line": 56,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "get_core_nlu_directories"
+                }
+            },
+            "test_get_core_nlu_directories_with_none": {
+                "line": 71,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "get_core_nlu_directories"
+                }
+            },
+            "test_contains_nlu_pattern": {
+                "line": 116,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 169,
+                    "indent": 0,
+                    "name": "_contains_nlu_pattern"
+                }
+            },
+            "test_is_nlu_file_with_json": {
+                "line": 120,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 163,
+                    "indent": 0,
+                    "name": "_is_nlu_file"
+                }
+            },
+            "test_is_not_nlu_file_with_json": {
+                "line": 137,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 163,
+                    "indent": 0,
+                    "name": "_is_nlu_file"
+                }
+            },
+            "test_not_contains_nlu_pattern": {
+                "line": 147,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 169,
+                    "indent": 0,
+                    "name": "_contains_nlu_pattern"
+                }
+            }
+        }
+    },
+    "tests/core/test_agent.py": {
+        "focal_file": "rasa/core/agent.py",
+        "methods": {
+            "test_agent_train": {
+                "line": 59,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": "Agent",
+                "focal_method": {
+                    "line": 619,
+                    "line_end": 669,
+                    "indent": 4,
+                    "name": "train"
+                }
+            },
+            "test_agent_handle_text": {
+                "line": 85,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 486,
+                    "line_end": 519,
+                    "indent": 4,
+                    "name": "handle_text"
+                }
+            },
+            "test_agent_handle_message": {
+                "line": 93,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "handle_message"
+                }
+            },
+            "test_agent_wrong_use_of_load": {
+                "line": 102,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "Agent",
+                "focal_method": {
+                    "line": 336,
+                    "line_end": 386,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_load_agent": {
+                "line": 157,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "load_agent"
+                }
+            }
+        }
+    },
+    "tests/core/test_domain.py": {
+        "focal_file": "rasa/core/domain.py",
+        "methods": {
+            "test_validate_on_invalid_domain": {
+                "line": 137,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 310,
+                    "line_end": 340,
+                    "indent": 4,
+                    "name": "validate_domain_yaml"
+                }
+            },
+            "test_domain_to_yaml": {
+                "line": 205,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 766,
+                    "line_end": 768,
+                    "indent": 4,
+                    "name": "as_yaml"
+                }
+            },
+            "test_collect_intent_properties": {
+                "line": 304,
+                "line_end": 305,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 356,
+                    "line_end": 367,
+                    "indent": 4,
+                    "name": "collect_intent_properties"
+                }
+            }
+        }
+    },
+    "tests/core/test_trackers.py": {
+        "focal_file": "rasa/core/trackers.py",
+        "methods": {
+            "test_tracker_write_to_story": {
+                "line": 118,
+                "line_end": 135,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 421,
+                    "line_end": 425,
+                    "indent": 4,
+                    "name": "export_stories_to_file"
+                }
+            },
+            "test_tracker_entity_retrieval": {
+                "line": 186,
+                "line_end": 209,
+                "indent": 0,
+                "focal_class": "DialogueStateTracker",
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "get_latest_entity_values"
+                }
+            },
+            "test_tracker_update_slots_with_entity": {
+                "line": 212,
+                "line_end": 236,
+                "indent": 0,
+                "focal_class": "DialogueStateTracker",
+                "focal_method": {
+                    "line": 399,
+                    "line_end": 410,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_traveling_back_in_time": {
+                "line": 351,
+                "line_end": 383,
+                "indent": 0,
+                "focal_class": "DialogueStateTracker",
+                "focal_method": {
+                    "line": 374,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "travel_back_in_time"
+                }
+            },
+            "test_current_state_after_restart": {
+                "line": 420,
+                "line_end": 435,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "current_state"
+                }
+            },
+            "test_current_state_all_events": {
+                "line": 438,
+                "line_end": 453,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "current_state"
+                }
+            },
+            "test_current_state_no_events": {
+                "line": 456,
+                "line_end": 467,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "current_state"
+                }
+            },
+            "test_current_state_applied_events": {
+                "line": 470,
+                "line_end": 489,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "current_state"
+                }
+            },
+            "test_tracker_dump_e2e_story": {
+                "line": 492,
+                "line_end": 505,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 419,
+                    "indent": 4,
+                    "name": "export_stories"
+                }
+            },
+            "test_get_last_event_for": {
+                "line": 508,
+                "line_end": 513,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 458,
+                    "indent": 4,
+                    "name": "get_last_event_for"
+                }
+            },
+            "test_get_last_event_with_reverted": {
+                "line": 516,
+                "line_end": 521,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 458,
+                    "indent": 4,
+                    "name": "get_last_event_for"
+                }
+            },
+            "test_get_last_event_for_with_skip": {
+                "line": 524,
+                "line_end": 529,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 458,
+                    "indent": 4,
+                    "name": "get_last_event_for"
+                }
+            },
+            "test_get_last_event_for_with_exclude": {
+                "line": 532,
+                "line_end": 542,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 458,
+                    "indent": 4,
+                    "name": "get_last_event_for"
+                }
+            },
+            "test_last_executed_has": {
+                "line": 545,
+                "line_end": 554,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 474,
+                    "indent": 4,
+                    "name": "last_executed_action_has"
+                }
+            },
+            "test_last_executed_has_not_name": {
+                "line": 557,
+                "line_end": 566,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 474,
+                    "indent": 4,
+                    "name": "last_executed_action_has"
+                }
+            }
+        }
+    },
+    "tests/core/test_utils.py": {
+        "focal_file": "rasa/core/utils.py",
+        "methods": {
+            "test_is_int": {
+                "line": 15,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "is_int"
+                }
+            },
+            "test_subsample_array_read_only": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "subsample_array"
+                }
+            },
+            "test_subsample_array": {
+                "line": 31,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "subsample_array"
+                }
+            },
+            "test_cap_length": {
+                "line": 51,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 330,
+                    "line_end": 341,
+                    "indent": 0,
+                    "name": "cap_length"
+                }
+            },
+            "test_pad_list_to_size": {
+                "line": 63,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 462,
+                    "indent": 0,
+                    "name": "pad_list_to_size"
+                }
+            },
+            "test_read_lines": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 400,
+                    "line_end": 414,
+                    "indent": 0,
+                    "name": "read_lines"
+                }
+            }
+        }
+    },
+    "tests/core/test_interactive.py": {
+        "focal_file": "rasa/core/training/interactive.py",
+        "methods": {
+            "test_send_message": {
+                "line": 19,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "send_message"
+                }
+            },
+            "test_request_prediction": {
+                "line": 37,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "request_prediction"
+                }
+            },
+            "test_latest_user_message": {
+                "line": 104,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "latest_user_message"
+                }
+            },
+            "test_latest_user_message_on_no_events": {
+                "line": 115,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "latest_user_message"
+                }
+            },
+            "test_all_events_before_user_msg": {
+                "line": 121,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "all_events_before_latest_user_msg"
+                }
+            },
+            "test_all_events_before_user_msg_on_no_events": {
+                "line": 132,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "all_events_before_latest_user_msg"
+                }
+            },
+            "test_print_history": {
+                "line": 136,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 453,
+                    "indent": 0,
+                    "name": "_print_history"
+                }
+            },
+            "test_is_listening_for_messages": {
+                "line": 152,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1218,
+                    "line_end": 1228,
+                    "indent": 0,
+                    "name": "is_listening_for_message"
+                }
+            },
+            "test_splitting_conversation_at_restarts": {
+                "line": 170,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 685,
+                    "line_end": 705,
+                    "indent": 0,
+                    "name": "_split_conversation_at_restarts"
+                }
+            },
+            "test_as_md_message": {
+                "line": 184,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1071,
+                    "line_end": 1081,
+                    "indent": 0,
+                    "name": "_as_md_message"
+                }
+            },
+            "test_validate_user_message": {
+                "line": 232,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1084,
+                    "line_end": 1096,
+                    "indent": 0,
+                    "name": "_validate_user_regex"
+                }
+            },
+            "test_interactive_domain_persistence": {
+                "line": 296,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 827,
+                    "line_end": 859,
+                    "indent": 0,
+                    "name": "_write_domain_to_file"
+                }
+            }
+        }
+    },
+    "tests/core/test_model.py": {
+        "focal_file": "rasa/model.py",
+        "methods": {
+            "test_get_latest_model": {
+                "line": 36,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "get_latest_model"
+                }
+            },
+            "test_get_model_from_directory_with_subdirectories": {
+                "line": 54,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 169,
+                    "indent": 0,
+                    "name": "get_model_subdirectories"
+                }
+            },
+            "test_persist_and_load_fingerprint": {
+                "line": 85,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 310,
+                    "line_end": 321,
+                    "indent": 0,
+                    "name": "persist_fingerprint"
+                }
+            },
+            "test_core_fingerprint_changed": {
+                "line": 108,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 349,
+                    "indent": 0,
+                    "name": "core_fingerprint_changed"
+                }
+            },
+            "test_nlu_fingerprint_changed": {
+                "line": 122,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 352,
+                    "line_end": 377,
+                    "indent": 0,
+                    "name": "nlu_fingerprint_changed"
+                }
+            },
+            "test_create_fingerprint_from_paths": {
+                "line": 151,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "model_fingerprint"
+                }
+            },
+            "test_should_retrain": {
+                "line": 249,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 399,
+                    "line_end": 430,
+                    "indent": 0,
+                    "name": "should_retrain"
+                }
+            }
+        }
+    },
+    "tests/nlu/base/test_evaluation.py": {
+        "focal_file": "rasa/nlu/test.py",
+        "methods": {
+            "test_token_entity_intersection": {
+                "line": 140,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 417,
+                    "indent": 0,
+                    "name": "determine_intersection"
+                }
+            },
+            "test_token_entity_boundaries": {
+                "line": 154,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 405,
+                    "line_end": 409,
+                    "indent": 0,
+                    "name": "does_token_cross_borders"
+                }
+            },
+            "test_entity_overlap": {
+                "line": 172,
+                "line_end": 174,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 420,
+                    "line_end": 438,
+                    "indent": 0,
+                    "name": "do_entities_overlap"
+                }
+            },
+            "test_determine_token_labels_throws_error": {
+                "line": 177,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 478,
+                    "line_end": 494,
+                    "indent": 0,
+                    "name": "determine_token_labels"
+                }
+            },
+            "test_determine_token_labels_no_extractors": {
+                "line": 186,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 478,
+                    "line_end": 494,
+                    "indent": 0,
+                    "name": "determine_token_labels"
+                }
+            },
+            "test_determine_token_labels_no_extractors_no_overlap": {
+                "line": 193,
+                "line_end": 194,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 478,
+                    "line_end": 494,
+                    "indent": 0,
+                    "name": "determine_token_labels"
+                }
+            },
+            "test_determine_token_labels_with_extractors": {
+                "line": 197,
+                "line_end": 202,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 478,
+                    "line_end": 494,
+                    "indent": 0,
+                    "name": "determine_token_labels"
+                }
+            },
+            "test_drop_intents_below_freq": {
+                "line": 224,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "drop_intents_below_freq"
+                }
+            },
+            "test_run_evaluation": {
+                "line": 233,
+                "line_end": 239,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 626,
+                    "line_end": 676,
+                    "indent": 0,
+                    "name": "run_evaluation"
+                }
+            },
+            "test_empty_intent_removal": {
+                "line": 342,
+                "line_end": 353,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "remove_empty_intent_examples"
+                }
+            },
+            "test_get_entity_extractors": {
+                "line": 418,
+                "line_end": 422,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 594,
+                    "line_end": 600,
+                    "indent": 0,
+                    "name": "get_entity_extractors"
+                }
+            },
+            "test_remove_pretrained_extractors": {
+                "line": 425,
+                "line_end": 429,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 619,
+                    "line_end": 623,
+                    "indent": 0,
+                    "name": "remove_pretrained_extractors"
+                }
+            }
+        }
+    },
+    "tests/nlu/base/test_config.py": {
+        "focal_file": "rasa/nlu/config.py",
+        "methods": {
+            "test_default_config": {
+                "line": 15,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "as_dict"
+                }
+            },
+            "test_set_attr_on_component": {
+                "line": 57,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "set_component_attr"
+                }
+            }
+        }
+    },
+    "tests/nlu/base/test_components.py": {
+        "focal_file": "rasa/nlu/components.py",
+        "methods": {
+            "test_find_unavailable_packages": {
+                "line": 50,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "find_unavailable_packages"
+                }
+            },
+            "test_builder_create_unknown": {
+                "line": 57,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 466,
+                    "indent": 4,
+                    "name": "create_component"
+                }
+            },
+            "test_builder_create_by_module_path": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 466,
+                    "indent": 4,
+                    "name": "create_component"
+                }
+            },
+            "test_builder_load_unknown": {
+                "line": 73,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 444,
+                    "indent": 4,
+                    "name": "load_component"
+                }
+            }
+        }
+    },
+    "tests/cli/test_utils.py": {
+        "focal_file": "rasa/cli/utils.py",
+        "methods": {
+            "test_parse_last_positional_argument_as_model_path": {
+                "line": 20,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "parse_last_positional_argument_as_model_path"
+                }
+            },
+            "test_parse_no_positional_model_path_argument": {
+                "line": 39,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "parse_last_positional_argument_as_model_path"
+                }
+            },
+            "test_validate_invalid_path": {
+                "line": 47,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_validated_path"
+                }
+            },
+            "test_validate_valid_path": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_validated_path"
+                }
+            },
+            "test_validate_if_none_is_valid": {
+                "line": 58,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_validated_path"
+                }
+            },
+            "test_validate_if_default_is_valid": {
+                "line": 62,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_validated_path"
+                }
+            }
+        }
+    }
+}

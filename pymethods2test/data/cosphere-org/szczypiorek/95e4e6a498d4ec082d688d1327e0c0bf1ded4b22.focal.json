@@ -1,0 +1,279 @@
+{
+    "tests/test_crypto.py": {
+        "focal_file": "szczypiorek/crypto.py",
+        "methods": {
+            "test_encrypt__encryption_key_exists__success": {
+                "line": 88,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 204,
+                    "indent": 0,
+                    "name": "create_encryption_key_if_not_exist"
+                }
+            },
+            "test_get_encryption_key__all_good__success": {
+                "line": 178,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__custom_file__success": {
+                "line": 190,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__file_does_not_exist__error": {
+                "line": 203,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__env_var__not_base64__error": {
+                "line": 218,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__file__not_base64__error": {
+                "line": 236,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__not_json__error": {
+                "line": 256,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__missing_json_fields__error": {
+                "line": 276,
+                "line_end": 294,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__file_not_gitignored__error": {
+                "line": 296,
+                "line_end": 316,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_get_encryption_key__to_short__error": {
+                "line": 318,
+                "line_end": 342,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "get_encryption_key"
+                }
+            },
+            "test_create_encryption_key_if_not_exist__exists__success": {
+                "line": 347,
+                "line_end": 356,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 204,
+                    "indent": 0,
+                    "name": "create_encryption_key_if_not_exist"
+                }
+            },
+            "test_create_encryption_key_if_not_exist__does_not_exist__success": {
+                "line": 358,
+                "line_end": 365,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 204,
+                    "indent": 0,
+                    "name": "create_encryption_key_if_not_exist"
+                }
+            }
+        }
+    },
+    "tests/test_fields.py": {
+        "focal_file": "szczypiorek/fields.py",
+        "methods": {
+            "test_to_python": {
+                "line": 195,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": "URLField",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "to_python"
+                }
+            }
+        }
+    },
+    "tests/test_git.py": {
+        "focal_file": "szczypiorek/git.py",
+        "methods": {
+            "test_assert_is_git_ignored__is_ignored": {
+                "line": 15,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "assert_is_git_ignored"
+                }
+            },
+            "test_assert_is_git_ignored__is_ignored__no_file": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "assert_is_git_ignored"
+                }
+            },
+            "test_assert_is_git_ignored__is_not_ignored": {
+                "line": 30,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "assert_is_git_ignored"
+                }
+            },
+            "test_assert_is_git_repository__is_repository": {
+                "line": 51,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "assert_is_git_repository"
+                }
+            },
+            "test_assert_is_git_repository__is_not_repository": {
+                "line": 57,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "assert_is_git_repository"
+                }
+            }
+        }
+    },
+    "tests/test_parser.py": {
+        "focal_file": "szczypiorek/parser.py",
+        "methods": {
+            "test_parse": {
+                "line": 47,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "szczypiorek/utils.py",
+        "methods": {
+            "test_dump_yaml__is_valid": {
+                "line": 30,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "dump_yaml"
+                }
+            },
+            "test_load_yaml__is_valid": {
+                "line": 44,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "load_yaml"
+                }
+            }
+        }
+    }
+}

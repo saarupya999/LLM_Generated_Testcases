@@ -1,0 +1,1529 @@
+{
+    "tests/client_test.py": {
+        "focal_file": "esrally/client.py",
+        "methods": {
+            "test_propagates_nested_context": {
+                "line": 293,
+                "line_end": 309,
+                "indent": 4,
+                "focal_class": "esrally.client.RequestContextHolder",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "new_request_context"
+                }
+            },
+            "test_successfully_waits_for_rest_layer": {
+                "line": 314,
+                "line_end": 324,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 307,
+                    "indent": 0,
+                    "name": "wait_for_rest_layer"
+                }
+            }
+        }
+    },
+    "tests/config_test.py": {
+        "focal_file": "esrally/config.py",
+        "methods": {
+            "test_load_existing_config": {
+                "line": 87,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "esrally.config.Config",
+                "focal_method": {
+                    "line": 220,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "load_config"
+                }
+            },
+            "test_add_all_in_section": {
+                "line": 138,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": "esrally.config.Config",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "add_all"
+                }
+            },
+            "test_can_migrate_outdated_config": {
+                "line": 211,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": "esrally.config.Config",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "auto_load_local_config"
+                }
+            }
+        }
+    },
+    "tests/metrics_test.py": {
+        "focal_file": "esrally/metrics.py",
+        "methods": {
+            "test_extracts_proper_user_tags": {
+                "line": 131,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 317,
+                    "indent": 0,
+                    "name": "extract_user_tags_from_config"
+                }
+            },
+            "test_get_one": {
+                "line": 1338,
+                "line_end": 1362,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 705,
+                    "line_end": 719,
+                    "indent": 4,
+                    "name": "get_one"
+                }
+            },
+            "test_get_mean": {
+                "line": 1436,
+                "line_end": 1454,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 821,
+                    "line_end": 832,
+                    "indent": 4,
+                    "name": "get_mean"
+                }
+            },
+            "test_get_median": {
+                "line": 1456,
+                "line_end": 1474,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 807,
+                    "line_end": 819,
+                    "indent": 4,
+                    "name": "get_median"
+                }
+            },
+            "test_find_existing_race_by_race_id": {
+                "line": 905,
+                "line_end": 932,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1515,
+                    "line_end": 1516,
+                    "indent": 4,
+                    "name": "find_by_race_id"
+                }
+            },
+            "test_does_not_find_missing_race_by_race_id": {
+                "line": 934,
+                "line_end": 946,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1515,
+                    "line_end": 1516,
+                    "indent": 4,
+                    "name": "find_by_race_id"
+                }
+            },
+            "test_store_race": {
+                "line": 1629,
+                "line_end": 1682,
+                "indent": 4,
+                "focal_class": "esrally.metrics.Race",
+                "focal_method": {
+                    "line": 1521,
+                    "line_end": 1522,
+                    "indent": 4,
+                    "name": "store_race"
+                }
+            },
+            "test_store_results": {
+                "line": 1049,
+                "line_end": 1187,
+                "indent": 4,
+                "focal_class": "esrally.metrics.Race",
+                "focal_method": {
+                    "line": 1696,
+                    "line_end": 1699,
+                    "indent": 4,
+                    "name": "store_results"
+                }
+            },
+            "test_externalize_and_bulk_add": {
+                "line": 1484,
+                "line_end": 1506,
+                "indent": 4,
+                "focal_class": "esrally.metrics.InMemoryMetricsStore",
+                "focal_method": {
+                    "line": 683,
+                    "line_end": 692,
+                    "indent": 4,
+                    "name": "bulk_add"
+                }
+            },
+            "test_get_error_rate_by_sample_type": {
+                "line": 1544,
+                "line_end": 1567,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 777,
+                    "indent": 4,
+                    "name": "get_error_rate"
+                }
+            },
+            "test_get_error_rate_mixed": {
+                "line": 1569,
+                "line_end": 1601,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 777,
+                    "indent": 4,
+                    "name": "get_error_rate"
+                }
+            },
+            "test_calculate_global_stats": {
+                "line": 1686,
+                "line_end": 1817,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 274,
+                    "indent": 0,
+                    "name": "calculate_results"
+                }
+            },
+            "test_calculate_system_stats": {
+                "line": 1819,
+                "line_end": 1857,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 279,
+                    "indent": 0,
+                    "name": "calculate_system_results"
+                }
+            },
+            "test_as_flat_list": {
+                "line": 2286,
+                "line_end": 2329,
+                "indent": 4,
+                "focal_class": "esrally.metrics.SystemStats",
+                "focal_method": {
+                    "line": 1969,
+                    "line_end": 2015,
+                    "indent": 4,
+                    "name": "as_flat_list"
+                }
+            }
+        }
+    },
+    "tests/racecontrol_test.py": {
+        "focal_file": "esrally/racecontrol.py",
+        "methods": {
+            "test_finds_available_pipelines": {
+                "line": 52,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 330,
+                    "indent": 0,
+                    "name": "available_pipelines"
+                }
+            }
+        }
+    },
+    "tests/reporter_test.py": {
+        "focal_file": "esrally/reporter.py",
+        "methods": {
+            "test_formats_as_markdown": {
+                "line": 36,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "format_as_markdown"
+                }
+            },
+            "test_formats_as_csv": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 88,
+                    "indent": 0,
+                    "name": "format_as_csv"
+                }
+            }
+        }
+    },
+    "tests/telemetry_test.py": {
+        "focal_file": "esrally/telemetry.py",
+        "methods": {
+            "test_store_calculated_metrics": {
+                "line": 89,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": "esrally.telemetry.StartupTime",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "store_system_metrics"
+                }
+            },
+            "test_flatten_indices_fields": {
+                "line": 2056,
+                "line_end": 2066,
+                "indent": 4,
+                "focal_class": "esrally.telemetry.NodeStatsRecorder",
+                "focal_method": {
+                    "line": 830,
+                    "line_end": 853,
+                    "indent": 4,
+                    "name": "flatten_stats_fields"
+                }
+            }
+        }
+    },
+    "tests/time_test.py": {
+        "focal_file": "esrally/time.py",
+        "methods": {
+            "test_split_time_increases": {
+                "line": 25,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "split_time"
+                }
+            }
+        }
+    },
+    "tests/driver/driver_test.py": {
+        "focal_file": "esrally/driver/driver.py",
+        "methods": {
+            "test_start_benchmark_and_prepare_track": {
+                "line": 124,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": "esrally.driver.driver.Driver",
+                "focal_method": {
+                    "line": 658,
+                    "line_end": 694,
+                    "indent": 4,
+                    "name": "start_benchmark"
+                }
+            },
+            "test_execute_single_tuple": {
+                "line": 1739,
+                "line_end": 1749,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1800,
+                    "line_end": 1861,
+                    "indent": 0,
+                    "name": "execute_single"
+                }
+            },
+            "test_execute_single_dict": {
+                "line": 1752,
+                "line_end": 1776,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1800,
+                    "line_end": 1861,
+                    "indent": 0,
+                    "name": "execute_single"
+                }
+            }
+        }
+    },
+    "tests/driver/runner_test.py": {
+        "focal_file": "esrally/driver/runner.py",
+        "methods": {
+            "test_put_get_and_remove": {
+                "line": 4908,
+                "line_end": 4919,
+                "indent": 4,
+                "focal_class": "esrally.driver.runner.CompositeContext",
+                "focal_method": {
+                    "line": 2288,
+                    "line_end": 2294,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            }
+        }
+    },
+    "tests/driver/scheduler_test.py": {
+        "focal_file": "esrally/driver/scheduler.py",
+        "methods": {
+            "test_detects_legacy_scheduler": {
+                "line": 180,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "is_legacy_scheduler"
+                }
+            },
+            "test_a_regular_scheduler_is_not_a_legacy_scheduler": {
+                "line": 184,
+                "line_end": 186,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "is_legacy_scheduler"
+                }
+            },
+            "test_is_simple_scheduler": {
+                "line": 188,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "is_simple_scheduler"
+                }
+            },
+            "test_is_not_simple_scheduler": {
+                "line": 191,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "is_simple_scheduler"
+                }
+            }
+        }
+    },
+    "tests/mechanic/launcher_test.py": {
+        "focal_file": "esrally/mechanic/launcher.py",
+        "methods": {
+            "test_daemon_start_stop": {
+                "line": 156,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": "esrally.mechanic.launcher.ProcessLauncher",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            }
+        }
+    },
+    "tests/mechanic/mechanic_test.py": {
+        "focal_file": "esrally/mechanic/mechanic.py",
+        "methods": {
+            "test_groups_nodes_by_host": {
+                "line": 64,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 323,
+                    "indent": 0,
+                    "name": "nodes_by_host"
+                }
+            },
+            "test_extract_all_node_ips": {
+                "line": 83,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 305,
+                    "indent": 0,
+                    "name": "extract_all_node_ips"
+                }
+            }
+        }
+    },
+    "tests/mechanic/provisioner_test.py": {
+        "focal_file": "esrally/mechanic/provisioner.py",
+        "methods": {
+            "test_cleanup": {
+                "line": 783,
+                "line_end": 790,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "cleanup"
+                }
+            }
+        }
+    },
+    "tests/mechanic/supplier_test.py": {
+        "focal_file": "esrally/mechanic/supplier.py",
+        "methods": {
+            "test_multiple_revisions": {
+                "line": 37,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 563,
+                    "line_end": 587,
+                    "indent": 0,
+                    "name": "_extract_revisions"
+                }
+            },
+            "test_is_commit_hash": {
+                "line": 130,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 645,
+                    "line_end": 646,
+                    "indent": 4,
+                    "name": "is_commit_hash"
+                }
+            },
+            "test_to_artifact_path": {
+                "line": 388,
+                "line_end": 390,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "to_artifact_path"
+                }
+            },
+            "test_to_file_system_path": {
+                "line": 392,
+                "line_end": 394,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "to_file_system_path"
+                }
+            },
+            "test_derive_supply_requirements_es_source_build": {
+                "line": 625,
+                "line_end": 630,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "_supply_requirements"
+                }
+            },
+            "test_derive_supply_requirements_es_distribution": {
+                "line": 632,
+                "line_end": 637,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "_supply_requirements"
+                }
+            },
+            "test_plugin_config_with_default_url": {
+                "line": 866,
+                "line_end": 876,
+                "indent": 4,
+                "focal_class": "esrally.mechanic.supplier.DistributionRepository",
+                "focal_method": {
+                    "line": 718,
+                    "line_end": 723,
+                    "indent": 4,
+                    "name": "plugin_download_url"
+                }
+            }
+        }
+    },
+    "tests/mechanic/team_test.py": {
+        "focal_file": "esrally/mechanic/team.py",
+        "methods": {
+            "test_lists_car_names": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "car_names"
+                }
+            },
+            "test_lists_plugins": {
+                "line": 135,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": "esrally.mechanic.team.PluginDescriptor",
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 287,
+                    "indent": 4,
+                    "name": "plugins"
+                }
+            },
+            "test_loads_core_plugin": {
+                "line": 147,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": "esrally.mechanic.team.PluginDescriptor",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "load_plugin"
+                }
+            },
+            "test_loads_configured_plugin": {
+                "line": 193,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "load_plugin"
+                }
+            }
+        }
+    },
+    "tests/track/loader_test.py": {
+        "focal_file": "esrally/track/loader.py",
+        "methods": {
+            "test_track_from_directory": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.SimpleTrackRepository",
+                "focal_method": {
+                    "line": 332,
+                    "line_end": 333,
+                    "indent": 4,
+                    "name": "track_dir"
+                }
+            },
+            "test_track_from_file": {
+                "line": 63,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.SimpleTrackRepository",
+                "focal_method": {
+                    "line": 335,
+                    "line_end": 336,
+                    "indent": 4,
+                    "name": "track_file"
+                }
+            },
+            "test_prepare_bundled_document_set_if_document_file_available": {
+                "line": 562,
+                "line_end": 586,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.Decompressor",
+                "focal_method": {
+                    "line": 589,
+                    "line_end": 634,
+                    "indent": 4,
+                    "name": "prepare_bundled_document_set"
+                }
+            },
+            "test_prepare_bundled_document_set_does_nothing_if_no_document_files": {
+                "line": 592,
+                "line_end": 615,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.Decompressor",
+                "focal_method": {
+                    "line": 589,
+                    "line_end": 634,
+                    "indent": 4,
+                    "name": "prepare_bundled_document_set"
+                }
+            },
+            "test_used_corpora": {
+                "line": 617,
+                "line_end": 743,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.TrackSpecificationReader",
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 392,
+                    "indent": 0,
+                    "name": "used_corpora"
+                }
+            },
+            "test_prepare_bundled_document_set_decompresses_compressed_docs": {
+                "line": 749,
+                "line_end": 779,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.Decompressor",
+                "focal_method": {
+                    "line": 589,
+                    "line_end": 634,
+                    "indent": 4,
+                    "name": "prepare_bundled_document_set"
+                }
+            },
+            "test_prepare_bundled_document_set_error_compressed_docs_wrong_size": {
+                "line": 783,
+                "line_end": 807,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.Decompressor",
+                "focal_method": {
+                    "line": 589,
+                    "line_end": 634,
+                    "indent": 4,
+                    "name": "prepare_bundled_document_set"
+                }
+            },
+            "test_prepare_bundled_document_set_uncompressed_docs_wrong_size": {
+                "line": 813,
+                "line_end": 837,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.Decompressor",
+                "focal_method": {
+                    "line": 589,
+                    "line_end": 634,
+                    "indent": 4,
+                    "name": "prepare_bundled_document_set"
+                }
+            },
+            "test_entrypoint_of_replace_includes": {
+                "line": 843,
+                "line_end": 927,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.TemplateSource",
+                "focal_method": {
+                    "line": 666,
+                    "line_end": 681,
+                    "indent": 4,
+                    "name": "replace_includes"
+                }
+            },
+            "test_read_glob_files": {
+                "line": 929,
+                "line_end": 941,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.TemplateSource",
+                "focal_method": {
+                    "line": 683,
+                    "line_end": 689,
+                    "indent": 4,
+                    "name": "read_glob_files"
+                }
+            },
+            "test_render_simple_template": {
+                "line": 947,
+                "line_end": 963,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 708,
+                    "line_end": 748,
+                    "indent": 0,
+                    "name": "render_template"
+                }
+            },
+            "test_render_template_with_globbing": {
+                "line": 985,
+                "line_end": 1029,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.TemplateSource",
+                "focal_method": {
+                    "line": 663,
+                    "line_end": 664,
+                    "indent": 4,
+                    "name": "load_template_from_string"
+                }
+            },
+            "test_render_template_with_variables": {
+                "line": 1031,
+                "line_end": 1053,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 708,
+                    "line_end": 748,
+                    "indent": 0,
+                    "name": "render_template"
+                }
+            },
+            "test_unused_user_defined_track_params": {
+                "line": 1081,
+                "line_end": 1096,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.CompleteTrackParams",
+                "focal_method": {
+                    "line": 938,
+                    "line_end": 942,
+                    "indent": 4,
+                    "name": "unused_user_defined_track_params"
+                }
+            },
+            "test_unused_user_defined_track_params_doesnt_fail_with_detaults": {
+                "line": 1098,
+                "line_end": 1111,
+                "indent": 4,
+                "focal_class": "esrally.track.loader.CompleteTrackParams",
+                "focal_method": {
+                    "line": 938,
+                    "line_end": 942,
+                    "indent": 4,
+                    "name": "unused_user_defined_track_params"
+                }
+            },
+            "test_sets_absolute_path": {
+                "line": 1378,
+                "line_end": 1411,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 265,
+                    "indent": 0,
+                    "name": "set_absolute_data_path"
+                }
+            }
+        }
+    },
+    "tests/track/params_test.py": {
+        "focal_file": "esrally/track/params.py",
+        "methods": {
+            "test_sequential_conflicts": {
+                "line": 89,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 859,
+                    "line_end": 868,
+                    "indent": 0,
+                    "name": "build_conflicting_ids"
+                }
+            },
+            "test_random_conflicts": {
+                "line": 124,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 859,
+                    "line_end": 868,
+                    "indent": 0,
+                    "name": "build_conflicting_ids"
+                }
+            },
+            "test_calculate_bounds": {
+                "line": 601,
+                "line_end": 628,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 964,
+                    "line_end": 988,
+                    "indent": 0,
+                    "name": "bounds"
+                }
+            },
+            "test_calculate_number_of_bulks": {
+                "line": 671,
+                "line_end": 723,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 842,
+                    "line_end": 856,
+                    "indent": 0,
+                    "name": "number_of_bulks"
+                }
+            },
+            "test_build_conflicting_ids": {
+                "line": 737,
+                "line_end": 743,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 859,
+                    "line_end": 868,
+                    "indent": 0,
+                    "name": "build_conflicting_ids"
+                }
+            },
+            "test_can_register_legacy_function_as_param_source": {
+                "line": 1577,
+                "line_end": 1584,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "_unregister_param_source_for_name"
+                }
+            },
+            "test_can_register_function_as_param_source": {
+                "line": 1586,
+                "line_end": 1593,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "_unregister_param_source_for_name"
+                }
+            },
+            "test_can_register_legacy_class_as_param_source": {
+                "line": 1595,
+                "line_end": 1602,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "_unregister_param_source_for_name"
+                }
+            },
+            "test_can_register_class_as_param_source": {
+                "line": 1604,
+                "line_end": 1611,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "_unregister_param_source_for_name"
+                }
+            },
+            "test_cannot_register_an_instance_as_param_source": {
+                "line": 1613,
+                "line_end": 1619,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "register_param_source_for_name"
+                }
+            },
+            "test_create_or_merge": {
+                "line": 2188,
+                "line_end": 2255,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 456,
+                    "indent": 4,
+                    "name": "_create_or_merge"
+                }
+            },
+            "test_force_merge_all_params": {
+                "line": 2682,
+                "line_end": 2693,
+                "indent": 4,
+                "focal_class": "esrally.track.params.ForceMergeParamSource",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "params"
+                }
+            }
+        }
+    },
+    "tests/track/track_test.py": {
+        "focal_file": "esrally/track/track.py",
+        "methods": {
+            "test_do_not_filter": {
+                "line": 116,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": "esrally.track.track.DocumentCorpus",
+                "focal_method": {
+                    "line": 368,
+                    "line_end": 380,
+                    "indent": 4,
+                    "name": "filter"
+                }
+            },
+            "test_string_hyphenation_is_symmetric": {
+                "line": 269,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 717,
+                    "line_end": 723,
+                    "indent": 4,
+                    "name": "to_hyphenated_string"
+                }
+            }
+        }
+    },
+    "tests/utils/collections_test.py": {
+        "focal_file": "esrally/utils/collections.py",
+        "methods": {
+            "test_can_merge_empty_dicts": {
+                "line": 27,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "merge_dicts"
+                }
+            }
+        }
+    },
+    "tests/utils/convert_test.py": {
+        "focal_file": "esrally/utils/convert.py",
+        "methods": {
+            "test_convert_to_true": {
+                "line": 24,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "to_bool"
+                }
+            },
+            "test_convert_to_false": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "to_bool"
+                }
+            }
+        }
+    },
+    "tests/utils/git_test.py": {
+        "focal_file": "esrally/utils/git.py",
+        "methods": {
+            "test_is_git_working_copy": {
+                "line": 28,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "is_working_copy"
+                }
+            },
+            "test_rebase": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 74,
+                    "indent": 0,
+                    "name": "rebase"
+                }
+            },
+            "test_pull": {
+                "line": 110,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "pull"
+                }
+            },
+            "test_pull_ts": {
+                "line": 131,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "pull_ts"
+                }
+            },
+            "test_pull_revision": {
+                "line": 142,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "pull_revision"
+                }
+            },
+            "test_head_revision": {
+                "line": 155,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "head_revision"
+                }
+            },
+            "test_list_remote_branches": {
+                "line": 163,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "branches"
+                }
+            },
+            "test_list_local_branches": {
+                "line": 176,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "branches"
+                }
+            }
+        }
+    },
+    "tests/utils/io_test.py": {
+        "focal_file": "esrally/utils/io.py",
+        "methods": {
+            "test_normalize_path": {
+                "line": 49,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 368,
+                    "line_end": 380,
+                    "indent": 0,
+                    "name": "normalize_path"
+                }
+            },
+            "test_archive": {
+                "line": 54,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 249,
+                    "indent": 0,
+                    "name": "is_archive"
+                }
+            },
+            "test_has_extension": {
+                "line": 62,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 402,
+                    "line_end": 411,
+                    "indent": 0,
+                    "name": "has_extension"
+                }
+            },
+            "test_decompress_manually_external_fails_if_tool_missing": {
+                "line": 108,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 322,
+                    "line_end": 331,
+                    "indent": 0,
+                    "name": "_do_decompress_manually_external"
+                }
+            }
+        }
+    },
+    "tests/utils/jvm_test.py": {
+        "focal_file": "esrally/utils/jvm.py",
+        "methods": {
+            "test_extract_major_version_7": {
+                "line": 26,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "major_version"
+                }
+            },
+            "test_extract_major_version_8": {
+                "line": 29,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "major_version"
+                }
+            },
+            "test_extract_major_version_9": {
+                "line": 32,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "major_version"
+                }
+            },
+            "test_extract_major_version_10": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "major_version"
+                }
+            }
+        }
+    },
+    "tests/utils/net_test.py": {
+        "focal_file": "esrally/utils/net.py",
+        "methods": {
+            "test_download_from_s3_bucket": {
+                "line": 29,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "download_from_bucket"
+                }
+            },
+            "test_download_from_gs_bucket": {
+                "line": 51,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "download_from_bucket"
+                }
+            },
+            "test_gcs_object_url": {
+                "line": 64,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "_build_gcs_object_url"
+                }
+            },
+            "test_add_url_param_elastic_no_kpi": {
+                "line": 77,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 206,
+                    "indent": 0,
+                    "name": "add_url_param_elastic_no_kpi"
+                }
+            },
+            "test_add_url_param_elastic_no_kpi_no_http": {
+                "line": 84,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 206,
+                    "indent": 0,
+                    "name": "add_url_param_elastic_no_kpi"
+                }
+            }
+        }
+    },
+    "tests/utils/opts_test.py": {
+        "focal_file": "esrally/utils/opts.py",
+        "methods": {
+            "test_csv_to_list": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "csv_to_list"
+                }
+            },
+            "test_kv_to_map": {
+                "line": 30,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "kv_to_map"
+                }
+            },
+            "test_list_as_bulleted_list": {
+                "line": 43,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "bulleted_list_of"
+                }
+            },
+            "test_list_as_double_quoted_list": {
+                "line": 48,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "double_quoted_list_of"
+                }
+            },
+            "test_make_list_of_close_matches": {
+                "line": 53,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "make_list_of_close_matches"
+                }
+            },
+            "test_make_list_of_close_matches_returns_with_empty_word_list": {
+                "line": 122,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "make_list_of_close_matches"
+                }
+            },
+            "test_make_list_of_close_matches_returns_empty_list_with_no_close_matches": {
+                "line": 125,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "make_list_of_close_matches"
+                }
+            },
+            "test_default_client_ops_with_max_connections": {
+                "line": 259,
+                "line_end": 265,
+                "indent": 4,
+                "focal_class": "esrally.utils.opts.TargetHosts",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 218,
+                    "indent": 4,
+                    "name": "with_max_connections"
+                }
+            }
+        }
+    },
+    "tests/utils/process_test.py": {
+        "focal_file": "esrally/utils/process.py",
+        "methods": {
+            "test_find_other_rally_processes": {
+                "line": 51,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "find_all_other_rally_processes"
+                }
+            },
+            "test_find_no_other_rally_process_running": {
+                "line": 112,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "find_all_other_rally_processes"
+                }
+            }
+        }
+    },
+    "tests/utils/versions_test.py": {
+        "focal_file": "esrally/utils/versions.py",
+        "methods": {
+            "test_is_version_identifier": {
+                "line": 28,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "is_version_identifier"
+                }
+            },
+            "test_major_version": {
+                "line": 54,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "major_version"
+                }
+            },
+            "test_latest_bounded_minor": {
+                "line": 60,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "esrally.utils.versions.VersionVariants",
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 223,
+                    "indent": 0,
+                    "name": "latest_bounded_minor"
+                }
+            },
+            "test_find_best_match": {
+                "line": 101,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "best_match"
+                }
+            }
+        }
+    }
+}

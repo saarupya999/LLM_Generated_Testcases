@@ -1,0 +1,245 @@
+{
+    "src/tests/unit/test_config.py": {
+        "focal_file": "src/voucher_selection/server/config.py",
+        "methods": {
+            "test_create_db_config_error_require_db_password": {
+                "line": 11,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "create_db_config"
+                }
+            },
+            "test_create_db_config_ok_defaults": {
+                "line": 16,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": "DBConfig",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "create_db_config"
+                }
+            },
+            "test_create_db_config_ok_overload": {
+                "line": 33,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": "DBConfig",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "create_db_config"
+                }
+            },
+            "test_create_server_config_ok_defaults": {
+                "line": 55,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "ServerConfig",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "create_server_config"
+                }
+            },
+            "test_create_server_config_ok_overload": {
+                "line": 61,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": "ServerConfig",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "create_server_config"
+                }
+            }
+        }
+    },
+    "src/tests/unit/test_data_cleaning.py": {
+        "focal_file": "src/voucher_selection/data_cleaning.py",
+        "methods": {
+            "test_convert_str_to_int_empty_string": {
+                "line": 30,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "convert_str_to_int"
+                }
+            },
+            "test_convert_str_to_int_none": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "convert_str_to_int"
+                }
+            },
+            "test_convert_str_to_int_valid_float_zero": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "convert_str_to_int"
+                }
+            },
+            "test_convert_str_to_int_valid_float_non_zero": {
+                "line": 45,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "convert_str_to_int"
+                }
+            },
+            "test_convert_str_to_int_invalid_string": {
+                "line": 59,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "convert_str_to_int"
+                }
+            },
+            "test_clean_orders_raw_correct_size": {
+                "line": 64,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "clean_orders_raw"
+                }
+            },
+            "test_clean_orders_raw_correct_no_nans": {
+                "line": 70,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "clean_orders_raw"
+                }
+            },
+            "test_clean_orders_raw_correct_dtypes": {
+                "line": 79,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "clean_orders_raw"
+                }
+            }
+        }
+    },
+    "src/tests/unit/test_db.py": {
+        "focal_file": "src/voucher_selection/server/db.py",
+        "methods": {
+            "test_create_table_twice": {
+                "line": 9,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_insert_from_csv": {
+                "line": 21,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "insert_from_csv"
+                }
+            },
+            "test_get_voucher_amount_ok_country_code": {
+                "line": 30,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": "VoucherSelectionParameters",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "get_voucher_amount"
+                }
+            },
+            "test_get_voucher_amount_ok_frequency_segment": {
+                "line": 39,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": "VoucherSelectionParameters",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "get_voucher_amount"
+                }
+            },
+            "test_get_voucher_amount_ok_recency_segment": {
+                "line": 48,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": "VoucherSelectionParameters",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "get_voucher_amount"
+                }
+            },
+            "test_get_voucher_amount_ok_multiple_params": {
+                "line": 70,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": "VoucherSelectionParameters",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "get_voucher_amount"
+                }
+            }
+        }
+    }
+}

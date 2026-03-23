@@ -1,0 +1,31 @@
+{
+    "tests/test_celery_unique.py": {
+        "focal_file": "celery_unique.py",
+        "methods": {
+            "test_with_static_unique_key_lambda": {
+                "line": 57,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "_make_redis_key"
+                }
+            },
+            "test_does_not_revoke_when_not_found_in_redis": {
+                "line": 82,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "_revoke_extant_unique_task_if_exists"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1106 @@
+{
+    "tests/common/util/reposthelpers_test.py": {
+        "focal_file": "redditrepostsleuth/core/util/repost_helpers.py",
+        "methods": {
+            "test_filter_matching_images_crosspost": {
+                "line": 9,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "filter_matching_images"
+                }
+            }
+        }
+    },
+    "tests/summonssvc/test_summonsHandler.py": {
+        "focal_file": "redditrepostsleuth/summonssvc/summonshandler.py",
+        "methods": {
+            "test__strip_summons_flags__clean_input_usertag": {
+                "line": 11,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": "SummonsHandler",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "_strip_summons_flags"
+                }
+            },
+            "test__strip_summons_flags__junk_input_usertag": {
+                "line": 17,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "SummonsHandler",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "_strip_summons_flags"
+                }
+            },
+            "test__strip_summons_flags__clean_input_commandtag": {
+                "line": 23,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "SummonsHandler",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "_strip_summons_flags"
+                }
+            },
+            "test__strip_summons_flags__junk_input_commandtag": {
+                "line": 35,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "SummonsHandler",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "_strip_summons_flags"
+                }
+            },
+            "test__get_target_distances__monitored_sub": {
+                "line": 41,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "SummonsHandler",
+                "focal_method": {
+                    "line": 335,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "_get_target_distances"
+                }
+            }
+        }
+    },
+    "tests/summonssvc/commandparsing/test_commandParser.py": {
+        "focal_file": "redditrepostsleuth/summonssvc/commandparsing/command_parser.py",
+        "methods": {
+            "test_parse_root_command__valid_command": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": "CommandParser",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "parse_root_command"
+                }
+            }
+        }
+    },
+    "tests/core/test_duplicateImageService.py": {
+        "focal_file": "redditrepostsleuth/core/services/duplicateimageservice.py",
+        "methods": {
+            "test__get_matches": {
+                "line": 17,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 248,
+                    "indent": 4,
+                    "name": "_get_matches"
+                }
+            },
+            "test__get_post_from_index_id_valid_match_historical": {
+                "line": 66,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 361,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "_get_post_from_index_id"
+                }
+            },
+            "test__get_post_from_index_id_valid_match_current": {
+                "line": 85,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 361,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "_get_post_from_index_id"
+                }
+            },
+            "test__get_post_from_index_id_no_index_post_found_return_none": {
+                "line": 105,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 361,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "_get_post_from_index_id"
+                }
+            },
+            "test__get_post_from_index_id_no_post_found_return_none": {
+                "line": 119,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 361,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "_get_post_from_index_id"
+                }
+            },
+            "test__get_image_search_match_from_index_result_valid_post": {
+                "line": 135,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "_get_image_search_match_from_index_result"
+                }
+            },
+            "test__get_image_search_match_from_index_result_no_post": {
+                "line": 148,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "_get_image_search_match_from_index_result"
+                }
+            },
+            "test__get_image_search_match_from_index_result_valid_post_no_dhash": {
+                "line": 159,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "_get_image_search_match_from_index_result"
+                }
+            },
+            "test__remove_duplicates_one_dup_remove": {
+                "line": 171,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": "DuplicateImageService",
+                "focal_method": {
+                    "line": 350,
+                    "line_end": 359,
+                    "indent": 4,
+                    "name": "_remove_duplicates"
+                }
+            }
+        }
+    },
+    "tests/core/services/test_responseBuilder.py": {
+        "focal_file": "redditrepostsleuth/core/services/responsebuilder.py",
+        "methods": {
+            "test_build_default_comment__image_oc_all_enabled": {
+                "line": 24,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "build_default_comment"
+                }
+            },
+            "test_build_default_comment__image_oc_only_signature": {
+                "line": 49,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "build_default_comment"
+                }
+            },
+            "test_build_default_comment__image_oc_only_stats": {
+                "line": 56,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "build_default_comment"
+                }
+            },
+            "test_build_default_comment__image_oc_only_search_link": {
+                "line": 63,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "build_default_comment"
+                }
+            },
+            "test_build_default_comment__image_oc_only_search_settings": {
+                "line": 70,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "build_default_comment"
+                }
+            },
+            "test_build_sub_comment__image_oc_all_enabled": {
+                "line": 99,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "build_sub_comment"
+                }
+            },
+            "test_build_default_comment__link_oc_all_enabled": {
+                "line": 107,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "build_default_comment"
+                }
+            },
+            "test_build_default_comment__link_repost_all_enabled": {
+                "line": 115,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "ResponseBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 192,
+                    "indent": 4,
+                    "name": "build_default_comment"
+                }
+            }
+        }
+    },
+    "tests/core/notification/test_discord_notification_agent.py": {
+        "focal_file": "redditrepostsleuth/core/notification/discord_notification_agent.py",
+        "methods": {
+            "test__build_payload_no_subject": {
+                "line": 28,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "_build_payload"
+                }
+            },
+            "test__build_payload_with_subject": {
+                "line": 34,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "_build_payload"
+                }
+            },
+            "test__build_image_repost_attachment_single_match": {
+                "line": 40,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "_build_image_repost_attachment"
+                }
+            },
+            "test__build_image_repost_attachment_multi_match": {
+                "line": 48,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "_build_image_repost_attachment"
+                }
+            },
+            "test__build_image_repost_attachment_fields_multi_match": {
+                "line": 56,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "_build_image_repost_attachment"
+                }
+            },
+            "test__build_image_repost_attachment_fields_single_match": {
+                "line": 68,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "_build_image_repost_attachment"
+                }
+            },
+            "test__hex_to_int_valid": {
+                "line": 79,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "hex_to_int"
+                }
+            },
+            "test__hex_to_int_invalid": {
+                "line": 83,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "DiscordAgent",
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "hex_to_int"
+                }
+            }
+        }
+    },
+    "tests/core/util/test_helpers.py": {
+        "focal_file": "redditrepostsleuth/core/util/helpers.py",
+        "methods": {
+            "test_chunklist": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "chunk_list"
+                }
+            },
+            "test_searched_post_str_valid_count": {
+                "line": 30,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "searched_post_str"
+                }
+            },
+            "test_searched_post_str_link_valid_count": {
+                "line": 36,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "searched_post_str"
+                }
+            },
+            "test_searched_post_str_unknowntype_valid_count": {
+                "line": 42,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "searched_post_str"
+                }
+            },
+            "test_searched_post_str_formatting": {
+                "line": 48,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "searched_post_str"
+                }
+            },
+            "test_post_type_from_url_image_lowercase": {
+                "line": 55,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "post_type_from_url"
+                }
+            },
+            "test_post_type_from_url_image_uppercase": {
+                "line": 58,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "post_type_from_url"
+                }
+            },
+            "test_build_image_msg_values_from_search_include_meme_template": {
+                "line": 61,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "build_image_msg_values_from_search"
+                }
+            },
+            "test_build_image_msg_values_from_search_correct_match_percent": {
+                "line": 69,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "build_image_msg_values_from_search"
+                }
+            },
+            "test_build_msg_values_from_search_key_total": {
+                "line": 75,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "build_msg_values_from_search"
+                }
+            },
+            "test_build_msg_values_from_search_no_match_key_total": {
+                "line": 81,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "build_msg_values_from_search"
+                }
+            },
+            "test_build_msg_values_from_search_no_match_custom_key_total": {
+                "line": 86,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "build_msg_values_from_search"
+                }
+            },
+            "test_build_msg_values_from_search_extra_values": {
+                "line": 91,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "build_msg_values_from_search"
+                }
+            },
+            "test_get_image_search_settings_for_monitored_sub": {
+                "line": 100,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 334,
+                    "indent": 0,
+                    "name": "get_image_search_settings_for_monitored_sub"
+                }
+            },
+            "test_get_default_image_search_settings": {
+                "line": 123,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 264,
+                    "indent": 0,
+                    "name": "get_default_image_search_settings"
+                }
+            },
+            "test_get_default_link_search_settings": {
+                "line": 155,
+                "line_end": 176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 305,
+                    "indent": 0,
+                    "name": "get_default_link_search_settings"
+                }
+            },
+            "test_build_site_search_url_no_search_settings": {
+                "line": 179,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "build_site_search_url"
+                }
+            },
+            "test_test_build_site_search_url": {
+                "line": 182,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "build_site_search_url"
+                }
+            },
+            "test_build_image_report_link_negative": {
+                "line": 196,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "build_image_report_link"
+                }
+            },
+            "test_build_image_report_link_positive": {
+                "line": 202,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "build_image_report_link"
+                }
+            },
+            "test_batch_check_urls_valid_call": {
+                "line": 210,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 390,
+                    "indent": 0,
+                    "name": "batch_check_urls"
+                }
+            },
+            "test_batch_check_urls_valid_call_none_removed": {
+                "line": 236,
+                "line_end": 257,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 390,
+                    "indent": 0,
+                    "name": "batch_check_urls"
+                }
+            },
+            "test_batch_check_urls_valid_bad_status": {
+                "line": 259,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 390,
+                    "indent": 0,
+                    "name": "batch_check_urls"
+                }
+            }
+        }
+    },
+    "tests/core/util/test_repost_helpers.py": {
+        "focal_file": "redditrepostsleuth/core/util/repost_helpers.py",
+        "methods": {
+            "test_sort_reposts_correct_order": {
+                "line": 16,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "sort_reposts"
+                }
+            },
+            "test_get_first_active_match": {
+                "line": 32,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "get_first_active_match"
+                }
+            },
+            "test_get_closest_image_match": {
+                "line": 49,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "get_closest_image_match"
+                }
+            }
+        }
+    },
+    "tests/core/util/test_repost_filters.py": {
+        "focal_file": "redditrepostsleuth/core/util/repost_filters.py",
+        "methods": {
+            "test_same_sub_filter__remove_same_sub": {
+                "line": 24,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "same_sub_filter"
+                }
+            },
+            "test_hamming_distance_filter__remove_higher_distance": {
+                "line": 33,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "hamming_distance_filter"
+                }
+            },
+            "test_annoy_distance_filter__remove_higher_distance": {
+                "line": 42,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "annoy_distance_filter"
+                }
+            },
+            "test_filter_days_old_matches__remove_older": {
+                "line": 52,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "filter_days_old_matches"
+                }
+            },
+            "test_filter_same_author__remove_same_author": {
+                "line": 64,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "filter_same_author"
+                }
+            },
+            "test_filter_title_similarity__remove_lower": {
+                "line": 74,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "filter_title_distance"
+                }
+            },
+            "test_filter_same_post__remove_same": {
+                "line": 83,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "filter_same_post"
+                }
+            },
+            "test_filter_title_keywords": {
+                "line": 93,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "filter_title_keywords"
+                }
+            },
+            "test_filter_title_keywords_uppercase__remove_keyword": {
+                "line": 102,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "filter_title_keywords"
+                }
+            },
+            "test_filter_newer_matches__remove_newer": {
+                "line": 208,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "filter_newer_matches"
+                }
+            },
+            "test_filter_dead_urls_remote_connection_error": {
+                "line": 217,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "filter_dead_urls_remote"
+                }
+            },
+            "test_filter_dead_urls_remote_bad_status_code": {
+                "line": 224,
+                "line_end": 229,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "filter_dead_urls_remote"
+                }
+            },
+            "test_filter_dead_urls_remote_bad_valid_res_remove_one": {
+                "line": 231,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "filter_dead_urls_remote"
+                }
+            }
+        }
+    },
+    "tests/submonitorsvc/test_subMonitor.py": {
+        "focal_file": "redditrepostsleuth/submonitorsvc/submonitor.py",
+        "methods": {
+            "test__should_check_post__not_checked_accept": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "SubMonitor",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "should_check_post"
+                }
+            },
+            "test__should_check_post__reject_crosspost": {
+                "line": 21,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "SubMonitor",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "should_check_post"
+                }
+            },
+            "test__should_check_post__title_filter_accept": {
+                "line": 26,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "SubMonitor",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "should_check_post"
+                }
+            },
+            "test__should_check_post__title_filter_reject": {
+                "line": 31,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "SubMonitor",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "should_check_post"
+                }
+            },
+            "test__send_mod_mail_not_enabled": {
+                "line": 45,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "SubMonitor",
+                "focal_method": {
+                    "line": 297,
+                    "line_end": 307,
+                    "indent": 4,
+                    "name": "_send_mod_mail"
+                }
+            }
+        }
+    },
+    "tests/adminsvc/test_new_activation_monitor.py": {
+        "focal_file": "redditrepostsleuth/adminsvc/new_activation_monitor.py",
+        "methods": {
+            "test_check_for_new_invites_no_invite": {
+                "line": 22,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "NewActivationMonitor",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "check_for_new_invites"
+                }
+            },
+            "test__notify_added": {
+                "line": 31,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "NewActivationMonitor",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "_notify_added"
+                }
+            },
+            "test__create_wiki_page": {
+                "line": 46,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "NewActivationMonitor",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "_create_wiki_page"
+                }
+            },
+            "test__create_monitored_sub_in_db_already_exists": {
+                "line": 52,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "NewActivationMonitor",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "_create_monitored_sub_in_db"
+                }
+            },
+            "test__create_monitored_sub_in_db_create": {
+                "line": 65,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": "NewActivationMonitor",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "_create_monitored_sub_in_db"
+                }
+            },
+            "test_is_already_active_false": {
+                "line": 81,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "NewActivationMonitor",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "is_already_active"
+                }
+            },
+            "test_is_already_active_true": {
+                "line": 93,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": "NewActivationMonitor",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "is_already_active"
+                }
+            }
+        }
+    },
+    "tests/adminsvc/test_subreddit_config_update.py": {
+        "focal_file": "redditrepostsleuth/core/services/subreddit_config_updater.py",
+        "methods": {
+            "test__create_wiki_config_from_database_mapped_value": {
+                "line": 11,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "_create_wiki_config_from_database"
+                }
+            },
+            "test__create_wiki_config_from_database_unmapped_value": {
+                "line": 19,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "_create_wiki_config_from_database"
+                }
+            },
+            "test__update_monitored_sub_from_wiki_unmapped_value": {
+                "line": 27,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 274,
+                    "indent": 4,
+                    "name": "_update_monitored_sub_from_wiki"
+                }
+            },
+            "test__get_missing_config_values_one_missing": {
+                "line": 34,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "_get_missing_config_values"
+                }
+            }
+        }
+    }
+}

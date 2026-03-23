@@ -1,0 +1,219 @@
+{
+    "tests/test_cell.py": {
+        "focal_file": "game_of_life/cell.py",
+        "methods": {
+            "test_cell_is_still_alive_next_gen_if_in_stable_neighborhood": {
+                "line": 20,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "Cell",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "is_alive_next_generation"
+                }
+            },
+            "test_cell_is_dead_next_generation_if_lt_stable_count": {
+                "line": 27,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "Cell",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "is_alive_next_generation"
+                }
+            },
+            "test_dead_cell_in_fertile_neighboorhood_is_alive_next_generation": {
+                "line": 39,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "Cell",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "is_alive_next_generation"
+                }
+            },
+            "test_dead_cell_is_dead_next_gen_if_lt_fertile_neighbor_count": {
+                "line": 45,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "Cell",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "is_alive_next_generation"
+                }
+            },
+            "test_dead_cell_is_dead_next_gen_if_gt_fertile_neighbor_count": {
+                "line": 51,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": "Cell",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "is_alive_next_generation"
+                }
+            }
+        }
+    },
+    "tests/test_location.py": {
+        "focal_file": "game_of_life/location.py",
+        "methods": {
+            "test_with_one_location": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "Location",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "get_max_coordinates_location"
+                }
+            },
+            "test_with_multiple_locations": {
+                "line": 43,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "Location",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "get_max_coordinates_location"
+                }
+            },
+            "test_locations_indexed_by_y_axis": {
+                "line": 57,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "Location",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "sort_locations"
+                }
+            }
+        }
+    },
+    "tests/test_render_to_world.py": {
+        "focal_file": "game_of_life/render_to_world.py",
+        "methods": {
+            "test_empty_render_generates_empty_world": {
+                "line": 8,
+                "line_end": 10,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "render_to_world"
+                }
+            }
+        }
+    },
+    "tests/test_turn_renderings.py": {
+        "focal_file": "game_of_life/turn_renderings.py",
+        "methods": {
+            "test_can_render_0_turns": {
+                "line": 13,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 9,
+                    "indent": 0,
+                    "name": "turn_renderings"
+                }
+            },
+            "test_can_render_1_turn": {
+                "line": 26,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 9,
+                    "indent": 0,
+                    "name": "turn_renderings"
+                }
+            },
+            "test_can_render_2_turns": {
+                "line": 44,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 9,
+                    "indent": 0,
+                    "name": "turn_renderings"
+                }
+            }
+        }
+    },
+    "tests/test_world.py": {
+        "focal_file": "game_of_life/world.py",
+        "methods": {
+            "test_an_empty_world_stays_empty_after_a_tick": {
+                "line": 94,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "tick"
+                }
+            },
+            "test_a_world_with_one_cell_is_empty_after_a_tick": {
+                "line": 99,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "tick"
+                }
+            },
+            "test_a_world_with_stable_neighborhood_is_not_empty_after_a_tick": {
+                "line": 109,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "tick"
+                }
+            },
+            "test_world_progresses_next_expected_outcome_after_a_tick": {
+                "line": 124,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "tick"
+                }
+            }
+        }
+    }
+}

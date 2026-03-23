@@ -1,0 +1,994 @@
+{
+    "analysis_module/opmon_analyzer/tests/test_train_or_update_historic_averages_models.py": {
+        "focal_file": "analysis_module/opmon_analyzer/train_or_update_historic_averages_models.py",
+        "methods": {
+            "test_get_first_model_train_time": {
+                "line": 29,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 221,
+                    "indent": 0,
+                    "name": "get_first_model_train_time"
+                }
+            }
+        }
+    },
+    "collector_module/opmon_collector/tests/test_central_server_client.py": {
+        "focal_file": "collector_module/opmon_collector/central_server_client.py",
+        "methods": {
+            "test_get_security_servers": {
+                "line": 39,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": "CentralServerClient",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "get_security_servers"
+                }
+            }
+        }
+    },
+    "collector_module/opmon_collector/tests/test_collector_multiprocessing.py": {
+        "focal_file": "collector_module/opmon_collector/collector_multiprocessing.py",
+        "methods": {
+            "test_run_threaded_collector": {
+                "line": 70,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "run_threaded_collector"
+                }
+            },
+            "test_run_threaded_collector_with_existing_pid_file": {
+                "line": 86,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "run_threaded_collector"
+                }
+            },
+            "test_process_thread_pool": {
+                "line": 99,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "process_thread_pool"
+                }
+            }
+        }
+    },
+    "collector_module/opmon_collector/tests/test_collector_worker.py": {
+        "focal_file": "collector_module/opmon_collector/collector_worker.py",
+        "methods": {
+            "test_collector_worker_work": {
+                "line": 89,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "CollectorWorker",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "work"
+                }
+            },
+            "test_worker_status": {
+                "line": 139,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": "CollectorWorker",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "update_status"
+                }
+            }
+        }
+    },
+    "collector_module/opmon_collector/tests/test_database_manager.py": {
+        "focal_file": "collector_module/opmon_collector/database_manager.py",
+        "methods": {
+            "test_save_server_list_to_database": {
+                "line": 71,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": "DatabaseManager",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "save_server_list_to_database"
+                }
+            },
+            "test_insert_data_to_raw_messages": {
+                "line": 84,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": "DatabaseManager",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "insert_data_to_raw_messages"
+                }
+            },
+            "test_set_next_records_timestamp": {
+                "line": 102,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": "DatabaseManager",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "set_next_records_timestamp"
+                }
+            },
+            "test_get_next_records_timestamp_non_existent_key": {
+                "line": 125,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": "DatabaseManager",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "get_next_records_timestamp"
+                }
+            }
+        }
+    },
+    "collector_module/opmon_collector/tests/test_pid_file_handler.py": {
+        "focal_file": "collector_module/opmon_collector/pid_file_handler.py",
+        "methods": {
+            "test_create_pid_file": {
+                "line": 77,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": "OpmonPidFileHandler",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "create_pid_file"
+                }
+            },
+            "test_another_instance_is_running": {
+                "line": 115,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": "OpmonPidFileHandler",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "another_instance_is_running"
+                }
+            },
+            "test_another_instance_is_running_with_stale_file": {
+                "line": 126,
+                "line_end": 136,
+                "indent": 0,
+                "focal_class": "OpmonPidFileHandler",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "another_instance_is_running"
+                }
+            },
+            "test_another_instance_is_running_with_invalid_file": {
+                "line": 139,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": "OpmonPidFileHandler",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "another_instance_is_running"
+                }
+            },
+            "test_cleanup": {
+                "line": 153,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": "OpmonPidFileHandler",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "_cleanup"
+                }
+            }
+        }
+    },
+    "collector_module/opmon_collector/tests/test_settings.py": {
+        "focal_file": "collector_module/opmon_collector/settings.py",
+        "methods": {
+            "test_finding_settings_file": {
+                "line": 46,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "_find_settings_file"
+                }
+            }
+        }
+    },
+    "collector_module/opmon_collector/tests/test_update_servers.py": {
+        "focal_file": "collector_module/opmon_collector/update_servers.py",
+        "methods": {
+            "test_update_database_server_list": {
+                "line": 55,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "update_database_server_list"
+                }
+            },
+            "test_update_database_server_list_with_existing_pid_file": {
+                "line": 62,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "update_database_server_list"
+                }
+            },
+            "test_print_server_list": {
+                "line": 76,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "print_server_list"
+                }
+            }
+        }
+    },
+    "corrector_module/opmon_corrector/tests/test_document_manager.py": {
+        "focal_file": "corrector_module/opmon_corrector/document_manager.py",
+        "methods": {
+            "test_enable_all_client_calculations": {
+                "line": 86,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "_client_calculations"
+                }
+            },
+            "test_client_calculations_without_client": {
+                "line": 98,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "_client_calculations"
+                }
+            },
+            "test_disable_client_calculations": {
+                "line": 113,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "_client_calculations"
+                }
+            },
+            "test_client_calculations_with_invalid_data": {
+                "line": 140,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "_client_calculations"
+                }
+            },
+            "test_enable_all_producer_calculations": {
+                "line": 157,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_producer_calculations"
+                }
+            },
+            "test_producer_calculations_without_producer": {
+                "line": 170,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_producer_calculations"
+                }
+            },
+            "test_disable_producer_calculations": {
+                "line": 186,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_producer_calculations"
+                }
+            },
+            "test_producer_calculations_with_invalid_data": {
+                "line": 224,
+                "line_end": 239,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_producer_calculations"
+                }
+            },
+            "test_pair_calculations": {
+                "line": 242,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "_pair_calculations"
+                }
+            },
+            "test_pair_calculations_without_client_and_producer": {
+                "line": 254,
+                "line_end": 267,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "_pair_calculations"
+                }
+            },
+            "test_pair_calculations_with_attachments": {
+                "line": 270,
+                "line_end": 298,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "_pair_calculations"
+                }
+            },
+            "test_disable_pair_calculations": {
+                "line": 301,
+                "line_end": 323,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "_pair_calculations"
+                }
+            },
+            "test_pair_calculation_with_invalid_data": {
+                "line": 326,
+                "line_end": 351,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "_pair_calculations"
+                }
+            },
+            "test_get_boundary_value": {
+                "line": 354,
+                "line_end": 370,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "get_boundary_value"
+                }
+            },
+            "test_limit_calculation_values": {
+                "line": 373,
+                "line_end": 402,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 222,
+                    "indent": 4,
+                    "name": "_limit_calculation_values"
+                }
+            },
+            "test_match_documents": {
+                "line": 405,
+                "line_end": 408,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "match_documents"
+                }
+            },
+            "test_mach_documents_time_window": {
+                "line": 435,
+                "line_end": 440,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "match_documents"
+                }
+            },
+            "test_mach_documents_mandatory_fields": {
+                "line": 443,
+                "line_end": 458,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "match_documents"
+                }
+            },
+            "test_matching_documents_for_producer": {
+                "line": 461,
+                "line_end": 468,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "match_documents"
+                }
+            },
+            "test_matching_documents_missing_producer": {
+                "line": 471,
+                "line_end": 476,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "match_documents"
+                }
+            },
+            "test_matching_documents_missing_documents": {
+                "line": 479,
+                "line_end": 485,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "match_documents"
+                }
+            },
+            "test_find_match": {
+                "line": 496,
+                "line_end": 513,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "find_match"
+                }
+            },
+            "test_create_json": {
+                "line": 516,
+                "line_end": 524,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 297,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "create_json"
+                }
+            },
+            "test_correct_structure": {
+                "line": 527,
+                "line_end": 532,
+                "indent": 0,
+                "focal_class": "DocumentManager",
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "correct_structure"
+                }
+            },
+            "test_calculate_hash": {
+                "line": 535,
+                "line_end": 543,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 356,
+                    "indent": 4,
+                    "name": "calculate_hash"
+                }
+            }
+        }
+    },
+    "integration_tests/ci_collector/test_collector.py": {
+        "focal_file": "integration_tests/ci_collector/test_collector.py",
+        "methods": {
+            "test_collect": {
+                "line": 36,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "get_mongo_collection"
+                }
+            },
+            "test_pid_file_creation_and_deletion": {
+                "line": 94,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "assert_action_creates_and_deletes_pid_file"
+                }
+            }
+        }
+    },
+    "opendata_module/opmon_opendata/tests/test_input_validator.py": {
+        "focal_file": "opendata_module/opmon_opendata/api/input_validator.py",
+        "methods": {
+            "test_non_existent_column_in_order_clause": {
+                "line": 107,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "load_and_validate_order_clauses"
+                }
+            },
+            "test_loading_constraints": {
+                "line": 155,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "load_and_validate_constraints"
+                }
+            }
+        }
+    },
+    "reports_module/opmon_reports/tests/test_notification_manager.py": {
+        "focal_file": "reports_module/opmon_reports/notification_manager.py",
+        "methods": {
+            "test_send_mail": {
+                "line": 57,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": "NotificationManager",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "send_mail"
+                }
+            }
+        }
+    },
+    "reports_module/opmon_reports/tests/test_report_manager.py": {
+        "focal_file": "reports_module/opmon_reports/report_manager.py",
+        "methods": {
+            "test_is_producer_document": {
+                "line": 113,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "is_producer_document"
+                }
+            },
+            "test_is_client_document": {
+                "line": 124,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "is_client_document"
+                }
+            },
+            "test_reduce_to_plain_json": {
+                "line": 135,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "reduce_to_plain_json"
+                }
+            },
+            "test_get_service_type": {
+                "line": 166,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "get_service_type"
+                }
+            },
+            "test_merge_document_fields": {
+                "line": 185,
+                "line_end": 201,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "merge_document_fields"
+                }
+            },
+            "test_get_min_mean_max": {
+                "line": 204,
+                "line_end": 210,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 220,
+                    "indent": 4,
+                    "name": "get_min_mean_max"
+                }
+            },
+            "test_get_succeeded_top": {
+                "line": 213,
+                "line_end": 238,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 404,
+                    "indent": 4,
+                    "name": "get_succeeded_top"
+                }
+            },
+            "test_get_duration": {
+                "line": 241,
+                "line_end": 276,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 421,
+                    "line_end": 434,
+                    "indent": 4,
+                    "name": "get_duration_top"
+                }
+            },
+            "test_generate_report_tempfolder": {
+                "line": 279,
+                "line_end": 296,
+                "indent": 0,
+                "focal_class": "ReportManager",
+                "focal_method": {
+                    "line": 515,
+                    "line_end": 532,
+                    "indent": 4,
+                    "name": "generate_report"
+                }
+            }
+        }
+    },
+    "reports_module/opmon_reports/tests/test_report_row.py": {
+        "focal_file": "reports_module/opmon_reports/report_row.py",
+        "methods": {
+            "test_update_success_counters": {
+                "line": 35,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": "ReportRow",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "update_success_counters"
+                }
+            },
+            "test_calculate_duration": {
+                "line": 46,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": "ReportRow",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "calculate_duration"
+                }
+            },
+            "test_calculate_request": {
+                "line": 82,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": "ReportRow",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "calculate_request"
+                }
+            },
+            "test_calculate_response": {
+                "line": 116,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": "ReportRow",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "calculate_response"
+                }
+            }
+        }
+    },
+    "reports_module/opmon_reports/tests/test_time_date_tools.py": {
+        "focal_file": "reports_module/opmon_reports/time_date_tools.py",
+        "methods": {
+            "test_calculate_closing_date_happy_path": {
+                "line": 59,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "calculate_closing_date"
+                }
+            },
+            "test_get_previous_month_last_day_happy_path": {
+                "line": 73,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "get_previous_month_last_day"
+                }
+            },
+            "test_get_previous_month_first_day_happy_path": {
+                "line": 79,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "get_previous_month_first_day"
+                }
+            },
+            "test_get_previous_month_start_and_end_date_happy_path": {
+                "line": 85,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 135,
+                    "indent": 0,
+                    "name": "get_previous_month_start_and_end_date"
+                }
+            },
+            "test_get_previous_week_last_day_happy_path": {
+                "line": 102,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 163,
+                    "indent": 0,
+                    "name": "get_previous_week_last_day"
+                }
+            },
+            "test_get_previous_week_first_day_happy_path": {
+                "line": 108,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 173,
+                    "indent": 0,
+                    "name": "get_previous_week_first_day"
+                }
+            },
+            "test_get_previous_week_start_end_dates_happy_path": {
+                "line": 114,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "get_previous_week_start_end_dates"
+                }
+            },
+            "test_get_next_week_first_day_happy_path": {
+                "line": 125,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "get_next_week_first_day"
+                }
+            },
+            "test_get_next_week_last_day_happy_path": {
+                "line": 131,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 203,
+                    "indent": 0,
+                    "name": "get_next_week_last_day"
+                }
+            },
+            "test_get_next_week_start_end_dates_happy_path": {
+                "line": 137,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "get_next_week_start_end_dates"
+                }
+            }
+        }
+    },
+    "reports_module/opmon_reports/tests/test_xroad_descriptor.py": {
+        "focal_file": "reports_module/opmon_reports/xroad_descriptor.py",
+        "methods": {
+            "test_xroad_descriptor_parsing_valid1": {
+                "line": 42,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": "OpmonXroadDescriptor",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "get_emails"
+                }
+            },
+            "test_subsystem_descriptor_getters": {
+                "line": 117,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": "OpmonXroadDescriptor",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "get_emails"
+                }
+            },
+            "test_subsystem_descriptor_getters_with_missing_fields": {
+                "line": 145,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": "OpmonXroadDescriptor",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "get_emails"
+                }
+            }
+        }
+    }
+}

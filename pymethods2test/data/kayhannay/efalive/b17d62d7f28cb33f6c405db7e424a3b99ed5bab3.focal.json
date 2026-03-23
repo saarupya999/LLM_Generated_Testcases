@@ -1,0 +1,296 @@
+{
+    "tests/common/test_common.py": {
+        "focal_file": "efalive/common/common.py",
+        "methods": {
+            "testGetEfaLivePlatformPc": {
+                "line": 16,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "get_efalive_platform"
+                }
+            },
+            "testGetEfaLivePlatformRaspi": {
+                "line": 25,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "get_efalive_platform"
+                }
+            },
+            "testGetEfaLivePlatformNoFile": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "get_efalive_platform"
+                }
+            }
+        }
+    },
+    "tests/common/test_usbmonitor.py": {
+        "focal_file": "efalive/common/usbmonitor.py",
+        "methods": {
+            "test_handle_device_event__usb_storage_add": {
+                "line": 44,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "UsbStorageMonitor",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "_handle_device_event"
+                }
+            },
+            "test_handle_device_event__usb_storage_remove": {
+                "line": 55,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "UsbStorageMonitor",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "_handle_device_event"
+                }
+            },
+            "test_handle_device_event__non_usb": {
+                "line": 66,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "UsbStorageMonitor",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "_handle_device_event"
+                }
+            },
+            "test_wrap_device__null_size": {
+                "line": 90,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": "UsbStorageMonitor",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "_wrap_device"
+                }
+            },
+            "test_wrap_device__1kb_size": {
+                "line": 108,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "UsbStorageMonitor",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "_wrap_device"
+                }
+            }
+        }
+    },
+    "tests/common/test_tasks.py": {
+        "focal_file": "efalive/common/tasks.py",
+        "methods": {
+            "test_run": {
+                "line": 46,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "BackupMailTask",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/common/test_mailer.py": {
+        "focal_file": "efalive/common/mailer.py",
+        "methods": {
+            "test_create_mail__text": {
+                "line": 30,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "Mailer",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "create_mail"
+                }
+            },
+            "test_create_mail__attach_zip": {
+                "line": 60,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "Mailer",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "create_mail"
+                }
+            },
+            "test_create_mail__attach_text": {
+                "line": 85,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": "Mailer",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "create_mail"
+                }
+            }
+        }
+    },
+    "tests/common/test_settings.py": {
+        "focal_file": "efalive/common/settings.py",
+        "methods": {
+            "test_initSettings__no_settings": {
+                "line": 60,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "EfaLiveSettings",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "initSettings"
+                }
+            },
+            "test_initSettings__settings_filled": {
+                "line": 75,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "EfaLiveSettings",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "initSettings"
+                }
+            }
+        }
+    },
+    "tests/daemon/test_efalivedaemon.py": {
+        "focal_file": "efalive/daemon/efalivedaemon.py",
+        "methods": {
+            "test_handle_usb_add_device": {
+                "line": 105,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": "AutoBackupModule",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 186,
+                    "indent": 4,
+                    "name": "_handle_usb_add_event"
+                }
+            },
+            "test_run_autobackup__success": {
+                "line": 114,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": "AutoBackupModule",
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "_run_autobackup"
+                }
+            },
+            "test_run_autobackup__fail_user": {
+                "line": 124,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": "AutoBackupModule",
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "_run_autobackup"
+                }
+            },
+            "test_run_autobackup__fail_other": {
+                "line": 132,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": "AutoBackupModule",
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "_run_autobackup"
+                }
+            },
+            "test_run_autobackup__fail_exception": {
+                "line": 140,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": "AutoBackupModule",
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "_run_autobackup"
+                }
+            },
+            "test_run_tasks": {
+                "line": 177,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": "TaskSchedulerModule",
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "run_tasks"
+                }
+            },
+            "test_run_tasks__new_task": {
+                "line": 246,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": "TaskSchedulerModule",
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "run_tasks"
+                }
+            },
+            "test_run_tasks__mail": {
+                "line": 290,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": "TaskSchedulerModule",
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "run_tasks"
+                }
+            }
+        }
+    }
+}

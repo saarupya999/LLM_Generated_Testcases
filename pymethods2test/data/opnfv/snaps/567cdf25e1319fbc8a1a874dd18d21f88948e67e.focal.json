@@ -1,0 +1,501 @@
+{
+    "snaps/tests/file_utils_tests.py": {
+        "focal_file": "snaps/file_utils.py",
+        "methods": {
+            "test_write_str_to_file": {
+                "line": 120,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "save_string_to_file"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_project_tests.py": {
+        "focal_file": "snaps/openstack/create_project.py",
+        "methods": {
+            "test_update_quotas": {
+                "line": 218,
+                "line_end": 260,
+                "indent": 4,
+                "focal_class": "OpenStackProject",
+                "focal_method": {
+                    "line": 204,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "update_network_quotas"
+                }
+            },
+            "test_create_project_sec_grp_one_user": {
+                "line": 303,
+                "line_end": 332,
+                "indent": 4,
+                "focal_class": "OpenStackProject",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "assoc_user"
+                }
+            },
+            "test_create_project_sec_grp_two_users": {
+                "line": 334,
+                "line_end": 375,
+                "indent": 4,
+                "focal_class": "OpenStackProject",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "assoc_user"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_network_tests.py": {
+        "focal_file": "snaps/openstack/create_network.py",
+        "methods": {
+            "test_create_networks_same_name": {
+                "line": 477,
+                "line_end": 492,
+                "indent": 4,
+                "focal_class": "OpenStackNetwork",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "get_network"
+                }
+            },
+            "test_create_network_one_ipv6_subnet": {
+                "line": 730,
+                "line_end": 758,
+                "indent": 4,
+                "focal_class": "OpenStackNetwork",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "get_network"
+                }
+            },
+            "test_create_network_ipv4_ipv6_subnet": {
+                "line": 760,
+                "line_end": 802,
+                "indent": 4,
+                "focal_class": "OpenStackNetwork",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "get_network"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_security_group_tests.py": {
+        "focal_file": "snaps/openstack/create_security_group.py",
+        "methods": {
+            "test_create_group_without_rules": {
+                "line": 228,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_security_group.OpenStackSecurityGroup",
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "get_rules"
+                }
+            },
+            "test_create_delete_group": {
+                "line": 327,
+                "line_end": 350,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_security_group.OpenStackSecurityGroup",
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "get_security_group"
+                }
+            },
+            "test_add_rule": {
+                "line": 467,
+                "line_end": 511,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_security_group.OpenStackSecurityGroup",
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "add_rule"
+                }
+            },
+            "test_remove_rule_by_id": {
+                "line": 513,
+                "line_end": 563,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_security_group.OpenStackSecurityGroup",
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "remove_rule"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_instance_tests.py": {
+        "focal_file": "snaps/openstack/create_instance.py",
+        "methods": {
+            "test_create_delete_instance": {
+                "line": 489,
+                "line_end": 537,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 498,
+                    "line_end": 515,
+                    "indent": 4,
+                    "name": "vm_deleted"
+                }
+            },
+            "test_create_admin_instance": {
+                "line": 539,
+                "line_end": 585,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 373,
+                    "indent": 4,
+                    "name": "get_vm_inst"
+                }
+            },
+            "test_single_port_static": {
+                "line": 835,
+                "line_end": 865,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 382,
+                    "line_end": 409,
+                    "indent": 4,
+                    "name": "get_port_ip"
+                }
+            },
+            "test_ssh_client_fip_before_active": {
+                "line": 867,
+                "line_end": 900,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 517,
+                    "line_end": 533,
+                    "indent": 4,
+                    "name": "vm_active"
+                }
+            },
+            "test_ssh_client_fip_after_active": {
+                "line": 902,
+                "line_end": 937,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 517,
+                    "line_end": 533,
+                    "indent": 4,
+                    "name": "vm_active"
+                }
+            },
+            "test_ssh_client_fip_after_reboot": {
+                "line": 939,
+                "line_end": 993,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 786,
+                    "line_end": 795,
+                    "indent": 4,
+                    "name": "reboot"
+                }
+            },
+            "test_add_security_group": {
+                "line": 2013,
+                "line_end": 2045,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 746,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_security_group"
+                }
+            },
+            "test_add_invalid_security_group": {
+                "line": 2047,
+                "line_end": 2080,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 746,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_security_group"
+                }
+            },
+            "test_remove_security_group": {
+                "line": 2082,
+                "line_end": 2116,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 766,
+                    "line_end": 784,
+                    "indent": 4,
+                    "name": "remove_security_group"
+                }
+            },
+            "test_remove_security_group_never_added": {
+                "line": 2118,
+                "line_end": 2151,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 766,
+                    "line_end": 784,
+                    "indent": 4,
+                    "name": "remove_security_group"
+                }
+            },
+            "test_add_same_security_group": {
+                "line": 2153,
+                "line_end": 2187,
+                "indent": 4,
+                "focal_class": "OpenStackVmInstance",
+                "focal_method": {
+                    "line": 746,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "add_security_group"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_router_tests.py": {
+        "focal_file": "snaps/openstack/create_router.py",
+        "methods": {
+            "test_create_router_vanilla": {
+                "line": 153,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_router.OpenStackRouter",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "get_router"
+                }
+            },
+            "test_create_router_with_ext_port": {
+                "line": 433,
+                "line_end": 476,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_router.OpenStackRouter",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "get_router"
+                }
+            },
+            "test_router_create_by_admin_to_different_project": {
+                "line": 675,
+                "line_end": 700,
+                "indent": 4,
+                "focal_class": "OpenStackRouter",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "get_router"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_image_tests.py": {
+        "focal_file": "snaps/openstack/create_image.py",
+        "methods": {
+            "test_create_image_clean_url_properties": {
+                "line": 319,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_image.OpenStackImage",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "create"
+                }
+            },
+            "test_create_same_image": {
+                "line": 407,
+                "line_end": 431,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_image.OpenStackImage",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "get_image"
+                }
+            },
+            "test_create_three_part_image_from_url": {
+                "line": 590,
+                "line_end": 634,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_image.OpenStackImage",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "get_image"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_flavor_tests.py": {
+        "focal_file": "snaps/openstack/create_flavor.py",
+        "methods": {
+            "test_create_clean_flavor": {
+                "line": 320,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": "OpenStackFlavor",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "get_flavor"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_keypairs_tests.py": {
+        "focal_file": "snaps/openstack/create_keypairs.py",
+        "methods": {
+            "test_create_keypair_only": {
+                "line": 227,
+                "line_end": 238,
+                "indent": 4,
+                "focal_class": "OpenStackKeypair",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "get_keypair"
+                }
+            },
+            "test_create_keypair_large_key": {
+                "line": 240,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": "OpenStackKeypair",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "get_keypair"
+                }
+            },
+            "test_create_keypair_save_both": {
+                "line": 299,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": "OpenStackKeypair",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "get_keypair"
+                }
+            },
+            "test_create_keypair_from_file": {
+                "line": 330,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": "OpenStackKeypair",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "get_keypair"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_volume_type_tests.py": {
+        "focal_file": "snaps/openstack/create_volume_type.py",
+        "methods": {
+            "test_create_volume_type": {
+                "line": 144,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "get_volume_type"
+                }
+            },
+            "test_create_same_volume_type": {
+                "line": 188,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_volume_type.OpenStackVolumeType",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "get_volume_type"
+                }
+            },
+            "test_volume_type_with_qos": {
+                "line": 237,
+                "line_end": 261,
+                "indent": 4,
+                "focal_class": "OpenStackVolumeType",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "create"
+                }
+            }
+        }
+    },
+    "snaps/openstack/tests/create_qos_tests.py": {
+        "focal_file": "snaps/openstack/create_qos.py",
+        "methods": {
+            "test_create_same_qos": {
+                "line": 182,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": "snaps.openstack.create_qos.OpenStackQoS",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "create"
+                }
+            }
+        }
+    }
+}

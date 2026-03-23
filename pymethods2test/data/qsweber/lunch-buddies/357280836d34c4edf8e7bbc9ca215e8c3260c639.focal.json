@@ -1,0 +1,373 @@
+{
+    "tests/app/test_http.py": {
+        "focal_file": "src/lunch_buddies/app/http.py",
+        "methods": {
+            "test_validate_request_token": {
+                "line": 12,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "_validate_request_token"
+                }
+            },
+            "test_validate_request_token_finds_dev_token": {
+                "line": 20,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "_validate_request_token"
+                }
+            },
+            "test_validate_request_token_errors_if_does_not_match_either": {
+                "line": 29,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "_validate_request_token"
+                }
+            },
+            "test_validate_team": {
+                "line": 39,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "_validate_team"
+                }
+            }
+        }
+    },
+    "tests/clients/test_slack.py": {
+        "focal_file": "src/lunch_buddies/clients/slack.py",
+        "methods": {
+            "test_post_message": {
+                "line": 8,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": "SlackClient",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "post_message"
+                }
+            },
+            "test_post_message_fake_channel": {
+                "line": 22,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": "SlackClient",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "post_message"
+                }
+            },
+            "test_post_message_if_channel_exists": {
+                "line": 30,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": "SlackClient",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "post_message_if_channel_exists"
+                }
+            },
+            "test_post_message_if_channel_exists_fake_channel": {
+                "line": 44,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": "SlackClient",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "post_message_if_channel_exists"
+                }
+            }
+        }
+    },
+    "tests/actions/test_invoice.py": {
+        "focal_file": "src/lunch_buddies/actions/invoice.py",
+        "methods": {
+            "test_invoice": {
+                "line": 68,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "invoice"
+                }
+            },
+            "test_invoice_when_not_first_invoice": {
+                "line": 115,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "invoice"
+                }
+            },
+            "test_find_teams_eligible_for_invoicing": {
+                "line": 143,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "_find_teams_eligible_for_invoicing"
+                }
+            },
+            "test_find_teams_eligible_for_invoicing_created_at": {
+                "line": 184,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 82,
+                    "indent": 0,
+                    "name": "_find_teams_eligible_for_invoicing"
+                }
+            },
+            "test_get_polls_needing_invoice": {
+                "line": 207,
+                "line_end": 250,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "_get_polls_needing_invoice"
+                }
+            },
+            "test_get_unique_yes_users_from_polls": {
+                "line": 253,
+                "line_end": 268,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "_get_unique_yes_users_from_polls"
+                }
+            }
+        }
+    },
+    "tests/actions/test_bot.py": {
+        "focal_file": "src/lunch_buddies/actions/bot.py",
+        "methods": {
+            "test_parse_message": {
+                "line": 40,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "_parse_message"
+                }
+            },
+            "test_parse_raw_request": {
+                "line": 126,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "parse_raw_request"
+                }
+            },
+            "test_split_text": {
+                "line": 141,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "_split_text"
+                }
+            }
+        }
+    },
+    "tests/actions/test_create_poll.py": {
+        "focal_file": "src/lunch_buddies/actions/create_poll.py",
+        "methods": {
+            "test_create_poll": {
+                "line": 41,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "create_poll"
+                }
+            },
+            "test_create_poll_custom_times": {
+                "line": 88,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "create_poll"
+                }
+            },
+            "test_parse_message_text_two_options": {
+                "line": 309,
+                "line_end": 333,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "parse_message_text"
+                }
+            },
+            "test_parse_message_text": {
+                "line": 345,
+                "line_end": 364,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "parse_message_text"
+                }
+            },
+            "test_parse_message_text_group_multiple_times": {
+                "line": 371,
+                "line_end": 398,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "parse_message_text"
+                }
+            }
+        }
+    },
+    "tests/actions/test_close_poll.py": {
+        "focal_file": "src/lunch_buddies/actions/close_poll.py",
+        "methods": {
+            "test_close_poll": {
+                "line": 18,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "close_poll"
+                }
+            },
+            "test_get_groups": {
+                "line": 272,
+                "line_end": 283,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 150,
+                    "indent": 0,
+                    "name": "_get_groups"
+                }
+            },
+            "test_get_groups_large_input": {
+                "line": 286,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 150,
+                    "indent": 0,
+                    "name": "_get_groups"
+                }
+            },
+            "test_group_by_answer": {
+                "line": 306,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "_group_by_answer"
+                }
+            }
+        }
+    },
+    "tests/actions/test_get_summary.py": {
+        "focal_file": "src/lunch_buddies/actions/get_summary.py",
+        "methods": {
+            "test_get_summary_for_poll": {
+                "line": 14,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "_get_summary_for_poll"
+                }
+            },
+            "test_get_lookback_days": {
+                "line": 49,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_get_lookback_days"
+                }
+            }
+        }
+    }
+}

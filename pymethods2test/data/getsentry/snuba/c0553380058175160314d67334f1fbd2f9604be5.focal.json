@@ -1,0 +1,464 @@
+{
+    "tests/clusters/test_cluster.py": {
+        "focal_file": "snuba/clusters/cluster.py",
+        "methods": {
+            "test_get_local_nodes": {
+                "line": 118,
+                "line_end": 136,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 264,
+                    "indent": 4,
+                    "name": "get_local_nodes"
+                }
+            },
+            "test_cache_connections": {
+                "line": 139,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": "snuba.clusters.cluster.ClickhouseNode",
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "get_node_connection"
+                }
+            }
+        }
+    },
+    "tests/datasets/test_discover.py": {
+        "focal_file": "snuba/datasets/factory.py",
+        "methods": {
+            "test_data_source": {
+                "line": 152,
+                "line_end": 158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "get_dataset"
+                }
+            }
+        }
+    },
+    "tests/datasets/test_errors_replacer.py": {
+        "focal_file": "snuba/replacer.py",
+        "methods": {
+            "test_replace_group_process": {
+                "line": 204,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "process_message"
+                }
+            }
+        }
+    },
+    "tests/datasets/test_factory.py": {
+        "focal_file": "snuba/datasets/factory.py",
+        "methods": {
+            "test_get_dataset_name": {
+                "line": 11,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "get_dataset_name"
+                }
+            },
+            "test_dataset_load": {
+                "line": 20,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "get_dataset"
+                }
+            }
+        }
+    },
+    "tests/snapshots/test_snapshot_worker.py": {
+        "focal_file": "snuba/consumers/snapshot_worker.py",
+        "methods": {
+            "test_send_message": {
+                "line": 120,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": "SnapshotProcessor",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "process_message"
+                }
+            }
+        }
+    },
+    "tests/clickhouse/test_columns.py": {
+        "focal_file": "snuba/clickhouse/columns.py",
+        "methods": {
+            "test_methods": {
+                "line": 103,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": "ColumnType",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "set_modifiers"
+                }
+            }
+        }
+    },
+    "tests/state/test_rate_limit.py": {
+        "focal_file": "snuba/state/rate_limit.py",
+        "methods": {
+            "test_concurrent_limit": {
+                "line": 17,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "RateLimitAggregator",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "rate_limit"
+                }
+            },
+            "test_per_second_limit": {
+                "line": 55,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "RateLimitParameters",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "rate_limit"
+                }
+            },
+            "test_rate_limit_container": {
+                "line": 115,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "RateLimitStats",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_bypass_rate_limit": {
+                "line": 126,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "RateLimitParameters",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "rate_limit"
+                }
+            }
+        }
+    },
+    "tests/subscriptions/test_codecs.py": {
+        "focal_file": "snuba/subscriptions/codecs.py",
+        "methods": {
+            "test_encode": {
+                "line": 75,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": "SubscriptionDataCodec",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "encode"
+                }
+            },
+            "test_decode": {
+                "line": 114,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": "SubscriptionDataCodec",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "decode"
+                }
+            }
+        }
+    },
+    "tests/subscriptions/test_worker.py": {
+        "focal_file": "snuba/subscriptions/worker.py",
+        "methods": {
+            "test_handle_nan": {
+                "line": 266,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "handle_nan"
+                }
+            }
+        }
+    },
+    "tests/query/parser/test_conditions.py": {
+        "focal_file": "snuba/query/parser/conditions.py",
+        "methods": {
+            "test_conditions_expr": {
+                "line": 483,
+                "line_end": 487,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 229,
+                    "indent": 0,
+                    "name": "parse_conditions_to_expr"
+                }
+            },
+            "test_invalid_conditions": {
+                "line": 490,
+                "line_end": 498,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 229,
+                    "indent": 0,
+                    "name": "parse_conditions_to_expr"
+                }
+            }
+        }
+    },
+    "tests/query/parser/test_expressions.py": {
+        "focal_file": "snuba/query/parser/expressions.py",
+        "methods": {
+            "test_aggregation_parsing": {
+                "line": 229,
+                "line_end": 234,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 245,
+                    "indent": 0,
+                    "name": "parse_aggregation"
+                }
+            }
+        }
+    },
+    "tests/query/parser/test_functions.py": {
+        "focal_file": "snuba/query/parser/functions.py",
+        "methods": {
+            "test_complex_conditions_expr": {
+                "line": 371,
+                "line_end": 378,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 294,
+                    "indent": 0,
+                    "name": "parse_function_to_expr"
+                }
+            }
+        }
+    },
+    "tests/query/joins/test_subqueries.py": {
+        "focal_file": "snuba/query/joins/subquery_generator.py",
+        "methods": {
+            "test_subquery_generator": {
+                "line": 504,
+                "line_end": 528,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 317,
+                    "indent": 0,
+                    "name": "generate_subqueries"
+                }
+            }
+        }
+    },
+    "tests/query/joins/test_equivalence_adder.py": {
+        "focal_file": "snuba/query/joins/equivalence_adder.py",
+        "methods": {
+            "test_add_equivalent_condition": {
+                "line": 256,
+                "line_end": 276,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "add_equivalent_conditions"
+                }
+            }
+        }
+    },
+    "tests/query/processors/test_arrayjoin_optimizer.py": {
+        "focal_file": "snuba/query/processors/arrayjoin_keyvalue_optimizer.py",
+        "methods": {
+            "test_get_filtered_mapping_keys": {
+                "line": 156,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "get_filtered_mapping_keys"
+                }
+            }
+        }
+    },
+    "tests/web/test_views.py": {
+        "focal_file": "snuba/web/views.py",
+        "methods": {
+            "test_handle_invalid_query": {
+                "line": 26,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 203,
+                    "indent": 0,
+                    "name": "handle_invalid_query"
+                }
+            }
+        }
+    },
+    "tests/migrations/test_runner.py": {
+        "focal_file": "snuba/migrations/runner.py",
+        "methods": {
+            "test_get_status": {
+                "line": 40,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": "MigrationKey",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "get_status"
+                }
+            },
+            "test_show_all": {
+                "line": 57,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "show_all"
+                }
+            },
+            "test_run_migration": {
+                "line": 76,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "run_migration"
+                }
+            },
+            "test_reverse_migration": {
+                "line": 102,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "reverse_migration"
+                }
+            },
+            "test_get_pending_migrations": {
+                "line": 129,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": "MigrationKey",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 307,
+                    "indent": 4,
+                    "name": "_get_pending_migrations"
+                }
+            },
+            "test_run_all": {
+                "line": 137,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "run_all"
+                }
+            },
+            "test_version": {
+                "line": 168,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": "Runner",
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 339,
+                    "indent": 4,
+                    "name": "_get_next_version"
+                }
+            }
+        }
+    },
+    "tests/migrations/test_parse_schema.py": {
+        "focal_file": "snuba/migrations/parse_schema.py",
+        "methods": {
+            "test_parse_column": {
+                "line": 94,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "_get_column"
+                }
+            }
+        }
+    }
+}

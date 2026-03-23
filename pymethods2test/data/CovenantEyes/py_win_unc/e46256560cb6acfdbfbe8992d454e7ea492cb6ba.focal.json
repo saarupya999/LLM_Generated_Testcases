@@ -1,0 +1,308 @@
+{
+    "test/test_cleaners.py": {
+        "focal_file": "win_unc/cleaners.py",
+        "methods": {
+            "test_clean_drive_letter": {
+                "line": 7,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "clean_drive_letter"
+                }
+            },
+            "test_clean_username": {
+                "line": 14,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "clean_username"
+                }
+            },
+            "test_clean_unc_path": {
+                "line": 21,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "clean_unc_path"
+                }
+            }
+        }
+    },
+    "test/test_net_use_table.py": {
+        "focal_file": "win_unc/internal/net_use_table.py",
+        "methods": {
+            "test_empty_table": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "parse_net_use_table"
+                }
+            },
+            "test_valid_table": {
+                "line": 50,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "parse_net_use_table"
+                }
+            },
+            "test_get_mounted_paths": {
+                "line": 72,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": "NetUseTable",
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "get_connected_paths"
+                }
+            },
+            "test_get_connected_devices": {
+                "line": 83,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "NetUseTable",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "get_connected_devices"
+                }
+            },
+            "test_get_matching_rows_selecting": {
+                "line": 93,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "NetUseTable",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "get_matching_rows"
+                }
+            },
+            "test_get_matching_rows_local_comparisons": {
+                "line": 120,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "NetUseTable",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "get_matching_rows"
+                }
+            },
+            "test_get_matching_rows_remote_comparisons": {
+                "line": 130,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": "NetUseTable",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "get_matching_rows"
+                }
+            },
+            "test_get_matching_rows_status_comparisons": {
+                "line": 141,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "NetUseTable",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "get_matching_rows"
+                }
+            }
+        }
+    },
+    "test/test_sanitizors.py": {
+        "focal_file": "win_unc/sanitizors.py",
+        "methods": {
+            "test_sanitize_for_shell": {
+                "line": 7,
+                "line_end": 11,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 5,
+                    "indent": 0,
+                    "name": "sanitize_for_shell"
+                }
+            },
+            "test_sanitize_username": {
+                "line": 13,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 12,
+                    "indent": 0,
+                    "name": "sanitize_username"
+                }
+            },
+            "test_sanitize_path": {
+                "line": 20,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "sanitize_path"
+                }
+            },
+            "test_sanitize_unc_path": {
+                "line": 29,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "sanitize_unc_path"
+                }
+            },
+            "test_sanitize_file_name": {
+                "line": 38,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "sanitize_file_name"
+                }
+            }
+        }
+    },
+    "test/test_unc_directory.py": {
+        "focal_file": "win_unc/unc_directory.py",
+        "methods": {
+            "test_get_normalized_path": {
+                "line": 62,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "UncDirectory",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "get_normalized_path"
+                }
+            },
+            "test_get_auth_path": {
+                "line": 71,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "UncDirectory",
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "get_auth_path"
+                }
+            },
+            "test_is_unc_directory_string": {
+                "line": 82,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 118,
+                    "indent": 0,
+                    "name": "is_unc_directory_string"
+                }
+            },
+            "test_get_unc_directory_from_string": {
+                "line": 98,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "UncDirectory",
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "get_unc_directory_from_string"
+                }
+            }
+        }
+    },
+    "test/test_utils.py": {
+        "focal_file": "win_unc/internal/utils.py",
+        "methods": {
+            "test_not_": {
+                "line": 88,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "not_"
+                }
+            },
+            "test_rekey_dict": {
+                "line": 101,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "rekey_dict"
+                }
+            }
+        }
+    },
+    "test/win_test_disk_drive.py": {
+        "focal_file": "win_unc/disk_drive.py",
+        "methods": {
+            "test_get_available_disk_drive": {
+                "line": 8,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "get_available_disk_drive"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "tests/test_domain_model.py": {
+        "focal_file": "auto_changelog/domain_model.py",
+        "methods": {
+            "test_changelog_add_note_without_release": {
+                "line": 14,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": "Changelog",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "add_note"
+                }
+            },
+            "test_changelog_add_note": {
+                "line": 20,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": "Changelog",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "add_note"
+                }
+            },
+            "test_changelog_sorted_releases": {
+                "line": 39,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": "Changelog",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "add_release"
+                }
+            }
+        }
+    },
+    "tests/test_presenter.py": {
+        "focal_file": "auto_changelog/presenter.py",
+        "methods": {
+            "test_markdown_presenter_empty_changelog": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "present"
+                }
+            },
+            "test_markdown_presenter_changelog_with_features": {
+                "line": 41,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "present"
+                }
+            },
+            "test_markdown_presenter_changelog_with_fixes": {
+                "line": 69,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "present"
+                }
+            },
+            "test_markdown_presenter_changelog_custom_template_with_fixes": {
+                "line": 81,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": "MarkdownPresenter",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "present"
+                }
+            }
+        }
+    },
+    "tests/test_repository.py": {
+        "focal_file": "auto_changelog/repository.py",
+        "methods": {
+            "test_parse_conventional_commit_with_empty_message": {
+                "line": 155,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 232,
+                    "indent": 4,
+                    "name": "_parse_conventional_commit"
+                }
+            },
+            "test_get_remote_url": {
+                "line": 161,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": "GitRepository",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "_remote_url"
+                }
+            },
+            "test_issue_from_git_remote_url": {
+                "line": 174,
+                "line_end": 177,
+                "indent": 0,
+                "focal_class": "GitRepository",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "_issue_from_git_remote_url"
+                }
+            }
+        }
+    }
+}

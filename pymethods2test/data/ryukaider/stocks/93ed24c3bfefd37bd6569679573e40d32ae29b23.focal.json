@@ -1,0 +1,750 @@
+{
+    "tests/databases/test_postgres.py": {
+        "focal_file": "stocks/database/postgres.py",
+        "methods": {
+            "test_connect_no_inputs": {
+                "line": 84,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "connect"
+                }
+            },
+            "test_cursor": {
+                "line": 89,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "cursor"
+                }
+            },
+            "test_close_connection_valid_connection_and_cursor": {
+                "line": 100,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "close_connection"
+                }
+            },
+            "test_close_connection_valid_connection": {
+                "line": 104,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "close_connection"
+                }
+            },
+            "test_close_connection_invalid_connection": {
+                "line": 108,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "close_connection"
+                }
+            },
+            "test_get_version": {
+                "line": 113,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "get_version"
+                }
+            },
+            "test_database_exists": {
+                "line": 118,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "database_exists"
+                }
+            },
+            "test_database_doesnt_exist": {
+                "line": 122,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "database_exists"
+                }
+            },
+            "test_create_database": {
+                "line": 128,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "create_database"
+                }
+            },
+            "test_create_database_invalid_name": {
+                "line": 136,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "create_database"
+                }
+            },
+            "test_table_doesnt_exist": {
+                "line": 149,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "table_exists"
+                }
+            },
+            "test_table_exists_none": {
+                "line": 154,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "table_exists"
+                }
+            },
+            "test_table_exists": {
+                "line": 159,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "table_exists"
+                }
+            },
+            "test_create_table_no_columns": {
+                "line": 163,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "create_table"
+                }
+            },
+            "test_create_table_one_column": {
+                "line": 169,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "create_table"
+                }
+            },
+            "test_add_column": {
+                "line": 181,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "add_column"
+                }
+            },
+            "test_add_column_invalid": {
+                "line": 187,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "add_column"
+                }
+            },
+            "test_delete_column": {
+                "line": 191,
+                "line_end": 194,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "delete_column"
+                }
+            },
+            "test_delete_column_invalid": {
+                "line": 197,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "delete_column"
+                }
+            },
+            "test_insert_row": {
+                "line": 201,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "insert_row"
+                }
+            },
+            "test_insert_row_invalid": {
+                "line": 207,
+                "line_end": 210,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "insert_row"
+                }
+            },
+            "test_insert_row_dict": {
+                "line": 213,
+                "line_end": 215,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "insert_row_as_dict"
+                }
+            },
+            "test_insert_row_dict_apostrophe": {
+                "line": 218,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "insert_row_as_dict"
+                }
+            },
+            "test_insert_row_dict_numeric": {
+                "line": 225,
+                "line_end": 232,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "insert_row_as_dict"
+                }
+            },
+            "test_insert_row_dict_invalid": {
+                "line": 235,
+                "line_end": 237,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "insert_row_as_dict"
+                }
+            },
+            "test_update_row_numeric": {
+                "line": 245,
+                "line_end": 247,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "update_value"
+                }
+            },
+            "test_update_row_date": {
+                "line": 250,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "update_value"
+                }
+            },
+            "test_update_row_invalid": {
+                "line": 255,
+                "line_end": 256,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "update_value"
+                }
+            },
+            "test_remove_row": {
+                "line": 259,
+                "line_end": 265,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "remove_row"
+                }
+            },
+            "test_remove_row_invalid": {
+                "line": 268,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "remove_row"
+                }
+            },
+            "test_run_query": {
+                "line": 272,
+                "line_end": 274,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "run_query"
+                }
+            },
+            "test_run_query_invalid": {
+                "line": 277,
+                "line_end": 279,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "run_query"
+                }
+            },
+            "test_get_list_results": {
+                "line": 282,
+                "line_end": 286,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_list_results"
+                }
+            },
+            "test_get_list_results_invalid": {
+                "line": 289,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_list_results"
+                }
+            }
+        }
+    },
+    "tests/databases/tables/test_api_progress_table.py": {
+        "focal_file": "stocks/database/tables/api_progress_table.py",
+        "methods": {
+            "test_add_tickers": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "add_tickers"
+                }
+            },
+            "test_update_daily_history_progress": {
+                "line": 54,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "update_daily_history_progress"
+                }
+            },
+            "test_reset_daily_history_progress": {
+                "line": 62,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "reset_daily_history_progress"
+                }
+            },
+            "test_get_daily_history_progress": {
+                "line": 71,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "get_daily_history_progress"
+                }
+            },
+            "test_update_company_profile_progress": {
+                "line": 79,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "update_company_profile_progress"
+                }
+            },
+            "test_reset_company_profile_progress": {
+                "line": 87,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "reset_company_profile_progress"
+                }
+            },
+            "test_get_company_profile_progress": {
+                "line": 96,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "get_company_profile_progress"
+                }
+            }
+        }
+    },
+    "tests/databases/tables/test_yearly_history_table.py": {
+        "focal_file": "stocks/database/tables/table.py",
+        "methods": {
+            "test_exists": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_create": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "create"
+                }
+            }
+        }
+    },
+    "tests/web_apis/test_alpha_vantage.py": {
+        "focal_file": "stocks/web_apis/alpha_vantage.py",
+        "methods": {
+            "test_get_query": {
+                "line": 6,
+                "line_end": 11,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "_get_query"
+                }
+            },
+            "test_get_monthly_data": {
+                "line": 15,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "get_monthly_history"
+                }
+            }
+        }
+    },
+    "tests/web_apis/test_financial_modeling_prep.py": {
+        "focal_file": "stocks/web_apis/financial_modeling_prep.py",
+        "methods": {
+            "test_get_company_profile": {
+                "line": 6,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "get_company_profile"
+                }
+            },
+            "test_get_company_profile_invalid": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "get_company_profile"
+                }
+            },
+            "test_get_daily_price": {
+                "line": 33,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "get_daily_price"
+                }
+            },
+            "test_get_daily_price_invalid": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "get_daily_price"
+                }
+            }
+        }
+    },
+    "tests/web_apis/test_morningstar.py": {
+        "focal_file": "stocks/web_apis/morningstar.py",
+        "methods": {
+            "test_get_financial_data": {
+                "line": 6,
+                "line_end": 7,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 20,
+                    "indent": 0,
+                    "name": "get_financial_data"
+                }
+            },
+            "test_get_query": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "_get_query"
+                }
+            },
+            "test_convert_exchange": {
+                "line": 16,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "_convert_exchange"
+                }
+            }
+        }
+    },
+    "tests/web_apis/test_nasdaq.py": {
+        "focal_file": "stocks/web_apis/nasdaq.py",
+        "methods": {
+            "test_get_nasdaq_tickers": {
+                "line": 6,
+                "line_end": 8,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "get_nasdaq_tickers"
+                }
+            },
+            "test_get_nyse_tickers": {
+                "line": 12,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "get_nyse_tickers"
+                }
+            },
+            "test_get_all_tickers": {
+                "line": 17,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 10,
+                    "indent": 0,
+                    "name": "get_all_tickers"
+                }
+            }
+        }
+    },
+    "tests/web_apis/test_yahoo.py": {
+        "focal_file": "stocks/web_apis/yahoo.py",
+        "methods": {
+            "test_get_summary_data": {
+                "line": 6,
+                "line_end": 7,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "get_summary_data"
+                }
+            },
+            "test_get_eps_ttm": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "get_eps_ttm"
+                }
+            },
+            "test_get_eps_ttm_from_response": {
+                "line": 16,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "_get_eps_ttm_from_response"
+                }
+            },
+            "test_is_number": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "_is_number"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,327 @@
+{
+    "app/api/gotoposition/test_positionassembler.py": {
+        "focal_file": "app/api/gotoposition/positionassembler.py",
+        "methods": {
+            "test_given_valid_json_position_without_scaling_when_convert_position_from_dto_then_return_position": {
+                "line": 24,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "PositionAssembler",
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "convert_position_from_json"
+                }
+            },
+            "test_given_valid_json_position_with_scaling_when_convert_position_from_dto_then_return_position": {
+                "line": 37,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "PositionAssembler",
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "convert_position_from_json"
+                }
+            },
+            "test_given_no_theta_when_convert_position_from_dto_then_defaul_theta_value": {
+                "line": 50,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "PositionAssembler",
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "convert_position_from_json"
+                }
+            }
+        }
+    },
+    "app/domain/gameboard/test_gameboard.py": {
+        "focal_file": "app/domain/gameboard/gameboard.py",
+        "methods": {
+            "test_bad_position_on_coordinate_x_max": {
+                "line": 144,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": "domain.gameboard.gameboard.GameBoard",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_coordinate"
+                }
+            },
+            "test_bad_position_on_coordinate_y_max": {
+                "line": 153,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": "domain.gameboard.gameboard.GameBoard",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_coordinate"
+                }
+            },
+            "test_bad_position_on_coordinate_x_min": {
+                "line": 162,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": "domain.gameboard.gameboard.GameBoard",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_coordinate"
+                }
+            },
+            "test_bad_position_on_coordinate_y_min": {
+                "line": 171,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": "domain.gameboard.gameboard.GameBoard",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "get_coordinate"
+                }
+            }
+        }
+    },
+    "app/domain/gameboard/test_position.py": {
+        "focal_file": "app/domain/gameboard/position.py",
+        "methods": {
+            "test_renormalize_smaller": {
+                "line": 48,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "domain.gameboard.position.Position",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "renormalize"
+                }
+            },
+            "test_renormalize_larger": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "domain.gameboard.position.Position",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "renormalize"
+                }
+            },
+            "test_multiply": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "domain.gameboard.position.Position",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "multiply"
+                }
+            }
+        }
+    },
+    "app/domain/robot/task/test_taskfactory.py": {
+        "focal_file": "app/domain/robot/task/taskfactory.py",
+        "methods": {
+            "test_can_create_an_initial_orientation_task": {
+                "line": 23,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "create_initial_orientation_task"
+                }
+            },
+            "test_can_create_an_identify_antenna_task": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "create_indentify_antenna_task"
+                }
+            },
+            "test_can_create_a_receive_information_task": {
+                "line": 34,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "create_receive_informations_task"
+                }
+            },
+            "test_can_create_a_go_to_image_task": {
+                "line": 39,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "create_go_to_image_task"
+                }
+            },
+            "test_can_create_a_take_picture_task": {
+                "line": 44,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "create_take_picture_task"
+                }
+            },
+            "test_can_create_a_go_to_drawzone_task": {
+                "line": 49,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "create_go_to_drawzone_task"
+                }
+            },
+            "test_can_create_a_draw_task": {
+                "line": 54,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "create_draw_task"
+                }
+            },
+            "test_can_create_a_go_out_of_drawzone_task": {
+                "line": 59,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "create_go_out_of_drawzone_task"
+                }
+            },
+            "test_can_create_a_shut_down_red_led_task": {
+                "line": 64,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "create_shut_down_red_led_task"
+                }
+            },
+            "test_can_create_a_light_red_led_task": {
+                "line": 69,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "create_light_red_led_task"
+                }
+            },
+            "test_can_create_proxy_identify_antenna_task": {
+                "line": 74,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "create_proxy_identify_antenna_task"
+                }
+            },
+            "test_can_create_all_competition_tasks": {
+                "line": 79,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "create_competition_tasks"
+                }
+            }
+        }
+    },
+    "app/mcu/test_regulator.py": {
+        "focal_file": "app/mcu/regulator.py",
+        "methods": {
+            "test_is_arrived_far": {
+                "line": 66,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 218,
+                    "indent": 4,
+                    "name": "is_arrived"
+                }
+            },
+            "test_is_arrived_close": {
+                "line": 72,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 218,
+                    "indent": 4,
+                    "name": "is_arrived"
+                }
+            },
+            "test_set_speed": {
+                "line": 78,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "set_speed"
+                }
+            }
+        }
+    }
+}

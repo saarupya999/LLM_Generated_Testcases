@@ -1,0 +1,72 @@
+{
+    "tests/test_loss_loss.py": {
+        "focal_file": "seq2seq/loss/loss.py",
+        "methods": {
+            "test_loss_backward_WITH_NO_LOSS": {
+                "line": 33,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "Loss",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            },
+            "test_nllloss": {
+                "line": 46,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "NLLLoss",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_loss"
+                }
+            }
+        }
+    },
+    "tests/test_checkpoint.py": {
+        "focal_file": "seq2seq/util/checkpoint.py",
+        "methods": {
+            "test_get_latest_checkpoint": {
+                "line": 25,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "get_latest_checkpoint"
+                }
+            },
+            "test_save_checkpoint_calls_torch_save": {
+                "line": 37,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "Checkpoint",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_load": {
+                "line": 68,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    }
+}

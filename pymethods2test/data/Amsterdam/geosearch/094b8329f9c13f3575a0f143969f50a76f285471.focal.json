@@ -1,0 +1,265 @@
+{
+    "web/geosearch/tests/test_bag_dataset.py": {
+        "focal_file": "web/geosearch/datapunt_geosearch/datasource.py",
+        "methods": {
+            "test_query": {
+                "line": 8,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.BagDataSource",
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "query"
+                }
+            }
+        }
+    },
+    "web/geosearch/tests/test_biz_dataset.py": {
+        "focal_file": "web/geosearch/datapunt_geosearch/datasource.py",
+        "methods": {
+            "test_query": {
+                "line": 14,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "query"
+                }
+            }
+        }
+    },
+    "web/geosearch/tests/test_dataset_registry.py": {
+        "focal_file": "web/geosearch/datapunt_geosearch/registry.py",
+        "methods": {
+            "test_dataset_is_registered_for_each_dataset_in_metadata": {
+                "line": 19,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "register_dataset"
+                }
+            },
+            "test_init_dataset_creates_dataset_class": {
+                "line": 36,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "init_dataset"
+                }
+            },
+            "test_filter_datasets": {
+                "line": 150,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "filter_datasets"
+                }
+            },
+            "test_filter_datasets_with_scopes_no_scope_provided": {
+                "line": 160,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "filter_datasets"
+                }
+            },
+            "test_init_dataservices_dataset": {
+                "line": 207,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 220,
+                    "line_end": 272,
+                    "indent": 4,
+                    "name": "init_dataservices_datasets"
+                }
+            },
+            "test_init_dataservices_dataset_with_authorizations": {
+                "line": 239,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 220,
+                    "line_end": 272,
+                    "indent": 4,
+                    "name": "init_dataservices_datasets"
+                }
+            },
+            "test_register_external_dataset_registers_dataset": {
+                "line": 292,
+                "line_end": 301,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "register_external_dataset"
+                }
+            },
+            "test_register_external_dataset_creates_generator_for_external_datasource": {
+                "line": 303,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "register_external_dataset"
+                }
+            },
+            "test_register_external_dataset_respects_field_mappring": {
+                "line": 314,
+                "line_end": 325,
+                "indent": 4,
+                "focal_class": "DatasetRegistry",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "register_external_dataset"
+                }
+            }
+        }
+    },
+    "web/geosearch/tests/test_external_datasource.py": {
+        "focal_file": "web/geosearch/datapunt_geosearch/datasource.py",
+        "methods": {
+            "test_execute_queries_bypasses_x_and_y": {
+                "line": 28,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.ExternalDataSource",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "execute_queries"
+                }
+            },
+            "test_execute_queries_bypasses_limit_if_set": {
+                "line": 46,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.ExternalDataSource",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "execute_queries"
+                }
+            },
+            "test_execute_queries_bypasses_radius_if_set": {
+                "line": 67,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.ExternalDataSource",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "execute_queries"
+                }
+            },
+            "test_format_result_applies_field_mapping": {
+                "line": 136,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.ExternalDataSource",
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "format_result"
+                }
+            }
+        }
+    },
+    "web/geosearch/tests/test_monumenten_dataset.py": {
+        "focal_file": "web/geosearch/datapunt_geosearch/datasource.py",
+        "methods": {
+            "test_query": {
+                "line": 10,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.MonumentenDataSource",
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "query"
+                }
+            },
+            "test_query_pand": {
+                "line": 64,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.MonumentenDataSource",
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "query"
+                }
+            }
+        }
+    },
+    "web/geosearch/tests/test_munitie_dataset.py": {
+        "focal_file": "web/geosearch/datapunt_geosearch/datasource.py",
+        "methods": {
+            "test_query": {
+                "line": 8,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.BominslagMilieuDataSource",
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "query"
+                }
+            }
+        }
+    },
+    "web/geosearch/tests/test_nap_dataset.py": {
+        "focal_file": "web/geosearch/datapunt_geosearch/datasource.py",
+        "methods": {
+            "test_query": {
+                "line": 8,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "datapunt_geosearch.datasource.NapMeetboutenDataSource",
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "query"
+                }
+            }
+        }
+    }
+}

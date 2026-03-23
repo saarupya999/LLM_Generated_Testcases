@@ -1,0 +1,937 @@
+{
+    "pyci/tests/api/test_utils.py": {
+        "focal_file": "pyci/api/utils.py",
+        "methods": {
+            "test_generate_setup_py": {
+                "line": 33,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "generate_setup_py"
+                }
+            },
+            "test_validate_directory_exists": {
+                "line": 46,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "validate_directory_exists"
+                }
+            },
+            "test_validate_file_exists": {
+                "line": 57,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 109,
+                    "indent": 0,
+                    "name": "validate_file_exists"
+                }
+            },
+            "test_validate_file_does_not_exist": {
+                "line": 68,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "validate_file_does_not_exist"
+                }
+            },
+            "test_extract_version_from_setup_py_double_quotes": {
+                "line": 79,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 370,
+                    "indent": 0,
+                    "name": "extract_version_from_setup_py"
+                }
+            },
+            "test_extract_version_from_setup_py_single_quotes": {
+                "line": 93,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 370,
+                    "indent": 0,
+                    "name": "extract_version_from_setup_py"
+                }
+            },
+            "test_extract_version_from_setup_py_no_match": {
+                "line": 107,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 349,
+                    "line_end": 370,
+                    "indent": 0,
+                    "name": "extract_version_from_setup_py"
+                }
+            },
+            "test_get_python_executable": {
+                "line": 118,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 261,
+                    "indent": 0,
+                    "name": "get_python_executable"
+                }
+            },
+            "test_get_python_executable_from_pyinstaller": {
+                "line": 125,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 261,
+                    "indent": 0,
+                    "name": "get_python_executable"
+                }
+            },
+            "test_extract_links_no_matches": {
+                "line": 160,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "extract_links"
+                }
+            }
+        }
+    },
+    "pyci/tests/api/scm/test_gh.py": {
+        "focal_file": "pyci/api/scm/gh.py",
+        "methods": {
+            "test_validate_commit_via_issue": {
+                "line": 85,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "validate_commit"
+                }
+            },
+            "test_validate_commit_via_pull_request": {
+                "line": 90,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "validate_commit"
+                }
+            },
+            "test_generate_changelog_relative_to_release": {
+                "line": 97,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "create_release"
+                }
+            },
+            "test_generate_changelog_relative_to_commit": {
+                "line": 152,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "generate_changelog"
+                }
+            },
+            "test_generate_changelog_no_release": {
+                "line": 172,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "generate_changelog"
+                }
+            },
+            "test_upload_changelog_no_changelog": {
+                "line": 203,
+                "line_end": 206,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "upload_changelog"
+                }
+            },
+            "test_upload_changelog_no_release": {
+                "line": 209,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "upload_changelog"
+                }
+            },
+            "test_upload_changelog_non_existing_release": {
+                "line": 215,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "upload_changelog"
+                }
+            },
+            "test_upload_changelog": {
+                "line": 222,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "upload_changelog"
+                }
+            },
+            "test_generate_changelog_empty": {
+                "line": 252,
+                "line_end": 263,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "generate_changelog"
+                }
+            },
+            "test_delete_release_no_name": {
+                "line": 266,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 360,
+                    "indent": 4,
+                    "name": "delete_release"
+                }
+            },
+            "test_delete_release": {
+                "line": 273,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 360,
+                    "indent": 4,
+                    "name": "delete_release"
+                }
+            },
+            "test_delete_non_existing_release": {
+                "line": 285,
+                "line_end": 288,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 333,
+                    "line_end": 360,
+                    "indent": 4,
+                    "name": "delete_release"
+                }
+            },
+            "test_delete_tag_no_name": {
+                "line": 291,
+                "line_end": 294,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 387,
+                    "indent": 4,
+                    "name": "delete_tag"
+                }
+            },
+            "test_delete_tag": {
+                "line": 298,
+                "line_end": 306,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 387,
+                    "indent": 4,
+                    "name": "delete_tag"
+                }
+            },
+            "test_upload_asset_no_asset": {
+                "line": 315,
+                "line_end": 318,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "upload_asset"
+                }
+            },
+            "test_upload_asset_no_release": {
+                "line": 321,
+                "line_end": 324,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "upload_asset"
+                }
+            },
+            "test_upload_asset": {
+                "line": 339,
+                "line_end": 355,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "upload_asset"
+                }
+            },
+            "test_upload_asset_to_draft_release": {
+                "line": 359,
+                "line_end": 374,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "create_release"
+                }
+            },
+            "test_upload_asset_already_exists": {
+                "line": 378,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "create_release"
+                }
+            },
+            "test_bump_version": {
+                "line": 397,
+                "line_end": 410,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 389,
+                    "line_end": 431,
+                    "indent": 4,
+                    "name": "bump_version"
+                }
+            },
+            "test_bump_version_no_semantic": {
+                "line": 413,
+                "line_end": 416,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 389,
+                    "line_end": 431,
+                    "indent": 4,
+                    "name": "bump_version"
+                }
+            },
+            "test_set_version": {
+                "line": 426,
+                "line_end": 441,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 433,
+                    "line_end": 480,
+                    "indent": 4,
+                    "name": "set_version"
+                }
+            },
+            "test_set_version_same_version": {
+                "line": 445,
+                "line_end": 448,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 433,
+                    "line_end": 480,
+                    "indent": 4,
+                    "name": "set_version"
+                }
+            },
+            "test_get_release_no_release": {
+                "line": 451,
+                "line_end": 454,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 653,
+                    "line_end": 697,
+                    "indent": 4,
+                    "name": "get_release"
+                }
+            },
+            "test_get_release": {
+                "line": 458,
+                "line_end": 464,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 653,
+                    "line_end": 697,
+                    "indent": 4,
+                    "name": "get_release"
+                }
+            },
+            "test_get_release_doesnt_exist": {
+                "line": 467,
+                "line_end": 470,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 653,
+                    "line_end": 697,
+                    "indent": 4,
+                    "name": "get_release"
+                }
+            },
+            "test_close_issue_no_num": {
+                "line": 473,
+                "line_end": 476,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 609,
+                    "line_end": 651,
+                    "indent": 4,
+                    "name": "close_issue"
+                }
+            },
+            "test_close_issue_no_release": {
+                "line": 479,
+                "line_end": 482,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 609,
+                    "line_end": 651,
+                    "indent": 4,
+                    "name": "close_issue"
+                }
+            },
+            "test_close_issue": {
+                "line": 501,
+                "line_end": 516,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 609,
+                    "line_end": 651,
+                    "indent": 4,
+                    "name": "close_issue"
+                }
+            },
+            "test_detect_issues_direct": {
+                "line": 520,
+                "line_end": 531,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "detect_issues"
+                }
+            },
+            "test_detect_issues_via_pr": {
+                "line": 534,
+                "line_end": 540,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "detect_issues"
+                }
+            },
+            "test_detect_issues_no_issues": {
+                "line": 543,
+                "line_end": 547,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "detect_issues"
+                }
+            },
+            "test_detect_issues_sha_and_message": {
+                "line": 556,
+                "line_end": 559,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "detect_issues"
+                }
+            },
+            "test_create_release_no_setup_py": {
+                "line": 568,
+                "line_end": 572,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "create_release"
+                }
+            },
+            "test_create_release": {
+                "line": 576,
+                "line_end": 596,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "create_release"
+                }
+            },
+            "test_create_release_already_exists": {
+                "line": 600,
+                "line_end": 606,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "create_release"
+                }
+            },
+            "test_set_version_no_value": {
+                "line": 609,
+                "line_end": 612,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 433,
+                    "line_end": 480,
+                    "indent": 4,
+                    "name": "set_version"
+                }
+            },
+            "test_set_version_not_semantic": {
+                "line": 615,
+                "line_end": 618,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 433,
+                    "line_end": 480,
+                    "indent": 4,
+                    "name": "set_version"
+                }
+            },
+            "test_reset_branch_no_name": {
+                "line": 621,
+                "line_end": 624,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 502,
+                    "indent": 4,
+                    "name": "reset_branch"
+                }
+            },
+            "test_reset_branch_no_sha": {
+                "line": 627,
+                "line_end": 630,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 502,
+                    "indent": 4,
+                    "name": "reset_branch"
+                }
+            },
+            "test_reset_branch": {
+                "line": 646,
+                "line_end": 658,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 502,
+                    "indent": 4,
+                    "name": "reset_branch"
+                }
+            },
+            "test_reset_branch_already_at_sha": {
+                "line": 662,
+                "line_end": 665,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 502,
+                    "indent": 4,
+                    "name": "reset_branch"
+                }
+            },
+            "test_reset_branch_hard": {
+                "line": 669,
+                "line_end": 681,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 482,
+                    "line_end": 502,
+                    "indent": 4,
+                    "name": "reset_branch"
+                }
+            },
+            "test_create_branch_no_name": {
+                "line": 707,
+                "line_end": 710,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 537,
+                    "indent": 4,
+                    "name": "create_branch"
+                }
+            },
+            "test_create_branch_no_sha": {
+                "line": 713,
+                "line_end": 716,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 537,
+                    "indent": 4,
+                    "name": "create_branch"
+                }
+            },
+            "test_create_branch_sha_doesnt_exist": {
+                "line": 719,
+                "line_end": 722,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 537,
+                    "indent": 4,
+                    "name": "create_branch"
+                }
+            },
+            "test_create_branch": {
+                "line": 726,
+                "line_end": 733,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 537,
+                    "indent": 4,
+                    "name": "create_branch"
+                }
+            },
+            "test_create_branch_already_exists": {
+                "line": 736,
+                "line_end": 740,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 537,
+                    "indent": 4,
+                    "name": "create_branch"
+                }
+            },
+            "test_delete_branch_no_name": {
+                "line": 743,
+                "line_end": 746,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 565,
+                    "indent": 4,
+                    "name": "delete_branch"
+                }
+            },
+            "test_delete_branch_doesnt_exist": {
+                "line": 749,
+                "line_end": 752,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 565,
+                    "indent": 4,
+                    "name": "delete_branch"
+                }
+            },
+            "test_delete_branch": {
+                "line": 756,
+                "line_end": 765,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 565,
+                    "indent": 4,
+                    "name": "delete_branch"
+                }
+            }
+        }
+    },
+    "pyci/tests/api/package/test_packager.py": {
+        "focal_file": "pyci/api/package/packager.py",
+        "methods": {
+            "test_nsis": {
+                "line": 471,
+                "line_end": 480,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 311,
+                    "line_end": 492,
+                    "indent": 4,
+                    "name": "nsis"
+                }
+            }
+        }
+    },
+    "pyci/tests/api/ci/test_ci.py": {
+        "focal_file": "pyci/api/ci/ci.py",
+        "methods": {
+            "test_detect": {
+                "line": 142,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 273,
+                    "indent": 0,
+                    "name": "detect"
+                }
+            },
+            "test_validate_build_tag": {
+                "line": 173,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "validate_build"
+                }
+            },
+            "test_validate_build_branch": {
+                "line": 185,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "validate_build"
+                }
+            },
+            "test_validate_build": {
+                "line": 198,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "validate_build"
+                }
+            }
+        }
+    },
+    "pyci/tests/api/publish/test_pypi.py": {
+        "focal_file": "pyci/api/publish/pypi.py",
+        "methods": {
+            "test_upload": {
+                "line": 27,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "upload"
+                }
+            }
+        }
+    },
+    "pyci/tests/shell/test_secrets.py": {
+        "focal_file": "pyci/shell/secrets.py",
+        "methods": {
+            "test_github_access_token": {
+                "line": 44,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "github_access_token"
+                }
+            },
+            "test_github_access_token_none": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "github_access_token"
+                }
+            },
+            "test_twine_username": {
+                "line": 61,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "twine_username"
+                }
+            },
+            "test_twine_username_none": {
+                "line": 71,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "twine_username"
+                }
+            },
+            "test_twine_password": {
+                "line": 78,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "twine_password"
+                }
+            },
+            "test_twine_password_none": {
+                "line": 88,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "twine_password"
+                }
+            }
+        }
+    },
+    "pyci/tests/shell/commands/test_release.py": {
+        "focal_file": "pyci/tests/conftest.py",
+        "methods": {
+            "test_release": {
+                "line": 28,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 138,
+                    "indent": 8,
+                    "name": "run"
+                }
+            }
+        }
+    }
+}

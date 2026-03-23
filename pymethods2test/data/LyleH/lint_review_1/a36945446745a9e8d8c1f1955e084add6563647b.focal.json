@@ -1,0 +1,1297 @@
+{
+    "tests/test_config.py": {
+        "focal_file": "lintreview/config.py",
+        "methods": {
+            "test_linter_config_bad": {
+                "line": 70,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "linter_config"
+                }
+            },
+            "test_linter_config": {
+                "line": 75,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "linter_config"
+                }
+            },
+            "test_ignore_patterns": {
+                "line": 87,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "ignore_patterns"
+                }
+            },
+            "test_ignore_patterns_missing": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "ReviewConfig",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "ignore_patterns"
+                }
+            }
+        }
+    },
+    "tests/test_diff.py": {
+        "focal_file": "lintreview/diff.py",
+        "methods": {
+            "test_get_files__one_file": {
+                "line": 38,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "DiffCollection",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "get_files"
+                }
+            },
+            "test_get_files__two_files": {
+                "line": 46,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "DiffCollection",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "get_files"
+                }
+            },
+            "test_has_line_changed__no_file": {
+                "line": 76,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "DiffCollection",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "has_line_changed"
+                }
+            },
+            "test_has_line_changed__no_line": {
+                "line": 138,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "has_line_changed"
+                }
+            },
+            "test_has_line_changed__two_files": {
+                "line": 86,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "DiffCollection",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "has_line_changed"
+                }
+            },
+            "test_has_line_changed__added_only": {
+                "line": 141,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "has_line_changed"
+                }
+            },
+            "test_has_line_changed__not_find_deletes": {
+                "line": 146,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": "Diff",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "has_line_changed"
+                }
+            },
+            "test_has_line_changed__blocks_offset": {
+                "line": 157,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": "Diff",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "has_line_changed"
+                }
+            }
+        }
+    },
+    "tests/test_processor.py": {
+        "focal_file": "lintreview/processor.py",
+        "methods": {
+            "test_load_changes": {
+                "line": 25,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "Processor",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "load_changes"
+                }
+            },
+            "test_run_tools__no_changes": {
+                "line": 36,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "Processor",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "run_tools"
+                }
+            },
+            "test_run_tools": {
+                "line": 44,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "Processor",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "run_tools"
+                }
+            },
+            "test_publish": {
+                "line": 56,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "Processor",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "publish"
+                }
+            }
+        }
+    },
+    "tests/test_repo.py": {
+        "focal_file": "lintreview/repo.py",
+        "methods": {
+            "test_repository": {
+                "line": 24,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "GithubRepository",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "repository"
+                }
+            },
+            "test_pull_request": {
+                "line": 34,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "GithubRepository",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "pull_request"
+                }
+            },
+            "test_ensure_label__missing": {
+                "line": 43,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "GithubRepository",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "ensure_label"
+                }
+            },
+            "test_ensure_label__exists": {
+                "line": 55,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "GithubRepository",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "ensure_label"
+                }
+            },
+            "test_create_status": {
+                "line": 65,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": "GithubRepository",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "create_status"
+                }
+            },
+            "test_add_label": {
+                "line": 123,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "GithubPullRequest",
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "add_label"
+                }
+            },
+            "test_create_comment": {
+                "line": 138,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": "GithubPullRequest",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "create_comment"
+                }
+            },
+            "test_create_review_comment": {
+                "line": 146,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": "GithubPullRequest",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "create_review_comment"
+                }
+            }
+        }
+    },
+    "tests/tools/test_commitcheck.py": {
+        "focal_file": "lintreview/tools/commitcheck.py",
+        "methods": {
+            "test_execute_commits__no_pattern": {
+                "line": 18,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "execute_commits"
+                }
+            },
+            "test_execute_commits__broken_regex": {
+                "line": 23,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "execute_commits"
+                }
+            },
+            "test_execute_commits__match": {
+                "line": 28,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "execute_commits"
+                }
+            },
+            "test_execute_commits__no_match": {
+                "line": 37,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "execute_commits"
+                }
+            },
+            "test_execute_commits__custom_message": {
+                "line": 48,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "execute_commits"
+                }
+            }
+        }
+    },
+    "tests/tools/test_csslint.py": {
+        "focal_file": "lintreview/tools/csslint.py",
+        "methods": {
+            "test_match_file": {
+                "line": 26,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_check_dependencies": {
+                "line": 34,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "check_dependencies"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 38,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 43,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 60,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 69,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "Csslint",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_eslint.py": {
+        "focal_file": "lintreview/tools/eslint.py",
+        "methods": {
+            "test_match_file": {
+                "line": 28,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_check_dependencies": {
+                "line": 36,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "check_dependencies"
+                }
+            },
+            "test_process_files_pass": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_fail": {
+                "line": 45,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_no_config": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "Eslint",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 67,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "Eslint",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_flake8.py": {
+        "focal_file": "lintreview/tools/flake8.py",
+        "methods": {
+            "test_match_file": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 30,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 45,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_config_options_and_process_file": {
+                "line": 63,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "Flake8",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_foodcritic.py": {
+        "focal_file": "lintreview/tools/foodcritic.py",
+        "methods": {
+            "test_process_cookbook_fail": {
+                "line": 30,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": "Foodcritic",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_jscs.py": {
+        "focal_file": "lintreview/tools/jscs.py",
+        "methods": {
+            "test_match_file": {
+                "line": 26,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_check_dependencies": {
+                "line": 34,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "check_dependencies"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 38,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 43,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 57,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 66,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "Jscs",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_jshint.py": {
+        "focal_file": "lintreview/tools/jshint.py",
+        "methods": {
+            "test_match_file": {
+                "line": 27,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_check_dependencies": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "check_dependencies"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 44,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__multiple_error": {
+                "line": 57,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 70,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 79,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "Jshint",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_jsonlint.py": {
+        "focal_file": "lintreview/tools/jsonlint.py",
+        "methods": {
+            "test_match_file": {
+                "line": 20,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 31,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_three_files": {
+                "line": 50,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_pep8.py": {
+        "focal_file": "lintreview/tools/pep8.py",
+        "methods": {
+            "test_match_file": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 30,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 42,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_config_options_and_process_file": {
+                "line": 55,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "Pep8",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_phpcs.py": {
+        "focal_file": "lintreview/tools/phpcs.py",
+        "methods": {
+            "test_match_file": {
+                "line": 25,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_check_dependencies": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "check_dependencies"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 42,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 63,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 72,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": "Phpcs",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_puppet.py": {
+        "focal_file": "lintreview/tools/puppet.py",
+        "methods": {
+            "test_match_file": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 33,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 38,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 50,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_rubocop.py": {
+        "focal_file": "lintreview/tools/rubocop.py",
+        "methods": {
+            "test_match_file": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 33,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 38,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 51,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_sasslint.py": {
+        "focal_file": "lintreview/tools/sasslint.py",
+        "methods": {
+            "test_match_file": {
+                "line": 26,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_check_dependencies": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "check_dependencies"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 44,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 56,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 76,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "Sasslint",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_shellcheck.py": {
+        "focal_file": "lintreview/tools/shellcheck.py",
+        "methods": {
+            "test_match_file": {
+                "line": 25,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_check_dependencies": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "check_dependencies"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 42,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 65,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 74,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "Shellcheck",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    },
+    "tests/tools/test_yamllint.py": {
+        "focal_file": "lintreview/tools/yamllint.py",
+        "methods": {
+            "test_match_file": {
+                "line": 19,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "match_file"
+                }
+            },
+            "test_process_files__one_file_pass": {
+                "line": 28,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files__one_file_fail": {
+                "line": 32,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_two_files": {
+                "line": 48,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            },
+            "test_process_files_with_config": {
+                "line": 67,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": "Yamllint",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "process_files"
+                }
+            }
+        }
+    }
+}

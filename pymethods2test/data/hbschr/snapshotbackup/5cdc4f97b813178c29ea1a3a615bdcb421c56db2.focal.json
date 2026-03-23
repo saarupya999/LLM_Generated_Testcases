@@ -1,0 +1,716 @@
+{
+    "tests/test_subprocess.py": {
+        "focal_file": "snapshotbackup/subprocess.py",
+        "methods": {
+            "test_is_reachable": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "is_reachable"
+                }
+            },
+            "test_is_reachable_ssh": {
+                "line": 35,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "is_reachable"
+                }
+            },
+            "test_create_subvolume": {
+                "line": 80,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "create_subvolume"
+                }
+            },
+            "test_delete_subvolume": {
+                "line": 86,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "delete_subvolume"
+                }
+            },
+            "test_make_snapshot": {
+                "line": 92,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "make_snapshot"
+                }
+            },
+            "test_is_btrfs": {
+                "line": 108,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "is_btrfs"
+                }
+            },
+            "test_btrfs_sync": {
+                "line": 120,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "btrfs_sync"
+                }
+            }
+        }
+    },
+    "tests/test_worker.py": {
+        "focal_file": "snapshotbackup/worker.py",
+        "methods": {
+            "test_worker_assert_syncdir_noop": {
+                "line": 16,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "_assert_syncdir"
+                }
+            },
+            "test_worker_assert_syncdir_create": {
+                "line": 25,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "_assert_syncdir"
+                }
+            },
+            "test_worker_assert_syncdir_recover": {
+                "line": 35,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "_assert_syncdir"
+                }
+            },
+            "test_worker_setup": {
+                "line": 46,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_worker_make_backup": {
+                "line": 55,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "make_backup"
+                }
+            },
+            "test_worker_make_backup_failed": {
+                "line": 69,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "make_backup"
+                }
+            },
+            "test_worker_make_backup_dry_run": {
+                "line": 79,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "make_backup"
+                }
+            },
+            "test_worker_make_backup_autodecay": {
+                "line": 96,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "make_backup"
+                }
+            },
+            "test_worker_make_backup_autoprune": {
+                "line": 111,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "make_backup"
+                }
+            },
+            "test_worker_get_backups": {
+                "line": 124,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "get_backups"
+                }
+            },
+            "test_worker_get_backups_missing_branch": {
+                "line": 136,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "get_backups"
+                }
+            },
+            "test_worker_get_last": {
+                "line": 142,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "get_last"
+                }
+            },
+            "test_worker_decay_backups_empty_list": {
+                "line": 153,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "decay_backups"
+                }
+            },
+            "test_worker_decay_backups_nothing_to_do": {
+                "line": 163,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "decay_backups"
+                }
+            },
+            "test_worker_decay_backups_approved": {
+                "line": 173,
+                "line_end": 180,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "decay_backups"
+                }
+            },
+            "test_worker_decay_backups_rejected": {
+                "line": 184,
+                "line_end": 189,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "decay_backups"
+                }
+            },
+            "test_worker_decay_backups_filters_list": {
+                "line": 193,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "decay_backups"
+                }
+            },
+            "test_worker_prune_backups_empty_list": {
+                "line": 204,
+                "line_end": 210,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "prune_backups"
+                }
+            },
+            "test_worker_prune_backups_nothing_to_do": {
+                "line": 214,
+                "line_end": 220,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "prune_backups"
+                }
+            },
+            "test_worker_prune_backups_approved": {
+                "line": 224,
+                "line_end": 231,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "prune_backups"
+                }
+            },
+            "test_worker_prune_backups_rejected": {
+                "line": 235,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "prune_backups"
+                }
+            },
+            "test_worker_prune_backups_filters_list": {
+                "line": 244,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "prune_backups"
+                }
+            },
+            "test_worker_delete_syncdir": {
+                "line": 256,
+                "line_end": 260,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "delete_syncdir"
+                }
+            },
+            "test_worker_delete_syncdir_noop": {
+                "line": 264,
+                "line_end": 267,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "delete_syncdir"
+                }
+            },
+            "test_worker_destroy_volume": {
+                "line": 272,
+                "line_end": 280,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "destroy_volume"
+                }
+            },
+            "test_worker_destroy_volume_rejected": {
+                "line": 285,
+                "line_end": 290,
+                "indent": 0,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "destroy_volume"
+                }
+            }
+        }
+    },
+    "tests/test_cache.py": {
+        "focal_file": "snapshotbackup/cache.py",
+        "methods": {
+            "test_get_stats_parser": {
+                "line": 16,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "_get_stats_parser"
+                }
+            },
+            "test_get_last_run": {
+                "line": 22,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_last_run"
+                }
+            },
+            "test_set_last_run": {
+                "line": 31,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "set_last_run"
+                }
+            },
+            "test_set_last_run_section_exists": {
+                "line": 37,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "set_last_run"
+                }
+            }
+        }
+    },
+    "tests/test_volume.py": {
+        "focal_file": "snapshotbackup/volume.py",
+        "methods": {
+            "test_btrfs_volume_assure_btrfs": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": "BtrfsVolume",
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "_assure_btrfs"
+                }
+            },
+            "test_btrfs_volume_assure_btrfs_fail": {
+                "line": 20,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": "BtrfsVolume",
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "_assure_btrfs"
+                }
+            },
+            "test_btrfs_volume_create_subvolume": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": "BtrfsVolume",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "create_subvolume"
+                }
+            },
+            "test_btrfs_volume_delete_subvolume": {
+                "line": 39,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": "BtrfsVolume",
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "delete_subvolume"
+                }
+            },
+            "test_btrfs_volume_make_snapshot_readonly": {
+                "line": 49,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": "BtrfsVolume",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "make_snapshot"
+                }
+            },
+            "test_btrfs_volume_make_snapshot_writable": {
+                "line": 61,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": "BtrfsVolume",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "make_snapshot"
+                }
+            }
+        }
+    },
+    "tests/test_config.py": {
+        "focal_file": "snapshotbackup/config.py",
+        "methods": {
+            "test_config_given": {
+                "line": 22,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "_get_config_file"
+                }
+            },
+            "test_config": {
+                "line": 30,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "_get_config_file"
+                }
+            }
+        }
+    },
+    "tests/test_main.py": {
+        "focal_file": "snapshotbackup/__init__.py",
+        "methods": {
+            "test_yes_no_prompt": {
+                "line": 49,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "_yes_no_prompt"
+                }
+            },
+            "test_list_backups": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "list_backups"
+                }
+            },
+            "test_notify": {
+                "line": 136,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": "snapshotbackup.CliApp",
+                "focal_method": {
+                    "line": 239,
+                    "line_end": 246,
+                    "indent": 4,
+                    "name": "notify"
+                }
+            },
+            "test_main": {
+                "line": 16,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "main"
+                }
+            },
+            "test_get_journald_handler": {
+                "line": 85,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "_get_journald_handler"
+                }
+            },
+            "test_get_journald_handler_fail": {
+                "line": 90,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "_get_journald_handler"
+                }
+            },
+            "test_configure_logger": {
+                "line": 95,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "_configure_logger"
+                }
+            },
+            "test_configure_logger_journald": {
+                "line": 102,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "_configure_logger"
+                }
+            },
+            "test_configure_logger_import_fail": {
+                "line": 110,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "_configure_logger"
+                }
+            },
+            "test_configure_logger_debug_level_fail": {
+                "line": 116,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "_configure_logger"
+                }
+            },
+            "test_delete_backup_prompt": {
+                "line": 121,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 321,
+                    "indent": 4,
+                    "name": "delete_backup_prompt"
+                }
+            },
+            "test_cli_app_main": {
+                "line": 130,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "_main"
+                }
+            }
+        }
+    }
+}

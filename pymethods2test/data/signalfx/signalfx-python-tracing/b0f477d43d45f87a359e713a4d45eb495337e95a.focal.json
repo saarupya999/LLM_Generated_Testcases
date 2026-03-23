@@ -1,0 +1,142 @@
+{
+    "tests/unit/test_utils.py": {
+        "focal_file": "signalfx_tracing/utils.py",
+        "methods": {
+            "test_mark_instrumented_and_uninstrumented": {
+                "line": 29,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "mark_uninstrumented"
+                }
+            },
+            "test_revert_wrapper": {
+                "line": 66,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "revert_wrapper"
+                }
+            },
+            "test_is_truthy": {
+                "line": 81,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "is_truthy"
+                }
+            },
+            "test_tracer_proxy": {
+                "line": 105,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": "signalfx_tracing.utils.TracerProxy",
+                "focal_method": {
+                    "line": 237,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "set_tracer"
+                }
+            }
+        }
+    },
+    "tests/unit/test_instrument.py": {
+        "focal_file": "signalfx_tracing/instrumentation.py",
+        "methods": {
+            "test_env_var_disables_instrument": {
+                "line": 178,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "instrument"
+                }
+            },
+            "test_env_var_disables_prevents_auto_instrument": {
+                "line": 194,
+                "line_end": 208,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "auto_instrument"
+                }
+            },
+            "test_instrumentation_env_var_disabled_prevents_auto_instrument": {
+                "line": 213,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "auto_instrument"
+                }
+            }
+        }
+    },
+    "tests/unit/libraries/tornado_/test_tornado.py": {
+        "focal_file": "signalfx_tracing/libraries/tornado_/instrument.py",
+        "methods": {
+            "test_uninstrument_application": {
+                "line": 148,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "uninstrument"
+                }
+            },
+            "test_uninstrument_client": {
+                "line": 189,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "uninstrument"
+                }
+            }
+        }
+    },
+    "tests/unit/libraries/flask_/test_flask.py": {
+        "focal_file": "signalfx_tracing/libraries/flask_/instrument.py",
+        "methods": {
+            "test_uninstrument_reverts_wrapper": {
+                "line": 113,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "uninstrument"
+                }
+            }
+        }
+    }
+}

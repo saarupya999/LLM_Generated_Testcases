@@ -1,0 +1,113 @@
+{
+    "application/tests/app_test.py": {
+        "focal_file": "application/data_access/database.py",
+        "methods": {
+            "test_should_maintain_connection_to_the_same_db_over_multiple_calls_to_get_db": {
+                "line": 11,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 8,
+                    "indent": 0,
+                    "name": "get_db"
+                }
+            },
+            "test_should_maintain_state_across_multiple_calls_to_get_db": {
+                "line": 16,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 8,
+                    "indent": 0,
+                    "name": "get_db"
+                }
+            }
+        }
+    },
+    "application/tests/models_tests/data_server_test.py": {
+        "focal_file": "application/models/data_server.py",
+        "methods": {
+            "test_should_find_series_by_id": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "find_series_by_id"
+                }
+            },
+            "test_should_add_data_point_to_a_specified_series": {
+                "line": 52,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "add_data_point_to_series"
+                }
+            },
+            "test_should_get_a_series_given_a_series_id": {
+                "line": 60,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_series"
+                }
+            }
+        }
+    },
+    "application/tests/models_tests/series_test.py": {
+        "focal_file": "application/models/series.py",
+        "methods": {
+            "test_should_accept_data_points": {
+                "line": 15,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "get_data_point"
+                }
+            },
+            "test_should_get_oldest_data_point_first": {
+                "line": 21,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "get_data_point"
+                }
+            },
+            "test_should_remove_data_point_after_get_data_point": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "get_data_point"
+                }
+            }
+        }
+    }
+}

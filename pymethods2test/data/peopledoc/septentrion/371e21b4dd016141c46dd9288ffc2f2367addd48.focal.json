@@ -1,0 +1,664 @@
+{
+    "tests/integration/test_db.py": {
+        "focal_file": "septentrion/db.py",
+        "methods": {
+            "test_execute": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "execute"
+                }
+            },
+            "test_write_migration": {
+                "line": 27,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 180,
+                    "indent": 0,
+                    "name": "write_migration"
+                }
+            }
+        }
+    },
+    "tests/integration/test_files.py": {
+        "focal_file": "septentrion/files.py",
+        "methods": {
+            "test_iter_dirs": {
+                "line": 6,
+                "line_end": 10,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 12,
+                    "indent": 0,
+                    "name": "iter_dirs"
+                }
+            },
+            "test_iter_files": {
+                "line": 16,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "iter_files"
+                }
+            }
+        }
+    },
+    "tests/unit/test_db.py": {
+        "focal_file": "septentrion/db.py",
+        "methods": {
+            "test_get_applied_versions": {
+                "line": 9,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "get_applied_versions"
+                }
+            },
+            "test_get_applied_migrations": {
+                "line": 18,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_applied_migrations"
+                }
+            },
+            "test_get_current_schema_version": {
+                "line": 32,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_current_schema_version"
+                }
+            },
+            "test_is_schema_initialized": {
+                "line": 49,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 165,
+                    "indent": 0,
+                    "name": "is_schema_initialized"
+                }
+            }
+        }
+    },
+    "tests/unit/test_version.py": {
+        "focal_file": "septentrion/versions.py",
+        "methods": {
+            "test_version_bad_string": {
+                "line": 13,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "from_string"
+                }
+            }
+        }
+    },
+    "tests/unit/test_core.py": {
+        "focal_file": "septentrion/core.py",
+        "methods": {
+            "test_get_applied_versions": {
+                "line": 17,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "get_applied_versions"
+                }
+            },
+            "test_get_closest_version_unknown_target_version": {
+                "line": 31,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_closest_version"
+                }
+            },
+            "test_get_closest_version_ok": {
+                "line": 46,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_closest_version"
+                }
+            },
+            "test_get_closest_version_schema_doesnt_exist": {
+                "line": 59,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_closest_version"
+                }
+            },
+            "test_get_closest_version_earlier_schema": {
+                "line": 73,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_closest_version"
+                }
+            },
+            "test_get_closest_version_schema_force_ko": {
+                "line": 87,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_closest_version"
+                }
+            },
+            "test_get_closest_version_schema_force_ok": {
+                "line": 103,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_closest_version"
+                }
+            },
+            "test_get_closest_version_schema_force_dont_exist": {
+                "line": 117,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_closest_version"
+                }
+            },
+            "test_get_best_schema_version_ok": {
+                "line": 132,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 109,
+                    "indent": 0,
+                    "name": "get_best_schema_version"
+                }
+            },
+            "test_get_best_schema_version_ko": {
+                "line": 146,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 109,
+                    "indent": 0,
+                    "name": "get_best_schema_version"
+                }
+            },
+            "test_build_migration_plan_unknown_version": {
+                "line": 159,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "build_migration_plan"
+                }
+            },
+            "test_build_migration_plan_ok": {
+                "line": 169,
+                "line_end": 225,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "build_migration_plan"
+                }
+            },
+            "test_build_migration_plan_db_uptodate": {
+                "line": 228,
+                "line_end": 244,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "build_migration_plan"
+                }
+            },
+            "test_build_migration_plan_with_schema": {
+                "line": 247,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "build_migration_plan"
+                }
+            },
+            "test_build_migration_plan_with_no_target_version": {
+                "line": 260,
+                "line_end": 271,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 181,
+                    "indent": 0,
+                    "name": "build_migration_plan"
+                }
+            }
+        }
+    },
+    "tests/unit/test_configuration.py": {
+        "focal_file": "septentrion/configuration.py",
+        "methods": {
+            "test_log_level": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "log_level"
+                }
+            },
+            "test_load_configuration_files_no_file": {
+                "line": 61,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 207,
+                    "indent": 0,
+                    "name": "load_configuration_files"
+                }
+            },
+            "test_load_configuration_files_value": {
+                "line": 79,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 207,
+                    "indent": 0,
+                    "name": "load_configuration_files"
+                }
+            },
+            "test_load_configuration_files_value_from_file": {
+                "line": 93,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 207,
+                    "indent": 0,
+                    "name": "load_configuration_files"
+                }
+            },
+            "test_load_configuration_files_default_files": {
+                "line": 111,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 207,
+                    "indent": 0,
+                    "name": "load_configuration_files"
+                }
+            }
+        }
+    },
+    "tests/unit/test_style.py": {
+        "focal_file": "septentrion/style.py",
+        "methods": {
+            "test_stylist_echo": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "echo"
+                }
+            },
+            "test_noop_stylist_echo": {
+                "line": 16,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "echo"
+                }
+            },
+            "test_draw_checkbox": {
+                "line": 31,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "draw_checkbox"
+                }
+            },
+            "test_checkbox": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "checkbox"
+                }
+            },
+            "test_activate": {
+                "line": 45,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "activate"
+                }
+            }
+        }
+    },
+    "tests/unit/test_utils.py": {
+        "focal_file": "septentrion/utils.py",
+        "methods": {
+            "test_is_version": {
+                "line": 7,
+                "line_end": 8,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "is_version"
+                }
+            },
+            "test_until": {
+                "line": 11,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "until"
+                }
+            }
+        }
+    },
+    "tests/unit/test_lib.py": {
+        "focal_file": "septentrion/lib.py",
+        "methods": {
+            "test_initialize_stylist": {
+                "line": 14,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "initialize"
+                }
+            },
+            "test_initialize_settings": {
+                "line": 18,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "initialize"
+                }
+            },
+            "test_initialize": {
+                "line": 22,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "initialize"
+                }
+            },
+            "test_migrate": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "migrate"
+                }
+            },
+            "test_fake": {
+                "line": 33,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "fake"
+                }
+            },
+            "test_show_migrations": {
+                "line": 43,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "show_migrations"
+                }
+            },
+            "test_is_schema_initialized": {
+                "line": 51,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "is_schema_initialized"
+                }
+            },
+            "test_build_migration_plan": {
+                "line": 59,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "build_migration_plan"
+                }
+            },
+            "test_load_fixtures": {
+                "line": 72,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "load_fixtures"
+                }
+            },
+            "test_get_known_versions": {
+                "line": 84,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "get_known_versions"
+                }
+            }
+        }
+    },
+    "tests/unit/test_files.py": {
+        "focal_file": "septentrion/files.py",
+        "methods": {
+            "test_is_manual_migration": {
+                "line": 17,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "is_manual_migration"
+                }
+            },
+            "test_get_special_files": {
+                "line": 27,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "get_special_files"
+                }
+            },
+            "test_get_known_versions": {
+                "line": 44,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "get_known_versions"
+                }
+            },
+            "test_get_known_versions_error": {
+                "line": 64,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "get_known_versions"
+                }
+            },
+            "test_get_migrations_files_mapping": {
+                "line": 72,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "get_migrations_files_mapping"
+                }
+            }
+        }
+    }
+}

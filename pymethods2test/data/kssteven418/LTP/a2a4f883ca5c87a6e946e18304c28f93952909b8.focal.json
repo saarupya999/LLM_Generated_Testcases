@@ -1,0 +1,1252 @@
+{
+    "examples/legacy/seq2seq/old_test_tatoeba_conversion.py": {
+        "focal_file": "src/transformers/models/marian/convert_marian_tatoeba_to_pytorch.py",
+        "methods": {
+            "test_model_card": {
+                "line": 36,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 234,
+                    "indent": 4,
+                    "name": "write_model_card"
+                }
+            }
+        }
+    },
+    "tests/test_activations.py": {
+        "focal_file": "src/transformers/activations.py",
+        "methods": {
+            "test_gelu_versions": {
+                "line": 29,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "_gelu_python"
+                }
+            },
+            "test_get_activation": {
+                "line": 35,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "get_activation"
+                }
+            }
+        }
+    },
+    "tests/test_activations_tf.py": {
+        "focal_file": "src/transformers/activations_tf.py",
+        "methods": {
+            "test_get_activation": {
+                "line": 27,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "get_tf_activation"
+                }
+            }
+        }
+    },
+    "tests/test_generation_stopping_criteria.py": {
+        "focal_file": "src/transformers/generation_stopping_criteria.py",
+        "methods": {
+            "test_validate_stopping_criteria": {
+                "line": 70,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "MaxLengthCriteria",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "validate_stopping_criteria"
+                }
+            }
+        }
+    },
+    "tests/test_generation_utils.py": {
+        "focal_file": "src/transformers/generation_utils.py",
+        "methods": {
+            "test_top_k_top_p_filtering": {
+                "line": 1213,
+                "line_end": 1311,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2419,
+                    "line_end": 2445,
+                    "indent": 0,
+                    "name": "top_k_top_p_filtering"
+                }
+            },
+            "test_max_length_backward_compat_sample": {
+                "line": 1369,
+                "line_end": 1390,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1355,
+                    "line_end": 1575,
+                    "indent": 4,
+                    "name": "sample"
+                }
+            },
+            "test_max_length_backward_compat_beam_search": {
+                "line": 1392,
+                "line_end": 1418,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1577,
+                    "line_end": 1836,
+                    "indent": 4,
+                    "name": "beam_search"
+                }
+            },
+            "test_max_length_backward_compat_group_beam_search": {
+                "line": 1420,
+                "line_end": 1450,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2109,
+                    "line_end": 2416,
+                    "indent": 4,
+                    "name": "group_beam_search"
+                }
+            }
+        }
+    },
+    "tests/test_hf_api.py": {
+        "focal_file": "src/transformers/hf_api.py",
+        "methods": {
+            "test_whoami": {
+                "line": 63,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "whoami"
+                }
+            },
+            "test_list_repos_objs": {
+                "line": 68,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "list_repos_objs"
+                }
+            },
+            "test_create_and_delete_repo": {
+                "line": 75,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "delete_repo"
+                }
+            },
+            "test_staging_model_list": {
+                "line": 81,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "HfApi",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "model_list"
+                }
+            },
+            "test_model_list": {
+                "line": 85,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "HfApi",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "model_list"
+                }
+            }
+        }
+    },
+    "tests/test_hf_argparser.py": {
+        "focal_file": "src/transformers/hf_argparser.py",
+        "methods": {
+            "test_parse_dict": {
+                "line": 208,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": "HfArgumentParser",
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "parse_dict"
+                }
+            }
+        }
+    },
+    "tests/test_model_card.py": {
+        "focal_file": "src/transformers/modelcard.py",
+        "methods": {
+            "test_model_card_to_json_string": {
+                "line": 58,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "to_json_string"
+                }
+            },
+            "test_model_card_to_json_file": {
+                "line": 64,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 220,
+                    "indent": 4,
+                    "name": "to_json_file"
+                }
+            },
+            "test_model_card_from_and_save_pretrained": {
+                "line": 74,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "save_pretrained"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_auto.py": {
+        "focal_file": "src/transformers/models/auto/modeling_auto.py",
+        "methods": {
+            "test_model_from_pretrained": {
+                "line": 78,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_model_for_pretraining_from_pretrained": {
+                "line": 92,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_lmhead_model_from_pretrained": {
+                "line": 109,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_sequence_classification_model_from_pretrained": {
+                "line": 157,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_question_answering_model_from_pretrained": {
+                "line": 171,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_table_question_answering_model_from_pretrained": {
+                "line": 184,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_token_classification_model_from_pretrained": {
+                "line": 198,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 781,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_bart.py": {
+        "focal_file": "src/transformers/models/bart/modeling_bart.py",
+        "methods": {
+            "test_shift_tokens_right": {
+                "line": 343,
+                "line_end": 350,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "shift_tokens_right"
+                }
+            },
+            "test_resize_tokens_embeddings_more": {
+                "line": 378,
+                "line_end": 392,
+                "indent": 4,
+                "focal_class": "BartForConditionalGeneration",
+                "focal_method": {
+                    "line": 1220,
+                    "line_end": 1223,
+                    "indent": 4,
+                    "name": "resize_token_embeddings"
+                }
+            },
+            "test_inputs_embeds": {
+                "line": 433,
+                "line_end": 460,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 847,
+                    "line_end": 848,
+                    "indent": 4,
+                    "name": "get_input_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_big_bird.py": {
+        "focal_file": "src/transformers/models/big_bird/modeling_big_bird.py",
+        "methods": {
+            "test_block_sparse_attention_probs": {
+                "line": 670,
+                "line_end": 733,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 502,
+                    "line_end": 946,
+                    "indent": 4,
+                    "name": "bigbird_block_sparse_attention"
+                }
+            },
+            "test_block_sparse_context_layer": {
+                "line": 735,
+                "line_end": 781,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2119,
+                    "line_end": 2153,
+                    "indent": 4,
+                    "name": "create_masks_for_block_sparse_attn"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_fsmt.py": {
+        "focal_file": "src/transformers/models/fsmt/modeling_fsmt.py",
+        "methods": {
+            "test_advanced_inputs": {
+                "line": 183,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": "FSMTModel",
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 319,
+                    "indent": 0,
+                    "name": "_prepare_fsmt_decoder_inputs"
+                }
+            },
+            "test_shift_tokens_right": {
+                "line": 321,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 363,
+                    "line_end": 369,
+                    "indent": 0,
+                    "name": "shift_tokens_right"
+                }
+            },
+            "test_prepare_fsmt_decoder_inputs": {
+                "line": 344,
+                "line_end": 356,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 319,
+                    "indent": 0,
+                    "name": "_prepare_fsmt_decoder_inputs"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_ibert.py": {
+        "focal_file": "src/transformers/models/ibert/modeling_ibert.py",
+        "methods": {
+            "test_create_position_ids_respects_padding_index": {
+                "line": 259,
+                "line_end": 276,
+                "indent": 4,
+                "focal_class": "IBertEmbeddings",
+                "focal_method": {
+                    "line": 1355,
+                    "line_end": 1369,
+                    "indent": 0,
+                    "name": "create_position_ids_from_input_ids"
+                }
+            },
+            "test_create_position_ids_from_inputs_embeds": {
+                "line": 278,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": "IBertEmbeddings",
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "create_position_ids_from_inputs_embeds"
+                }
+            },
+            "test_inputs_embeds": {
+                "line": 316,
+                "line_end": 344,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "get_input_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_led.py": {
+        "focal_file": "src/transformers/models/led/modeling_led.py",
+        "methods": {
+            "test_inputs_embeds": {
+                "line": 302,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2154,
+                    "line_end": 2155,
+                    "indent": 4,
+                    "name": "get_input_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_m2m_100.py": {
+        "focal_file": "src/transformers/models/m2m_100/modeling_m2m_100.py",
+        "methods": {
+            "test_inputs_embeds": {
+                "line": 248,
+                "line_end": 275,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1054,
+                    "line_end": 1055,
+                    "indent": 4,
+                    "name": "get_input_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_mbart.py": {
+        "focal_file": "src/transformers/models/mbart/modeling_mbart.py",
+        "methods": {
+            "test_inputs_embeds": {
+                "line": 251,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 855,
+                    "line_end": 856,
+                    "indent": 4,
+                    "name": "get_input_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_pibert.py": {
+        "focal_file": "src/transformers/models/ibert/modeling_ibert.py",
+        "methods": {
+            "test_create_position_ids_respects_padding_index": {
+                "line": 259,
+                "line_end": 276,
+                "indent": 4,
+                "focal_class": "IBertEmbeddings",
+                "focal_method": {
+                    "line": 1355,
+                    "line_end": 1369,
+                    "indent": 0,
+                    "name": "create_position_ids_from_input_ids"
+                }
+            },
+            "test_create_position_ids_from_inputs_embeds": {
+                "line": 278,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": "IBertEmbeddings",
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "create_position_ids_from_inputs_embeds"
+                }
+            },
+            "test_inputs_embeds": {
+                "line": 316,
+                "line_end": 344,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 764,
+                    "indent": 4,
+                    "name": "get_input_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_roberta.py": {
+        "focal_file": "src/transformers/models/roberta/modeling_roberta.py",
+        "methods": {
+            "test_create_position_ids_respects_padding_index": {
+                "line": 434,
+                "line_end": 451,
+                "indent": 4,
+                "focal_class": "RobertaEmbeddings",
+                "focal_method": {
+                    "line": 1494,
+                    "line_end": 1507,
+                    "indent": 0,
+                    "name": "create_position_ids_from_input_ids"
+                }
+            },
+            "test_create_position_ids_from_inputs_embeds": {
+                "line": 453,
+                "line_end": 473,
+                "indent": 4,
+                "focal_class": "RobertaEmbeddings",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "create_position_ids_from_inputs_embeds"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_speech_to_text.py": {
+        "focal_file": "src/transformers/models/speech_to_text/modeling_speech_to_text.py",
+        "methods": {
+            "test_resize_tokens_embeddings": {
+                "line": 473,
+                "line_end": 519,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1218,
+                    "line_end": 1220,
+                    "indent": 4,
+                    "name": "resize_token_embeddings"
+                }
+            },
+            "test_resize_embeddings_untied": {
+                "line": 521,
+                "line_end": 568,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1218,
+                    "line_end": 1220,
+                    "indent": 4,
+                    "name": "resize_token_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_tapas.py": {
+        "focal_file": "src/transformers/models/tapas/modeling_tapas.py",
+        "methods": {
+            "test_flatten": {
+                "line": 969,
+                "line_end": 986,
+                "indent": 4,
+                "focal_class": "IndexMap",
+                "focal_method": {
+                    "line": 1600,
+                    "line_end": 1626,
+                    "indent": 0,
+                    "name": "flatten"
+                }
+            },
+            "test_range_index_map": {
+                "line": 988,
+                "line_end": 1001,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1629,
+                    "line_end": 1667,
+                    "indent": 0,
+                    "name": "range_index_map"
+                }
+            },
+            "test_reduce_sum": {
+                "line": 1003,
+                "line_end": 1016,
+                "indent": 4,
+                "focal_class": "ProductIndexMap",
+                "focal_method": {
+                    "line": 1721,
+                    "line_end": 1745,
+                    "indent": 0,
+                    "name": "reduce_sum"
+                }
+            },
+            "test_reduce_mean": {
+                "line": 1018,
+                "line_end": 1036,
+                "indent": 4,
+                "focal_class": "ProductIndexMap",
+                "focal_method": {
+                    "line": 1748,
+                    "line_end": 1774,
+                    "indent": 0,
+                    "name": "reduce_mean"
+                }
+            },
+            "test_reduce_max": {
+                "line": 1038,
+                "line_end": 1044,
+                "indent": 4,
+                "focal_class": "IndexMap",
+                "focal_method": {
+                    "line": 1777,
+                    "line_end": 1801,
+                    "indent": 0,
+                    "name": "reduce_max"
+                }
+            },
+            "test_reduce_sum_vectorized": {
+                "line": 1046,
+                "line_end": 1056,
+                "indent": 4,
+                "focal_class": "IndexMap",
+                "focal_method": {
+                    "line": 1721,
+                    "line_end": 1745,
+                    "indent": 0,
+                    "name": "reduce_sum"
+                }
+            },
+            "test_gather": {
+                "line": 1058,
+                "line_end": 1073,
+                "indent": 4,
+                "focal_class": "ProductIndexMap",
+                "focal_method": {
+                    "line": 1567,
+                    "line_end": 1597,
+                    "indent": 0,
+                    "name": "gather"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_tf_auto.py": {
+        "focal_file": "src/transformers/models/auto/modeling_tf_auto.py",
+        "methods": {
+            "test_model_from_pretrained": {
+                "line": 65,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 535,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_model_for_pretraining_from_pretrained": {
+                "line": 81,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 535,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_lmhead_model_from_pretrained": {
+                "line": 109,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 535,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_sequence_classification_model_from_pretrained": {
+                "line": 144,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 535,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_question_answering_model_from_pretrained": {
+                "line": 156,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 528,
+                    "line_end": 535,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_transfo_xl.py": {
+        "focal_file": "src/transformers/models/transfo_xl/modeling_transfo_xl.py",
+        "methods": {
+            "test_resize_tokens_embeddings": {
+                "line": 240,
+                "line_end": 301,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 524,
+                    "line_end": 562,
+                    "indent": 4,
+                    "name": "resize_token_embeddings"
+                }
+            }
+        }
+    },
+    "tests/test_modeling_wav2vec2.py": {
+        "focal_file": "src/transformers/models/wav2vec2/modeling_wav2vec2.py",
+        "methods": {
+            "test_compute_mask_indices": {
+                "line": 457,
+                "line_end": 474,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "_compute_mask_indices"
+                }
+            },
+            "test_compute_mask_indices_overlap": {
+                "line": 476,
+                "line_end": 505,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "_compute_mask_indices"
+                }
+            }
+        }
+    },
+    "tests/test_retrieval_rag.py": {
+        "focal_file": "src/transformers/models/rag/retrieval_rag.py",
+        "methods": {
+            "test_canonical_hf_index_retriever_retrieve": {
+                "line": 212,
+                "line_end": 225,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 553,
+                    "indent": 4,
+                    "name": "retrieve"
+                }
+            },
+            "test_canonical_hf_index_retriever_save_and_from_pretrained": {
+                "line": 227,
+                "line_end": 239,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 430,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_custom_hf_index_retriever_retrieve": {
+                "line": 241,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 553,
+                    "indent": 4,
+                    "name": "retrieve"
+                }
+            },
+            "test_custom_hf_index_retriever_save_and_from_pretrained": {
+                "line": 256,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 430,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_custom_hf_index_retriever_retrieve_from_disk": {
+                "line": 268,
+                "line_end": 281,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 553,
+                    "indent": 4,
+                    "name": "retrieve"
+                }
+            },
+            "test_custom_hf_index_retriever_save_and_from_pretrained_from_disk": {
+                "line": 283,
+                "line_end": 293,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 432,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "save_pretrained"
+                }
+            },
+            "test_legacy_index_retriever_retrieve": {
+                "line": 295,
+                "line_end": 308,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 553,
+                    "indent": 4,
+                    "name": "retrieve"
+                }
+            },
+            "test_legacy_hf_index_retriever_save_and_from_pretrained": {
+                "line": 310,
+                "line_end": 320,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 430,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_auto.py": {
+        "focal_file": "src/transformers/models/auto/tokenization_auto.py",
+        "methods": {
+            "test_tokenizer_from_pretrained": {
+                "line": 44,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 436,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_tokenizer_from_pretrained_identifier": {
+                "line": 57,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 436,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_tokenizer_from_model_type": {
+                "line": 62,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 436,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            },
+            "test_tokenizer_from_tokenizer_class": {
+                "line": 67,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 436,
+                    "indent": 4,
+                    "name": "from_pretrained"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_bert.py": {
+        "focal_file": "src/transformers/models/bert/tokenization_bert.py",
+        "methods": {
+            "test_full_tokenizer": {
+                "line": 73,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 418,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_rust_and_python_full_tokenizers": {
+                "line": 80,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 418,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_bert_japanese.py": {
+        "focal_file": "src/transformers/models/bert_japanese/tokenization_bert_japanese.py",
+        "methods": {
+            "test_full_tokenizer": {
+                "line": 234,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_pickle_mecab_tokenizer": {
+                "line": 93,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_mecab_tokenizer_no_normalize": {
+                "line": 165,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": "MecabTokenizer",
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_lxmert.py": {
+        "focal_file": "src/transformers/models/bert/tokenization_bert.py",
+        "methods": {
+            "test_full_tokenizer": {
+                "line": 62,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 418,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_rust_and_python_full_tokenizers": {
+                "line": 69,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 418,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_m2m_100.py": {
+        "focal_file": "src/transformers/models/m2m_100/tokenization_m2m_100.py",
+        "methods": {
+            "test_as_target_tokenizer": {
+                "line": 182,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "as_target_tokenizer"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_mpnet.py": {
+        "focal_file": "src/transformers/models/mpnet/tokenization_mpnet.py",
+        "methods": {
+            "test_full_tokenizer": {
+                "line": 64,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 388,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_tapas.py": {
+        "focal_file": "src/transformers/models/tapas/tokenization_tapas.py",
+        "methods": {
+            "test_rust_and_python_full_tokenizers": {
+                "line": 144,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1993,
+                    "line_end": 2028,
+                    "indent": 4,
+                    "name": "tokenize"
+                }
+            },
+            "test_encode_plus_with_padding": {
+                "line": 452,
+                "line_end": 556,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 905,
+                    "line_end": 986,
+                    "indent": 4,
+                    "name": "encode_plus"
+                }
+            },
+            "test_batch_encode_plus_batch_sequence_length": {
+                "line": 680,
+                "line_end": 736,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 641,
+                    "line_end": 732,
+                    "indent": 4,
+                    "name": "batch_encode_plus"
+                }
+            },
+            "test_batch_encode_plus_padding": {
+                "line": 742,
+                "line_end": 797,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 641,
+                    "line_end": 732,
+                    "indent": 4,
+                    "name": "batch_encode_plus"
+                }
+            },
+            "test_batch_encode_plus_tensors": {
+                "line": 1080,
+                "line_end": 1125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 641,
+                    "line_end": 732,
+                    "indent": 4,
+                    "name": "batch_encode_plus"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_transfo_xl.py": {
+        "focal_file": "src/transformers/models/transfo_xl/tokenization_transfo_xl.py",
+        "methods": {
+            "test_move_added_token": {
+                "line": 120,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 373,
+                    "line_end": 398,
+                    "indent": 4,
+                    "name": "move_added_token"
+                }
+            }
+        }
+    },
+    "tests/test_tokenization_wav2vec2.py": {
+        "focal_file": "src/transformers/models/wav2vec2/tokenization_wav2vec2.py",
+        "methods": {
+            "test_get_vocab": {
+                "line": 246,
+                "line_end": 257,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "get_vocab"
+                }
+            }
+        }
+    },
+    "tests/test_trainer_callback.py": {
+        "focal_file": "src/transformers/trainer.py",
+        "methods": {
+            "test_add_remove_callback": {
+                "line": 157,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 466,
+                    "line_end": 475,
+                    "indent": 4,
+                    "name": "remove_callback"
+                }
+            }
+        }
+    }
+}

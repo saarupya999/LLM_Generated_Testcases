@@ -1,0 +1,200 @@
+{
+    "kubernetes/tests/test_deploy_operation.py": {
+        "focal_file": "kubernetes/src/domain/operations/deploy.py",
+        "methods": {
+            "test_get_environment_variables_dict_multi_env_vars": {
+                "line": 143,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "_get_environment_variables_dict"
+                }
+            },
+            "test_get_environment_variables_dict_single_env_var_with_extra_spaces": {
+                "line": 158,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "_get_environment_variables_dict"
+                }
+            },
+            "test_get_environment_variables_dict_raises_when_wrong_pattern": {
+                "line": 170,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "_get_environment_variables_dict"
+                }
+            },
+            "test_get_environment_variables_returns_none_for_empty_string": {
+                "line": 181,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "_get_environment_variables_dict"
+                }
+            },
+            "test_do_rollback_simple": {
+                "line": 226,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "_do_rollback_safely"
+                }
+            },
+            "test_do_rollback_is_actually_safe": {
+                "line": 238,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "_do_rollback_safely"
+                }
+            }
+        }
+    },
+    "kubernetes/tests/test_prepare_operation.py": {
+        "focal_file": "kubernetes/src/domain/operations/prepare.py",
+        "methods": {
+            "test_validate_single_subnet_mode_raises_error": {
+                "line": 16,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "_validate_single_subnet_mode"
+                }
+            },
+            "test_validate_single_subnet_mode_passes": {
+                "line": 25,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "_validate_single_subnet_mode"
+                }
+            }
+        }
+    },
+    "kubernetes/tests/test_power_operation.py": {
+        "focal_file": "kubernetes/src/domain/operations/power.py",
+        "methods": {
+            "test_power_off": {
+                "line": 9,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "PowerOperation",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "power_off"
+                }
+            },
+            "test_power_on": {
+                "line": 35,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "PowerOperation",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "power_on"
+                }
+            }
+        }
+    },
+    "kubernetes/tests/test_utils.py": {
+        "focal_file": "kubernetes/src/domain/common/utils.py",
+        "methods": {
+            "test_convert_to_int_list": {
+                "line": 8,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "convert_to_int_list"
+                }
+            },
+            "test_convert_app_name_to_valide_kubernetes_name": {
+                "line": 18,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "convert_app_name_to_valid_kubernetes_name"
+                }
+            }
+        }
+    },
+    "kubernetes/tests/test_vm_details_operation.py": {
+        "focal_file": "kubernetes/src/domain/operations/vm_details.py",
+        "methods": {
+            "test_create_vm_details_bulk": {
+                "line": 11,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "VmDetialsOperation",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "create_vm_details_bulk"
+                }
+            }
+        }
+    },
+    "kubernetes/tests/integration/integration_test_cleanup.py": {
+        "focal_file": "kubernetes/src/domain/operations/cleanup.py",
+        "methods": {
+            "test_cleanup": {
+                "line": 12,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "CleanupSandboxInfraOperation",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "cleanup"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "test/integration/ca_test.py": {
+        "focal_file": "hfc/fabric_ca/caservice.py",
+        "methods": {
+            "test_get_ca_info": {
+                "line": 64,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": "CAClient",
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 305,
+                    "indent": 4,
+                    "name": "get_cainfo"
+                }
+            },
+            "test_already_register": {
+                "line": 113,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": "CAService",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_reenroll_after_revoke_success": {
+                "line": 171,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": "CAService",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "revoke"
+                }
+            }
+        }
+    },
+    "test/integration/utils_test.py": {
+        "focal_file": "hfc/util/utils.py",
+        "methods": {
+            "test_create_serialized_identity": {
+                "line": 41,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "create_serialized_identity"
+                }
+            },
+            "test_build_channel_header": {
+                "line": 54,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 114,
+                    "indent": 0,
+                    "name": "build_channel_header"
+                }
+            },
+            "test_string_to_signature": {
+                "line": 66,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "string_to_signature"
+                }
+            },
+            "test_current_timestamp": {
+                "line": 92,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "current_timestamp"
+                }
+            },
+            "test_extract_channel_config": {
+                "line": 99,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "extract_channel_config"
+                }
+            },
+            "test_build_header": {
+                "line": 111,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "build_header"
+                }
+            }
+        }
+    },
+    "test/unit/block_decoder_test.py": {
+        "focal_file": "hfc/fabric/block_decoder.py",
+        "methods": {
+            "test_decode_read_write_sets": {
+                "line": 164,
+                "line_end": 225,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1144,
+                    "line_end": 1166,
+                    "indent": 0,
+                    "name": "decode_readwrite_sets"
+                }
+            }
+        }
+    },
+    "test/unit/client_test.py": {
+        "focal_file": "hfc/fabric/client.py",
+        "methods": {
+            "test_new_channel": {
+                "line": 41,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 414,
+                    "line_end": 426,
+                    "indent": 4,
+                    "name": "new_channel"
+                }
+            },
+            "test_get_channel": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 437,
+                    "indent": 4,
+                    "name": "get_channel"
+                }
+            },
+            "test_create_channel_missing_channel_name": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 856,
+                    "line_end": 874,
+                    "indent": 4,
+                    "name": "_create_or_update_channel"
+                }
+            },
+            "test_export_network_profile": {
+                "line": 109,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 358,
+                    "indent": 4,
+                    "name": "export_net_profile"
+                }
+            },
+            "test_init_with_net_profile": {
+                "line": 130,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "init_with_net_profile"
+                }
+            }
+        }
+    },
+    "test/unit/crypto_test.py": {
+        "focal_file": "hfc/util/crypto/crypto.py",
+        "methods": {
+            "test_ecies_secp256r1_sha2_sign_verify": {
+                "line": 61,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "verify"
+                }
+            },
+            "test_ecies_secp384r1_sha2_sign_verify": {
+                "line": 78,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "verify"
+                }
+            },
+            "test_ecies_generate_csr": {
+                "line": 95,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 375,
+                    "indent": 4,
+                    "name": "generate_csr"
+                }
+            },
+            "test_secp256r1_check_malleability_and_check_prevent_malleability": {
+                "line": 105,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "_prevent_malleability"
+                }
+            },
+            "test_secp384r1_check_malleability_and_check_prevent_malleability": {
+                "line": 119,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "_prevent_malleability"
+                }
+            }
+        }
+    }
+}

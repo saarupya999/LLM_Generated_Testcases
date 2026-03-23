@@ -1,0 +1,634 @@
+{
+    "movingpandas/tests/test_trajectory_splitter.py": {
+        "focal_file": "movingpandas/trajectory_splitter.py",
+        "methods": {
+            "test_collection_split_by_date": {
+                "line": 137,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": "TemporalSplitter",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "split"
+                }
+            }
+        }
+    },
+    "movingpandas/tests/test_trajectory_collection.py": {
+        "focal_file": "movingpandas/trajectory_collection.py",
+        "methods": {
+            "test_get_trajectory": {
+                "line": 46,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "get_trajectory"
+                }
+            },
+            "test_get_locations_at": {
+                "line": 52,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "get_locations_at"
+                }
+            },
+            "test_get_locations_at_out_of_time_range": {
+                "line": 65,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "get_locations_at"
+                }
+            },
+            "test_get_start_locations": {
+                "line": 69,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "get_start_locations"
+                }
+            },
+            "test_get_end_locations": {
+                "line": 80,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "get_end_locations"
+                }
+            },
+            "test_get_intersecting": {
+                "line": 91,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "get_intersecting"
+                }
+            },
+            "test_clip": {
+                "line": 97,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "clip"
+                }
+            },
+            "test_filter": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "filter"
+                }
+            },
+            "test_to_point_gdf": {
+                "line": 170,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "to_point_gdf"
+                }
+            },
+            "test_to_line_gdf": {
+                "line": 174,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": "TrajectoryCollection",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "to_line_gdf"
+                }
+            },
+            "test_to_traj_gdf": {
+                "line": 191,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": "TrajectoryCollection",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "to_traj_gdf"
+                }
+            }
+        }
+    },
+    "movingpandas/tests/test_geometry_utils.py": {
+        "focal_file": "movingpandas/geometry_utils.py",
+        "methods": {
+            "test_compass_bearing_east": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "calculate_initial_compass_bearing"
+                }
+            },
+            "test_compass_bearing_west": {
+                "line": 14,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "calculate_initial_compass_bearing"
+                }
+            },
+            "test_compass_bearing_north": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "calculate_initial_compass_bearing"
+                }
+            },
+            "test_compass_bearing_south": {
+                "line": 20,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "calculate_initial_compass_bearing"
+                }
+            },
+            "test_azimuth_east": {
+                "line": 23,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "azimuth"
+                }
+            },
+            "test_azimuth_west": {
+                "line": 27,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "azimuth"
+                }
+            },
+            "test_azimuth_north": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "azimuth"
+                }
+            },
+            "test_azimuth_south": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "azimuth"
+                }
+            },
+            "test_anglular_difference_tohigher": {
+                "line": 48,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "angular_difference"
+                }
+            },
+            "test_anglular_difference_tolower": {
+                "line": 51,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "angular_difference"
+                }
+            },
+            "test_anglular_difference_halfcicle": {
+                "line": 54,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "angular_difference"
+                }
+            },
+            "test_anglular_difference_same": {
+                "line": 57,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "angular_difference"
+                }
+            },
+            "test_anglular_difference_onenegative": {
+                "line": 60,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "angular_difference"
+                }
+            },
+            "test_anglular_difference_twonegative": {
+                "line": 63,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "angular_difference"
+                }
+            },
+            "test_mrr_diagonal": {
+                "line": 66,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 145,
+                    "indent": 0,
+                    "name": "mrr_diagonal"
+                }
+            },
+            "test_geodesic_distance": {
+                "line": 69,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "measure_distance_geodesic"
+                }
+            }
+        }
+    },
+    "movingpandas/tests/test_trajectory.py": {
+        "focal_file": "movingpandas/trajectory.py",
+        "methods": {
+            "test_size": {
+                "line": 66,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "size"
+                }
+            },
+            "test_endlocation": {
+                "line": 70,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 339,
+                    "indent": 4,
+                    "name": "get_end_location"
+                }
+            },
+            "test_write_linestring_wkt": {
+                "line": 73,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "to_linestring"
+                }
+            },
+            "test_write_linestring_m_wkt_with_unix_time": {
+                "line": 76,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 274,
+                    "indent": 4,
+                    "name": "to_linestringm_wkt"
+                }
+            },
+            "test_get_segment_between_existing_timestamps": {
+                "line": 108,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 506,
+                    "line_end": 525,
+                    "indent": 4,
+                    "name": "get_segment_between"
+                }
+            },
+            "test_get_segment_between_new_timestamps": {
+                "line": 118,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 506,
+                    "line_end": 525,
+                    "indent": 4,
+                    "name": "get_segment_between"
+                }
+            },
+            "test_get_segment_between_start_and_end": {
+                "line": 125,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 506,
+                    "line_end": 525,
+                    "indent": 4,
+                    "name": "get_segment_between"
+                }
+            },
+            "test_get_linestring_between_interpolate": {
+                "line": 130,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 504,
+                    "indent": 4,
+                    "name": "get_linestring_between"
+                }
+            },
+            "test_get_linestring_between_interpolate_ValueError": {
+                "line": 140,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": "Trajectory",
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 504,
+                    "indent": 4,
+                    "name": "get_linestring_between"
+                }
+            },
+            "test_get_linestring_between_within": {
+                "line": 152,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 504,
+                    "indent": 4,
+                    "name": "get_linestring_between"
+                }
+            },
+            "test_add_direction": {
+                "line": 157,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 622,
+                    "line_end": 638,
+                    "indent": 4,
+                    "name": "add_direction"
+                }
+            },
+            "test_add_direction_latlon": {
+                "line": 162,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 622,
+                    "line_end": 638,
+                    "indent": 4,
+                    "name": "add_direction"
+                }
+            },
+            "test_add_speed": {
+                "line": 169,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 640,
+                    "line_end": 654,
+                    "indent": 4,
+                    "name": "add_speed"
+                }
+            },
+            "test_add_speed_latlon": {
+                "line": 191,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 640,
+                    "line_end": 654,
+                    "indent": 4,
+                    "name": "add_speed"
+                }
+            },
+            "test_get_bbox": {
+                "line": 204,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 350,
+                    "indent": 4,
+                    "name": "get_bbox"
+                }
+            },
+            "test_get_direction": {
+                "line": 216,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 564,
+                    "line_end": 581,
+                    "indent": 4,
+                    "name": "get_direction"
+                }
+            },
+            "test_offset_seconds": {
+                "line": 220,
+                "line_end": 224,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 737,
+                    "line_end": 748,
+                    "indent": 4,
+                    "name": "apply_offset_seconds"
+                }
+            },
+            "test_offset_minutes": {
+                "line": 226,
+                "line_end": 230,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 750,
+                    "line_end": 761,
+                    "indent": 4,
+                    "name": "apply_offset_minutes"
+                }
+            },
+            "test_linestringbetween_does_not_alter_df": {
+                "line": 277,
+                "line_end": 280,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 504,
+                    "indent": 4,
+                    "name": "get_linestring_between"
+                }
+            },
+            "test_getpositionat_does_not_alter_df": {
+                "line": 282,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 430,
+                    "line_end": 473,
+                    "indent": 4,
+                    "name": "get_position_at"
+                }
+            },
+            "test_to_point_gdf": {
+                "line": 337,
+                "line_end": 346,
+                "indent": 4,
+                "focal_class": "Trajectory",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 284,
+                    "indent": 4,
+                    "name": "to_point_gdf"
+                }
+            },
+            "test_to_line_gdf": {
+                "line": 348,
+                "line_end": 364,
+                "indent": 4,
+                "focal_class": "Trajectory",
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "to_line_gdf"
+                }
+            },
+            "test_to_traj_gdf": {
+                "line": 366,
+                "line_end": 387,
+                "indent": 4,
+                "focal_class": "Trajectory",
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 318,
+                    "indent": 4,
+                    "name": "to_traj_gdf"
+                }
+            }
+        }
+    }
+}

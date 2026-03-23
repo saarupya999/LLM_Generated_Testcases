@@ -1,0 +1,755 @@
+{
+    "tests/logging_helper_test.py": {
+        "focal_file": "py_zipkin/logging_helper.py",
+        "methods": {
+            "test_zipkin_logging_server_context_emit_spans": {
+                "line": 51,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": "py_zipkin.logging_helper.ZipkinLoggingContext",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "emit_spans"
+                }
+            },
+            "test_zipkin_logging_client_context_emit_spans": {
+                "line": 213,
+                "line_end": 266,
+                "indent": 0,
+                "focal_class": "py_zipkin.logging_helper.ZipkinLoggingContext",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "emit_spans"
+                }
+            },
+            "test_batch_sender_add_span": {
+                "line": 336,
+                "line_end": 361,
+                "indent": 0,
+                "focal_class": "py_zipkin.logging_helper.ZipkinBatchSender",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "add_span"
+                }
+            },
+            "test_batch_sender_add_span_many_times": {
+                "line": 373,
+                "line_end": 403,
+                "indent": 0,
+                "focal_class": "py_zipkin.logging_helper.ZipkinBatchSender",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "add_span"
+                }
+            },
+            "test_batch_sender_add_span_too_big": {
+                "line": 406,
+                "line_end": 439,
+                "indent": 0,
+                "focal_class": "py_zipkin.logging_helper.ZipkinBatchSender",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "add_span"
+                }
+            }
+        }
+    },
+    "tests/request_helpers_test.py": {
+        "focal_file": "py_zipkin/request_helpers.py",
+        "methods": {
+            "test_extract_zipkin_attrs_from_headers_single_sample_only": {
+                "line": 10,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "extract_zipkin_attrs_from_headers"
+                }
+            },
+            "test_extract_zipkin_attrs_from_headers_multi_sample_only": {
+                "line": 45,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "extract_zipkin_attrs_from_headers"
+                }
+            },
+            "test_extract_zipkin_attrs_from_headers_invalids": {
+                "line": 104,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "extract_zipkin_attrs_from_headers"
+                }
+            },
+            "test_extract_zipkin_attrs_from_headers_multi": {
+                "line": 169,
+                "line_end": 313,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "extract_zipkin_attrs_from_headers"
+                }
+            },
+            "test_extract_zipkin_attrs_from_headers_single": {
+                "line": 318,
+                "line_end": 390,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "extract_zipkin_attrs_from_headers"
+                }
+            },
+            "test_create_http_headers_context_stack": {
+                "line": 393,
+                "line_end": 411,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "create_http_headers"
+                }
+            },
+            "test_create_http_headers_custom_tracer": {
+                "line": 414,
+                "line_end": 432,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "create_http_headers"
+                }
+            },
+            "test_create_http_headers_new_span_id": {
+                "line": 436,
+                "line_end": 465,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "create_http_headers"
+                }
+            }
+        }
+    },
+    "tests/stack_test.py": {
+        "focal_file": "py_zipkin/storage.py",
+        "methods": {
+            "test_stack_copy": {
+                "line": 80,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "copy"
+                }
+            }
+        }
+    },
+    "tests/transport_test.py": {
+        "focal_file": "py_zipkin/transport.py",
+        "methods": {
+            "test_get_max_payload_bytes": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "SimpleHTTPTransport",
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "get_max_payload_bytes"
+                }
+            },
+            "test__get_path_content_type": {
+                "line": 35,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "SimpleHTTPTransport",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "_get_path_content_type"
+                }
+            }
+        }
+    },
+    "tests/zipkin_test.py": {
+        "focal_file": "py_zipkin/zipkin.py",
+        "methods": {
+            "test_create_headers_for_new_span_empty_if_no_active_request": {
+                "line": 877,
+                "line_end": 880,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 662,
+                    "line_end": 674,
+                    "indent": 0,
+                    "name": "create_http_headers_for_new_span"
+                }
+            },
+            "test_create_headers_for_new_span": {
+                "line": 884,
+                "line_end": 890,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 662,
+                    "line_end": 674,
+                    "indent": 0,
+                    "name": "create_http_headers_for_new_span"
+                }
+            },
+            "test_enter": {
+                "line": 250,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "__enter__"
+                }
+            },
+            "test_generate_kind": {
+                "line": 257,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 322,
+                    "indent": 4,
+                    "name": "_generate_kind"
+                }
+            },
+            "test_get_current_context_root_sample_rate_override_not_sampled": {
+                "line": 267,
+                "line_end": 292,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 405,
+                    "indent": 4,
+                    "name": "_get_current_context"
+                }
+            },
+            "test_get_current_context_root_sample_rate_override_sampled": {
+                "line": 295,
+                "line_end": 321,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 405,
+                    "indent": 4,
+                    "name": "_get_current_context"
+                }
+            },
+            "test_get_current_context_root_sample_rate_no_override": {
+                "line": 324,
+                "line_end": 342,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 405,
+                    "indent": 4,
+                    "name": "_get_current_context"
+                }
+            },
+            "test_get_current_context_non_root_existing": {
+                "line": 365,
+                "line_end": 392,
+                "indent": 4,
+                "focal_class": "tracer.zipkin_span",
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 405,
+                    "indent": 4,
+                    "name": "_get_current_context"
+                }
+            },
+            "test_get_current_context_non_root_non_existing": {
+                "line": 395,
+                "line_end": 406,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 405,
+                    "indent": 4,
+                    "name": "_get_current_context"
+                }
+            },
+            "test_exit": {
+                "line": 520,
+                "line_end": 525,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 468,
+                    "line_end": 469,
+                    "indent": 4,
+                    "name": "__exit__"
+                }
+            },
+            "test_stop_root": {
+                "line": 619,
+                "line_end": 636,
+                "indent": 4,
+                "focal_class": "tracer.zipkin_span",
+                "focal_method": {
+                    "line": 471,
+                    "line_end": 537,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_update_binary_annotations_root": {
+                "line": 699,
+                "line_end": 713,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "update_binary_annotations"
+                }
+            },
+            "test_update_binary_annotations_non_root": {
+                "line": 715,
+                "line_end": 728,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "update_binary_annotations"
+                }
+            },
+            "test_update_binary_annotations_non_root_not_traced": {
+                "line": 730,
+                "line_end": 742,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "update_binary_annotations"
+                }
+            },
+            "test_add_annotation_root": {
+                "line": 744,
+                "line_end": 764,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 550,
+                    "line_end": 568,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_add_annotation_non_root": {
+                "line": 766,
+                "line_end": 785,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 550,
+                    "line_end": 568,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_add_annotation_non_root_not_traced": {
+                "line": 787,
+                "line_end": 805,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 550,
+                    "line_end": 568,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_add_sa_binary_annotation_non_client": {
+                "line": 807,
+                "line_end": 813,
+                "indent": 4,
+                "focal_class": "zipkin.zipkin_span",
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 602,
+                    "indent": 4,
+                    "name": "add_sa_binary_annotation"
+                }
+            },
+            "test_add_sa_binary_annotation_non_root": {
+                "line": 815,
+                "line_end": 826,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 602,
+                    "indent": 4,
+                    "name": "add_sa_binary_annotation"
+                }
+            },
+            "test_add_sa_binary_annotation_root": {
+                "line": 828,
+                "line_end": 844,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 602,
+                    "indent": 4,
+                    "name": "add_sa_binary_annotation"
+                }
+            },
+            "test_override_span_name": {
+                "line": 846,
+                "line_end": 856,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 604,
+                    "line_end": 617,
+                    "indent": 4,
+                    "name": "override_span_name"
+                }
+            }
+        }
+    },
+    "tests/encoding/_decoders_test.py": {
+        "focal_file": "py_zipkin/encoding/_decoders.py",
+        "methods": {
+            "test_get_decoder": {
+                "line": 30,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_decoder"
+                }
+            },
+            "test_decode_spans_list": {
+                "line": 47,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "decode_spans"
+                }
+            },
+            "test_decode_old_style_thrift_span": {
+                "line": 54,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "decode_spans"
+                }
+            },
+            "test__convert_from_thrift_endpoint": {
+                "line": 68,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "_convert_from_thrift_endpoint"
+                }
+            },
+            "test__decode_thrift_annotations": {
+                "line": 78,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_decode_thrift_annotations"
+                }
+            },
+            "test__decode_thrift_annotations_server_span": {
+                "line": 95,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_decode_thrift_annotations"
+                }
+            },
+            "test__decode_thrift_annotations_local_span": {
+                "line": 111,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_decode_thrift_annotations"
+                }
+            },
+            "test__convert_from_thrift_binary_annotations": {
+                "line": 135,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_convert_from_thrift_binary_annotations"
+                }
+            },
+            "test__convert_from_thrift_binary_annotations_unicode": {
+                "line": 163,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_convert_from_thrift_binary_annotations"
+                }
+            },
+            "test__convert_trace_id_to_string": {
+                "line": 195,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "_convert_trace_id_to_string"
+                }
+            },
+            "test__convert_unsigned_long_to_lower_hex": {
+                "line": 213,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": "_V1ThriftDecoder",
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "_convert_unsigned_long_to_lower_hex"
+                }
+            }
+        }
+    },
+    "tests/encoding/_encoders_test.py": {
+        "focal_file": "py_zipkin/encoding/_encoders.py",
+        "methods": {
+            "test_encoder": {
+                "line": 71,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_encoder"
+                }
+            },
+            "test_fits": {
+                "line": 220,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "fits"
+                }
+            },
+            "test_create_json_endpoint": {
+                "line": 104,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "_create_json_endpoint"
+                }
+            },
+            "test_encode_span": {
+                "line": 230,
+                "line_end": 239,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "encode_span"
+                }
+            },
+            "test_encode_queue": {
+                "line": 241,
+                "line_end": 246,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "encode_queue"
+                }
+            }
+        }
+    },
+    "tests/encoding/_helpers_test.py": {
+        "focal_file": "py_zipkin/encoding/_helpers.py",
+        "methods": {
+            "test_create_endpoint_defaults_service_name": {
+                "line": 62,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "create_endpoint"
+                }
+            },
+            "test_create_endpoint_correct_host_ip": {
+                "line": 73,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "create_endpoint"
+                }
+            },
+            "test_create_endpoint_defaults_localhost": {
+                "line": 84,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "create_endpoint"
+                }
+            },
+            "test_create_endpoint_ipv6": {
+                "line": 94,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "create_endpoint"
+                }
+            },
+            "test_v1_span": {
+                "line": 122,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "Span",
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "build_v1_span"
+                }
+            }
+        }
+    },
+    "tests/integration/zipkin_integration_test.py": {
+        "focal_file": "py_zipkin/zipkin.py",
+        "methods": {
+            "test_can_set_sa_annotation": {
+                "line": 545,
+                "line_end": 571,
+                "indent": 0,
+                "focal_class": "py_zipkin.zipkin.zipkin_client_span",
+                "focal_method": {
+                    "line": 570,
+                    "line_end": 602,
+                    "indent": 4,
+                    "name": "add_sa_binary_annotation"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,681 @@
+{
+    "tests/unit/test_hooks.py": {
+        "focal_file": "uplink/hooks.py",
+        "methods": {
+            "test_handle_response": {
+                "line": 9,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": "uplink.hooks.ResponseHandler",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "handle_response"
+                }
+            },
+            "test_audit_request": {
+                "line": 18,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "uplink.hooks.RequestAuditor",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "audit_request"
+                }
+            },
+            "test_handle_exception_masked": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": "uplink.hooks.ExceptionHandler",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "handle_exception"
+                }
+            },
+            "test_delegate_audit_request": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "uplink.hooks.TransactionHookChain",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "audit_request"
+                }
+            },
+            "test_delegate_handle_response": {
+                "line": 41,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "uplink.hooks.TransactionHookChain",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "handle_response"
+                }
+            },
+            "test_delegate_handle_response_multiple": {
+                "line": 46,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "uplink.hooks.ResponseHandler",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "handle_response"
+                }
+            },
+            "test_delegate_handle_exception": {
+                "line": 60,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "uplink.hooks.TransactionHookChain",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "handle_exception"
+                }
+            }
+        }
+    },
+    "tests/unit/test_helpers.py": {
+        "focal_file": "uplink/helpers.py",
+        "methods": {
+            "test_get_api_definitions": {
+                "line": 7,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_api_definitions"
+                }
+            },
+            "test_get_api_definitions_from_parent": {
+                "line": 16,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_api_definitions"
+                }
+            },
+            "test_add_transaction_hook": {
+                "line": 40,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "uplink.helpers.RequestBuilder",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "add_transaction_hook"
+                }
+            }
+        }
+    },
+    "tests/unit/test_decorators.py": {
+        "focal_file": "uplink/decorators.py",
+        "methods": {
+            "test_params_with_string": {
+                "line": 183,
+                "line_end": 189,
+                "indent": 0,
+                "focal_class": "uplink.decorators.params",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "modify_request"
+                }
+            },
+            "test_params_with_list": {
+                "line": 192,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": "uplink.decorators.params",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "modify_request"
+                }
+            },
+            "test_add_annotation": {
+                "line": 27,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_build": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_handle_builder": {
+                "line": 64,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "uplink.decorators.MethodAnnotationHandler",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "handle_builder"
+                }
+            }
+        }
+    },
+    "tests/unit/test_converters.py": {
+        "focal_file": "uplink/converters/register.py",
+        "methods": {
+            "test_register_converter_factory_pass": {
+                "line": 393,
+                "line_end": 402,
+                "indent": 4,
+                "focal_class": "uplink.converters.register.Register",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "register_converter_factory"
+                }
+            },
+            "test_register_converter_factory_fail": {
+                "line": 404,
+                "line_end": 410,
+                "indent": 4,
+                "focal_class": "uplink.converters.register.Register",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "register_converter_factory"
+                }
+            }
+        }
+    },
+    "tests/unit/test_builder.py": {
+        "focal_file": "uplink/builder.py",
+        "methods": {
+            "test_build": {
+                "line": 137,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 384,
+                    "indent": 0,
+                    "name": "build"
+                }
+            },
+            "test_inject": {
+                "line": 196,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": "uplink.builder.Builder",
+                "focal_method": {
+                    "line": 324,
+                    "line_end": 325,
+                    "indent": 4,
+                    "name": "_inject"
+                }
+            },
+            "test_prepare_request": {
+                "line": 26,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": "uplink.builder.RequestPreparer",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "prepare_request"
+                }
+            },
+            "test_prepare_request_with_transaction_hook": {
+                "line": 44,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "uplink.builder.RequestPreparer",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "prepare_request"
+                }
+            },
+            "test_create_request_builder": {
+                "line": 64,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "uplink.builder.RequestPreparer",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "create_request_builder"
+                }
+            },
+            "test_create_request_builder_with_session_hooks": {
+                "line": 73,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "uplink.builder.RequestPreparer",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "create_request_builder"
+                }
+            }
+        }
+    },
+    "tests/unit/test__extras.py": {
+        "focal_file": "uplink/_extras.py",
+        "methods": {
+            "test_load_entry_points": {
+                "line": 8,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "load_entry_points"
+                }
+            },
+            "test_install": {
+                "line": 27,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "install"
+                }
+            }
+        }
+    },
+    "tests/unit/test_arguments.py": {
+        "focal_file": "uplink/arguments.py",
+        "methods": {
+            "test_from_func": {
+                "line": 61,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "from_func"
+                }
+            },
+            "test_add_annotation_without_name": {
+                "line": 82,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotationHandlerBuilder",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_add_annotation_with_name": {
+                "line": 90,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotationHandlerBuilder",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_add_annotation_class": {
+                "line": 110,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotation",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_set_annotations": {
+                "line": 146,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotationHandlerBuilder",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "set_annotations"
+                }
+            },
+            "test_set_annotations_with_dict": {
+                "line": 154,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotationHandlerBuilder",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "set_annotations"
+                }
+            },
+            "test_is_done": {
+                "line": 161,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotationHandlerBuilder",
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "is_done"
+                }
+            },
+            "test_get_relevant_arguments": {
+                "line": 171,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotationHandler",
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "get_relevant_arguments"
+                }
+            },
+            "test_handle_call": {
+                "line": 177,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ArgumentAnnotationHandler",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "handle_call"
+                }
+            },
+            "test_modify_request_definition": {
+                "line": 411,
+                "line_end": 413,
+                "indent": 4,
+                "focal_class": "uplink.arguments.Url",
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 320,
+                    "indent": 4,
+                    "name": "modify_request_definition"
+                }
+            },
+            "test_modify_request": {
+                "line": 453,
+                "line_end": 455,
+                "indent": 4,
+                "focal_class": "uplink.arguments.ContextMap",
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "modify_request"
+                }
+            },
+            "test_modify_request_definition_failure": {
+                "line": 415,
+                "line_end": 424,
+                "indent": 4,
+                "focal_class": "uplink.arguments.Url",
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 320,
+                    "indent": 4,
+                    "name": "modify_request_definition"
+                }
+            }
+        }
+    },
+    "tests/unit/test_commands.py": {
+        "focal_file": "uplink/commands.py",
+        "methods": {
+            "test_add_variable": {
+                "line": 107,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "uplink.commands.URIDefinitionBuilder",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "add_variable"
+                }
+            },
+            "test_build": {
+                "line": 141,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": "uplink.commands.RequestDefinitionBuilder",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_define_request": {
+                "line": 226,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": "uplink.commands.RequestDefinition",
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 287,
+                    "indent": 4,
+                    "name": "define_request"
+                }
+            },
+            "test_make_converter_registry": {
+                "line": 237,
+                "line_end": 247,
+                "indent": 4,
+                "focal_class": "uplink.commands.RequestDefinition",
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "make_converter_registry"
+                }
+            }
+        }
+    },
+    "tests/unit/test_io.py": {
+        "focal_file": "uplink/clients/io/transitions.py",
+        "methods": {
+            "test_prepare": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "prepare"
+                }
+            },
+            "test_send": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "send"
+                }
+            },
+            "test_fail": {
+                "line": 38,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "fail"
+                }
+            },
+            "test_finish": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "finish"
+                }
+            },
+            "test_sleep": {
+                "line": 52,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 15,
+                    "indent": 0,
+                    "name": "sleep"
+                }
+            }
+        }
+    },
+    "tests/unit/test_clients.py": {
+        "focal_file": "uplink/clients/interfaces.py",
+        "methods": {
+            "test_client_send": {
+                "line": 169,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "send"
+                }
+            },
+            "test_io": {
+                "line": 467,
+                "line_end": 468,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 12,
+                    "indent": 4,
+                    "name": "io"
+                }
+            },
+            "test_client_callback": {
+                "line": 175,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "apply_callback"
+                }
+            },
+            "test_request_send": {
+                "line": 226,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "send"
+                }
+            }
+        }
+    },
+    "tests/unit/test_auth.py": {
+        "focal_file": "uplink/auth.py",
+        "methods": {
+            "test_append": {
+                "line": 181,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": "uplink.auth.MultiAuth",
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 249,
+                    "indent": 4,
+                    "name": "append"
+                }
+            },
+            "test_extend": {
+                "line": 198,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": "uplink.auth.MultiAuth",
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 254,
+                    "indent": 4,
+                    "name": "extend"
+                }
+            }
+        }
+    }
+}

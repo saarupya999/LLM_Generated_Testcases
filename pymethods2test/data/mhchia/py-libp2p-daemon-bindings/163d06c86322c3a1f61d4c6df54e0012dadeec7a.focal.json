@@ -1,0 +1,401 @@
+{
+    "tests/test_utils.py": {
+        "focal_file": "p2pclient/utils.py",
+        "methods": {
+            "test_raise_if_failed_raises": {
+                "line": 8,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "raise_if_failed"
+                }
+            },
+            "test_raise_if_failed_not_raises": {
+                "line": 15,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "raise_if_failed"
+                }
+            }
+        }
+    },
+    "tests/test_serialization.py": {
+        "focal_file": "p2pclient/serialization.py",
+        "methods": {
+            "test_write_unsigned_varint": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "write_unsigned_varint"
+                }
+            },
+            "test_write_unsigned_varint_overflow": {
+                "line": 46,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "write_unsigned_varint"
+                }
+            },
+            "test_write_unsigned_varint_negative": {
+                "line": 54,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "write_unsigned_varint"
+                }
+            },
+            "test_read_unsigned_varint": {
+                "line": 62,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "read_unsigned_varint"
+                }
+            },
+            "test_read_unsigned_varint_overflow": {
+                "line": 70,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "read_unsigned_varint"
+                }
+            },
+            "test_read_write_unsigned_varint_max_bits_edge": {
+                "line": 78,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "write_unsigned_varint"
+                }
+            }
+        }
+    },
+    "tests/test_p2pclient_integration.py": {
+        "focal_file": "p2pclient/p2pclient.py",
+        "methods": {
+            "test_client_identify": {
+                "line": 251,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "identify"
+                }
+            },
+            "test_client_list_peers": {
+                "line": 307,
+                "line_end": 318,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "list_peers"
+                }
+            },
+            "test_client_disconnect": {
+                "line": 323,
+                "line_end": 337,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "disconnect"
+                }
+            },
+            "test_client_stream_handler_success": {
+                "line": 394,
+                "line_end": 463,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "stream_handler"
+                }
+            },
+            "test_client_stream_handler_failure": {
+                "line": 468,
+                "line_end": 480,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "stream_handler"
+                }
+            },
+            "test_client_dht_find_peer_success": {
+                "line": 485,
+                "line_end": 491,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "dht_find_peer"
+                }
+            },
+            "test_client_dht_find_peer_failure": {
+                "line": 496,
+                "line_end": 504,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "dht_find_peer"
+                }
+            },
+            "test_client_dht_find_peers_connected_to_peer_success": {
+                "line": 509,
+                "line_end": 516,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "dht_find_peers_connected_to_peer"
+                }
+            },
+            "test_client_dht_find_peers_connected_to_peer_failure": {
+                "line": 521,
+                "line_end": 529,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "dht_find_peers_connected_to_peer"
+                }
+            },
+            "test_client_dht_find_providers": {
+                "line": 534,
+                "line_end": 539,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "dht_find_providers"
+                }
+            },
+            "test_client_dht_get_closest_peers": {
+                "line": 544,
+                "line_end": 548,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "dht_get_closest_peers"
+                }
+            },
+            "test_client_dht_get_public_key_success": {
+                "line": 553,
+                "line_end": 561,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "dht_get_public_key"
+                }
+            },
+            "test_client_dht_get_public_key_failure": {
+                "line": 566,
+                "line_end": 574,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "dht_get_public_key"
+                }
+            },
+            "test_client_dht_get_value": {
+                "line": 579,
+                "line_end": 587,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "dht_get_value"
+                }
+            },
+            "test_client_dht_search_value": {
+                "line": 592,
+                "line_end": 600,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "dht_search_value"
+                }
+            },
+            "test_client_dht_put_value": {
+                "line": 607,
+                "line_end": 626,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "dht_put_value"
+                }
+            },
+            "test_client_dht_provide": {
+                "line": 631,
+                "line_end": 642,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "dht_provide"
+                }
+            },
+            "test_client_connmgr_tag_peer": {
+                "line": 647,
+                "line_end": 658,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "connmgr_tag_peer"
+                }
+            },
+            "test_client_connmgr_untag_peer": {
+                "line": 663,
+                "line_end": 670,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "connmgr_untag_peer"
+                }
+            },
+            "test_client_connmgr_trim": {
+                "line": 693,
+                "line_end": 705,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "connmgr_trim"
+                }
+            },
+            "test_client_pubsub_get_topics": {
+                "line": 710,
+                "line_end": 712,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "pubsub_get_topics"
+                }
+            },
+            "test_client_pubsub_list_topic_peers": {
+                "line": 717,
+                "line_end": 719,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "pubsub_list_peers"
+                }
+            },
+            "test_client_pubsub_publish": {
+                "line": 724,
+                "line_end": 725,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "pubsub_publish"
+                }
+            },
+            "test_client_pubsub_subscribe": {
+                "line": 730,
+                "line_end": 792,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "pubsub_subscribe"
+                }
+            }
+        }
+    }
+}

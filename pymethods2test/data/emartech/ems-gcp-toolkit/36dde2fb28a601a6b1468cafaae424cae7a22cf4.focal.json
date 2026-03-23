@@ -1,0 +1,481 @@
+{
+    "tests/integration/bigquery/it_ems_bigquery_client.py": {
+        "focal_file": "bigquery/ems_bigquery_client.py",
+        "methods": {
+            "test_run_sync_query_dummyQuery": {
+                "line": 89,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "run_sync_query"
+                }
+            },
+            "test_run_sync_query_onExistingData": {
+                "line": 105,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "run_sync_query"
+                }
+            },
+            "test_run_async_query_submitsJob": {
+                "line": 125,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "run_async_query"
+                }
+            },
+            "test_get_jobs_with_prefix": {
+                "line": 144,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "get_jobs_with_prefix"
+                }
+            },
+            "test_relaunch_failed_query_jobs": {
+                "line": 161,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "relaunch_failed_jobs"
+                }
+            },
+            "test_relaunch_failed_extract_jobs": {
+                "line": 177,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "relaunch_failed_jobs"
+                }
+            },
+            "test_dataset_exists_WhenDatasetExists": {
+                "line": 367,
+                "line_end": 373,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "create_dataset_if_not_exists"
+                }
+            },
+            "test_create_dataset_if_not_exists_CreatesDataset": {
+                "line": 375,
+                "line_end": 382,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "create_dataset_if_not_exists"
+                }
+            },
+            "test_create_dataset_if_not_exists_DoesNotRaiseExceptionWhenAlreadyExists": {
+                "line": 384,
+                "line_end": 393,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "create_dataset_if_not_exists"
+                }
+            },
+            "test_delete_dataset_if_exists_WhenItIsEmpty": {
+                "line": 395,
+                "line_end": 401,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "delete_dataset_if_exists"
+                }
+            },
+            "test_delete_dataset_if_exists_WhenItIsNotEmpty": {
+                "line": 403,
+                "line_end": 411,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "delete_dataset_if_exists"
+                }
+            },
+            "test_delete_dataset_DoesNotRaiseExceptionWhenNotExists": {
+                "line": 413,
+                "line_end": 419,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "delete_dataset_if_exists"
+                }
+            }
+        }
+    },
+    "tests/integration/pubsub/it_ems_subscriber_client.py": {
+        "focal_file": "pubsub/ems_subscriber_client.py",
+        "methods": {
+            "test_create_subscription_if_not_exists": {
+                "line": 20,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "create_subscription_if_not_exists"
+                }
+            },
+            "test_delete_subscription_if_exists": {
+                "line": 40,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "delete_subscription_if_exists"
+                }
+            }
+        }
+    },
+    "tests/integration/pubsub/it_ems_publisher_client.py": {
+        "focal_file": "pubsub/ems_publisher_client.py",
+        "methods": {
+            "test_topic_create_if_not_exists_new_topic_creation": {
+                "line": 17,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "topic_create_if_not_exists"
+                }
+            },
+            "test_topic_create_if_not_exists_topic_already_created": {
+                "line": 32,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "topic_create_if_not_exists"
+                }
+            },
+            "test_subscription_create": {
+                "line": 44,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "subscription_create"
+                }
+            },
+            "test_delete_topic_if_exists": {
+                "line": 71,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "delete_topic_if_exists"
+                }
+            }
+        }
+    },
+    "tests/integration/cloudsql/it_ems_cloudsql_client.py": {
+        "focal_file": "cloudsql/ems_cloudsql_client.py",
+        "methods": {
+            "test_import_csv_from_bucket_importsData": {
+                "line": 26,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "import_csv_from_bucket"
+                }
+            },
+            "test_import_sql_from_bucket_importsSql": {
+                "line": 37,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "import_sql_from_bucket"
+                }
+            }
+        }
+    },
+    "tests/integration/cloudsql/it_ems_cloudsql_util.py": {
+        "focal_file": "cloudsql/ems_cloudsql_util.py",
+        "methods": {
+            "test_run_sql": {
+                "line": 38,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "run_sql"
+                }
+            }
+        }
+    },
+    "tests/integration/storage/it_ems_storage_client.py": {
+        "focal_file": "storage/ems_storage_client.py",
+        "methods": {
+            "test_upload_from_string": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "upload_from_string"
+                }
+            },
+            "test_create_bucket_if_not_exists": {
+                "line": 81,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "create_bucket_if_not_exists"
+                }
+            },
+            "test_create_bucket_if_not_exists_doesNothingIfExists": {
+                "line": 88,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "create_bucket_if_not_exists"
+                }
+            },
+            "test_delete_bucket_if_exists_DeletesEmptyBucket": {
+                "line": 97,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "delete_bucket_if_exists"
+                }
+            },
+            "test_delete_bucket_if_exists_DeletesNotExistingBucket": {
+                "line": 106,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "delete_bucket_if_exists"
+                }
+            },
+            "test_delete_bucket_if_exists_DeletesNotEmptyBucket": {
+                "line": 114,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "delete_bucket_if_exists"
+                }
+            },
+            "test_delete_blob": {
+                "line": 124,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "delete_blob"
+                }
+            },
+            "test_create_notification_if_not_exists_noNotificationExistsCreatesIt": {
+                "line": 130,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_notification_if_not_exists"
+                }
+            },
+            "test_create_notification_if_not_exists_notificationExistsDoNotCreateIt": {
+                "line": 140,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_notification_if_not_exists"
+                }
+            },
+            "test_create_notification_if_not_exists_OtherNotificationExistsCreatesIt": {
+                "line": 151,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_notification_if_not_exists"
+                }
+            },
+            "test_delete_notification_if_exists": {
+                "line": 164,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "delete_notification_if_exists"
+                }
+            },
+            "test_delete_notification_if_exists_WontFailWhenNotificationWasNotCreated": {
+                "line": 175,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "delete_notification_if_exists"
+                }
+            },
+            "test_delete_notification_if_exists_DeletesOnlyOneOfTheNotifications": {
+                "line": 185,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "delete_notification_if_exists"
+                }
+            }
+        }
+    },
+    "tests/unit/bigquery/test_ems_bigquery_client.py": {
+        "focal_file": "bigquery/ems_bigquery_client.py",
+        "methods": {
+            "test_relaunch_failed_jobs_startsQueryJob": {
+                "line": 377,
+                "line_end": 389,
+                "indent": 4,
+                "focal_class": "EmsBigqueryClient",
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "relaunch_failed_jobs"
+                }
+            },
+            "test_relaunch_failed_jobs_startsExtractJob": {
+                "line": 392,
+                "line_end": 412,
+                "indent": 4,
+                "focal_class": "EmsBigqueryClient",
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "relaunch_failed_jobs"
+                }
+            },
+            "test_relaunch_failed_jobs_canRetryMoreThanNineTimes": {
+                "line": 441,
+                "line_end": 454,
+                "indent": 4,
+                "focal_class": "EmsBigqueryClient",
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "relaunch_failed_jobs"
+                }
+            }
+        }
+    }
+}

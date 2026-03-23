@@ -1,0 +1,274 @@
+{
+    "tests/integration/test_bundled_wheels.py": {
+        "focal_file": "auditwheel/wheel_abi.py",
+        "methods": {
+            "test_analyze_wheel_abi": {
+                "line": 15,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 255,
+                    "indent": 0,
+                    "name": "analyze_wheel_abi"
+                }
+            },
+            "test_analyze_wheel_abi_pyfpe": {
+                "line": 21,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 255,
+                    "indent": 0,
+                    "name": "analyze_wheel_abi"
+                }
+            }
+        }
+    },
+    "tests/unit/test_elfpatcher.py": {
+        "focal_file": "auditwheel/patcher.py",
+        "methods": {
+            "test_replace_needed": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "Patchelf",
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 11,
+                    "indent": 4,
+                    "name": "replace_needed"
+                }
+            },
+            "test_set_soname": {
+                "line": 54,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "Patchelf",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "set_soname"
+                }
+            },
+            "test_set_rpath": {
+                "line": 62,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "Patchelf",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "set_rpath"
+                }
+            },
+            "test_get_rpath": {
+                "line": 73,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": "Patchelf",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "get_rpath"
+                }
+            }
+        }
+    },
+    "tests/unit/test_elfutils.py": {
+        "focal_file": "auditwheel/elfutils.py",
+        "methods": {
+            "test_needed_libs": {
+                "line": 36,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "elf_read_dt_needed"
+                }
+            },
+            "test_filter": {
+                "line": 60,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "elf_file_filter"
+                }
+            },
+            "test_find_symbols": {
+                "line": 81,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "elf_find_versioned_symbols"
+                }
+            },
+            "test_elf_find_ucs2_symbols": {
+                "line": 130,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "elf_find_ucs2_symbols"
+                }
+            },
+            "test_elf_find_ucs2_symbols_no_symbol": {
+                "line": 148,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "elf_find_ucs2_symbols"
+                }
+            },
+            "test_elf_references_pyfpe_jbuf": {
+                "line": 162,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "elf_references_PyFPE_jbuf"
+                }
+            },
+            "test_elf_references_pyfpe_jbuf_false": {
+                "line": 174,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "elf_references_PyFPE_jbuf"
+                }
+            },
+            "test_elf_references_pyfpe_jbuf_no_section": {
+                "line": 186,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "elf_references_PyFPE_jbuf"
+                }
+            }
+        }
+    },
+    "tests/unit/test_policy.py": {
+        "focal_file": "auditwheel/policy/__init__.py",
+        "methods": {
+            "test_32bits_arch_name": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "get_arch_name"
+                }
+            },
+            "test_64bits_arch_name": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "get_arch_name"
+                }
+            },
+            "test_replacement_platform": {
+                "line": 42,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "get_replace_platforms"
+                }
+            },
+            "test_pep600_compliance": {
+                "line": 46,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "_validate_pep600_compliance"
+                }
+            },
+            "test_get_by_name": {
+                "line": 122,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "get_priority_by_name"
+                }
+            },
+            "test_get_by_name_missing": {
+                "line": 134,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "get_priority_by_name"
+                }
+            },
+            "test_get_by_name_duplicate": {
+                "line": 141,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "get_priority_by_name"
+                }
+            }
+        }
+    }
+}

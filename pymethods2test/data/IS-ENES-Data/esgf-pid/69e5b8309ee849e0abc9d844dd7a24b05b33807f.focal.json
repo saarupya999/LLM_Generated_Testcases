@@ -1,0 +1,936 @@
+{
+    "tests/testcases/errata_tests.py": {
+        "focal_file": "esgfpid/assistant/errata.py",
+        "methods": {
+            "test_add_errata_id_one_as_string": {
+                "line": 54,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "ErrataAssistant",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "add_errata_ids"
+                }
+            },
+            "test_add_errata_id_one_as_list": {
+                "line": 85,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": "ErrataAssistant",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "add_errata_ids"
+                }
+            },
+            "test_add_errata_id_several": {
+                "line": 116,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": "ErrataAssistant",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "add_errata_ids"
+                }
+            },
+            "test_add_errata_id_missing_args": {
+                "line": 147,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": "ErrataAssistant",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "add_errata_ids"
+                }
+            },
+            "test_remove_errata_id_several": {
+                "line": 164,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": "ErrataAssistant",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "remove_errata_ids"
+                }
+            }
+        }
+    },
+    "tests/testcases/messages_tests.py": {
+        "focal_file": "esgfpid/assistant/messages.py",
+        "methods": {
+            "test_make_message_publication_file_ok": {
+                "line": 54,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "publish_file"
+                }
+            },
+            "test_make_message_publication_file_replica_ok": {
+                "line": 76,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "publish_file"
+                }
+            },
+            "test_make_message_publication_dataset_ok": {
+                "line": 99,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "publish_dataset"
+                }
+            },
+            "test_make_message_publication_dataset_replica_ok": {
+                "line": 124,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "publish_dataset"
+                }
+            },
+            "test_make_message_publication_dataset_missing_args": {
+                "line": 150,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "publish_dataset"
+                }
+            },
+            "test_make_message_unpublish_allversions_consumer_must_find_versions_ok": {
+                "line": 164,
+                "line_end": 186,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "unpublish_allversions_consumer_must_find_versions"
+                }
+            },
+            "test_make_message_unpublish_one_version_ok": {
+                "line": 189,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "unpublish_one_version"
+                }
+            },
+            "test_make_message_add_errata_ids_ok": {
+                "line": 217,
+                "line_end": 244,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "add_errata_ids_message"
+                }
+            },
+            "test_make_message_remove_errata_ids_ok": {
+                "line": 246,
+                "line_end": 273,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "remove_errata_ids_message"
+                }
+            }
+        }
+    },
+    "tests/testcases/publish_tests.py": {
+        "focal_file": "esgfpid/assistant/publish.py",
+        "methods": {
+            "test_normal_publication_ok": {
+                "line": 128,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": "DatasetPublicationAssistant",
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "dataset_publication_finished"
+                }
+            },
+            "test_normal_publication_sev_files_ok": {
+                "line": 153,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": "DatasetPublicationAssistant",
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "dataset_publication_finished"
+                }
+            },
+            "test_normal_publication_solr_returns_none": {
+                "line": 300,
+                "line_end": 318,
+                "indent": 4,
+                "focal_class": "DatasetPublicationAssistant",
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "dataset_publication_finished"
+                }
+            },
+            "test_normal_publication_with_pos_consis_check": {
+                "line": 325,
+                "line_end": 352,
+                "indent": 4,
+                "focal_class": "DatasetPublicationAssistant",
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "dataset_publication_finished"
+                }
+            },
+            "test_normal_publication_with_pos_consis_check_missing_hdl": {
+                "line": 354,
+                "line_end": 383,
+                "indent": 4,
+                "focal_class": "DatasetPublicationAssistant",
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "dataset_publication_finished"
+                }
+            },
+            "test_get_dataset_handle": {
+                "line": 546,
+                "line_end": 560,
+                "indent": 4,
+                "focal_class": "DatasetPublicationAssistant",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "get_dataset_handle"
+                }
+            }
+        }
+    },
+    "tests/testcases/unpublication_tests.py": {
+        "focal_file": "esgfpid/assistant/unpublish.py",
+        "methods": {
+            "test_unpublish_one_version_by_handle": {
+                "line": 26,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "unpublish_one_dataset_version"
+                }
+            },
+            "test_unpublish_one_version_by_version_number": {
+                "line": 46,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "unpublish_one_dataset_version"
+                }
+            },
+            "test_unpublish_one_version_by_version_number_and_handle": {
+                "line": 65,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "unpublish_one_dataset_version"
+                }
+            },
+            "test_unpublish_one_version_wrong_handle": {
+                "line": 85,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "unpublish_one_dataset_version"
+                }
+            },
+            "test_unpublish_one_version_version_is_none": {
+                "line": 103,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "unpublish_one_dataset_version"
+                }
+            },
+            "test_unpublish_one_version_no_version_given": {
+                "line": 118,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "unpublish_one_dataset_version"
+                }
+            },
+            "test_unpublish_all_versions_nosolr_consumer_must_find_versions_ok": {
+                "line": 130,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "unpublish_all_dataset_versions"
+                }
+            },
+            "test_unpublish_all_versions_solr_off_consumer_must_find_versions_ok": {
+                "line": 150,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "unpublish_all_dataset_versions"
+                }
+            },
+            "test_unpublish_all_versions_by_handles_ok": {
+                "line": 169,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "unpublish_all_dataset_versions"
+                }
+            },
+            "test_unpublish_all_versions_by_version_numbers_ok": {
+                "line": 198,
+                "line_end": 240,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "unpublish_all_dataset_versions"
+                }
+            }
+        }
+    },
+    "tests/testcases/integration/integration_rabbit_tests_asynchron.py": {
+        "focal_file": "esgfpid/rabbit/rabbit.py",
+        "methods": {
+            "test_send_10_messages_to_queue_after_a_while_ok": {
+                "line": 48,
+                "line_end": 79,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "send_message_to_queue"
+                }
+            },
+            "test_send_10_messages_to_queue_quickly_ok": {
+                "line": 117,
+                "line_end": 148,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "send_message_to_queue"
+                }
+            },
+            "test_send_100_messages_to_queue_and_force_finish": {
+                "line": 152,
+                "line_end": 173,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "force_finish"
+                }
+            }
+        }
+    },
+    "tests/testcases/integration/integration_rabbit_tests_synchron.py": {
+        "focal_file": "esgfpid/rabbit/rabbit.py",
+        "methods": {
+            "test_send_message_to_queue_ok": {
+                "line": 48,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "send_message_to_queue"
+                }
+            },
+            "test_send_message_to_queue_wrong_routing_key": {
+                "line": 61,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "send_message_to_queue"
+                }
+            },
+            "test_send_message_to_queue_no_queue": {
+                "line": 74,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "send_message_to_queue"
+                }
+            }
+        }
+    },
+    "tests/testcases/rabbit/rabbitutil_tests.py": {
+        "focal_file": "esgfpid/rabbit/rabbitutils.py",
+        "methods": {
+            "test_get_message_and_routing_key_string_singlequtoes_ok": {
+                "line": 52,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "get_routing_key_and_string_message_from_message_if_possible"
+                }
+            }
+        }
+    },
+    "tests/testcases/rabbit/asyn/thread_feeder_tests.py": {
+        "focal_file": "esgfpid/rabbit/asynchronous/thread_feeder.py",
+        "methods": {
+            "test_send_message_ok": {
+                "line": 48,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "publish_message"
+                }
+            },
+            "test_reset_delivery_number": {
+                "line": 221,
+                "line_end": 246,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 275,
+                    "indent": 4,
+                    "name": "reset_delivery_number"
+                }
+            }
+        }
+    },
+    "tests/testcases/rabbit/asyn/thread_returner_tests.py": {
+        "focal_file": "esgfpid/rabbit/asynchronous/thread_returnhandler.py",
+        "methods": {
+            "test_send_message_other": {
+                "line": 85,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "on_message_not_accepted"
+                }
+            },
+            "test_send_message_no_key": {
+                "line": 108,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "on_message_not_accepted"
+                }
+            }
+        }
+    },
+    "tests/testcases/rabbit/asyn/thread_shutter_tests.py": {
+        "focal_file": "esgfpid/rabbit/asynchronous/thread_shutter.py",
+        "methods": {
+            "test_force_finish_no_leftovers_ok": {
+                "line": 41,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "force_finish"
+                }
+            },
+            "test_force_finish_leftovers_ok": {
+                "line": 63,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "force_finish"
+                }
+            },
+            "test_force_finish_was_closed": {
+                "line": 87,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "force_finish"
+                }
+            },
+            "test_safety_finish_ok": {
+                "line": 345,
+                "line_end": 364,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "safety_finish"
+                }
+            }
+        }
+    },
+    "tests/testcases/solr/solr_server_tests.py": {
+        "focal_file": "esgfpid/solr/solr.py",
+        "methods": {
+            "test_send_query_ok_patched": {
+                "line": 67,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_200_empty_patched": {
+                "line": 85,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_broken_json_patched": {
+                "line": 100,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_return_none_patched": {
+                "line": 116,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_http_404_patched": {
+                "line": 130,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_patched_5000": {
+                "line": 159,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            }
+        }
+    },
+    "tests/testcases/solr/solr_task1_tests.py": {
+        "focal_file": "esgfpid/solr/solr.py",
+        "methods": {
+            "test_retrieve_file_handles_of_same_dataset_A_ok_patched": {
+                "line": 71,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_AB_nohandles_patched": {
+                "line": 101,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_A_nohandle_B_ok_patched": {
+                "line": 130,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_A_error_B_ok_patched": {
+                "line": 168,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_A_error_B_nohandles_patched": {
+                "line": 206,
+                "line_end": 239,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_A_error_B_error_patched": {
+                "line": 242,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_A_nohandle_B_error_patched": {
+                "line": 274,
+                "line_end": 302,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            }
+        }
+    },
+    "tests/testcases/solr/solr_tests.py": {
+        "focal_file": "esgfpid/solr/solr.py",
+        "methods": {
+            "test_init_switched_off_ok": {
+                "line": 30,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "is_switched_off"
+                }
+            },
+            "test_make_solr_base_query_ok": {
+                "line": 71,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "make_solr_base_query"
+                }
+            },
+            "test_send_query_switched_off": {
+                "line": 86,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_ok_patched": {
+                "line": 97,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_404_patched": {
+                "line": 116,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_send_query_5000_patched": {
+                "line": 133,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "send_query"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_no_access": {
+                "line": 149,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_file_handles_of_same_dataset_patched": {
+                "line": 164,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "retrieve_file_handles_of_same_dataset"
+                }
+            },
+            "test_retrieve_datasethandles_or_versionnumbers_of_allversions_pids_patched": {
+                "line": 215,
+                "line_end": 244,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "retrieve_datasethandles_or_versionnumbers_of_allversions"
+                }
+            },
+            "test_retrieve_datasethandles_or_versionnumbers_of_allversions_vers_patched": {
+                "line": 247,
+                "line_end": 277,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "retrieve_datasethandles_or_versionnumbers_of_allversions"
+                }
+            },
+            "test_retrieve_datasethandles_or_versionnumbers_of_allversions_both_patched": {
+                "line": 281,
+                "line_end": 320,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "retrieve_datasethandles_or_versionnumbers_of_allversions"
+                }
+            },
+            "test_retrieve_datasethandles_or_versionnumbers_of_allversions_none_patched": {
+                "line": 323,
+                "line_end": 344,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "retrieve_datasethandles_or_versionnumbers_of_allversions"
+                }
+            },
+            "test_retrieve_datasethandles_or_versionnumbers_of_allversions_no_access": {
+                "line": 348,
+                "line_end": 355,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "retrieve_datasethandles_or_versionnumbers_of_allversions"
+                }
+            }
+        }
+    },
+    "tests/testcases/solr/solr_utils_tests.py": {
+        "focal_file": "esgfpid/solr/tasks/utils.py",
+        "methods": {
+            "test_extract_handles_from_response_json_ok": {
+                "line": 27,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "extract_file_handles_from_response_json"
+                }
+            }
+        }
+    }
+}

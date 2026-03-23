@@ -1,0 +1,758 @@
+{
+    "test/test_fetcher.py": {
+        "focal_file": "kafka/consumer/fetcher.py",
+        "methods": {
+            "test_send_fetches": {
+                "line": 62,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "send_fetches"
+                }
+            },
+            "test_create_fetch_requests": {
+                "line": 94,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 657,
+                    "line_end": 746,
+                    "indent": 4,
+                    "name": "_create_fetch_requests"
+                }
+            },
+            "test_update_fetch_positions": {
+                "line": 102,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "update_fetch_positions"
+                }
+            },
+            "test__reset_offset": {
+                "line": 134,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 247,
+                    "indent": 4,
+                    "name": "_reset_offset"
+                }
+            },
+            "test__send_offset_requests": {
+                "line": 147,
+                "line_end": 193,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 511,
+                    "line_end": 559,
+                    "indent": 4,
+                    "name": "_send_offset_requests"
+                }
+            },
+            "test__send_offset_requests_multiple_nodes": {
+                "line": 196,
+                "line_end": 256,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 511,
+                    "line_end": 559,
+                    "indent": 4,
+                    "name": "_send_offset_requests"
+                }
+            },
+            "test__handle_offset_response": {
+                "line": 259,
+                "line_end": 299,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 585,
+                    "line_end": 644,
+                    "indent": 4,
+                    "name": "_handle_offset_response"
+                }
+            },
+            "test_fetched_records": {
+                "line": 302,
+                "line_end": 318,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 310,
+                    "line_end": 350,
+                    "indent": 4,
+                    "name": "fetched_records"
+                }
+            },
+            "test__handle_fetch_response": {
+                "line": 376,
+                "line_end": 378,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 748,
+                    "line_end": 777,
+                    "indent": 4,
+                    "name": "_handle_fetch_response"
+                }
+            },
+            "test__unpack_message_set": {
+                "line": 381,
+                "line_end": 398,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 455,
+                    "line_end": 490,
+                    "indent": 4,
+                    "name": "_unpack_message_set"
+                }
+            },
+            "test__parse_fetched_data": {
+                "line": 419,
+                "line_end": 431,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 779,
+                    "line_end": 864,
+                    "indent": 4,
+                    "name": "_parse_fetched_data"
+                }
+            },
+            "test__parse_fetched_data__paused": {
+                "line": 434,
+                "line_end": 446,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 779,
+                    "line_end": 864,
+                    "indent": 4,
+                    "name": "_parse_fetched_data"
+                }
+            },
+            "test__parse_fetched_data__stale_offset": {
+                "line": 449,
+                "line_end": 460,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 779,
+                    "line_end": 864,
+                    "indent": 4,
+                    "name": "_parse_fetched_data"
+                }
+            },
+            "test__parse_fetched_data__not_leader": {
+                "line": 463,
+                "line_end": 472,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 779,
+                    "line_end": 864,
+                    "indent": 4,
+                    "name": "_parse_fetched_data"
+                }
+            },
+            "test__parse_fetched_data__unknown_tp": {
+                "line": 475,
+                "line_end": 484,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 779,
+                    "line_end": 864,
+                    "indent": 4,
+                    "name": "_parse_fetched_data"
+                }
+            },
+            "test__parse_fetched_data__out_of_range": {
+                "line": 487,
+                "line_end": 496,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 779,
+                    "line_end": 864,
+                    "indent": 4,
+                    "name": "_parse_fetched_data"
+                }
+            }
+        }
+    },
+    "test/test_client_async.py": {
+        "focal_file": "kafka/client_async.py",
+        "methods": {
+            "test_can_connect": {
+                "line": 52,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 262,
+                    "indent": 4,
+                    "name": "_can_connect"
+                }
+            },
+            "test_maybe_connect": {
+                "line": 73,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 361,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "_maybe_connect"
+                }
+            },
+            "test_conn_state_change": {
+                "line": 90,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 328,
+                    "indent": 4,
+                    "name": "_conn_state_change"
+                }
+            },
+            "test_ready": {
+                "line": 122,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 403,
+                    "indent": 4,
+                    "name": "ready"
+                }
+            },
+            "test_is_ready": {
+                "line": 129,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 479,
+                    "line_end": 503,
+                    "indent": 4,
+                    "name": "is_ready"
+                }
+            },
+            "test_close": {
+                "line": 163,
+                "line_end": 185,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 419,
+                    "line_end": 436,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_is_disconnected": {
+                "line": 188,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 441,
+                    "line_end": 458,
+                    "indent": 4,
+                    "name": "is_disconnected"
+                }
+            },
+            "test_send": {
+                "line": 203,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 511,
+                    "line_end": 544,
+                    "indent": 4,
+                    "name": "send"
+                }
+            },
+            "test_poll": {
+                "line": 231,
+                "line_end": 255,
+                "indent": 0,
+                "focal_class": "KafkaClient",
+                "focal_method": {
+                    "line": 546,
+                    "line_end": 609,
+                    "indent": 4,
+                    "name": "poll"
+                }
+            },
+            "test_set_topics": {
+                "line": 270,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": "KafkaClient",
+                "focal_method": {
+                    "line": 774,
+                    "line_end": 788,
+                    "indent": 4,
+                    "name": "set_topics"
+                }
+            }
+        }
+    },
+    "test/test_subscription_state.py": {
+        "focal_file": "kafka/consumer/subscription_state.py",
+        "methods": {
+            "test_topic_name_validation": {
+                "line": 22,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": "SubscriptionState",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "_ensure_valid_topic_name"
+                }
+            }
+        }
+    },
+    "test/test_sender.py": {
+        "focal_file": "kafka/producer/sender.py",
+        "methods": {
+            "test_produce_request": {
+                "line": 44,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 312,
+                    "indent": 4,
+                    "name": "_produce_request"
+                }
+            }
+        }
+    },
+    "test/test_cluster.py": {
+        "focal_file": "kafka/cluster.py",
+        "methods": {
+            "test_empty_broker_list": {
+                "line": 10,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": "ClusterMetadata",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "brokers"
+                }
+            }
+        }
+    },
+    "test/test_assignors.py": {
+        "focal_file": "kafka/coordinator/assignors/range.py",
+        "methods": {
+            "test_assignor_roundrobin": {
+                "line": 18,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "assign"
+                }
+            },
+            "test_assignor_range": {
+                "line": 39,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "assign"
+                }
+            }
+        }
+    },
+    "test/test_conn.py": {
+        "focal_file": "kafka/conn.py",
+        "methods": {
+            "test_connect": {
+                "line": 49,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 352,
+                    "line_end": 452,
+                    "indent": 4,
+                    "name": "connect"
+                }
+            },
+            "test_blacked_out": {
+                "line": 75,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 785,
+                    "line_end": 793,
+                    "indent": 4,
+                    "name": "blacked_out"
+                }
+            },
+            "test_connection_delay": {
+                "line": 83,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 795,
+                    "line_end": 809,
+                    "indent": 4,
+                    "name": "connection_delay"
+                }
+            },
+            "test_connected": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 811,
+                    "line_end": 813,
+                    "indent": 4,
+                    "name": "connected"
+                }
+            },
+            "test_connecting": {
+                "line": 99,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 815,
+                    "line_end": 820,
+                    "indent": 4,
+                    "name": "connecting"
+                }
+            },
+            "test_can_send_more": {
+                "line": 179,
+                "line_end": 185,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 987,
+                    "line_end": 990,
+                    "indent": 4,
+                    "name": "can_send_more"
+                }
+            },
+            "test_recv_disconnected": {
+                "line": 188,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 822,
+                    "line_end": 824,
+                    "indent": 4,
+                    "name": "disconnected"
+                }
+            },
+            "test_collect_hosts__happy_path": {
+                "line": 215,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1416,
+                    "line_end": 1439,
+                    "indent": 0,
+                    "name": "collect_hosts"
+                }
+            },
+            "test_collect_hosts__ipv6": {
+                "line": 224,
+                "line_end": 231,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1416,
+                    "line_end": 1439,
+                    "indent": 0,
+                    "name": "collect_hosts"
+                }
+            },
+            "test_collect_hosts__string_list": {
+                "line": 234,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1416,
+                    "line_end": 1439,
+                    "indent": 0,
+                    "name": "collect_hosts"
+                }
+            },
+            "test_collect_hosts__with_spaces": {
+                "line": 254,
+                "line_end": 260,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1416,
+                    "line_end": 1439,
+                    "indent": 0,
+                    "name": "collect_hosts"
+                }
+            },
+            "test_lookup_on_connect": {
+                "line": 263,
+                "line_end": 294,
+                "indent": 0,
+                "focal_class": "BrokerConnection",
+                "focal_method": {
+                    "line": 352,
+                    "line_end": 452,
+                    "indent": 4,
+                    "name": "connect"
+                }
+            },
+            "test_requests_timed_out": {
+                "line": 325,
+                "line_end": 342,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1078,
+                    "line_end": 1087,
+                    "indent": 4,
+                    "name": "requests_timed_out"
+                }
+            }
+        }
+    },
+    "test/test_codec.py": {
+        "focal_file": "kafka/codec.py",
+        "methods": {
+            "test_snappy": {
+                "line": 28,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "has_snappy"
+                }
+            },
+            "test_snappy_detect_xerial": {
+                "line": 36,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 188,
+                    "indent": 0,
+                    "name": "_detect_xerial_stream"
+                }
+            },
+            "test_snappy_decode_xerial": {
+                "line": 56,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 213,
+                    "indent": 0,
+                    "name": "snappy_decode"
+                }
+            },
+            "test_snappy_encode_xerial": {
+                "line": 71,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 160,
+                    "indent": 0,
+                    "name": "snappy_encode"
+                }
+            },
+            "test_lz4": {
+                "line": 88,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "has_lz4"
+                }
+            },
+            "test_lz4_old": {
+                "line": 98,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "has_lz4"
+                }
+            }
+        }
+    },
+    "test/test_consumer_group.py": {
+        "focal_file": "kafka/consumer/group.py",
+        "methods": {
+            "test_consumer": {
+                "line": 22,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": "KafkaConsumer",
+                "focal_method": {
+                    "line": 605,
+                    "line_end": 653,
+                    "indent": 4,
+                    "name": "poll"
+                }
+            },
+            "test_consumer_topics": {
+                "line": 34,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "KafkaConsumer",
+                "focal_method": {
+                    "line": 574,
+                    "line_end": 583,
+                    "indent": 4,
+                    "name": "topics"
+                }
+            },
+            "test_paused": {
+                "line": 134,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": "KafkaConsumer",
+                "focal_method": {
+                    "line": 765,
+                    "line_end": 772,
+                    "indent": 4,
+                    "name": "paused"
+                }
+            }
+        }
+    },
+    "test/record/test_legacy_records.py": {
+        "focal_file": "kafka/record/legacy_records.py",
+        "methods": {
+            "test_written_bytes_equals_size_in_bytes": {
+                "line": 60,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": "LegacyRecordBatchBuilder",
+                "focal_method": {
+                    "line": 472,
+                    "line_end": 477,
+                    "indent": 4,
+                    "name": "size_in_bytes"
+                }
+            }
+        }
+    },
+    "test/record/test_default_records.py": {
+        "focal_file": "kafka/record/default_records.py",
+        "methods": {
+            "test_written_bytes_equals_size_in_bytes_v2": {
+                "line": 45,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": "DefaultRecordBatchBuilder",
+                "focal_method": {
+                    "line": 533,
+                    "line_end": 544,
+                    "indent": 4,
+                    "name": "size_in_bytes"
+                }
+            }
+        }
+    },
+    "test/record/test_util.py": {
+        "focal_file": "kafka/record/util.py",
+        "methods": {
+            "test_encode_varint": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "encode_varint"
+                }
+            },
+            "test_decode_varint": {
+                "line": 57,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "decode_varint"
+                }
+            },
+            "test_size_of_varint": {
+                "line": 67,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "size_of_varint"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "tests/test_core.py": {
+        "focal_file": "knotty/core.py",
+        "methods": {
+            "test_registy_is_populated_with_expected_metrics_via_start_system_monitors": {
+                "line": 17,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_start_system_monitors"
+                }
+            },
+            "test_registy_is_populated_with_expected_metrics_via_start_std_lib_monitoring": {
+                "line": 26,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "_start_std_lib_monitoring"
+                }
+            },
+            "test_registy_is_populated_with_expected_metrics_via_start_third_party_lib_monitors": {
+                "line": 31,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_start_third_party_lib_monitors"
+                }
+            }
+        }
+    },
+    "tests/test_exporters.py": {
+        "focal_file": "knotty/exporters.py",
+        "methods": {
+            "test__PrometheusStarter_metrics_are_formatted_correctly": {
+                "line": 58,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "_metrics_translator"
+                }
+            },
+            "test__InfluxDB_metrics_are_formatted_correctly": {
+                "line": 63,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "_metrics_translator"
+                }
+            },
+            "test_Graphite_metrics_are_formatted_correctly": {
+                "line": 75,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "_metrics_translator"
+                }
+            }
+        }
+    },
+    "tests/test_meters.py": {
+        "focal_file": "knotty/meters.py",
+        "methods": {
+            "test_adding_global_tags": {
+                "line": 19,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "add_global_tags"
+                }
+            },
+            "test_removing_global_tags": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "remove_global_tags"
+                }
+            },
+            "test_counters_increment_as_expected": {
+                "line": 68,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 300,
+                    "indent": 4,
+                    "name": "increment"
+                }
+            },
+            "test_gauge_when_gauge_function_returns_number": {
+                "line": 77,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 372,
+                    "indent": 4,
+                    "name": "set_gauge_function"
+                }
+            },
+            "test_gauge_when_gauge_function_returns_dictionary": {
+                "line": 85,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 327,
+                    "line_end": 372,
+                    "indent": 4,
+                    "name": "set_gauge_function"
+                }
+            },
+            "test_histograms_keep_correct_number_of_data_when_set_max_data_values_called": {
+                "line": 141,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 448,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "set_max_data_values"
+                }
+            },
+            "test_histograms_create_correct_number_of_bins_when_set_number_of_bins_called": {
+                "line": 160,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 465,
+                    "line_end": 471,
+                    "indent": 4,
+                    "name": "set_number_of_bins"
+                }
+            },
+            "test_histograms_create_correct_percentiles_when_set_percentiles_called": {
+                "line": 177,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "set_percentiles"
+                }
+            }
+        }
+    }
+}

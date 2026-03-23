@@ -1,0 +1,903 @@
+{
+    "tests/test_batch_sparge.py": {
+        "focal_file": "sbrew/batch_sparge.py",
+        "methods": {
+            "test01_extractions_calculated_forward": {
+                "line": 19,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "BatchSparge",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "extractions_calculated_forward"
+                }
+            },
+            "test02_solve": {
+                "line": 88,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "BatchSparge",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            },
+            "test03_solve_from_mash_and_desired_volume": {
+                "line": 111,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "BatchSparge",
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "solve_from_mash_and_desired_volume"
+                }
+            }
+        }
+    },
+    "tests/test_beer.py": {
+        "focal_file": "sbrew/beer.py",
+        "methods": {
+            "test00_str": {
+                "line": 13,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "Beer",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            },
+            "test02_solve": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "Beer",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            },
+            "test03_end_state_str": {
+                "line": 36,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "Beer",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            }
+        }
+    },
+    "tests/test_boil.py": {
+        "focal_file": "sbrew/boil.py",
+        "methods": {
+            "test01_tinseth_utilization": {
+                "line": 38,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "tinseth_utilization"
+                }
+            },
+            "test02_ibu_from_boil": {
+                "line": 59,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "ibu_from_boil"
+                }
+            },
+            "test_02a_weight_for_ibu_from_boil": {
+                "line": 68,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "weight_for_ibu_from_boil"
+                }
+            },
+            "test04_import_forward": {
+                "line": 83,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "import_forward"
+                }
+            },
+            "test05_import_backward": {
+                "line": 94,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "import_backward"
+                }
+            },
+            "test06_solve": {
+                "line": 102,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            },
+            "test09_solve_volume_backward": {
+                "line": 152,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "solve_volume_backward"
+                }
+            },
+            "test08_points_from_sugars": {
+                "line": 166,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "points_from_sugars"
+                }
+            },
+            "test09_ibu_from_addition": {
+                "line": 179,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "ibu_from_addition"
+                }
+            },
+            "test10_color": {
+                "line": 190,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "color"
+                }
+            },
+            "test11_end_state_str": {
+                "line": 203,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": "Boil",
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            }
+        }
+    },
+    "tests/test_carbonation.py": {
+        "focal_file": "sbrew/carbonation.py",
+        "methods": {
+            "test00_str": {
+                "line": 13,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "Carbonation",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            },
+            "test02_solve": {
+                "line": 29,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "Carbonation",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            },
+            "test03_end_state_str": {
+                "line": 55,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "Carbonation",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            }
+        }
+    },
+    "tests/test_decoction_mash.py": {
+        "focal_file": "sbrew/decoction_mash.py",
+        "methods": {
+            "test_05_steps_str": {
+                "line": 58,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "DecoctionMash",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "steps_str"
+                }
+            },
+            "test_07_stage_state_str": {
+                "line": 73,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "DecoctionMash",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "stage_state_str"
+                }
+            },
+            "test_08_find_stages": {
+                "line": 78,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "DecoctionMash",
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "find_stages"
+                }
+            },
+            "test_10_total_time": {
+                "line": 99,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": "DecoctionMash",
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 243,
+                    "indent": 4,
+                    "name": "total_time"
+                }
+            }
+        }
+    },
+    "tests/test_ferment.py": {
+        "focal_file": "sbrew/ferment.py",
+        "methods": {
+            "test_02_import_forward": {
+                "line": 17,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "Ferment",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "import_forward"
+                }
+            },
+            "test_03_import_backward": {
+                "line": 28,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "Ferment",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "import_backward"
+                }
+            },
+            "test06_abv": {
+                "line": 55,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "Ferment",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "abv"
+                }
+            },
+            "test07_end_state_str": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "Ferment",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            }
+        }
+    },
+    "tests/test_infusion_mash.py": {
+        "focal_file": "sbrew/infusion_mash.py",
+        "methods": {
+            "test02_import_forward": {
+                "line": 16,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "InfusionMash",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "import_forward"
+                }
+            },
+            "test03_solve": {
+                "line": 30,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "InfusionMash",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            }
+        }
+    },
+    "tests/test_ingredient.py": {
+        "focal_file": "sbrew/ingredient.py",
+        "methods": {
+            "test02_property": {
+                "line": 26,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "Ingredient",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "property"
+                }
+            }
+        }
+    },
+    "tests/test_lauter.py": {
+        "focal_file": "sbrew/lauter.py",
+        "methods": {
+            "test02_import_forward": {
+                "line": 19,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "Lauter",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "import_forward"
+                }
+            },
+            "test03_import_forward": {
+                "line": 30,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "Lauter",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "import_backward"
+                }
+            },
+            "test05_end_state_str": {
+                "line": 38,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "Lauter",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            }
+        }
+    },
+    "tests/test_mash.py": {
+        "focal_file": "sbrew/mash.py",
+        "methods": {
+            "test01_total_type": {
+                "line": 19,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "total_type"
+                }
+            },
+            "test02_total_grains": {
+                "line": 29,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "total_grains"
+                }
+            },
+            "test03_total_points": {
+                "line": 44,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "total_points"
+                }
+            },
+            "test04_color_units": {
+                "line": 52,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "color_units"
+                }
+            },
+            "test05_mash_volume": {
+                "line": 69,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "mash_volume"
+                }
+            },
+            "test05_add_mash": {
+                "line": 75,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "add_mash"
+                }
+            },
+            "test06_solve": {
+                "line": 86,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            },
+            "test07_end_state_str": {
+                "line": 96,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "Mash",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            }
+        }
+    },
+    "tests/test_mix.py": {
+        "focal_file": "sbrew/mix.py",
+        "methods": {
+            "test00_mix_two_temp": {
+                "line": 10,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 10,
+                    "indent": 0,
+                    "name": "mix_two_temp"
+                }
+            }
+        }
+    },
+    "tests/test_property.py": {
+        "focal_file": "sbrew/property.py",
+        "methods": {
+            "test02_to": {
+                "line": 21,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "Property",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "to"
+                }
+            },
+            "test03_short_str": {
+                "line": 24,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "Property",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "short_str"
+                }
+            }
+        }
+    },
+    "tests/test_quantity.py": {
+        "focal_file": "sbrew/quantity.py",
+        "methods": {
+            "test03_find_conversion": {
+                "line": 24,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 204,
+                    "line_end": 223,
+                    "indent": 4,
+                    "name": "find_conversion"
+                }
+            },
+            "test06_canonical_unit": {
+                "line": 43,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "canonical_unit"
+                }
+            },
+            "test07_to": {
+                "line": 46,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "Quantity",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "to"
+                }
+            },
+            "test08_temp_to": {
+                "line": 52,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "Quantity",
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "temp_to"
+                }
+            },
+            "test09_convert_to": {
+                "line": 61,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "Quantity",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 185,
+                    "indent": 4,
+                    "name": "convert_to"
+                }
+            },
+            "test20_find_conversion": {
+                "line": 97,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 204,
+                    "line_end": 223,
+                    "indent": 4,
+                    "name": "find_conversion"
+                }
+            },
+            "test21_hydrometer_correction": {
+                "line": 105,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "Quantity",
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "hydrometer_correction"
+                }
+            }
+        }
+    },
+    "tests/test_recipe.py": {
+        "focal_file": "sbrew/recipe.py",
+        "methods": {
+            "test06_str_line_number": {
+                "line": 48,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "Recipe",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "_str_line_num"
+                }
+            },
+            "test09_property": {
+                "line": 69,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "Recipe",
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 220,
+                    "indent": 4,
+                    "name": "property"
+                }
+            },
+            "test12_properties_str": {
+                "line": 82,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "Recipe",
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 243,
+                    "indent": 4,
+                    "name": "properties_str"
+                }
+            },
+            "test15_set_output": {
+                "line": 94,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "Recipe",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 297,
+                    "indent": 4,
+                    "name": "set_output"
+                }
+            },
+            "test16_solve": {
+                "line": 100,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": "Recipe",
+                "focal_method": {
+                    "line": 307,
+                    "line_end": 355,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            },
+            "test17_end_state_str": {
+                "line": 109,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "Recipe",
+                "focal_method": {
+                    "line": 357,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "end_state_str"
+                }
+            }
+        }
+    },
+    "tests/test_refractometer.py": {
+        "focal_file": "sbrew/refractometer.py",
+        "methods": {
+            "test_01_brix_to_starting_gravity": {
+                "line": 11,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "brix_to_starting_gravity"
+                }
+            }
+        }
+    },
+    "tests/test_step_mash.py": {
+        "focal_file": "sbrew/step_mash.py",
+        "methods": {
+            "test02_add_step": {
+                "line": 16,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "StepMash",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "add_step"
+                }
+            },
+            "test_03_total_water": {
+                "line": 31,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "StepMash",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "total_water"
+                }
+            },
+            "test_04_total_time": {
+                "line": 41,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "StepMash",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "total_time"
+                }
+            },
+            "test_05_steps_str": {
+                "line": 48,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "StepMash",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "steps_str"
+                }
+            },
+            "test_06_stage_state_str": {
+                "line": 60,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "StepMash",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "stage_state_str"
+                }
+            },
+            "test_07_find_stages": {
+                "line": 65,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": "StepMash",
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "find_stages"
+                }
+            },
+            "test_08_parsetime": {
+                "line": 79,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": "StepMash",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "parsetime"
+                }
+            }
+        }
+    },
+    "tests/test_wort_additions.py": {
+        "focal_file": "sbrew/wort_additions.py",
+        "methods": {
+            "test02_import_forward": {
+                "line": 17,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "WortAdditions",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "import_forward"
+                }
+            },
+            "test03_solve": {
+                "line": 31,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "WortAdditions",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "solve"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,352 @@
+{
+    "tests/model/test_action.py": {
+        "focal_file": "chillow/model/action.py",
+        "methods": {
+            "test_get_random_action": {
+                "line": 31,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "get_random_action"
+                }
+            }
+        }
+    },
+    "tests/model/test_game.py": {
+        "focal_file": "chillow/model/game.py",
+        "methods": {
+            "test_return_all_other_players": {
+                "line": 125,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "Game",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_other_player_ids"
+                }
+            },
+            "test_return_all_other_active_players": {
+                "line": 137,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "Game",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_other_player_ids"
+                }
+            },
+            "test_translate_cell_matrix_to_pathfinding_matrix_should_be_correct": {
+                "line": 203,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": "Game",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "translate_cell_matrix_to_pathfinding_matrix"
+                }
+            },
+            "test_normalize_game_deadline_1": {
+                "line": 233,
+                "line_end": 242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "normalize_deadline"
+                }
+            },
+            "test_normalize_game_deadline_2": {
+                "line": 244,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "normalize_deadline"
+                }
+            }
+        }
+    },
+    "tests/service/test_json_data_loader.py": {
+        "focal_file": "chillow/service/data_loader.py",
+        "methods": {
+            "test_read_correct_time_1": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "read_server_time"
+                }
+            },
+            "test_read_correct_time_2": {
+                "line": 72,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "read_server_time"
+                }
+            }
+        }
+    },
+    "tests/service/ai/test_not_killing_itself_ai.py": {
+        "focal_file": "chillow/service/ai/not_killing_itself_ai.py",
+        "methods": {
+            "test_ai_should_calc_action_with_max_distance": {
+                "line": 121,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": "NotKillingItselfAI",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "calc_action_with_max_distance_to_visited_cells"
+                }
+            },
+            "test_ai_should_calc_all_action_with_max_distance_with_max_worse_distance": {
+                "line": 142,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": "NotKillingItselfAI",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "calc_action_with_max_distance_to_visited_cells"
+                }
+            },
+            "test_get_information": {
+                "line": 166,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": "NotKillingItselfAI",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_information"
+                }
+            }
+        }
+    },
+    "tests/service/ai/test_pathfinding_ai.py": {
+        "focal_file": "chillow/service/ai/pathfinding_ai.py",
+        "methods": {
+            "test_get_random_free_cells_from_playground_should_return_correct_number_of_free_cells": {
+                "line": 15,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": "PathfindingAI",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "get_random_free_cells_from_playground"
+                }
+            },
+            "test_get_random_free_cells_from_playground_should_return_correct_number_of_free_cells_in_late_game": {
+                "line": 32,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "PathfindingAI",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "get_random_free_cells_from_playground"
+                }
+            },
+            "test_create_action_should_return_only_possible_action": {
+                "line": 50,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "PathfindingAI",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "create_next_action"
+                }
+            },
+            "test_get_information": {
+                "line": 122,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": "PathfindingAI",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "get_information"
+                }
+            }
+        }
+    },
+    "tests/service/ai/test_pathfinding_search_tree_ai.py": {
+        "focal_file": "chillow/service/ai/pathfinding_search_tree_ai.py",
+        "methods": {
+            "test_get_best_action_should_find_best_action": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "get_best_action"
+                }
+            },
+            "test_get_information": {
+                "line": 78,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "get_information"
+                }
+            }
+        }
+    },
+    "tests/service/ai/test_search_tree_ai.py": {
+        "focal_file": "chillow/service/ai/search_tree_ai.py",
+        "methods": {
+            "test_find_no_surviving_action": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "SearchTreeAI",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "create_all_next_surviving_actions"
+                }
+            },
+            "test_get_information": {
+                "line": 50,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "SearchTreeAI",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_information"
+                }
+            }
+        }
+    },
+    "tests/service/ai/test_search_tree_pathfinding_ai.py": {
+        "focal_file": "chillow/service/ai/search_tree_pathfinding_ai.py",
+        "methods": {
+            "test_should_select_default_action": {
+                "line": 33,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": "SearchTreePathfindingAI",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "create_next_action"
+                }
+            },
+            "test_get_information": {
+                "line": 42,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "SearchTreePathfindingAI",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_information"
+                }
+            }
+        }
+    },
+    "tests/view/test_console_view.py": {
+        "focal_file": "chillow/view/console_view.py",
+        "methods": {
+            "test_correct_output_on_end": {
+                "line": 45,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "end"
+                }
+            }
+        }
+    },
+    "tests/view/test_headless_view.py": {
+        "focal_file": "chillow/view/headless_view.py",
+        "methods": {
+            "test_update": {
+                "line": 16,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_end": {
+                "line": 24,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "end"
+                }
+            },
+            "test_read_next_action": {
+                "line": 27,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "read_next_action"
+                }
+            }
+        }
+    }
+}

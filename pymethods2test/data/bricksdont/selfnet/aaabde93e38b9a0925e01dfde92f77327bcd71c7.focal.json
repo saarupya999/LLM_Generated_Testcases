@@ -1,0 +1,77 @@
+{
+    "test/test_loss.py": {
+        "focal_file": "selfnet/loss.py",
+        "methods": {
+            "test_loss_sse_forward_is_scalar": {
+                "line": 12,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "SumSquaredError",
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 11,
+                    "indent": 4,
+                    "name": "forward"
+                }
+            },
+            "test_loss_sse_backward_shape": {
+                "line": 24,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "SumSquaredError",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            }
+        }
+    },
+    "test/test_trainer.py": {
+        "focal_file": "selfnet/train.py",
+        "methods": {
+            "test_trainer_call": {
+                "line": 15,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "Trainer",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "train"
+                }
+            }
+        }
+    },
+    "test/test_layers.py": {
+        "focal_file": "selfnet/layers.py",
+        "methods": {
+            "test_linear_layer_forward_shape": {
+                "line": 14,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "LinearLayer",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "forward"
+                }
+            },
+            "test_linear_layer_backward_shape": {
+                "line": 26,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "LinearLayer",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            }
+        }
+    }
+}

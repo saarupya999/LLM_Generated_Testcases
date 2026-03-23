@@ -1,0 +1,305 @@
+{
+    "tests/database_tests/test_auth_forms_with_db.py": {
+        "focal_file": "app/auth/forms.py",
+        "methods": {
+            "test_validate_current_password": {
+                "line": 16,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "EditUserForm",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "validate_current_password"
+                }
+            },
+            "test_validate_email": {
+                "line": 77,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "ResetPasswordRequestForm",
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "validate_email"
+                }
+            },
+            "test_load_users": {
+                "line": 90,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "SelectUserForm",
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 320,
+                    "indent": 4,
+                    "name": "load_users"
+                }
+            }
+        }
+    },
+    "tests/database_tests/test_auth_models_with_db.py": {
+        "focal_file": "app/auth/models.py",
+        "methods": {
+            "test_email_request_too_many": {
+                "line": 15,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "EmailRequest",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "email_request_too_many"
+                }
+            },
+            "test_email_request_too_many_first_request": {
+                "line": 29,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "email_request_too_many"
+                }
+            },
+            "test_email_request_too_many_prunes_old_requests": {
+                "line": 40,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "EmailRequest",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "email_request_too_many"
+                }
+            },
+            "test_email_request_too_soon": {
+                "line": 58,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "EmailRequest",
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 202,
+                    "indent": 4,
+                    "name": "email_request_too_soon"
+                }
+            },
+            "test_email_request_too_soon_first_request": {
+                "line": 71,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 202,
+                    "indent": 4,
+                    "name": "email_request_too_soon"
+                }
+            },
+            "test_email_request_too_soon_different_senders": {
+                "line": 81,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "EmailRequest",
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 202,
+                    "indent": 4,
+                    "name": "email_request_too_soon"
+                }
+            },
+            "test_get_user_from_confirmation_token_bad_or_wrong_token": {
+                "line": 90,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 411,
+                    "line_end": 439,
+                    "indent": 0,
+                    "name": "get_user_from_confirmation_token"
+                }
+            },
+            "test_get_user_from_confirmation_token": {
+                "line": 99,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 411,
+                    "line_end": 439,
+                    "indent": 0,
+                    "name": "get_user_from_confirmation_token"
+                }
+            },
+            "test_get_user_from_confirmation_token_with_valid_token": {
+                "line": 110,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 411,
+                    "line_end": 439,
+                    "indent": 0,
+                    "name": "get_user_from_confirmation_token"
+                }
+            },
+            "test_log_email_request": {
+                "line": 119,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 259,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "log_email_request"
+                }
+            },
+            "test_prune_email_requests": {
+                "line": 130,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "EmailRequest",
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 312,
+                    "indent": 4,
+                    "name": "prune_email_requests"
+                }
+            }
+        }
+    },
+    "tests/fast_tests/test_auth_models.py": {
+        "focal_file": "app/auth/models.py",
+        "methods": {
+            "test_can": {
+                "line": 16,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "can"
+                }
+            },
+            "test_confirm_account_works_with_generated_token": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 204,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "generate_account_confirmation_token"
+                }
+            },
+            "test_confirm_new_email_bad_token_or_wrong_user": {
+                "line": 51,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "confirm_new_email"
+                }
+            },
+            "test_confirm_new_email_works_with_generated_token": {
+                "line": 61,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "confirm_new_email"
+                }
+            },
+            "test_grant_permission": {
+                "line": 71,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "grant_permission"
+                }
+            },
+            "test_password_hashing": {
+                "line": 99,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 393,
+                    "indent": 4,
+                    "name": "set_password"
+                }
+            },
+            "test_password_reset": {
+                "line": 106,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 393,
+                    "indent": 4,
+                    "name": "set_password"
+                }
+            },
+            "test_reset_password_bad_token_or_wrong_user": {
+                "line": 122,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 234,
+                    "line_end": 247,
+                    "indent": 4,
+                    "name": "generate_password_reset_token"
+                }
+            },
+            "test_reset_password_with_valid_token": {
+                "line": 132,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 234,
+                    "line_end": 247,
+                    "indent": 4,
+                    "name": "generate_password_reset_token"
+                }
+            },
+            "test_revoke_permission": {
+                "line": 139,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "revoke_permission"
+                }
+            }
+        }
+    }
+}

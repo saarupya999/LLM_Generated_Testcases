@@ -1,0 +1,872 @@
+{
+    "tests/test_intrinsics.py": {
+        "focal_file": "samtranslator/model/intrinsics.py",
+        "methods": {
+            "test_is_intrinsic_on_empty_input": {
+                "line": 23,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "is_instrinsic"
+                }
+            },
+            "test_make_shorthand_success": {
+                "line": 39,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "make_shorthand"
+                }
+            },
+            "test_make_short_hand_failure": {
+                "line": 42,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "make_shorthand"
+                }
+            }
+        }
+    },
+    "tests/test_model.py": {
+        "focal_file": "samtranslator/intrinsics/resource_refs.py",
+        "methods": {
+            "test_must_work_with_two_resources_of_same_type": {
+                "line": 184,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    },
+    "tests/model/test_function_policies.py": {
+        "focal_file": "samtranslator/model/function_policies.py",
+        "methods": {
+            "test_contains_policies_must_ignore_resources_without_policies": {
+                "line": 63,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "_contains_policies"
+                }
+            },
+            "test_contains_policies_must_ignore_non_dict_resources": {
+                "line": 70,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "_contains_policies"
+                }
+            },
+            "test_contains_policies_must_ignore_none_resources": {
+                "line": 75,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "_contains_policies"
+                }
+            },
+            "test_get_policies_must_return_all_policies": {
+                "line": 146,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "_get_policies"
+                }
+            },
+            "test_get_policies_must_ignore_if_policies_is_empty": {
+                "line": 178,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "_get_policies"
+                }
+            },
+            "test_is_policy_template_must_detect_valid_policy_templates": {
+                "line": 271,
+                "line_end": 284,
+                "indent": 4,
+                "focal_class": "FunctionPolicies",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_is_policy_template"
+                }
+            },
+            "test_is_policy_template_must_ignore_none_policies": {
+                "line": 296,
+                "line_end": 300,
+                "indent": 4,
+                "focal_class": "FunctionPolicies",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_is_policy_template"
+                }
+            },
+            "test_is_policy_template_must_ignore_non_policy_templates": {
+                "line": 314,
+                "line_end": 325,
+                "indent": 4,
+                "focal_class": "FunctionPolicies",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_is_policy_template"
+                }
+            }
+        }
+    },
+    "tests/model/eventsources/test_cloudwatchlogs_event_source.py": {
+        "focal_file": "samtranslator/model/eventsources/cloudwatchlogs.py",
+        "methods": {
+            "test_get_source_arn": {
+                "line": 22,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_source_arn"
+                }
+            },
+            "test_get_subscription_filter": {
+                "line": 28,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_subscription_filter"
+                }
+            }
+        }
+    },
+    "tests/policy_template_processor/test_template.py": {
+        "focal_file": "samtranslator/policy_template_processor/template.py",
+        "methods": {
+            "test_missing_parameter_values_must_work_when_input_has_less_keys": {
+                "line": 69,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "Template",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "missing_parameter_values"
+                }
+            },
+            "test_missing_parameter_values_must_work_when_input_has_all_keys": {
+                "line": 84,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "Template",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "missing_parameter_values"
+                }
+            },
+            "test_missing_parameter_values_must_work_when_input_has_more_keys": {
+                "line": 100,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "Template",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "missing_parameter_values"
+                }
+            },
+            "test_missing_parameter_values_must_raise_on_invalid_input": {
+                "line": 117,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "Template",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "missing_parameter_values"
+                }
+            }
+        }
+    },
+    "tests/swagger/test_swagger.py": {
+        "focal_file": "samtranslator/swagger/swagger.py",
+        "methods": {
+            "test_must_find_integration": {
+                "line": 119,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "has_integration"
+                }
+            },
+            "test_must_not_find_integration": {
+                "line": 122,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "has_integration"
+                }
+            },
+            "test_must_not_find_empty_integration": {
+                "line": 125,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "has_integration"
+                }
+            },
+            "test_must_iterate_on_paths": {
+                "line": 281,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "iter_on_path"
+                }
+            }
+        }
+    },
+    "tests/plugins/api/test_implicit_api_plugin.py": {
+        "focal_file": "samtranslator/plugins/api/implicit_api_plugin.py",
+        "methods": {
+            "test_must_get_all_api_events_in_function": {
+                "line": 187,
+                "line_end": 229,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "_get_api_events"
+                }
+            }
+        }
+    },
+    "tests/plugins/application/test_serverless_app_plugin.py": {
+        "focal_file": "samtranslator/plugins/application/serverless_app_plugin.py",
+        "methods": {
+            "test_sar_service_calls": {
+                "line": 189,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_sar_service_call"
+                }
+            }
+        }
+    },
+    "tests/plugins/policies/test_policy_templates_plugin.py": {
+        "focal_file": "samtranslator/plugins/policies/policy_templates_plugin.py",
+        "methods": {
+            "test_on_before_transform_resource_must_work_on_every_policy_template": {
+                "line": 35,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "on_before_transform_resource"
+                }
+            },
+            "test_on_before_transform_resource_must_skip_non_policy_templates": {
+                "line": 85,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "on_before_transform_resource"
+                }
+            },
+            "test_on_before_transform_must_bubble_exception": {
+                "line": 207,
+                "line_end": 238,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "on_before_transform_resource"
+                }
+            },
+            "test_on_before_transform_resource_must_skip_unsupported_resources": {
+                "line": 240,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "on_before_transform_resource"
+                }
+            },
+            "test_on_before_transform_resource_must_skip_function_with_no_policies": {
+                "line": 254,
+                "line_end": 268,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "on_before_transform_resource"
+                }
+            }
+        }
+    },
+    "tests/plugins/globals/test_globals_plugin.py": {
+        "focal_file": "samtranslator/plugins/globals/globals_plugin.py",
+        "methods": {
+            "test_on_before_transform_template_must_raise_on_invalid_globals_section": {
+                "line": 27,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "on_before_transform_template"
+                }
+            }
+        }
+    },
+    "tests/plugins/globals/test_globals.py": {
+        "focal_file": "samtranslator/plugins/globals/globals.py",
+        "methods": {
+            "test_global_properties_merge": {
+                "line": 389,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": "GlobalProperties",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            },
+            "test_merge_must_actually_do_merge": {
+                "line": 545,
+                "line_end": 564,
+                "indent": 4,
+                "focal_class": "Globals",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "merge"
+                }
+            }
+        }
+    },
+    "tests/translator/test_translator.py": {
+        "focal_file": "samtranslator/translator/translator.py",
+        "methods": {
+            "test_add_default_parameter_values_must_merge": {
+                "line": 606,
+                "line_end": 629,
+                "indent": 4,
+                "focal_class": "Translator",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "_add_default_parameter_values"
+                }
+            },
+            "test_add_default_parameter_values_must_override_user_specified_values": {
+                "line": 631,
+                "line_end": 653,
+                "indent": 4,
+                "focal_class": "Translator",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "_add_default_parameter_values"
+                }
+            },
+            "test_add_default_parameter_values_must_skip_params_without_defaults": {
+                "line": 655,
+                "line_end": 678,
+                "indent": 4,
+                "focal_class": "Translator",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "_add_default_parameter_values"
+                }
+            },
+            "test_add_default_parameter_values_must_ignore_invalid_template_parameters": {
+                "line": 693,
+                "line_end": 711,
+                "indent": 4,
+                "focal_class": "Translator",
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "_add_default_parameter_values"
+                }
+            },
+            "test_prepare_plugins_must_handle_empty_input": {
+                "line": 776,
+                "line_end": 779,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 230,
+                    "indent": 0,
+                    "name": "prepare_plugins"
+                }
+            },
+            "test_make_policy_template_for_function_plugin_must_work": {
+                "line": 783,
+                "line_end": 804,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 239,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "make_policy_template_for_function_plugin"
+                }
+            }
+        }
+    },
+    "tests/translator/test_logical_id_generator.py": {
+        "focal_file": "samtranslator/translator/logical_id_generator.py",
+        "methods": {
+            "testget_hash": {
+                "line": 93,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": "LogicalIdGenerator",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "get_hash"
+                }
+            },
+            "testget_hash_no_data": {
+                "line": 110,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": "LogicalIdGenerator",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "get_hash"
+                }
+            },
+            "test_stringify_strings": {
+                "line": 142,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "LogicalIdGenerator",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "_stringify"
+                }
+            },
+            "test_stringify_expectations": {
+                "line": 150,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": "LogicalIdGenerator",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "_stringify"
+                }
+            }
+        }
+    },
+    "tests/translator/test_function_resources.py": {
+        "focal_file": "samtranslator/model/sam_resources.py",
+        "methods": {
+            "test_version_creation_without_s3_object_version": {
+                "line": 328,
+                "line_end": 342,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 311,
+                    "line_end": 359,
+                    "indent": 4,
+                    "name": "_construct_version"
+                }
+            },
+            "test_get_resolved_alias_name_must_work": {
+                "line": 476,
+                "line_end": 484,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "_get_resolved_alias_name"
+                }
+            }
+        }
+    },
+    "tests/translator/model/test_update_policy.py": {
+        "focal_file": "samtranslator/model/update_policy.py",
+        "methods": {
+            "test_to_dict_only_application_and_deployment_group": {
+                "line": 7,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "UpdatePolicy",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            }
+        }
+    },
+    "tests/translator/model/preferences/test_deployment_preference.py": {
+        "focal_file": "samtranslator/model/preferences/deployment_preference.py",
+        "methods": {
+            "test_from_dict": {
+                "line": 33,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "from_dict"
+                }
+            }
+        }
+    },
+    "tests/intrinsics/test_actions.py": {
+        "focal_file": "samtranslator/intrinsics/actions.py",
+        "methods": {
+            "test_can_handle_input": {
+                "line": 30,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "can_handle"
+                }
+            },
+            "test_parse_resource_references_not_string": {
+                "line": 118,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "_parse_resource_reference"
+                }
+            },
+            "test_can_resolve_ref": {
+                "line": 126,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "RefAction",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "resolve_parameter_refs"
+                }
+            },
+            "test_must_resolve_array_value": {
+                "line": 514,
+                "line_end": 526,
+                "indent": 4,
+                "focal_class": "SubAction",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "resolve_resource_refs"
+                }
+            },
+            "test_handle_sub_value_must_call_handler_on_string": {
+                "line": 425,
+                "line_end": 435,
+                "indent": 4,
+                "focal_class": "SubAction",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "_handle_sub_value"
+                }
+            },
+            "test_handle_sub_value_must_call_handler_on_array": {
+                "line": 438,
+                "line_end": 448,
+                "indent": 4,
+                "focal_class": "SubAction",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "_handle_sub_value"
+                }
+            },
+            "test_handle_sub_value_must_skip_no_string": {
+                "line": 451,
+                "line_end": 461,
+                "indent": 4,
+                "focal_class": "SubAction",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "_handle_sub_value"
+                }
+            },
+            "test_must_resolve_string_value": {
+                "line": 589,
+                "line_end": 601,
+                "indent": 4,
+                "focal_class": "SubAction",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "resolve_resource_id_refs"
+                }
+            },
+            "test_must_resolve_simple_refs": {
+                "line": 835,
+                "line_end": 847,
+                "indent": 4,
+                "focal_class": "GetAttAction",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "resolve_resource_id_refs"
+                }
+            },
+            "test_must_resolve_refs_with_many_attributes": {
+                "line": 849,
+                "line_end": 861,
+                "indent": 4,
+                "focal_class": "GetAttAction",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "resolve_resource_id_refs"
+                }
+            },
+            "test_must_resolve_with_splitted_resource_refs": {
+                "line": 714,
+                "line_end": 727,
+                "indent": 4,
+                "focal_class": "GetAttAction",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "resolve_resource_refs"
+                }
+            }
+        }
+    },
+    "tests/intrinsics/test_resolver.py": {
+        "focal_file": "samtranslator/intrinsics/resolver.py",
+        "methods": {
+            "test_must_resolve_top_level_direct_refs": {
+                "line": 17,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "resolve_parameter_refs"
+                }
+            },
+            "test_must_resolve_nested_refs": {
+                "line": 41,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "resolve_parameter_refs"
+                }
+            },
+            "test_must_resolve_direct_refs": {
+                "line": 69,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "resolve_parameter_refs"
+                }
+            },
+            "test_must_resolve_array_refs": {
+                "line": 76,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "resolve_parameter_refs"
+                }
+            },
+            "test_short_circuit_on_empty_parameters": {
+                "line": 175,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": "IntrinsicsResolver",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "resolve_parameter_refs"
+                }
+            },
+            "test_resolve_sam_resource_refs": {
+                "line": 191,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "resolve_sam_resource_refs"
+                }
+            },
+            "test_resolve_sam_resource_refs_on_supported_intrinsic": {
+                "line": 198,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "_try_resolve_sam_resource_refs"
+                }
+            },
+            "test_resolve_sam_resource_refs_on_unknown_intrinsic": {
+                "line": 209,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "_try_resolve_sam_resource_refs"
+                }
+            }
+        }
+    }
+}

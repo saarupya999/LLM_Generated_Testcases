@@ -1,0 +1,233 @@
+{
+    "s3_deploy/tests/test_config.py": {
+        "focal_file": "s3_deploy/config.py",
+        "methods": {
+            "test_resolve_catch_all_to_none": {
+                "line": 91,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "resolve_cache_rules"
+                }
+            },
+            "test_resolve_no_rules": {
+                "line": 97,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "resolve_cache_rules"
+                }
+            },
+            "test_resolve_second_rule": {
+                "line": 104,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "resolve_cache_rules"
+                }
+            },
+            "test_load_config_from_path": {
+                "line": 132,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "_load_config_from_path"
+                }
+            },
+            "test_load_config_file_from_nonexisting_file": {
+                "line": 186,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "load_config_file"
+                }
+            },
+            "test_load_config_file_from_directory": {
+                "line": 197,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "load_config_file"
+                }
+            }
+        }
+    },
+    "s3_deploy/tests/test_deploy.py": {
+        "focal_file": "s3_deploy/deploy.py",
+        "methods": {
+            "test_upload_key": {
+                "line": 51,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "upload_key"
+                }
+            },
+            "test_deploy_dry": {
+                "line": 150,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 208,
+                    "indent": 0,
+                    "name": "deploy"
+                }
+            },
+            "test_invalidate_paths_empty": {
+                "line": 162,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 231,
+                    "indent": 0,
+                    "name": "invalidate_paths"
+                }
+            },
+            "test_invalidate_paths": {
+                "line": 169,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 231,
+                    "indent": 0,
+                    "name": "invalidate_paths"
+                }
+            },
+            "test_invalidate_paths_dry_run": {
+                "line": 194,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 231,
+                    "indent": 0,
+                    "name": "invalidate_paths"
+                }
+            }
+        }
+    },
+    "s3_deploy/tests/test_prefixcovertree.py": {
+        "focal_file": "s3_deploy/prefixcovertree.py",
+        "methods": {
+            "test_include_empty_key": {
+                "line": 37,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": "PrefixCoverTree",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "include"
+                }
+            },
+            "test_include_twice": {
+                "line": 42,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": "PrefixCoverTree",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "include"
+                }
+            },
+            "test_include_then_exclude": {
+                "line": 49,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "PrefixCoverTree",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "exclude"
+                }
+            },
+            "test_exclude_then_include": {
+                "line": 56,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "PrefixCoverTree",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "include"
+                }
+            },
+            "test_matches": {
+                "line": 62,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "PrefixCoverTree",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "matches"
+                }
+            },
+            "test_matches_empty": {
+                "line": 101,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "PrefixCoverTree",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "matches"
+                }
+            },
+            "test_matches_only_include": {
+                "line": 106,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "PrefixCoverTree",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "include"
+                }
+            }
+        }
+    }
+}

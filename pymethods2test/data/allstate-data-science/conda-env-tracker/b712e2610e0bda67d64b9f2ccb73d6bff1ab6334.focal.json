@@ -1,0 +1,660 @@
+{
+    "test/integrationtest/test_conda_end_to_end.py": {
+        "focal_file": "conda_env_tracker/gateways/conda.py",
+        "methods": {
+            "test_history_after_install": {
+                "line": 125,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "conda_install"
+                }
+            },
+            "test_remove_environment": {
+                "line": 380,
+                "line_end": 396,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "get_all_existing_environment"
+                }
+            }
+        }
+    },
+    "test/unittest/test_conda.py": {
+        "focal_file": "conda_env_tracker/conda.py",
+        "methods": {
+            "test_update_all": {
+                "line": 276,
+                "line_end": 313,
+                "indent": 0,
+                "focal_class": "CondaHandler",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "update_all"
+                }
+            },
+            "test_update_history_conda_remove": {
+                "line": 413,
+                "line_end": 433,
+                "indent": 0,
+                "focal_class": "CondaHandler",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "update_history_remove"
+                }
+            },
+            "test_strict_channel_priority_install": {
+                "line": 436,
+                "line_end": 478,
+                "indent": 0,
+                "focal_class": "CondaHandler",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "install"
+                }
+            },
+            "test_strict_channel_priority_update_all": {
+                "line": 482,
+                "line_end": 529,
+                "indent": 0,
+                "focal_class": "CondaHandler",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "update_all"
+                }
+            }
+        }
+    },
+    "test/unittest/test_conda_gateways.py": {
+        "focal_file": "conda_env_tracker/gateways/conda.py",
+        "methods": {
+            "test_get_all_existing_environment_return_emptylist": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "get_all_existing_environment"
+                }
+            },
+            "test_get_all_existing_environment_return_base": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "get_all_existing_environment"
+                }
+            },
+            "test_get_conda_channels_success": {
+                "line": 103,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "get_conda_channels"
+                }
+            },
+            "test_update_env_from_file": {
+                "line": 138,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 271,
+                    "indent": 0,
+                    "name": "update_conda_environment"
+                }
+            },
+            "test_update_env_error": {
+                "line": 150,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 271,
+                    "indent": 0,
+                    "name": "update_conda_environment"
+                }
+            },
+            "test_get_active_conda_env_name": {
+                "line": 160,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "get_active_conda_env_name"
+                }
+            }
+        }
+    },
+    "test/unittest/test_env.py": {
+        "focal_file": "conda_env_tracker/env.py",
+        "methods": {
+            "test_update_channel": {
+                "line": 147,
+                "line_end": 158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "append_channels"
+                }
+            },
+            "test_export": {
+                "line": 161,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": "Environment",
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "export"
+                }
+            },
+            "test_export_pip": {
+                "line": 221,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": "Environment",
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "export"
+                }
+            }
+        }
+    },
+    "test/unittest/test_io.py": {
+        "focal_file": "conda_env_tracker/gateways/io.py",
+        "methods": {
+            "test_get_history": {
+                "line": 57,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "get_history"
+                }
+            },
+            "test_write_history_file": {
+                "line": 62,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "write_history_file"
+                }
+            },
+            "test_set_remote_dir": {
+                "line": 111,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "set_remote_dir"
+                }
+            },
+            "test_set_remote_dir_if_missing": {
+                "line": 125,
+                "line_end": 136,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "set_remote_dir"
+                }
+            },
+            "test_copy_environment_from_local_to_remote": {
+                "line": 139,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "copy_environment"
+                }
+            },
+            "test_add_auto_to_bash_skipped": {
+                "line": 332,
+                "line_end": 349,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "add_auto_to_bash_config_file"
+                }
+            },
+            "test_move_auto_to_end_of_bash_config": {
+                "line": 365,
+                "line_end": 390,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "add_auto_to_bash_config_file"
+                }
+            },
+            "test_init": {
+                "line": 431,
+                "line_end": 458,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "init"
+                }
+            }
+        }
+    },
+    "test/unittest/test_jupyter.py": {
+        "focal_file": "conda_env_tracker/gateways/jupyter.py",
+        "methods": {
+            "test_jupyter_kernel_install_query_success": {
+                "line": 18,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "jupyter_kernel_install_query"
+                }
+            },
+            "test_jupyter_kernel_install_query_success_from_different_env": {
+                "line": 66,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "jupyter_kernel_install_query"
+                }
+            },
+            "test_jupyter_kernel_install_query_kernel_exists": {
+                "line": 112,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "jupyter_kernel_install_query"
+                }
+            },
+            "test_jupyter_kernel_install_query_user_says_no": {
+                "line": 137,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "jupyter_kernel_install_query"
+                }
+            },
+            "test_jupyter_kernel_install_query_jupyter_not_in_packages": {
+                "line": 162,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "jupyter_kernel_install_query"
+                }
+            },
+            "test_jupyter_kernel_install_query_jupyter_cant_get_kernelspec": {
+                "line": 170,
+                "line_end": 180,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "jupyter_kernel_install_query"
+                }
+            },
+            "test_jupyter_kernel_install_query_jupyter_cant_install_kernel": {
+                "line": 183,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "jupyter_kernel_install_query"
+                }
+            }
+        }
+    },
+    "test/unittest/test_main.py": {
+        "focal_file": "conda_env_tracker/main.py",
+        "methods": {
+            "test_diff": {
+                "line": 102,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 266,
+                    "line_end": 273,
+                    "indent": 0,
+                    "name": "diff"
+                }
+            },
+            "test_update_add": {
+                "line": 145,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 288,
+                    "indent": 0,
+                    "name": "update_packages"
+                }
+            },
+            "test_get_name_default": {
+                "line": 214,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 312,
+                    "indent": 0,
+                    "name": "get_env_name"
+                }
+            },
+            "test_get_name_infer": {
+                "line": 224,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 312,
+                    "indent": 0,
+                    "name": "get_env_name"
+                }
+            },
+            "test_r_install": {
+                "line": 274,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 223,
+                    "indent": 0,
+                    "name": "r_install"
+                }
+            }
+        }
+    },
+    "test/unittest/test_pip.py": {
+        "focal_file": "conda_env_tracker/pip.py",
+        "methods": {
+            "test_pip_install": {
+                "line": 31,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": "PipHandler",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "install"
+                }
+            },
+            "test_pip_custom_install": {
+                "line": 60,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": "PipHandler",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "custom_install"
+                }
+            },
+            "test_pip_remove": {
+                "line": 144,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": "PipHandler",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            }
+        }
+    },
+    "test/unittest/test_pip_gateways.py": {
+        "focal_file": "conda_env_tracker/gateways/pip.py",
+        "methods": {
+            "test_pip_install_command": {
+                "line": 33,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "get_pip_install_command"
+                }
+            },
+            "test_pip_version": {
+                "line": 100,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "get_pip_version"
+                }
+            }
+        }
+    },
+    "test/unittest/test_pull.py": {
+        "focal_file": "conda_env_tracker/pull.py",
+        "methods": {
+            "test_pull_r": {
+                "line": 642,
+                "line_end": 655,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "pull"
+                }
+            }
+        }
+    },
+    "test/unittest/test_push.py": {
+        "focal_file": "conda_env_tracker/push.py",
+        "methods": {
+            "test_push": {
+                "line": 143,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "push"
+                }
+            }
+        }
+    },
+    "test/unittest/test_r.py": {
+        "focal_file": "conda_env_tracker/r.py",
+        "methods": {
+            "test_r_install": {
+                "line": 10,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": "RHandler",
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "install"
+                }
+            },
+            "test_two_same_package_r_install": {
+                "line": 39,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": "RHandler",
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "install"
+                }
+            },
+            "test_two_different_packages_r_install": {
+                "line": 81,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": "RHandler",
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 16,
+                    "indent": 4,
+                    "name": "install"
+                }
+            }
+        }
+    },
+    "test/unittest/test_utils.py": {
+        "focal_file": "conda_env_tracker/gateways/utils.py",
+        "methods": {
+            "test_current_infer_remote_dir": {
+                "line": 20,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "infer_remote_dir"
+                }
+            },
+            "test_print_package_list": {
+                "line": 82,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "print_package_list"
+                }
+            },
+            "test_run_command_error_message": {
+                "line": 103,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "run_command"
+                }
+            }
+        }
+    },
+    "test/unittest/test_validate.py": {
+        "focal_file": "conda_env_tracker/validate.py",
+        "methods": {
+            "test_validate_if_missing": {
+                "line": 33,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "validate_remote_if_missing"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,346 @@
+{
+    "beeline/test_beeline.py": {
+        "focal_file": "beeline/__init__.py",
+        "methods": {
+            "test_send_event": {
+                "line": 15,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": "beeline.Beeline",
+                "focal_method": {
+                    "line": 671,
+                    "line_end": 681,
+                    "indent": 0,
+                    "name": "send_event"
+                }
+            },
+            "test_send_no_events": {
+                "line": 25,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "beeline.Beeline",
+                "focal_method": {
+                    "line": 671,
+                    "line_end": 681,
+                    "indent": 0,
+                    "name": "send_event"
+                }
+            },
+            "test_send_all": {
+                "line": 34,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "beeline.Beeline",
+                "focal_method": {
+                    "line": 684,
+                    "line_end": 694,
+                    "indent": 0,
+                    "name": "send_all"
+                }
+            },
+            "test_run_hooks_and_send_no_hooks": {
+                "line": 53,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "beeline.Beeline",
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "_run_hooks_and_send"
+                }
+            },
+            "test_run_hooks_and_send_sampler": {
+                "line": 64,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "beeline.Beeline",
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "_run_hooks_and_send"
+                }
+            },
+            "test_run_hooks_and_send_presend_hook": {
+                "line": 93,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "beeline.Beeline",
+                "focal_method": {
+                    "line": 233,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "_run_hooks_and_send"
+                }
+            },
+            "test_marshal_trace_context_returns_value": {
+                "line": 131,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 624,
+                    "line_end": 644,
+                    "indent": 0,
+                    "name": "marshal_trace_context"
+                }
+            },
+            "test_finish_span_none": {
+                "line": 246,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": "beeline.Beeline",
+                "focal_method": {
+                    "line": 565,
+                    "line_end": 578,
+                    "indent": 0,
+                    "name": "finish_span"
+                }
+            }
+        }
+    },
+    "beeline/test_internal.py": {
+        "focal_file": "beeline/internal.py",
+        "methods": {
+            "test_stringify_exception": {
+                "line": 7,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "stringify_exception"
+                }
+            }
+        }
+    },
+    "beeline/test_trace.py": {
+        "focal_file": "beeline/trace.py",
+        "methods": {
+            "test_span_id": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 432,
+                    "indent": 0,
+                    "name": "generate_span_id"
+                }
+            },
+            "test_trace_id": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 435,
+                    "line_end": 438,
+                    "indent": 0,
+                    "name": "generate_trace_id"
+                }
+            },
+            "test_start_trace": {
+                "line": 193,
+                "line_end": 210,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "start_trace"
+                }
+            },
+            "test_start_span": {
+                "line": 212,
+                "line_end": 238,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "start_span"
+                }
+            },
+            "test_finish_trace": {
+                "line": 249,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 186,
+                    "indent": 4,
+                    "name": "finish_trace"
+                }
+            },
+            "test_add_trace_field_propagates": {
+                "line": 283,
+                "line_end": 345,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 263,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "add_trace_field"
+                }
+            },
+            "test_add_rollup_field_propagates": {
+                "line": 347,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "add_rollup_field"
+                }
+            },
+            "test_get_active_span": {
+                "line": 400,
+                "line_end": 404,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "get_active_span"
+                }
+            },
+            "test_run_hooks_and_send_no_hooks": {
+                "line": 406,
+                "line_end": 421,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "_run_hooks_and_send"
+                }
+            },
+            "test_run_hooks_and_send_sampler": {
+                "line": 423,
+                "line_end": 457,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "_run_hooks_and_send"
+                }
+            },
+            "test_run_hooks_and_send_presend_hook": {
+                "line": 459,
+                "line_end": 488,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "_run_hooks_and_send"
+                }
+            },
+            "test_run_hooks_and_send_adds_trace_fields": {
+                "line": 490,
+                "line_end": 515,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 263,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "add_trace_field"
+                }
+            },
+            "test_marshal_trace_context": {
+                "line": 549,
+                "line_end": 564,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 387,
+                    "line_end": 395,
+                    "indent": 0,
+                    "name": "marshal_trace_context"
+                }
+            },
+            "test_marshal_trace_context_empty_context": {
+                "line": 566,
+                "line_end": 579,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 398,
+                    "line_end": 402,
+                    "indent": 0,
+                    "name": "unmarshal_trace_context"
+                }
+            },
+            "test_marshal_trace_context_dataset_included": {
+                "line": 581,
+                "line_end": 600,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 398,
+                    "line_end": 402,
+                    "indent": 0,
+                    "name": "unmarshal_trace_context"
+                }
+            },
+            "test_span_context": {
+                "line": 604,
+                "line_end": 616,
+                "indent": 4,
+                "focal_class": "Span",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 243,
+                    "indent": 4,
+                    "name": "add_context"
+                }
+            },
+            "test_propagate_and_start_trace": {
+                "line": 620,
+                "line_end": 648,
+                "indent": 4,
+                "focal_class": "SynchronousTracer",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "propagate_and_start_trace"
+                }
+            }
+        }
+    },
+    "beeline/propagation/test_honeycomb.py": {
+        "focal_file": "beeline/propagation/honeycomb.py",
+        "methods": {
+            "test_roundtrip_with_dataset": {
+                "line": 22,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "unmarshal_propagation_context_with_dataset"
+                }
+            }
+        }
+    }
+}

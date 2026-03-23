@@ -1,0 +1,837 @@
+{
+    "test/peachyprinter_test/domain_test/laser_control_test.py": {
+        "focal_file": "src/peachyprinter/domain/laser_control.py",
+        "methods": {
+            "test_turn_laser_on_shows_laser_on": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": "LaserControl",
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 11,
+                    "indent": 4,
+                    "name": "set_laser_on"
+                }
+            },
+            "test_turn_laser_off_shows_laser_off": {
+                "line": 22,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "LaserControl",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "set_laser_off"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/infrastructure_test/controller_test.py": {
+        "focal_file": "src/peachyprinter/infrastructure/controller.py",
+        "methods": {
+            "test_change_generator_should_change_layer_generator": {
+                "line": 133,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "change_generator"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/infrastructure_test/path_to_points_test.py": {
+        "focal_file": "src/peachyprinter/infrastructure/path_to_points.py",
+        "methods": {
+            "test_can_change_transformer": {
+                "line": 62,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "PathToPoints",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "set_transformer"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/infrastructure_test/timed_drip_zaxis_test.py": {
+        "focal_file": "src/peachyprinter/infrastructure/timed_drip_zaxis.py",
+        "methods": {
+            "test_current_z_location_mm_returns_the_correct_number": {
+                "line": 40,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "TimedDripZAxis",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "current_z_location_mm"
+                }
+            },
+            "test_can_set_call_back": {
+                "line": 83,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "TimedDripZAxis",
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "set_call_back"
+                }
+            },
+            "test_set_drips_per_second": {
+                "line": 121,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": "TimedDripZAxis",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "get_drips_per_second"
+                }
+            },
+            "test_current_z_location_reports_0": {
+                "line": 163,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": "PhotoZAxis",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "current_z_location_mm"
+                }
+            },
+            "test_current_z_location_reports_starting_height": {
+                "line": 167,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": "PhotoZAxis",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "current_z_location_mm"
+                }
+            },
+            "test_set_call_back_should_add_callback": {
+                "line": 197,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": "PhotoZAxis",
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "set_call_back"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/infrastructure_test/file_test.py": {
+        "focal_file": "src/peachyprinter/infrastructure/file.py",
+        "methods": {
+            "test_write_chunk_writes_multipule_chunks_to_files": {
+                "line": 55,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "FileWriter",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "write_chunk"
+                }
+            },
+            "test_closes_closes_open_file": {
+                "line": 76,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "FileWriter",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_next_layer_closes_open_file": {
+                "line": 87,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "FileWriter",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "next_layer"
+                }
+            },
+            "test_next_layer_then_write_opens_new_file": {
+                "line": 98,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "FileWriter",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "next_layer"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/infrastructure_test/gcode_layer_generator_test.py": {
+        "focal_file": "src/peachyprinter/infrastructure/gcode_layer_generator.py",
+        "methods": {
+            "test_to_command_returns_empty_list_for_comments": {
+                "line": 215,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": "GCodeCommandReader",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "to_command"
+                }
+            },
+            "test_to_command_handles_vertical_movement": {
+                "line": 321,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": "GCodeCommandReader",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "to_command"
+                }
+            },
+            "test_to_command_handles_unknown_sub_command": {
+                "line": 402,
+                "line_end": 409,
+                "indent": 4,
+                "focal_class": "GCodeCommandReader",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "to_command"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/infrastructure_test/zaxis_test.py": {
+        "focal_file": "src/peachyprinter/infrastructure/zaxis.py",
+        "methods": {
+            "test_drip_recorded_handler_adds_drip": {
+                "line": 34,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "SerialDripZAxis",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "drip_reported_handler"
+                }
+            },
+            "test_drip_recorded_handler_should_call_back_per_drip": {
+                "line": 69,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "SerialDripZAxis",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "drip_reported_handler"
+                }
+            },
+            "test_set_call_back_should": {
+                "line": 159,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": "SerialDripZAxis",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "set_call_back"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/infrastructure_test/simulator_test.py": {
+        "focal_file": "src/peachyprinter/infrastructure/simulator.py",
+        "methods": {
+            "test_galvo_pos": {
+                "line": 113,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "pos"
+                }
+            },
+            "test_write": {
+                "line": 165,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "write"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/api_test/printer_api_test.py": {
+        "focal_file": "src/peachyprinter/api/print_api.py",
+        "methods": {
+            "test_print_folder_ends_smoothly": {
+                "line": 123,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": "PrintQueueAPI",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "print_folder"
+                }
+            },
+            "test_subscribe_to_status_should_if_printer_started": {
+                "line": 725,
+                "line_end": 735,
+                "indent": 4,
+                "focal_class": "PrintAPI",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "subscribe_to_status"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/api_test/configuration_api_test.py": {
+        "focal_file": "src/peachyprinter/api/configuration_api.py",
+        "methods": {
+            "test_start_counting_drips_should_start_getting_drips": {
+                "line": 64,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "start_counting_drips"
+                }
+            },
+            "test_stop_counting_drips_should_stop_getting_drips": {
+                "line": 134,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "stop_counting_drips"
+                }
+            },
+            "test_get_dripper_drips_per_mm_should_return_current_setting": {
+                "line": 160,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "get_dripper_drips_per_mm"
+                }
+            },
+            "test_set_dripper_delay_should_set_current_delay": {
+                "line": 223,
+                "line_end": 232,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "set_dripper_photo_zaxis_delay"
+                }
+            },
+            "test_get_dripper_emulated_drips_per_second_should_return": {
+                "line": 234,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get_dripper_emulated_drips_per_second"
+                }
+            },
+            "test_set_dripper_emulated_drips_per_second_should_return": {
+                "line": 245,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "set_dripper_emulated_drips_per_second"
+                }
+            },
+            "test_send_dripper_on_command_should": {
+                "line": 277,
+                "line_end": 291,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "send_dripper_on_command"
+                }
+            },
+            "test_send_dripper_off_command_should": {
+                "line": 314,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "send_dripper_off_command"
+                }
+            },
+            "test_stop_counting_drips_should_stop_serial": {
+                "line": 334,
+                "line_end": 348,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "stop_counting_drips"
+                }
+            },
+            "test_set_cure_rate_draw_speed_should_set": {
+                "line": 530,
+                "line_end": 536,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "set_cure_rate_draw_speed"
+                }
+            },
+            "test_set_cure_rate_move_speed_should_set": {
+                "line": 540,
+                "line_end": 546,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "set_cure_rate_move_speed"
+                }
+            },
+            "test_get_wait_after_move_milliseconds_returns_wait_after_move_milliseconds": {
+                "line": 652,
+                "line_end": 660,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 354,
+                    "indent": 4,
+                    "name": "get_options_wait_after_move_milliseconds"
+                }
+            },
+            "test_set_wait_after_move_milliseconds_sets_wait_after_move_milliseconds": {
+                "line": 664,
+                "line_end": 676,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 421,
+                    "line_end": 428,
+                    "indent": 4,
+                    "name": "set_options_wait_after_move_milliseconds"
+                }
+            },
+            "test_get_pre_layer_delay_returns_delay": {
+                "line": 679,
+                "line_end": 687,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 356,
+                    "line_end": 359,
+                    "indent": 4,
+                    "name": "get_options_pre_layer_delay"
+                }
+            },
+            "test_set_pre_layer_delay_sets_pre_layer_delay": {
+                "line": 691,
+                "line_end": 703,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 430,
+                    "line_end": 437,
+                    "indent": 4,
+                    "name": "set_options_pre_layer_delay"
+                }
+            },
+            "test_get_max_lead_distance_mm_returns_max_lead_distance": {
+                "line": 706,
+                "line_end": 714,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 384,
+                    "indent": 4,
+                    "name": "get_options_max_lead_distance_mm"
+                }
+            },
+            "test_set_max_lead_distance_mm_sets_max_lead_distance_mm": {
+                "line": 718,
+                "line_end": 729,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "set_options_max_lead_distance_mm"
+                }
+            },
+            "test_set_max_lead_distance_mm_sets_max_lead_distance_mm_when_0": {
+                "line": 733,
+                "line_end": 744,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "set_options_max_lead_distance_mm"
+                }
+            },
+            "test_get_laser_thickness_mm_returns_thickness": {
+                "line": 765,
+                "line_end": 773,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 369,
+                    "indent": 4,
+                    "name": "get_options_laser_thickness_mm"
+                }
+            },
+            "test_set_laser_thickness_mm_sets_thickness": {
+                "line": 777,
+                "line_end": 789,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 369,
+                    "indent": 4,
+                    "name": "get_options_laser_thickness_mm"
+                }
+            },
+            "test_set_scaling_factor_sets_scaling_factor": {
+                "line": 822,
+                "line_end": 834,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 464,
+                    "indent": 4,
+                    "name": "set_options_scaling_factor"
+                }
+            },
+            "test_sublayer_height_mm_returns_theight": {
+                "line": 855,
+                "line_end": 864,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 376,
+                    "line_end": 379,
+                    "indent": 4,
+                    "name": "get_options_sublayer_height_mm"
+                }
+            },
+            "test_set_sublayer_height_mm_returns_height": {
+                "line": 868,
+                "line_end": 880,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 376,
+                    "line_end": 379,
+                    "indent": 4,
+                    "name": "get_options_sublayer_height_mm"
+                }
+            },
+            "test_get_shuffle_amount_returns_the_amount": {
+                "line": 957,
+                "line_end": 966,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 404,
+                    "indent": 4,
+                    "name": "get_options_shuffle_layers_amount"
+                }
+            },
+            "test_set_shuffle_layers_amount_returns_amount": {
+                "line": 970,
+                "line_end": 982,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 511,
+                    "line_end": 518,
+                    "indent": 4,
+                    "name": "set_options_shuffle_layers_amount"
+                }
+            },
+            "test_set_overlap_amount_mm_returns_height": {
+                "line": 998,
+                "line_end": 1010,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 399,
+                    "indent": 4,
+                    "name": "get_options_overlap_amount_mm"
+                }
+            },
+            "test_get_print_queue_delay_returns_the_delay": {
+                "line": 1013,
+                "line_end": 1022,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 361,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "get_options_print_queue_delay"
+                }
+            },
+            "test_set_print_queue_delay_returns_delay": {
+                "line": 1026,
+                "line_end": 1038,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 439,
+                    "line_end": 446,
+                    "indent": 4,
+                    "name": "set_options_print_queue_delay"
+                }
+            },
+            "test_load_printer_calls_load": {
+                "line": 1188,
+                "line_end": 1194,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 753,
+                    "line_end": 758,
+                    "indent": 4,
+                    "name": "load_printer"
+                }
+            },
+            "test_get_current_config_loads": {
+                "line": 1198,
+                "line_end": 1204,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 747,
+                    "line_end": 751,
+                    "indent": 4,
+                    "name": "get_current_config"
+                }
+            },
+            "test_reset_printer_calls_reset": {
+                "line": 1207,
+                "line_end": 1213,
+                "indent": 4,
+                "focal_class": "ConfigurationAPI",
+                "focal_method": {
+                    "line": 760,
+                    "line_end": 763,
+                    "indent": 4,
+                    "name": "reset_printer"
+                }
+            }
+        }
+    },
+    "test/peachyprinter_test/api_test/calibration_api_test.py": {
+        "focal_file": "src/peachyprinter/api/calibration_api.py",
+        "methods": {
+            "test_set_laser_override": {
+                "line": 181,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "set_laser_off_override"
+                }
+            },
+            "test_get_patterns_should_return_available_test_patterns": {
+                "line": 213,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "get_test_patterns"
+                }
+            },
+            "test_current_calibration_returns_the_existing_configuration": {
+                "line": 239,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "current_calibration"
+                }
+            },
+            "test_get_max_deflection_should_return_max_deflection": {
+                "line": 356,
+                "line_end": 366,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "get_max_deflection"
+                }
+            },
+            "test_set_max_deflection_should_save_and_update_max_deflection": {
+                "line": 368,
+                "line_end": 381,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "set_max_deflection"
+                }
+            },
+            "test_set_test_pattern_speed_changes_speeds": {
+                "line": 394,
+                "line_end": 406,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "set_test_pattern_speed"
+                }
+            },
+            "test_set_test_pattern_height_changes_height": {
+                "line": 408,
+                "line_end": 420,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "set_test_pattern_current_height"
+                }
+            },
+            "test_set_orientation_saves_orientation_settings": {
+                "line": 434,
+                "line_end": 455,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "set_orientation"
+                }
+            },
+            "test_get_orientation_saves_orientation_settings": {
+                "line": 457,
+                "line_end": 470,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "get_orientation"
+                }
+            },
+            "test_subscribe_to_status_should": {
+                "line": 511,
+                "line_end": 519,
+                "indent": 4,
+                "focal_class": "CalibrationAPI",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "subscribe_to_status"
+                }
+            }
+        }
+    }
+}

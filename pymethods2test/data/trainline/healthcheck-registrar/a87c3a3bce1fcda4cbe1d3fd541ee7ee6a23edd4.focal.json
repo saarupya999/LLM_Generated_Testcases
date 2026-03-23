@@ -1,0 +1,240 @@
+{
+    "tests/consul_api_test.py": {
+        "focal_file": "envmgr_healthchecks/api/consul/consul_api.py",
+        "methods": {
+            "test_check_connectivity_succeeds": {
+                "line": 14,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "check_connectivity"
+                }
+            },
+            "test_check_connectivity_fails": {
+                "line": 21,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "ConsulError",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "check_connectivity"
+                }
+            },
+            "test_get_service_catalogue": {
+                "line": 71,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "get_service_catalogue"
+                }
+            },
+            "test_register_http_check_succeeds": {
+                "line": 81,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "register_http_check"
+                }
+            },
+            "test_register_http_check_fails": {
+                "line": 90,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "register_http_check"
+                }
+            },
+            "test_register_script_check_succeeds": {
+                "line": 99,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "register_script_check"
+                }
+            },
+            "test_register_check_fails": {
+                "line": 108,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "register_script_check"
+                }
+            },
+            "test_register_service_succeeds": {
+                "line": 117,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "register_service"
+                }
+            },
+            "test_register_service_fails": {
+                "line": 126,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "register_service"
+                }
+            }
+        }
+    },
+    "tests/sensu_health_check_test.py": {
+        "focal_file": "envmgr_healthchecks/health_checks/sensu_heath_check.py",
+        "methods": {
+            "test_validate_missing_name_property": {
+                "line": 48,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_validate_check_properties"
+                }
+            },
+            "test_validate_missing_script_property": {
+                "line": 62,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_validate_check_properties"
+                }
+            },
+            "test_validate_both_scripts_properties_provided": {
+                "line": 71,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_validate_check_properties"
+                }
+            },
+            "test_validate_integer_type_properties": {
+                "line": 92,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_validate_check_properties"
+                }
+            },
+            "test_validate_all_ids_unique": {
+                "line": 121,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "_validate_unique_ids"
+                }
+            },
+            "test_validate_missing_local_script": {
+                "line": 153,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "_validate_check_script"
+                }
+            },
+            "test_generate_check_definition_with_valid_team_property": {
+                "line": 203,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 275,
+                    "indent": 4,
+                    "name": "_generate_check_definition"
+                }
+            },
+            "test_generate_check_definition_with_default_values": {
+                "line": 234,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 275,
+                    "indent": 4,
+                    "name": "_generate_check_definition"
+                }
+            },
+            "test_generate_check_definition_with_instance_tags": {
+                "line": 269,
+                "line_end": 283,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 275,
+                    "indent": 4,
+                    "name": "_generate_check_definition"
+                }
+            },
+            "test_generate_linux_check_definition_with_command_and_arguments": {
+                "line": 336,
+                "line_end": 347,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 275,
+                    "indent": 4,
+                    "name": "_generate_check_definition"
+                }
+            }
+        }
+    }
+}

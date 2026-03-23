@@ -1,0 +1,65 @@
+{
+    "tests/unit_tests/test_base_dispatcher.py": {
+        "focal_file": "boto3_batch_utils/Base.py",
+        "methods": {
+            "test_initialisation_valid": {
+                "line": 53,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "BaseDispatcher",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "_validate_initialisation"
+                }
+            },
+            "test_empty_payload_list": {
+                "line": 170,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": "BaseDispatcher",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "flush_payloads"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_kinesis.py": {
+        "focal_file": "boto3_batch_utils/Kinesis.py",
+        "methods": {
+            "test_no_records_attribute_in_response": {
+                "line": 213,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": "KinesisBatchDispatcher",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "_process_batch_send_response"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_dynamodb.py": {
+        "focal_file": "boto3_batch_utils/Dynamodb.py",
+        "methods": {
+            "test_sort_key_in_batch_partition_key_is_not": {
+                "line": 163,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": "DynamoBatchDispatcher",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "_check_payload_is_unique_by_partition_key_and_sort_key"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,455 @@
+{
+    "ci_scripts/test_sync_board_db.py": {
+        "focal_file": "ci_scripts/sync_board_database.py",
+        "methods": {
+            "test_get_boards_added_or_removed_detects_added": {
+                "line": 102,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "get_boards_added_or_removed"
+                }
+            },
+            "test_get_boards_added_or_removed_detects_removed": {
+                "line": 108,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "get_boards_added_or_removed"
+                }
+            }
+        }
+    },
+    "tests/test_boards.py": {
+        "focal_file": "mbed_targets/boards.py",
+        "methods": {
+            "test_get_board_success": {
+                "line": 58,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "get_board"
+                }
+            },
+            "test_get_board_failure": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "get_board"
+                }
+            }
+        }
+    },
+    "tests/test_get_board.py": {
+        "focal_file": "mbed_targets/get_board.py",
+        "methods": {
+            "test_matches_boards_by_product_code": {
+                "line": 65,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_board_by_product_code"
+                }
+            },
+            "test_matches_boards_by_online_id": {
+                "line": 82,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "get_board_by_online_id"
+                }
+            },
+            "test_returns_configured_database_mode": {
+                "line": 101,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "_get_database_mode"
+                }
+            }
+        }
+    },
+    "tests/test_get_target.py": {
+        "focal_file": "mbed_targets/get_target.py",
+        "methods": {
+            "test_get_by_name": {
+                "line": 15,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_target_by_name"
+                }
+            },
+            "test_get_by_board_type": {
+                "line": 28,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "get_target_by_board_type"
+                }
+            }
+        }
+    },
+    "tests/test_target.py": {
+        "focal_file": "mbed_targets/target.py",
+        "methods": {
+            "test_get_target_bad_path": {
+                "line": 64,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "by_name"
+                }
+            }
+        }
+    },
+    "tests/_internal/test_board_database.py": {
+        "focal_file": "mbed_targets/_internal/board_database.py",
+        "methods": {
+            "test_local_target_database_file_found": {
+                "line": 98,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "get_offline_board_data"
+                }
+            }
+        }
+    },
+    "tests/_internal/test_target_attributes.py": {
+        "focal_file": "mbed_targets/_internal/target_attributes.py",
+        "methods": {
+            "test_target_found": {
+                "line": 31,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "_extract_target_attributes"
+                }
+            },
+            "test_target_private": {
+                "line": 49,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "_extract_target_attributes"
+                }
+            },
+            "test_malformed_json": {
+                "line": 78,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "_read_json_file"
+                }
+            },
+            "test_gets_attributes_for_target": {
+                "line": 97,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 66,
+                    "indent": 0,
+                    "name": "get_target_attributes"
+                }
+            },
+            "test_extract_core": {
+                "line": 116,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "_extract_core_labels"
+                }
+            },
+            "test_no_labels": {
+                "line": 131,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "_extract_core_labels"
+                }
+            },
+            "test_applies_overrides": {
+                "line": 141,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "_apply_config_overrides"
+                }
+            },
+            "test_applies_no_overrides": {
+                "line": 148,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "_apply_config_overrides"
+                }
+            }
+        }
+    },
+    "tests/_internal/targets_json_parsers/test_accumulating_attribute_parser.py": {
+        "focal_file": "mbed_targets/_internal/targets_json_parsers/accumulating_attribute_parser.py",
+        "methods": {
+            "test_accumulate_hierarchy_single_inheritance": {
+                "line": 58,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "_targets_accumulate_hierarchy"
+                }
+            },
+            "test_accumulate_hierarchy_multiple_inheritance": {
+                "line": 69,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "_targets_accumulate_hierarchy"
+                }
+            },
+            "test_determine_accumulated_attributes_basic_add": {
+                "line": 94,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 219,
+                    "indent": 0,
+                    "name": "_determine_accumulated_attributes"
+                }
+            },
+            "test_determine_accumulated_attributes_basic_remove": {
+                "line": 104,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 219,
+                    "indent": 0,
+                    "name": "_determine_accumulated_attributes"
+                }
+            },
+            "test_combination_multiple_attributes": {
+                "line": 114,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 219,
+                    "indent": 0,
+                    "name": "_determine_accumulated_attributes"
+                }
+            },
+            "test_element_matches_exactly": {
+                "line": 145,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "_element_matches"
+                }
+            },
+            "test_element_no_match": {
+                "line": 151,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "_element_matches"
+                }
+            },
+            "test_element_matches_with_number_arg": {
+                "line": 157,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "_element_matches"
+                }
+            },
+            "test_element_no_match_with_number_arg": {
+                "line": 163,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "_element_matches"
+                }
+            },
+            "test_remove_element_with_numbers": {
+                "line": 179,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "_remove_attribute_element"
+                }
+            }
+        }
+    },
+    "tests/_internal/targets_json_parsers/test_overriding_attribute_parser.py": {
+        "focal_file": "mbed_targets/_internal/targets_json_parsers/overriding_attribute_parser.py",
+        "methods": {
+            "test_overwrite_hierarchy_single_inheritance": {
+                "line": 37,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "_targets_override_hierarchy"
+                }
+            },
+            "test_overwrite_hierarchy_multiple_inheritance": {
+                "line": 48,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "_targets_override_hierarchy"
+                }
+            },
+            "test_determine_overwritten_attributes": {
+                "line": 73,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "_determine_overridden_attributes"
+                }
+            },
+            "test_remove_accumulating_attributes": {
+                "line": 84,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "_determine_overridden_attributes"
+                }
+            },
+            "test_merging_attributes": {
+                "line": 95,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "_determine_overridden_attributes"
+                }
+            }
+        }
+    }
+}

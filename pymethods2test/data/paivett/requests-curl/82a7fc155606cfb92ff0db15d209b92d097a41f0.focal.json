@@ -1,0 +1,226 @@
+{
+    "tests/test_pool.py": {
+        "focal_file": "requests_curl/pool.py",
+        "methods": {
+            "test_pool_puts_back_handler_after_successful_send": {
+                "line": 96,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": "CURLHandlerPool",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "send"
+                }
+            }
+        }
+    },
+    "tests/test_response.py": {
+        "focal_file": "requests_curl/response.py",
+        "methods": {
+            "test_empty_curl_response_to_request_response": {
+                "line": 22,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": "CURLResponse",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "to_requests_response"
+                }
+            },
+            "test_curl_response_with_data_and_headers_to_request_response": {
+                "line": 39,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": "CURLResponse",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "to_requests_response"
+                }
+            },
+            "test_curl_response_parse_header_line": {
+                "line": 88,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": "CURLResponse",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "add_header_from_raw_line"
+                }
+            },
+            "test_curl_response_with_cookies": {
+                "line": 102,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": "CURLResponse",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "add_header_from_raw_line"
+                }
+            }
+        }
+    },
+    "tests/test_adapter.py": {
+        "focal_file": "requests_curl/adapter.py",
+        "methods": {
+            "test_adapter_clears_pool_provider_after_close": {
+                "line": 192,
+                "line_end": 201,
+                "indent": 0,
+                "focal_class": "CURLAdapter",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "tests/test_pool_provider.py": {
+        "focal_file": "requests_curl/pool_provider.py",
+        "methods": {
+            "test_can_retrieve_a_new_pool_for_url": {
+                "line": 19,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_pool_for_url"
+                }
+            },
+            "test_can_retrieve_a_new_pool_for_a_proxied_url": {
+                "line": 35,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_pool_for_proxied_url"
+                }
+            },
+            "test_provider_returns_the_same_pool_for_the_same_url": {
+                "line": 53,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_pool_for_url"
+                }
+            },
+            "test_provider_returns_the_same_pool_for_the_same_proxied_url": {
+                "line": 70,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_pool_for_proxied_url"
+                }
+            },
+            "test_provider_returns_the_same_pool_for_the_same_host": {
+                "line": 88,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_pool_for_url"
+                }
+            },
+            "test_provider_returns_the_same_pool_for_the_same_proxied_host": {
+                "line": 106,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_pool_for_proxied_url"
+                }
+            },
+            "test_provider_provides_different_pools_for_different_urls": {
+                "line": 127,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_pool_for_url"
+                }
+            },
+            "test_provider_provides_different_pools_for_different_proxied_urls": {
+                "line": 145,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_pool_for_proxied_url"
+                }
+            },
+            "test_provider_provides_different_pools_for_different_proxy_but_same_url": {
+                "line": 167,
+                "line_end": 186,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_pool_for_proxied_url"
+                }
+            },
+            "test_provider_provides_different_pools_for_proxied_url_and_not_proxied_url": {
+                "line": 189,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "get_pool_for_proxied_url"
+                }
+            },
+            "test_clear_the_pool_provider": {
+                "line": 210,
+                "line_end": 232,
+                "indent": 0,
+                "focal_class": "CURLPoolProvider",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            }
+        }
+    }
+}

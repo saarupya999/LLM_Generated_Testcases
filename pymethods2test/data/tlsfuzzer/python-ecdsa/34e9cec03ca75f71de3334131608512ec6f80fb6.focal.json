@@ -1,0 +1,476 @@
+{
+    "src/ecdsa/test_curves.py": {
+        "focal_file": "src/ecdsa/curves.py",
+        "methods": {
+            "test_from_pem": {
+                "line": 27,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "from_pem"
+                }
+            },
+            "test_to_pem": {
+                "line": 82,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "to_pem"
+                }
+            }
+        }
+    },
+    "src/ecdsa/test_der.py": {
+        "focal_file": "src/ecdsa/der.py",
+        "methods": {
+            "test_zero_length_integer": {
+                "line": 51,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 229,
+                    "indent": 0,
+                    "name": "remove_integer"
+                }
+            },
+            "test_zero_length": {
+                "line": 94,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 263,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "read_length"
+                }
+            },
+            "test_zero_padded_length": {
+                "line": 112,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 263,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "read_length"
+                }
+            },
+            "test_length_overflow": {
+                "line": 123,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 263,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "read_length"
+                }
+            },
+            "test_empty_string": {
+                "line": 239,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 355,
+                    "indent": 0,
+                    "name": "remove_bitstring"
+                }
+            },
+            "test_not_a_bitstring": {
+                "line": 231,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 355,
+                    "indent": 0,
+                    "name": "remove_bitstring"
+                }
+            }
+        }
+    },
+    "src/ecdsa/test_ecdh.py": {
+        "focal_file": "src/ecdsa/ecdh.py",
+        "methods": {
+            "test_ecdh_wrong_public_key_curve": {
+                "line": 110,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 220,
+                    "indent": 4,
+                    "name": "get_public_key"
+                }
+            },
+            "test_ecdh_invalid_shared_secret_curve": {
+                "line": 132,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 317,
+                    "indent": 4,
+                    "name": "generate_sharedsecret_bytes"
+                }
+            },
+            "test_generate_without_curve": {
+                "line": 84,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "generate_private_key"
+                }
+            },
+            "test_set_curve_from_received_public_key": {
+                "line": 100,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "load_received_public_key"
+                }
+            }
+        }
+    },
+    "src/ecdsa/test_ellipticcurve.py": {
+        "focal_file": "src/ecdsa/ellipticcurve.py",
+        "methods": {
+            "test_double_infinity": {
+                "line": 146,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 517,
+                    "line_end": 531,
+                    "indent": 4,
+                    "name": "y"
+                }
+            },
+            "test_double": {
+                "line": 153,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 636,
+                    "indent": 4,
+                    "name": "double"
+                }
+            },
+            "test_multiply": {
+                "line": 161,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 517,
+                    "line_end": 531,
+                    "indent": 4,
+                    "name": "y"
+                }
+            }
+        }
+    },
+    "src/ecdsa/test_malformed_sigs.py": {
+        "focal_file": "src/ecdsa/test_malformed_sigs.py",
+        "methods": {
+            "test_fuzzed_der_signatures": {
+                "line": 154,
+                "line_end": 158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "st_fuzzed_sig"
+                }
+            },
+            "test_random_der_ecdsa_sig_value": {
+                "line": 197,
+                "line_end": 205,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 192,
+                    "indent": 0,
+                    "name": "st_random_der_ecdsa_sig_value"
+                }
+            },
+            "test_fuzzed_string_signatures": {
+                "line": 345,
+                "line_end": 349,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "st_fuzzed_sig"
+                }
+            }
+        }
+    },
+    "src/ecdsa/test_numbertheory.py": {
+        "focal_file": "src/ecdsa/numbertheory.py",
+        "methods": {
+            "test_next_prime": {
+                "line": 59,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 607,
+                    "line_end": 615,
+                    "indent": 0,
+                    "name": "next_prime"
+                }
+            },
+            "test_square_root_mod_prime_for_small_primes": {
+                "line": 69,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "square_root_mod_prime"
+                }
+            },
+            "test_square_root_mod_prime_for_2": {
+                "line": 85,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "square_root_mod_prime"
+                }
+            },
+            "test_square_root_mod_prime_for_small_prime": {
+                "line": 90,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "square_root_mod_prime"
+                }
+            },
+            "test_square_root_mod_prime_for_p_congruent_5": {
+                "line": 95,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "square_root_mod_prime"
+                }
+            },
+            "test_square_root_mod_prime_for_p_congruent_5_large_d": {
+                "line": 103,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "square_root_mod_prime"
+                }
+            },
+            "test_small_prime": {
+                "line": 241,
+                "line_end": 242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 529,
+                    "line_end": 604,
+                    "indent": 0,
+                    "name": "is_prime"
+                }
+            },
+            "test_medium_prime_1": {
+                "line": 247,
+                "line_end": 249,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 529,
+                    "line_end": 604,
+                    "indent": 0,
+                    "name": "is_prime"
+                }
+            },
+            "test_medium_prime_2": {
+                "line": 251,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 529,
+                    "line_end": 604,
+                    "indent": 0,
+                    "name": "is_prime"
+                }
+            },
+            "test_large_prime": {
+                "line": 261,
+                "line_end": 263,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 529,
+                    "line_end": 604,
+                    "indent": 0,
+                    "name": "is_prime"
+                }
+            },
+            "test_gcd": {
+                "line": 267,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 305,
+                    "indent": 0,
+                    "name": "gcd"
+                }
+            },
+            "test_lcm": {
+                "line": 311,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 325,
+                    "indent": 0,
+                    "name": "lcm"
+                }
+            },
+            "test_square_root_mod_prime": {
+                "line": 336,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "square_root_mod_prime"
+                }
+            },
+            "test_factorization": {
+                "line": 346,
+                "line_end": 351,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 328,
+                    "line_end": 380,
+                    "indent": 0,
+                    "name": "factorization"
+                }
+            },
+            "test_factorisation_smallprimes": {
+                "line": 353,
+                "line_end": 361,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 328,
+                    "line_end": 380,
+                    "indent": 0,
+                    "name": "factorization"
+                }
+            },
+            "test_factorisation_not_smallprimes": {
+                "line": 363,
+                "line_end": 371,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 328,
+                    "line_end": 380,
+                    "indent": 0,
+                    "name": "factorization"
+                }
+            },
+            "test_jacobi": {
+                "line": 381,
+                "line_end": 396,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "jacobi"
+                }
+            },
+            "test_inverse_mod": {
+                "line": 399,
+                "line_end": 405,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 268,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "inverse_mod"
+                }
+            },
+            "test_inverse_mod_with_zero": {
+                "line": 407,
+                "line_end": 408,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 268,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "inverse_mod"
+                }
+            }
+        }
+    }
+}

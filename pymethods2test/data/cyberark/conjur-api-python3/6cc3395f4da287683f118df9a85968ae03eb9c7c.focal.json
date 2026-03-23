@@ -1,0 +1,338 @@
+{
+    "test/test_unit_login_controller.py": {
+        "focal_file": "conjur/controller/login_controller.py",
+        "methods": {
+            "test_login_raises_error_when_not_provided_username": {
+                "line": 58,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "LoginController",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_username"
+                }
+            },
+            "test_login_get_api_key_is_called": {
+                "line": 75,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "LoginController",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "get_api_key"
+                }
+            }
+        }
+    },
+    "test/test_unit_init_logic.py": {
+        "focal_file": "conjur/logic/init_logic.py",
+        "methods": {
+            "test_certificate_is_written_to_file": {
+                "line": 38,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "write_certificate_to_file"
+                }
+            }
+        }
+    },
+    "test/test_unit_conjurrc_data.py": {
+        "focal_file": "conjur/data_object/conjurrc_data.py",
+        "methods": {
+            "test_conjurrc_object_representation": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": "ConjurrcData",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "__repr__"
+                }
+            }
+        }
+    },
+    "test/test_unit_user_logic.py": {
+        "focal_file": "conjur/logic/user_logic.py",
+        "methods": {
+            "test_user_provides_username_can_rotate_anothers_key": {
+                "line": 52,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "rotate_api_key"
+                }
+            },
+            "test_extract_credential_provider_returns_netrc_store": {
+                "line": 69,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "UserLogic",
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "extract_credentials_from_credential_store"
+                }
+            },
+            "test_rotate_other_api_key_returns_new_key": {
+                "line": 78,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "UserLogic",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "rotate_other_api_key"
+                }
+            },
+            "test_rotate_personal_api_key_returns_api_key": {
+                "line": 88,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "UserLogic",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "rotate_personal_api_key"
+                }
+            }
+        }
+    },
+    "test/test_unit_http.py": {
+        "focal_file": "conjur/wrapper/http_wrapper.py",
+        "methods": {
+            "test_invoke_endpoint_can_invoke_http_client": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "invoke_endpoint"
+                }
+            },
+            "test_invoke_endpoint_can_handle_unset_params": {
+                "line": 44,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "invoke_endpoint"
+                }
+            },
+            "test_invoke_endpoint_verifies_ssl_by_default": {
+                "line": 76,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "invoke_endpoint"
+                }
+            },
+            "test_invoke_endpoint_passes_query_param": {
+                "line": 114,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "invoke_endpoint"
+                }
+            }
+        }
+    },
+    "test/test_unit_credentials_data.py": {
+        "focal_file": "conjur/data_object/credentials_data.py",
+        "methods": {
+            "test_credentials_data_object_representation": {
+                "line": 9,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": "CredentialsData",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "__repr__"
+                }
+            }
+        }
+    },
+    "test/test_unit_argparsewrapper.py": {
+        "focal_file": "conjur/wrapper/argparse_wrapper.py",
+        "methods": {
+            "test_no_resource_namespace": {
+                "line": 95,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "_get_resource_namespace"
+                }
+            }
+        }
+    },
+    "test/test_unit_init_controller.py": {
+        "focal_file": "conjur/controller/init_controller.py",
+        "methods": {
+            "test_user_confirms_force_overwrites_writes_conjurrc_to_file": {
+                "line": 140,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": "InitController",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "write_conjurrc"
+                }
+            }
+        }
+    },
+    "test/test_unit_user_controller.py": {
+        "focal_file": "conjur/controller/user_controller.py",
+        "methods": {
+            "test_user_does_not_provide_password_prompts_for_one_and_is_verified": {
+                "line": 64,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "UserController",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "prompt_for_password"
+                }
+            }
+        }
+    },
+    "test/test_unit_logout_controller.py": {
+        "focal_file": "conjur/controller/logout_controller.py",
+        "methods": {
+            "test_logout_removes_credentials": {
+                "line": 31,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "LogoutController",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "remove_credentials"
+                }
+            }
+        }
+    },
+    "test/test_unit_logout_logic.py": {
+        "focal_file": "conjur/logic/logout_logic.py",
+        "methods": {
+            "test_logout_remove_credentials_calls_remove_credentials": {
+                "line": 16,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "LogoutLogic",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "remove_credentials"
+                }
+            }
+        }
+    },
+    "test/test_unit_client.py": {
+        "focal_file": "conjur/api/client.py",
+        "methods": {
+            "test_client_returns_load_policy_result": {
+                "line": 364,
+                "line_end": 370,
+                "indent": 4,
+                "focal_class": "Client",
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "load_policy_file"
+                }
+            },
+            "test_client_returns_replace_policy_result": {
+                "line": 388,
+                "line_end": 395,
+                "indent": 4,
+                "focal_class": "Client",
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "replace_policy_file"
+                }
+            },
+            "test_client_returns_update_policy_result": {
+                "line": 414,
+                "line_end": 420,
+                "indent": 4,
+                "focal_class": "Client",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "update_policy_file"
+                }
+            },
+            "test_client_passes_through_api_rotate_other_api_key_params": {
+                "line": 446,
+                "line_end": 450,
+                "indent": 4,
+                "focal_class": "Client",
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "rotate_other_api_key"
+                }
+            },
+            "test_client_passes_through_api_rotate_personal_api_key_params": {
+                "line": 456,
+                "line_end": 461,
+                "indent": 4,
+                "focal_class": "Client",
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 217,
+                    "indent": 4,
+                    "name": "rotate_personal_api_key"
+                }
+            }
+        }
+    }
+}

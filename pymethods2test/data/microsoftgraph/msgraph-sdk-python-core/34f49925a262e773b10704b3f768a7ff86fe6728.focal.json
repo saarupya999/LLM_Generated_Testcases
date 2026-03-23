@@ -1,0 +1,262 @@
+{
+    "tests/unit/test_auth_handler.py": {
+        "focal_file": "msgraph/core/middleware/authorization.py",
+        "methods": {
+            "test_auth_handler_get_scopes_does_not_overwrite_default_scopes": {
+                "line": 25,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "AuthorizationHandler",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "get_scopes"
+                }
+            }
+        }
+    },
+    "tests/unit/test_middleware_pipeline.py": {
+        "focal_file": "msgraph/core/middleware/middleware.py",
+        "methods": {
+            "test_adds_middlewares_in_order": {
+                "line": 12,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "MiddlewarePipeline",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "add_middleware"
+                }
+            }
+        }
+    },
+    "tests/unit/test_retry_handler.py": {
+        "focal_file": "msgraph/core/middleware/retry.py",
+        "methods": {
+            "test_disable_retries": {
+                "line": 49,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "disable_retries"
+                }
+            },
+            "test_method_retryable_with_valid_method": {
+                "line": 61,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "_is_method_retryable"
+                }
+            },
+            "test_should_retry_valid": {
+                "line": 75,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "should_retry"
+                }
+            },
+            "test_should_retry_invalid": {
+                "line": 89,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "should_retry"
+                }
+            },
+            "test_is_request_payload_buffered_valid": {
+                "line": 103,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "_is_request_payload_buffered"
+                }
+            },
+            "test_is_request_payload_buffered_invalid": {
+                "line": 117,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "_is_request_payload_buffered"
+                }
+            },
+            "test_check_retry_valid": {
+                "line": 130,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "check_retry_valid"
+                }
+            },
+            "test_check_retry_valid_no_retries": {
+                "line": 140,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "check_retry_valid"
+                }
+            },
+            "test_get_retry_after": {
+                "line": 151,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "_get_retry_after"
+                }
+            },
+            "test_get_retry_after_no_header": {
+                "line": 164,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "_get_retry_after"
+                }
+            },
+            "test_get_retry_after_http_date": {
+                "line": 177,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": "RetryHandler",
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "_get_retry_after"
+                }
+            }
+        }
+    },
+    "tests/unit/test_telemetry_handler.py": {
+        "focal_file": "msgraph/core/middleware/telemetry.py",
+        "methods": {
+            "test_is_graph_url": {
+                "line": 17,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": "TelemetryHandler",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "is_graph_url"
+                }
+            },
+            "test_is_not_graph_url": {
+                "line": 30,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "TelemetryHandler",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "is_graph_url"
+                }
+            },
+            "test_add_client_request_id_header": {
+                "line": 44,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": "TelemetryHandler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "_add_client_request_id_header"
+                }
+            },
+            "test_custom_client_request_id_header": {
+                "line": 61,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": "TelemetryHandler",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "_add_client_request_id_header"
+                }
+            },
+            "test_append_sdk_version_header": {
+                "line": 80,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": "TelemetryHandler",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "_append_sdk_version_header"
+                }
+            },
+            "test_add_host_os_header": {
+                "line": 97,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": "TelemetryHandler",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "_add_host_os_header"
+                }
+            },
+            "test_add_runtime_environment_header": {
+                "line": 118,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": "TelemetryHandler",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "_add_runtime_environment_header"
+                }
+            }
+        }
+    }
+}

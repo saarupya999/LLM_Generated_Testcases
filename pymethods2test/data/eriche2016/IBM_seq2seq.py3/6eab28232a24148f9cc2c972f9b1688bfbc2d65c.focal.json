@@ -1,0 +1,231 @@
+{
+    "tests/test_checkpoint.py": {
+        "focal_file": "seq2seq/util/checkpoint.py",
+        "methods": {
+            "test_get_latest_checkpoint": {
+                "line": 23,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "get_latest_checkpoint"
+                }
+            },
+            "test_save_checkpoint_calls_torch_save": {
+                "line": 33,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "Checkpoint",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_load": {
+                "line": 75,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    },
+    "tests/test_dataset.py": {
+        "focal_file": "seq2seq/dataset/dataset.py",
+        "methods": {
+            "test_make_batches": {
+                "line": 88,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "make_batches"
+                }
+            },
+            "test_len": {
+                "line": 101,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "__len__"
+                }
+            },
+            "test_shuffle": {
+                "line": 107,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "shuffle"
+                }
+            }
+        }
+    },
+    "tests/test_dataset_utils.py": {
+        "focal_file": "seq2seq/dataset/utils.py",
+        "methods": {
+            "test_space_tokenize": {
+                "line": 14,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "space_tokenize"
+                }
+            }
+        }
+    },
+    "tests/test_dataset_vocabulary.py": {
+        "focal_file": "seq2seq/dataset/vocabulary.py",
+        "methods": {
+            "test_get_vocab_size": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "get_vocab_size"
+                }
+            },
+            "test_indices_from_sequence_WITH_NEW_SEQUENCE": {
+                "line": 66,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "indices_from_sequence"
+                }
+            },
+            "test_indices_from_sequence_WITH_PARTIAL_NEW_SEQUENCE": {
+                "line": 70,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "indices_from_sequence"
+                }
+            },
+            "test_indices_from_sequence_WITH_OUT_OF_VOCAB_TOKEN": {
+                "line": 74,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "indices_from_sequence"
+                }
+            },
+            "test_indices_from_sequence_WITH_SMALL_VOCAB_SIZE": {
+                "line": 78,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "Vocabulary",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "indices_from_sequence"
+                }
+            },
+            "test_sequence_from_indices": {
+                "line": 88,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "sequence_from_indices"
+                }
+            },
+            "test_load": {
+                "line": 112,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 168,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "testing_vocab_of_same_sequence": {
+                "line": 144,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": "Vocabulary",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "add_sequence"
+                }
+            }
+        }
+    },
+    "tests/test_loss_loss.py": {
+        "focal_file": "seq2seq/loss/loss.py",
+        "methods": {
+            "test_loss_backward_WITH_NO_LOSS": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "torch.nn.NLLLoss",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            },
+            "test_nllloss": {
+                "line": 35,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "NLLLoss",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_loss"
+                }
+            }
+        }
+    }
+}

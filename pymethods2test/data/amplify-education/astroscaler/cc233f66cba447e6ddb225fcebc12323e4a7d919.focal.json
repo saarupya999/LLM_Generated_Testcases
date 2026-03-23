@@ -1,0 +1,94 @@
+{
+    "test/unit/test_policies.py": {
+        "focal_file": "astroscaler/policies.py",
+        "methods": {
+            "test_aws_policy_cannot_execute": {
+                "line": 103,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": "AWSPolicy",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            }
+        }
+    },
+    "test/unit/test_resource_helper.py": {
+        "focal_file": "astroscaler/resource_helper.py",
+        "methods": {
+            "test_spotinst_tags": {
+                "line": 10,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "spotinst_tags_to_dict"
+                }
+            }
+        }
+    },
+    "test/unit/test_spotinst_client.py": {
+        "focal_file": "astroscaler/spotinst_client.py",
+        "methods": {
+            "test_get_group_events_correct_request": {
+                "line": 68,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_group_events"
+                }
+            }
+        }
+    },
+    "test/unit/test_groups.py": {
+        "focal_file": "astroscaler/groups.py",
+        "methods": {
+            "test_aws_group_is_inside_cooldown_period": {
+                "line": 99,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "AWSGroup",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "is_cooling_down"
+                }
+            },
+            "test_spotinst_group_in_cooldown_period": {
+                "line": 204,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": "SpotinstGroup",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "is_cooling_down"
+                }
+            },
+            "test_spotinst_group_not_in_cooldown": {
+                "line": 237,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": "SpotinstGroup",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "is_cooling_down"
+                }
+            }
+        }
+    }
+}

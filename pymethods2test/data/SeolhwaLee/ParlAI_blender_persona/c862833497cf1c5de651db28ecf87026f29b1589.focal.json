@@ -1,0 +1,1974 @@
+{
+    "parlai/mturk/core/dev/test/test_mturk_manager.py": {
+        "focal_file": "parlai/mturk/core/dev/mturk_manager.py",
+        "methods": {
+            "test_init_state": {
+                "line": 187,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "_init_state"
+                }
+            },
+            "test_move_to_waiting": {
+                "line": 250,
+                "line_end": 282,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 406,
+                    "indent": 4,
+                    "name": "_move_agents_to_waiting"
+                }
+            },
+            "test_worker_alive": {
+                "line": 297,
+                "line_end": 419,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 538,
+                    "line_end": 620,
+                    "indent": 4,
+                    "name": "_on_alive"
+                }
+            },
+            "test_mturk_messages": {
+                "line": 421,
+                "line_end": 503,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 622,
+                    "line_end": 639,
+                    "indent": 4,
+                    "name": "_handle_mturk_message"
+                }
+            },
+            "test_new_message": {
+                "line": 505,
+                "line_end": 547,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 641,
+                    "line_end": 650,
+                    "indent": 4,
+                    "name": "_on_new_message"
+                }
+            },
+            "test_onboarding_function": {
+                "line": 549,
+                "line_end": 586,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 700,
+                    "line_end": 769,
+                    "indent": 4,
+                    "name": "_onboard_new_agent"
+                }
+            },
+            "test_agents_incomplete": {
+                "line": 588,
+                "line_end": 602,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 771,
+                    "line_end": 778,
+                    "indent": 4,
+                    "name": "_no_agents_incomplete"
+                }
+            },
+            "test_turk_timeout": {
+                "line": 620,
+                "line_end": 636,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1323,
+                    "line_end": 1339,
+                    "indent": 4,
+                    "name": "handle_turker_timeout"
+                }
+            },
+            "test_wait_for_task_expirations": {
+                "line": 638,
+                "line_end": 655,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1233,
+                    "line_end": 1245,
+                    "indent": 4,
+                    "name": "_wait_for_task_expirations"
+                }
+            },
+            "test_mark_workers_done": {
+                "line": 657,
+                "line_end": 686,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1418,
+                    "line_end": 1442,
+                    "indent": 4,
+                    "name": "mark_workers_done"
+                }
+            },
+            "test_socket_dead": {
+                "line": 1104,
+                "line_end": 1195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 652,
+                    "line_end": 698,
+                    "indent": 4,
+                    "name": "_on_socket_dead"
+                }
+            },
+            "test_send_message_command": {
+                "line": 1197,
+                "line_end": 1229,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1341,
+                    "line_end": 1374,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_free_workers": {
+                "line": 1231,
+                "line_end": 1237,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1444,
+                    "line_end": 1449,
+                    "indent": 4,
+                    "name": "free_workers"
+                }
+            },
+            "test_force_expire_hit": {
+                "line": 1239,
+                "line_end": 1296,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1290,
+                    "line_end": 1321,
+                    "indent": 4,
+                    "name": "force_expire_hit"
+                }
+            },
+            "test_get_qualifications": {
+                "line": 1298,
+                "line_end": 1361,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1453,
+                    "line_end": 1554,
+                    "indent": 4,
+                    "name": "get_qualification_list"
+                }
+            },
+            "test_create_additional_hits": {
+                "line": 1363,
+                "line_end": 1396,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1556,
+                    "line_end": 1608,
+                    "indent": 4,
+                    "name": "create_additional_hits"
+                }
+            },
+            "test_expire_all_hits": {
+                "line": 1398,
+                "line_end": 1414,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1688,
+                    "line_end": 1699,
+                    "indent": 4,
+                    "name": "expire_all_unassigned_hits"
+                }
+            },
+            "test_qualification_management": {
+                "line": 1416,
+                "line_end": 1459,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1839,
+                    "line_end": 1860,
+                    "indent": 4,
+                    "name": "create_qualification"
+                }
+            },
+            "test_partner_disconnect": {
+                "line": 1461,
+                "line_end": 1472,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 484,
+                    "line_end": 515,
+                    "indent": 4,
+                    "name": "_handle_partner_disconnect"
+                }
+            },
+            "test_expire_onboarding": {
+                "line": 1474,
+                "line_end": 1482,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 408,
+                    "line_end": 419,
+                    "indent": 4,
+                    "name": "_expire_onboarding_pool"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/dev/test/test_socket_manager.py": {
+        "focal_file": "parlai/mturk/core/dev/socket_manager.py",
+        "methods": {
+            "test_connection_ids": {
+                "line": 166,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "get_sender_connection_id"
+                }
+            },
+            "test_init_and_reg_shutdown": {
+                "line": 427,
+                "line_end": 461,
+                "indent": 4,
+                "focal_class": "SocketManager",
+                "focal_method": {
+                    "line": 605,
+                    "line_end": 612,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_init_and_socket_shutdown": {
+                "line": 472,
+                "line_end": 513,
+                "indent": 4,
+                "focal_class": "SocketManager",
+                "focal_method": {
+                    "line": 605,
+                    "line_end": 612,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/dev/test/test_worker_manager.py": {
+        "focal_file": "parlai/mturk/core/dev/worker_manager.py",
+        "methods": {
+            "test_worker_state_agent_management": {
+                "line": 68,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "get_agent_for_assignment"
+                }
+            },
+            "test_private_create_agent": {
+                "line": 169,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "_create_agent"
+                }
+            },
+            "test_shutdown": {
+                "line": 248,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 363,
+                    "line_end": 368,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/legacy_2018/test/test_mturk_manager.py": {
+        "focal_file": "parlai/mturk/core/mturk_manager.py",
+        "methods": {
+            "test_init_state": {
+                "line": 185,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 246,
+                    "indent": 4,
+                    "name": "_init_state"
+                }
+            },
+            "test_move_to_waiting": {
+                "line": 247,
+                "line_end": 288,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 412,
+                    "indent": 4,
+                    "name": "_move_agents_to_waiting"
+                }
+            },
+            "test_worker_alive": {
+                "line": 303,
+                "line_end": 659,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 573,
+                    "line_end": 721,
+                    "indent": 4,
+                    "name": "_on_alive"
+                }
+            },
+            "test_mturk_messages": {
+                "line": 661,
+                "line_end": 743,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 723,
+                    "line_end": 741,
+                    "indent": 4,
+                    "name": "_handle_mturk_message"
+                }
+            },
+            "test_new_message": {
+                "line": 745,
+                "line_end": 787,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 743,
+                    "line_end": 752,
+                    "indent": 4,
+                    "name": "_on_new_message"
+                }
+            },
+            "test_onboarding_function": {
+                "line": 789,
+                "line_end": 832,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 802,
+                    "line_end": 860,
+                    "indent": 4,
+                    "name": "_onboard_new_agent"
+                }
+            },
+            "test_agents_incomplete": {
+                "line": 834,
+                "line_end": 847,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 862,
+                    "line_end": 869,
+                    "indent": 4,
+                    "name": "_no_agents_incomplete"
+                }
+            },
+            "test_turk_timeout": {
+                "line": 865,
+                "line_end": 881,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1418,
+                    "line_end": 1434,
+                    "indent": 4,
+                    "name": "handle_turker_timeout"
+                }
+            },
+            "test_wait_for_task_expirations": {
+                "line": 883,
+                "line_end": 899,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1335,
+                    "line_end": 1344,
+                    "indent": 4,
+                    "name": "_wait_for_task_expirations"
+                }
+            },
+            "test_mark_workers_done": {
+                "line": 901,
+                "line_end": 929,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1505,
+                    "line_end": 1528,
+                    "indent": 4,
+                    "name": "mark_workers_done"
+                }
+            },
+            "test_socket_dead": {
+                "line": 1349,
+                "line_end": 1440,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 754,
+                    "line_end": 800,
+                    "indent": 4,
+                    "name": "_on_socket_dead"
+                }
+            },
+            "test_send_message_command": {
+                "line": 1442,
+                "line_end": 1479,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1436,
+                    "line_end": 1474,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_free_workers": {
+                "line": 1481,
+                "line_end": 1487,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1530,
+                    "line_end": 1535,
+                    "indent": 4,
+                    "name": "free_workers"
+                }
+            },
+            "test_force_expire_hit": {
+                "line": 1489,
+                "line_end": 1546,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1385,
+                    "line_end": 1416,
+                    "indent": 4,
+                    "name": "force_expire_hit"
+                }
+            },
+            "test_get_qualifications": {
+                "line": 1548,
+                "line_end": 1611,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1542,
+                    "line_end": 1652,
+                    "indent": 4,
+                    "name": "get_qualification_list"
+                }
+            },
+            "test_create_additional_hits": {
+                "line": 1613,
+                "line_end": 1646,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1654,
+                    "line_end": 1705,
+                    "indent": 4,
+                    "name": "create_additional_hits"
+                }
+            },
+            "test_expire_all_hits": {
+                "line": 1648,
+                "line_end": 1670,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1774,
+                    "line_end": 1789,
+                    "indent": 4,
+                    "name": "expire_all_unassigned_hits"
+                }
+            },
+            "test_qualification_management": {
+                "line": 1672,
+                "line_end": 1715,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1917,
+                    "line_end": 1938,
+                    "indent": 4,
+                    "name": "create_qualification"
+                }
+            },
+            "test_partner_disconnect": {
+                "line": 1717,
+                "line_end": 1729,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 490,
+                    "line_end": 514,
+                    "indent": 4,
+                    "name": "_handle_partner_disconnect"
+                }
+            },
+            "test_restore_state": {
+                "line": 1731,
+                "line_end": 1762,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 516,
+                    "line_end": 550,
+                    "indent": 4,
+                    "name": "_restore_agent_state"
+                }
+            },
+            "test_expire_onboarding": {
+                "line": 1764,
+                "line_end": 1772,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 414,
+                    "line_end": 425,
+                    "indent": 4,
+                    "name": "_expire_onboarding_pool"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/legacy_2018/test/test_socket_manager.py": {
+        "focal_file": "parlai/mturk/core/socket_manager.py",
+        "methods": {
+            "test_connection_ids": {
+                "line": 178,
+                "line_end": 185,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "get_sender_connection_id"
+                }
+            },
+            "test_init_and_reg_shutdown": {
+                "line": 473,
+                "line_end": 506,
+                "indent": 4,
+                "focal_class": "SocketManager",
+                "focal_method": {
+                    "line": 809,
+                    "line_end": 816,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_init_and_socket_shutdown": {
+                "line": 517,
+                "line_end": 562,
+                "indent": 4,
+                "focal_class": "SocketManager",
+                "focal_method": {
+                    "line": 809,
+                    "line_end": 816,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_needed_heartbeat": {
+                "line": 779,
+                "line_end": 830,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 360,
+                    "line_end": 382,
+                    "indent": 4,
+                    "name": "_send_needed_heartbeat"
+                }
+            },
+            "test_safe_put": {
+                "line": 1021,
+                "line_end": 1049,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 795,
+                    "line_end": 807,
+                    "indent": 4,
+                    "name": "_safe_put"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/legacy_2018/test/test_worker_manager.py": {
+        "focal_file": "parlai/mturk/core/worker_manager.py",
+        "methods": {
+            "test_worker_state_agent_management": {
+                "line": 66,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "get_agent_for_assignment"
+                }
+            },
+            "test_private_create_agent": {
+                "line": 164,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "_create_agent"
+                }
+            },
+            "test_shutdown": {
+                "line": 243,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 420,
+                    "line_end": 425,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/test/test_mturk_manager.py": {
+        "focal_file": "parlai/mturk/core/mturk_manager.py",
+        "methods": {
+            "test_init_state": {
+                "line": 186,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 246,
+                    "indent": 4,
+                    "name": "_init_state"
+                }
+            },
+            "test_move_to_waiting": {
+                "line": 248,
+                "line_end": 289,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 412,
+                    "indent": 4,
+                    "name": "_move_agents_to_waiting"
+                }
+            },
+            "test_worker_alive": {
+                "line": 304,
+                "line_end": 660,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 573,
+                    "line_end": 721,
+                    "indent": 4,
+                    "name": "_on_alive"
+                }
+            },
+            "test_mturk_messages": {
+                "line": 662,
+                "line_end": 744,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 723,
+                    "line_end": 741,
+                    "indent": 4,
+                    "name": "_handle_mturk_message"
+                }
+            },
+            "test_new_message": {
+                "line": 746,
+                "line_end": 788,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 743,
+                    "line_end": 752,
+                    "indent": 4,
+                    "name": "_on_new_message"
+                }
+            },
+            "test_onboarding_function": {
+                "line": 791,
+                "line_end": 834,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 802,
+                    "line_end": 860,
+                    "indent": 4,
+                    "name": "_onboard_new_agent"
+                }
+            },
+            "test_agents_incomplete": {
+                "line": 836,
+                "line_end": 849,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 862,
+                    "line_end": 869,
+                    "indent": 4,
+                    "name": "_no_agents_incomplete"
+                }
+            },
+            "test_turk_timeout": {
+                "line": 867,
+                "line_end": 883,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1418,
+                    "line_end": 1434,
+                    "indent": 4,
+                    "name": "handle_turker_timeout"
+                }
+            },
+            "test_wait_for_task_expirations": {
+                "line": 886,
+                "line_end": 902,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1335,
+                    "line_end": 1344,
+                    "indent": 4,
+                    "name": "_wait_for_task_expirations"
+                }
+            },
+            "test_mark_workers_done": {
+                "line": 904,
+                "line_end": 932,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1505,
+                    "line_end": 1528,
+                    "indent": 4,
+                    "name": "mark_workers_done"
+                }
+            },
+            "test_socket_dead": {
+                "line": 1353,
+                "line_end": 1444,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 754,
+                    "line_end": 800,
+                    "indent": 4,
+                    "name": "_on_socket_dead"
+                }
+            },
+            "test_send_message_command": {
+                "line": 1446,
+                "line_end": 1483,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1436,
+                    "line_end": 1474,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_free_workers": {
+                "line": 1485,
+                "line_end": 1491,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1530,
+                    "line_end": 1535,
+                    "indent": 4,
+                    "name": "free_workers"
+                }
+            },
+            "test_force_expire_hit": {
+                "line": 1493,
+                "line_end": 1550,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1385,
+                    "line_end": 1416,
+                    "indent": 4,
+                    "name": "force_expire_hit"
+                }
+            },
+            "test_get_qualifications": {
+                "line": 1552,
+                "line_end": 1615,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1542,
+                    "line_end": 1652,
+                    "indent": 4,
+                    "name": "get_qualification_list"
+                }
+            },
+            "test_create_additional_hits": {
+                "line": 1617,
+                "line_end": 1650,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1654,
+                    "line_end": 1705,
+                    "indent": 4,
+                    "name": "create_additional_hits"
+                }
+            },
+            "test_expire_all_hits": {
+                "line": 1652,
+                "line_end": 1674,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1774,
+                    "line_end": 1789,
+                    "indent": 4,
+                    "name": "expire_all_unassigned_hits"
+                }
+            },
+            "test_qualification_management": {
+                "line": 1676,
+                "line_end": 1719,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1917,
+                    "line_end": 1938,
+                    "indent": 4,
+                    "name": "create_qualification"
+                }
+            },
+            "test_partner_disconnect": {
+                "line": 1721,
+                "line_end": 1733,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 490,
+                    "line_end": 514,
+                    "indent": 4,
+                    "name": "_handle_partner_disconnect"
+                }
+            },
+            "test_restore_state": {
+                "line": 1736,
+                "line_end": 1767,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 516,
+                    "line_end": 550,
+                    "indent": 4,
+                    "name": "_restore_agent_state"
+                }
+            },
+            "test_expire_onboarding": {
+                "line": 1769,
+                "line_end": 1777,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 414,
+                    "line_end": 425,
+                    "indent": 4,
+                    "name": "_expire_onboarding_pool"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/test/test_socket_manager.py": {
+        "focal_file": "parlai/mturk/core/socket_manager.py",
+        "methods": {
+            "test_connection_ids": {
+                "line": 181,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "get_sender_connection_id"
+                }
+            },
+            "test_init_and_reg_shutdown": {
+                "line": 476,
+                "line_end": 509,
+                "indent": 4,
+                "focal_class": "SocketManager",
+                "focal_method": {
+                    "line": 809,
+                    "line_end": 816,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_init_and_socket_shutdown": {
+                "line": 521,
+                "line_end": 566,
+                "indent": 4,
+                "focal_class": "SocketManager",
+                "focal_method": {
+                    "line": 809,
+                    "line_end": 816,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_needed_heartbeat": {
+                "line": 785,
+                "line_end": 836,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 360,
+                    "line_end": 382,
+                    "indent": 4,
+                    "name": "_send_needed_heartbeat"
+                }
+            },
+            "test_safe_put": {
+                "line": 1027,
+                "line_end": 1055,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 795,
+                    "line_end": 807,
+                    "indent": 4,
+                    "name": "_safe_put"
+                }
+            }
+        }
+    },
+    "parlai/mturk/core/test/test_worker_manager.py": {
+        "focal_file": "parlai/mturk/core/worker_manager.py",
+        "methods": {
+            "test_worker_state_agent_management": {
+                "line": 66,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "get_agent_for_assignment"
+                }
+            },
+            "test_private_create_agent": {
+                "line": 164,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "_create_agent"
+                }
+            },
+            "test_shutdown": {
+                "line": 243,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 420,
+                    "line_end": 425,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            }
+        }
+    },
+    "tests/test_build_data.py": {
+        "focal_file": "parlai/core/build_data.py",
+        "methods": {
+            "test_download_multiprocess": {
+                "line": 36,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 559,
+                    "indent": 0,
+                    "name": "download_multiprocess"
+                }
+            },
+            "test_download_multiprocess_chunks": {
+                "line": 55,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 559,
+                    "indent": 0,
+                    "name": "download_multiprocess"
+                }
+            },
+            "test_connectionerror_download": {
+                "line": 75,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "download"
+                }
+            }
+        }
+    },
+    "tests/test_dict.py": {
+        "focal_file": "parlai/core/dict.py",
+        "methods": {
+            "test_gpt2_bpe_tokenize": {
+                "line": 80,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "DictionaryAgent",
+                "focal_method": {
+                    "line": 405,
+                    "line_end": 409,
+                    "indent": 4,
+                    "name": "gpt2_tokenize"
+                }
+            },
+            "test_space_tokenize": {
+                "line": 94,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "space_tokenize"
+                }
+            },
+            "test_split_tokenize": {
+                "line": 103,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 437,
+                    "line_end": 454,
+                    "indent": 4,
+                    "name": "split_tokenize"
+                }
+            },
+            "test_find_ngrams": {
+                "line": 112,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "find_ngrams"
+                }
+            },
+            "test_basic_parse": {
+                "line": 131,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": "DictionaryAgent",
+                "focal_method": {
+                    "line": 658,
+                    "line_end": 671,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_byte_level_bpe_tokenize": {
+                "line": 229,
+                "line_end": 284,
+                "indent": 4,
+                "focal_class": "DictionaryAgent",
+                "focal_method": {
+                    "line": 417,
+                    "line_end": 421,
+                    "indent": 4,
+                    "name": "bytelevelbpe_tokenize"
+                }
+            }
+        }
+    },
+    "tests/test_dynamicbatching.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_ranking_streaming": {
+                "line": 132,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_eval_model.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_noevalmode": {
+                "line": 16,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            },
+            "test_evalmode": {
+                "line": 26,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            },
+            "test_metrics_all": {
+                "line": 54,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            },
+            "test_metrics_select": {
+                "line": 78,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            },
+            "test_multitasking_metrics_macro": {
+                "line": 105,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            },
+            "test_multitasking_metrics_micro": {
+                "line": 144,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            },
+            "test_train_evalmode": {
+                "line": 179,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            }
+        }
+    },
+    "tests/test_hogwild.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_hogwild_train": {
+                "line": 23,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_hogwild_eval": {
+                "line": 43,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            }
+        }
+    },
+    "tests/test_image_seq2seq.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_multitask": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_loader.py": {
+        "focal_file": "parlai/core/loader.py",
+        "methods": {
+            "test_load_agent": {
+                "line": 33,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "load_agent_module"
+                }
+            },
+            "test_load_teacher": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 291,
+                    "indent": 0,
+                    "name": "load_teacher_module"
+                }
+            },
+            "test_load_task": {
+                "line": 41,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 241,
+                    "indent": 0,
+                    "name": "load_task_module"
+                }
+            }
+        }
+    },
+    "tests/test_metrics.py": {
+        "focal_file": "parlai/core/metrics.py",
+        "methods": {
+            "test_sum_metric_inputs": {
+                "line": 32,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "SumMetric",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "value"
+                }
+            },
+            "test_simpleadd": {
+                "line": 122,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "Metrics",
+                "focal_method": {
+                    "line": 600,
+                    "line_end": 607,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_shared": {
+                "line": 138,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": "Metrics",
+                "focal_method": {
+                    "line": 657,
+                    "line_end": 661,
+                    "indent": 4,
+                    "name": "share"
+                }
+            },
+            "test_unnamed_aggregation": {
+                "line": 196,
+                "line_end": 213,
+                "indent": 4,
+                "focal_class": "GlobalAverageMetric",
+                "focal_method": {
+                    "line": 548,
+                    "line_end": 556,
+                    "indent": 0,
+                    "name": "aggregate_unnamed_reports"
+                }
+            }
+        }
+    },
+    "tests/test_opt.py": {
+        "focal_file": "parlai/core/opt.py",
+        "methods": {
+            "test_save_load": {
+                "line": 18,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "Opt",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    },
+    "tests/test_params.py": {
+        "focal_file": "parlai/core/params.py",
+        "methods": {
+            "test_recommendations_group": {
+                "line": 77,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "ParlaiParser",
+                "focal_method": {
+                    "line": 1206,
+                    "line_end": 1222,
+                    "indent": 4,
+                    "name": "add_argument_group"
+                }
+            },
+            "test_parse_kwargs": {
+                "line": 99,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "ParlaiParser",
+                "focal_method": {
+                    "line": 1116,
+                    "line_end": 1130,
+                    "indent": 4,
+                    "name": "parse_kwargs"
+                }
+            }
+        }
+    },
+    "tests/test_seq2seq.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_generation_multi": {
+                "line": 103,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_starspace.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_training": {
+                "line": 12,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_torch_agent.py": {
+        "focal_file": "parlai/core/torch_agent.py",
+        "methods": {
+            "test_share": {
+                "line": 58,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1206,
+                    "line_end": 1225,
+                    "indent": 4,
+                    "name": "share"
+                }
+            },
+            "test__vectorize_text": {
+                "line": 66,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1259,
+                    "line_end": 1285,
+                    "indent": 4,
+                    "name": "_vectorize_text"
+                }
+            },
+            "test__check_truncate": {
+                "line": 159,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1287,
+                    "line_end": 1298,
+                    "indent": 4,
+                    "name": "_check_truncate"
+                }
+            },
+            "test_vectorize": {
+                "line": 172,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1379,
+                    "line_end": 1433,
+                    "indent": 4,
+                    "name": "vectorize"
+                }
+            },
+            "test_batchify": {
+                "line": 264,
+                "line_end": 479,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1465,
+                    "line_end": 1554,
+                    "indent": 4,
+                    "name": "batchify"
+                }
+            },
+            "test_match_batch": {
+                "line": 481,
+                "line_end": 590,
+                "indent": 4,
+                "focal_class": "Output",
+                "focal_method": {
+                    "line": 1556,
+                    "line_end": 1595,
+                    "indent": 4,
+                    "name": "match_batch"
+                }
+            },
+            "test__add_person_tokens": {
+                "line": 592,
+                "line_end": 608,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 338,
+                    "line_end": 344,
+                    "indent": 4,
+                    "name": "_add_person_tokens"
+                }
+            },
+            "test_history": {
+                "line": 610,
+                "line_end": 750,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 224,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "reset"
+                }
+            },
+            "test_observe": {
+                "line": 752,
+                "line_end": 782,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1606,
+                    "line_end": 1639,
+                    "indent": 4,
+                    "name": "observe"
+                }
+            },
+            "test_batch_act": {
+                "line": 784,
+                "line_end": 852,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1880,
+                    "line_end": 1947,
+                    "indent": 4,
+                    "name": "batch_act"
+                }
+            }
+        }
+    },
+    "tests/test_tra.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_train_inline": {
+                "line": 48,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_train_batch": {
+                "line": 58,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_train_fixed": {
+                "line": 68,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_train_batch_all": {
+                "line": 79,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_train_model.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_fast_final_eval": {
+                "line": 18,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_multitasking_metrics_micro": {
+                "line": 31,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_multitasking_metrics_macro": {
+                "line": 66,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_transformers.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_beamdelay": {
+                "line": 455,
+                "line_end": 470,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            },
+            "test_invsqrt_learning_rate": {
+                "line": 807,
+                "line_end": 842,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_multitask": {
+                "line": 929,
+                "line_end": 940,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_unigram.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_unigram": {
+                "line": 12,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "parlai/utils/strings.py",
+        "methods": {
+            "test_normalize_reply_version1": {
+                "line": 114,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "normalize_reply"
+                }
+            },
+            "test_normalize_reply_version2": {
+                "line": 122,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "normalize_reply"
+                }
+            },
+            "test_uppercase": {
+                "line": 128,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "uppercase"
+                }
+            }
+        }
+    },
+    "tests/test_utils_torch.py": {
+        "focal_file": "parlai/utils/torch.py",
+        "methods": {
+            "test_neginf": {
+                "line": 26,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "neginf"
+                }
+            },
+            "test_padded_tensor": {
+                "line": 31,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "padded_tensor"
+                }
+            },
+            "test_argsort": {
+                "line": 42,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 242,
+                    "indent": 0,
+                    "name": "argsort"
+                }
+            },
+            "test_trainable_parameters": {
+                "line": 55,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "IdentityLayer",
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 305,
+                    "indent": 0,
+                    "name": "trainable_parameters"
+                }
+            },
+            "test_total_parameters": {
+                "line": 65,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "IdentityLayer",
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 292,
+                    "indent": 0,
+                    "name": "total_parameters"
+                }
+            },
+            "test_schedule_work_items": {
+                "line": 226,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": "IdentityLayer",
+                "focal_method": {
+                    "line": 532,
+                    "line_end": 595,
+                    "indent": 4,
+                    "name": "schedule_work_items"
+                }
+            }
+        }
+    },
+    "tests/nightly/gpu/test_bert.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_biencoder": {
+                "line": 21,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            }
+        }
+    },
+    "tests/nightly/gpu/test_self_feeding.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_train_model": {
+                "line": 41,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "train_model"
+                }
+            },
+            "test_released_model": {
+                "line": 62,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            }
+        }
+    },
+    "tests/nightly/gpu/test_wizard.py": {
+        "focal_file": "parlai/utils/testing.py",
+        "methods": {
+            "test_retrieval": {
+                "line": 63,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "eval_model"
+                }
+            }
+        }
+    },
+    "tests/tasks/convai_chitchat/TeacherTest.py": {
+        "focal_file": "parlai/tasks/convai_chitchat/agents.py",
+        "methods": {
+            "test_data_generator": {
+                "line": 16,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "_data_generator"
+                }
+            }
+        }
+    }
+}

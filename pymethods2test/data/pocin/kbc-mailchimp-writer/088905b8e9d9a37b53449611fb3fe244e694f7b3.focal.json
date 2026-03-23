@@ -1,0 +1,661 @@
+{
+    "tests/test_cleaning.py": {
+        "focal_file": "mcwriter/cleaning.py",
+        "methods": {
+            "test_cleaning_mandatory_str_fields_success": {
+                "line": 20,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "_clean_mandatory_str_fields"
+                }
+            },
+            "test_cleaning_mandatory_str_fields_missing_fails": {
+                "line": 43,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "_clean_mandatory_str_fields"
+                }
+            },
+            "test_cleaning_mandatory_str_fields_missing_fails_dtype": {
+                "line": 62,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "_clean_mandatory_str_fields"
+                }
+            },
+            "test_cleaning_optional_str_fields_missing_doesnt_raise": {
+                "line": 81,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "_clean_optional_str_fields"
+                }
+            },
+            "test_cleaning_optional_str_fields_missing_raises_wrong_dtype": {
+                "line": 98,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "_clean_optional_str_fields"
+                }
+            },
+            "test_cleaning_mandatory_bool_field_is_there": {
+                "line": 106,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "_clean_mandatory_bool_fields"
+                }
+            },
+            "test_cleaning_mandatory_bool_field_handling_None": {
+                "line": 119,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "_clean_mandatory_bool_fields"
+                }
+            },
+            "test_cleaning_mandatory_bool_field_not_there_raises": {
+                "line": 131,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "_clean_mandatory_bool_fields"
+                }
+            },
+            "test_cleaning_mandatory_bool_field_not_bool_raises": {
+                "line": 140,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "_clean_mandatory_bool_fields"
+                }
+            },
+            "test_cleaning_optional_bool_fields_not_bool_raises": {
+                "line": 150,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 205,
+                    "indent": 0,
+                    "name": "_clean_optional_bool_fields"
+                }
+            },
+            "test_cleaning_optional_bool_fields_true": {
+                "line": 160,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 205,
+                    "indent": 0,
+                    "name": "_clean_optional_bool_fields"
+                }
+            },
+            "test_cleaning_optional_bool_fields_false": {
+                "line": 172,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 205,
+                    "indent": 0,
+                    "name": "_clean_optional_bool_fields"
+                }
+            },
+            "test_cleaning_optional_bool_fields2_raises_on_empty_string": {
+                "line": 185,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 205,
+                    "indent": 0,
+                    "name": "_clean_optional_bool_fields"
+                }
+            },
+            "test_cleaning_optional_bool_fields_None": {
+                "line": 194,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 205,
+                    "indent": 0,
+                    "name": "_clean_optional_bool_fields"
+                }
+            },
+            "test_optional_custom_fields_prv": {
+                "line": 206,
+                "line_end": 216,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 228,
+                    "indent": 0,
+                    "name": "_clean_optional_custom_fields"
+                }
+            },
+            "test_optional_custom_fields_pub": {
+                "line": 219,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 228,
+                    "indent": 0,
+                    "name": "_clean_optional_custom_fields"
+                }
+            },
+            "test_clean_optional_custom_fields_raises_unconvertable": {
+                "line": 230,
+                "line_end": 236,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 228,
+                    "indent": 0,
+                    "name": "_clean_optional_custom_fields"
+                }
+            },
+            "test_clean_exclusive_fields_works": {
+                "line": 238,
+                "line_end": 244,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 293,
+                    "indent": 0,
+                    "name": "_clean_exclusive_fields"
+                }
+            },
+            "test_clean_exclusive_fields_raises_if": {
+                "line": 247,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 293,
+                    "indent": 0,
+                    "name": "_clean_exclusive_fields"
+                }
+            },
+            "test_cleaning_optional_integer_fields_cleans": {
+                "line": 254,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 306,
+                    "indent": 0,
+                    "name": "_clean_optional_integer_fields"
+                }
+            }
+        }
+    },
+    "tests/test_cleaning_lists.py": {
+        "focal_file": "mcwriter/cleaning.py",
+        "methods": {
+            "test_cleaning_and_validating_lists_data": {
+                "line": 5,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "clean_and_validate_lists_data"
+                }
+            }
+        }
+    },
+    "tests/test_cleaning_mebers.py": {
+        "focal_file": "mcwriter/cleaning.py",
+        "methods": {
+            "test_cleaning_mandatory_custom_fields_raises_if_not_present": {
+                "line": 10,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 251,
+                    "indent": 0,
+                    "name": "_clean_mandatory_custom_fields"
+                }
+            },
+            "test_cleaning_mandatory_custom_fields_validates_correctly": {
+                "line": 19,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 251,
+                    "indent": 0,
+                    "name": "_clean_mandatory_custom_fields"
+                }
+            },
+            "test_cleaning_mandatory_custom_fields_raises_if_invalid": {
+                "line": 37,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 251,
+                    "indent": 0,
+                    "name": "_clean_mandatory_custom_fields"
+                }
+            },
+            "test_cleaning_members_interests_cleans_ok": {
+                "line": 131,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "_clean_members_interests"
+                }
+            },
+            "test_cleaning_members_interests_raises_on_invalid_interest": {
+                "line": 144,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "_clean_members_interests"
+                }
+            },
+            "test_cleaning_members_merge_fields_cleans_ok": {
+                "line": 154,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 280,
+                    "indent": 0,
+                    "name": "_clean_members_merge_fields"
+                }
+            }
+        }
+    },
+    "tests/test_cleaning_tags.py": {
+        "focal_file": "mcwriter/cleaning.py",
+        "methods": {
+            "test_cleaning_tags_invalid_type": {
+                "line": 25,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "clean_and_validate_tags_data"
+                }
+            },
+            "test_cleaning_tags_options_cleaning_int": {
+                "line": 99,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 328,
+                    "indent": 0,
+                    "name": "_clean_tags_options"
+                }
+            },
+            "test_cleaning_tags_options_cleaning_int_wring_type": {
+                "line": 110,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 328,
+                    "indent": 0,
+                    "name": "_clean_tags_options"
+                }
+            }
+        }
+    },
+    "tests/test_functional.py": {
+        "focal_file": "mcwriter/writer.py",
+        "methods": {
+            "test_adding_members_batch": {
+                "line": 17,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 0,
+                    "name": "add_members_to_lists"
+                }
+            },
+            "test_adding_members_batch_only_status_if_new": {
+                "line": 33,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 0,
+                    "name": "add_members_to_lists"
+                }
+            },
+            "test_updating_members_batch": {
+                "line": 48,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "update_members"
+                }
+            },
+            "test_updating_members_serial": {
+                "line": 63,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "update_members"
+                }
+            },
+            "test_deleting_member": {
+                "line": 79,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 318,
+                    "indent": 0,
+                    "name": "delete_members"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "mcwriter/utils.py",
+        "methods": {
+            "test_serializing_nested_path": {
+                "line": 70,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "serialize_dotted_path_dict"
+                }
+            },
+            "test_serializing_2_levels_nested_path": {
+                "line": 85,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "serialize_dotted_path_dict"
+                }
+            },
+            "test_serializing_new_lists_input_csv": {
+                "line": 101,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "serialize_lists_input"
+                }
+            },
+            "test_preparing_batch_data": {
+                "line": 153,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "prepare_batch_data_lists"
+                }
+            },
+            "test_preparing_batch_data_for_delete": {
+                "line": 171,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 220,
+                    "indent": 0,
+                    "name": "prepare_batch_data_delete_members"
+                }
+            },
+            "test_serializing_members_input": {
+                "line": 191,
+                "line_end": 224,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 137,
+                    "indent": 0,
+                    "name": "serialize_members_input"
+                }
+            },
+            "test_serializing_members_input_linked_to_lists": {
+                "line": 226,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 137,
+                    "indent": 0,
+                    "name": "serialize_members_input"
+                }
+            },
+            "test_preparing_batch_members_data_adding_members": {
+                "line": 262,
+                "line_end": 284,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 303,
+                    "indent": 0,
+                    "name": "prepare_batch_data_add_members"
+                }
+            },
+            "test_setting_up_client_works": {
+                "line": 287,
+                "line_end": 290,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 323,
+                    "indent": 0,
+                    "name": "_setup_client"
+                }
+            },
+            "test_veryifying_credentials_fails_on_wrong_apikey": {
+                "line": 299,
+                "line_end": 310,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 325,
+                    "line_end": 338,
+                    "indent": 0,
+                    "name": "_verify_credentials"
+                }
+            },
+            "test_veryifying_credentials_wrong_apikey_ConnectionError": {
+                "line": 313,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 325,
+                    "line_end": 338,
+                    "indent": 0,
+                    "name": "_verify_credentials"
+                }
+            },
+            "test_waiting_for_batch_op_to_finish": {
+                "line": 327,
+                "line_end": 339,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 379,
+                    "indent": 0,
+                    "name": "wait_for_batch_to_finish"
+                }
+            },
+            "test_writing_batches_csv": {
+                "line": 368,
+                "line_end": 398,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 389,
+                    "indent": 0,
+                    "name": "write_batches_to_csv"
+                }
+            }
+        }
+    },
+    "tests/test_writer.py": {
+        "focal_file": "mcwriter/writer.py",
+        "methods": {
+            "test_adding_members_to_list_without_custom_ids": {
+                "line": 19,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 0,
+                    "name": "add_members_to_lists"
+                }
+            },
+            "test_adding_members_to_list_with_custom_ids": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 0,
+                    "name": "add_members_to_lists"
+                }
+            },
+            "test_adding_members_to_list_has_correct_syntax": {
+                "line": 30,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 0,
+                    "name": "add_members_to_lists"
+                }
+            },
+            "test_creating_lists_returns_custom_ids": {
+                "line": 34,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "_create_lists_serial"
+                }
+            }
+        }
+    }
+}

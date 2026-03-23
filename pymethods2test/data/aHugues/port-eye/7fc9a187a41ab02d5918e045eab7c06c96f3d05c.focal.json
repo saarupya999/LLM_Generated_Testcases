@@ -1,0 +1,238 @@
+{
+    "tests/test_export.py": {
+        "focal_file": "port_eye/export.py",
+        "methods": {
+            "test_loading_style": {
+                "line": 16,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "load_style"
+                }
+            },
+            "test_rendering": {
+                "line": 25,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "render"
+                }
+            }
+        }
+    },
+    "tests/test_mock_nmap.py": {
+        "focal_file": "port_eye/mock_nmap.py",
+        "methods": {
+            "test_is_vulnerable": {
+                "line": 42,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": "MockPortScanner",
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 254,
+                    "indent": 4,
+                    "name": "is_vulnerable"
+                }
+            },
+            "test_build_vuln_result_not_vulnerable": {
+                "line": 55,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": "MockPortScanner",
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "build_vuln_result"
+                }
+            },
+            "test_build_vuln_result_not_present": {
+                "line": 65,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": "MockPortScanner",
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "build_vuln_result"
+                }
+            },
+            "test_build_vuln_result_vulnerable": {
+                "line": 75,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": "MockPortScanner",
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "build_vuln_result"
+                }
+            },
+            "test_build_result_vulnerable": {
+                "line": 91,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": "MockPortScanner",
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 428,
+                    "indent": 4,
+                    "name": "build_result_vulnerable"
+                }
+            }
+        }
+    },
+    "tests/test_scanner.py": {
+        "focal_file": "port_eye/scanner.py",
+        "methods": {
+            "test_scanning_sudo": {
+                "line": 123,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": "Scanner",
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "run_ping_test"
+                }
+            },
+            "test_scanning_handling_unreachable": {
+                "line": 226,
+                "line_end": 233,
+                "indent": 0,
+                "focal_class": "ScannerHandler",
+                "focal_method": {
+                    "line": 416,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "run_scans"
+                }
+            },
+            "test_scanning_handling_skip_ping": {
+                "line": 236,
+                "line_end": 243,
+                "indent": 0,
+                "focal_class": "ScannerHandler",
+                "focal_method": {
+                    "line": 416,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "run_scans"
+                }
+            },
+            "test_scan_handling": {
+                "line": 281,
+                "line_end": 298,
+                "indent": 0,
+                "focal_class": "ScannerHandler",
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 414,
+                    "indent": 4,
+                    "name": "run_scan"
+                }
+            },
+            "test_running_scans": {
+                "line": 301,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": "ScannerHandler",
+                "focal_method": {
+                    "line": 416,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "run_scans"
+                }
+            },
+            "test_finding_vulnerabilities": {
+                "line": 319,
+                "line_end": 341,
+                "indent": 0,
+                "focal_class": "Scanner",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "find_vulnerabilities"
+                }
+            },
+            "test_finding_vulnerabilities_ipv6": {
+                "line": 344,
+                "line_end": 351,
+                "indent": 0,
+                "focal_class": "Scanner",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "find_vulnerabilities"
+                }
+            },
+            "test_finding_vulnerabilities_invalid_host": {
+                "line": 354,
+                "line_end": 359,
+                "indent": 0,
+                "focal_class": "Scanner",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "find_vulnerabilities"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "port_eye/utils.py",
+        "methods": {
+            "test_duration_parsing": {
+                "line": 13,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 153,
+                    "indent": 0,
+                    "name": "parse_duration_from_seconds"
+                }
+            },
+            "test_hosts_from_cidr": {
+                "line": 34,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "get_hosts_from_cidr"
+                }
+            },
+            "test_parsing_vuln_report": {
+                "line": 73,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 216,
+                    "indent": 0,
+                    "name": "parse_vuln_report"
+                }
+            }
+        }
+    }
+}

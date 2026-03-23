@@ -1,0 +1,289 @@
+{
+    "test/test_config.py": {
+        "focal_file": "cdflow_commands/config.py",
+        "methods": {
+            "test_get_platform_config_path": {
+                "line": 338,
+                "line_end": 346,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "get_platform_config_path"
+                }
+            },
+            "test_get_platform_config_path_for_live": {
+                "line": 352,
+                "line_end": 360,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "get_platform_config_path"
+                }
+            }
+        }
+    },
+    "test/test_integration_cli_ecs.py": {
+        "focal_file": "cdflow_commands/plugins/ecs.py",
+        "methods": {
+            "test_deploy_is_configured_and_run": {
+                "line": 337,
+                "line_end": 405,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_destroy_is_configured_and_run": {
+                "line": 456,
+                "line_end": 560,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "test/test_secrets.py": {
+        "focal_file": "cdflow_commands/secrets.py",
+        "methods": {
+            "test_secrets_fetched": {
+                "line": 42,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_secrets"
+                }
+            }
+        }
+    },
+    "test/test_terragrunt.py": {
+        "focal_file": "cdflow_commands/terragrunt.py",
+        "methods": {
+            "test_bucket_created_and_tagged": {
+                "line": 139,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": "S3BucketFactory",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_bucket_name_when_bucket_not_available": {
+                "line": 262,
+                "line_end": 294,
+                "indent": 4,
+                "focal_class": "S3BucketFactory",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_bucket_name_when_bucket_owned_in_other_region": {
+                "line": 296,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": "S3BucketFactory",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_terragrunt_config_written": {
+                "line": 342,
+                "line_end": 389,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 145,
+                    "indent": 0,
+                    "name": "write_terragrunt_config"
+                }
+            }
+        }
+    },
+    "test/plugins/test_ecs.py": {
+        "focal_file": "cdflow_commands/plugins/ecs.py",
+        "methods": {
+            "test_plugin_runs_release": {
+                "line": 9,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "ECSPlugin",
+                "focal_method": {
+                    "line": 343,
+                    "line_end": 345,
+                    "indent": 4,
+                    "name": "release"
+                }
+            },
+            "test_plugin_runs_deploy": {
+                "line": 28,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "ECSPlugin",
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 351,
+                    "indent": 4,
+                    "name": "deploy"
+                }
+            },
+            "test_plugin_runs_destroy": {
+                "line": 48,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "ECSPlugin",
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 355,
+                    "indent": 4,
+                    "name": "destroy"
+                }
+            },
+            "test_plugin_monitors_the_deploy": {
+                "line": 67,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "ECSPlugin",
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 351,
+                    "indent": 4,
+                    "name": "deploy"
+                }
+            }
+        }
+    },
+    "test/plugins/test_ecs_monitor.py": {
+        "focal_file": "cdflow_commands/plugins/ecs.py",
+        "methods": {
+            "test_get_ecs_service_events": {
+                "line": 751,
+                "line_end": 818,
+                "indent": 4,
+                "focal_class": "ECSEventIterator",
+                "focal_method": {
+                    "line": 509,
+                    "line_end": 520,
+                    "indent": 4,
+                    "name": "_get_new_ecs_service_events"
+                }
+            },
+            "test_build_service_name_short_name": {
+                "line": 827,
+                "line_end": 836,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "build_service_name"
+                }
+            },
+            "test_build_service_name_long_name": {
+                "line": 842,
+                "line_end": 850,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "build_service_name"
+                }
+            },
+            "test_build_service_name_length_limit": {
+                "line": 856,
+                "line_end": 862,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "build_service_name"
+                }
+            },
+            "test_build_service_name_idempotent": {
+                "line": 868,
+                "line_end": 878,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "build_service_name"
+                }
+            }
+        }
+    },
+    "test/plugins/test_infrastructure.py": {
+        "focal_file": "cdflow_commands/plugins/infrastructure.py",
+        "methods": {
+            "test_plugin_does_not_build_a_release": {
+                "line": 9,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "InfrastructurePlugin",
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "release"
+                }
+            },
+            "test_plugin_runs_deploy": {
+                "line": 24,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "InfrastructurePlugin",
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "deploy"
+                }
+            },
+            "test_plugin_runs_destroy": {
+                "line": 43,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "InfrastructurePlugin",
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 180,
+                    "indent": 4,
+                    "name": "destroy"
+                }
+            }
+        }
+    }
+}

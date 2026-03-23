@@ -1,0 +1,467 @@
+{
+    "tests/utils/test_query_limit.py": {
+        "focal_file": "redash/utils/__init__.py",
+        "methods": {
+            "test_check_query_limit_no_limit": {
+                "line": 7,
+                "line_end": 9,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "query_is_select_no_limit"
+                }
+            },
+            "test_check_query_with_limit": {
+                "line": 23,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "query_is_select_no_limit"
+                }
+            },
+            "test_add_limit_query_no_limit": {
+                "line": 31,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 244,
+                    "indent": 0,
+                    "name": "add_limit_to_query"
+                }
+            },
+            "test_add_limit_query_with_punc": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 236,
+                    "line_end": 244,
+                    "indent": 0,
+                    "name": "add_limit_to_query"
+                }
+            }
+        }
+    },
+    "tests/query_runner/test_prometheus.py": {
+        "focal_file": "redash/query_runner/prometheus.py",
+        "methods": {
+            "test_get_instant_rows": {
+                "line": 31,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "get_instant_rows"
+                }
+            },
+            "test_get_range_rows": {
+                "line": 50,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_range_rows"
+                }
+            }
+        }
+    },
+    "tests/query_runner/test_cass.py": {
+        "focal_file": "redash/query_runner/cass.py",
+        "methods": {
+            "test_generate_ssl_options_dict_creates_plain_protocol_dict": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "generate_ssl_options_dict"
+                }
+            },
+            "test_generate_ssl_options_dict_creates_certificate_dict": {
+                "line": 15,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "generate_ssl_options_dict"
+                }
+            }
+        }
+    },
+    "tests/query_runner/test_mongodb.py": {
+        "focal_file": "redash/query_runner/mongodb.py",
+        "methods": {
+            "test_parses_regular_results": {
+                "line": 132,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "parse_results"
+                }
+            },
+            "test_parses_nested_results": {
+                "line": 146,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "parse_results"
+                }
+            }
+        }
+    },
+    "tests/query_runner/test_drill.py": {
+        "focal_file": "redash/query_runner/drill.py",
+        "methods": {
+            "test_converts_booleans": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "convert_type"
+                }
+            },
+            "test_converts_strings": {
+                "line": 23,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "convert_type"
+                }
+            },
+            "test_converts_integer": {
+                "line": 29,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "convert_type"
+                }
+            },
+            "test_converts_float": {
+                "line": 32,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "convert_type"
+                }
+            },
+            "test_converts_date": {
+                "line": 35,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "convert_type"
+                }
+            },
+            "test_parse_empty_reponse": {
+                "line": 54,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "parse_response"
+                }
+            },
+            "test_parse_regular_response": {
+                "line": 63,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "parse_response"
+                }
+            }
+        }
+    },
+    "tests/query_runner/test_basesql_queryrunner.py": {
+        "focal_file": "redash/utils/__init__.py",
+        "methods": {
+            "test_gen_query_hash_baseSQL": {
+                "line": 87,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "gen_query_hash"
+                }
+            },
+            "test_gen_query_hash_NoneSQL": {
+                "line": 94,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "gen_query_hash"
+                }
+            }
+        }
+    },
+    "tests/query_runner/test_google_spreadsheets.py": {
+        "focal_file": "redash/query_runner/google_spreadsheets.py",
+        "methods": {
+            "test_parse_empty_worksheet": {
+                "line": 83,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "parse_worksheet"
+                }
+            },
+            "test_parse_only_headers_worksheet": {
+                "line": 86,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "parse_worksheet"
+                }
+            },
+            "test_parse_regular_worksheet": {
+                "line": 89,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "parse_worksheet"
+                }
+            },
+            "test_parse_query": {
+                "line": 113,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "parse_query"
+                }
+            },
+            "test_get_columns": {
+                "line": 119,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "_get_columns_and_column_names"
+                }
+            },
+            "test_get_columns_with_duplicated": {
+                "line": 125,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "_get_columns_and_column_names"
+                }
+            },
+            "test_get_columns_with_blank": {
+                "line": 131,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "_get_columns_and_column_names"
+                }
+            },
+            "test_is_url_key": {
+                "line": 139,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 126,
+                    "indent": 0,
+                    "name": "is_url_key"
+                }
+            }
+        }
+    },
+    "tests/query_runner/test_query_results.py": {
+        "focal_file": "redash/query_runner/query_results.py",
+        "methods": {
+            "test_creates_table": {
+                "line": 61,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "create_table"
+                }
+            },
+            "test_shows_meaningful_error_on_failure_to_create_table": {
+                "line": 109,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "create_table"
+                }
+            },
+            "test_fix_column_name": {
+                "line": 185,
+                "line_end": 186,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "fix_column_name"
+                }
+            },
+            "test_cached_query_result": {
+                "line": 190,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "get_query_results"
+                }
+            },
+            "test_non_cached_query_result": {
+                "line": 196,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "get_query_results"
+                }
+            }
+        }
+    },
+    "tests/tasks/test_schedule.py": {
+        "focal_file": "redash/tasks/schedule.py",
+        "methods": {
+            "test_schedules_a_new_job": {
+                "line": 13,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "schedule_periodic_jobs"
+                }
+            },
+            "test_doesnt_reschedule_an_existing_job": {
+                "line": 25,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "schedule_periodic_jobs"
+                }
+            },
+            "test_reschedules_a_modified_job": {
+                "line": 34,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "schedule_periodic_jobs"
+                }
+            }
+        }
+    }
+}

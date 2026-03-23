@@ -1,0 +1,610 @@
+{
+    "tests/test_azure.py": {
+        "focal_file": "storages/backends/azure_storage.py",
+        "methods": {
+            "test_get_valid_path": {
+                "line": 23,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 114,
+                    "indent": 0,
+                    "name": "_get_valid_path"
+                }
+            },
+            "test_get_valid_path_idempotency": {
+                "line": 65,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 114,
+                    "indent": 0,
+                    "name": "_get_valid_path"
+                }
+            },
+            "test_get_available_name": {
+                "line": 80,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "get_available_name"
+                }
+            },
+            "test_get_available_name_first": {
+                "line": 89,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "get_available_name"
+                }
+            },
+            "test_get_available_name_max_len": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "get_available_name"
+                }
+            },
+            "test_url": {
+                "line": 118,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 266,
+                    "line_end": 282,
+                    "indent": 4,
+                    "name": "url"
+                }
+            },
+            "test_storage_open_write": {
+                "line": 302,
+                "line_end": 319,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_storage_exists": {
+                "line": 321,
+                "line_end": 326,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_delete_blob": {
+                "line": 328,
+                "line_end": 333,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 234,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_storage_listdir_base": {
+                "line": 335,
+                "line_end": 359,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 350,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_storage_listdir_subdir": {
+                "line": 361,
+                "line_end": 383,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 350,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_last_modified_of_file": {
+                "line": 391,
+                "line_end": 397,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 334,
+                    "indent": 4,
+                    "name": "modified_time"
+                }
+            }
+        }
+    },
+    "tests/test_dropbox.py": {
+        "focal_file": "storages/backends/dropbox.py",
+        "methods": {
+            "test_delete": {
+                "line": 59,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_exists": {
+                "line": 64,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_not_exists": {
+                "line": 70,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_listdir": {
+                "line": 76,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_size": {
+                "line": 89,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "size"
+                }
+            },
+            "test_modified_time": {
+                "line": 95,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "modified_time"
+                }
+            },
+            "test_accessed_time": {
+                "line": 101,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "accessed_time"
+                }
+            },
+            "test_open": {
+                "line": 105,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_open"
+                }
+            },
+            "test_save": {
+                "line": 111,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_save"
+                }
+            },
+            "test_url": {
+                "line": 130,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "url"
+                }
+            }
+        }
+    },
+    "tests/test_gcloud.py": {
+        "focal_file": "storages/backends/gcloud.py",
+        "methods": {
+            "test_open_read": {
+                "line": 31,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_open_write": {
+                "line": 71,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_delete": {
+                "line": 135,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_exists": {
+                "line": 141,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_listdir": {
+                "line": 161,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_listdir_subdir": {
+                "line": 195,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_size": {
+                "line": 225,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "size"
+                }
+            },
+            "test_modified_time": {
+                "line": 242,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 218,
+                    "indent": 4,
+                    "name": "modified_time"
+                }
+            },
+            "test_get_modified_time": {
+                "line": 257,
+                "line_end": 277,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 220,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "get_modified_time"
+                }
+            },
+            "test_get_created_time": {
+                "line": 279,
+                "line_end": 299,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 234,
+                    "indent": 4,
+                    "name": "get_created_time"
+                }
+            },
+            "test_get_available_name": {
+                "line": 365,
+                "line_end": 375,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 266,
+                    "indent": 4,
+                    "name": "get_available_name"
+                }
+            },
+            "test_get_available_name_unicode": {
+                "line": 377,
+                "line_end": 379,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 266,
+                    "indent": 4,
+                    "name": "get_available_name"
+                }
+            }
+        }
+    },
+    "tests/test_s3boto3.py": {
+        "focal_file": "storages/backends/s3boto3.py",
+        "methods": {
+            "test_clean_name": {
+                "line": 27,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 4,
+                    "name": "_clean_name"
+                }
+            },
+            "test_clean_name_normalize": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 4,
+                    "name": "_clean_name"
+                }
+            },
+            "test_clean_name_trailing_slash": {
+                "line": 41,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 4,
+                    "name": "_clean_name"
+                }
+            },
+            "test_clean_name_windows": {
+                "line": 48,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 398,
+                    "indent": 4,
+                    "name": "_clean_name"
+                }
+            },
+            "test_storage_url_slashes": {
+                "line": 86,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 558,
+                    "line_end": 582,
+                    "indent": 4,
+                    "name": "url"
+                }
+            },
+            "test_compress_content_len": {
+                "line": 238,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 426,
+                    "indent": 4,
+                    "name": "_compress_content"
+                }
+            },
+            "test_storage_open_write": {
+                "line": 255,
+                "line_end": 291,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_storage_exists": {
+                "line": 426,
+                "line_end": 431,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 458,
+                    "line_end": 464,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_storage_exists_false": {
+                "line": 433,
+                "line_end": 442,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 458,
+                    "line_end": 464,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_storage_delete": {
+                "line": 444,
+                "line_end": 447,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 454,
+                    "line_end": 456,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_storage_listdir_base": {
+                "line": 449,
+                "line_end": 476,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 466,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_storage_listdir_subdir": {
+                "line": 478,
+                "line_end": 501,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 466,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_storage_size": {
+                "line": 503,
+                "line_end": 508,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "size"
+                }
+            },
+            "test_storage_url": {
+                "line": 535,
+                "line_end": 566,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 558,
+                    "line_end": 582,
+                    "indent": 4,
+                    "name": "url"
+                }
+            },
+            "test_strip_signing_parameters": {
+                "line": 628,
+                "line_end": 633,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 537,
+                    "line_end": 556,
+                    "indent": 4,
+                    "name": "_strip_signing_parameters"
+                }
+            }
+        }
+    }
+}

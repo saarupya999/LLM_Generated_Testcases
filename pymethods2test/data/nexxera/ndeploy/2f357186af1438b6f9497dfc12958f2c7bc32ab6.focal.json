@@ -1,0 +1,183 @@
+{
+    "test/ndeploy/core_test.py": {
+        "focal_file": "ndeploy/core.py",
+        "methods": {
+            "test_list_environments_should_call_environment_repository": {
+                "line": 29,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "list_environments_as_str"
+                }
+            }
+        }
+    },
+    "test/ndeploy/deployer_test.py": {
+        "focal_file": "ndeploy/deployer.py",
+        "methods": {
+            "test_undeploy_should_call_correct_provider_to_undeploy": {
+                "line": 92,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "undeploy"
+                }
+            }
+        }
+    },
+    "test/ndeploy/env_var_resolver_test.py": {
+        "focal_file": "ndeploy/env_var_resolver.py",
+        "methods": {
+            "test_should_resolve_empty_vars": {
+                "line": 16,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "resolve_vars"
+                }
+            },
+            "test_should_resolve_simple_vars": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "resolve_vars"
+                }
+            }
+        }
+    },
+    "test/ndeploy/environment_repository_test.py": {
+        "focal_file": "ndeploy/environment_repository.py",
+        "methods": {
+            "test_add_environments": {
+                "line": 27,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 219,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "get_environments_file"
+                }
+            },
+            "test_list_environments": {
+                "line": 51,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "EnvironmentRepository",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "list_environments"
+                }
+            },
+            "test_remove_environments": {
+                "line": 58,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "remove_environment"
+                }
+            },
+            "test_update_environment": {
+                "line": 88,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "update_environment"
+                }
+            },
+            "test_should_advise_user_if_any_environment_is_registered": {
+                "line": 102,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "list_environments_as_str"
+                }
+            },
+            "test_list_env_as_str": {
+                "line": 105,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "list_environments_as_str"
+                }
+            },
+            "test_env_public_key_should_be_private_plus_pub": {
+                "line": 110,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "get_env_public_key_path"
+                }
+            }
+        }
+    },
+    "test/supported_providers/openshift_test.py": {
+        "focal_file": "supported_providers/openshift.py",
+        "methods": {
+            "test_should_be_route_exist": {
+                "line": 156,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": "OpenshiftProvider",
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 444,
+                    "indent": 4,
+                    "name": "route_exist"
+                }
+            },
+            "test_should_not_be_route_exist": {
+                "line": 163,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": "OpenshiftProvider",
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 444,
+                    "indent": 4,
+                    "name": "route_exist"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,324 @@
+{
+    "BaseStation/tests/test_controller.py": {
+        "focal_file": "BaseStation/src/controller.py",
+        "methods": {
+            "test_add_open_rocket_simulation_should_show_simulation_in_ui": {
+                "line": 109,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "add_open_rocket_simulation"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/test_data_producer.py": {
+        "focal_file": "BaseStation/src/data_producer.py",
+        "methods": {
+            "test_get_available_rocket_packets_should_return_copy_of_packet_list": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "get_available_rocket_packets"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/test_message_sender.py": {
+        "focal_file": "BaseStation/src/message_sender.py",
+        "methods": {
+            "test_register_message_listener_should_add_listener_in_list": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 10,
+                    "indent": 4,
+                    "name": "register_message_listener"
+                }
+            },
+            "test_notify_all_message_listeners_should_call_notify_on_each_listeners": {
+                "line": 26,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "notify_all_message_listeners"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/data_processing/test_apogee_calculator.py": {
+        "focal_file": "BaseStation/src/data_processing/apogee_calculator.py",
+        "methods": {
+            "test_update_one_apogee": {
+                "line": 12,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_apogee"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/data_processing/test_consumer.py": {
+        "focal_file": "BaseStation/src/data_processing/consumer.py",
+        "methods": {
+            "test_update": {
+                "line": 43,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_has_data_should_return_true_when_consumer_has_data": {
+                "line": 76,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "has_data"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/data_processing/gps/test_gps_processor.py": {
+        "focal_file": "BaseStation/src/data_processing/gps/gps_processor.py",
+        "methods": {
+            "test_update_should_update_last_coordinates_given_gps_fix": {
+                "line": 43,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "get_last_coordinates"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/data_processing/gps/test_utm_coordinates_converter.py": {
+        "focal_file": "BaseStation/src/data_processing/gps/utm_coordinates_converter.py",
+        "methods": {
+            "test_decimal_degrees_to_utm_gaul_HQ": {
+                "line": 15,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "decimal_degrees_to_utm"
+                }
+            },
+            "test_decimal_degrees_to_utm_spaceport_america": {
+                "line": 24,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "decimal_degrees_to_utm"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/data_processing/orientation/test_angular_speed_integrator.py": {
+        "focal_file": "BaseStation/src/data_processing/orientation/angular_speed_integrator.py",
+        "methods": {
+            "test_integrate_with_initial_orientation": {
+                "line": 24,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "set_initial_orientation"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/data_processing/orientation/test_orientation_processor.py": {
+        "focal_file": "BaseStation/src/data_processing/orientation/orientation_processor.py",
+        "methods": {
+            "test_notify_orientation_initialized_should_set_initial_orientation": {
+                "line": 46,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "notify_orientation_initialized"
+                }
+            },
+            "test_get_rocket_orientation_should_return_current_orientation": {
+                "line": 52,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "get_rocket_orientation"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/data_processing/orientation/test_quaternion.py": {
+        "focal_file": "BaseStation/src/data_processing/orientation/quaternion.py",
+        "methods": {
+            "test_radians_to_quaternion": {
+                "line": 16,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "euler_radians_to_quaternion"
+                }
+            },
+            "test_degrees_to_quaternion": {
+                "line": 24,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "euler_degrees_to_quaternion"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/persistence/test_csv_data_persister.py": {
+        "focal_file": "BaseStation/src/data_persister.py",
+        "methods": {
+            "test_save_load": {
+                "line": 51,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/realtime/test_serial_data_producer.py": {
+        "focal_file": "BaseStation/src/data_producer.py",
+        "methods": {
+            "test_clear_rocket_packets_should_clear_all_rocket_packets": {
+                "line": 39,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "get_available_rocket_packets"
+                }
+            },
+            "test_no_unsaved_data_after_clear_rocket_packets": {
+                "line": 47,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "clear_rocket_packets"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/replay/test_file_data_producer.py": {
+        "focal_file": "BaseStation/src/data_producer.py",
+        "methods": {
+            "test_start_should_clear_all_available_packets_if_playback_mode_forward": {
+                "line": 82,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "get_available_rocket_packets"
+                }
+            }
+        }
+    },
+    "BaseStation/tests/rocket_packet/test_rocket_packet_repository.py": {
+        "focal_file": "BaseStation/src/rocket_packet/rocket_packet_repository.py",
+        "methods": {
+            "test_save_should_save_rocket_packets_fields_in_data_persister": {
+                "line": 29,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 19,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_load_should_return_rocket_packet_version": {
+                "line": 49,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    }
+}

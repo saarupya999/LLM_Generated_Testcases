@@ -1,0 +1,336 @@
+{
+    "test/unit/test_model_server.py": {
+        "focal_file": "src/sagemaker_pytorch_serving_container/torchserve.py",
+        "methods": {
+            "test_adapt_to_ts_format": {
+                "line": 134,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "_adapt_to_ts_format"
+                }
+            },
+            "test_create_torchserve_config_file": {
+                "line": 195,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 147,
+                    "indent": 0,
+                    "name": "_create_torchserve_config_file"
+                }
+            },
+            "test_generate_ts_config_properties": {
+                "line": 205,
+                "line_end": 223,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "_generate_ts_config_properties"
+                }
+            },
+            "test_generate_ts_config_properties_default_workers": {
+                "line": 228,
+                "line_end": 238,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "_generate_ts_config_properties"
+                }
+            },
+            "test_generate_ts_config_properties_multi_model": {
+                "line": 243,
+                "line_end": 255,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "_generate_ts_config_properties"
+                }
+            },
+            "test_add_sigterm_handler": {
+                "line": 259,
+                "line_end": 270,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "_add_sigterm_handler"
+                }
+            },
+            "test_install_requirements": {
+                "line": 274,
+                "line_end": 277,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "_install_requirements"
+                }
+            },
+            "test_retrieve_ts_server_process": {
+                "line": 289,
+                "line_end": 300,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "_retrieve_ts_server_process"
+                }
+            },
+            "test_retrieve_ts_server_process_no_server": {
+                "line": 305,
+                "line_end": 309,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "_retrieve_ts_server_process"
+                }
+            }
+        }
+    },
+    "test/unit/test_default_inference_handler.py": {
+        "focal_file": "src/sagemaker_pytorch_serving_container/default_pytorch_inference_handler.py",
+        "methods": {
+            "test_default_model_fn": {
+                "line": 60,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "default_model_fn"
+                }
+            },
+            "test_default_input_fn_json": {
+                "line": 65,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "default_input_fn"
+                }
+            },
+            "test_default_input_fn_csv": {
+                "line": 73,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "default_input_fn"
+                }
+            },
+            "test_default_input_fn_csv_bad_columns": {
+                "line": 85,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "default_input_fn"
+                }
+            },
+            "test_default_input_fn_npy": {
+                "line": 95,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "default_input_fn"
+                }
+            },
+            "test_default_predict_fn": {
+                "line": 109,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "default_predict_fn"
+                }
+            },
+            "test_default_predict_fn_cpu_cpu": {
+                "line": 116,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "default_predict_fn"
+                }
+            },
+            "test_default_predict_fn_cpu_gpu": {
+                "line": 125,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "default_predict_fn"
+                }
+            },
+            "test_default_predict_fn_gpu_cpu": {
+                "line": 133,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "default_predict_fn"
+                }
+            },
+            "test_default_predict_fn_gpu_gpu": {
+                "line": 141,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "default_predict_fn"
+                }
+            },
+            "test_default_output_fn_json": {
+                "line": 149,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "default_output_fn"
+                }
+            },
+            "test_default_output_fn_csv_long": {
+                "line": 155,
+                "line_end": 159,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "default_output_fn"
+                }
+            },
+            "test_default_output_fn_csv_float": {
+                "line": 162,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "default_output_fn"
+                }
+            },
+            "test_default_output_fn_bad_accept": {
+                "line": 176,
+                "line_end": 178,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "default_output_fn"
+                }
+            },
+            "test_default_output_fn_gpu": {
+                "line": 182,
+                "line_end": 187,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "default_output_fn"
+                }
+            },
+            "test_eia_default_model_fn": {
+                "line": 190,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "default_model_fn"
+                }
+            },
+            "test_eia_default_model_fn_error": {
+                "line": 201,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "default_model_fn"
+                }
+            },
+            "test_eia_default_predict_fn": {
+                "line": 210,
+                "line_end": 217,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "default_predict_fn"
+                }
+            }
+        }
+    }
+}

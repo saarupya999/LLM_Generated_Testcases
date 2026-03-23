@@ -1,0 +1,970 @@
+{
+    "test/test_env.py": {
+        "focal_file": "dino/environ.py",
+        "methods": {
+            "test_env": {
+                "line": 29,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 408,
+                    "line_end": 497,
+                    "indent": 0,
+                    "name": "create_env"
+                }
+            },
+            "test_create_with_environment": {
+                "line": 35,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 408,
+                    "line_end": 497,
+                    "indent": 0,
+                    "name": "create_env"
+                }
+            },
+            "test_init_cache_service": {
+                "line": 42,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 751,
+                    "line_end": 784,
+                    "indent": 0,
+                    "name": "init_cache_service"
+                }
+            },
+            "test_init_auth_service": {
+                "line": 48,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 713,
+                    "line_end": 747,
+                    "indent": 0,
+                    "name": "init_auth_service"
+                }
+            },
+            "test_init_storage_engine": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 638,
+                    "line_end": 671,
+                    "indent": 0,
+                    "name": "init_storage_engine"
+                }
+            },
+            "test_init_database": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 675,
+                    "line_end": 709,
+                    "indent": 0,
+                    "name": "init_database"
+                }
+            },
+            "test_init_acl_validators": {
+                "line": 66,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 548,
+                    "line_end": 624,
+                    "indent": 0,
+                    "name": "init_acl_validators"
+                }
+            }
+        }
+    },
+    "test/auth/test_auth_redis.py": {
+        "focal_file": "dino/auth/redis.py",
+        "methods": {
+            "test_auth_with_empty_session": {
+                "line": 66,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "authenticate_and_populate_session"
+                }
+            }
+        }
+    },
+    "test/cache/test_cache_redis.py": {
+        "focal_file": "dino/cache/redis.py",
+        "methods": {
+            "test_get_channels_with_sort_no_channels": {
+                "line": 48,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 869,
+                    "line_end": 897,
+                    "indent": 4,
+                    "name": "get_channels_with_sort"
+                }
+            },
+            "test_get_channels_with_sort_channel_in_cache": {
+                "line": 51,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 869,
+                    "line_end": 897,
+                    "indent": 4,
+                    "name": "get_channels_with_sort"
+                }
+            },
+            "test_get_channels_with_sort_channel_in_redis": {
+                "line": 56,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 869,
+                    "line_end": 897,
+                    "indent": 4,
+                    "name": "get_channels_with_sort"
+                }
+            },
+            "test_set_user_status": {
+                "line": 71,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1200,
+                    "line_end": 1203,
+                    "indent": 4,
+                    "name": "set_user_status"
+                }
+            },
+            "test_user_check_status": {
+                "line": 75,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1217,
+                    "line_end": 1218,
+                    "indent": 4,
+                    "name": "user_check_status"
+                }
+            },
+            "test_get_admin_room_after_expired": {
+                "line": 90,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 394,
+                    "indent": 4,
+                    "name": "set_admin_room"
+                }
+            },
+            "test_get_global_ban_timestamp_after_expired": {
+                "line": 97,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 414,
+                    "line_end": 416,
+                    "indent": 4,
+                    "name": "get_global_ban_timestamp"
+                }
+            },
+            "test_get_room_id_for_name_after_expired": {
+                "line": 115,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 942,
+                    "line_end": 946,
+                    "indent": 4,
+                    "name": "set_room_id_for_name"
+                }
+            },
+            "test_get_room_exists_after_expired": {
+                "line": 139,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 988,
+                    "line_end": 999,
+                    "indent": 4,
+                    "name": "get_room_exists"
+                }
+            },
+            "test_get_channel_exists_after_expired": {
+                "line": 150,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1071,
+                    "line_end": 1083,
+                    "indent": 4,
+                    "name": "get_channel_exists"
+                }
+            },
+            "test_get_channel_name_after_expired": {
+                "line": 161,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1085,
+                    "line_end": 1090,
+                    "indent": 4,
+                    "name": "set_channel_name"
+                }
+            },
+            "test_get_user_status_after_expired": {
+                "line": 172,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1200,
+                    "line_end": 1203,
+                    "indent": 4,
+                    "name": "set_user_status"
+                }
+            }
+        }
+    },
+    "test/db/test_channel_manager.py": {
+        "focal_file": "dino/db/manager/channels.py",
+        "methods": {
+            "test_create_channel": {
+                "line": 88,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "create_channel"
+                }
+            },
+            "test_create_channel_empty_name": {
+                "line": 92,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "create_channel"
+                }
+            },
+            "test_name_for_uuid": {
+                "line": 96,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "name_for_uuid"
+                }
+            },
+            "test_rename": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "rename"
+                }
+            },
+            "test_get_owners": {
+                "line": 115,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "get_owners"
+                }
+            },
+            "test_get_admins": {
+                "line": 125,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "get_admins"
+                }
+            }
+        }
+    },
+    "test/restful/test_banned.py": {
+        "focal_file": "dino/rest/resources/banned.py",
+        "methods": {
+            "test_set_last_cleared": {
+                "line": 72,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "_set_last_cleared"
+                }
+            },
+            "test_get_lru_method": {
+                "line": 77,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "_get_lru_method"
+                }
+            }
+        }
+    },
+    "test/restful/test_rooms.py": {
+        "focal_file": "dino/rest/resources/rooms.py",
+        "methods": {
+            "test_set_last_cleared": {
+                "line": 57,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "_set_last_cleared"
+                }
+            }
+        }
+    },
+    "test/restful/test_rooms_for_users.py": {
+        "focal_file": "dino/rest/resources/rooms_for_users.py",
+        "methods": {
+            "test_do_get": {
+                "line": 81,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "do_get"
+                }
+            },
+            "test_set_last_cleared": {
+                "line": 96,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "_set_last_cleared"
+                }
+            },
+            "test_get_lru_method": {
+                "line": 101,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "_get_lru_method"
+                }
+            }
+        }
+    },
+    "test/stats/test_statsd_service.py": {
+        "focal_file": "dino/stats/statsd.py",
+        "methods": {
+            "test_gauge": {
+                "line": 50,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "gauge"
+                }
+            },
+            "test_set": {
+                "line": 54,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "set"
+                }
+            },
+            "test_incr": {
+                "line": 58,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "incr"
+                }
+            },
+            "test_decr": {
+                "line": 64,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "decr"
+                }
+            },
+            "test_timing": {
+                "line": 70,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "timing"
+                }
+            }
+        }
+    },
+    "test/storage/test_storage_redis.py": {
+        "focal_file": "dino/storage/redis.py",
+        "methods": {
+            "test_get_empty_history": {
+                "line": 41,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "get_history"
+                }
+            },
+            "test_store_message": {
+                "line": 45,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "store_message"
+                }
+            },
+            "test_delete_message": {
+                "line": 53,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "delete_message"
+                }
+            }
+        }
+    },
+    "test/utils/test_decorators.py": {
+        "focal_file": "dino/utils/decorators.py",
+        "methods": {
+            "test_pre_process": {
+                "line": 65,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "pre_process"
+                }
+            },
+            "test_pre_process_exception": {
+                "line": 75,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "pre_process"
+                }
+            },
+            "test_count_connections": {
+                "line": 88,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "count_connections"
+                }
+            },
+            "test_respond_with": {
+                "line": 103,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "respond_with"
+                }
+            },
+            "test_respond_with_exception": {
+                "line": 113,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "respond_with"
+                }
+            }
+        }
+    },
+    "test/utils/test_formatter.py": {
+        "focal_file": "dino/utils/formatter.py",
+        "methods": {
+            "test_repr": {
+                "line": 34,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "SimpleResponseFormatter",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "__repr__"
+                }
+            }
+        }
+    },
+    "test/utils/test_spam_classifier.py": {
+        "focal_file": "dino/utils/spam.py",
+        "methods": {
+            "test_too_short": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "SpamClassifier",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "too_long_or_too_short"
+                }
+            },
+            "test_is_spam": {
+                "line": 45,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "SpamClassifier",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "is_spam"
+                }
+            }
+        }
+    },
+    "test/validation/test_request_list_channels.py": {
+        "focal_file": "dino/validation/request.py",
+        "methods": {
+            "test_list_channels": {
+                "line": 24,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 493,
+                    "line_end": 494,
+                    "indent": 4,
+                    "name": "on_list_channels"
+                }
+            }
+        }
+    },
+    "test/validation/test_validation_acl.py": {
+        "focal_file": "dino/validation/acl.py",
+        "methods": {
+            "test_validate_new_acl_blank": {
+                "line": 335,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": "AclStrInCsvValidator",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "validate_new_acl"
+                }
+            },
+            "test_check_acl_roots": {
+                "line": 413,
+                "line_end": 426,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 661,
+                    "line_end": 670,
+                    "indent": 4,
+                    "name": "check_acl_roots"
+                }
+            },
+            "test_invalid_validator_class": {
+                "line": 738,
+                "line_end": 746,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "is_acl_valid"
+                }
+            },
+            "test_validate_acl_for_action_no_target": {
+                "line": 753,
+                "line_end": 758,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_no_target_object_type": {
+                "line": 760,
+                "line_end": 765,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_blank_target_object_type": {
+                "line": 767,
+                "line_end": 772,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_unknown_target": {
+                "line": 774,
+                "line_end": 778,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_admin_ignores": {
+                "line": 795,
+                "line_end": 801,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_super_user_ignores": {
+                "line": 803,
+                "line_end": 809,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_owner_ignores": {
+                "line": 811,
+                "line_end": 817,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_join": {
+                "line": 819,
+                "line_end": 822,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_join_country": {
+                "line": 829,
+                "line_end": 832,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_join_wrong_country": {
+                "line": 834,
+                "line_end": 838,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_join_wrong_gender": {
+                "line": 840,
+                "line_end": 844,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_message_too_young": {
+                "line": 846,
+                "line_end": 849,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            },
+            "test_validate_acl_for_action_message_crossroom_same_channel": {
+                "line": 851,
+                "line_end": 857,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "validate_acl_for_action"
+                }
+            }
+        }
+    },
+    "test/validation/test_validation_base.py": {
+        "focal_file": "dino/validation/base.py",
+        "methods": {
+            "test_valid_session": {
+                "line": 50,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "validate_session"
+                }
+            }
+        }
+    },
+    "test/validation/test_validation_generic.py": {
+        "focal_file": "dino/validation/generic.py",
+        "methods": {
+            "test_chars_in_list": {
+                "line": 27,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "chars_in_list"
+                }
+            },
+            "test_not_in_list": {
+                "line": 30,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "chars_in_list"
+                }
+            },
+            "test_is_digit": {
+                "line": 54,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 11,
+                    "indent": 4,
+                    "name": "is_digit"
+                }
+            },
+            "test_match": {
+                "line": 78,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_no_match": {
+                "line": 81,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_blank_is_match": {
+                "line": 84,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_not_str_is_no_match": {
+                "line": 87,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "match"
+                }
+            },
+            "test_none_is_no_match": {
+                "line": 90,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "match"
+                }
+            }
+        }
+    }
+}

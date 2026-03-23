@@ -1,0 +1,702 @@
+{
+    "tests/core/test_path.py": {
+        "focal_file": "waterbutler/core/path.py",
+        "methods": {
+            "test_child": {
+                "line": 45,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "WaterButlerPath",
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "child"
+                }
+            },
+            "test_rename": {
+                "line": 51,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "WaterButlerPath",
+                "focal_method": {
+                    "line": 298,
+                    "line_end": 300,
+                    "indent": 4,
+                    "name": "rename"
+                }
+            }
+        }
+    },
+    "tests/providers/bitbucket/test_path.py": {
+        "focal_file": "waterbutler/providers/bitbucket/path.py",
+        "methods": {
+            "test_update_commit_sha": {
+                "line": 51,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "BitbucketPath",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "set_commit_sha"
+                }
+            }
+        }
+    },
+    "tests/providers/bitbucket/test_provider.py": {
+        "focal_file": "waterbutler/providers/bitbucket/provider.py",
+        "methods": {
+            "test_validate_v1_path_root": {
+                "line": 54,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_path_file": {
+                "line": 70,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_path_folder": {
+                "line": 100,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_commit_sha": {
+                "line": 126,
+                "line_end": 176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_get_default_branch": {
+                "line": 183,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 347,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "_fetch_default_branch"
+                }
+            },
+            "test_get_revisions": {
+                "line": 196,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 162,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "revisions"
+                }
+            },
+            "test_get_path_metadata_without_commit_sha": {
+                "line": 318,
+                "line_end": 338,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 432,
+                    "indent": 4,
+                    "name": "_fetch_path_metadata"
+                }
+            },
+            "test_get_path_metadata_with_commit_sha": {
+                "line": 342,
+                "line_end": 362,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 386,
+                    "line_end": 432,
+                    "indent": 4,
+                    "name": "_fetch_path_metadata"
+                }
+            },
+            "test_get_branch_commit_sha": {
+                "line": 366,
+                "line_end": 377,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 384,
+                    "indent": 4,
+                    "name": "_fetch_branch_commit_sha"
+                }
+            },
+            "test_file_download": {
+                "line": 384,
+                "line_end": 400,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "download"
+                }
+            },
+            "test_upload": {
+                "line": 406,
+                "line_end": 409,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "upload"
+                }
+            },
+            "test_delete": {
+                "line": 412,
+                "line_end": 415,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_move": {
+                "line": 418,
+                "line_end": 421,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 248,
+                    "indent": 4,
+                    "name": "move"
+                }
+            },
+            "test_can_intra_move": {
+                "line": 429,
+                "line_end": 430,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "can_intra_move"
+                }
+            },
+            "test_can_intra_copy": {
+                "line": 432,
+                "line_end": 433,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 239,
+                    "indent": 4,
+                    "name": "can_intra_copy"
+                }
+            },
+            "test_can_duplicate_name": {
+                "line": 438,
+                "line_end": 439,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "can_duplicate_names"
+                }
+            },
+            "test_path_from_metadata": {
+                "line": 441,
+                "line_end": 454,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "path_from_metadata"
+                }
+            }
+        }
+    },
+    "tests/providers/figshare/test_path.py": {
+        "focal_file": "waterbutler/providers/figshare/path.py",
+        "methods": {
+            "test_child": {
+                "line": 75,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "FigsharePath",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "child"
+                }
+            }
+        }
+    },
+    "tests/providers/github/test_path.py": {
+        "focal_file": "waterbutler/providers/github/path.py",
+        "methods": {
+            "test_increment_name": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "GitHubPath",
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 9,
+                    "indent": 4,
+                    "name": "increment_name"
+                }
+            }
+        }
+    },
+    "tests/providers/googledrive/test_provider.py": {
+        "focal_file": "waterbutler/providers/googledrive/provider.py",
+        "methods": {
+            "test_validate_v1_path_file": {
+                "line": 206,
+                "line_end": 239,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_path_folder": {
+                "line": 243,
+                "line_end": 276,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_path_root": {
+                "line": 280,
+                "line_end": 286,
+                "indent": 4,
+                "focal_class": "GoogleDrivePath",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_revalidate_path_file": {
+                "line": 290,
+                "line_end": 313,
+                "indent": 4,
+                "focal_class": "GoogleDrivePath",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "revalidate_path"
+                }
+            },
+            "test_revalidate_path_file_gdoc": {
+                "line": 317,
+                "line_end": 343,
+                "indent": 4,
+                "focal_class": "GoogleDrivePath",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "revalidate_path"
+                }
+            },
+            "test_revalidate_path_folder": {
+                "line": 347,
+                "line_end": 369,
+                "indent": 4,
+                "focal_class": "GoogleDrivePath",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "revalidate_path"
+                }
+            },
+            "test_delete": {
+                "line": 495,
+                "line_end": 508,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_folder_metadata": {
+                "line": 1077,
+                "line_end": 1096,
+                "indent": 4,
+                "focal_class": "GoogleDrivePath",
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "metadata"
+                }
+            },
+            "test_get_revisions": {
+                "line": 1381,
+                "line_end": 1394,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 340,
+                    "line_end": 380,
+                    "indent": 4,
+                    "name": "revisions"
+                }
+            },
+            "test_get_revisions_no_revisions": {
+                "line": 1398,
+                "line_end": 1416,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 340,
+                    "line_end": 380,
+                    "indent": 4,
+                    "name": "revisions"
+                }
+            },
+            "test_intra_move_file": {
+                "line": 1500,
+                "line_end": 1523,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "intra_move"
+                }
+            },
+            "test_intra_move_folder": {
+                "line": 1527,
+                "line_end": 1560,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "intra_move"
+                }
+            },
+            "test_intra_copy_file": {
+                "line": 1564,
+                "line_end": 1587,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "intra_copy"
+                }
+            },
+            "test_can_duplicate_names": {
+                "line": 1594,
+                "line_end": 1595,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "can_duplicate_names"
+                }
+            },
+            "test_can_intra_move": {
+                "line": 1605,
+                "line_end": 1607,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "can_intra_move"
+                }
+            },
+            "test__serialize_item_raw": {
+                "line": 1611,
+                "line_end": 1614,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 417,
+                    "line_end": 425,
+                    "indent": 4,
+                    "name": "_serialize_item"
+                }
+            },
+            "test_can_intra_copy": {
+                "line": 1618,
+                "line_end": 1623,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "can_intra_copy"
+                }
+            },
+            "test_path_from_metadata": {
+                "line": 1625,
+                "line_end": 1633,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 410,
+                    "line_end": 412,
+                    "indent": 4,
+                    "name": "path_from_metadata"
+                }
+            }
+        }
+    },
+    "tests/providers/onedrive/test_provider.py": {
+        "focal_file": "waterbutler/providers/onedrive/provider.py",
+        "methods": {
+            "test_validate_v1_path_root": {
+                "line": 151,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_path_file": {
+                "line": 94,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_path_folder": {
+                "line": 164,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_validate_v1_path_file_is_child": {
+                "line": 191,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 145,
+                    "indent": 4,
+                    "name": "validate_v1_path"
+                }
+            },
+            "test_revalidate_path_file": {
+                "line": 276,
+                "line_end": 292,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "revalidate_path"
+                }
+            },
+            "test_revalidate_path_folder": {
+                "line": 296,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "revalidate_path"
+                }
+            },
+            "test_revalidate_path_subfile": {
+                "line": 316,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 231,
+                    "indent": 4,
+                    "name": "revalidate_path"
+                }
+            },
+            "test_get_revisions": {
+                "line": 405,
+                "line_end": 415,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 291,
+                    "indent": 4,
+                    "name": "revisions"
+                }
+            },
+            "test_upload": {
+                "line": 529,
+                "line_end": 532,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 373,
+                    "line_end": 374,
+                    "indent": 4,
+                    "name": "upload"
+                }
+            },
+            "test_delete": {
+                "line": 535,
+                "line_end": 538,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 376,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_move": {
+                "line": 541,
+                "line_end": 544,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 380,
+                    "indent": 4,
+                    "name": "move"
+                }
+            },
+            "test_can_intra_move": {
+                "line": 552,
+                "line_end": 553,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 368,
+                    "indent": 4,
+                    "name": "can_intra_move"
+                }
+            },
+            "test_can_intra_copy": {
+                "line": 555,
+                "line_end": 556,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 371,
+                    "indent": 4,
+                    "name": "can_intra_copy"
+                }
+            },
+            "test_can_duplicate_name": {
+                "line": 562,
+                "line_end": 563,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 365,
+                    "indent": 4,
+                    "name": "can_duplicate_names"
+                }
+            }
+        }
+    },
+    "tests/providers/owncloud/test_metadata.py": {
+        "focal_file": "waterbutler/providers/owncloud/metadata.py",
+        "methods": {
+            "test_revision_from_metadata": {
+                "line": 144,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "from_metadata"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,385 @@
+{
+    "tests/ops/test_function_ops.py": {
+        "focal_file": "flow_writer/ops/function_ops.py",
+        "methods": {
+            "test_get_default_args": {
+                "line": 160,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 161,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "default_args"
+                }
+            },
+            "test_get_closed_vars": {
+                "line": 174,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "get_closed_variables"
+                }
+            },
+            "test_get_closure_bindings": {
+                "line": 190,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "closed_bindings"
+                }
+            },
+            "test_get_closure_bindings_cur_version": {
+                "line": 255,
+                "line_end": 319,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "closed_bindings"
+                }
+            },
+            "test_copy_function": {
+                "line": 352,
+                "line_end": 368,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 225,
+                    "indent": 0,
+                    "name": "copy_func"
+                }
+            }
+        }
+    },
+    "tests/abstraction/test_pipeline_abstraction.py": {
+        "focal_file": "flow_writer/abstraction/pipeline.py",
+        "methods": {
+            "test_run_pipeline_n_stages": {
+                "line": 242,
+                "line_end": 291,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 316,
+                    "indent": 4,
+                    "name": "run_n_stages"
+                }
+            },
+            "test_pipeline_with_annonymous_stage": {
+                "line": 420,
+                "line_end": 455,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_pipeline_run_n_steps_lazy": {
+                "line": 457,
+                "line_end": 507,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 291,
+                    "indent": 4,
+                    "name": "run_iter_steps"
+                }
+            },
+            "test_pipeline_run_n_steps_strict": {
+                "line": 509,
+                "line_end": 562,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 307,
+                    "indent": 4,
+                    "name": "run_n_steps"
+                }
+            },
+            "test_pipeline_run_step": {
+                "line": 668,
+                "line_end": 713,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 263,
+                    "indent": 4,
+                    "name": "run_step"
+                }
+            },
+            "test_pipeline_run_until": {
+                "line": 715,
+                "line_end": 766,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "run_until"
+                }
+            }
+        }
+    },
+    "tests/abstraction/test_stage_abstraction.py": {
+        "focal_file": "flow_writer/abstraction/stage.py",
+        "methods": {
+            "test_stage_build_list_of_steps": {
+                "line": 31,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "Stage",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "get_num_steps"
+                }
+            },
+            "test_run_particular_step": {
+                "line": 155,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": "Stage",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "run_step"
+                }
+            },
+            "test_run_fixed_number_of_steps": {
+                "line": 190,
+                "line_end": 231,
+                "indent": 4,
+                "focal_class": "Stage",
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "run_n_steps"
+                }
+            },
+            "test_run_until": {
+                "line": 296,
+                "line_end": 354,
+                "indent": 4,
+                "focal_class": "Stage",
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "run_until"
+                }
+            }
+        }
+    },
+    "tests/abstraction/execution_cycle_hooks/test_pipeline_execution_cycle_hooks.py": {
+        "focal_file": "flow_writer/abstraction/pipeline.py",
+        "methods": {
+            "test_after_each_step": {
+                "line": 26,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "after_each_step"
+                }
+            },
+            "test_after_each_step_inject_obj": {
+                "line": 78,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "after_each_step"
+                }
+            },
+            "test_before_each_step": {
+                "line": 131,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "before_each_step"
+                }
+            },
+            "test_after_each_stage": {
+                "line": 183,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "after_each_stage"
+                }
+            },
+            "test_before_each_stage": {
+                "line": 235,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": "Pipeline",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "before_each_stage"
+                }
+            }
+        }
+    },
+    "tests/utils/test_recipes.py": {
+        "focal_file": "flow_writer/utils/recipes.py",
+        "methods": {
+            "test_explode": {
+                "line": 23,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "explode"
+                }
+            },
+            "test_merge_dicts": {
+                "line": 71,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "merge_dicts"
+                }
+            }
+        }
+    },
+    "tests/dependency_manager/test_dependency_manager_utils.py": {
+        "focal_file": "flow_writer/dependency_manager/utils.py",
+        "methods": {
+            "test_unfold_step_dependencies": {
+                "line": 23,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "unfold_step_dependencies"
+                }
+            },
+            "test_unfold_step_dependencies_just_source": {
+                "line": 99,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "unfold_step_dependencies"
+                }
+            },
+            "test_unfold_steps_dependencies": {
+                "line": 166,
+                "line_end": 210,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "unfold_steps_dependencies"
+                }
+            },
+            "test_dependencies_partial_updates": {
+                "line": 212,
+                "line_end": 248,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "update_dependencies"
+                }
+            }
+        }
+    },
+    "tests/dependency_manager/test_dependency_manager_source_dependencies.py": {
+        "focal_file": "flow_writer/abstraction/stage.py",
+        "methods": {
+            "test_placeholder_use_lock_dependencies": {
+                "line": 31,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "Stage",
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "lock_dependencies"
+                }
+            },
+            "test_placeholder_use_lock_dependencies_with_default_args": {
+                "line": 94,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": "Stage",
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "lock_dependencies"
+                }
+            },
+            "test_placeholder_use_lock_dependencies_multiple": {
+                "line": 167,
+                "line_end": 249,
+                "indent": 4,
+                "focal_class": "Stage",
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "lock_dependencies"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1154 @@
+{
+    "tests/test_event_bus.py": {
+        "focal_file": "parsec/event_bus.py",
+        "methods": {
+            "test_waiter_on": {
+                "line": 8,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "waiter_on"
+                }
+            },
+            "test_waiter_on_filter": {
+                "line": 34,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "waiter_on"
+                }
+            },
+            "test_waiter_on_first": {
+                "line": 49,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "waiter_on_first"
+                }
+            },
+            "test_waiter_on_first_filter": {
+                "line": 75,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "waiter_on_first"
+                }
+            },
+            "test_connection_context": {
+                "line": 89,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "connection_context"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "parsec/utils.py",
+        "methods": {
+            "test_start_task_and_join": {
+                "line": 22,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "join"
+                }
+            },
+            "test_start_task_cancel_and_join": {
+                "line": 34,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "cancel_and_join"
+                }
+            }
+        }
+    },
+    "tests/api/test_apiv1_handshake.py": {
+        "focal_file": "parsec/api/protocol/handshake.py",
+        "methods": {
+            "test_process_challenge_req_bad_format": {
+                "line": 140,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": "APIV1_AuthenticatedClientHandshake",
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 426,
+                    "indent": 4,
+                    "name": "process_challenge_req"
+                }
+            },
+            "test_process_challenge_req_good_api_version": {
+                "line": 165,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": "APIV1_AuthenticatedClientHandshake",
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 426,
+                    "indent": 4,
+                    "name": "process_challenge_req"
+                }
+            },
+            "test_process_challenge_req_good_multiple_api_version": {
+                "line": 218,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": "APIV1_AuthenticatedClientHandshake",
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 426,
+                    "indent": 4,
+                    "name": "process_challenge_req"
+                }
+            },
+            "test_process_answer_req_bad_format": {
+                "line": 338,
+                "line_end": 350,
+                "indent": 0,
+                "focal_class": "ServerHandshake",
+                "focal_method": {
+                    "line": 239,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "process_answer_req"
+                }
+            },
+            "test_build_result_req_bad_key": {
+                "line": 356,
+                "line_end": 370,
+                "indent": 0,
+                "focal_class": "ServerHandshake",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 350,
+                    "indent": 4,
+                    "name": "build_result_req"
+                }
+            },
+            "test_build_result_req_bad_challenge": {
+                "line": 373,
+                "line_end": 387,
+                "indent": 0,
+                "focal_class": "ServerHandshake",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 350,
+                    "indent": 4,
+                    "name": "build_result_req"
+                }
+            },
+            "test_process_result_req_bad_format": {
+                "line": 430,
+                "line_end": 433,
+                "indent": 0,
+                "focal_class": "BaseClientHandshake",
+                "focal_method": {
+                    "line": 372,
+                    "line_end": 393,
+                    "indent": 4,
+                    "name": "process_result_req"
+                }
+            },
+            "test_process_result_req_bad_outcome": {
+                "line": 447,
+                "line_end": 450,
+                "indent": 0,
+                "focal_class": "BaseClientHandshake",
+                "focal_method": {
+                    "line": 372,
+                    "line_end": 393,
+                    "indent": 4,
+                    "name": "process_result_req"
+                }
+            }
+        }
+    },
+    "tests/api/test_transport.py": {
+        "focal_file": "parsec/api/transport.py",
+        "methods": {
+            "test_no_transport_leaks_one_end_close": {
+                "line": 56,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "aclose"
+                }
+            }
+        }
+    },
+    "tests/backend/test_config.py": {
+        "focal_file": "parsec/backend/cli/run.py",
+        "methods": {
+            "test_split_with_escaping": {
+                "line": 22,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "_split_with_escaping"
+                }
+            }
+        }
+    },
+    "tests/backend/realm/test_roles.py": {
+        "focal_file": "parsec/backend/realm.py",
+        "methods": {
+            "test_role_access_during_maintenance": {
+                "line": 332,
+                "line_end": 353,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 476,
+                    "indent": 4,
+                    "name": "start_reencryption_maintenance"
+                }
+            }
+        }
+    },
+    "tests/backend/user/test_user_create.py": {
+        "focal_file": "parsec/backend/user.py",
+        "methods": {
+            "test_user_create_bad_redacted_device_certificate": {
+                "line": 188,
+                "line_end": 250,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "evolve"
+                }
+            }
+        }
+    },
+    "tests/core/test_ipc.py": {
+        "focal_file": "parsec/core/ipcinterface.py",
+        "methods": {
+            "test_win32_mutex": {
+                "line": 24,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "_install_win32_mutex"
+                }
+            },
+            "test_posix_file_lock": {
+                "line": 67,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_install_posix_file_lock"
+                }
+            },
+            "test_posix_file_lock_interprocess": {
+                "line": 87,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_install_posix_file_lock"
+                }
+            },
+            "test_ipc_server": {
+                "line": 111,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 218,
+                    "indent": 0,
+                    "name": "send_to_ipc_server"
+                }
+            }
+        }
+    },
+    "tests/core/test_local_device.py": {
+        "focal_file": "parsec/core/local_device.py",
+        "methods": {
+            "test_list_no_devices": {
+                "line": 41,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 229,
+                    "indent": 0,
+                    "name": "list_available_devices"
+                }
+            },
+            "test_list_devices": {
+                "line": 47,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": "AvailableDevice",
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 229,
+                    "indent": 0,
+                    "name": "list_available_devices"
+                }
+            },
+            "test_load_bad_password": {
+                "line": 202,
+                "line_end": 207,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 259,
+                    "indent": 0,
+                    "name": "load_device_with_password"
+                }
+            },
+            "test_change_password": {
+                "line": 251,
+                "line_end": 264,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 318,
+                    "line_end": 327,
+                    "indent": 0,
+                    "name": "change_device_password"
+                }
+            },
+            "test_multiple_files_same_device": {
+                "line": 342,
+                "line_end": 360,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 229,
+                    "indent": 0,
+                    "name": "list_available_devices"
+                }
+            }
+        }
+    },
+    "tests/core/test_remote_device_manager.py": {
+        "focal_file": "parsec/core/remote_devices_manager.py",
+        "methods": {
+            "test_retrieve_device": {
+                "line": 12,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "get_device"
+                }
+            },
+            "test_retrieve_user_and_devices": {
+                "line": 81,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "get_user_and_devices"
+                }
+            }
+        }
+    },
+    "tests/core/fs/test_fs_idempotent_sync.py": {
+        "focal_file": "tests/core/fs/test_fs_idempotent_sync.py",
+        "methods": {
+            "test_fs_online_idempotent_sync": {
+                "line": 33,
+                "line_end": 158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 146,
+                    "indent": 8,
+                    "name": "sync"
+                }
+            }
+        }
+    },
+    "tests/core/fs/test_fs_online_rwfile_and_sync.py": {
+        "focal_file": "tests/core/fs/test_fs_online_rwfile_and_sync.py",
+        "methods": {
+            "test_fs_online_rwfile_and_sync": {
+                "line": 15,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 44,
+                    "indent": 8,
+                    "name": "sync"
+                }
+            }
+        }
+    },
+    "tests/core/fs/userfs/test_merging.py": {
+        "focal_file": "parsec/core/fs/userfs/merging.py",
+        "methods": {
+            "test_merge_local_user_manifest_no_changes_in_diverged_placeholder": {
+                "line": 26,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "merge_local_user_manifests"
+                }
+            },
+            "test_merge_local_user_manifest_changes_placeholder": {
+                "line": 63,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "merge_local_user_manifests"
+                }
+            }
+        }
+    },
+    "tests/core/fs/workspacefs/test_file_transactions.py": {
+        "focal_file": "parsec/core/fs/workspacefs/file_transactions.py",
+        "methods": {
+            "test_file_operations": {
+                "line": 220,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "fd_read"
+                }
+            }
+        }
+    },
+    "tests/core/fs/workspacefs/test_sync_transactions.py": {
+        "focal_file": "parsec/core/fs/workspacefs/sync_transactions.py",
+        "methods": {
+            "test_merge_folder_children": {
+                "line": 18,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "merge_folder_children"
+                }
+            },
+            "test_merge_folder_manifests": {
+                "line": 59,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 200,
+                    "indent": 0,
+                    "name": "merge_manifests"
+                }
+            },
+            "test_merge_manifests_with_a_placeholder": {
+                "line": 109,
+                "line_end": 130,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 200,
+                    "indent": 0,
+                    "name": "merge_manifests"
+                }
+            },
+            "test_merge_file_manifests": {
+                "line": 133,
+                "line_end": 171,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 200,
+                    "indent": 0,
+                    "name": "merge_manifests"
+                }
+            },
+            "test_synchronization_step_transaction": {
+                "line": 176,
+                "line_end": 234,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 329,
+                    "indent": 4,
+                    "name": "synchronization_step"
+                }
+            },
+            "test_get_minimal_remote_manifest": {
+                "line": 238,
+                "line_end": 287,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 219,
+                    "line_end": 223,
+                    "indent": 4,
+                    "name": "get_minimal_remote_manifest"
+                }
+            },
+            "test_file_conflict": {
+                "line": 291,
+                "line_end": 365,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 424,
+                    "indent": 4,
+                    "name": "file_conflict"
+                }
+            }
+        }
+    },
+    "tests/core/fs/workspacefs/test_workspace_fs.py": {
+        "focal_file": "parsec/core/fs/workspacefs/workspacefs.py",
+        "methods": {
+            "test_workspace_properties": {
+                "line": 16,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "get_encryption_revision"
+                }
+            },
+            "test_path_info": {
+                "line": 22,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "path_info"
+                }
+            },
+            "test_get_user_roles": {
+                "line": 64,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "get_user_roles"
+                }
+            },
+            "test_exists": {
+                "line": 71,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            },
+            "test_is_dir": {
+                "line": 84,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 267,
+                    "line_end": 274,
+                    "indent": 4,
+                    "name": "is_dir"
+                }
+            },
+            "test_is_file": {
+                "line": 94,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "is_file"
+                }
+            },
+            "test_iterdir": {
+                "line": 104,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 295,
+                    "indent": 4,
+                    "name": "iterdir"
+                }
+            },
+            "test_listdir": {
+                "line": 119,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 297,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "listdir"
+                }
+            },
+            "test_rename": {
+                "line": 132,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "rename"
+                }
+            },
+            "test_mkdir": {
+                "line": 145,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "mkdir"
+                }
+            },
+            "test_rmdir": {
+                "line": 164,
+                "line_end": 178,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 332,
+                    "line_end": 338,
+                    "indent": 4,
+                    "name": "rmdir"
+                }
+            },
+            "test_touch": {
+                "line": 182,
+                "line_end": 196,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 340,
+                    "line_end": 350,
+                    "indent": 4,
+                    "name": "touch"
+                }
+            },
+            "test_unlink": {
+                "line": 200,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 352,
+                    "line_end": 358,
+                    "indent": 4,
+                    "name": "unlink"
+                }
+            },
+            "test_truncate": {
+                "line": 215,
+                "line_end": 229,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 360,
+                    "line_end": 366,
+                    "indent": 4,
+                    "name": "truncate"
+                }
+            },
+            "test_read_bytes": {
+                "line": 233,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 373,
+                    "line_end": 379,
+                    "indent": 4,
+                    "name": "read_bytes"
+                }
+            },
+            "test_write_bytes": {
+                "line": 245,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 387,
+                    "indent": 4,
+                    "name": "write_bytes"
+                }
+            },
+            "test_move": {
+                "line": 261,
+                "line_end": 294,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 442,
+                    "indent": 4,
+                    "name": "move"
+                }
+            },
+            "test_copytree": {
+                "line": 298,
+                "line_end": 308,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 444,
+                    "line_end": 468,
+                    "indent": 4,
+                    "name": "copytree"
+                }
+            },
+            "test_copyfile": {
+                "line": 312,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 470,
+                    "line_end": 491,
+                    "indent": 4,
+                    "name": "copyfile"
+                }
+            },
+            "test_rmtree": {
+                "line": 319,
+                "line_end": 336,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 493,
+                    "line_end": 504,
+                    "indent": 4,
+                    "name": "rmtree"
+                }
+            },
+            "test_dump": {
+                "line": 340,
+                "line_end": 381,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 730,
+                    "line_end": 750,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_get_reencryption_need": {
+                "line": 416,
+                "line_end": 441,
+                "indent": 0,
+                "focal_class": "ReencryptionNeed",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 223,
+                    "indent": 4,
+                    "name": "get_reencryption_need"
+                }
+            },
+            "test_backend_block_upload_error_during_sync": {
+                "line": 445,
+                "line_end": 512,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 684,
+                    "line_end": 689,
+                    "indent": 4,
+                    "name": "sync"
+                }
+            }
+        }
+    },
+    "tests/core/fs/workspacefs/test_workspacefile.py": {
+        "focal_file": "parsec/core/fs/workspacefs/workspacefile.py",
+        "methods": {
+            "test_read_write": {
+                "line": 209,
+                "line_end": 374,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 290,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_seek": {
+                "line": 378,
+                "line_end": 440,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "seek"
+                }
+            },
+            "test_close": {
+                "line": 502,
+                "line_end": 552,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_truncate": {
+                "line": 556,
+                "line_end": 602,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "truncate"
+                }
+            },
+            "test_stat": {
+                "line": 620,
+                "line_end": 625,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "stat"
+                }
+            }
+        }
+    },
+    "tests/core/gui/test_color.py": {
+        "focal_file": "parsec/core/gui/color.py",
+        "methods": {
+            "test_create_from_string": {
+                "line": 19,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "from_string"
+                }
+            }
+        }
+    },
+    "tests/core/gui/test_file_table.py": {
+        "focal_file": "parsec/core/gui/file_table.py",
+        "methods": {
+            "test_file_table_parent_folder": {
+                "line": 14,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": "FileTable",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "add_parent_folder"
+                }
+            },
+            "test_file_table_parent_workspace": {
+                "line": 29,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "FileTable",
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 312,
+                    "indent": 4,
+                    "name": "add_parent_workspace"
+                }
+            },
+            "test_file_table_clear": {
+                "line": 44,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": "FileTable",
+                "focal_method": {
+                    "line": 249,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            }
+        }
+    },
+    "tests/core/gui/test_menu.py": {
+        "focal_file": "parsec/core/gui/menu_widget.py",
+        "methods": {
+            "test_activate_files": {
+                "line": 10,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": "MenuWidget",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "activate_files"
+                }
+            },
+            "test_activate_users": {
+                "line": 27,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "MenuWidget",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "activate_users"
+                }
+            },
+            "test_activate_devices": {
+                "line": 44,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": "MenuWidget",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "activate_devices"
+                }
+            }
+        }
+    },
+    "tests/core/gui/test_new_version.py": {
+        "focal_file": "parsec/core/gui/new_version.py",
+        "methods": {
+            "test_check_new_version": {
+                "line": 170,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "do_check_new_version"
+                }
+            },
+            "test_check_new_version_offline": {
+                "line": 225,
+                "line_end": 234,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "do_check_new_version"
+                }
+            },
+            "test_check_new_version_bad_api_payload": {
+                "line": 273,
+                "line_end": 285,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "do_check_new_version"
+                }
+            }
+        }
+    },
+    "tests/core/gui/test_password_validation.py": {
+        "focal_file": "parsec/core/gui/password_validation.py",
+        "methods": {
+            "test_password_validation": {
+                "line": 11,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "get_password_strength"
+                }
+            },
+            "test_password_text": {
+                "line": 21,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "get_password_strength_text"
+                }
+            },
+            "test_password_validation_with_user_inputs": {
+                "line": 32,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "get_password_strength"
+                }
+            },
+            "test_password_choice_widget_with_excluded_strings": {
+                "line": 73,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": "PasswordChoiceWidget",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "set_excluded_strings"
+                }
+            }
+        }
+    },
+    "tests/core/gui/test_workspace_button.py": {
+        "focal_file": "parsec/core/gui/workspace_button.py",
+        "methods": {
+            "test_workspace_button_reencrypt_clicked": {
+                "line": 219,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "create"
+                }
+            }
+        }
+    },
+    "tests/core/mountpoint/test_folder_operations.py": {
+        "focal_file": "tests/core/mountpoint/test_folder_operations.py",
+        "methods": {
+            "test_folder_operations": {
+                "line": 91,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 155,
+                    "indent": 8,
+                    "name": "mkdir"
+                }
+            }
+        }
+    }
+}

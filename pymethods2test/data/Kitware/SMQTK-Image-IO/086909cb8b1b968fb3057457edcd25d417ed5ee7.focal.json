@@ -1,0 +1,286 @@
+{
+    "tests/test_bounding_box.py": {
+        "focal_file": "smqtk_image_io/bbox.py",
+        "methods": {
+            "test_bbox_set_vertices": {
+                "line": 51,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "_set_vertices"
+                }
+            },
+            "test_getstate_format": {
+                "line": 316,
+                "line_end": 328,
+                "indent": 0,
+                "focal_class": "AxisAlignedBoundingBox",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "__getstate__"
+                }
+            },
+            "test_setstate_format": {
+                "line": 331,
+                "line_end": 345,
+                "indent": 0,
+                "focal_class": "AxisAlignedBoundingBox",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "__setstate__"
+                }
+            },
+            "test_bbox_intersection": {
+                "line": 519,
+                "line_end": 547,
+                "indent": 0,
+                "focal_class": "AxisAlignedBoundingBox",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "intersection"
+                }
+            },
+            "test_bbox_no_intersection": {
+                "line": 550,
+                "line_end": 576,
+                "indent": 0,
+                "focal_class": "AxisAlignedBoundingBox",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "intersection"
+                }
+            }
+        }
+    },
+    "tests/impls/image_reader/test_gdal_io.py": {
+        "focal_file": "smqtk_image_io/impls/image_reader/gdal_io.py",
+        "methods": {
+            "test_GdalImageReader_usable": {
+                "line": 205,
+                "line_end": 213,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 235,
+                    "indent": 4,
+                    "name": "is_usable"
+                }
+            },
+            "test_gdal_supported_drivers": {
+                "line": 45,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "get_gdal_driver_supported_mimetypes"
+                }
+            },
+            "test_gdal_supported_drivers_caching": {
+                "line": 53,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "get_gdal_driver_supported_mimetypes"
+                }
+            },
+            "test_load_dataset_tempfile": {
+                "line": 72,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 156,
+                    "indent": 0,
+                    "name": "load_dataset_tempfile"
+                }
+            },
+            "test_load_dataset_vsimem": {
+                "line": 108,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "load_dataset_vsimem"
+                }
+            },
+            "test_possible_gdal_gci_values_caching": {
+                "line": 159,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "get_possible_gdal_gci_values"
+                }
+            },
+            "test_get_gdal_gci_abbreviation_map_caching": {
+                "line": 182,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 113,
+                    "indent": 0,
+                    "name": "get_gdal_gci_abbreviation_map"
+                }
+            },
+            "test_valid_content_types": {
+                "line": 408,
+                "line_end": 421,
+                "indent": 4,
+                "focal_class": "GdalImageReader",
+                "focal_method": {
+                    "line": 377,
+                    "line_end": 383,
+                    "indent": 4,
+                    "name": "valid_content_types"
+                }
+            },
+            "test_load_as_matrix_tempfile": {
+                "line": 433,
+                "line_end": 452,
+                "indent": 4,
+                "focal_class": "GdalImageReader",
+                "focal_method": {
+                    "line": 385,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "_load_as_matrix"
+                }
+            },
+            "test_load_as_matrix_vsimem": {
+                "line": 454,
+                "line_end": 476,
+                "indent": 4,
+                "focal_class": "GdalImageReader",
+                "focal_method": {
+                    "line": 385,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "_load_as_matrix"
+                }
+            }
+        }
+    },
+    "tests/impls/image_reader/test_pil_io.py": {
+        "focal_file": "smqtk_image_io/impls/image_reader/pil_io.py",
+        "methods": {
+            "test_valid_content_types": {
+                "line": 80,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "PilImageReader",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "valid_content_types"
+                }
+            }
+        }
+    },
+    "tests/utils/test_image_utils.py": {
+        "focal_file": "smqtk_image_io/utils/image.py",
+        "methods": {
+            "test_unloadable_image_returns_false": {
+                "line": 34,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "is_loadable_image"
+                }
+            },
+            "test_loadable_image_returns_true": {
+                "line": 37,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "is_loadable_image"
+                }
+            },
+            "test_non_data_element": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "is_valid_element"
+                }
+            },
+            "test_invalid_content_type": {
+                "line": 57,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "is_valid_element"
+                }
+            },
+            "test_valid_content_type": {
+                "line": 61,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "is_valid_element"
+                }
+            },
+            "test_in_bounds_inside": {
+                "line": 74,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 296,
+                    "indent": 0,
+                    "name": "crop_in_bounds"
+                }
+            }
+        }
+    }
+}

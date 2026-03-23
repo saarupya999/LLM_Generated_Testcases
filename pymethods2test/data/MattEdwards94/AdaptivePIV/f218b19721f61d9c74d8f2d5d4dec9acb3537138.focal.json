@@ -1,0 +1,707 @@
+{
+    "tests/test_corr_window.py": {
+        "focal_file": "PIV/corr_window.py",
+        "methods": {
+            "test_prepare_correlation_window_subtracts_applies_mask": {
+                "line": 150,
+                "line_end": 185,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "prepare_correlation_windows"
+                }
+            },
+            "test_calculate_correlation_map_is_padded_by_10_zeros": {
+                "line": 188,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 341,
+                    "indent": 0,
+                    "name": "calculate_correlation_map"
+                }
+            },
+            "test_calculate_correlation_map_all_real": {
+                "line": 229,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 341,
+                    "indent": 0,
+                    "name": "calculate_correlation_map"
+                }
+            },
+            "test_calculate_correlation_is_same_as_dcc": {
+                "line": 245,
+                "line_end": 262,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 341,
+                    "indent": 0,
+                    "name": "calculate_correlation_map"
+                }
+            },
+            "test_get_displacement_from_corrmap_catches_if_max_is_on_edge": {
+                "line": 383,
+                "line_end": 425,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "get_displacement_from_corrmap"
+                }
+            },
+            "test_SNR_from_correlation": {
+                "line": 495,
+                "line_end": 529,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "prepare_correlation_windows"
+                }
+            },
+            "test_get_corrwindow_scaling_is_equal_to_convolution": {
+                "line": 554,
+                "line_end": 596,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 417,
+                    "line_end": 453,
+                    "indent": 0,
+                    "name": "get_corrwindow_scaling"
+                }
+            }
+        }
+    },
+    "tests/test_piv_image.py": {
+        "focal_file": "PIV/piv_image.py",
+        "methods": {
+            "test_load_image_file": {
+                "line": 340,
+                "line_end": 357,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 432,
+                    "indent": 0,
+                    "name": "load_images"
+                }
+            },
+            "test_quintic_spline_image_filt_all_ones": {
+                "line": 469,
+                "line_end": 476,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 458,
+                    "line_end": 525,
+                    "indent": 0,
+                    "name": "quintic_spline_image_filter"
+                }
+            },
+            "test_get_binary_img_part_locations": {
+                "line": 479,
+                "line_end": 493,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 845,
+                    "line_end": 873,
+                    "indent": 0,
+                    "name": "get_binary_image_particle_locations"
+                }
+            },
+            "test_particle_detection_perf_n_particles": {
+                "line": 496,
+                "line_end": 516,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 876,
+                    "line_end": 920,
+                    "indent": 0,
+                    "name": "particle_detection_perf"
+                }
+            },
+            "test_particle_detection_perf_n_valid_is_correct": {
+                "line": 519,
+                "line_end": 547,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 876,
+                    "line_end": 920,
+                    "indent": 0,
+                    "name": "particle_detection_perf"
+                }
+            },
+            "test_particle_detection_perf_n_invalid_correct": {
+                "line": 550,
+                "line_end": 576,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 876,
+                    "line_end": 920,
+                    "indent": 0,
+                    "name": "particle_detection_perf"
+                }
+            },
+            "test_particle_detection_perf_n_undetected": {
+                "line": 579,
+                "line_end": 606,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 876,
+                    "line_end": 920,
+                    "indent": 0,
+                    "name": "particle_detection_perf"
+                }
+            },
+            "test_detect_particles_max_filter": {
+                "line": 609,
+                "line_end": 628,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 972,
+                    "line_end": 996,
+                    "indent": 0,
+                    "name": "detect_particles_max_filter"
+                }
+            },
+            "test_detect_particles_max_filter_considers_mask": {
+                "line": 631,
+                "line_end": 671,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 972,
+                    "line_end": 996,
+                    "indent": 0,
+                    "name": "detect_particles_max_filter"
+                }
+            },
+            "test_detect_particles_output_shape": {
+                "line": 692,
+                "line_end": 700,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 814,
+                    "line_end": 842,
+                    "indent": 0,
+                    "name": "detect_particles"
+                }
+            }
+        }
+    },
+    "tests/test_analysis.py": {
+        "focal_file": "PIV/analysis.py",
+        "methods": {
+            "test_quick_widim": {
+                "line": 249,
+                "line_end": 283,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "widim"
+                }
+            }
+        }
+    },
+    "tests/test_utillities.py": {
+        "focal_file": "PIV/utilities.py",
+        "methods": {
+            "test_elementwise_diff_checks_input_size": {
+                "line": 61,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "elementwise_diff"
+                }
+            },
+            "test_elementwise_diff_returns_correct_value": {
+                "line": 72,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "elementwise_diff"
+                }
+            },
+            "test_auto_reshape_for_nice_xy_input": {
+                "line": 87,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 172,
+                    "indent": 0,
+                    "name": "auto_reshape"
+                }
+            },
+            "test_lin_extrap_edges_with_1d_default_npad": {
+                "line": 184,
+                "line_end": 199,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "lin_extrap_edges"
+                }
+            },
+            "test_lin_extrap_edges_with_1d_modified_npad": {
+                "line": 202,
+                "line_end": 217,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "lin_extrap_edges"
+                }
+            },
+            "test_lin_extrap_edges_with_2d_default_npad": {
+                "line": 220,
+                "line_end": 238,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "lin_extrap_edges"
+                }
+            },
+            "test_lin_extrap_edges_with_2d_modified_npad": {
+                "line": 241,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "lin_extrap_edges"
+                }
+            },
+            "test_summed_area_table_get_area_sum": {
+                "line": 325,
+                "line_end": 337,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "get_area_sum"
+                }
+            },
+            "test_get_total_sum": {
+                "line": 383,
+                "line_end": 389,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 393,
+                    "line_end": 398,
+                    "indent": 4,
+                    "name": "get_total_sum"
+                }
+            },
+            "test_SAT_convolution": {
+                "line": 391,
+                "line_end": 409,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 400,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "fixed_filter_convolution"
+                }
+            }
+        }
+    },
+    "tests/test_image_info.py": {
+        "focal_file": "PIV/image_info.py",
+        "methods": {
+            "test_initialisation": {
+                "line": 6,
+                "line_end": 22,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "get_image_information"
+                }
+            },
+            "test_print_all_details_runs": {
+                "line": 75,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 242,
+                    "indent": 0,
+                    "name": "print_all_details"
+                }
+            },
+            "test_list_available_flowtypes_runs": {
+                "line": 81,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 199,
+                    "indent": 0,
+                    "name": "list_available_flowtypes"
+                }
+            },
+            "test_print_table_header_runs": {
+                "line": 87,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 228,
+                    "indent": 0,
+                    "name": "print_table_header"
+                }
+            },
+            "test_get_image_information_runs": {
+                "line": 93,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "get_image_information"
+                }
+            },
+            "test_get_image_information_raises_value_error": {
+                "line": 99,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "get_image_information"
+                }
+            },
+            "test_formatted_filenames_returns_none_for_no_mask": {
+                "line": 124,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "formatted_filenames"
+                }
+            }
+        }
+    },
+    "tests/test_dense_predictor.py": {
+        "focal_file": "PIV/dense_predictor.py",
+        "methods": {
+            "test_magnitude": {
+                "line": 453,
+                "line_end": 464,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 441,
+                    "line_end": 445,
+                    "indent": 4,
+                    "name": "magnitude"
+                }
+            },
+            "test_get_local_average_disp": {
+                "line": 467,
+                "line_end": 493,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 411,
+                    "line_end": 428,
+                    "indent": 4,
+                    "name": "get_local_avg_disp"
+                }
+            },
+            "test_create_densepredictor_from_dimensions": {
+                "line": 496,
+                "line_end": 506,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "from_dimensions"
+                }
+            },
+            "test_create_densepredictor_from_dimensions_with_value": {
+                "line": 509,
+                "line_end": 521,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "from_dimensions"
+                }
+            },
+            "test_load_true_densepredictor": {
+                "line": 524,
+                "line_end": 544,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "load_true"
+                }
+            },
+            "test_load_true_densepredictor_no_file": {
+                "line": 547,
+                "line_end": 563,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "load_true"
+                }
+            }
+        }
+    },
+    "tests/test_distributions.py": {
+        "focal_file": "PIV/distribution.py",
+        "methods": {
+            "test_initialisation_using_from_locations": {
+                "line": 100,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "from_locations"
+                }
+            },
+            "test_initialisation_using_from_locations_multi_dimensional": {
+                "line": 118,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "from_locations"
+                }
+            },
+            "test_get_unmasked_xy_raise_error": {
+                "line": 231,
+                "line_end": 246,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "get_unmasked_xy"
+                }
+            },
+            "test_get_unmasked_xy_returns_only_unmasked": {
+                "line": 249,
+                "line_end": 267,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "get_unmasked_xy"
+                }
+            },
+            "test_get_unmasked_uv_raise_error": {
+                "line": 301,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "get_unmasked_uv"
+                }
+            },
+            "test_get_unmasked_uv_returns_only_unmasked": {
+                "line": 318,
+                "line_end": 338,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "get_unmasked_uv"
+                }
+            },
+            "test_get_unmasked_WS_raise_error": {
+                "line": 353,
+                "line_end": 367,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "get_unmasked_WS"
+                }
+            },
+            "test_get_unmasked_WS_returns_only_unmasked": {
+                "line": 370,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 194,
+                    "indent": 4,
+                    "name": "get_unmasked_WS"
+                }
+            },
+            "test_validation_NMT_8NN_stores_old_value": {
+                "line": 439,
+                "line_end": 475,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "validation_NMT_8NN"
+                }
+            },
+            "test_validation_NMT_8NN_ignores_masked_values": {
+                "line": 534,
+                "line_end": 556,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "validation_NMT_8NN"
+                }
+            },
+            "test_Distribution_interp_WS": {
+                "line": 691,
+                "line_end": 717,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 423,
+                    "line_end": 457,
+                    "indent": 4,
+                    "name": "interp_WS"
+                }
+            }
+        }
+    },
+    "tests/test_multigrid.py": {
+        "focal_file": "PIV/multiGrid.py",
+        "methods": {
+            "test_get_meshgrid": {
+                "line": 652,
+                "line_end": 669,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 596,
+                    "line_end": 599,
+                    "indent": 4,
+                    "name": "get_meshgrid"
+                }
+            },
+            "test_get_leaf_cells": {
+                "line": 947,
+                "line_end": 964,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 270,
+                    "indent": 4,
+                    "name": "get_all_leaf_cells"
+                }
+            }
+        }
+    },
+    "tests/test_ensemble_solution.py": {
+        "focal_file": "PIV/ensemble_solution.py",
+        "methods": {
+            "test_add_displacement_field": {
+                "line": 51,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "add_displacement_field"
+                }
+            }
+        }
+    }
+}

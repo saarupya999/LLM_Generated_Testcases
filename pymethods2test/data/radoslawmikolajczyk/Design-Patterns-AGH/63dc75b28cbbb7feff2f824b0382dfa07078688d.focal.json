@@ -1,0 +1,320 @@
+{
+    "tests/test_ddl.py": {
+        "focal_file": "builders/ddl.py",
+        "methods": {
+            "test_build": {
+                "line": 8,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "DDLBuilder",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_override_name": {
+                "line": 23,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "DDLBuilder",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "name"
+                }
+            },
+            "test_override_primary_key": {
+                "line": 35,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "DDLBuilder",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "primary_key"
+                }
+            },
+            "test_is_empty": {
+                "line": 47,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "DDLBuilder",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "is_empty"
+                }
+            },
+            "test_unique_constraint": {
+                "line": 116,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": "DDLUniqueBuildable",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "build"
+                }
+            }
+        }
+    },
+    "tests/test_delete.py": {
+        "focal_file": "builders/delete.py",
+        "methods": {
+            "test_build": {
+                "line": 10,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": "DeleteBuilder",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_override_table": {
+                "line": 17,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": "DeleteBuilder",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "table"
+                }
+            },
+            "test_override_where": {
+                "line": 25,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "DeleteBuilder",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "where"
+                }
+            }
+        }
+    },
+    "tests/test_insert.py": {
+        "focal_file": "builders/insert.py",
+        "methods": {
+            "test_build": {
+                "line": 8,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": "InsertBuilder",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_override_add": {
+                "line": 19,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "InsertBuilder",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_override_into": {
+                "line": 28,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "InsertBuilder",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "into"
+                }
+            },
+            "test_is_empty": {
+                "line": 37,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "InsertBuilder",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "is_empty"
+                }
+            }
+        }
+    },
+    "tests/test_select.py": {
+        "focal_file": "builders/select.py",
+        "methods": {
+            "test_build": {
+                "line": 6,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": "SelectBuilder",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_override_where": {
+                "line": 40,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "SelectBuilder",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "where"
+                }
+            },
+            "test_is_empty": {
+                "line": 52,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "SelectBuilder",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "is_empty"
+                }
+            }
+        }
+    },
+    "tests/test_stringutils.py": {
+        "focal_file": "builders/stringutils.py",
+        "methods": {
+            "test_quote_database_name_unsafe": {
+                "line": 8,
+                "line_end": 9,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "quote_database_object_name_unsafe"
+                }
+            },
+            "test_quote_known_string_unsafe": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "quote_known_string_unsafe"
+                }
+            },
+            "test_quote_string": {
+                "line": 14,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "quote_string"
+                }
+            },
+            "test_generate_escape_seq": {
+                "line": 17,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "generate_escape_seq"
+                }
+            }
+        }
+    },
+    "tests/test_update.py": {
+        "focal_file": "builders/update.py",
+        "methods": {
+            "test_build": {
+                "line": 9,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "UpdateBuilder",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "build"
+                }
+            },
+            "test_override_add": {
+                "line": 21,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "UpdateBuilder",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_override_where": {
+                "line": 31,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "UpdateBuilder",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "where"
+                }
+            },
+            "test_override_table": {
+                "line": 41,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "UpdateBuilder",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "table"
+                }
+            },
+            "test_is_empty": {
+                "line": 51,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "UpdateBuilder",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "is_empty"
+                }
+            }
+        }
+    }
+}

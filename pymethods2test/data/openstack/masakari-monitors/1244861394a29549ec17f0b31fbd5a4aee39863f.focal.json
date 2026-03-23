@@ -1,0 +1,921 @@
+{
+    "masakarimonitors/tests/unit/test_hacking.py": {
+        "focal_file": "masakarimonitors/hacking/checks.py",
+        "methods": {
+            "test_check_explicit_underscore_import": {
+                "line": 82,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "check_explicit_underscore_import"
+                }
+            },
+            "test_no_translate_logs": {
+                "line": 111,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "no_translate_logs"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/ha/test_masakari.py": {
+        "focal_file": "masakarimonitors/ha/masakari.py",
+        "methods": {
+            "test_send_notification": {
+                "line": 67,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "masakarimonitors.ha.masakari.SendNotification",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "send_notification"
+                }
+            },
+            "test_send_notification_409_error": {
+                "line": 92,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "masakarimonitors.ha.masakari.SendNotification",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "send_notification"
+                }
+            },
+            "test_send_notification_500_error": {
+                "line": 124,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": "masakarimonitors.ha.masakari.SendNotification",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "send_notification"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/hostmonitor/test_host.py": {
+        "focal_file": "masakarimonitors/hostmonitor/host.py",
+        "methods": {
+            "test_init_host": {
+                "line": 30,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host.HostmonitorManager",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "init_host"
+                }
+            },
+            "test_init_host_exception": {
+                "line": 47,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host.HostmonitorManager",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "init_host"
+                }
+            },
+            "test_stop": {
+                "line": 64,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host.HostmonitorManager",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_main": {
+                "line": 82,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host.HostmonitorManager",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "main"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/hostmonitor/host_handler/test_handle_host.py": {
+        "focal_file": "masakarimonitors/hostmonitor/host_handler/handle_host.py",
+        "methods": {
+            "test_check_pacemaker_services": {
+                "line": 107,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "_check_pacemaker_services"
+                }
+            },
+            "test_check_pacemaker_services_stderr": {
+                "line": 119,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "_check_pacemaker_services"
+                }
+            },
+            "test_check_hb_line": {
+                "line": 132,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_check_hb_line"
+                }
+            },
+            "test_check_hb_line_conf_ports_is_none": {
+                "line": 205,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_check_hb_line"
+                }
+            },
+            "test_check_hb_line_incorrect_ports": {
+                "line": 243,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_check_hb_line"
+                }
+            },
+            "test_check_hb_line_tcpdump_fail": {
+                "line": 263,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "_check_hb_line"
+                }
+            },
+            "test_check_host_status_by_crmadmin_idle": {
+                "line": 288,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "_check_host_status_by_crmadmin"
+                }
+            },
+            "test_check_host_status_by_crmadmin_not_dc": {
+                "line": 301,
+                "line_end": 311,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "_check_host_status_by_crmadmin"
+                }
+            },
+            "test_check_host_status_by_crmadmin_output_stderr": {
+                "line": 314,
+                "line_end": 323,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "_check_host_status_by_crmadmin"
+                }
+            },
+            "test_check_host_status_by_crmadmin_output_unexpected_message": {
+                "line": 326,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "_check_host_status_by_crmadmin"
+                }
+            },
+            "test_get_cib_xml": {
+                "line": 339,
+                "line_end": 347,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "_get_cib_xml"
+                }
+            },
+            "test_get_cib_xml_output_stderr": {
+                "line": 350,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "_get_cib_xml"
+                }
+            },
+            "test_get_crmmon_xml": {
+                "line": 361,
+                "line_end": 369,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "_get_crmmon_xml"
+                }
+            },
+            "test_get_crmmon_xml_stderr": {
+                "line": 372,
+                "line_end": 380,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "_get_crmmon_xml"
+                }
+            },
+            "test_is_poweroff": {
+                "line": 384,
+                "line_end": 404,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "_is_poweroff"
+                }
+            },
+            "test_is_poweroff_output_stderr": {
+                "line": 422,
+                "line_end": 448,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "_is_poweroff"
+                }
+            },
+            "test_make_event_online": {
+                "line": 482,
+                "line_end": 506,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "_make_event"
+                }
+            },
+            "test_check_if_status_changed": {
+                "line": 605,
+                "line_end": 639,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 311,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "_check_if_status_changed"
+                }
+            },
+            "test_check_if_status_changed_with_3_samples": {
+                "line": 646,
+                "line_end": 697,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 311,
+                    "line_end": 364,
+                    "indent": 4,
+                    "name": "_check_if_status_changed"
+                }
+            },
+            "test_check_host_status_by_crm_mon": {
+                "line": 704,
+                "line_end": 725,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "_check_host_status_by_crm_mon"
+                }
+            },
+            "test_check_host_status_by_crm_mon_xml_is_None": {
+                "line": 748,
+                "line_end": 756,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 389,
+                    "indent": 4,
+                    "name": "_check_host_status_by_crm_mon"
+                }
+            },
+            "test_check_host_status_by_cibadmin": {
+                "line": 763,
+                "line_end": 783,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 417,
+                    "indent": 4,
+                    "name": "_check_host_status_by_cibadmin"
+                }
+            },
+            "test_check_host_status_by_cibadmin_no_quorum": {
+                "line": 790,
+                "line_end": 810,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 417,
+                    "indent": 4,
+                    "name": "_check_host_status_by_cibadmin"
+                }
+            },
+            "test_check_host_status_by_cibadmin_cib_xml_is_None": {
+                "line": 813,
+                "line_end": 821,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 391,
+                    "line_end": 417,
+                    "indent": 4,
+                    "name": "_check_host_status_by_cibadmin"
+                }
+            },
+            "test_stop": {
+                "line": 845,
+                "line_end": 850,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 419,
+                    "line_end": 420,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_monitor_hosts": {
+                "line": 859,
+                "line_end": 880,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 474,
+                    "indent": 4,
+                    "name": "monitor_hosts"
+                }
+            },
+            "test_monitor_hosts_remotes_only": {
+                "line": 887,
+                "line_end": 907,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.handle_host.HandleHost",
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 474,
+                    "indent": 4,
+                    "name": "monitor_hosts"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/hostmonitor/host_handler/test_parse_cib_xml.py": {
+        "focal_file": "masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py",
+        "methods": {
+            "test_set_cib_xml": {
+                "line": 112,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.parse_cib_xml.ParseCibXml",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "set_cib_xml"
+                }
+            },
+            "test_have_quorum": {
+                "line": 119,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.parse_cib_xml.ParseCibXml",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "have_quorum"
+                }
+            },
+            "test_get_node_state_tag_list": {
+                "line": 125,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.parse_cib_xml.ParseCibXml",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "get_node_state_tag_list"
+                }
+            },
+            "test_get_stonith_ipmi_params": {
+                "line": 135,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": "masakarimonitors.hostmonitor.host_handler.parse_cib_xml.ParseCibXml",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 182,
+                    "indent": 4,
+                    "name": "get_stonith_ipmi_params"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/instancemonitor/test_instance.py": {
+        "focal_file": "masakarimonitors/instancemonitor/instance.py",
+        "methods": {
+            "test_vir_event_loop_native_run": {
+                "line": 45,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "_vir_event_loop_native_run"
+                }
+            },
+            "test_my_domain_event_callback": {
+                "line": 59,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "_my_domain_event_callback"
+                }
+            },
+            "test_my_domain_event_reboot_callback": {
+                "line": 71,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "_my_domain_event_reboot_callback"
+                }
+            },
+            "test_my_domain_event_rtc_change_callback": {
+                "line": 83,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "_my_domain_event_rtc_change_callback"
+                }
+            },
+            "test_my_domain_event_watchdog_callback": {
+                "line": 97,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "_my_domain_event_watchdog_callback"
+                }
+            },
+            "test_my_domain_event_io_error_callback": {
+                "line": 111,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "_my_domain_event_io_error_callback"
+                }
+            },
+            "test_my_domain_event_graphics_callback": {
+                "line": 127,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "_my_domain_event_graphics_callback"
+                }
+            },
+            "test_my_domain_event_disk_change_callback": {
+                "line": 146,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "_my_domain_event_disk_change_callback"
+                }
+            },
+            "test_my_domain_event_io_error_reason_callback": {
+                "line": 165,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "_my_domain_event_io_error_reason_callback"
+                }
+            },
+            "test_my_domain_event_generic_callback": {
+                "line": 184,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "_my_domain_event_generic_callback"
+                }
+            },
+            "test_err_handler": {
+                "line": 196,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "_err_handler"
+                }
+            },
+            "test_stop": {
+                "line": 200,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_main": {
+                "line": 210,
+                "line_end": 252,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.instance.InstancemonitorManager",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "main"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/instancemonitor/libvirt_handler/test_callback.py": {
+        "focal_file": "masakarimonitors/instancemonitor/libvirt_handler/callback.py",
+        "methods": {
+            "test_libvirt_event_callback": {
+                "line": 36,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.libvirt_handler.callback.Callback",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "libvirt_event_callback"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/instancemonitor/libvirt_handler/test_eventfilter.py": {
+        "focal_file": "masakarimonitors/instancemonitor/libvirt_handler/eventfilter.py",
+        "methods": {
+            "test_vir_event_filter": {
+                "line": 42,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.libvirt_handler.eventfilter.EventFilter",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "vir_event_filter"
+                }
+            },
+            "test_vir_event_filter_unmatched": {
+                "line": 68,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.libvirt_handler.eventfilter.EventFilter",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "vir_event_filter"
+                }
+            },
+            "test_vir_event_filter_key_error": {
+                "line": 86,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.libvirt_handler.eventfilter.EventFilter",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "vir_event_filter"
+                }
+            },
+            "test_vir_event_filter_type_error": {
+                "line": 105,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.libvirt_handler.eventfilter.EventFilter",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "vir_event_filter"
+                }
+            },
+            "test_vir_event_filter_index_error": {
+                "line": 125,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": "masakarimonitors.instancemonitor.libvirt_handler.eventfilter.EventFilter",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "vir_event_filter"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/introspectiveinstancemonitor/test_qemu_utils.py": {
+        "focal_file": "masakarimonitors/introspectiveinstancemonitor/qemu_utils.py",
+        "methods": {
+            "test_getVmFsm": {
+                "line": 31,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "masakarimonitors.introspectiveinstancemonitor.qemu_utils.QemuGuestAgent",
+                "focal_method": {
+                    "line": 323,
+                    "line_end": 337,
+                    "indent": 4,
+                    "name": "getVmFsm"
+                }
+            },
+            "test_hasQemuGuestAgent": {
+                "line": 59,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "masakarimonitors.introspectiveinstancemonitor.qemu_utils.QemuGuestAgent",
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 381,
+                    "indent": 4,
+                    "name": "_hasQemuGuestAgent"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/processmonitor/test_process.py": {
+        "focal_file": "masakarimonitors/processmonitor/process.py",
+        "methods": {
+            "test_main": {
+                "line": 82,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "main"
+                }
+            },
+            "test_stop": {
+                "line": 164,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            }
+        }
+    },
+    "masakarimonitors/tests/unit/processmonitor/process_handler/test_handle_process.py": {
+        "focal_file": "masakarimonitors/processmonitor/process_handler/handle_process.py",
+        "methods": {
+            "test_set_process_list": {
+                "line": 74,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "set_process_list"
+                }
+            },
+            "test_make_event": {
+                "line": 82,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "_make_event"
+                }
+            },
+            "test_start_processes": {
+                "line": 90,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "start_processes"
+                }
+            },
+            "test_start_processes_pre_cmd_fail": {
+                "line": 113,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "start_processes"
+                }
+            },
+            "test_monitor_processes": {
+                "line": 127,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "monitor_processes"
+                }
+            },
+            "test_monitor_processes_not_found": {
+                "line": 141,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "monitor_processes"
+                }
+            },
+            "test_monitor_processes_exception": {
+                "line": 154,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "monitor_processes"
+                }
+            },
+            "test_restart_processes": {
+                "line": 165,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 209,
+                    "indent": 4,
+                    "name": "restart_processes"
+                }
+            },
+            "test_execute_cmd_exception": {
+                "line": 385,
+                "line_end": 392,
+                "indent": 4,
+                "focal_class": "masakarimonitors.processmonitor.process_handler.handle_process.HandleProcess",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "_execute_cmd"
+                }
+            }
+        }
+    }
+}

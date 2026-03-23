@@ -1,0 +1,337 @@
+{
+    "tests/test_config.py": {
+        "focal_file": "mzcli/config.py",
+        "methods": {
+            "test_ensure_file_parent": {
+                "line": 9,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "ensure_dir_exists"
+                }
+            },
+            "test_ensure_existing_dir": {
+                "line": 15,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "ensure_dir_exists"
+                }
+            }
+        }
+    },
+    "tests/test_main.py": {
+        "focal_file": "mzcli/main.py",
+        "methods": {
+            "test_obfuscate_process_password": {
+                "line": 27,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1353,
+                    "line_end": 1362,
+                    "indent": 0,
+                    "name": "obfuscate_process_password"
+                }
+            },
+            "test_format_output": {
+                "line": 57,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1416,
+                    "line_end": 1505,
+                    "indent": 0,
+                    "name": "format_output"
+                }
+            },
+            "test_format_output_auto_expand": {
+                "line": 122,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1416,
+                    "line_end": 1505,
+                    "indent": 0,
+                    "name": "format_output"
+                }
+            },
+            "test_pg_service_file": {
+                "line": 285,
+                "line_end": 330,
+                "indent": 0,
+                "focal_class": "PGCli",
+                "focal_method": {
+                    "line": 480,
+                    "line_end": 493,
+                    "indent": 4,
+                    "name": "connect_service"
+                }
+            },
+            "test_application_name_db_uri": {
+                "line": 376,
+                "line_end": 383,
+                "indent": 0,
+                "focal_class": "PGCli",
+                "focal_method": {
+                    "line": 495,
+                    "line_end": 500,
+                    "indent": 4,
+                    "name": "connect_uri"
+                }
+            }
+        }
+    },
+    "tests/test_naive_completion.py": {
+        "focal_file": "mzcli/pgcompleter.py",
+        "methods": {
+            "test_empty_string_completion": {
+                "line": 21,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 490,
+                    "indent": 4,
+                    "name": "get_completions"
+                }
+            },
+            "test_select_keyword_completion": {
+                "line": 32,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 490,
+                    "indent": 4,
+                    "name": "get_completions"
+                }
+            },
+            "test_function_name_completion": {
+                "line": 43,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 490,
+                    "indent": 4,
+                    "name": "get_completions"
+                }
+            },
+            "test_column_name_completion": {
+                "line": 66,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 490,
+                    "indent": 4,
+                    "name": "get_completions"
+                }
+            },
+            "test_special_name_completion": {
+                "line": 100,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 490,
+                    "indent": 4,
+                    "name": "get_completions"
+                }
+            },
+            "test_datatype_name_completion": {
+                "line": 112,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 460,
+                    "line_end": 490,
+                    "indent": 4,
+                    "name": "get_completions"
+                }
+            }
+        }
+    },
+    "tests/test_pgspecial.py": {
+        "focal_file": "mzcli/packages/sqlcompletion.py",
+        "methods": {
+            "test_slash_suggests_special": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 155,
+                    "indent": 0,
+                    "name": "suggest_type"
+                }
+            },
+            "test_c_suggests_databases": {
+                "line": 76,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 155,
+                    "indent": 0,
+                    "name": "suggest_type"
+                }
+            }
+        }
+    },
+    "tests/test_sqlcompletion.py": {
+        "focal_file": "mzcli/packages/sqlcompletion.py",
+        "methods": {
+            "test_cast_operator_suggests_types": {
+                "line": 845,
+                "line_end": 848,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 155,
+                    "indent": 0,
+                    "name": "suggest_type"
+                }
+            }
+        }
+    },
+    "tests/parseutils/test_ctes.py": {
+        "focal_file": "mzcli/packages/parseutils/ctes.py",
+        "methods": {
+            "test_token_str_pos": {
+                "line": 15,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "token_start_pos"
+                }
+            },
+            "test_single_column_name_extraction": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "extract_column_names"
+                }
+            },
+            "test_multiple_column_name_extraction": {
+                "line": 42,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "extract_column_names"
+                }
+            },
+            "test_extract_column_names_from_returning_clause": {
+                "line": 73,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "extract_column_names"
+                }
+            }
+        }
+    },
+    "tests/parseutils/test_parseutils.py": {
+        "focal_file": "mzcli/packages/parseutils/utils.py",
+        "methods": {
+            "test_find_prev_keyword_using": {
+                "line": 211,
+                "line_end": 214,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "find_prev_keyword"
+                }
+            },
+            "test_find_prev_keyword_where": {
+                "line": 225,
+                "line_end": 227,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "find_prev_keyword"
+                }
+            },
+            "test_find_prev_keyword_open_parens": {
+                "line": 233,
+                "line_end": 235,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "find_prev_keyword"
+                }
+            },
+            "test_is_open_quote__closed": {
+                "line": 250,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "is_open_quote"
+                }
+            },
+            "test_is_open_quote__open": {
+                "line": 268,
+                "line_end": 269,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "is_open_quote"
+                }
+            }
+        }
+    }
+}

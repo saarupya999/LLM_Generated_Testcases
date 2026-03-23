@@ -1,0 +1,3592 @@
+{
+    "tests/test_app.py": {
+        "focal_file": "securedrop_client/app.py",
+        "methods": {
+            "test_excepthook": {
+                "line": 33,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "excepthook"
+                }
+            },
+            "test_configure_logging": {
+                "line": 48,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "configure_logging"
+                }
+            },
+            "test_start_app": {
+                "line": 123,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "start_app"
+                }
+            },
+            "test_argparse": {
+                "line": 198,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "arg_parser"
+                }
+            },
+            "test_run": {
+                "line": 218,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 233,
+                    "indent": 0,
+                    "name": "run"
+                }
+            },
+            "test_signal_interception": {
+                "line": 231,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "signal_handler"
+                }
+            }
+        }
+    },
+    "tests/test_crypto.py": {
+        "focal_file": "securedrop_client/crypto.py",
+        "methods": {
+            "test_read_gzip_header_filename_with_bad_file": {
+                "line": 92,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "read_gzip_header_filename"
+                }
+            },
+            "test_read_gzip_header_filename_with_bad_compression_method": {
+                "line": 100,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "read_gzip_header_filename"
+                }
+            },
+            "test_read_gzip_header_filename": {
+                "line": 110,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "read_gzip_header_filename"
+                }
+            },
+            "test_import_key": {
+                "line": 139,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": "GpgHelper",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "import_key"
+                }
+            },
+            "test_encrypt_fail_if_source_key_missing": {
+                "line": 231,
+                "line_end": 249,
+                "indent": 0,
+                "focal_class": "GpgHelper",
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "encrypt_to_source"
+                }
+            },
+            "test_import_key_failure_in_encrypt_to_source": {
+                "line": 269,
+                "line_end": 281,
+                "indent": 0,
+                "focal_class": "GpgHelper",
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "encrypt_to_source"
+                }
+            }
+        }
+    },
+    "tests/test_logic.py": {
+        "focal_file": "securedrop_client/logic.py",
+        "methods": {
+            "test_APICallRunner_call_api": {
+                "line": 47,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "APICallRunner",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "call_api"
+                }
+            },
+            "test_Controller_setup": {
+                "line": 99,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 383,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_Controller_call_api": {
+                "line": 114,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "call_api"
+                }
+            },
+            "test_Controller_login": {
+                "line": 145,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 455,
+                    "line_end": 472,
+                    "indent": 4,
+                    "name": "login"
+                }
+            },
+            "test_Controller_login_offline_mode": {
+                "line": 168,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 522,
+                    "line_end": 537,
+                    "indent": 4,
+                    "name": "login_offline_mode"
+                }
+            },
+            "test_Controller_on_authenticate_failure": {
+                "line": 194,
+                "line_end": 220,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 502,
+                    "line_end": 520,
+                    "indent": 4,
+                    "name": "on_authenticate_failure"
+                }
+            },
+            "test_Controller_on_authenticate_success": {
+                "line": 223,
+                "line_end": 255,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 500,
+                    "indent": 4,
+                    "name": "on_authenticate_success"
+                }
+            },
+            "test_Controller_completed_api_call_with_current_object": {
+                "line": 284,
+                "line_end": 308,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 438,
+                    "line_end": 453,
+                    "indent": 4,
+                    "name": "completed_api_call"
+                }
+            },
+            "test_Controller_on_action_requiring_login": {
+                "line": 311,
+                "line_end": 323,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 544,
+                    "indent": 4,
+                    "name": "on_action_requiring_login"
+                }
+            },
+            "test_Controller_authenticated_yes": {
+                "line": 326,
+                "line_end": 337,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 546,
+                    "line_end": 551,
+                    "indent": 4,
+                    "name": "authenticated"
+                }
+            },
+            "test_Controller_authenticated_no": {
+                "line": 340,
+                "line_end": 352,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 546,
+                    "line_end": 551,
+                    "indent": 4,
+                    "name": "authenticated"
+                }
+            },
+            "test_Controller_authenticated_no_api": {
+                "line": 355,
+                "line_end": 365,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 546,
+                    "line_end": 551,
+                    "indent": 4,
+                    "name": "authenticated"
+                }
+            },
+            "test_Controller_on_sync_started": {
+                "line": 401,
+                "line_end": 410,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 563,
+                    "line_end": 564,
+                    "indent": 4,
+                    "name": "on_sync_started"
+                }
+            },
+            "test_Controller_on_sync_failure": {
+                "line": 413,
+                "line_end": 427,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 603,
+                    "line_end": 622,
+                    "indent": 4,
+                    "name": "on_sync_failure"
+                }
+            },
+            "test_Controller_on_sync_success": {
+                "line": 498,
+                "line_end": 527,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 566,
+                    "line_end": 601,
+                    "indent": 4,
+                    "name": "on_sync_success"
+                }
+            },
+            "test_Controller_show_last_sync": {
+                "line": 593,
+                "line_end": 607,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 624,
+                    "line_end": 628,
+                    "indent": 4,
+                    "name": "show_last_sync"
+                }
+            },
+            "test_Controller_update_sources": {
+                "line": 610,
+                "line_end": 629,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 630,
+                    "line_end": 635,
+                    "indent": 4,
+                    "name": "update_sources"
+                }
+            },
+            "test_Controller_mark_seen": {
+                "line": 632,
+                "line_end": 653,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 680,
+                    "indent": 4,
+                    "name": "mark_seen"
+                }
+            },
+            "test_Controller_on_seen_success": {
+                "line": 886,
+                "line_end": 888,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 682,
+                    "line_end": 683,
+                    "indent": 4,
+                    "name": "on_seen_success"
+                }
+            },
+            "test_Controller_on_seen_failure": {
+                "line": 891,
+                "line_end": 896,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 685,
+                    "line_end": 686,
+                    "indent": 4,
+                    "name": "on_seen_failure"
+                }
+            },
+            "test_Controller_on_update_star_success": {
+                "line": 915,
+                "line_end": 925,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 688,
+                    "line_end": 689,
+                    "indent": 4,
+                    "name": "on_update_star_success"
+                }
+            },
+            "test_Controller_on_update_star_failed": {
+                "line": 928,
+                "line_end": 943,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 691,
+                    "line_end": 697,
+                    "indent": 4,
+                    "name": "on_update_star_failure"
+                }
+            },
+            "test_Controller_on_update_star_failed_due_to_timeout": {
+                "line": 946,
+                "line_end": 959,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 691,
+                    "line_end": 697,
+                    "indent": 4,
+                    "name": "on_update_star_failure"
+                }
+            },
+            "test_Controller_invalidate_token": {
+                "line": 962,
+                "line_end": 971,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 735,
+                    "line_end": 737,
+                    "indent": 4,
+                    "name": "invalidate_token"
+                }
+            },
+            "test_Controller_logout_success": {
+                "line": 1028,
+                "line_end": 1054,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 1058,
+                    "line_end": 1059,
+                    "indent": 4,
+                    "name": "on_logout_success"
+                }
+            },
+            "test_Controller_logout_failure": {
+                "line": 1057,
+                "line_end": 1083,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 1061,
+                    "line_end": 1062,
+                    "indent": 4,
+                    "name": "on_logout_failure"
+                }
+            },
+            "test_Controller_on_file_downloaded_success": {
+                "line": 1209,
+                "line_end": 1230,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 947,
+                    "line_end": 956,
+                    "indent": 4,
+                    "name": "on_file_download_success"
+                }
+            },
+            "test_Controller_on_file_downloaded_api_failure": {
+                "line": 1233,
+                "line_end": 1248,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 971,
+                    "indent": 4,
+                    "name": "on_file_download_failure"
+                }
+            },
+            "test_Controller_on_file_downloaded_checksum_failure": {
+                "line": 1251,
+                "line_end": 1278,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 971,
+                    "indent": 4,
+                    "name": "on_file_download_failure"
+                }
+            },
+            "test_Controller_on_file_decryption_failure": {
+                "line": 1281,
+                "line_end": 1308,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 958,
+                    "line_end": 971,
+                    "indent": 4,
+                    "name": "on_file_download_failure"
+                }
+            },
+            "test_Controller_on_file_open": {
+                "line": 1311,
+                "line_end": 1335,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 860,
+                    "line_end": 876,
+                    "indent": 4,
+                    "name": "on_file_open"
+                }
+            },
+            "test_Controller_download_new_replies_with_new_reply": {
+                "line": 1444,
+                "line_end": 1468,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 806,
+                    "line_end": 814,
+                    "indent": 4,
+                    "name": "download_new_replies"
+                }
+            },
+            "test_Controller_download_new_replies_without_replies": {
+                "line": 1471,
+                "line_end": 1491,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 806,
+                    "line_end": 814,
+                    "indent": 4,
+                    "name": "download_new_replies"
+                }
+            },
+            "test_Controller_on_reply_downloaded_success": {
+                "line": 1494,
+                "line_end": 1505,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 816,
+                    "line_end": 822,
+                    "indent": 4,
+                    "name": "on_reply_download_success"
+                }
+            },
+            "test_Controller_on_reply_downloaded_failure": {
+                "line": 1508,
+                "line_end": 1523,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 824,
+                    "line_end": 838,
+                    "indent": 4,
+                    "name": "on_reply_download_failure"
+                }
+            },
+            "test_Controller_on_reply_downloaded_checksum_failure": {
+                "line": 1526,
+                "line_end": 1547,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 824,
+                    "line_end": 838,
+                    "indent": 4,
+                    "name": "on_reply_download_failure"
+                }
+            },
+            "test_Controller_on_reply_downloaded_decryption_failure": {
+                "line": 1550,
+                "line_end": 1564,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 824,
+                    "line_end": 838,
+                    "indent": 4,
+                    "name": "on_reply_download_failure"
+                }
+            },
+            "test_Controller_download_new_messages_with_new_message": {
+                "line": 1567,
+                "line_end": 1593,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 780,
+                    "indent": 4,
+                    "name": "download_new_messages"
+                }
+            },
+            "test_Controller_download_new_messages_without_messages": {
+                "line": 1596,
+                "line_end": 1616,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 780,
+                    "indent": 4,
+                    "name": "download_new_messages"
+                }
+            },
+            "test_Controller_download_new_messages_skips_recent_failures": {
+                "line": 1619,
+                "line_end": 1650,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 768,
+                    "line_end": 780,
+                    "indent": 4,
+                    "name": "download_new_messages"
+                }
+            },
+            "test_Controller_download_new_replies_skips_recent_failures": {
+                "line": 1653,
+                "line_end": 1685,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 806,
+                    "line_end": 814,
+                    "indent": 4,
+                    "name": "download_new_replies"
+                }
+            },
+            "test_Controller_on_message_downloaded_success": {
+                "line": 1688,
+                "line_end": 1699,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 782,
+                    "line_end": 788,
+                    "indent": 4,
+                    "name": "on_message_download_success"
+                }
+            },
+            "test_Controller_on_message_downloaded_failure": {
+                "line": 1702,
+                "line_end": 1717,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 790,
+                    "line_end": 804,
+                    "indent": 4,
+                    "name": "on_message_download_failure"
+                }
+            },
+            "test_Controller_on_message_downloaded_checksum_failure": {
+                "line": 1720,
+                "line_end": 1737,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 790,
+                    "line_end": 804,
+                    "indent": 4,
+                    "name": "on_message_download_failure"
+                }
+            },
+            "test_Controller_on_message_downloaded_decryption_failure": {
+                "line": 1740,
+                "line_end": 1754,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 790,
+                    "line_end": 804,
+                    "indent": 4,
+                    "name": "on_message_download_failure"
+                }
+            },
+            "test_Controller_on_delete_source_success": {
+                "line": 1757,
+                "line_end": 1767,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 973,
+                    "line_end": 977,
+                    "indent": 4,
+                    "name": "on_delete_source_success"
+                }
+            },
+            "test_Controller_on_delete_source_failure": {
+                "line": 1770,
+                "line_end": 1777,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 979,
+                    "line_end": 983,
+                    "indent": 4,
+                    "name": "on_delete_source_failure"
+                }
+            },
+            "test_Controller_delete_source": {
+                "line": 1796,
+                "line_end": 1829,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 986,
+                    "line_end": 1000,
+                    "indent": 4,
+                    "name": "delete_source"
+                }
+            },
+            "test_Controller_on_reply_success": {
+                "line": 1916,
+                "line_end": 1937,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 1038,
+                    "line_end": 1042,
+                    "indent": 4,
+                    "name": "on_reply_success"
+                }
+            },
+            "test_Controller_on_reply_failure": {
+                "line": 1940,
+                "line_end": 1954,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 1044,
+                    "line_end": 1051,
+                    "indent": 4,
+                    "name": "on_reply_failure"
+                }
+            },
+            "test_Controller_on_reply_failure_for_timeout": {
+                "line": 1957,
+                "line_end": 1971,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 1044,
+                    "line_end": 1051,
+                    "indent": 4,
+                    "name": "on_reply_failure"
+                }
+            },
+            "test_Controller_resume_queues": {
+                "line": 2010,
+                "line_end": 2016,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 431,
+                    "line_end": 436,
+                    "indent": 4,
+                    "name": "resume_queues"
+                }
+            },
+            "test_Controller_on_queue_paused": {
+                "line": 2040,
+                "line_end": 2053,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 429,
+                    "indent": 4,
+                    "name": "on_queue_paused"
+                }
+            },
+            "test_Controller_run_printer_preflight_checks": {
+                "line": 2091,
+                "line_end": 2099,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 888,
+                    "indent": 4,
+                    "name": "run_printer_preflight_checks"
+                }
+            },
+            "test_Controller_run_printer_preflight_checks_not_qubes": {
+                "line": 2102,
+                "line_end": 2114,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 878,
+                    "line_end": 888,
+                    "indent": 4,
+                    "name": "run_printer_preflight_checks"
+                }
+            },
+            "test_Controller_run_print_file": {
+                "line": 2117,
+                "line_end": 2133,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 921,
+                    "line_end": 936,
+                    "indent": 4,
+                    "name": "print_file"
+                }
+            },
+            "test_Controller_run_export_preflight_checks": {
+                "line": 2243,
+                "line_end": 2255,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 890,
+                    "line_end": 900,
+                    "indent": 4,
+                    "name": "run_export_preflight_checks"
+                }
+            },
+            "test_Controller_run_export_preflight_checks_not_qubes": {
+                "line": 2258,
+                "line_end": 2271,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 890,
+                    "line_end": 900,
+                    "indent": 4,
+                    "name": "run_export_preflight_checks"
+                }
+            },
+            "test_Controller_export_file_to_usb_drive": {
+                "line": 2274,
+                "line_end": 2294,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 902,
+                    "line_end": 919,
+                    "indent": 4,
+                    "name": "export_file_to_usb_drive"
+                }
+            },
+            "test_Controller_export_file_to_usb_drive_not_qubes": {
+                "line": 2297,
+                "line_end": 2319,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 902,
+                    "line_end": 919,
+                    "indent": 4,
+                    "name": "export_file_to_usb_drive"
+                }
+            },
+            "test_Controller_export_file_to_usb_drive_file_missing": {
+                "line": 2322,
+                "line_end": 2337,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 902,
+                    "line_end": 919,
+                    "indent": 4,
+                    "name": "export_file_to_usb_drive"
+                }
+            },
+            "test_Controller_export_file_to_usb_drive_file_missing_not_qubes": {
+                "line": 2340,
+                "line_end": 2358,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 902,
+                    "line_end": 919,
+                    "indent": 4,
+                    "name": "export_file_to_usb_drive"
+                }
+            },
+            "test_Controller_export_file_to_usb_drive_when_orig_file_already_exists": {
+                "line": 2361,
+                "line_end": 2380,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 902,
+                    "line_end": 919,
+                    "indent": 4,
+                    "name": "export_file_to_usb_drive"
+                }
+            },
+            "test_get_file": {
+                "line": 2410,
+                "line_end": 2421,
+                "indent": 0,
+                "focal_class": "Controller",
+                "focal_method": {
+                    "line": 1053,
+                    "line_end": 1056,
+                    "indent": 4,
+                    "name": "get_file"
+                }
+            }
+        }
+    },
+    "tests/test_storage.py": {
+        "focal_file": "securedrop_client/storage.py",
+        "methods": {
+            "test_get_local_sources": {
+                "line": 111,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "get_local_sources"
+                }
+            },
+            "test_delete_local_source_by_uuid": {
+                "line": 120,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "delete_local_source_by_uuid"
+                }
+            },
+            "test_delete_local_source_by_uuid_no_files": {
+                "line": 155,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "delete_local_source_by_uuid"
+                }
+            },
+            "test_get_local_messages": {
+                "line": 173,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_local_messages"
+                }
+            },
+            "test_get_local_files": {
+                "line": 182,
+                "line_end": 188,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "get_local_files"
+                }
+            },
+            "test_get_local_replies": {
+                "line": 191,
+                "line_end": 197,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "get_local_replies"
+                }
+            },
+            "test_get_remote_data_handles_api_error": {
+                "line": 200,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_remote_data"
+                }
+            },
+            "test_get_remote_data": {
+                "line": 211,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 120,
+                    "indent": 0,
+                    "name": "get_remote_data"
+                }
+            },
+            "test_update_local_storage": {
+                "line": 229,
+                "line_end": 258,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "update_local_storage"
+                }
+            },
+            "test_update_local_storage_sanitizes_remote_data": {
+                "line": 261,
+                "line_end": 281,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "update_local_storage"
+                }
+            },
+            "test_update_sources": {
+                "line": 356,
+                "line_end": 424,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 253,
+                    "indent": 0,
+                    "name": "update_sources"
+                }
+            },
+            "test_update_files": {
+                "line": 646,
+                "line_end": 708,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "update_files"
+                }
+            },
+            "test_update_files_adds_seen_record": {
+                "line": 711,
+                "line_end": 818,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 262,
+                    "indent": 0,
+                    "name": "update_files"
+                }
+            },
+            "test_update_messages": {
+                "line": 867,
+                "line_end": 932,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 271,
+                    "indent": 0,
+                    "name": "update_messages"
+                }
+            },
+            "test_update_messages_adds_seen_record": {
+                "line": 984,
+                "line_end": 1093,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 271,
+                    "indent": 0,
+                    "name": "update_messages"
+                }
+            },
+            "test_update_replies": {
+                "line": 1096,
+                "line_end": 1170,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 501,
+                    "indent": 0,
+                    "name": "update_replies"
+                }
+            },
+            "test_update_replies_adds_seen_record": {
+                "line": 1173,
+                "line_end": 1281,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 501,
+                    "indent": 0,
+                    "name": "update_replies"
+                }
+            },
+            "test_update_replies_cleanup_drafts": {
+                "line": 1284,
+                "line_end": 1337,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 501,
+                    "indent": 0,
+                    "name": "update_replies"
+                }
+            },
+            "test_update_replies_missing_source": {
+                "line": 1340,
+                "line_end": 1363,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 501,
+                    "indent": 0,
+                    "name": "update_replies"
+                }
+            },
+            "test_create_or_update_user_existing_uuid": {
+                "line": 1376,
+                "line_end": 1386,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 531,
+                    "indent": 0,
+                    "name": "create_or_update_user"
+                }
+            },
+            "test_create_or_update_user_update_username": {
+                "line": 1389,
+                "line_end": 1401,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 531,
+                    "indent": 0,
+                    "name": "create_or_update_user"
+                }
+            },
+            "test_create_or_update_user_new": {
+                "line": 1404,
+                "line_end": 1413,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 531,
+                    "indent": 0,
+                    "name": "create_or_update_user"
+                }
+            },
+            "test_create_or_update_user": {
+                "line": 1416,
+                "line_end": 1438,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 504,
+                    "line_end": 531,
+                    "indent": 0,
+                    "name": "create_or_update_user"
+                }
+            },
+            "test_find_new_messages": {
+                "line": 1441,
+                "line_end": 1466,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 604,
+                    "line_end": 625,
+                    "indent": 0,
+                    "name": "find_new_messages"
+                }
+            },
+            "test_update_missing_files": {
+                "line": 1469,
+                "line_end": 1482,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 534,
+                    "line_end": 544,
+                    "indent": 0,
+                    "name": "update_missing_files"
+                }
+            },
+            "test_find_new_files": {
+                "line": 1485,
+                "line_end": 1492,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 598,
+                    "line_end": 601,
+                    "indent": 0,
+                    "name": "find_new_files"
+                }
+            },
+            "test_find_new_replies": {
+                "line": 1495,
+                "line_end": 1520,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 628,
+                    "line_end": 649,
+                    "indent": 0,
+                    "name": "find_new_replies"
+                }
+            },
+            "test_set_message_decryption_status_with_content_with_content": {
+                "line": 1543,
+                "line_end": 1562,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 706,
+                    "line_end": 716,
+                    "indent": 0,
+                    "name": "set_message_or_reply_content"
+                }
+            },
+            "test_mark_file_as_not_downloaded": {
+                "line": 1565,
+                "line_end": 1573,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 652,
+                    "line_end": 660,
+                    "indent": 0,
+                    "name": "mark_as_not_downloaded"
+                }
+            },
+            "test_mark_file_as_downloaded": {
+                "line": 1576,
+                "line_end": 1583,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 663,
+                    "line_end": 672,
+                    "indent": 0,
+                    "name": "mark_as_downloaded"
+                }
+            },
+            "test_mark_message_as_downloaded": {
+                "line": 1586,
+                "line_end": 1593,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 663,
+                    "line_end": 672,
+                    "indent": 0,
+                    "name": "mark_as_downloaded"
+                }
+            },
+            "test_mark_reply_as_downloaded": {
+                "line": 1596,
+                "line_end": 1603,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 663,
+                    "line_end": 672,
+                    "indent": 0,
+                    "name": "mark_as_downloaded"
+                }
+            },
+            "test_delete_single_submission_or_reply_race_guard": {
+                "line": 1606,
+                "line_end": 1620,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 728,
+                    "line_end": 745,
+                    "indent": 0,
+                    "name": "delete_single_submission_or_reply_on_disk"
+                }
+            },
+            "test_delete_single_submission_or_reply_single_file": {
+                "line": 1623,
+                "line_end": 1648,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 728,
+                    "line_end": 745,
+                    "indent": 0,
+                    "name": "delete_single_submission_or_reply_on_disk"
+                }
+            },
+            "test_delete_single_submission_or_reply_single_file_no_folder": {
+                "line": 1651,
+                "line_end": 1675,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 728,
+                    "line_end": 745,
+                    "indent": 0,
+                    "name": "delete_single_submission_or_reply_on_disk"
+                }
+            },
+            "test_source_exists_true": {
+                "line": 1678,
+                "line_end": 1686,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 748,
+                    "line_end": 753,
+                    "indent": 0,
+                    "name": "source_exists"
+                }
+            },
+            "test_source_exists_false": {
+                "line": 1689,
+                "line_end": 1698,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 748,
+                    "line_end": 753,
+                    "indent": 0,
+                    "name": "source_exists"
+                }
+            },
+            "test_get_file": {
+                "line": 1701,
+                "line_end": 1709,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 756,
+                    "line_end": 757,
+                    "indent": 0,
+                    "name": "get_file"
+                }
+            },
+            "test_get_message": {
+                "line": 1712,
+                "line_end": 1720,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 760,
+                    "line_end": 761,
+                    "indent": 0,
+                    "name": "get_message"
+                }
+            },
+            "test_get_reply": {
+                "line": 1723,
+                "line_end": 1731,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 764,
+                    "line_end": 765,
+                    "indent": 0,
+                    "name": "get_reply"
+                }
+            },
+            "test_update_file_size": {
+                "line": 1754,
+                "line_end": 1769,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 675,
+                    "line_end": 683,
+                    "indent": 0,
+                    "name": "update_file_size"
+                }
+            },
+            "test_update_draft_replies_commit": {
+                "line": 1772,
+                "line_end": 1782,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 547,
+                    "line_end": 595,
+                    "indent": 0,
+                    "name": "update_draft_replies"
+                }
+            }
+        }
+    },
+    "tests/test_export.py": {
+        "focal_file": "securedrop_client/export.py",
+        "methods": {
+            "test_run_printer_preflight": {
+                "line": 10,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 286,
+                    "indent": 4,
+                    "name": "run_printer_preflight"
+                }
+            },
+            "test_run_printer_preflight_error": {
+                "line": 29,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "ExportError",
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 286,
+                    "indent": 4,
+                    "name": "run_printer_preflight"
+                }
+            },
+            "test__run_printer_preflight": {
+                "line": 49,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "_run_printer_preflight"
+                }
+            },
+            "test__run_printer_preflight_raises_ExportError_if_not_empty_string": {
+                "line": 67,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "_run_printer_preflight"
+                }
+            },
+            "test_print": {
+                "line": 79,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 312,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "print"
+                }
+            },
+            "test__run_print": {
+                "line": 126,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "_run_print"
+                }
+            },
+            "test_send_file_to_usb_device": {
+                "line": 155,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "send_file_to_usb_device"
+                }
+            },
+            "test_send_file_to_usb_device_error": {
+                "line": 178,
+                "line_end": 199,
+                "indent": 0,
+                "focal_class": "ExportError",
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "send_file_to_usb_device"
+                }
+            },
+            "test_run_preflight_checks": {
+                "line": 202,
+                "line_end": 220,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "run_preflight_checks"
+                }
+            },
+            "test_run_preflight_checks_error": {
+                "line": 223,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": "ExportError",
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "run_preflight_checks"
+                }
+            },
+            "test__run_disk_export": {
+                "line": 245,
+                "line_end": 263,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 239,
+                    "indent": 4,
+                    "name": "_run_disk_export"
+                }
+            },
+            "test__run_disk_test": {
+                "line": 278,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "_run_disk_test"
+                }
+            },
+            "test__run_usb_test": {
+                "line": 308,
+                "line_end": 323,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "_run_usb_test"
+                }
+            },
+            "test__create_archive": {
+                "line": 338,
+                "line_end": 349,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "_create_archive"
+                }
+            },
+            "test__create_archive_with_an_export_file": {
+                "line": 352,
+                "line_end": 360,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "_create_archive"
+                }
+            },
+            "test__export_archive": {
+                "line": 379,
+                "line_end": 387,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "_export_archive"
+                }
+            },
+            "test__export_archive_with_evil_command": {
+                "line": 403,
+                "line_end": 414,
+                "indent": 0,
+                "focal_class": "Export",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "_export_archive"
+                }
+            }
+        }
+    },
+    "tests/test_queue.py": {
+        "focal_file": "securedrop_client/queue.py",
+        "methods": {
+            "test_ApiJobQueue_on_main_queue_paused": {
+                "line": 311,
+                "line_end": 319,
+                "indent": 0,
+                "focal_class": "ApiJobQueue",
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "on_main_queue_paused"
+                }
+            },
+            "test_ApiJobQueue_on_file_download_queue_paused": {
+                "line": 322,
+                "line_end": 330,
+                "indent": 0,
+                "focal_class": "ApiJobQueue",
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "on_file_download_queue_paused"
+                }
+            },
+            "test_ApiJobQueue_enqueue_no_auth": {
+                "line": 365,
+                "line_end": 382,
+                "indent": 0,
+                "focal_class": "ApiJobQueue",
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 285,
+                    "indent": 4,
+                    "name": "enqueue"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "securedrop_client/utils.py",
+        "methods": {
+            "test_humanize_file_size_bytes": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "humanize_filesize"
+                }
+            },
+            "test_humanize_file_size_kilobytes": {
+                "line": 23,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "humanize_filesize"
+                }
+            },
+            "test_humanize_file_size_megabytes": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 191,
+                    "indent": 0,
+                    "name": "humanize_filesize"
+                }
+            },
+            "test_relative_filepath": {
+                "line": 222,
+                "line_end": 249,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "relative_filepath"
+                }
+            },
+            "test_check_path_traversal": {
+                "line": 252,
+                "line_end": 277,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 148,
+                    "indent": 0,
+                    "name": "check_path_traversal"
+                }
+            },
+            "test_check_all_permissions": {
+                "line": 280,
+                "line_end": 298,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 167,
+                    "indent": 0,
+                    "name": "check_all_permissions"
+                }
+            },
+            "test_check_dir_permissions_unsafe": {
+                "line": 301,
+                "line_end": 309,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 170,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "check_dir_permissions"
+                }
+            }
+        }
+    },
+    "tests/test_sync.py": {
+        "focal_file": "securedrop_client/sync.py",
+        "methods": {
+            "test_ApiSync_start": {
+                "line": 16,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": "ApiSync",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_ApiSync_stop": {
+                "line": 42,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": "ApiSync",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_ApiSyncBackgroundTask_sync": {
+                "line": 68,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": "ApiSync",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 124,
+                    "indent": 4,
+                    "name": "sync"
+                }
+            },
+            "test_ApiSync_on_sync_success": {
+                "line": 141,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": "ApiSync",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "on_sync_success"
+                }
+            },
+            "test_ApiSync_on_sync_failure": {
+                "line": 154,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": "ApiSync",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "on_sync_failure"
+                }
+            },
+            "test_ApiSync_on_sync_failure_because_of_timeout": {
+                "line": 172,
+                "line_end": 186,
+                "indent": 0,
+                "focal_class": "ApiSync",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "on_sync_failure"
+                }
+            }
+        }
+    },
+    "tests/gui/test_widgets.py": {
+        "focal_file": "securedrop_client/gui/widgets.py",
+        "methods": {
+            "test_TopPane_setup": {
+                "line": 76,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": "TopPane",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_TopPane_set_logged_in": {
+                "line": 89,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": "TopPane",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "set_logged_in"
+                }
+            },
+            "test_TopPane_set_logged_out": {
+                "line": 101,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": "TopPane",
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "set_logged_out"
+                }
+            },
+            "test_TopPane_update_activity_status": {
+                "line": 113,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": "TopPane",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "update_activity_status"
+                }
+            },
+            "test_TopPane_update_error_status": {
+                "line": 125,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": "TopPane",
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "update_error_status"
+                }
+            },
+            "test_TopPane_clear_error_status": {
+                "line": 137,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": "TopPane",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "clear_error_status"
+                }
+            },
+            "test_LeftPane_setup": {
+                "line": 158,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": "LeftPane",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_LeftPane_set_logged_in_as": {
+                "line": 172,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": "LeftPane",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "set_logged_in_as"
+                }
+            },
+            "test_LeftPane_set_logged_out": {
+                "line": 186,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": "LeftPane",
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "set_logged_out"
+                }
+            },
+            "test_SyncIcon_setup": {
+                "line": 215,
+                "line_end": 225,
+                "indent": 0,
+                "focal_class": "SyncIcon",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_SyncIcon_enable": {
+                "line": 228,
+                "line_end": 235,
+                "indent": 0,
+                "focal_class": "SyncIcon",
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "enable"
+                }
+            },
+            "test_SyncIcon_disable": {
+                "line": 249,
+                "line_end": 256,
+                "indent": 0,
+                "focal_class": "SyncIcon",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 265,
+                    "indent": 4,
+                    "name": "disable"
+                }
+            },
+            "test_SyncIcon__on_sync_syncing": {
+                "line": 270,
+                "line_end": 280,
+                "indent": 0,
+                "focal_class": "SyncIcon",
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "_on_sync"
+                }
+            },
+            "test_SyncIcon__on_sync_synced": {
+                "line": 283,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": "SyncIcon",
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "_on_sync"
+                }
+            },
+            "test_ErrorStatusBar_update_message": {
+                "line": 326,
+                "line_end": 338,
+                "indent": 0,
+                "focal_class": "ErrorStatusBar",
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 287,
+                    "indent": 4,
+                    "name": "update_message"
+                }
+            },
+            "test_ErrorStatusBar_hide": {
+                "line": 341,
+                "line_end": 351,
+                "indent": 0,
+                "focal_class": "ErrorStatusBar",
+                "focal_method": {
+                    "line": 336,
+                    "line_end": 339,
+                    "indent": 4,
+                    "name": "_hide"
+                }
+            },
+            "test_ErrorStatusBar_show": {
+                "line": 354,
+                "line_end": 364,
+                "indent": 0,
+                "focal_class": "ErrorStatusBar",
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 344,
+                    "indent": 4,
+                    "name": "_show"
+                }
+            },
+            "test_ErrorStatusBar_on_status_timeout": {
+                "line": 367,
+                "line_end": 370,
+                "indent": 0,
+                "focal_class": "ErrorStatusBar",
+                "focal_method": {
+                    "line": 346,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "_on_status_timeout"
+                }
+            },
+            "test_ActivityStatusBar_update_message": {
+                "line": 373,
+                "line_end": 379,
+                "indent": 0,
+                "focal_class": "ActivityStatusBar",
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 287,
+                    "indent": 4,
+                    "name": "update_message"
+                }
+            },
+            "test_UserProfile_setup": {
+                "line": 382,
+                "line_end": 395,
+                "indent": 0,
+                "focal_class": "UserProfile",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_UserProfile__on_update_authenticated_user": {
+                "line": 398,
+                "line_end": 405,
+                "indent": 0,
+                "focal_class": "UserProfile",
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 435,
+                    "indent": 4,
+                    "name": "_on_update_authenticated_user"
+                }
+            },
+            "test_UserProfile_set_user": {
+                "line": 408,
+                "line_end": 417,
+                "indent": 0,
+                "focal_class": "UserProfile",
+                "focal_method": {
+                    "line": 437,
+                    "line_end": 439,
+                    "indent": 4,
+                    "name": "set_user"
+                }
+            },
+            "test_UserProfile_show": {
+                "line": 432,
+                "line_end": 442,
+                "indent": 0,
+                "focal_class": "UserProfile",
+                "focal_method": {
+                    "line": 441,
+                    "line_end": 444,
+                    "indent": 4,
+                    "name": "show"
+                }
+            },
+            "test_UserProfile_hide": {
+                "line": 445,
+                "line_end": 455,
+                "indent": 0,
+                "focal_class": "UserProfile",
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "hide"
+                }
+            },
+            "test_UserButton_setup": {
+                "line": 465,
+                "line_end": 472,
+                "indent": 0,
+                "focal_class": "UserButton",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_UserButton_set_username": {
+                "line": 475,
+                "line_end": 478,
+                "indent": 0,
+                "focal_class": "UserButton",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 494,
+                    "indent": 4,
+                    "name": "set_username"
+                }
+            },
+            "test_UserButton_set_long_username": {
+                "line": 481,
+                "line_end": 485,
+                "indent": 0,
+                "focal_class": "UserButton",
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 494,
+                    "indent": 4,
+                    "name": "set_username"
+                }
+            },
+            "test_UserMenu_setup": {
+                "line": 488,
+                "line_end": 494,
+                "indent": 0,
+                "focal_class": "UserMenu",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_UserMenu_on_logout_triggered": {
+                "line": 497,
+                "line_end": 503,
+                "indent": 0,
+                "focal_class": "UserMenu",
+                "focal_method": {
+                    "line": 516,
+                    "line_end": 520,
+                    "indent": 4,
+                    "name": "_on_logout_triggered"
+                }
+            },
+            "test_LoginButton_setup": {
+                "line": 520,
+                "line_end": 524,
+                "indent": 0,
+                "focal_class": "LoginButton",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_Loginbutton_on_clicked": {
+                "line": 527,
+                "line_end": 531,
+                "indent": 0,
+                "focal_class": "LoginButton",
+                "focal_method": {
+                    "line": 545,
+                    "line_end": 549,
+                    "indent": 4,
+                    "name": "_on_clicked"
+                }
+            },
+            "test_MainView_setup": {
+                "line": 543,
+                "line_end": 551,
+                "indent": 0,
+                "focal_class": "MainView",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_MainView_on_source_changed": {
+                "line": 650,
+                "line_end": 666,
+                "indent": 0,
+                "focal_class": "MainView",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 652,
+                    "indent": 4,
+                    "name": "on_source_changed"
+                }
+            },
+            "test_MainView_set_conversation": {
+                "line": 816,
+                "line_end": 828,
+                "indent": 0,
+                "focal_class": "MainView",
+                "focal_method": {
+                    "line": 667,
+                    "line_end": 678,
+                    "indent": 4,
+                    "name": "set_conversation"
+                }
+            },
+            "test_EmptyConversationView_show_no_sources_message": {
+                "line": 831,
+                "line_end": 837,
+                "indent": 0,
+                "focal_class": "EmptyConversationView",
+                "focal_method": {
+                    "line": 763,
+                    "line_end": 765,
+                    "indent": 4,
+                    "name": "show_no_sources_message"
+                }
+            },
+            "test_EmptyConversationView_show_no_source_selected_message": {
+                "line": 840,
+                "line_end": 846,
+                "indent": 0,
+                "focal_class": "EmptyConversationView",
+                "focal_method": {
+                    "line": 767,
+                    "line_end": 769,
+                    "indent": 4,
+                    "name": "show_no_source_selected_message"
+                }
+            },
+            "test_SourceList_get_selected_source": {
+                "line": 849,
+                "line_end": 864,
+                "indent": 0,
+                "focal_class": "SourceList",
+                "focal_method": {
+                    "line": 939,
+                    "line_end": 946,
+                    "indent": 4,
+                    "name": "get_selected_source"
+                }
+            },
+            "test_SourceList_set_snippet": {
+                "line": 1195,
+                "line_end": 1211,
+                "indent": 0,
+                "focal_class": "SourceListWidgetItem",
+                "focal_method": {
+                    "line": 967,
+                    "line_end": 976,
+                    "indent": 4,
+                    "name": "set_snippet"
+                }
+            },
+            "test_SourceList_get_source_widget": {
+                "line": 1214,
+                "line_end": 1223,
+                "indent": 0,
+                "focal_class": "SourceList",
+                "focal_method": {
+                    "line": 948,
+                    "line_end": 964,
+                    "indent": 4,
+                    "name": "get_source_widget"
+                }
+            },
+            "test_SourceList_get_source_widget_does_not_exist": {
+                "line": 1226,
+                "line_end": 1235,
+                "indent": 0,
+                "focal_class": "SourceList",
+                "focal_method": {
+                    "line": 948,
+                    "line_end": 964,
+                    "indent": 4,
+                    "name": "get_source_widget"
+                }
+            },
+            "test_SourceWidget__on_adjust_preview": {
+                "line": 1528,
+                "line_end": 1541,
+                "indent": 0,
+                "focal_class": "SourceListWidgetItem",
+                "focal_method": {
+                    "line": 1101,
+                    "line_end": 1103,
+                    "indent": 4,
+                    "name": "_on_adjust_preview"
+                }
+            },
+            "test_SourceList_resizeEvent": {
+                "line": 1544,
+                "line_end": 1548,
+                "indent": 0,
+                "focal_class": "SourceList",
+                "focal_method": {
+                    "line": 817,
+                    "line_end": 819,
+                    "indent": 4,
+                    "name": "resizeEvent"
+                }
+            },
+            "test_SourcePreview_adjust_preview": {
+                "line": 1551,
+                "line_end": 1557,
+                "indent": 0,
+                "focal_class": "SourcePreview",
+                "focal_method": {
+                    "line": 985,
+                    "line_end": 998,
+                    "indent": 4,
+                    "name": "adjust_preview"
+                }
+            },
+            "test_SourceWidget_update_styles_to_read": {
+                "line": 1560,
+                "line_end": 1574,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1156,
+                    "line_end": 1183,
+                    "indent": 4,
+                    "name": "update_styles"
+                }
+            },
+            "test_SourceWidget__on_authentication_changed": {
+                "line": 1613,
+                "line_end": 1635,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1186,
+                    "line_end": 1192,
+                    "indent": 4,
+                    "name": "_on_authentication_changed"
+                }
+            },
+            "test_SourceWidget__on_source_selected": {
+                "line": 1638,
+                "line_end": 1653,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1195,
+                    "line_end": 1205,
+                    "indent": 4,
+                    "name": "_on_source_selected"
+                }
+            },
+            "test_SourceWidget_set_snippet": {
+                "line": 1742,
+                "line_end": 1768,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 967,
+                    "line_end": 976,
+                    "indent": 4,
+                    "name": "set_snippet"
+                }
+            },
+            "test_SourceWidget_delete_source": {
+                "line": 1787,
+                "line_end": 1800,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1148,
+                    "line_end": 1154,
+                    "indent": 4,
+                    "name": "delete_source"
+                }
+            },
+            "test_SourceWidget__on_source_deleted": {
+                "line": 1823,
+                "line_end": 1833,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1208,
+                    "line_end": 1214,
+                    "indent": 4,
+                    "name": "_on_source_deleted"
+                }
+            },
+            "test_SourceWidget__on_source_deleted_wrong_uuid": {
+                "line": 1836,
+                "line_end": 1848,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1208,
+                    "line_end": 1214,
+                    "indent": 4,
+                    "name": "_on_source_deleted"
+                }
+            },
+            "test_SourceWidget__on_source_deletion_failed": {
+                "line": 1851,
+                "line_end": 1864,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1217,
+                    "line_end": 1223,
+                    "indent": 4,
+                    "name": "_on_source_deletion_failed"
+                }
+            },
+            "test_SourceWidget__on_source_deletion_failed_wrong_uuid": {
+                "line": 1867,
+                "line_end": 1880,
+                "indent": 0,
+                "focal_class": "SourceWidget",
+                "focal_method": {
+                    "line": 1217,
+                    "line_end": 1223,
+                    "indent": 4,
+                    "name": "_on_source_deletion_failed"
+                }
+            },
+            "test_StarToggleButton_update": {
+                "line": 2168,
+                "line_end": 2209,
+                "indent": 0,
+                "focal_class": "StarToggleButton",
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 890,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_StarToggleButton_on_star_update_failed": {
+                "line": 2231,
+                "line_end": 2245,
+                "indent": 0,
+                "focal_class": "StarToggleButton",
+                "focal_method": {
+                    "line": 1354,
+                    "line_end": 1361,
+                    "indent": 4,
+                    "name": "on_star_update_failed"
+                }
+            },
+            "test_StarToggleButton_on_star_update_successful": {
+                "line": 2265,
+                "line_end": 2276,
+                "indent": 0,
+                "focal_class": "StarToggleButton",
+                "focal_method": {
+                    "line": 1364,
+                    "line_end": 1369,
+                    "indent": 4,
+                    "name": "on_star_update_successful"
+                }
+            },
+            "test_StarToggleButton_on_star_update_successful_for_non_matching_source_uuid": {
+                "line": 2279,
+                "line_end": 2290,
+                "indent": 0,
+                "focal_class": "StarToggleButton",
+                "focal_method": {
+                    "line": 1364,
+                    "line_end": 1369,
+                    "indent": 4,
+                    "name": "on_star_update_successful"
+                }
+            },
+            "test_LoginDialog_setup": {
+                "line": 2293,
+                "line_end": 2304,
+                "indent": 0,
+                "focal_class": "LoginDialog",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "setup"
+                }
+            },
+            "test_LoginDialog_reset": {
+                "line": 2307,
+                "line_end": 2327,
+                "indent": 0,
+                "focal_class": "LoginDialog",
+                "focal_method": {
+                    "line": 1665,
+                    "line_end": 1674,
+                    "indent": 4,
+                    "name": "reset"
+                }
+            },
+            "test_LoginDialog_error": {
+                "line": 2330,
+                "line_end": 2339,
+                "indent": 0,
+                "focal_class": "LoginDialog",
+                "focal_method": {
+                    "line": 1676,
+                    "line_end": 1682,
+                    "indent": 4,
+                    "name": "error"
+                }
+            },
+            "test_LoginErrorBar_set_message": {
+                "line": 2516,
+                "line_end": 2524,
+                "indent": 0,
+                "focal_class": "LoginErrorBar",
+                "focal_method": {
+                    "line": 1512,
+                    "line_end": 1514,
+                    "indent": 4,
+                    "name": "set_message"
+                }
+            },
+            "test_LoginErrorBar_clear_message": {
+                "line": 2527,
+                "line_end": 2535,
+                "indent": 0,
+                "focal_class": "LoginErrorBar",
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 372,
+                    "indent": 4,
+                    "name": "clear_message"
+                }
+            },
+            "test_SpeechBubble_adjust_width": {
+                "line": 2611,
+                "line_end": 2627,
+                "indent": 0,
+                "focal_class": "SpeechBubble",
+                "focal_method": {
+                    "line": 1895,
+                    "line_end": 1905,
+                    "indent": 4,
+                    "name": "adjust_width"
+                }
+            },
+            "test_SpeechBubble_update_text": {
+                "line": 2630,
+                "line_end": 2647,
+                "indent": 0,
+                "focal_class": "SpeechBubble",
+                "focal_method": {
+                    "line": 1908,
+                    "line_end": 1915,
+                    "indent": 4,
+                    "name": "_update_text"
+                }
+            },
+            "test_SpeechBubble__on_download_error": {
+                "line": 2674,
+                "line_end": 2686,
+                "indent": 0,
+                "focal_class": "SpeechBubble",
+                "focal_method": {
+                    "line": 1918,
+                    "line_end": 1925,
+                    "indent": 4,
+                    "name": "_on_download_error"
+                }
+            },
+            "test_MessageWidget_set_failed_to_decrypt_styles": {
+                "line": 2702,
+                "line_end": 2718,
+                "indent": 0,
+                "focal_class": "MessageWidget",
+                "focal_method": {
+                    "line": 1801,
+                    "line_end": 1804,
+                    "indent": 4,
+                    "name": "set_failed_to_decrypt_styles"
+                }
+            },
+            "test_ReplyBoxWidget__on_authentication_changed_updates_badge_when_switched_to_offline": {
+                "line": 2815,
+                "line_end": 2839,
+                "indent": 0,
+                "focal_class": "ReplyWidget",
+                "focal_method": {
+                    "line": 1186,
+                    "line_end": 1192,
+                    "indent": 4,
+                    "name": "_on_authentication_changed"
+                }
+            },
+            "test_ReplyBoxWidget__on_authentication_changed_does_nothing_when_authenticated": {
+                "line": 2842,
+                "line_end": 2869,
+                "indent": 0,
+                "focal_class": "ReplyWidget",
+                "focal_method": {
+                    "line": 1186,
+                    "line_end": 1192,
+                    "indent": 4,
+                    "name": "_on_authentication_changed"
+                }
+            },
+            "test_ReplyWidget__on_update_authenticated_user_does_nothing_when_not_sender": {
+                "line": 2872,
+                "line_end": 2898,
+                "indent": 0,
+                "focal_class": "ReplyWidget",
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 435,
+                    "indent": 4,
+                    "name": "_on_update_authenticated_user"
+                }
+            },
+            "test_ReplyWidget__on_update_authenticated_user": {
+                "line": 2901,
+                "line_end": 2926,
+                "indent": 0,
+                "focal_class": "ReplyWidget",
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 435,
+                    "indent": 4,
+                    "name": "_on_update_authenticated_user"
+                }
+            },
+            "test_ReplyWidget__on_update_authenticated_user_updates_sender_when_changed": {
+                "line": 2929,
+                "line_end": 2962,
+                "indent": 0,
+                "focal_class": "ReplyWidget",
+                "focal_method": {
+                    "line": 434,
+                    "line_end": 435,
+                    "indent": 4,
+                    "name": "_on_update_authenticated_user"
+                }
+            },
+            "test_FileWidget_adjust_width": {
+                "line": 3038,
+                "line_end": 3054,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 1895,
+                    "line_end": 1905,
+                    "indent": 4,
+                    "name": "adjust_width"
+                }
+            },
+            "test_FileWidget_on_left_click_download": {
+                "line": 3125,
+                "line_end": 3144,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2391,
+                    "line_end": 2406,
+                    "indent": 4,
+                    "name": "_on_left_click"
+                }
+            },
+            "test_FileWidget_start_button_animation": {
+                "line": 3170,
+                "line_end": 3183,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2408,
+                    "line_end": 2420,
+                    "indent": 4,
+                    "name": "start_button_animation"
+                }
+            },
+            "test_FileWidget_on_left_click_open": {
+                "line": 3186,
+                "line_end": 3199,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2391,
+                    "line_end": 2406,
+                    "indent": 4,
+                    "name": "_on_left_click"
+                }
+            },
+            "test_FileWidget_set_button_animation_frame": {
+                "line": 3202,
+                "line_end": 3217,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2422,
+                    "line_end": 2427,
+                    "indent": 4,
+                    "name": "set_button_animation_frame"
+                }
+            },
+            "test_FileWidget_update": {
+                "line": 3220,
+                "line_end": 3235,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 831,
+                    "line_end": 890,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_FileWidget__on_export_clicked": {
+                "line": 3363,
+                "line_end": 3383,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2370,
+                    "line_end": 2378,
+                    "indent": 4,
+                    "name": "_on_export_clicked"
+                }
+            },
+            "test_FileWidget__on_export_clicked_missing_file": {
+                "line": 3386,
+                "line_end": 3407,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2370,
+                    "line_end": 2378,
+                    "indent": 4,
+                    "name": "_on_export_clicked"
+                }
+            },
+            "test_FileWidget__on_print_clicked": {
+                "line": 3410,
+                "line_end": 3431,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2381,
+                    "line_end": 2389,
+                    "indent": 4,
+                    "name": "_on_print_clicked"
+                }
+            },
+            "test_FileWidget__on_print_clicked_missing_file": {
+                "line": 3434,
+                "line_end": 3455,
+                "indent": 0,
+                "focal_class": "FileWidget",
+                "focal_method": {
+                    "line": 2381,
+                    "line_end": 2389,
+                    "indent": 4,
+                    "name": "_on_print_clicked"
+                }
+            },
+            "test_ModalDialog_keyPressEvent_cancel_on_enter_when_focused": {
+                "line": 3488,
+                "line_end": 3495,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1648,
+                    "line_end": 1659,
+                    "indent": 4,
+                    "name": "keyPressEvent"
+                }
+            },
+            "test_ModalDialog_keyPressEvent_continue_on_enter": {
+                "line": 3499,
+                "line_end": 3505,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1648,
+                    "line_end": 1659,
+                    "indent": 4,
+                    "name": "keyPressEvent"
+                }
+            },
+            "test_ModalDialog_keyPressEvent_does_not_close_for_other_keys": {
+                "line": 3509,
+                "line_end": 3515,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1648,
+                    "line_end": 1659,
+                    "indent": 4,
+                    "name": "keyPressEvent"
+                }
+            },
+            "test_ModalDialog_animation_of_activestate": {
+                "line": 3518,
+                "line_end": 3543,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2541,
+                    "line_end": 2542,
+                    "indent": 4,
+                    "name": "animate_activestate"
+                }
+            },
+            "test_ModalDialog_animation_of_header": {
+                "line": 3546,
+                "line_end": 3571,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2544,
+                    "line_end": 2545,
+                    "indent": 4,
+                    "name": "animate_header"
+                }
+            },
+            "test_ExportDialog__show_starting_instructions": {
+                "line": 3595,
+                "line_end": 3625,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2638,
+                    "line_end": 2642,
+                    "indent": 4,
+                    "name": "_show_starting_instructions"
+                }
+            },
+            "test_ExportDialog___show_passphrase_request_message": {
+                "line": 3628,
+                "line_end": 3638,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2813,
+                    "line_end": 2823,
+                    "indent": 4,
+                    "name": "_show_passphrase_request_message"
+                }
+            },
+            "test_ExportDialog__show_passphrase_request_message_again": {
+                "line": 3641,
+                "line_end": 3656,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2825,
+                    "line_end": 2836,
+                    "indent": 4,
+                    "name": "_show_passphrase_request_message_again"
+                }
+            },
+            "test_ExportDialog__show_success_message": {
+                "line": 3659,
+                "line_end": 3673,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2838,
+                    "line_end": 2849,
+                    "indent": 4,
+                    "name": "_show_success_message"
+                }
+            },
+            "test_ExportDialog__show_insert_usb_message": {
+                "line": 3676,
+                "line_end": 3691,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2644,
+                    "line_end": 2650,
+                    "indent": 4,
+                    "name": "_show_insert_usb_message"
+                }
+            },
+            "test_ExportDialog__show_insert_encrypted_usb_message": {
+                "line": 3694,
+                "line_end": 3713,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2863,
+                    "line_end": 2874,
+                    "indent": 4,
+                    "name": "_show_insert_encrypted_usb_message"
+                }
+            },
+            "test_ExportDialog__show_generic_error_message": {
+                "line": 3716,
+                "line_end": 3729,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2652,
+                    "line_end": 2659,
+                    "indent": 4,
+                    "name": "_show_generic_error_message"
+                }
+            },
+            "test_ExportDialog__export_file": {
+                "line": 3732,
+                "line_end": 3742,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2893,
+                    "line_end": 2897,
+                    "indent": 4,
+                    "name": "_export_file"
+                }
+            },
+            "test_ExportDialog__on_preflight_success": {
+                "line": 3745,
+                "line_end": 3756,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2671,
+                    "line_end": 2683,
+                    "indent": 4,
+                    "name": "_on_preflight_success"
+                }
+            },
+            "test_ExportDialog__on_preflight_success_when_continue_enabled": {
+                "line": 3759,
+                "line_end": 3765,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2671,
+                    "line_end": 2683,
+                    "indent": 4,
+                    "name": "_on_preflight_success"
+                }
+            },
+            "test_ExportDialog__on_preflight_success_enabled_after_preflight_success": {
+                "line": 3768,
+                "line_end": 3771,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2671,
+                    "line_end": 2683,
+                    "indent": 4,
+                    "name": "_on_preflight_success"
+                }
+            },
+            "test_ExportDialog__on_preflight_success_enabled_after_preflight_failure": {
+                "line": 3774,
+                "line_end": 3777,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2686,
+                    "line_end": 2704,
+                    "indent": 4,
+                    "name": "_on_preflight_failure"
+                }
+            },
+            "test_ExportDialog__on_preflight_failure": {
+                "line": 3780,
+                "line_end": 3786,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2686,
+                    "line_end": 2704,
+                    "indent": 4,
+                    "name": "_on_preflight_failure"
+                }
+            },
+            "test_ExportDialog__on_export_success": {
+                "line": 3789,
+                "line_end": 3794,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2921,
+                    "line_end": 2923,
+                    "indent": 4,
+                    "name": "_on_export_success"
+                }
+            },
+            "test_ExportDialog__on_export_failure": {
+                "line": 3797,
+                "line_end": 3803,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2926,
+                    "line_end": 2930,
+                    "indent": 4,
+                    "name": "_on_export_failure"
+                }
+            },
+            "test_ExportDialog__update_dialog_when_status_is_USB_NOT_CONNECTED": {
+                "line": 3806,
+                "line_end": 3821,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2932,
+                    "line_end": 2956,
+                    "indent": 4,
+                    "name": "_update_dialog"
+                }
+            },
+            "test_ExportDialog__update_dialog_when_status_is_BAD_PASSPHRASE": {
+                "line": 3824,
+                "line_end": 3839,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2932,
+                    "line_end": 2956,
+                    "indent": 4,
+                    "name": "_update_dialog"
+                }
+            },
+            "test_ExportDialog__update_dialog_when_status_is_CALLED_PROCESS_ERROR": {
+                "line": 3862,
+                "line_end": 3879,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2932,
+                    "line_end": 2956,
+                    "indent": 4,
+                    "name": "_update_dialog"
+                }
+            },
+            "test_ExportDialog__update_dialog_when_status_is_unknown": {
+                "line": 3882,
+                "line_end": 3899,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2932,
+                    "line_end": 2956,
+                    "indent": 4,
+                    "name": "_update_dialog"
+                }
+            },
+            "test_PrintDialog__show_starting_instructions": {
+                "line": 3921,
+                "line_end": 3949,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2638,
+                    "line_end": 2642,
+                    "indent": 4,
+                    "name": "_show_starting_instructions"
+                }
+            },
+            "test_PrintDialog__show_insert_usb_message": {
+                "line": 3952,
+                "line_end": 3962,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2644,
+                    "line_end": 2650,
+                    "indent": 4,
+                    "name": "_show_insert_usb_message"
+                }
+            },
+            "test_PrintDialog__show_generic_error_message": {
+                "line": 3965,
+                "line_end": 3977,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2652,
+                    "line_end": 2659,
+                    "indent": 4,
+                    "name": "_show_generic_error_message"
+                }
+            },
+            "test_PrintDialog__print_file": {
+                "line": 3980,
+                "line_end": 3985,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2666,
+                    "line_end": 2668,
+                    "indent": 4,
+                    "name": "_print_file"
+                }
+            },
+            "test_PrintDialog__on_preflight_success": {
+                "line": 3988,
+                "line_end": 3997,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2671,
+                    "line_end": 2683,
+                    "indent": 4,
+                    "name": "_on_preflight_success"
+                }
+            },
+            "test_PrintDialog__on_preflight_success_when_continue_enabled": {
+                "line": 4000,
+                "line_end": 4006,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2671,
+                    "line_end": 2683,
+                    "indent": 4,
+                    "name": "_on_preflight_success"
+                }
+            },
+            "test_PrintDialog__on_preflight_success_enabled_after_preflight_success": {
+                "line": 4009,
+                "line_end": 4012,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2671,
+                    "line_end": 2683,
+                    "indent": 4,
+                    "name": "_on_preflight_success"
+                }
+            },
+            "test_PrintDialog__on_preflight_success_enabled_after_preflight_failure": {
+                "line": 4015,
+                "line_end": 4018,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2686,
+                    "line_end": 2704,
+                    "indent": 4,
+                    "name": "_on_preflight_failure"
+                }
+            },
+            "test_PrintDialog__on_preflight_failure_when_status_is_PRINTER_NOT_FOUND": {
+                "line": 4021,
+                "line_end": 4036,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2686,
+                    "line_end": 2704,
+                    "indent": 4,
+                    "name": "_on_preflight_failure"
+                }
+            },
+            "test_PrintDialog__on_preflight_failure_when_status_is_MISSING_PRINTER_URI": {
+                "line": 4039,
+                "line_end": 4056,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2686,
+                    "line_end": 2704,
+                    "indent": 4,
+                    "name": "_on_preflight_failure"
+                }
+            },
+            "test_PrintDialog__on_preflight_failure_when_status_is_CALLED_PROCESS_ERROR": {
+                "line": 4059,
+                "line_end": 4078,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2686,
+                    "line_end": 2704,
+                    "indent": 4,
+                    "name": "_on_preflight_failure"
+                }
+            },
+            "test_PrintDialog__on_preflight_failure_when_status_is_unknown": {
+                "line": 4081,
+                "line_end": 4098,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2686,
+                    "line_end": 2704,
+                    "indent": 4,
+                    "name": "_on_preflight_failure"
+                }
+            },
+            "test_SourceConversationWrapper__on_source_deleted": {
+                "line": 4101,
+                "line_end": 4107,
+                "indent": 0,
+                "focal_class": "SourceConversationWrapper",
+                "focal_method": {
+                    "line": 1208,
+                    "line_end": 1214,
+                    "indent": 4,
+                    "name": "_on_source_deleted"
+                }
+            },
+            "test_SourceConversationWrapper__on_source_deletion_failed": {
+                "line": 4119,
+                "line_end": 4128,
+                "indent": 0,
+                "focal_class": "SourceConversationWrapper",
+                "focal_method": {
+                    "line": 1217,
+                    "line_end": 1223,
+                    "indent": 4,
+                    "name": "_on_source_deletion_failed"
+                }
+            },
+            "test_SourceConversationWrapper__on_source_deletion_failed_wrong_uuid": {
+                "line": 4131,
+                "line_end": 4140,
+                "indent": 0,
+                "focal_class": "SourceConversationWrapper",
+                "focal_method": {
+                    "line": 1217,
+                    "line_end": 1223,
+                    "indent": 4,
+                    "name": "_on_source_deletion_failed"
+                }
+            },
+            "test_ConversationView_update_conversation_position_follow": {
+                "line": 4179,
+                "line_end": 4200,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3146,
+                    "line_end": 3153,
+                    "indent": 4,
+                    "name": "update_conversation_position"
+                }
+            },
+            "test_ConversationView_update_conversation_position_stay_fixed": {
+                "line": 4203,
+                "line_end": 4219,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3146,
+                    "line_end": 3153,
+                    "indent": 4,
+                    "name": "update_conversation_position"
+                }
+            },
+            "test_ConversationView_add_message": {
+                "line": 4222,
+                "line_end": 4243,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3155,
+                    "line_end": 3170,
+                    "indent": 4,
+                    "name": "add_message"
+                }
+            },
+            "test_ConversationView_on_reply_sent": {
+                "line": 4272,
+                "line_end": 4286,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3234,
+                    "line_end": 3240,
+                    "indent": 4,
+                    "name": "on_reply_sent"
+                }
+            },
+            "test_ConversationView_add_reply_from_reply_box": {
+                "line": 4304,
+                "line_end": 4329,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3208,
+                    "line_end": 3232,
+                    "indent": 4,
+                    "name": "add_reply_from_reply_box"
+                }
+            },
+            "test_ConversationView_add_reply": {
+                "line": 4357,
+                "line_end": 4385,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3172,
+                    "line_end": 3206,
+                    "indent": 4,
+                    "name": "add_reply"
+                }
+            },
+            "test_DeleteSourceMessage_launch_when_user_chooses_cancel": {
+                "line": 4514,
+                "line_end": 4526,
+                "indent": 0,
+                "focal_class": "DeleteSourceMessageBox",
+                "focal_method": {
+                    "line": 1380,
+                    "line_end": 1395,
+                    "indent": 4,
+                    "name": "launch"
+                }
+            },
+            "test_DeleteSourceMessageBox_construct_message": {
+                "line": 4565,
+                "line_end": 4591,
+                "indent": 0,
+                "focal_class": "DeleteSourceMessageBox",
+                "focal_method": {
+                    "line": 1397,
+                    "line_end": 1418,
+                    "indent": 4,
+                    "name": "_construct_message"
+                }
+            },
+            "test_DeleteSourceAction_trigger": {
+                "line": 4609,
+                "line_end": 4621,
+                "indent": 0,
+                "focal_class": "DeleteSourceAction",
+                "focal_method": {
+                    "line": 3599,
+                    "line_end": 3603,
+                    "indent": 4,
+                    "name": "trigger"
+                }
+            },
+            "test_ReplyBoxWidget_send_reply": {
+                "line": 4697,
+                "line_end": 4720,
+                "indent": 0,
+                "focal_class": "SourceConversationWrapper",
+                "focal_method": {
+                    "line": 3389,
+                    "line_end": 3400,
+                    "indent": 4,
+                    "name": "send_reply"
+                }
+            },
+            "test_ReplyBoxWidget_on_synced": {
+                "line": 4762,
+                "line_end": 4777,
+                "indent": 0,
+                "focal_class": "ReplyBoxWidget",
+                "focal_method": {
+                    "line": 3418,
+                    "line_end": 3430,
+                    "indent": 4,
+                    "name": "_on_synced"
+                }
+            },
+            "test_ReplyBoxWidget__on_authentication_changed": {
+                "line": 4841,
+                "line_end": 4852,
+                "indent": 0,
+                "focal_class": "ReplyBoxWidget",
+                "focal_method": {
+                    "line": 1186,
+                    "line_end": 1192,
+                    "indent": 4,
+                    "name": "_on_authentication_changed"
+                }
+            },
+            "test_ReplyBoxWidget_on_authentication_changed_source_deleted": {
+                "line": 4855,
+                "line_end": 4869,
+                "indent": 0,
+                "focal_class": "ReplyBoxWidget",
+                "focal_method": {
+                    "line": 1186,
+                    "line_end": 1192,
+                    "indent": 4,
+                    "name": "_on_authentication_changed"
+                }
+            },
+            "test_ReplyBoxWidget__on_authentication_changed_offline": {
+                "line": 4872,
+                "line_end": 4883,
+                "indent": 0,
+                "focal_class": "ReplyBoxWidget",
+                "focal_method": {
+                    "line": 1186,
+                    "line_end": 1192,
+                    "indent": 4,
+                    "name": "_on_authentication_changed"
+                }
+            },
+            "test_ReplyTextEdit_setText": {
+                "line": 5014,
+                "line_end": 5025,
+                "indent": 0,
+                "focal_class": "ReplyTextEdit",
+                "focal_method": {
+                    "line": 3480,
+                    "line_end": 3485,
+                    "indent": 4,
+                    "name": "setText"
+                }
+            },
+            "test_ReplyTextEdit_set_logged_out": {
+                "line": 5042,
+                "line_end": 5056,
+                "indent": 0,
+                "focal_class": "ReplyTextEdit",
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "set_logged_out"
+                }
+            },
+            "test_ReplyTextEdit_set_logged_in": {
+                "line": 5059,
+                "line_end": 5072,
+                "indent": 0,
+                "focal_class": "ReplyTextEdit",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "set_logged_in"
+                }
+            },
+            "test_update_conversation_maintains_old_items": {
+                "line": 5130,
+                "line_end": 5155,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3057,
+                    "line_end": 3127,
+                    "indent": 4,
+                    "name": "update_conversation"
+                }
+            },
+            "test_update_conversation_keeps_failed_draft_items": {
+                "line": 5232,
+                "line_end": 5264,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3057,
+                    "line_end": 3127,
+                    "indent": 4,
+                    "name": "update_conversation"
+                }
+            },
+            "test_update_conversation_adds_new_items": {
+                "line": 5267,
+                "line_end": 5295,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3057,
+                    "line_end": 3127,
+                    "indent": 4,
+                    "name": "update_conversation"
+                }
+            },
+            "test_update_conversation_position_updates": {
+                "line": 5298,
+                "line_end": 5331,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3057,
+                    "line_end": 3127,
+                    "indent": 4,
+                    "name": "update_conversation"
+                }
+            },
+            "test_update_conversation_content_updates": {
+                "line": 5334,
+                "line_end": 5384,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3057,
+                    "line_end": 3127,
+                    "indent": 4,
+                    "name": "update_conversation"
+                }
+            },
+            "test_update_conversation_updates_sender": {
+                "line": 5387,
+                "line_end": 5406,
+                "indent": 0,
+                "focal_class": "ConversationView",
+                "focal_method": {
+                    "line": 3057,
+                    "line_end": 3127,
+                    "indent": 4,
+                    "name": "update_conversation"
+                }
+            },
+            "test_SourceProfileShortWidget_update_timestamp": {
+                "line": 5469,
+                "line_end": 5483,
+                "indent": 0,
+                "focal_class": "SourceProfileShortWidget",
+                "focal_method": {
+                    "line": 3715,
+                    "line_end": 3720,
+                    "indent": 4,
+                    "name": "update_timestamp"
+                }
+            }
+        }
+    },
+    "tests/api_jobs/test_base.py": {
+        "focal_file": "securedrop_client/api_jobs/base.py",
+        "methods": {
+            "test_ApiJob_no_api": {
+                "line": 27,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "_do_call_api"
+                }
+            }
+        }
+    }
+}

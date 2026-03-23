@@ -1,0 +1,235 @@
+{
+    "ansible_collections/amarao/ip/tests/unit/plugins/modules/test_ip_link_device_attribute.py": {
+        "focal_file": "ansible_collections/amarao/ip/plugins/modules/ip_link_device_attribute.py",
+        "methods": {
+            "test_parse_interface_good_cases": {
+                "line": 127,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 389,
+                    "line_end": 411,
+                    "indent": 4,
+                    "name": "_parse_interface"
+                }
+            },
+            "test_get_interfaces_info_good_parsing": {
+                "line": 142,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 423,
+                    "indent": 4,
+                    "name": "_get_interfaces_info"
+                }
+            },
+            "test_get_interfaces_info_check_calling_args_group": {
+                "line": 148,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 423,
+                    "indent": 4,
+                    "name": "_get_interfaces_info"
+                }
+            },
+            "test_get_interfaces_info_check_calling_args_name": {
+                "line": 157,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 423,
+                    "indent": 4,
+                    "name": "_get_interfaces_info"
+                }
+            },
+            "test_is_changes_needed_for_interface_no_changes": {
+                "line": 166,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "_is_changes_needed_for_interface"
+                }
+            },
+            "test_is_changes_needed_for_interface_one_param": {
+                "line": 185,
+                "line_end": 189,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "_is_changes_needed_for_interface"
+                }
+            },
+            "test_is_changes_needed_for_interface_no_l2": {
+                "line": 193,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "_is_changes_needed_for_interface"
+                }
+            },
+            "test_is_changes_needed_for_nomaster": {
+                "line": 203,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "_is_changes_needed_for_interface"
+                }
+            },
+            "test_is_changes_needed_for_nomaster_without_master": {
+                "line": 211,
+                "line_end": 216,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "_is_changes_needed_for_interface"
+                }
+            },
+            "test_is_changes_needed_for_nomaster_false": {
+                "line": 219,
+                "line_end": 224,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "_is_changes_needed_for_interface"
+                }
+            },
+            "test_apply_change_good": {
+                "line": 244,
+                "line_end": 249,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_apply_changes"
+                }
+            },
+            "test_apply_change_uses_group_id": {
+                "line": 252,
+                "line_end": 258,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_apply_changes"
+                }
+            },
+            "test_apply_change_uses_namespace": {
+                "line": 261,
+                "line_end": 268,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_apply_changes"
+                }
+            },
+            "test_apply_change_master": {
+                "line": 271,
+                "line_end": 277,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_apply_changes"
+                }
+            },
+            "test_apply_change_nomaster_true": {
+                "line": 280,
+                "line_end": 286,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_apply_changes"
+                }
+            },
+            "test_apply_change_nomaster_false": {
+                "line": 289,
+                "line_end": 294,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_apply_changes"
+                }
+            },
+            "test_get_iface_set_good": {
+                "line": 302,
+                "line_end": 307,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 465,
+                    "line_end": 467,
+                    "indent": 4,
+                    "name": "_get_iface_set"
+                }
+            },
+            "test_netns_need_to_move_good": {
+                "line": 315,
+                "line_end": 321,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 469,
+                    "line_end": 503,
+                    "indent": 4,
+                    "name": "_netns_need_to_move"
+                }
+            },
+            "test_netns_need_to_move_bad": {
+                "line": 328,
+                "line_end": 335,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 469,
+                    "line_end": 503,
+                    "indent": 4,
+                    "name": "_netns_need_to_move"
+                }
+            }
+        }
+    }
+}

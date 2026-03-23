@@ -1,0 +1,413 @@
+{
+    "tests/test_connections.py": {
+        "focal_file": "aiospamc/connections.py",
+        "methods": {
+            "test_tcp_connection_manager_open": {
+                "line": 212,
+                "line_end": 217,
+                "indent": 0,
+                "focal_class": "TcpConnectionManager",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "open"
+                }
+            },
+            "test_unix_connection_manager_open": {
+                "line": 252,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": "UnixConnectionManager",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "open"
+                }
+            },
+            "test_ssl_context_from_none": {
+                "line": 288,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "new_ssl_context"
+                }
+            },
+            "test_ssl_context_from_true": {
+                "line": 294,
+                "line_end": 298,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "new_ssl_context"
+                }
+            },
+            "test_ssl_context_from_false": {
+                "line": 301,
+                "line_end": 307,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "new_ssl_context"
+                }
+            },
+            "test_ssl_context_from_dir": {
+                "line": 310,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "new_ssl_context"
+                }
+            },
+            "test_ssl_context_from_file": {
+                "line": 318,
+                "line_end": 326,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "new_ssl_context"
+                }
+            },
+            "test_ssl_context_file_not_found": {
+                "line": 329,
+                "line_end": 333,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 281,
+                    "indent": 0,
+                    "name": "new_ssl_context"
+                }
+            },
+            "test_new_connection_returns_unix_manager": {
+                "line": 336,
+                "line_end": 339,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 296,
+                    "indent": 0,
+                    "name": "new_connection"
+                }
+            },
+            "test_new_connection_returns_tcp_manager": {
+                "line": 342,
+                "line_end": 345,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 296,
+                    "indent": 0,
+                    "name": "new_connection"
+                }
+            }
+        }
+    },
+    "tests/test_incremental_parser.py": {
+        "focal_file": "aiospamc/incremental_parser.py",
+        "methods": {
+            "test_body_transitions_to_done_on_empty_body": {
+                "line": 160,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "body"
+                }
+            },
+            "test_parse": {
+                "line": 204,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_parse_request_status_success": {
+                "line": 235,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 216,
+                    "indent": 0,
+                    "name": "parse_request_status"
+                }
+            },
+            "test_parse_request_status_raises_parseerror": {
+                "line": 247,
+                "line_end": 249,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 216,
+                    "indent": 0,
+                    "name": "parse_request_status"
+                }
+            },
+            "test_parse_response_status_success": {
+                "line": 252,
+                "line_end": 258,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 219,
+                    "line_end": 254,
+                    "indent": 0,
+                    "name": "parse_response_status"
+                }
+            },
+            "test_parse_response_status_raises_parseerror": {
+                "line": 269,
+                "line_end": 271,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 219,
+                    "line_end": 254,
+                    "indent": 0,
+                    "name": "parse_response_status"
+                }
+            },
+            "test_parse_content_length_value_success": {
+                "line": 274,
+                "line_end": 277,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 298,
+                    "indent": 0,
+                    "name": "parse_content_length_value"
+                }
+            },
+            "test_parse_content_length_value_raises_parse_error": {
+                "line": 280,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 298,
+                    "indent": 0,
+                    "name": "parse_content_length_value"
+                }
+            },
+            "test_parse_message_class_value_success": {
+                "line": 294,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 278,
+                    "indent": 0,
+                    "name": "parse_message_class_value"
+                }
+            },
+            "test_parse_message_class_value_raises_parseerror": {
+                "line": 300,
+                "line_end": 302,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 278,
+                    "indent": 0,
+                    "name": "parse_message_class_value"
+                }
+            },
+            "test_parse_set_remove_value_success": {
+                "line": 316,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 312,
+                    "line_end": 338,
+                    "indent": 0,
+                    "name": "parse_set_remove_value"
+                }
+            },
+            "test_parse_spam_value_success": {
+                "line": 338,
+                "line_end": 343,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 375,
+                    "indent": 0,
+                    "name": "parse_spam_value"
+                }
+            },
+            "test_parse_spam_value_raises_parseerror": {
+                "line": 355,
+                "line_end": 357,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 375,
+                    "indent": 0,
+                    "name": "parse_spam_value"
+                }
+            },
+            "test_parse_header_value_standard_bytes": {
+                "line": 360,
+                "line_end": 364,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 382,
+                    "line_end": 406,
+                    "indent": 0,
+                    "name": "parse_header_value"
+                }
+            },
+            "test_parse_header_value_standard_raises": {
+                "line": 367,
+                "line_end": 369,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 382,
+                    "line_end": 406,
+                    "indent": 0,
+                    "name": "parse_header_value"
+                }
+            },
+            "test_parse_header_value_standard_string": {
+                "line": 372,
+                "line_end": 376,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 382,
+                    "line_end": 406,
+                    "indent": 0,
+                    "name": "parse_header_value"
+                }
+            },
+            "test_parse_header_value_generic": {
+                "line": 379,
+                "line_end": 382,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 382,
+                    "line_end": 406,
+                    "indent": 0,
+                    "name": "parse_header_value"
+                }
+            },
+            "test_parse_header_value_bytes": {
+                "line": 385,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 382,
+                    "line_end": 406,
+                    "indent": 0,
+                    "name": "parse_header_value"
+                }
+            },
+            "test_parse_header_success": {
+                "line": 435,
+                "line_end": 439,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 409,
+                    "line_end": 421,
+                    "indent": 0,
+                    "name": "parse_header"
+                }
+            },
+            "test_parse_body_success": {
+                "line": 442,
+                "line_end": 446,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 441,
+                    "indent": 0,
+                    "name": "parse_body"
+                }
+            }
+        }
+    },
+    "tests/test_responses.py": {
+        "focal_file": "aiospamc/responses.py",
+        "methods": {
+            "test_raise_for_status_ok": {
+                "line": 90,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": "Response",
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "raise_for_status"
+                }
+            },
+            "test_raise_for_status": {
+                "line": 117,
+                "line_end": 121,
+                "indent": 0,
+                "focal_class": "Response",
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "raise_for_status"
+                }
+            },
+            "test_raise_for_undefined_status": {
+                "line": 124,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": "Response",
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "raise_for_status"
+                }
+            }
+        }
+    }
+}

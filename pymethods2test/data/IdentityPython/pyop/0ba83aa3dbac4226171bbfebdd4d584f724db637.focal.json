@@ -1,0 +1,591 @@
+{
+    "tests/pyop/test_access_token.py": {
+        "focal_file": "src/pyop/access_token.py",
+        "methods": {
+            "test_access_token_in_request": {
+                "line": 16,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "extract_bearer_token_from_http_request"
+                }
+            }
+        }
+    },
+    "tests/pyop/test_authz_state.py": {
+        "focal_file": "src/pyop/authz_state.py",
+        "methods": {
+            "test_create_authorization_code": {
+                "line": 61,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "create_authorization_code"
+                }
+            },
+            "test_create_authorization_code_with_scope_other_than_auth_req": {
+                "line": 74,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "create_authorization_code"
+                }
+            },
+            "test_create_authorization_code_with_invalid_subject_identifier": {
+                "line": 83,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "create_authorization_code"
+                }
+            },
+            "test_create_access_token": {
+                "line": 89,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "create_access_token"
+                }
+            },
+            "test_introspect_access_token": {
+                "line": 111,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "introspect_access_token"
+                }
+            },
+            "test_introspect_access_token_with_expired_token": {
+                "line": 120,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "introspect_access_token"
+                }
+            },
+            "test_introspect_access_token_with_invalid_access_token": {
+                "line": 135,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "introspect_access_token"
+                }
+            },
+            "test_exchange_code_for_token_with_invalid_code": {
+                "line": 140,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "exchange_code_for_token"
+                }
+            },
+            "test_exchange_code_for_token": {
+                "line": 145,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "exchange_code_for_token"
+                }
+            },
+            "test_exchange_code_for_token_with_scope_other_than_auth_req": {
+                "line": 155,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "exchange_code_for_token"
+                }
+            },
+            "test_exchange_code_for_token_with_expired_token": {
+                "line": 166,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "exchange_code_for_token"
+                }
+            },
+            "test_exchange_code_for_token_with_used_token": {
+                "line": 180,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "exchange_code_for_token"
+                }
+            },
+            "test_create_refresh_token": {
+                "line": 190,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "create_refresh_token"
+                }
+            },
+            "test_create_refresh_token_with_expiration_time": {
+                "line": 216,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "create_refresh_token"
+                }
+            },
+            "test_use_refresh_token": {
+                "line": 228,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "use_refresh_token"
+                }
+            },
+            "test_use_refresh_token_with_invalid_refresh_token": {
+                "line": 256,
+                "line_end": 258,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "use_refresh_token"
+                }
+            },
+            "test_use_refresh_token_with_expired_refresh_token": {
+                "line": 304,
+                "line_end": 316,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "create_refresh_token"
+                }
+            },
+            "test_use_refresh_token_with_superset_scope": {
+                "line": 318,
+                "line_end": 323,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "use_refresh_token"
+                }
+            },
+            "test_use_refresh_token_with_subset_scope": {
+                "line": 325,
+                "line_end": 332,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "use_refresh_token"
+                }
+            },
+            "test_use_refresh_token_without_scope": {
+                "line": 350,
+                "line_end": 357,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "use_refresh_token"
+                }
+            },
+            "test_create_subject_identifier_public": {
+                "line": 359,
+                "line_end": 364,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "get_subject_identifier"
+                }
+            },
+            "test_create_subject_identifier_with_unknown_subject_type": {
+                "line": 387,
+                "line_end": 389,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "get_subject_identifier"
+                }
+            },
+            "test_is_valid_subject_identifier": {
+                "line": 395,
+                "line_end": 397,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 305,
+                    "indent": 4,
+                    "name": "_is_valid_subject_identifier"
+                }
+            },
+            "test_get_authentication_request_for_code": {
+                "line": 399,
+                "line_end": 403,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "get_authorization_request_for_code"
+                }
+            },
+            "test_get_authentication_request_for_access_token": {
+                "line": 405,
+                "line_end": 409,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 325,
+                    "line_end": 330,
+                    "indent": 4,
+                    "name": "get_authorization_request_for_access_token"
+                }
+            },
+            "test_get_subject_identifier_for_code": {
+                "line": 411,
+                "line_end": 415,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 332,
+                    "line_end": 337,
+                    "indent": 4,
+                    "name": "get_subject_identifier_for_code"
+                }
+            },
+            "test_remove_state_for_subject_identifier": {
+                "line": 417,
+                "line_end": 429,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "delete_state_for_subject_identifier"
+                }
+            },
+            "test_remove_state_for_unknown_subject_identifier": {
+                "line": 431,
+                "line_end": 433,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "delete_state_for_subject_identifier"
+                }
+            }
+        }
+    },
+    "tests/pyop/test_client_authentication.py": {
+        "focal_file": "src/pyop/client_authentication.py",
+        "methods": {
+            "test_wrong_authentication_method": {
+                "line": 35,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "verify_client_authentication"
+                }
+            },
+            "test_client_secret_post": {
+                "line": 46,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "verify_client_authentication"
+                }
+            },
+            "test_public_client_no_auth": {
+                "line": 65,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "verify_client_authentication"
+                }
+            }
+        }
+    },
+    "tests/pyop/test_provider.py": {
+        "focal_file": "src/pyop/provider.py",
+        "methods": {
+            "test_parse_authentication_request": {
+                "line": 114,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "parse_authentication_request"
+                }
+            },
+            "test_authorize": {
+                "line": 193,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "authorize"
+                }
+            },
+            "test_code_exchange_request": {
+                "line": 314,
+                "line_end": 319,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 388,
+                    "indent": 4,
+                    "name": "_do_code_exchange"
+                }
+            },
+            "test_handle_userinfo": {
+                "line": 448,
+                "line_end": 456,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "handle_userinfo_request"
+                }
+            },
+            "test_handle_userinfo_with_custom_sub": {
+                "line": 458,
+                "line_end": 465,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "handle_userinfo_request"
+                }
+            },
+            "test_handle_userinfo_rejects_request_missing_access_token": {
+                "line": 467,
+                "line_end": 469,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 428,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "handle_userinfo_request"
+                }
+            },
+            "test_handle_registration_request": {
+                "line": 480,
+                "line_end": 489,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 487,
+                    "line_end": 514,
+                    "indent": 4,
+                    "name": "handle_client_registration_request"
+                }
+            },
+            "test_rejects_mismatching_request": {
+                "line": 528,
+                "line_end": 547,
+                "indent": 4,
+                "focal_class": "Provider",
+                "focal_method": {
+                    "line": 487,
+                    "line_end": 514,
+                    "indent": 4,
+                    "name": "handle_client_registration_request"
+                }
+            },
+            "test_client_can_use_registered_space_separated_response_type_in_authentication_request": {
+                "line": 574,
+                "line_end": 586,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "parse_authentication_request"
+                }
+            },
+            "test_post_logout_redirect": {
+                "line": 633,
+                "line_end": 641,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 526,
+                    "line_end": 547,
+                    "indent": 4,
+                    "name": "do_post_logout_redirect"
+                }
+            },
+            "test_post_logout_redirect_without_post_logout_redirect_uri": {
+                "line": 643,
+                "line_end": 644,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 526,
+                    "line_end": 547,
+                    "indent": 4,
+                    "name": "do_post_logout_redirect"
+                }
+            },
+            "test_post_logout_redirect_with_unknown_post_logout_redirect_uri": {
+                "line": 650,
+                "line_end": 656,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 526,
+                    "line_end": 547,
+                    "indent": 4,
+                    "name": "do_post_logout_redirect"
+                }
+            }
+        }
+    },
+    "tests/pyop/test_storage.py": {
+        "focal_file": "src/pyop/storage.py",
+        "methods": {
+            "test_pop": {
+                "line": 53,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "pop"
+                }
+            },
+            "test_items": {
+                "line": 61,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "items"
+                }
+            },
+            "test_from_uri": {
+                "line": 83,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "from_uri"
+                }
+            }
+        }
+    }
+}

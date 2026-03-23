@@ -1,0 +1,276 @@
+{
+    "test/test_deadlock.py": {
+        "focal_file": "sqlalchemy_exasol/base.py",
+        "methods": {
+            "test_deadlock_for_get_table_names_with_fallback": {
+                "line": 33,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 544,
+                    "indent": 4,
+                    "name": "get_table_names"
+                }
+            },
+            "test_no_deadlock_for_get_pk_constraint_without_fallback": {
+                "line": 56,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 858,
+                    "line_end": 865,
+                    "indent": 4,
+                    "name": "get_pk_constraint"
+                }
+            },
+            "test_no_deadlock_for_get_pk_constraint_with_fallback": {
+                "line": 63,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 858,
+                    "line_end": 865,
+                    "indent": 4,
+                    "name": "get_pk_constraint"
+                }
+            },
+            "test_no_deadlock_for_get_foreign_keys_without_fallback": {
+                "line": 70,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 898,
+                    "line_end": 940,
+                    "indent": 4,
+                    "name": "get_foreign_keys"
+                }
+            },
+            "test_no_deadlock_for_get_foreign_keys_with_fallback": {
+                "line": 78,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 898,
+                    "line_end": 940,
+                    "indent": 4,
+                    "name": "get_foreign_keys"
+                }
+            },
+            "test_no_deadlock_for_get_view_names_with_fallback": {
+                "line": 93,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 597,
+                    "line_end": 602,
+                    "indent": 4,
+                    "name": "get_view_names"
+                }
+            }
+        }
+    },
+    "test/test_get_metadata_functions.py": {
+        "focal_file": "sqlalchemy_exasol/base.py",
+        "methods": {
+            "test_get_schema_names": {
+                "line": 75,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 506,
+                    "line_end": 513,
+                    "indent": 4,
+                    "name": "get_schema_names"
+                }
+            },
+            "test_compare_get_schema_names_for_sql_and_odbc": {
+                "line": 82,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 506,
+                    "line_end": 513,
+                    "indent": 4,
+                    "name": "get_schema_names"
+                }
+            },
+            "test_get_table_names": {
+                "line": 91,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 539,
+                    "line_end": 544,
+                    "indent": 4,
+                    "name": "get_table_names"
+                }
+            },
+            "test_get_view_names": {
+                "line": 137,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 597,
+                    "line_end": 602,
+                    "indent": 4,
+                    "name": "get_view_names"
+                }
+            },
+            "test_get_view_names_for_sys": {
+                "line": 145,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 597,
+                    "line_end": 602,
+                    "indent": 4,
+                    "name": "get_view_names"
+                }
+            },
+            "test_get_view_definition": {
+                "line": 153,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 628,
+                    "indent": 4,
+                    "name": "get_view_definition"
+                }
+            },
+            "test_get_view_definition_view_name_none": {
+                "line": 162,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 628,
+                    "indent": 4,
+                    "name": "get_view_definition"
+                }
+            },
+            "test_compare_get_view_definition_for_sql_and_odbc": {
+                "line": 181,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 628,
+                    "indent": 4,
+                    "name": "get_view_definition"
+                }
+            },
+            "test_get_columns": {
+                "line": 223,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 741,
+                    "line_end": 799,
+                    "indent": 4,
+                    "name": "get_columns"
+                }
+            },
+            "test_get_columns_table_name_none": {
+                "line": 254,
+                "line_end": 259,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 741,
+                    "line_end": 799,
+                    "indent": 4,
+                    "name": "get_columns"
+                }
+            },
+            "test_compare_get_pk_constraint_for_sql_and_odbc": {
+                "line": 264,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 858,
+                    "line_end": 865,
+                    "indent": 4,
+                    "name": "get_pk_constraint"
+                }
+            },
+            "test_get_pk_constraint": {
+                "line": 276,
+                "line_end": 282,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 858,
+                    "line_end": 865,
+                    "indent": 4,
+                    "name": "get_pk_constraint"
+                }
+            },
+            "test_get_pk_constraint_table_name_none": {
+                "line": 286,
+                "line_end": 291,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 858,
+                    "line_end": 865,
+                    "indent": 4,
+                    "name": "get_pk_constraint"
+                }
+            },
+            "test_compare_get_foreign_keys_for_sql_and_odbc": {
+                "line": 296,
+                "line_end": 304,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 898,
+                    "line_end": 940,
+                    "indent": 4,
+                    "name": "get_foreign_keys"
+                }
+            },
+            "test_get_foreign_keys": {
+                "line": 308,
+                "line_end": 319,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 898,
+                    "line_end": 940,
+                    "indent": 4,
+                    "name": "get_foreign_keys"
+                }
+            },
+            "test_get_foreign_keys_table_name_none": {
+                "line": 323,
+                "line_end": 328,
+                "indent": 4,
+                "focal_class": "EXADialect",
+                "focal_method": {
+                    "line": 898,
+                    "line_end": 940,
+                    "indent": 4,
+                    "name": "get_foreign_keys"
+                }
+            }
+        }
+    }
+}

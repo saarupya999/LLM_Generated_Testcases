@@ -1,0 +1,1731 @@
+{
+    "src/unittest/python/cli_tests.py": {
+        "focal_file": "src/main/python/pybuilder/cli.py",
+        "methods": {
+            "test_generic_error_message": {
+                "line": 246,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 405,
+                    "indent": 0,
+                    "name": "get_failure_message"
+                }
+            },
+            "test_pyb_error_message": {
+                "line": 252,
+                "line_end": 256,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 405,
+                    "indent": 0,
+                    "name": "get_failure_message"
+                }
+            }
+        }
+    },
+    "src/unittest/python/execution_tests.py": {
+        "focal_file": "src/main/python/pybuilder/execution.py",
+        "methods": {
+            "test_ensure_that_initializer_is_added_when_calling_register_initializer": {
+                "line": 253,
+                "line_end": 256,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "register_initializer"
+                }
+            },
+            "test_ensure_that_registered_initializers_are_executed_when_calling_execute_initializers": {
+                "line": 258,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 304,
+                    "indent": 4,
+                    "name": "execute_initializers"
+                }
+            },
+            "test_ensure_task_is_added_when_calling_register_task": {
+                "line": 286,
+                "line_end": 289,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "register_task"
+                }
+            },
+            "test_ensure_task_is_executed_when_calling_execute_task": {
+                "line": 305,
+                "line_end": 313,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 321,
+                    "line_end": 379,
+                    "indent": 4,
+                    "name": "execute_task"
+                }
+            },
+            "test_verify_late_dependency": {
+                "line": 593,
+                "line_end": 610,
+                "indent": 4,
+                "focal_class": "TaskDependency",
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "register_late_task_dependencies"
+                }
+            },
+            "test_verify_error_unresolved_late_dependency": {
+                "line": 629,
+                "line_end": 637,
+                "indent": 4,
+                "focal_class": "TaskDependency",
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "register_late_task_dependencies"
+                }
+            },
+            "test_should_collect_all_tasks_when_several_tasks_given": {
+                "line": 665,
+                "line_end": 672,
+                "indent": 4,
+                "focal_class": "TaskDependency",
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 430,
+                    "indent": 4,
+                    "name": "collect_all_transitive_tasks"
+                }
+            },
+            "test_shortest_execution_plan_is_shortest": {
+                "line": 783,
+                "line_end": 796,
+                "indent": 4,
+                "focal_class": "TaskDependency",
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 468,
+                    "indent": 4,
+                    "name": "build_shortest_execution_plan"
+                }
+            },
+            "test_shortest_execution_plan_reruns_on_demand": {
+                "line": 828,
+                "line_end": 841,
+                "indent": 4,
+                "focal_class": "TaskDependency",
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 468,
+                    "indent": 4,
+                    "name": "build_shortest_execution_plan"
+                }
+            },
+            "test_is_task_in_current_execution_plan": {
+                "line": 908,
+                "line_end": 920,
+                "indent": 4,
+                "focal_class": "TaskDependency",
+                "focal_method": {
+                    "line": 550,
+                    "line_end": 555,
+                    "indent": 4,
+                    "name": "is_task_in_current_execution_plan"
+                }
+            },
+            "test_shortest_execution_plan_executed": {
+                "line": 940,
+                "line_end": 961,
+                "indent": 4,
+                "focal_class": "TaskDependency",
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 468,
+                    "indent": 4,
+                    "name": "build_shortest_execution_plan"
+                }
+            }
+        }
+    },
+    "src/unittest/python/external_command_tests.py": {
+        "focal_file": "src/main/python/pybuilder/pluginhelper/external_command.py",
+        "methods": {
+            "test_should_add_conditional_argument_when_property_is_truthy": {
+                "line": 43,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "only_if_property_is_truthy"
+                }
+            },
+            "test_should_execute_external_command_on_production_source_files_dirs_only": {
+                "line": 126,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "run_on_production_source_files"
+                }
+            },
+            "test_should_execute_external_command_on_production_source_files": {
+                "line": 143,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "run_on_production_source_files"
+                }
+            },
+            "test_should_execute_external_command_on_production_and_test_source_files": {
+                "line": 160,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "run_on_production_and_test_source_files"
+                }
+            }
+        }
+    },
+    "src/unittest/python/graph_utils_tests.py": {
+        "focal_file": "src/main/python/pybuilder/graph_utils.py",
+        "methods": {
+            "test_should_find_trivial_cycle_in_graph_when_there_is_one": {
+                "line": 25,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "Graph",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "assert_no_trivial_cycles_present"
+                }
+            },
+            "test_should_find_trivial_cycle_in_graph_when_searching_for_cycles": {
+                "line": 33,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "Graph",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "assert_no_cycles_present"
+                }
+            },
+            "test_should_not_find_trivial_cycles_in_graph_when_there_are_none": {
+                "line": 37,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "Graph",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "assert_no_trivial_cycles_present"
+                }
+            }
+        }
+    },
+    "src/unittest/python/install_utils_tests.py": {
+        "focal_file": "src/main/python/pybuilder/install_utils.py",
+        "methods": {
+            "test_should_install_dependency_without_version": {
+                "line": 68,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "install_dependencies"
+                }
+            },
+            "test_should_install_dependency_using_custom_index_url": {
+                "line": 130,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "install_dependencies"
+                }
+            },
+            "test_should_install_dependency_with_version": {
+                "line": 176,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "install_dependencies"
+                }
+            },
+            "test_should_install_dependency_with_version_and_operator": {
+                "line": 190,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "install_dependencies"
+                }
+            },
+            "test_should_install_dependency_with_url": {
+                "line": 206,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "install_dependencies"
+                }
+            }
+        }
+    },
+    "src/unittest/python/pip_utils_tests.py": {
+        "focal_file": "src/main/python/pybuilder/pip_utils.py",
+        "methods": {
+            "test_pip_dependency_version": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "build_dependency_version_string"
+                }
+            },
+            "test_version_satisfies_spec": {
+                "line": 36,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 296,
+                    "indent": 0,
+                    "name": "version_satisfies_spec"
+                }
+            },
+            "test_get_package_version": {
+                "line": 44,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 224,
+                    "line_end": 240,
+                    "indent": 0,
+                    "name": "get_package_version"
+                }
+            },
+            "test_build_pip_install_options": {
+                "line": 71,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 198,
+                    "indent": 0,
+                    "name": "build_pip_install_options"
+                }
+            }
+        }
+    },
+    "src/unittest/python/pluginloader_tests.py": {
+        "focal_file": "src/main/python/pybuilder/pluginloader.py",
+        "methods": {
+            "test_should_install_plugin": {
+                "line": 178,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": "DownloadingPluginLoader",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "install_plugin"
+                }
+            },
+            "test_should_install_plugin_with_version": {
+                "line": 192,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": "DownloadingPluginLoader",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "install_plugin"
+                }
+            },
+            "test_should_install_plugin_with_vcs": {
+                "line": 220,
+                "line_end": 232,
+                "indent": 4,
+                "focal_class": "DownloadingPluginLoader",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "install_plugin"
+                }
+            }
+        }
+    },
+    "src/unittest/python/reactor_tests.py": {
+        "focal_file": "src/main/python/pybuilder/reactor.py",
+        "methods": {
+            "test_should_return_tasks_from_execution_manager_when_calling_get_tasks": {
+                "line": 53,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "get_tasks"
+                }
+            },
+            "test_should_collect_single_after_action": {
+                "line": 255,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 323,
+                    "line_end": 400,
+                    "indent": 4,
+                    "name": "collect_project_annotations"
+                }
+            },
+            "test_should_return_directory_and_full_path_of_descriptor_when_verifying_project_directory": {
+                "line": 402,
+                "line_end": 415,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 470,
+                    "line_end": 488,
+                    "indent": 4,
+                    "name": "verify_project_directory"
+                }
+            },
+            "test_ensure_project_properties_are_logged_when_calling_log_project_properties": {
+                "line": 485,
+                "line_end": 497,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 308,
+                    "indent": 4,
+                    "name": "log_project_properties"
+                }
+            },
+            "test_prepare_tasks": {
+                "line": 505,
+                "line_end": 532,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 424,
+                    "line_end": 455,
+                    "indent": 4,
+                    "name": "_prepare_tasks"
+                }
+            }
+        }
+    },
+    "src/unittest/python/scaffolding_tests.py": {
+        "focal_file": "src/main/python/pybuilder/scaffolding.py",
+        "methods": {
+            "test_should_build_initializer_for_custom_source_dir": {
+                "line": 48,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": "PythonProjectScaffolding",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 276,
+                    "indent": 4,
+                    "name": "build_initializer"
+                }
+            },
+            "test_should_build_initializer_for_custom_test_dir": {
+                "line": 57,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "PythonProjectScaffolding",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 276,
+                    "indent": 4,
+                    "name": "build_initializer"
+                }
+            },
+            "test_should_render_build_descriptor_with_custom_dirs": {
+                "line": 77,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "PythonProjectScaffolding",
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "render_build_descriptor"
+                }
+            },
+            "test_should_render_build_descriptor_without_custom_dirs": {
+                "line": 99,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": "PythonProjectScaffolding",
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "render_build_descriptor"
+                }
+            },
+            "test_should_render_build_descriptor_with_additional_imports": {
+                "line": 118,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": "PythonProjectScaffolding",
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "render_build_descriptor"
+                }
+            },
+            "test_should_collect_project_name": {
+                "line": 171,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "collect_project_information"
+                }
+            }
+        }
+    },
+    "src/unittest/python/utils_tests.py": {
+        "focal_file": "src/main/python/pybuilder/utils.py",
+        "methods": {
+            "test_should_render_report": {
+                "line": 63,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "render_report"
+                }
+            },
+            "test_should_format_timestamp": {
+                "line": 87,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "format_timestamp"
+                }
+            },
+            "test_should_wrap_single_string_as_list": {
+                "line": 99,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "as_list"
+                }
+            },
+            "test_should_wrap_two_strings_as_list": {
+                "line": 102,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "as_list"
+                }
+            },
+            "test_execute_command": {
+                "line": 357,
+                "line_end": 363,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "execute_command"
+                }
+            }
+        }
+    },
+    "src/unittest/python/vcs_tests.py": {
+        "focal_file": "src/main/python/pybuilder/vcs.py",
+        "methods": {
+            "test_should_return_rev_and_travis_info_when_count_travis": {
+                "line": 127,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 121,
+                    "indent": 0,
+                    "name": "count_travis"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/exec_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/exec_plugin.py",
+        "methods": {
+            "test_should_run_unit_tests": {
+                "line": 30,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "run_unit_tests"
+                }
+            },
+            "test_should_run_integration_tests": {
+                "line": 39,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "run_integration_tests"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/ronn_manpage_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/ronn_manpage_plugin.py",
+        "methods": {
+            "test_should_generate_command_abiding_to_configuration": {
+                "line": 35,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "build_generate_manpages_command"
+                }
+            },
+            "test_should_check_that_ronn_is_executable": {
+                "line": 71,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "assert_ronn_is_executable"
+                }
+            },
+            "test_should_check_that_gzip_is_executable": {
+                "line": 78,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "assert_gzip_is_executable"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/coverage_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/coverage_plugin.py",
+        "methods": {
+            "test_build_module_report_zero_content": {
+                "line": 69,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 327,
+                    "indent": 0,
+                    "name": "_build_module_report"
+                }
+            },
+            "test_build_module_report_zero_coverage": {
+                "line": 86,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 327,
+                    "indent": 0,
+                    "name": "_build_module_report"
+                }
+            },
+            "test_build_module_report_half_coverage": {
+                "line": 103,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 327,
+                    "indent": 0,
+                    "name": "_build_module_report"
+                }
+            },
+            "test_build_coverage_report_no_modules": {
+                "line": 119,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 330,
+                    "line_end": 445,
+                    "indent": 0,
+                    "name": "_build_coverage_report"
+                }
+            },
+            "test_build_coverage_report_two_module": {
+                "line": 134,
+                "line_end": 176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 330,
+                    "line_end": 445,
+                    "indent": 0,
+                    "name": "_build_coverage_report"
+                }
+            },
+            "test__optimize_omit_module_files": {
+                "line": 178,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 323,
+                    "indent": 0,
+                    "name": "_optimize_omit_module_files"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/cram_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/cram_plugin.py",
+        "methods": {
+            "test_find_files": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "_find_files"
+                }
+            },
+            "test_report": {
+                "line": 60,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "_report_file"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/distutils_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/distutils_plugin.py",
+        "methods": {
+            "test_should_return_single_dependency_string": {
+                "line": 95,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "build_install_dependencies_string"
+                }
+            },
+            "test_should_return_single_dependency_string_with_version": {
+                "line": 100,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "build_install_dependencies_string"
+                }
+            },
+            "test_should_return_multiple_dependencies_string_with_versions": {
+                "line": 105,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "build_install_dependencies_string"
+                }
+            },
+            "test_should_not_insert_url_dependency_into_install_requires": {
+                "line": 112,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 449,
+                    "line_end": 471,
+                    "indent": 0,
+                    "name": "build_install_dependencies_string"
+                }
+            },
+            "test_should_return_dependency_link": {
+                "line": 195,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 501,
+                    "indent": 0,
+                    "name": "build_dependency_links_string"
+                }
+            },
+            "test_should_return_dependency_links": {
+                "line": 202,
+                "line_end": 210,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 474,
+                    "line_end": 501,
+                    "indent": 0,
+                    "name": "build_dependency_links_string"
+                }
+            },
+            "test_should_return_empty_data_files_string": {
+                "line": 277,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 514,
+                    "line_end": 534,
+                    "indent": 0,
+                    "name": "build_data_files_string"
+                }
+            },
+            "test_should_return_data_files_string_including_several_files": {
+                "line": 280,
+                "line_end": 288,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 514,
+                    "line_end": 534,
+                    "indent": 0,
+                    "name": "build_data_files_string"
+                }
+            },
+            "test_should_return_package_data_string_when_including_file": {
+                "line": 309,
+                "line_end": 315,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 537,
+                    "line_end": 558,
+                    "indent": 0,
+                    "name": "build_package_data_string"
+                }
+            },
+            "test_should_return_package_data_string_when_including_three_files": {
+                "line": 317,
+                "line_end": 326,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 537,
+                    "line_end": 558,
+                    "indent": 0,
+                    "name": "build_package_data_string"
+                }
+            },
+            "test_should_render_setup_file": {
+                "line": 386,
+                "line_end": 465,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 253,
+                    "indent": 0,
+                    "name": "render_setup_script"
+                }
+            },
+            "test_should_render_setup_file_install_script_wrappers": {
+                "line": 467,
+                "line_end": 547,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 253,
+                    "indent": 0,
+                    "name": "render_setup_script"
+                }
+            },
+            "test_normalize_setup_post_pre_script": {
+                "line": 632,
+                "line_end": 647,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 703,
+                    "line_end": 706,
+                    "indent": 0,
+                    "name": "_normalize_setup_post_pre_script"
+                }
+            },
+            "test_build_string_from_array_empty": {
+                "line": 651,
+                "line_end": 652,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 665,
+                    "indent": 0,
+                    "name": "build_string_from_array"
+                }
+            },
+            "test_build_string_from_array_simple": {
+                "line": 654,
+                "line_end": 655,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 665,
+                    "indent": 0,
+                    "name": "build_string_from_array"
+                }
+            },
+            "test_build_string_from_array_of_array_of_empty": {
+                "line": 657,
+                "line_end": 658,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 665,
+                    "indent": 0,
+                    "name": "build_string_from_array"
+                }
+            },
+            "test_build_string_from_array_of_array_single_element": {
+                "line": 660,
+                "line_end": 661,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 665,
+                    "indent": 0,
+                    "name": "build_string_from_array"
+                }
+            },
+            "test_build_string_from_array_of_array_multiple_elements": {
+                "line": 663,
+                "line_end": 667,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 665,
+                    "indent": 0,
+                    "name": "build_string_from_array"
+                }
+            },
+            "test_build_string_from_array_of_arrays_single_element": {
+                "line": 669,
+                "line_end": 673,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 665,
+                    "indent": 0,
+                    "name": "build_string_from_array"
+                }
+            },
+            "test_build_string_from_array_of_arrays_multiple_elements": {
+                "line": 675,
+                "line_end": 685,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 637,
+                    "line_end": 665,
+                    "indent": 0,
+                    "name": "build_string_from_array"
+                }
+            },
+            "test_should_render_manifest_file": {
+                "line": 689,
+                "line_end": 697,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 348,
+                    "line_end": 358,
+                    "indent": 0,
+                    "name": "render_manifest_file"
+                }
+            },
+            "test_upload": {
+                "line": 768,
+                "line_end": 776,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 340,
+                    "indent": 0,
+                    "name": "upload"
+                }
+            },
+            "test_install_with_index_url": {
+                "line": 878,
+                "line_end": 889,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "install_distribution"
+                }
+            },
+            "test_binary_distribution": {
+                "line": 894,
+                "line_end": 904,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 282,
+                    "indent": 0,
+                    "name": "build_binary_distribution"
+                }
+            },
+            "test_binary_distribution_with_command_options": {
+                "line": 909,
+                "line_end": 921,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 282,
+                    "indent": 0,
+                    "name": "build_binary_distribution"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/install_dependencies_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/install_dependencies_plugin.py",
+        "methods": {
+            "test_should_install_multiple_dependencies": {
+                "line": 126,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "install_build_dependencies"
+                }
+            },
+            "test_should_install_multiple_dependencies_locally": {
+                "line": 75,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "install_runtime_dependencies"
+                }
+            },
+            "test_should_install_single_dependency_without_version": {
+                "line": 165,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "install_dependencies"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/integrationtest_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/integrationtest_plugin.py",
+        "methods": {
+            "test_should_merge_additional_environment_into_current_one": {
+                "line": 157,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 188,
+                    "indent": 0,
+                    "name": "add_additional_environment_keys"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/pdoc_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/pdoc_plugin.py",
+        "methods": {
+            "test_pdoc_prepare_works": {
+                "line": 44,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "pdoc_prepare"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/pycharm_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/pycharm_plugin.py",
+        "methods": {
+            "test_should_create_pycharm_directory_if_not_present": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_ensure_directory_present"
+                }
+            },
+            "test_should_not_create_pycharm_directory_if_present": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_ensure_directory_present"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/pychecker_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/pychecker_plugin.py",
+        "methods": {
+            "test_to_json_dict": {
+                "line": 54,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "PycheckerModuleReport",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "to_json_dict"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/pymetrics_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/pymetrics_plugin.py",
+        "methods": {
+            "test_should_check_that_pymetrics_can_be_executed": {
+                "line": 28,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "check_pymetrics_available"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/pytddmon_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/pytddmon_plugin.py",
+        "methods": {
+            "test_should_run_pytddmon": {
+                "line": 29,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "pytddmon"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/python_plugin_helper_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/python_plugin_helper.py",
+        "methods": {
+            "test_if_property_set_and_dir_exists": {
+                "line": 209,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "_if_property_set_and_dir_exists"
+                }
+            },
+            "test_if_property_set_and_dir_not_exists": {
+                "line": 214,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "_if_property_set_and_dir_exists"
+                }
+            },
+            "test_if_property_not_set_and_dir_not_exists": {
+                "line": 219,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "_if_property_set_and_dir_exists"
+                }
+            },
+            "test_should_execute_tool_on_source_files": {
+                "line": 228,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "execute_tool_on_source_files"
+                }
+            },
+            "test_should_execute_tool_on_source_dirs": {
+                "line": 242,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "execute_tool_on_source_files"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/snakefood_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/snakefood_plugin.py",
+        "methods": {
+            "test_should_check_that_snakefood_is_available": {
+                "line": 43,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "check_snakefood_available"
+                }
+            },
+            "test_should_check_that_graphviz_is_available": {
+                "line": 51,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "check_graphviz_available"
+                }
+            },
+            "test_should_call_generate_graph": {
+                "line": 59,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "generate_graph"
+                }
+            },
+            "test_should_call_generate_pdf": {
+                "line": 68,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "generate_pdf"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/sonarqube_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/sonarqube_plugin.py",
+        "methods": {
+            "test_should_build_sonar_scanner_for_project": {
+                "line": 45,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "build_sonar_scanner"
+                }
+            },
+            "test_should_set_sonar_key_to_specific_value": {
+                "line": 78,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "set_sonar_key"
+                }
+            },
+            "test_should_set_sonar_key_to_property_value": {
+                "line": 88,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "to_property_value"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/sphinx_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/sphinx_plugin.py",
+        "methods": {
+            "test_should_check_that_sphinx_quickstart_can_be_executed": {
+                "line": 56,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "assert_sphinx_quickstart_is_available"
+                }
+            },
+            "test_should_generate_sphinx_build_command_per_project_properties": {
+                "line": 136,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "get_sphinx_build_command"
+                }
+            },
+            "test_should_generate_sphinx_build_command_verbose": {
+                "line": 149,
+                "line_end": 161,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "get_sphinx_build_command"
+                }
+            },
+            "test_should_generate_sphinx_build_command_debug": {
+                "line": 163,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "get_sphinx_build_command"
+                }
+            },
+            "test_should_generate_sphinx_build_command_forced_builder_dir": {
+                "line": 180,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "get_sphinx_build_command"
+                }
+            },
+            "test_should_generate_sphinx_build_command_builder_dir": {
+                "line": 194,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "get_sphinx_build_command"
+                }
+            },
+            "test_should_generate_sphinx_quickstart_command_with_project_properties": {
+                "line": 208,
+                "line_end": 219,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 269,
+                    "indent": 0,
+                    "name": "get_sphinx_quickstart_command"
+                }
+            },
+            "test_get_sphinx_apidoc_command_enabled": {
+                "line": 229,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 321,
+                    "indent": 0,
+                    "name": "get_sphinx_apidoc_command"
+                }
+            },
+            "test_get_sphinx_apidoc_command_enabled_with_pep420": {
+                "line": 253,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 321,
+                    "indent": 0,
+                    "name": "get_sphinx_apidoc_command"
+                }
+            },
+            "test_sphinx_pyb_quickstart_generate": {
+                "line": 292,
+                "line_end": 330,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 252,
+                    "indent": 0,
+                    "name": "sphinx_pyb_quickstart_generate"
+                }
+            },
+            "test_sphinx_generate": {
+                "line": 336,
+                "line_end": 383,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 176,
+                    "line_end": 193,
+                    "indent": 0,
+                    "name": "sphinx_generate"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/test_plugin_helper_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/test_plugin_helper.py",
+        "methods": {
+            "test_should_not_raise_exception_when_all_tests_pass": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "write_report_and_ensure_all_tests_passed"
+                }
+            },
+            "test_should_parse_reports": {
+                "line": 49,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "process_reports"
+                }
+            }
+        }
+    },
+    "src/unittest/python/plugins/python/unittest_plugin_tests.py": {
+        "focal_file": "src/main/python/pybuilder/plugins/python/unittest_plugin.py",
+        "methods": {
+            "test_should_report_passed_tests_to_ci_server": {
+                "line": 93,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 279,
+                    "indent": 0,
+                    "name": "report_to_ci_server"
+                }
+            },
+            "test_should_report_failed_tests_to_ci_server": {
+                "line": 111,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 279,
+                    "indent": 0,
+                    "name": "report_to_ci_server"
+                }
+            },
+            "test_create_runner_from_class": {
+                "line": 190,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "_create_runner"
+                }
+            },
+            "test_create_runner_from_str": {
+                "line": 193,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "_create_runner"
+                }
+            },
+            "test_create_runner_from_tuple_class": {
+                "line": 196,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "_create_runner"
+                }
+            },
+            "test_create_runner_from_tuple_str": {
+                "line": 199,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "_create_runner"
+                }
+            },
+            "test_get_make_result_method_name_default": {
+                "line": 202,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 192,
+                    "indent": 0,
+                    "name": "_get_make_result_method_name"
+                }
+            },
+            "test_get_make_result_method_name_from_str": {
+                "line": 205,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 192,
+                    "indent": 0,
+                    "name": "_get_make_result_method_name"
+                }
+            },
+            "test_get_make_result_method_name_from_method": {
+                "line": 208,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 192,
+                    "indent": 0,
+                    "name": "_get_make_result_method_name"
+                }
+            },
+            "test_get_make_result_method_name_from_func": {
+                "line": 211,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 192,
+                    "indent": 0,
+                    "name": "_get_make_result_method_name"
+                }
+            }
+        }
+    }
+}

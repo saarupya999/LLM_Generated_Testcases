@@ -1,0 +1,313 @@
+{
+    "test/test_hyper.py": {
+        "focal_file": "hyper/http20/response.py",
+        "methods": {
+            "test_streams_are_cleared_from_connections_on_close": {
+                "line": 417,
+                "line_end": 432,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_streams_raise_error_on_read_after_close": {
+                "line": 434,
+                "line_end": 448,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_response_calls_stream_close": {
+                "line": 1132,
+                "line_end": 1138,
+                "indent": 4,
+                "focal_class": "HTTP20Response",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "test/test_cli.py": {
+        "focal_file": "hyper/cli.py",
+        "methods": {
+            "test_parse_argument": {
+                "line": 130,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 217,
+                    "indent": 0,
+                    "name": "parse_argument"
+                }
+            },
+            "test_get_content_type_and_charset": {
+                "line": 147,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 220,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "get_content_type_and_charset"
+                }
+            },
+            "test_set_request_data": {
+                "line": 183,
+                "line_end": 186,
+                "indent": 0,
+                "focal_class": "KeyValue",
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 199,
+                    "indent": 0,
+                    "name": "set_request_data"
+                }
+            },
+            "test_set_url_info": {
+                "line": 231,
+                "line_end": 234,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 164,
+                    "indent": 0,
+                    "name": "set_url_info"
+                }
+            }
+        }
+    },
+    "test/test_parser.py": {
+        "focal_file": "hyper/http11/parser.py",
+        "methods": {
+            "test_short_response_one": {
+                "line": 47,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "parse_response"
+                }
+            },
+            "test_short_response_two": {
+                "line": 60,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "Parser",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "parse_response"
+                }
+            }
+        }
+    },
+    "test/test_headers.py": {
+        "focal_file": "hyper/common/headers.py",
+        "methods": {
+            "test_keys": {
+                "line": 78,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "HTTPHeaderMap",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "keys"
+                }
+            },
+            "test_values": {
+                "line": 87,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "HTTPHeaderMap",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "values"
+                }
+            },
+            "test_items": {
+                "line": 96,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": "HTTPHeaderMap",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "items"
+                }
+            },
+            "test_empty_get": {
+                "line": 110,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": "HTTPHeaderMap",
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_actual_get": {
+                "line": 114,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": "HTTPHeaderMap",
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_replacing": {
+                "line": 263,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": "HTTPHeaderMap",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "replace"
+                }
+            }
+        }
+    },
+    "test/test_socket.py": {
+        "focal_file": "hyper/common/bufsocket.py",
+        "methods": {
+            "test_readline_both": {
+                "line": 167,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": "BufferedSocket",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "readline"
+                }
+            },
+            "test_socket_error_on_readline": {
+                "line": 191,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": "BufferedSocket",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 237,
+                    "indent": 4,
+                    "name": "readline"
+                }
+            }
+        }
+    },
+    "test/test_http11.py": {
+        "focal_file": "hyper/http11/response.py",
+        "methods": {
+            "test_short_circuit_read": {
+                "line": 608,
+                "line_end": 611,
+                "indent": 4,
+                "focal_class": "HTTP11Response",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_basic_chunked_read": {
+                "line": 687,
+                "line_end": 710,
+                "indent": 4,
+                "focal_class": "HTTP11Response",
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "read_chunked"
+                }
+            },
+            "test_chunked_read_of_non_chunked": {
+                "line": 712,
+                "line_end": 716,
+                "indent": 4,
+                "focal_class": "HTTP11Response",
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "read_chunked"
+                }
+            },
+            "test_chunked_normal_read": {
+                "line": 750,
+                "line_end": 766,
+                "indent": 4,
+                "focal_class": "HTTP11Response",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "read"
+                }
+            },
+            "test_chunk_length_read": {
+                "line": 768,
+                "line_end": 788,
+                "indent": 4,
+                "focal_class": "HTTP11Response",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "read"
+                }
+            }
+        }
+    },
+    "test/test_windowmanager.py": {
+        "focal_file": "hyper/http20/window.py",
+        "methods": {
+            "test_fcm_emits_difference_when_blocked": {
+                "line": 81,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "FlowControlManager",
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "_blocked"
+                }
+            }
+        }
+    }
+}

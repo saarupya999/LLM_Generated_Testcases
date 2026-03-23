@@ -1,0 +1,190 @@
+{
+    "tests/environment/test_ec2_environment.py": {
+        "focal_file": "aws_embedded_metrics/environment/ec2_environment.py",
+        "methods": {
+            "test_configure_context_adds_ec2_metadata_props": {
+                "line": 72,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": "EC2Environment",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "configure_context"
+                }
+            }
+        }
+    },
+    "tests/environment/test_environment_detector.py": {
+        "focal_file": "aws_embedded_metrics/environment/environment_detector.py",
+        "methods": {
+            "test_resolve_environment_returns_LambdaEnvironment": {
+                "line": 28,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "resolve_environment"
+                }
+            },
+            "test_resolve_environment_returns_ec2_envionment": {
+                "line": 40,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "resolve_environment"
+                }
+            },
+            "test_resolve_environment_returns_default_envionment": {
+                "line": 55,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "resolve_environment"
+                }
+            }
+        }
+    },
+    "tests/environment/test_lambda_environment.py": {
+        "focal_file": "aws_embedded_metrics/environment/lambda_environment.py",
+        "methods": {
+            "test_get_log_group_name_returns_function_name": {
+                "line": 47,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": "LambdaEnvironment",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "get_log_group_name"
+                }
+            }
+        }
+    },
+    "tests/logger/test_metrics_logger.py": {
+        "focal_file": "aws_embedded_metrics/logger/metrics_logger.py",
+        "methods": {
+            "test_can_set_property": {
+                "line": 20,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "set_property"
+                }
+            },
+            "test_can_put_metric": {
+                "line": 37,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "put_metric"
+                }
+            },
+            "test_can_add_stack_trace": {
+                "line": 55,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "add_stack_trace"
+                }
+            },
+            "test_can_add_stack_trace_for_builtin": {
+                "line": 83,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "add_stack_trace"
+                }
+            },
+            "test_can_add_empty_stack_trace": {
+                "line": 109,
+                "line_end": 126,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "add_stack_trace"
+                }
+            },
+            "test_can_add_stack_trace_manually": {
+                "line": 130,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "add_stack_trace"
+                }
+            },
+            "test_put_dimension": {
+                "line": 176,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "put_dimensions"
+                }
+            },
+            "test_logger_configures_default_dimensions_on_flush": {
+                "line": 195,
+                "line_end": 214,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "flush"
+                }
+            },
+            "test_can_set_namespace": {
+                "line": 271,
+                "line_end": 283,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "set_namespace"
+                }
+            }
+        }
+    }
+}

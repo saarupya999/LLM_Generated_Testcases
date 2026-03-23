@@ -1,0 +1,55 @@
+{
+    "tests/test_exporter.py": {
+        "focal_file": "celery_prometheus_exporter/main.py",
+        "methods": {
+            "test_workers_count": {
+                "line": 37,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "WorkerMonitoringThread",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "update_workers_count"
+                }
+            },
+            "test_process_event": {
+                "line": 61,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "MonitorThread",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "_process_event"
+                }
+            },
+            "test_no_received_event": {
+                "line": 94,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": "MonitorThread",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "_process_event"
+                }
+            },
+            "test_queue_length": {
+                "line": 124,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": "QueueLenghtMonitoringThread",
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "update_lengths"
+                }
+            }
+        }
+    }
+}

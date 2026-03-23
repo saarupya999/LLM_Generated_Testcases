@@ -1,0 +1,238 @@
+{
+    "examples/python/mypackage/test_module.py": {
+        "focal_file": "examples/python/mypackage/module.py",
+        "methods": {
+            "test_myfunc": {
+                "line": 6,
+                "line_end": 7,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 2,
+                    "indent": 0,
+                    "name": "myfunc"
+                }
+            }
+        }
+    },
+    "src/test/test_runner.py": {
+        "focal_file": "src/popper/runner.py",
+        "methods": {
+            "test_check_secrets": {
+                "line": 22,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "WorkflowRunner",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "_process_secrets"
+                }
+            },
+            "test_clone_repos": {
+                "line": 65,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "WorkflowRunner",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "_clone_repos"
+                }
+            },
+            "test_steprunner_factory": {
+                "line": 94,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "WorkflowRunner",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "_step_runner"
+                }
+            },
+            "test_prepare_environment_without_git": {
+                "line": 105,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "StepRunner",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "_prepare_environment"
+                }
+            },
+            "test_prepare_environment_with_git": {
+                "line": 120,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": "StepRunner",
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "_prepare_environment"
+                }
+            },
+            "test_get_build_info": {
+                "line": 142,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": "StepRunner",
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 274,
+                    "indent": 4,
+                    "name": "_get_build_info"
+                }
+            },
+            "test_get_container_kwargs": {
+                "line": 205,
+                "line_end": 288,
+                "indent": 4,
+                "focal_class": "StepRunner",
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 320,
+                    "indent": 4,
+                    "name": "_get_container_kwargs"
+                }
+            }
+        }
+    },
+    "src/test/test_runner_slurm.py": {
+        "focal_file": "src/popper/runner_slurm.py",
+        "methods": {
+            "test_tail_output": {
+                "line": 57,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "SlurmRunner",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "_tail_output"
+                }
+            },
+            "test_stop_running_tasks": {
+                "line": 63,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "SlurmRunner",
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 147,
+                    "indent": 4,
+                    "name": "stop_running_tasks"
+                }
+            },
+            "test_exec_srun": {
+                "line": 82,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "SlurmRunner",
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "_exec_srun"
+                }
+            },
+            "test_exec_mpi": {
+                "line": 127,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": "SlurmRunner",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "_exec_mpi"
+                }
+            },
+            "test_dry_run": {
+                "line": 194,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_create_cmd": {
+                "line": 299,
+                "line_end": 338,
+                "indent": 4,
+                "focal_class": "SingularityRunner",
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 220,
+                    "indent": 4,
+                    "name": "_create_cmd"
+                }
+            },
+            "test_run": {
+                "line": 341,
+                "line_end": 430,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "src/test/test_utils.py": {
+        "focal_file": "src/popper/utils.py",
+        "methods": {
+            "test_sanitized_name": {
+                "line": 14,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "sanitized_name"
+                }
+            },
+            "test_assert_executable_exists": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "assert_executable_exists"
+                }
+            },
+            "test_kv_to_flag": {
+                "line": 31,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "key_value_to_flag"
+                }
+            }
+        }
+    }
+}

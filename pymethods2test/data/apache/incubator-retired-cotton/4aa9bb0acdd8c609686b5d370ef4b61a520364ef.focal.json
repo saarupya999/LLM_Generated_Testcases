@@ -1,0 +1,306 @@
+{
+    "tests/common/test_cluster.py": {
+        "focal_file": "mysos/common/cluster.py",
+        "methods": {
+            "test_add_member": {
+                "line": 45,
+                "line_end": 60,
+                "indent": 2,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 122,
+                    "indent": 2,
+                    "name": "add_member"
+                }
+            },
+            "test_promote_member": {
+                "line": 62,
+                "line_end": 71,
+                "indent": 2,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 176,
+                    "indent": 2,
+                    "name": "promote_member"
+                }
+            },
+            "test_remove_member": {
+                "line": 73,
+                "line_end": 81,
+                "indent": 2,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 143,
+                    "indent": 2,
+                    "name": "remove_member"
+                }
+            },
+            "test_remove_cluster": {
+                "line": 192,
+                "line_end": 209,
+                "indent": 2,
+                "focal_class": "ClusterManager",
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 184,
+                    "indent": 2,
+                    "name": "delete_cluster"
+                }
+            }
+        }
+    },
+    "tests/common/test_zookeeper.py": {
+        "focal_file": "mysos/common/zookeeper.py",
+        "methods": {
+            "test_parse": {
+                "line": 6,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "tests/executor/test_mysos_task_runner.py": {
+        "focal_file": "mysos/executor/mysos_task_runner.py",
+        "methods": {
+            "test_stop": {
+                "line": 43,
+                "line_end": 56,
+                "indent": 2,
+                "focal_class": "MysosTaskRunner",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 164,
+                    "indent": 2,
+                    "name": "stop"
+                }
+            },
+            "test_get_log_position": {
+                "line": 159,
+                "line_end": 170,
+                "indent": 2,
+                "focal_class": "MysosTaskRunner",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 220,
+                    "indent": 2,
+                    "name": "get_log_position"
+                }
+            },
+            "test_get_log_position_error": {
+                "line": 172,
+                "line_end": 186,
+                "indent": 2,
+                "focal_class": "MysosTaskRunner",
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 220,
+                    "indent": 2,
+                    "name": "get_log_position"
+                }
+            }
+        }
+    },
+    "tests/scheduler/test_elector.py": {
+        "focal_file": "mysos/scheduler/elector.py",
+        "methods": {
+            "test_two_slaves": {
+                "line": 48,
+                "line_end": 57,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 102,
+                    "indent": 2,
+                    "name": "add_slave"
+                }
+            },
+            "test_two_slaves_complex_position": {
+                "line": 59,
+                "line_end": 69,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 156,
+                    "indent": 2,
+                    "name": "update_position"
+                }
+            }
+        }
+    },
+    "tests/scheduler/test_launcher.py": {
+        "focal_file": "mysos/scheduler/launcher.py",
+        "methods": {
+            "test_invalid_status_update": {
+                "line": 250,
+                "line_end": 288,
+                "indent": 2,
+                "focal_class": "MySQLClusterLauncher",
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 484,
+                    "indent": 2,
+                    "name": "status_update"
+                }
+            },
+            "test_terminal_status_update": {
+                "line": 290,
+                "line_end": 338,
+                "indent": 2,
+                "focal_class": "MySQLClusterLauncher",
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 484,
+                    "indent": 2,
+                    "name": "status_update"
+                }
+            },
+            "test_launcher_kill": {
+                "line": 558,
+                "line_end": 608,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 219,
+                    "line_end": 235,
+                    "indent": 2,
+                    "name": "kill"
+                }
+            }
+        }
+    },
+    "tests/scheduler/test_scheduler.py": {
+        "focal_file": "mysos/scheduler/scheduler.py",
+        "methods": {
+            "test_scheduler_recovery": {
+                "line": 80,
+                "line_end": 129,
+                "indent": 2,
+                "focal_class": "MysosScheduler",
+                "focal_method": {
+                    "line": 332,
+                    "line_end": 354,
+                    "indent": 2,
+                    "name": "registered"
+                }
+            },
+            "test_scheduler_metrics": {
+                "line": 214,
+                "line_end": 269,
+                "indent": 2,
+                "focal_class": "MysosScheduler",
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 278,
+                    "indent": 2,
+                    "name": "create_cluster"
+                }
+            },
+            "test_scheduler_delete_empty_cluster": {
+                "line": 271,
+                "line_end": 294,
+                "indent": 2,
+                "focal_class": "MysosScheduler",
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 310,
+                    "indent": 2,
+                    "name": "delete_cluster"
+                }
+            }
+        }
+    },
+    "tests/scheduler/test_state.py": {
+        "focal_file": "mysos/scheduler/state.py",
+        "methods": {
+            "test_scheduler_state": {
+                "line": 34,
+                "line_end": 46,
+                "indent": 2,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 30,
+                    "indent": 2,
+                    "name": "dump_scheduler_state"
+                }
+            },
+            "test_cluster_state": {
+                "line": 48,
+                "line_end": 72,
+                "indent": 2,
+                "focal_class": "MySQLCluster",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 2,
+                    "name": "dump_cluster_state"
+                }
+            }
+        }
+    },
+    "tests/scheduler/test_zk_state.py": {
+        "focal_file": "mysos/scheduler/state.py",
+        "methods": {
+            "test_scheduler_state": {
+                "line": 39,
+                "line_end": 50,
+                "indent": 2,
+                "focal_class": "Scheduler",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 30,
+                    "indent": 2,
+                    "name": "dump_scheduler_state"
+                }
+            },
+            "test_scheduler_state_errors": {
+                "line": 52,
+                "line_end": 59,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 38,
+                    "indent": 2,
+                    "name": "load_scheduler_state"
+                }
+            },
+            "test_cluster_state": {
+                "line": 61,
+                "line_end": 81,
+                "indent": 2,
+                "focal_class": "MySQLCluster",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 2,
+                    "name": "dump_cluster_state"
+                }
+            },
+            "test_cluster_state_errors": {
+                "line": 83,
+                "line_end": 89,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 2,
+                    "name": "load_cluster_state"
+                }
+            }
+        }
+    }
+}

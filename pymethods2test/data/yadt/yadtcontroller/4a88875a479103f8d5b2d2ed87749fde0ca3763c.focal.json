@@ -1,0 +1,322 @@
+{
+    "src/unittest/python/configuration_tests.py": {
+        "focal_file": "src/main/python/yadt_controller/configuration.py",
+        "methods": {
+            "test_should_delegate_read_configuration_file": {
+                "line": 70,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "read_configuration_file"
+                }
+            }
+        }
+    },
+    "src/unittest/python/event_handler_tests.py": {
+        "focal_file": "src/main/python/yadt_controller/event_handler.py",
+        "methods": {
+            "test_should_not_mark_finished_events_as_error_report": {
+                "line": 30,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "_event_is_an_error_report"
+                }
+            },
+            "test_should_not_mark_failed_events_as_error_report": {
+                "line": 42,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "_event_is_an_error_report"
+                }
+            },
+            "test_should_not_mark_failed_events_as_error_report_when_message_is_missing": {
+                "line": 54,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "_event_is_an_error_report"
+                }
+            },
+            "test_should_not_mark_other_events_as_call_info": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "_event_is_a_call_info"
+                }
+            },
+            "test_should_mark_call_info_as_call_info": {
+                "line": 74,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 215,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "_event_is_a_call_info"
+                }
+            },
+            "test_should_output_call_info": {
+                "line": 81,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "_output_call_info"
+                }
+            },
+            "test_should_prepare_broadcast_client_when_requesting_execution": {
+                "line": 138,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "_prepare_broadcast_client"
+                }
+            },
+            "test_should_log_error_when_waiting_execution_request_times_out": {
+                "line": 184,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "on_execution_waiting_timeout"
+                }
+            },
+            "test_should_log_error_when_pending_execution_request_times_out": {
+                "line": 200,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "on_execution_pending_timeout"
+                }
+            },
+            "test_publish_execution_request_should_trigger_broadcaster_publish": {
+                "line": 233,
+                "line_end": 244,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 169,
+                    "indent": 4,
+                    "name": "publish_execution_request"
+                }
+            },
+            "test_should_stop_reactor_and_set_exit_code_when_command_execution_was_sucessful": {
+                "line": 246,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "on_command_execution_success"
+                }
+            },
+            "test_should_stop_reactor_and_set_exit_code_when_command_execution_was_failed": {
+                "line": 256,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_command_execution_failure"
+                }
+            },
+            "test_on_waiting_command_execution_should_schedule_waiting_timeout": {
+                "line": 269,
+                "line_end": 275,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "on_waiting_command_execution"
+                }
+            },
+            "test_on_pending_command_execution_should_schedule_pending_timeout": {
+                "line": 277,
+                "line_end": 283,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "on_pending_command_execution"
+                }
+            },
+            "test_on_pending_command_execution_should_report_progress": {
+                "line": 285,
+                "line_end": 297,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "on_pending_command_execution"
+                }
+            },
+            "test_on_command_execution_failure_should_report_progress": {
+                "line": 299,
+                "line_end": 311,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "on_command_execution_failure"
+                }
+            },
+            "test_on_command_execution_success_should_report_progress": {
+                "line": 313,
+                "line_end": 326,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "on_command_execution_success"
+                }
+            },
+            "test_on_failed_command_execution_should_log_error_if_command_has_started": {
+                "line": 341,
+                "line_end": 352,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "on_failed_command_execution"
+                }
+            },
+            "test_on_command_execution_event_should_log_payload_if_present": {
+                "line": 354,
+                "line_end": 368,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "on_command_execution_event"
+                }
+            },
+            "test_on_command_execution_event_should_be_wamp_v2_compatible": {
+                "line": 370,
+                "line_end": 384,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "on_command_execution_event"
+                }
+            },
+            "test_on_command_execution_event_should_log_error_abstract": {
+                "line": 386,
+                "line_end": 404,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "on_command_execution_event"
+                }
+            },
+            "test_output_service_change_should_call_progress_handler": {
+                "line": 468,
+                "line_end": 483,
+                "indent": 4,
+                "focal_class": "EventHandler",
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "_output_service_change"
+                }
+            }
+        }
+    },
+    "src/unittest/python/execution_state_machine_tests.py": {
+        "focal_file": "src/main/python/yadt_controller/execution_state_machine.py",
+        "methods": {
+            "test_should_create_state_machine_with_callbacks": {
+                "line": 49,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "create_execution_state_machine_with_callbacks"
+                }
+            }
+        }
+    },
+    "src/unittest/python/terminal_tests.py": {
+        "focal_file": "src/main/python/yadt_controller/terminal.py",
+        "methods": {
+            "test_should_output_teamcity_progress_messages": {
+                "line": 26,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "TeamCityProgressMessageHandler",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 22,
+                    "indent": 4,
+                    "name": "output_progress"
+                }
+            }
+        }
+    }
+}

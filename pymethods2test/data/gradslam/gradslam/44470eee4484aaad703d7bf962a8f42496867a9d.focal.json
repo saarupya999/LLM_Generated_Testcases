@@ -1,0 +1,505 @@
+{
+    "tests/datasets/test_datautils.py": {
+        "focal_file": "gradslam/datasets/datautils.py",
+        "methods": {
+            "test_normalize_image": {
+                "line": 18,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "normalize_image"
+                }
+            },
+            "test_channels_first": {
+                "line": 49,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "channels_first"
+                }
+            },
+            "test_scale_intrinsics": {
+                "line": 102,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "scale_intrinsics"
+                }
+            },
+            "test_pointquaternion_to_homogeneous": {
+                "line": 184,
+                "line_end": 326,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 215,
+                    "indent": 0,
+                    "name": "pointquaternion_to_homogeneous"
+                }
+            },
+            "test_transforms": {
+                "line": 328,
+                "line_end": 388,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 239,
+                    "indent": 0,
+                    "name": "poses_to_transforms"
+                }
+            }
+        }
+    },
+    "tests/odometry/test_gradicp.py": {
+        "focal_file": "gradslam/odometry/gradicp.py",
+        "methods": {
+            "test_gradICP_provide": {
+                "line": 14,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "GradICPOdometryProvider",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "provide"
+                }
+            }
+        }
+    },
+    "tests/odometry/test_groundtruth.py": {
+        "focal_file": "gradslam/odometry/groundtruth.py",
+        "methods": {
+            "test_groundtruth_provide": {
+                "line": 52,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "GroundTruthOdometryProvider",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "provide"
+                }
+            }
+        }
+    },
+    "tests/odometry/test_icp.py": {
+        "focal_file": "gradslam/odometry/icp.py",
+        "methods": {
+            "test_ICP_provide": {
+                "line": 14,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "ICPOdometryProvider",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "provide"
+                }
+            }
+        }
+    },
+    "tests/odometry/test_icputils.py": {
+        "focal_file": "gradslam/odometry/icputils.py",
+        "methods": {
+            "test_solve_linear_system": {
+                "line": 20,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "solve_linear_system"
+                }
+            },
+            "test_solve_linear_system_raises_type_error": {
+                "line": 51,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "solve_linear_system"
+                }
+            },
+            "test_solve_linear_system_raises_value_error": {
+                "line": 84,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "solve_linear_system"
+                }
+            },
+            "test_gauss_newton_raises_type_error": {
+                "line": 124,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "gauss_newton_solve"
+                }
+            },
+            "test_gauss_newton_raises_value_error": {
+                "line": 172,
+                "line_end": 242,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "gauss_newton_solve"
+                }
+            },
+            "test_point_to_plane_ICP_transform1": {
+                "line": 286,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 367,
+                    "indent": 0,
+                    "name": "point_to_plane_ICP"
+                }
+            },
+            "test_point_to_plane_ICP_transform2": {
+                "line": 343,
+                "line_end": 387,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 367,
+                    "indent": 0,
+                    "name": "point_to_plane_ICP"
+                }
+            },
+            "test_point_to_plane_ICP_raises_type_error": {
+                "line": 389,
+                "line_end": 470,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 367,
+                    "indent": 0,
+                    "name": "point_to_plane_ICP"
+                }
+            },
+            "test_point_to_plane_ICP_raises_value_error": {
+                "line": 472,
+                "line_end": 508,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 367,
+                    "indent": 0,
+                    "name": "point_to_plane_ICP"
+                }
+            },
+            "test_point_to_plane_gradICP_transform1": {
+                "line": 539,
+                "line_end": 593,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 545,
+                    "indent": 0,
+                    "name": "point_to_plane_gradICP"
+                }
+            },
+            "test_point_to_plane_gradICP_transform2": {
+                "line": 596,
+                "line_end": 640,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 545,
+                    "indent": 0,
+                    "name": "point_to_plane_gradICP"
+                }
+            },
+            "test_point_to_plane_gradICP_raises_type_error": {
+                "line": 642,
+                "line_end": 731,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 545,
+                    "indent": 0,
+                    "name": "point_to_plane_gradICP"
+                }
+            },
+            "test_point_to_plane_gradICP_raises_value_error": {
+                "line": 733,
+                "line_end": 771,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 545,
+                    "indent": 0,
+                    "name": "point_to_plane_gradICP"
+                }
+            },
+            "test_downsample_pointclouds": {
+                "line": 802,
+                "line_end": 867,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 548,
+                    "line_end": 620,
+                    "indent": 0,
+                    "name": "downsample_pointclouds"
+                }
+            },
+            "test_downsample_pointclouds_raises_type_error": {
+                "line": 869,
+                "line_end": 904,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 548,
+                    "line_end": 620,
+                    "indent": 0,
+                    "name": "downsample_pointclouds"
+                }
+            },
+            "test_downsample_pointclouds_raises_value_error": {
+                "line": 906,
+                "line_end": 939,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 548,
+                    "line_end": 620,
+                    "indent": 0,
+                    "name": "downsample_pointclouds"
+                }
+            },
+            "test_downsample_rgbdimages": {
+                "line": 944,
+                "line_end": 1013,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 669,
+                    "indent": 0,
+                    "name": "downsample_rgbdimages"
+                }
+            },
+            "test_downsample_rgbdimages_raises_type_error": {
+                "line": 1015,
+                "line_end": 1057,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 669,
+                    "indent": 0,
+                    "name": "downsample_rgbdimages"
+                }
+            },
+            "test_downsample_rgbdimages_raises_value_error": {
+                "line": 1059,
+                "line_end": 1099,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 669,
+                    "indent": 0,
+                    "name": "downsample_rgbdimages"
+                }
+            }
+        }
+    },
+    "tests/slam/test_fusionutils.py": {
+        "focal_file": "gradslam/slam/fusionutils.py",
+        "methods": {
+            "test_get_alpha": {
+                "line": 29,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "get_alpha"
+                }
+            },
+            "test_are_points_close": {
+                "line": 122,
+                "line_end": 155,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "are_points_close"
+                }
+            },
+            "test_are_normals_similar": {
+                "line": 207,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 195,
+                    "indent": 0,
+                    "name": "are_normals_similar"
+                }
+            },
+            "test_find_active_map_points": {
+                "line": 307,
+                "line_end": 333,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 287,
+                    "indent": 0,
+                    "name": "find_active_map_points"
+                }
+            },
+            "test_find_similar_map_points": {
+                "line": 441,
+                "line_end": 483,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 290,
+                    "line_end": 411,
+                    "indent": 0,
+                    "name": "find_similar_map_points"
+                }
+            },
+            "test_sorting_correspondences": {
+                "line": 674,
+                "line_end": 750,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 414,
+                    "line_end": 546,
+                    "indent": 0,
+                    "name": "find_best_unique_correspondences"
+                }
+            },
+            "test_find_best_unique_correspondences": {
+                "line": 753,
+                "line_end": 782,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 414,
+                    "line_end": 546,
+                    "indent": 0,
+                    "name": "find_best_unique_correspondences"
+                }
+            },
+            "test_find_correspondences": {
+                "line": 881,
+                "line_end": 913,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 549,
+                    "line_end": 577,
+                    "indent": 0,
+                    "name": "find_correspondences"
+                }
+            },
+            "test_fuse_with_map": {
+                "line": 920,
+                "line_end": 986,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 580,
+                    "line_end": 722,
+                    "indent": 0,
+                    "name": "fuse_with_map"
+                }
+            },
+            "test_update_map_fusion": {
+                "line": 1140,
+                "line_end": 1176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 761,
+                    "line_end": 789,
+                    "indent": 0,
+                    "name": "update_map_fusion"
+                }
+            }
+        }
+    },
+    "tests/structures/test_rgbdimages.py": {
+        "focal_file": "gradslam/structures/rgbdimages.py",
+        "methods": {
+            "test_vertex_map": {
+                "line": 56,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 527,
+                    "line_end": 533,
+                    "indent": 4,
+                    "name": "cpu"
+                }
+            },
+            "test_normal_map": {
+                "line": 115,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 465,
+                    "line_end": 477,
+                    "indent": 4,
+                    "name": "detach"
+                }
+            }
+        }
+    }
+}

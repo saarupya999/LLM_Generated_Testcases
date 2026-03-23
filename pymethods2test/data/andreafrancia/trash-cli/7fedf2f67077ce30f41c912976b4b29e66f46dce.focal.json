@@ -1,0 +1,215 @@
+{
+    "tests/test_fake_ismount.py": {
+        "focal_file": "trashcli/fstab.py",
+        "methods": {
+            "test_by_default_root_is_mount": {
+                "line": 9,
+                "line_end": 11,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 4,
+                    "name": "is_mount"
+                }
+            }
+        }
+    },
+    "tests/test_filesystem.py": {
+        "focal_file": "trashcli/fs.py",
+        "methods": {
+            "test_has_sticky_bit_returns_true": {
+                "line": 26,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "has_sticky_bit"
+                }
+            },
+            "test_has_sticky_bit_returns_false": {
+                "line": 33,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "has_sticky_bit"
+                }
+            },
+            "test_dir_sticky": {
+                "line": 55,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "is_sticky_dir"
+                }
+            }
+        }
+    },
+    "tests/test_parsing_trashinfo_contents.py": {
+        "focal_file": "trashcli/trash.py",
+        "methods": {
+            "test_two_deletion_dates": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 260,
+                    "line_end": 264,
+                    "indent": 0,
+                    "name": "parse_deletion_date"
+                }
+            },
+            "test_it_raises_error_on_parsing_original_location": {
+                "line": 86,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 274,
+                    "line_end": 276,
+                    "indent": 0,
+                    "name": "parse_original_location"
+                }
+            }
+        }
+    },
+    "tests/test_restore_cmd.py": {
+        "focal_file": "trashcli/restore.py",
+        "methods": {
+            "test_restore": {
+                "line": 216,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": "TrashedFile",
+                "focal_method": {
+                    "line": 393,
+                    "line_end": 401,
+                    "indent": 0,
+                    "name": "restore"
+                }
+            }
+        }
+    },
+    "tests/test_trash_rm.py": {
+        "focal_file": "trashcli/rm.py",
+        "methods": {
+            "test_basename_matches": {
+                "line": 45,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "Filter",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "matches"
+                }
+            }
+        }
+    },
+    "tests/list/test_deletion_date_extractor.py": {
+        "focal_file": "trashcli/list.py",
+        "methods": {
+            "test_extract_attribute_default": {
+                "line": 11,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "extract_attribute"
+                }
+            },
+            "test_extract_attribute_value": {
+                "line": 15,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "extract_attribute"
+                }
+            }
+        }
+    },
+    "tests/put/test_persist_trash_info.py": {
+        "focal_file": "trashcli/put.py",
+        "methods": {
+            "test_persist_trash_info_first_time": {
+                "line": 26,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 509,
+                    "line_end": 534,
+                    "indent": 4,
+                    "name": "persist_trash_info"
+                }
+            },
+            "test_persist_trash_info_first_100_times": {
+                "line": 33,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 509,
+                    "line_end": 534,
+                    "indent": 4,
+                    "name": "persist_trash_info"
+                }
+            }
+        }
+    },
+    "tests/restore/test_all_trash_directories.py": {
+        "focal_file": "trashcli/restore.py",
+        "methods": {
+            "test_list_all_directories": {
+                "line": 14,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 359,
+                    "line_end": 366,
+                    "indent": 4,
+                    "name": "all_trash_directories"
+                }
+            }
+        }
+    },
+    "tests/trash_dir_scanner/test_trash_dir_scanner.py": {
+        "focal_file": "trashcli/trash.py",
+        "methods": {
+            "test_scan_trash_dirs": {
+                "line": 8,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "TrashDirsScanner",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "scan_trash_dirs"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,3318 @@
+{
+    "context/opencensus-context/tests/test_runtime_context.py": {
+        "focal_file": "context/opencensus-context/opencensus/common/runtime_context/__init__.py",
+        "methods": {
+            "test_clear": {
+                "line": 47,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            },
+            "test_with_current_context": {
+                "line": 54,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "with_current_context"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-azure/tests/test_azure_utils.py": {
+        "focal_file": "contrib/opencensus-ext-azure/opencensus/ext/azure/common/utils.py",
+        "methods": {
+            "test_timestamp_to_duration": {
+                "line": 29,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "timestamp_to_duration"
+                }
+            },
+            "test_timestamp_to_iso_str": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "timestamp_to_iso_str"
+                }
+            },
+            "test_validate_instrumentation_key": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 79,
+                    "indent": 0,
+                    "name": "validate_instrumentation_key"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-azure/tests/test_storage.py": {
+        "focal_file": "contrib/opencensus-ext-azure/opencensus/ext/azure/common/storage.py",
+        "methods": {
+            "test_delete": {
+                "line": 46,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "LocalFileBlob",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            },
+            "test_get": {
+                "line": 85,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_put_with_lease": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "LocalFileBlob",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "lease"
+                }
+            },
+            "test_put": {
+                "line": 102,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "put"
+                }
+            },
+            "test_check_storage_size_full": {
+                "line": 121,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "_check_storage_size"
+                }
+            },
+            "test_check_storage_size_not_full": {
+                "line": 127,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "_check_storage_size"
+                }
+            },
+            "test_check_storage_size_no_files": {
+                "line": 133,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "_check_storage_size"
+                }
+            },
+            "test_check_storage_size_links": {
+                "line": 137,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "_check_storage_size"
+                }
+            },
+            "test_check_storage_size_error": {
+                "line": 145,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 182,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "_check_storage_size"
+                }
+            },
+            "test_maintenance_routine": {
+                "line": 154,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": "LocalFileStorage",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "_maintenance_routine"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-dbapi/tests/test_dbapi_trace.py": {
+        "focal_file": "contrib/opencensus-ext-dbapi/opencensus/ext/dbapi/trace.py",
+        "methods": {
+            "test_wrap_conn": {
+                "line": 23,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "wrap_conn"
+                }
+            },
+            "test_wrap_cursor": {
+                "line": 49,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "wrap_cursor"
+                }
+            },
+            "test_trace_cursor_query": {
+                "line": 78,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "trace_cursor_query"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-django/tests/test_django_middleware.py": {
+        "focal_file": "contrib/opencensus-ext-django/opencensus/ext/django/middleware.py",
+        "methods": {
+            "test_process_request": {
+                "line": 81,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 235,
+                    "indent": 4,
+                    "name": "process_request"
+                }
+            },
+            "test_process_response": {
+                "line": 184,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 255,
+                    "line_end": 274,
+                    "indent": 4,
+                    "name": "process_response"
+                }
+            },
+            "test_process_exception": {
+                "line": 296,
+                "line_end": 361,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 300,
+                    "indent": 4,
+                    "name": "process_exception"
+                }
+            },
+            "test__set_django_attributes_no_user": {
+                "line": 372,
+                "line_end": 384,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "_set_django_attributes"
+                }
+            },
+            "test__set_django_attributes_no_user_info": {
+                "line": 386,
+                "line_end": 401,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "_set_django_attributes"
+                }
+            },
+            "test__set_django_attributes_with_user_info": {
+                "line": 403,
+                "line_end": 422,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "_set_django_attributes"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-flask/tests/test_flask_middleware.py": {
+        "focal_file": "contrib/opencensus-ext-flask/opencensus/ext/flask/flask_middleware.py",
+        "methods": {
+            "test_init_app": {
+                "line": 122,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": "opencensus.ext.flask.flask_middleware.FlaskMiddleware",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "init_app"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-google-cloud-clientlibs/tests/test_google_cloud_clientlibs_trace.py": {
+        "focal_file": "contrib/opencensus-ext-google-cloud-clientlibs/opencensus/ext/google_cloud_clientlibs/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 30,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            },
+            "test_trace_http": {
+                "line": 72,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "trace_http"
+                }
+            },
+            "test_wrap_make_secure_channel": {
+                "line": 83,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "wrap_make_secure_channel"
+                }
+            },
+            "test_wrap_insecure_channel": {
+                "line": 98,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "wrap_insecure_channel"
+                }
+            },
+            "test_wrap_create_channel": {
+                "line": 113,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "wrap_create_channel"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-grpc/tests/test_client_interceptor.py": {
+        "focal_file": "contrib/opencensus-ext-grpc/opencensus/ext/grpc/client_interceptor.py",
+        "methods": {
+            "test__start_client_span": {
+                "line": 59,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.client_interceptor.OpenCensusClientInterceptor",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "_start_client_span"
+                }
+            },
+            "test__intercept_call_metadata_none": {
+                "line": 70,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.client_interceptor.OpenCensusClientInterceptor",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_intercept_call"
+                }
+            },
+            "test__intercept_call_noop_tracer": {
+                "line": 92,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.client_interceptor.OpenCensusClientInterceptor",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_intercept_call"
+                }
+            },
+            "test__intercept_call_metadata_list": {
+                "line": 113,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.client_interceptor.OpenCensusClientInterceptor",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_intercept_call"
+                }
+            },
+            "test__intercept_call_metadata_tuple": {
+                "line": 140,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.client_interceptor.OpenCensusClientInterceptor",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_intercept_call"
+                }
+            },
+            "test__callback": {
+                "line": 165,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.client_interceptor.OpenCensusClientInterceptor",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "_callback"
+                }
+            },
+            "test_intercept_unary_unary_trace": {
+                "line": 215,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "intercept_unary_unary"
+                }
+            },
+            "test_intercept_unary_unary_not_trace": {
+                "line": 223,
+                "line_end": 230,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "intercept_unary_unary"
+                }
+            },
+            "test_intercept_unary_stream_trace": {
+                "line": 232,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 186,
+                    "indent": 4,
+                    "name": "intercept_unary_stream"
+                }
+            },
+            "test_intercept_unary_stream_not_trace": {
+                "line": 243,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 186,
+                    "indent": 4,
+                    "name": "intercept_unary_stream"
+                }
+            },
+            "test_intercept_stream_unary_trace": {
+                "line": 252,
+                "line_end": 258,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "intercept_stream_unary"
+                }
+            },
+            "test_intercept_stream_unary_not_trace": {
+                "line": 260,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "intercept_stream_unary"
+                }
+            },
+            "test_intercept_stream_stream_trace": {
+                "line": 269,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "intercept_stream_stream"
+                }
+            },
+            "test_intercept_stream_stream_not_trace": {
+                "line": 281,
+                "line_end": 288,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "intercept_stream_stream"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-grpc/tests/test_server_interceptor.py": {
+        "focal_file": "contrib/opencensus-ext-grpc/opencensus/ext/grpc/server_interceptor.py",
+        "methods": {
+            "test_intercept_service_no_metadata": {
+                "line": 35,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.server_interceptor.OpenCensusServerInterceptor",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "intercept_service"
+                }
+            },
+            "test_intercept_service": {
+                "line": 62,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.server_interceptor.OpenCensusServerInterceptor",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "intercept_service"
+                }
+            },
+            "test_intercept_handler_exception": {
+                "line": 98,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": "opencensus.ext.grpc.server_interceptor.OpenCensusServerInterceptor",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "intercept_service"
+                }
+            },
+            "test__wrap_rpc_behavior_none": {
+                "line": 166,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "_wrap_rpc_behavior"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-httplib/tests/test_httplib_trace.py": {
+        "focal_file": "contrib/opencensus-ext-httplib/opencensus/ext/httplib/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 30,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            },
+            "test_wrap_httplib_request": {
+                "line": 66,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "wrap_httplib_request"
+                }
+            },
+            "test_wrap_httplib_request_excludelist_ok": {
+                "line": 106,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "wrap_httplib_request"
+                }
+            },
+            "test_wrap_httplib_request_excludelist_nok": {
+                "line": 142,
+                "line_end": 176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "wrap_httplib_request"
+                }
+            },
+            "test_wrap_httplib_request_exporter_thread": {
+                "line": 178,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "wrap_httplib_request"
+                }
+            },
+            "test_wrap_httplib_response": {
+                "line": 201,
+                "line_end": 232,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "wrap_httplib_response"
+                }
+            },
+            "test_wrap_httplib_response_no_open_span": {
+                "line": 234,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "wrap_httplib_response"
+                }
+            },
+            "test_wrap_httplib_response_exporter_thread": {
+                "line": 268,
+                "line_end": 299,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 132,
+                    "indent": 0,
+                    "name": "wrap_httplib_response"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-mysql/tests/test_mysql_trace.py": {
+        "focal_file": "contrib/opencensus-ext-mysql/opencensus/ext/mysql/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 24,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-postgresql/tests/test_postgresql_trace.py": {
+        "focal_file": "contrib/opencensus-ext-postgresql/opencensus/ext/postgresql/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 23,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            },
+            "test_connect": {
+                "line": 47,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "connect"
+                }
+            },
+            "test_trace_cursor_query": {
+                "line": 63,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "trace_cursor_query"
+                }
+            },
+            "test_trace_cursor_query_none_tracer": {
+                "line": 86,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 72,
+                    "indent": 0,
+                    "name": "trace_cursor_query"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-pymongo/tests/test_pymongo_trace.py": {
+        "focal_file": "contrib/opencensus-ext-pymongo/opencensus/ext/pymongo/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 24,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            },
+            "test_started": {
+                "line": 36,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "opencensus.ext.pymongo.trace.MongoCommandListener",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "started"
+                }
+            },
+            "test_failed": {
+                "line": 93,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": "opencensus.ext.pymongo.trace.MongoCommandListener",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "failed"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-pymysql/tests/test_pymysql_trace.py": {
+        "focal_file": "contrib/opencensus-ext-pymysql/opencensus/ext/pymysql/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 24,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-pyramid/tests/test_pyramid_middleware.py": {
+        "focal_file": "contrib/opencensus-ext-pyramid/opencensus/ext/pyramid/pyramid_middleware.py",
+        "methods": {
+            "test__before_request": {
+                "line": 124,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": "opencensus.ext.pyramid.pyramid_middleware.OpenCensusTweenFactory",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "_before_request"
+                }
+            },
+            "test__before_request_excludelist": {
+                "line": 170,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": "opencensus.ext.pyramid.pyramid_middleware.OpenCensusTweenFactory",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "_before_request"
+                }
+            },
+            "test__after_request": {
+                "line": 204,
+                "line_end": 249,
+                "indent": 4,
+                "focal_class": "opencensus.ext.pyramid.pyramid_middleware.OpenCensusTweenFactory",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "_after_request"
+                }
+            },
+            "test__after_request_excludelist": {
+                "line": 251,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": "opencensus.ext.pyramid.pyramid_middleware.OpenCensusTweenFactory",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "_after_request"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-requests/tests/test_requests_trace.py": {
+        "focal_file": "contrib/opencensus-ext-requests/opencensus/ext/requests/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 28,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            },
+            "test_wrap_session_request": {
+                "line": 59,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "wrap_session_request"
+                }
+            },
+            "test_wrap_session_request_excludelist_ok": {
+                "line": 107,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "wrap_session_request"
+                }
+            },
+            "test_wrap_session_request_excludelist_nok": {
+                "line": 142,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "wrap_session_request"
+                }
+            },
+            "test_wrap_session_request_exporter_thread": {
+                "line": 174,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "wrap_session_request"
+                }
+            },
+            "test_wrap_session_request_timeout": {
+                "line": 289,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "wrap_session_request"
+                }
+            },
+            "test_wrap_session_request_invalid_url": {
+                "line": 338,
+                "line_end": 385,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "wrap_session_request"
+                }
+            },
+            "test_wrap_session_request_exception": {
+                "line": 387,
+                "line_end": 434,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "wrap_session_request"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-sqlalchemy/tests/test_sqlalchemy_trace.py": {
+        "focal_file": "contrib/opencensus-ext-sqlalchemy/opencensus/ext/sqlalchemy/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 25,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            },
+            "test_trace_engine": {
+                "line": 37,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "trace_engine"
+                }
+            },
+            "test__before_cursor_execute": {
+                "line": 58,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "_before_cursor_execute"
+                }
+            },
+            "test__before_cursor_executemany": {
+                "line": 87,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "_before_cursor_execute"
+                }
+            },
+            "test__after_cursor_execute": {
+                "line": 114,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "_after_cursor_execute"
+                }
+            }
+        }
+    },
+    "contrib/opencensus-ext-threading/tests/test_threading_trace.py": {
+        "focal_file": "contrib/opencensus-ext-threading/opencensus/ext/threading/trace.py",
+        "methods": {
+            "test_trace_integration": {
+                "line": 30,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "trace_integration"
+                }
+            }
+        }
+    },
+    "tests/unit/common/test_schedule.py": {
+        "focal_file": "opencensus/common/schedule/__init__.py",
+        "methods": {
+            "test_gets": {
+                "line": 31,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "Queue",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "gets"
+                }
+            }
+        }
+    },
+    "tests/unit/common/monitored_resource_util/test_aws_identity_doc_utils.py": {
+        "focal_file": "opencensus/common/monitored_resource/aws_identity_doc_utils.py",
+        "methods": {
+            "test_get_aws_metadata": {
+                "line": 26,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "opencensus.common.monitored_resource.aws_identity_doc_utils.AwsIdentityDocumentUtils",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "get_aws_metadata"
+                }
+            }
+        }
+    },
+    "tests/unit/common/monitored_resource_util/test_gcp_metadata_config.py": {
+        "focal_file": "opencensus/common/monitored_resource/gcp_metadata_config.py",
+        "methods": {
+            "test_get_gce_metadata": {
+                "line": 27,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "opencensus.common.monitored_resource.gcp_metadata_config.GcpMetadataConfig",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "get_gce_metadata"
+                }
+            }
+        }
+    },
+    "tests/unit/common/monitored_resource_util/test_k8s_utils.py": {
+        "focal_file": "opencensus/common/monitored_resource/k8s_utils.py",
+        "methods": {
+            "test_get_k8s_metadata": {
+                "line": 35,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 64,
+                    "indent": 0,
+                    "name": "get_k8s_metadata"
+                }
+            }
+        }
+    },
+    "tests/unit/common/transports/test_async.py": {
+        "focal_file": "opencensus/common/transports/async_.py",
+        "methods": {
+            "test_stop": {
+                "line": 65,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_._Worker",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test__export_pending_data": {
+                "line": 82,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_._Worker",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "_export_pending_data"
+                }
+            },
+            "test__export_pending_data_non_empty_queue": {
+                "line": 93,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_._Worker",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "_export_pending_data"
+                }
+            },
+            "test__export_pending_data_did_not_join": {
+                "line": 103,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_._Worker",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 181,
+                    "indent": 4,
+                    "name": "_export_pending_data"
+                }
+            },
+            "test__thread_main": {
+                "line": 114,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_._Worker",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "_thread_main"
+                }
+            },
+            "test__thread_main_batches": {
+                "line": 136,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_._Worker",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "_thread_main"
+                }
+            },
+            "test_flush": {
+                "line": 284,
+                "line_end": 295,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_.AsyncTransport",
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "flush"
+                }
+            },
+            "test_export": {
+                "line": 266,
+                "line_end": 282,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.async_.AsyncTransport",
+                "focal_method": {
+                    "line": 225,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "export"
+                }
+            }
+        }
+    },
+    "tests/unit/common/transports/test_sync.py": {
+        "focal_file": "opencensus/common/transports/sync.py",
+        "methods": {
+            "test_export": {
+                "line": 29,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "opencensus.common.transports.sync.SyncTransport",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "export"
+                }
+            }
+        }
+    },
+    "tests/unit/metrics/export/test_cumulative.py": {
+        "focal_file": "opencensus/metrics/export/cumulative.py",
+        "methods": {
+            "test_add": {
+                "line": 54,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.cumulative.CumulativePointDouble",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "add"
+                }
+            }
+        }
+    },
+    "tests/unit/metrics/export/test_gauge.py": {
+        "focal_file": "opencensus/metrics/export/gauge.py",
+        "methods": {
+            "test_add": {
+                "line": 61,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.GaugePointDouble",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_set": {
+                "line": 68,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.GaugePointDouble",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "set"
+                }
+            },
+            "test_get_value": {
+                "line": 83,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.GaugePointLong",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_value"
+                }
+            },
+            "test_get_value_gcd": {
+                "line": 101,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.GaugePointLong",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_value"
+                }
+            },
+            "test_get_to_point_value": {
+                "line": 117,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.GaugePointLong",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "to_point_value"
+                }
+            },
+            "test_get_to_point_value_gcd": {
+                "line": 135,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.GaugePointLong",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "to_point_value"
+                }
+            },
+            "test_get_time_series": {
+                "line": 315,
+                "line_end": 319,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.DoubleGauge",
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 358,
+                    "indent": 4,
+                    "name": "get_or_create_time_series"
+                }
+            },
+            "test_get_default_time_series": {
+                "line": 184,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.LongGauge",
+                "focal_method": {
+                    "line": 360,
+                    "line_end": 374,
+                    "indent": 4,
+                    "name": "get_or_create_default_time_series"
+                }
+            },
+            "test_remove_time_series": {
+                "line": 191,
+                "line_end": 219,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.LongGauge",
+                "focal_method": {
+                    "line": 268,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "remove_time_series"
+                }
+            },
+            "test_remove_default_time_series": {
+                "line": 221,
+                "line_end": 230,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.LongGauge",
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 284,
+                    "indent": 4,
+                    "name": "remove_default_time_series"
+                }
+            },
+            "test_clear": {
+                "line": 232,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.LongGauge",
+                "focal_method": {
+                    "line": 286,
+                    "line_end": 289,
+                    "indent": 4,
+                    "name": "clear"
+                }
+            },
+            "test_get_metric": {
+                "line": 321,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.DoubleGauge",
+                "focal_method": {
+                    "line": 291,
+                    "line_end": 310,
+                    "indent": 4,
+                    "name": "get_metric"
+                }
+            },
+            "test_create_time_series": {
+                "line": 359,
+                "line_end": 394,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.DerivedLongGauge",
+                "focal_method": {
+                    "line": 415,
+                    "line_end": 435,
+                    "indent": 4,
+                    "name": "create_time_series"
+                }
+            },
+            "test_create_default_time_series": {
+                "line": 396,
+                "line_end": 422,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.DerivedLongGauge",
+                "focal_method": {
+                    "line": 437,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_default_time_series"
+                }
+            },
+            "test_add_gauge": {
+                "line": 426,
+                "line_end": 443,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.Registry",
+                "focal_method": {
+                    "line": 476,
+                    "line_end": 499,
+                    "indent": 4,
+                    "name": "add_gauge"
+                }
+            },
+            "test_get_metrics": {
+                "line": 445,
+                "line_end": 465,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.gauge.Registry",
+                "focal_method": {
+                    "line": 501,
+                    "line_end": 511,
+                    "indent": 4,
+                    "name": "get_metrics"
+                }
+            }
+        }
+    },
+    "tests/unit/metrics/export/test_metric_descriptor.py": {
+        "focal_file": "opencensus/metrics/export/metric_descriptor.py",
+        "methods": {
+            "test_to_type_class": {
+                "line": 66,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "to_type_class"
+                }
+            }
+        }
+    },
+    "tests/unit/metrics/export/test_metric_producer.py": {
+        "focal_file": "opencensus/metrics/export/metric_producer.py",
+        "methods": {
+            "test_add_remove": {
+                "line": 34,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.metric_producer.MetricProducerManager",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_get_all": {
+                "line": 54,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.metric_producer.MetricProducerManager",
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get_all"
+                }
+            }
+        }
+    },
+    "tests/unit/metrics/export/test_time_series.py": {
+        "focal_file": "opencensus/metrics/export/time_series.py",
+        "methods": {
+            "test_check_points_type": {
+                "line": 55,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "opencensus.metrics.export.time_series.TimeSeries",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "check_points_type"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_aggregation.py": {
+        "focal_file": "opencensus/stats/aggregation.py",
+        "methods": {
+            "test_new_aggregation_data_defaults": {
+                "line": 96,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "new_aggregation_data"
+                }
+            },
+            "test_new_aggregation_data_explicit": {
+                "line": 101,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "new_aggregation_data"
+                }
+            },
+            "test_new_aggregation_data_float": {
+                "line": 81,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "new_aggregation_data"
+                }
+            },
+            "test_new_aggregation_data_bad": {
+                "line": 88,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "new_aggregation_data"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_aggregation_data.py": {
+        "focal_file": "opencensus/stats/aggregation_data.py",
+        "methods": {
+            "test_add_sample_int": {
+                "line": 50,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "add_sample"
+                }
+            },
+            "test_to_point_float": {
+                "line": 119,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "to_point"
+                }
+            },
+            "test_to_point_int": {
+                "line": 71,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "to_point"
+                }
+            },
+            "test_to_pointInt": {
+                "line": 131,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "to_point"
+                }
+            },
+            "test_add_sample": {
+                "line": 362,
+                "line_end": 394,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "add_sample"
+                }
+            },
+            "test_add_sample_attachment": {
+                "line": 396,
+                "line_end": 440,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "add_sample"
+                }
+            },
+            "test_increment_bucket_count": {
+                "line": 442,
+                "line_end": 484,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "increment_bucket_count"
+                }
+            },
+            "test_to_point": {
+                "line": 486,
+                "line_end": 520,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "to_point"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_base_stats.py": {
+        "focal_file": "opencensus/stats/base_exporter.py",
+        "methods": {
+            "test_emit": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "opencensus.stats.base_exporter.StatsExporter",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "emit"
+                }
+            },
+            "test_register_view": {
+                "line": 30,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "opencensus.stats.base_exporter.StatsExporter",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "on_register_view"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_bucket_boundaries.py": {
+        "focal_file": "opencensus/stats/bucket_boundaries.py",
+        "methods": {
+            "test_is_valid_boundaries": {
+                "line": 32,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "is_valid_boundaries"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_measure_to_view_map.py": {
+        "focal_file": "opencensus/stats/measure_to_view_map.py",
+        "methods": {
+            "test_get_view": {
+                "line": 54,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "get_view"
+                }
+            },
+            "test_filter_exported_views": {
+                "line": 99,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "filter_exported_views"
+                }
+            },
+            "test_register_view": {
+                "line": 125,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "register_view"
+                }
+            },
+            "test_record": {
+                "line": 224,
+                "line_end": 315,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "record"
+                }
+            },
+            "test_export": {
+                "line": 367,
+                "line_end": 391,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "export"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_measurement_map.py": {
+        "focal_file": "opencensus/stats/measurement_map.py",
+        "methods": {
+            "test_measure_int_put": {
+                "line": 35,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "measure_int_put"
+                }
+            },
+            "test_measure_float_put": {
+                "line": 45,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "measure_float_put"
+                }
+            },
+            "test_put_attachment": {
+                "line": 99,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "measure_put_attachment"
+                }
+            },
+            "test_put_multiple_attachment": {
+                "line": 117,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "measure_put_attachment"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_stats.py": {
+        "focal_file": "opencensus/stats/stats.py",
+        "methods": {
+            "test_get_metrics": {
+                "line": 30,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "get_metrics"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_stats_recorder.py": {
+        "focal_file": "opencensus/stats/stats_recorder.py",
+        "methods": {
+            "test_new_measurement_map": {
+                "line": 36,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "new_measurement_map"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_view.py": {
+        "focal_file": "opencensus/stats/view.py",
+        "methods": {
+            "test_view_to_metric_descriptor": {
+                "line": 45,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "get_metric_descriptor"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_view_data.py": {
+        "focal_file": "opencensus/stats/view_data.py",
+        "methods": {
+            "test_start": {
+                "line": 40,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_end": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "end"
+                }
+            },
+            "test_get_tag_values": {
+                "line": 60,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get_tag_values"
+                }
+            },
+            "test_record": {
+                "line": 77,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "record"
+                }
+            }
+        }
+    },
+    "tests/unit/stats/test_view_manager.py": {
+        "focal_file": "opencensus/stats/view_manager.py",
+        "methods": {
+            "test_register_view": {
+                "line": 41,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "register_view"
+                }
+            },
+            "test_register_exporter": {
+                "line": 54,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register_exporter"
+                }
+            },
+            "test_unregister_exporter": {
+                "line": 64,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "register_exporter"
+                }
+            },
+            "test_get_view": {
+                "line": 79,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_view"
+                }
+            },
+            "test_get_all_exported_views": {
+                "line": 92,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_all_exported_views"
+                }
+            }
+        }
+    },
+    "tests/unit/tags/propagation/test_binary_serializer.py": {
+        "focal_file": "opencensus/tags/propagation/binary_serializer.py",
+        "methods": {
+            "test_from_byte_array_input_empty": {
+                "line": 22,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "opencensus.tags.propagation.binary_serializer.BinarySerializer",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "from_byte_array"
+                }
+            },
+            "test_from_byte_array": {
+                "line": 36,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "opencensus.tags.propagation.binary_serializer.BinarySerializer",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "from_byte_array"
+                }
+            },
+            "test_to_byte_array": {
+                "line": 45,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "opencensus.tags.propagation.binary_serializer.BinarySerializer",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "to_byte_array"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_attributes.py": {
+        "focal_file": "opencensus/trace/attributes.py",
+        "methods": {
+            "test_set_attribute": {
+                "line": 33,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "set_attribute"
+                }
+            },
+            "test_delete_attribute": {
+                "line": 43,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "delete_attribute"
+                }
+            },
+            "test_get_attribute": {
+                "line": 50,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "get_attribute"
+                }
+            },
+            "test_format_attributes_json": {
+                "line": 57,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "format_attributes_json"
+                }
+            },
+            "test_format_attributes_json_type_error": {
+                "line": 90,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "format_attributes_json"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_base_span.py": {
+        "focal_file": "opencensus/trace/base_span.py",
+        "methods": {
+            "test_add_attribute_abstract": {
+                "line": 54,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "BaseSpan",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "add_attribute"
+                }
+            },
+            "test_add_annotation_abstract": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "BaseSpan",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_add_message_event_abstract": {
+                "line": 66,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "BaseSpan",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "add_message_event"
+                }
+            },
+            "test_add_link_abstract": {
+                "line": 72,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "BaseSpan",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "add_link"
+                }
+            },
+            "test_set_status_abstract": {
+                "line": 78,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "BaseSpan",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "set_status"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_blank_span.py": {
+        "focal_file": "opencensus/trace/blank_span.py",
+        "methods": {
+            "test_start": {
+                "line": 132,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_finish": {
+                "line": 148,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "finish"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_config_integration.py": {
+        "focal_file": "opencensus/trace/config_integration.py",
+        "methods": {
+            "test_trace_integrations_not_exist": {
+                "line": 24,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "trace_integrations"
+                }
+            },
+            "test_trace_integrations": {
+                "line": 31,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "trace_integrations"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_exceptions_status.py": {
+        "focal_file": "opencensus/trace/exceptions_status.py",
+        "methods": {
+            "test_unknown": {
+                "line": 41,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "unknown"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_execution_context.py": {
+        "focal_file": "opencensus/trace/execution_context.py",
+        "methods": {
+            "test_get_and_set_full_context": {
+                "line": 44,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 78,
+                    "indent": 0,
+                    "name": "set_opencensus_full_context"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_ext_utils.py": {
+        "focal_file": "opencensus/trace/utils.py",
+        "methods": {
+            "test_get_func_name": {
+                "line": 25,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "get_func_name"
+                }
+            },
+            "test_get_func_no_module": {
+                "line": 35,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "get_func_name"
+                }
+            },
+            "test_disable_tracing_url_default": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "disable_tracing_url"
+                }
+            },
+            "test_disable_tracing_url_explicit": {
+                "line": 54,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "disable_tracing_url"
+                }
+            },
+            "test_disable_tracing_hostname_default": {
+                "line": 61,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "disable_tracing_hostname"
+                }
+            },
+            "test_disable_tracing_hostname_explicit": {
+                "line": 67,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "disable_tracing_hostname"
+                }
+            },
+            "test_grpc_code_from_http_code": {
+                "line": 80,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "status_from_http_code"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_link.py": {
+        "focal_file": "opencensus/trace/link.py",
+        "methods": {
+            "test_format_link_json_with_attributes": {
+                "line": 54,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "format_link_json"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_span.py": {
+        "focal_file": "opencensus/trace/span.py",
+        "methods": {
+            "test_span": {
+                "line": 109,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 290,
+                    "line_end": 302,
+                    "indent": 4,
+                    "name": "span"
+                }
+            },
+            "test_add_attribute": {
+                "line": 134,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "add_attribute"
+                }
+            },
+            "test_add_message_event": {
+                "line": 144,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 337,
+                    "indent": 4,
+                    "name": "add_message_event"
+                }
+            },
+            "test_add_annotation": {
+                "line": 156,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 329,
+                    "indent": 4,
+                    "name": "add_annotation"
+                }
+            },
+            "test_add_link": {
+                "line": 168,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 349,
+                    "indent": 4,
+                    "name": "add_link"
+                }
+            },
+            "test_set_status": {
+                "line": 183,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "set_status"
+                }
+            },
+            "test_start": {
+                "line": 201,
+                "line_end": 207,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 363,
+                    "line_end": 365,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_finish": {
+                "line": 227,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 369,
+                    "indent": 4,
+                    "name": "finish"
+                }
+            },
+            "test_format_span_json_no_parent_span": {
+                "line": 303,
+                "line_end": 338,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 457,
+                    "indent": 0,
+                    "name": "format_span_json"
+                }
+            },
+            "test_format_span_json_with_parent_span": {
+                "line": 344,
+                "line_end": 448,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 457,
+                    "indent": 0,
+                    "name": "format_span_json"
+                }
+            },
+            "test_append": {
+                "line": 453,
+                "line_end": 464,
+                "indent": 4,
+                "focal_class": "BoundedList",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 72,
+                    "indent": 4,
+                    "name": "append"
+                }
+            },
+            "test_extend": {
+                "line": 466,
+                "line_end": 479,
+                "indent": 4,
+                "focal_class": "BoundedList",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "extend"
+                }
+            },
+            "test_from_seq": {
+                "line": 481,
+                "line_end": 486,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "from_seq"
+                }
+            },
+            "test_from_map": {
+                "line": 535,
+                "line_end": 546,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "from_map"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_span_context.py": {
+        "focal_file": "opencensus/trace/span_context.py",
+        "methods": {
+            "test__repr__": {
+                "line": 41,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "__repr__"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_span_data.py": {
+        "focal_file": "opencensus/trace/span_data.py",
+        "methods": {
+            "test_format_legacy_trace_json": {
+                "line": 68,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "format_legacy_trace_json"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_stack_trace.py": {
+        "focal_file": "opencensus/trace/stack_trace.py",
+        "methods": {
+            "test_format_stack_frame_json": {
+                "line": 47,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "format_stack_frame_json"
+                }
+            },
+            "test_add_stack_frame": {
+                "line": 114,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 161,
+                    "indent": 4,
+                    "name": "add_stack_frame"
+                }
+            },
+            "test_format_stack_trace_json_with_stack_frame": {
+                "line": 123,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "format_stack_trace_json"
+                }
+            },
+            "test_format_stack_trace_json_without_stack_frame": {
+                "line": 142,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "format_stack_trace_json"
+                }
+            },
+            "test_create_from_traceback": {
+                "line": 154,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "from_traceback"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_status.py": {
+        "focal_file": "opencensus/trace/status.py",
+        "methods": {
+            "test_format_status_json_without_message": {
+                "line": 32,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "format_status_json"
+                }
+            },
+            "test_format_status_json_with_details": {
+                "line": 43,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "format_status_json"
+                }
+            },
+            "test_format_status_json_without_details": {
+                "line": 64,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "format_status_json"
+                }
+            },
+            "test_create_from_exception": {
+                "line": 85,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "from_exception"
+                }
+            },
+            "test_create_as_ok": {
+                "line": 93,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "as_ok"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_time_event.py": {
+        "focal_file": "opencensus/trace/time_event.py",
+        "methods": {
+            "test_format_annotation_json_with_attributes": {
+                "line": 34,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "format_annotation_json"
+                }
+            },
+            "test_format_annotation_json_without_attributes": {
+                "line": 55,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "format_annotation_json"
+                }
+            },
+            "test_format_message_event_json": {
+                "line": 102,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "format_message_event_json"
+                }
+            },
+            "test_format_message_event_json_no_size": {
+                "line": 122,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "format_message_event_json"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_tracer.py": {
+        "focal_file": "opencensus/trace/tracer.py",
+        "methods": {
+            "test_should_sample_sampled": {
+                "line": 77,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "should_sample"
+                }
+            },
+            "test_get_tracer_noop_tracer": {
+                "line": 96,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "get_tracer"
+                }
+            },
+            "test_get_tracer_context_tracer": {
+                "line": 106,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "get_tracer"
+                }
+            },
+            "test_add_attribute_to_current_span_not_sampled": {
+                "line": 258,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "add_attribute_to_current_span"
+                }
+            },
+            "test_trace_decorator": {
+                "line": 273,
+                "line_end": 290,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "trace_decorator"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/test_tracestate.py": {
+        "focal_file": "opencensus/trace/tracestate.py",
+        "methods": {
+            "test_method_append": {
+                "line": 68,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "Tracestate",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "append"
+                }
+            },
+            "test_method_is_valid": {
+                "line": 86,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "Tracestate",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "is_valid"
+                }
+            },
+            "test_method_prepend": {
+                "line": 103,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": "Tracestate",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "prepend"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/exporters/test_file_exporter.py": {
+        "focal_file": "opencensus/trace/file_exporter.py",
+        "methods": {
+            "test_emit": {
+                "line": 35,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "emit"
+                }
+            },
+            "test_export": {
+                "line": 44,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "export"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/exporters/test_logging_exporter.py": {
+        "focal_file": "opencensus/trace/logging_exporter.py",
+        "methods": {
+            "test_emit": {
+                "line": 38,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "opencensus.trace.logging_exporter.LoggingExporter",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "emit"
+                }
+            },
+            "test_export": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "opencensus.trace.logging_exporter.LoggingExporter",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "export"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/exporters/test_print_exporter.py": {
+        "focal_file": "opencensus/trace/print_exporter.py",
+        "methods": {
+            "test_emit": {
+                "line": 29,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "emit"
+                }
+            },
+            "test_export": {
+                "line": 35,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "export"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/propagation/test_b3_format.py": {
+        "focal_file": "opencensus/trace/propagation/b3_format.py",
+        "methods": {
+            "test_from_headers_no_headers": {
+                "line": 25,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.b3_format.B3FormatPropagator",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "from_headers"
+                }
+            },
+            "test_from_headers_keys_exist": {
+                "line": 31,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.b3_format.B3FormatPropagator",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "from_headers"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/propagation/test_binary_format.py": {
+        "focal_file": "opencensus/trace/propagation/binary_format.py",
+        "methods": {
+            "test_from_header_none": {
+                "line": 32,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.binary_format.BinaryFormatPropagator",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "from_header"
+                }
+            },
+            "test_from_header": {
+                "line": 40,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.binary_format.BinaryFormatPropagator",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 136,
+                    "indent": 4,
+                    "name": "from_header"
+                }
+            },
+            "test_to_header": {
+                "line": 79,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.binary_format.BinaryFormatPropagator",
+                "focal_method": {
+                    "line": 138,
+                    "line_end": 168,
+                    "indent": 4,
+                    "name": "to_header"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/propagation/test_google_cloud_format.py": {
+        "focal_file": "opencensus/trace/propagation/google_cloud_format.py",
+        "methods": {
+            "test_from_headers_none": {
+                "line": 30,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.google_cloud_format.GoogleCloudFormatPropagator",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "from_headers"
+                }
+            },
+            "test_from_headers_empty": {
+                "line": 38,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.google_cloud_format.GoogleCloudFormatPropagator",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "from_headers"
+                }
+            },
+            "test_to_header": {
+                "line": 166,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.google_cloud_format.GoogleCloudFormatPropagator",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "to_header"
+                }
+            },
+            "test_to_headers": {
+                "line": 185,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.google_cloud_format.GoogleCloudFormatPropagator",
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "to_headers"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/propagation/test_text_format.py": {
+        "focal_file": "opencensus/trace/propagation/text_format.py",
+        "methods": {
+            "test_from_carrier_keys_exist": {
+                "line": 23,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.text_format.TextFormatPropagator",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "from_carrier"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/propagation/test_trace_context_http_header_format.py": {
+        "focal_file": "opencensus/trace/propagation/trace_context_http_header_format.py",
+        "methods": {
+            "test_from_headers_none": {
+                "line": 21,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.trace_context_http_header_format.TraceContextPropagator",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "from_headers"
+                }
+            },
+            "test_from_headers_empty": {
+                "line": 31,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "opencensus.trace.propagation.trace_context_http_header_format.TraceContextPropagator",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "from_headers"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/tracers/test_base_tracer.py": {
+        "focal_file": "opencensus/trace/tracers/base.py",
+        "methods": {
+            "test_start_span_abstract": {
+                "line": 33,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.base.Tracer",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "start_span"
+                }
+            },
+            "test_end_span_abstract": {
+                "line": 39,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.base.Tracer",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "end_span"
+                }
+            },
+            "test_current_span_abstract": {
+                "line": 45,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.base.Tracer",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "current_span"
+                }
+            },
+            "test_add_attribute_to_current_span": {
+                "line": 51,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.base.Tracer",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "add_attribute_to_current_span"
+                }
+            },
+            "test_list_collected_spans_abstract": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.base.Tracer",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "list_collected_spans"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/tracers/test_context_tracer.py": {
+        "focal_file": "opencensus/trace/tracers/context_tracer.py",
+        "methods": {
+            "test_finish_with_spans": {
+                "line": 62,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.context_tracer.ContextTracer",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "start_span"
+                }
+            },
+            "test_start_span": {
+                "line": 115,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.context_tracer.ContextTracer",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "start_span"
+                }
+            },
+            "test_span": {
+                "line": 134,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.context_tracer.ContextTracer",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "span"
+                }
+            },
+            "test_end_span_active": {
+                "line": 163,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.context_tracer.ContextTracer",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "end_span"
+                }
+            },
+            "test_list_collected_spans": {
+                "line": 219,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.context_tracer.ContextTracer",
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "list_collected_spans"
+                }
+            },
+            "test_add_attribute_to_current_span": {
+                "line": 230,
+                "line_end": 246,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.context_tracer.ContextTracer",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "add_attribute_to_current_span"
+                }
+            }
+        }
+    },
+    "tests/unit/trace/tracers/test_noop_tracer.py": {
+        "focal_file": "opencensus/trace/tracers/noop_tracer.py",
+        "methods": {
+            "test_list_collected_spans": {
+                "line": 22,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "opencensus.trace.tracers.noop_tracer.NoopTracer",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "list_collected_spans"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "tests/test_amqp.py": {
+        "focal_file": "src/rabbithole/amqp.py",
+        "methods": {
+            "test_run": {
+                "line": 76,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": "Consumer",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_message_received": {
+                "line": 145,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": "Consumer",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "message_received_cb"
+                }
+            }
+        }
+    },
+    "tests/test_batcher.py": {
+        "focal_file": "src/rabbithole/batcher.py",
+        "methods": {
+            "test_first_message_received": {
+                "line": 25,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "message_received_cb"
+                }
+            },
+            "test_empty_batch": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "queue_batch"
+                }
+            },
+            "test_cancelled_timer_not_active": {
+                "line": 92,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 165,
+                    "indent": 4,
+                    "name": "cancel_timer"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "tests/test_scripts.py": {
+        "focal_file": "pypicloud/scripts.py",
+        "methods": {
+            "test_gen_password": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "_get_password"
+                }
+            },
+            "test_cli_get_password": {
+                "line": 23,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "gen_password"
+                }
+            },
+            "test_bucket_validate": {
+                "line": 106,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 117,
+                    "indent": 0,
+                    "name": "bucket_validate"
+                }
+            }
+        }
+    },
+    "tests/test_access_backends.py": {
+        "focal_file": "pypicloud/access/aws_secrets_manager.py",
+        "methods": {
+            "test_check_health": {
+                "line": 330,
+                "line_end": 333,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "check_health"
+                }
+            },
+            "test_check_health_success": {
+                "line": 1861,
+                "line_end": 1864,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "check_health"
+                }
+            },
+            "test_check_health_fail": {
+                "line": 1866,
+                "line_end": 1875,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "check_health"
+                }
+            }
+        }
+    },
+    "tests/test_util.py": {
+        "focal_file": "pypicloud/util.py",
+        "methods": {
+            "test_evict_get": {
+                "line": 68,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "pypicloud.util.TimedCache",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_factory_get": {
+                "line": 100,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": "pypicloud.util.TimedCache",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_get": {
+                "line": 110,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "pypicloud.util.TimedCache",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_set_no_expire": {
+                "line": 118,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": "pypicloud.util.TimedCache",
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "set_expire"
+                }
+            },
+            "test_set_expire": {
+                "line": 126,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "pypicloud.util.TimedCache",
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "set_expire"
+                }
+            },
+            "test_set_expire_clear": {
+                "line": 138,
+                "line_end": 146,
+                "indent": 4,
+                "focal_class": "pypicloud.util.TimedCache",
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "set_expire"
+                }
+            }
+        }
+    },
+    "tests/test_simple.py": {
+        "focal_file": "pypicloud/views/simple.py",
+        "methods": {
+            "test_upload": {
+                "line": 35,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "upload"
+                }
+            },
+            "test_search": {
+                "line": 69,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "search"
+                }
+            },
+            "test_fallback_packages": {
+                "line": 111,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "get_fallback_packages"
+                }
+            },
+            "test_fallback_packages_redirect": {
+                "line": 145,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "get_fallback_packages"
+                }
+            },
+            "test_disallow_fallback_packages": {
+                "line": 176,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "get_fallback_packages"
+                }
+            },
+            "test_package_write_no_user": {
+                "line": 599,
+                "line_end": 619,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "package_versions"
+                }
+            },
+            "test_package_write_user": {
+                "line": 621,
+                "line_end": 641,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "package_versions"
+                }
+            }
+        }
+    }
+}

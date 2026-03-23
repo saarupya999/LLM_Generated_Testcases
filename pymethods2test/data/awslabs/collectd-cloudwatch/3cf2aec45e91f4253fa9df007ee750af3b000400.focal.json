@@ -1,0 +1,602 @@
+{
+    "test/test_awsutils.py": {
+        "focal_file": "src/cloudwatch/modules/awsutils.py",
+        "methods": {
+            "test_get_timestamp_format": {
+                "line": 8,
+                "line_end": 10,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 9,
+                    "indent": 0,
+                    "name": "get_aws_timestamp"
+                }
+            },
+            "test_get_datestamp_format": {
+                "line": 12,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "get_datestamp"
+                }
+            }
+        }
+    },
+    "test/test_ec2getclient.py": {
+        "focal_file": "src/cloudwatch/modules/client/ec2getclient.py",
+        "methods": {
+            "test_get_autoscaling_name": {
+                "line": 66,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_autoscaling_group"
+                }
+            },
+            "test_get_autoscaling_name_with_iam_role_creds": {
+                "line": 81,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "EC2GetClient",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_autoscaling_group"
+                }
+            },
+            "test_get_autoscaling_name_with_retry": {
+                "line": 89,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "EC2GetClient",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_autoscaling_group"
+                }
+            },
+            "test_get_autoscaling_name_with_timeout": {
+                "line": 97,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_autoscaling_group"
+                }
+            },
+            "test_get_user_agent_header": {
+                "line": 103,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "_get_user_agent_header"
+                }
+            },
+            "test_get_custom_headers": {
+                "line": 107,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "_get_custom_headers"
+                }
+            }
+        }
+    },
+    "test/test_fakeservertest.py": {
+        "focal_file": "test/helpers/fake_http_server.py",
+        "methods": {
+            "test_is_server_alive": {
+                "line": 19,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "is_alive"
+                }
+            },
+            "test_server_process_forever": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "is_ready_to_process"
+                }
+            },
+            "test_server_stop_multiple_times": {
+                "line": 45,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "stop_server"
+                }
+            },
+            "test_set_custom_response": {
+                "line": 51,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "set_expected_response"
+                }
+            }
+        }
+    },
+    "test/test_metadatareader.py": {
+        "focal_file": "src/cloudwatch/modules/configuration/metadatareader.py",
+        "methods": {
+            "test_can_get_iam_role_name": {
+                "line": 51,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_iam_role_name"
+                }
+            },
+            "test_can_create_iam_role_credentials_from_json": {
+                "line": 55,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_iam_role_credentials"
+                }
+            }
+        }
+    },
+    "test/test_metricdata.py": {
+        "focal_file": "src/cloudwatch/modules/metricdata.py",
+        "methods": {
+            "test_statistic_values_add_value": {
+                "line": 40,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": "cloudwatch.modules.metricdata.MetricDataStatistic.Statistics",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 68,
+                    "indent": 8,
+                    "name": "_add_value"
+                }
+            },
+            "test_statistic_values_add_value2": {
+                "line": 46,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "cloudwatch.modules.metricdata.MetricDataStatistic.Statistics",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 68,
+                    "indent": 8,
+                    "name": "_add_value"
+                }
+            },
+            "test_statistic_values_add_value3": {
+                "line": 52,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "cloudwatch.modules.metricdata.MetricDataStatistic.Statistics",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 68,
+                    "indent": 8,
+                    "name": "_add_value"
+                }
+            },
+            "test_metric_data_creates_statistic_on_add_value": {
+                "line": 58,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "MetricDataStatistic",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "add_value"
+                }
+            },
+            "test_metric_data_calculates_statistic_on_add_value": {
+                "line": 65,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "MetricDataStatistic",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "add_value"
+                }
+            }
+        }
+    },
+    "test/test_metricdatabuilder.py": {
+        "focal_file": "src/cloudwatch/modules/metricdata.py",
+        "methods": {
+            "test_build_metric_dimensions": {
+                "line": 131,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "MetricDataBuilder",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_build_metric_dimensions"
+                }
+            },
+            "test_buoild_metric_dimensions_with_no_plugin_instance": {
+                "line": 138,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "MetricDataBuilder",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_build_metric_dimensions"
+                }
+            },
+            "test_build_metric_dimensions_with_host_from_value_list": {
+                "line": 144,
+                "line_end": 150,
+                "indent": 4,
+                "focal_class": "MetricDataBuilder",
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "_build_metric_dimensions"
+                }
+            }
+        }
+    },
+    "test/test_putclient.py": {
+        "focal_file": "src/cloudwatch/modules/client/putclient.py",
+        "methods": {
+            "test_put_metric_data": {
+                "line": 66,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "put_metric_data"
+                }
+            },
+            "test_put_metric_data_with_iam_role_creds": {
+                "line": 83,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "PutClient",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "put_metric_data"
+                }
+            },
+            "test_put_metric_data_with_retry": {
+                "line": 93,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "put_metric_data"
+                }
+            },
+            "test_put_metric_data_with_timeout": {
+                "line": 101,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "put_metric_data"
+                }
+            },
+            "test_get_user_agent_header": {
+                "line": 114,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "_get_user_agent_header"
+                }
+            },
+            "test_get_custom_headers": {
+                "line": 118,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "_get_custom_headers"
+                }
+            }
+        }
+    },
+    "test/test_querystringbuilder.py": {
+        "focal_file": "src/cloudwatch/modules/client/querystringbuilder.py",
+        "methods": {
+            "test_build_querystring_with_no_metrics": {
+                "line": 38,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "build_querystring"
+                }
+            },
+            "test_build_querystring_with_one_metric": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "build_querystring"
+                }
+            },
+            "test_build_querystring_with_multiple_metrics": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "_build_metric_map"
+                }
+            },
+            "test_build_querystring_with_statistics": {
+                "line": 81,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "build_querystring"
+                }
+            }
+        }
+    },
+    "test/test_readerutils.py": {
+        "focal_file": "src/cloudwatch/modules/configuration/readerutils.py",
+        "methods": {
+            "test_get_boolean": {
+                "line": 49,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "ReaderUtils",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "get_boolean"
+                }
+            },
+            "test_strip_quotes": {
+                "line": 93,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": "ReaderUtils",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "_strip_quotes"
+                }
+            }
+        }
+    },
+    "test/test_requestbuilder.py": {
+        "focal_file": "src/cloudwatch/modules/client/requestbuilder.py",
+        "methods": {
+            "test_get_host": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "_get_host"
+                }
+            }
+        }
+    },
+    "test/test_signer.py": {
+        "focal_file": "src/cloudwatch/modules/client/signer.py",
+        "methods": {
+            "test_get_string_to_sign_sequence": {
+                "line": 16,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "_build_string_to_sign"
+                }
+            },
+            "test_get_canonical_request_sequence": {
+                "line": 24,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "_build_canonical_request"
+                }
+            },
+            "test_hash": {
+                "line": 37,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "_hash"
+                }
+            },
+            "test_sign": {
+                "line": 43,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "_sign"
+                }
+            },
+            "test_build_signature_key": {
+                "line": 49,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "_build_signature_key"
+                }
+            },
+            "test_create_request_signature": {
+                "line": 56,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "create_request_signature"
+                }
+            }
+        }
+    },
+    "test/test_whitelist.py": {
+        "focal_file": "src/cloudwatch/modules/configuration/whitelist.py",
+        "methods": {
+            "test_whitelist_file_is_created": {
+                "line": 36,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": "Whitelist",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "is_whitelisted"
+                }
+            },
+            "test_empty_whitelist_blocks_metrics": {
+                "line": 72,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "Whitelist",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "is_whitelisted"
+                }
+            },
+            "test_all_whitelisted_metrics_pass": {
+                "line": 88,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "Whitelist",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "is_whitelisted"
+                }
+            },
+            "test_whitelist_regex_works": {
+                "line": 94,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "Whitelist",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "is_whitelisted"
+                }
+            }
+        }
+    }
+}

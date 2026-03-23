@@ -1,0 +1,609 @@
+{
+    "tests/integration/test_model_elements.py": {
+        "focal_file": "src/structurizr/model/model.py",
+        "methods": {
+            "test_add_person_from_args": {
+                "line": 35,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 193,
+                    "indent": 4,
+                    "name": "add_person"
+                }
+            },
+            "test_add_software_system_from_args": {
+                "line": 62,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "add_software_system"
+                }
+            }
+        }
+    },
+    "tests/unit/model/test_container_instance.py": {
+        "focal_file": "src/structurizr/model/container_instance.py",
+        "methods": {
+            "test_container_instance_name_is_container_name": {
+                "line": 86,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": "ContainerInstanceIO",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "hydrate"
+                }
+            }
+        }
+    },
+    "tests/unit/model/test_software_system.py": {
+        "focal_file": "src/structurizr/model/software_system.py",
+        "methods": {
+            "test_software_system_add_container_adds_to_container_list": {
+                "line": 75,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "add_container"
+                }
+            },
+            "test_software_system_adding_container_with_same_name_fails": {
+                "line": 116,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "add_container"
+                }
+            },
+            "test_software_system_get_container_with_name": {
+                "line": 141,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "get_container_with_name"
+                }
+            }
+        }
+    },
+    "tests/unit/model/test_software_system_instance.py": {
+        "focal_file": "src/structurizr/model/software_system_instance.py",
+        "methods": {
+            "test_software_system_instance_name_is_software_system_name": {
+                "line": 89,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": "SoftwareSystemInstanceIO",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "hydrate"
+                }
+            },
+            "test_software_system_instance_hyrdates_http_health_checks": {
+                "line": 102,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": "SoftwareSystemInstanceIO",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "hydrate"
+                }
+            }
+        }
+    },
+    "tests/unit/model/test_element.py": {
+        "focal_file": "src/structurizr/model/element.py",
+        "methods": {
+            "test_element_can_only_add_relationship_to_source": {
+                "line": 67,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "add_relationship"
+                }
+            },
+            "test_element_add_relationship_can_omit_source": {
+                "line": 78,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "add_relationship"
+                }
+            },
+            "test_element_add_relationship_twice_is_ok": {
+                "line": 88,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "add_relationship"
+                }
+            }
+        }
+    },
+    "tests/unit/model/test_deployment_node.py": {
+        "focal_file": "src/structurizr/model/deployment_node.py",
+        "methods": {
+            "test_deployment_node_adds_to_children": {
+                "line": 85,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "add_deployment_node"
+                }
+            },
+            "test_deployment_node_add_container": {
+                "line": 158,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "add_container"
+                }
+            },
+            "test_deployment_node_add_software_system": {
+                "line": 220,
+                "line_end": 232,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "add_software_system"
+                }
+            },
+            "test_deployment_node_serialising_software_system": {
+                "line": 235,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "add_software_system"
+                }
+            },
+            "test_deployment_node_add_infrastructure_node": {
+                "line": 255,
+                "line_end": 264,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 248,
+                    "indent": 4,
+                    "name": "add_infrastructure_node"
+                }
+            },
+            "test_deployment_node_serialising_infrastructure_nodes": {
+                "line": 267,
+                "line_end": 283,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 248,
+                    "indent": 4,
+                    "name": "add_infrastructure_node"
+                }
+            }
+        }
+    },
+    "tests/unit/model/test_model.py": {
+        "focal_file": "src/structurizr/model/deployment_node.py",
+        "methods": {
+            "test_model_add_top_level_deployment_node": {
+                "line": 82,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "add_deployment_node"
+                }
+            },
+            "test_model_cant_add_two_deployment_nodes_with_same_name": {
+                "line": 90,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "add_deployment_node"
+                }
+            },
+            "test_model_add_lower_level_deployment_node": {
+                "line": 105,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "DeploymentNode",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "add_deployment_node"
+                }
+            },
+            "test_model_cannot_add_two_software_systems_with_same_name": {
+                "line": 150,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "add_software_system"
+                }
+            },
+            "test_model_add_element_twice_is_ignored": {
+                "line": 168,
+                "line_end": 172,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 242,
+                    "indent": 4,
+                    "name": "add_software_system"
+                }
+            }
+        }
+    },
+    "tests/unit/api/test_structurizr_client.py": {
+        "focal_file": "src/structurizr/api/structurizr_client.py",
+        "methods": {
+            "test_md5": {
+                "line": 84,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 366,
+                    "indent": 4,
+                    "name": "_md5"
+                }
+            },
+            "test_create_archive_filename": {
+                "line": 94,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 342,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "_create_archive_filename"
+                }
+            },
+            "test_archive_workspace": {
+                "line": 105,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 330,
+                    "line_end": 340,
+                    "indent": 4,
+                    "name": "_archive_workspace"
+                }
+            },
+            "test_add_headers_authentication": {
+                "line": 146,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 328,
+                    "indent": 4,
+                    "name": "_add_headers"
+                }
+            },
+            "test_failed_lock_on_free_plan_doesnt_attempt_unlock": {
+                "line": 340,
+                "line_end": 361,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "lock"
+                }
+            }
+        }
+    },
+    "tests/unit/view/test_deployment_view.py": {
+        "focal_file": "src/structurizr/view/deployment_view.py",
+        "methods": {
+            "test_deployment_view_add_all_deployment_nodes_no_top_level_nodes": {
+                "line": 56,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add_all_deployment_nodes"
+                }
+            },
+            "test_deployment_view_add_all_deployment_nodes_no_container_instances": {
+                "line": 68,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add_all_deployment_nodes"
+                }
+            },
+            "test_deployment_view_add_all_deployment_nodes_wrong_enviroment": {
+                "line": 83,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add_all_deployment_nodes"
+                }
+            },
+            "test_deployment_view_add_all_deployment_nodes_with_container_instances": {
+                "line": 102,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "add_default_elements"
+                }
+            },
+            "test_deployment_view_add_all_deployment_nodes_with_child_container_instances": {
+                "line": 125,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add_all_deployment_nodes"
+                }
+            },
+            "test_deployment_view_add_all_deployment_nodes_only_adds_for_software_system": {
+                "line": 150,
+                "line_end": 177,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add_all_deployment_nodes"
+                }
+            },
+            "test_deployment_view_adding_system_instance": {
+                "line": 228,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "add_default_elements"
+                }
+            },
+            "test_deployment_view_find_deployment_node": {
+                "line": 253,
+                "line_end": 270,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "_find_deployment_node"
+                }
+            },
+            "test_add_animation_step": {
+                "line": 273,
+                "line_end": 311,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "add_animation"
+                }
+            },
+            "test_deployment_view_removing_deployment_node_and_children": {
+                "line": 419,
+                "line_end": 444,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add_all_deployment_nodes"
+                }
+            },
+            "test_deployment_view_removing_parent_deployment_node": {
+                "line": 447,
+                "line_end": 466,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "add_all_deployment_nodes"
+                }
+            },
+            "test_deployment_view_hydration": {
+                "line": 469,
+                "line_end": 504,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 227,
+                    "indent": 4,
+                    "name": "add_animation"
+                }
+            }
+        }
+    },
+    "tests/unit/view/test_dynamic_view.py": {
+        "focal_file": "src/structurizr/view/dynamic_view.py",
+        "methods": {
+            "test_subsequences": {
+                "line": 268,
+                "line_end": 287,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "subsequence"
+                }
+            },
+            "test_parallel_sequencing": {
+                "line": 290,
+                "line_end": 324,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "parallel_sequence"
+                }
+            }
+        }
+    },
+    "tests/unit/view/test_view_set.py": {
+        "focal_file": "src/structurizr/view/view_set.py",
+        "methods": {
+            "test_adding_dynamic_view": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": "ViewSet",
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 353,
+                    "indent": 4,
+                    "name": "create_dynamic_view"
+                }
+            },
+            "test_dynamic_view_hydrated": {
+                "line": 55,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 353,
+                    "indent": 4,
+                    "name": "create_dynamic_view"
+                }
+            },
+            "test_copying_dynamic_view_layout": {
+                "line": 69,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": "ViewSet",
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 353,
+                    "indent": 4,
+                    "name": "create_dynamic_view"
+                }
+            },
+            "test_filtered_view_hydrated": {
+                "line": 93,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 355,
+                    "line_end": 366,
+                    "indent": 4,
+                    "name": "create_filtered_view"
+                }
+            },
+            "test_getting_view_by_key": {
+                "line": 117,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 368,
+                    "line_end": 370,
+                    "indent": 4,
+                    "name": "get_view"
+                }
+            }
+        }
+    }
+}

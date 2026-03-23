@@ -1,0 +1,193 @@
+{
+    "test/project_test.py": {
+        "focal_file": "buildnotifylib/core/project.py",
+        "methods": {
+            "test_should_ignore_empty_last_build_time": {
+                "line": 11,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "Project",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_last_build_time"
+                }
+            }
+        }
+    },
+    "test/projects_test.py": {
+        "focal_file": "buildnotifylib/core/projects.py",
+        "methods": {
+            "test_should_consolidate_build_status": {
+                "line": 11,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": "OverallIntegrationStatus",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "get_build_status"
+                }
+            },
+            "test_should_identify_failing_builds": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "OverallIntegrationStatus",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "get_failing_builds"
+                }
+            }
+        }
+    },
+    "test/server_test.py": {
+        "focal_file": "buildnotifylib/core/continous_integration_server.py",
+        "methods": {
+            "test_should_remove_excluded_projects": {
+                "line": 9,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": "ContinuousIntegrationServer",
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 13,
+                    "indent": 4,
+                    "name": "get_projects"
+                }
+            }
+        }
+    },
+    "test/response_test.py": {
+        "focal_file": "buildnotifylib/core/response.py",
+        "methods": {
+            "test_should_return_ssl_error": {
+                "line": 6,
+                "line_end": 10,
+                "indent": 4,
+                "focal_class": "Response",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "ssl_error"
+                }
+            }
+        }
+    },
+    "test/project_status_notification_test.py": {
+        "focal_file": "buildnotifylib/project_status_notification.py",
+        "methods": {
+            "test_should_return_notifications": {
+                "line": 141,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": "ProjectStatusNotification",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "show_notifications"
+                }
+            },
+            "test_should_identify_failing_builds": {
+                "line": 11,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "failing_builds"
+                }
+            },
+            "test_should_identify_still_failing_builds": {
+                "line": 41,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "still_failing_builds"
+                }
+            },
+            "test_should_identify_still_successful_builds": {
+                "line": 62,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "still_successful_builds"
+                }
+            }
+        }
+    },
+    "test/integration/config_test.py": {
+        "focal_file": "buildnotifylib/config.py",
+        "methods": {
+            "test_should_persist_user_project_excludes": {
+                "line": 15,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "set_project_excludes"
+                }
+            },
+            "test_should_persist_empty_user_project_excludes": {
+                "line": 21,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "set_project_excludes"
+                }
+            },
+            "test_should_update_preferences": {
+                "line": 54,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "Preferences",
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 208,
+                    "indent": 4,
+                    "name": "update_preferences"
+                }
+            }
+        }
+    },
+    "test/integration/build_icons_test.py": {
+        "focal_file": "buildnotifylib/build_icons.py",
+        "methods": {
+            "test_should_consolidate_build_status": {
+                "line": 6,
+                "line_end": 8,
+                "indent": 0,
+                "focal_class": "BuildIcons",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "for_aggregate_status"
+                }
+            }
+        }
+    }
+}

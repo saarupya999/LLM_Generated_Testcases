@@ -1,0 +1,113 @@
+{
+    "test/unit/lib/hash_test.py": {
+        "focal_file": "vanity_address/lib/hash.py",
+        "methods": {
+            "test_sha256_calls_hashlib_sha256": {
+                "line": 80,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "sha256"
+                }
+            },
+            "test_ripemd160_calls_hashlib_ripemd160": {
+                "line": 130,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "ripemd160"
+                }
+            }
+        }
+    },
+    "test/unit/lib/encode_test.py": {
+        "focal_file": "vanity_address/lib/encode.py",
+        "methods": {
+            "test_base58encode_calls_unhexlify": {
+                "line": 14,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 6,
+                    "indent": 0,
+                    "name": "base58encode"
+                }
+            },
+            "test_base58encode_calls_hashlib_base58encode": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 6,
+                    "indent": 0,
+                    "name": "base58encode"
+                }
+            }
+        }
+    },
+    "test/unit/coins/bitcoin_test.py": {
+        "focal_file": "vanity_address/coins/bitcoin.py",
+        "methods": {
+            "test_generate_private_key_generates_256_bit_integers_until_it_finds_a_valid_key": {
+                "line": 38,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "generate_private_key"
+                }
+            },
+            "test_generate_private_key_returns_the_first_valid_key_it_finds": {
+                "line": 43,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "generate_private_key"
+                }
+            },
+            "test_generate_can_generate_compressed_and_test_network_keys": {
+                "line": 49,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "generate_private_key"
+                }
+            },
+            "test_is_testnet_key_returns_false_for_testnet_keys": {
+                "line": 125,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "PrivateKey",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "is_testnet_key"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,561 @@
+{
+    "lib/carbon/tests/test_cache.py": {
+        "focal_file": "lib/carbon/cache.py",
+        "methods": {
+            "test_get_datapoints": {
+                "line": 111,
+                "line_end": 113,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 237,
+                    "indent": 2,
+                    "name": "get_datapoints"
+                }
+            },
+            "test_get_datapoints_doesnt_pop": {
+                "line": 115,
+                "line_end": 119,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 237,
+                    "indent": 2,
+                    "name": "get_datapoints"
+                }
+            },
+            "test_sorted_strategy_static_cache": {
+                "line": 225,
+                "line_end": 237,
+                "indent": 2,
+                "focal_class": "SortedStrategy",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 2,
+                    "name": "choose_item"
+                }
+            },
+            "test_sorted_strategy_changing_sizes": {
+                "line": 239,
+                "line_end": 261,
+                "indent": 2,
+                "focal_class": "SortedStrategy",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 2,
+                    "name": "choose_item"
+                }
+            },
+            "test_time_sorted_strategy": {
+                "line": 263,
+                "line_end": 285,
+                "indent": 2,
+                "focal_class": "TimeSortedStrategy",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 2,
+                    "name": "choose_item"
+                }
+            },
+            "test_time_sorted_strategy_min_lag": {
+                "line": 287,
+                "line_end": 301,
+                "indent": 2,
+                "focal_class": "TimeSortedStrategy",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 2,
+                    "name": "choose_item"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_conf.py": {
+        "focal_file": "lib/carbon/conf.py",
+        "methods": {
+            "test_default_parser": {
+                "line": 37,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 499,
+                    "line_end": 552,
+                    "indent": 0,
+                    "name": "get_default_parser"
+                }
+            },
+            "test_storage_dir_from_config": {
+                "line": 336,
+                "line_end": 347,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 592,
+                    "line_end": 670,
+                    "indent": 0,
+                    "name": "read_config"
+                }
+            },
+            "test_log_dir_from_config": {
+                "line": 349,
+                "line_end": 360,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 592,
+                    "line_end": 670,
+                    "indent": 0,
+                    "name": "read_config"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_database.py": {
+        "focal_file": "lib/carbon/database.py",
+        "methods": {
+            "test_getFilesystemPath": {
+                "line": 112,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": "CeresDatabase",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "getFilesystemPath"
+                }
+            },
+            "test_getTaggedFilesystemPath": {
+                "line": 119,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": "CeresDatabase",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "getFilesystemPath"
+                }
+            },
+            "test_getTaggedFilesystemPathHashed": {
+                "line": 134,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": "CeresDatabase",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "getFilesystemPath"
+                }
+            },
+            "test_migrateTaggedFilesystemPathHashed": {
+                "line": 151,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": "CeresDatabase",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "getFilesystemPath"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_hashing.py": {
+        "focal_file": "lib/carbon/hashing.py",
+        "methods": {
+            "test_10_get_node": {
+                "line": 79,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "ConsistentHashRing",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 96,
+                    "indent": 2,
+                    "name": "get_node"
+                }
+            },
+            "test_11_get_nodes": {
+                "line": 86,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": "ConsistentHashRing",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 118,
+                    "indent": 2,
+                    "name": "get_nodes"
+                }
+            },
+            "test_chr_compute_ring_position_fnv1a": {
+                "line": 171,
+                "line_end": 187,
+                "indent": 4,
+                "focal_class": "ConsistentHashRing",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 68,
+                    "indent": 2,
+                    "name": "compute_ring_position"
+                }
+            },
+            "test_chr_get_node_fnv1a": {
+                "line": 189,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": "ConsistentHashRing",
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 96,
+                    "indent": 2,
+                    "name": "get_node"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_instrumentation.py": {
+        "focal_file": "lib/carbon/instrumentation.py",
+        "methods": {
+            "test_getMemUsage": {
+                "line": 13,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "getMemUsage"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_pipeline.py": {
+        "focal_file": "lib/carbon/pipeline.py",
+        "methods": {
+            "test_run_pipeline_empty_processors": {
+                "line": 15,
+                "line_end": 16,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "run_pipeline"
+                }
+            },
+            "test_run_pipeline": {
+                "line": 18,
+                "line_end": 22,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "run_pipeline"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_protocols.py": {
+        "focal_file": "lib/carbon/protocols.py",
+        "methods": {
+            "test_build": {
+                "line": 16,
+                "line_end": 45,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 112,
+                    "indent": 2,
+                    "name": "build"
+                }
+            },
+            "test_valid_metricReceived": {
+                "line": 63,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 184,
+                    "indent": 2,
+                    "name": "metricReceived"
+                }
+            },
+            "test_min_timestamp_metricReceived": {
+                "line": 69,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 184,
+                    "indent": 2,
+                    "name": "metricReceived"
+                }
+            },
+            "test_nan_metricReceived": {
+                "line": 78,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 184,
+                    "indent": 2,
+                    "name": "metricReceived"
+                }
+            },
+            "test_notime_metricReceived": {
+                "line": 84,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 184,
+                    "indent": 2,
+                    "name": "metricReceived"
+                }
+            },
+            "test_allowlist_metricReceived": {
+                "line": 93,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 184,
+                    "indent": 2,
+                    "name": "metricReceived"
+                }
+            },
+            "test_disallowlist_metricReceived": {
+                "line": 110,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 184,
+                    "indent": 2,
+                    "name": "metricReceived"
+                }
+            },
+            "test_invalid_line_received": {
+                "line": 141,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 205,
+                    "indent": 2,
+                    "name": "lineReceived"
+                }
+            },
+            "test_valid_line_received": {
+                "line": 146,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 191,
+                    "line_end": 205,
+                    "indent": 2,
+                    "name": "lineReceived"
+                }
+            },
+            "test_valid_datagramReceived": {
+                "line": 173,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 233,
+                    "indent": 2,
+                    "name": "datagramReceived"
+                }
+            },
+            "test_invalid_datagramReceived": {
+                "line": 180,
+                "line_end": 186,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 233,
+                    "indent": 2,
+                    "name": "datagramReceived"
+                }
+            },
+            "test_utf8_datagramReceived": {
+                "line": 188,
+                "line_end": 193,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 233,
+                    "indent": 2,
+                    "name": "datagramReceived"
+                }
+            },
+            "test_multiple_datagramReceived": {
+                "line": 195,
+                "line_end": 202,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 233,
+                    "indent": 2,
+                    "name": "datagramReceived"
+                }
+            },
+            "test_string_received": {
+                "line": 231,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 273,
+                    "indent": 2,
+                    "name": "stringReceived"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_retentions.py": {
+        "focal_file": "lib/carbon/util.py",
+        "methods": {
+            "test_valid_retentions": {
+                "line": 6,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 212,
+                    "indent": 0,
+                    "name": "parseRetentionDef"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_service.py": {
+        "focal_file": "lib/carbon/service.py",
+        "methods": {
+            "test_schedules_pipeline_ready": {
+                "line": 63,
+                "line_end": 65,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "setupPipeline"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_storage.py": {
+        "focal_file": "lib/carbon/storage.py",
+        "methods": {
+            "test_loadStorageSchemas_return_schemas": {
+                "line": 51,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "loadStorageSchemas"
+                }
+            },
+            "test_loadAggregationSchemas_return_schemas": {
+                "line": 72,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 160,
+                    "indent": 0,
+                    "name": "loadAggregationSchemas"
+                }
+            },
+            "test_loadAggregationSchema_return_the_default_schema_last": {
+                "line": 87,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 160,
+                    "indent": 0,
+                    "name": "loadAggregationSchemas"
+                }
+            }
+        }
+    },
+    "lib/carbon/tests/test_util.py": {
+        "focal_file": "lib/carbon/util.py",
+        "methods": {
+            "test_enable_tcp_keep_alive": {
+                "line": 13,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "enableTcpKeepAlive"
+                }
+            },
+            "test_sanitizing_name_as_tag_value": {
+                "line": 26,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 429,
+                    "indent": 2,
+                    "name": "sanitize_name_as_tag_value"
+                }
+            },
+            "test_validate_tag_key_and_value": {
+                "line": 66,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 342,
+                    "line_end": 359,
+                    "indent": 2,
+                    "name": "validateTagAndValue"
+                }
+            }
+        }
+    }
+}

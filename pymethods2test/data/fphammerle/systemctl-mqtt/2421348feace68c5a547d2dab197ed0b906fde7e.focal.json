@@ -1,0 +1,236 @@
+{
+    "tests/test_action.py": {
+        "focal_file": "systemctl_mqtt/__init__.py",
+        "methods": {
+            "test_poweroff_trigger": {
+                "line": 14,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": "systemctl_mqtt._State",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "trigger"
+                }
+            }
+        }
+    },
+    "tests/test_dbus.py": {
+        "focal_file": "systemctl_mqtt/_dbus.py",
+        "methods": {
+            "test_get_login_manager": {
+                "line": 32,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "get_login_manager"
+                }
+            },
+            "test__log_shutdown_inhibitors_some": {
+                "line": 40,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "_log_shutdown_inhibitors"
+                }
+            },
+            "test__log_shutdown_inhibitors_none": {
+                "line": 80,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "_log_shutdown_inhibitors"
+                }
+            },
+            "test__log_shutdown_inhibitors_fail": {
+                "line": 90,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "_log_shutdown_inhibitors"
+                }
+            },
+            "test__schedule_shutdown": {
+                "line": 102,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "schedule_shutdown"
+                }
+            },
+            "test__schedule_shutdown_fail": {
+                "line": 132,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "schedule_shutdown"
+                }
+            },
+            "test_lock_all_sessions": {
+                "line": 154,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "lock_all_sessions"
+                }
+            }
+        }
+    },
+    "tests/test_homeassistant.py": {
+        "focal_file": "systemctl_mqtt/_homeassistant.py",
+        "methods": {
+            "test_get_default_node_id": {
+                "line": 36,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_default_node_id"
+                }
+            },
+            "test_validate_node_id": {
+                "line": 53,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "validate_node_id"
+                }
+            }
+        }
+    },
+    "tests/test_mqtt.py": {
+        "focal_file": "systemctl_mqtt/__init__.py",
+        "methods": {
+            "test__run": {
+                "line": 39,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 323,
+                    "indent": 0,
+                    "name": "_run"
+                }
+            }
+        }
+    },
+    "tests/test_state_dbus.py": {
+        "focal_file": "systemctl_mqtt/__init__.py",
+        "methods": {
+            "test_shutdown_lock": {
+                "line": 31,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": "systemctl_mqtt._State",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "release_shutdown_lock"
+                }
+            },
+            "test_prepare_for_shutdown_handler": {
+                "line": 54,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": "systemctl_mqtt._State",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "register_prepare_for_shutdown_handler"
+                }
+            },
+            "test_publish_preparing_for_shutdown": {
+                "line": 94,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": "systemctl_mqtt._State",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "publish_preparing_for_shutdown"
+                }
+            },
+            "test_publish_preparing_for_shutdown_get_fail": {
+                "line": 121,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": "systemctl_mqtt._State",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "publish_preparing_for_shutdown"
+                }
+            },
+            "test_publish_preparing_for_shutdown_homeassistant_config": {
+                "line": 148,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": "systemctl_mqtt._State",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "publish_preparing_for_shutdown_homeassistant_config"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "systemctl_mqtt/_utils.py",
+        "methods": {
+            "test__get_hostname": {
+                "line": 26,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 22,
+                    "indent": 0,
+                    "name": "get_hostname"
+                }
+            }
+        }
+    }
+}

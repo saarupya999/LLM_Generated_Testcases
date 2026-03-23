@@ -1,0 +1,537 @@
+{
+    "tests/integration/server/test_attributeserver.py": {
+        "focal_file": "predictionserver/servermixins/attributeserver.py",
+        "methods": {
+            "test_set_private_attribute_explicit": {
+                "line": 37,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "get_attribute"
+                }
+            },
+            "test_set_private_attribute_implicit": {
+                "line": 134,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "get_attribute"
+                }
+            },
+            "test_set_code_attribute_implicit": {
+                "line": 151,
+                "line_end": 174,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "set_attribute"
+                }
+            },
+            "test_set_stream_attribute_bad_name": {
+                "line": 177,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "set_attribute"
+                }
+            },
+            "test_delete_stream_attribute_bad_name": {
+                "line": 193,
+                "line_end": 204,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "delete_attribute"
+                }
+            },
+            "test_delete_stream_attribute_manually": {
+                "line": 207,
+                "line_end": 259,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "delete_attribute"
+                }
+            },
+            "test_delete_horizon_attribute_manually": {
+                "line": 262,
+                "line_end": 314,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "delete_attribute"
+                }
+            },
+            "test_delete_all_stream_attributes": {
+                "line": 385,
+                "line_end": 422,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 304,
+                    "line_end": 312,
+                    "indent": 4,
+                    "name": "_pipe_delete_all_stream_attributes"
+                }
+            },
+            "test_delete_all_public_owner_attributes": {
+                "line": 425,
+                "line_end": 449,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 314,
+                    "line_end": 324,
+                    "indent": 4,
+                    "name": "_pipe_delete_all_public_owner_attributes"
+                }
+            },
+            "test_delete_all_private_owner_attributes": {
+                "line": 452,
+                "line_end": 476,
+                "indent": 0,
+                "focal_class": "AttributeServer",
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 336,
+                    "indent": 4,
+                    "name": "_pipe_delete_all_private_owner_attributes"
+                }
+            }
+        }
+    },
+    "tests/integration/server/test_metricserver.py": {
+        "focal_file": "predictionserver/servermixins/metricserver.py",
+        "methods": {
+            "test_write_key_private_owner_metric": {
+                "line": 28,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": "MetricServer",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "get_private_owner_metric"
+                }
+            },
+            "test_write_key_public_owner_metric": {
+                "line": 70,
+                "line_end": 105,
+                "indent": 0,
+                "focal_class": "MetricServer",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_public_owner_metric"
+                }
+            },
+            "test_stream": {
+                "line": 108,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": "MetricServer",
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "get_stream_volume"
+                }
+            },
+            "test_horizon": {
+                "line": 155,
+                "line_end": 203,
+                "indent": 0,
+                "focal_class": "MetricServer",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "get_horizon_budget"
+                }
+            }
+        }
+    },
+    "tests/unit/test_attributeapi.py": {
+        "focal_file": "predictionserver/api/attributeapi.py",
+        "methods": {
+            "test_public_attribute": {
+                "line": 24,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": "OwnerPublicAttributeApi",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "api_owner_public_attribute_put"
+                }
+            },
+            "test_stream_attribute": {
+                "line": 75,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": "StreamAttributeApi",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "api_stream_attribute_get"
+                }
+            },
+            "test_private_attribute": {
+                "line": 123,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": "OwnerPrivateAttributeApi",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "api_owner_private_attribute_put"
+                }
+            }
+        }
+    },
+    "tests/unit/test_attributeconventions.py": {
+        "focal_file": "predictionserver/futureconventions/attributeconventions.py",
+        "methods": {
+            "test_granularity_inference": {
+                "line": 10,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": "AttributeConventions",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "attribute_granularity_inference"
+                }
+            }
+        }
+    },
+    "tests/unit/test_attributehabits.py": {
+        "focal_file": "predictionserver/serverhabits/attributehabits.py",
+        "methods": {
+            "test_attribute_location": {
+                "line": 21,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "AttributeHabits",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "attribute_location"
+                }
+            },
+            "test_attribute_key": {
+                "line": 43,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": "AttributeHabits",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "attribute_key"
+                }
+            },
+            "test_attribute_location_by_inference": {
+                "line": 78,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": "AttributeHabits",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "attribute_location_by_inference"
+                }
+            },
+            "test_attribute_location_and_key": {
+                "line": 90,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": "AttributeHabits",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "attribute_location_and_key"
+                }
+            }
+        }
+    },
+    "tests/unit/test_budgetconventions.py": {
+        "focal_file": "predictionserver/futureconventions/budgetconventions.py",
+        "methods": {
+            "test_get_own_balance": {
+                "line": 40,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 137,
+                    "indent": 4,
+                    "name": "get_own_balance"
+                }
+            },
+            "test_bankrupt": {
+                "line": 48,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "bankrupt"
+                }
+            },
+            "test_distance_to_bankruptcy": {
+                "line": 56,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "distance_to_bankruptcy"
+                }
+            }
+        }
+    },
+    "tests/unit/test_hashhabits.py": {
+        "focal_file": "predictionserver/serverhabits/hashhabits.py",
+        "methods": {
+            "test_hash_location": {
+                "line": 18,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": "HashHabits",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "hash_location"
+                }
+            },
+            "test_hash_key": {
+                "line": 65,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": "HashHabits",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "hash_key"
+                }
+            }
+        }
+    },
+    "tests/unit/test_hashserver.py": {
+        "focal_file": "predictionserver/servermixins/hashserver.py",
+        "methods": {
+            "test_private_hash": {
+                "line": 26,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": "HashServer",
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "delete_hash"
+                }
+            },
+            "test_authorize": {
+                "line": 462,
+                "line_end": 472,
+                "indent": 0,
+                "focal_class": "HashServer",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "_authorize_hash_change"
+                }
+            }
+        }
+    },
+    "tests/unit/test_keyconventions.py": {
+        "focal_file": "predictionserver/futureconventions/keyconventions.py",
+        "methods": {
+            "test_is_valid_key": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": "KeyConventions",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "is_valid_key"
+                }
+            },
+            "test_key_difficulty": {
+                "line": 31,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "key_difficulty"
+                }
+            },
+            "test_create_key": {
+                "line": 36,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "create_key"
+                }
+            },
+            "test_animal_from_key": {
+                "line": 42,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "animal_from_key"
+                }
+            },
+            "test_shash": {
+                "line": 50,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "shash"
+                }
+            },
+            "test_maybe_create_key": {
+                "line": 55,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "maybe_create_key"
+                }
+            },
+            "test_code_from_code_or_key": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "code_from_code_or_key"
+                }
+            },
+            "test_own_write_key": {
+                "line": 67,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": "KeyConventions",
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 180,
+                    "indent": 4,
+                    "name": "own_write_key"
+                }
+            }
+        }
+    },
+    "tests/unit/test_obscurity.py": {
+        "focal_file": "predictionserver/serverhabits/obscurityhabits.py",
+        "methods": {
+            "test_obscurity_init": {
+                "line": 6,
+                "line_end": 11,
+                "indent": 0,
+                "focal_class": "ObscurityHabits",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "set_obscurity"
+                }
+            }
+        }
+    },
+    "tests/unit/test_sortedsethabits.py": {
+        "focal_file": "predictionserver/serverhabits/sortedsethabits.py",
+        "methods": {
+            "test_sortedset_location": {
+                "line": 19,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": "SortedSetHabits",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "sortedset_location"
+                }
+            },
+            "test_sortedset_key": {
+                "line": 71,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": "SortedSetHabits",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "sortedset_key"
+                }
+            }
+        }
+    }
+}

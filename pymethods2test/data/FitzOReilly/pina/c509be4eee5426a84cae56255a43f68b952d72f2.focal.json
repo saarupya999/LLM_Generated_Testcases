@@ -1,0 +1,363 @@
+{
+    "tests/test_pinch_analyzer.py": {
+        "focal_file": "src/pina/pinch_analyzer.py",
+        "methods": {
+            "test_neutralizing_streams": {
+                "line": 138,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": "PinchAnalyzer",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "add_streams"
+                }
+            }
+        }
+    },
+    "tests/test_heat_cascade.py": {
+        "focal_file": "src/pina/heat_cascade.py",
+        "methods": {
+            "test_cold_sensible_segment": {
+                "line": 34,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "HeatCascade",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "add_segments"
+                }
+            },
+            "test_detached_segments": {
+                "line": 101,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "HeatCascade",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "add_segments"
+                }
+            },
+            "test_overlapping_cold_segments": {
+                "line": 111,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "HeatCascade",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "add_segments"
+                }
+            },
+            "test_detached_latent_segments": {
+                "line": 170,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": "HeatCascade",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "add_segments"
+                }
+            },
+            "test_add_sensible_then_latent_segment": {
+                "line": 181,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": "HeatCascade",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "add_segments"
+                }
+            },
+            "test_add_latent_then_sensible_segment": {
+                "line": 198,
+                "line_end": 213,
+                "indent": 4,
+                "focal_class": "HeatCascade",
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "add_segments"
+                }
+            },
+            "test_neutralized_heat_flow": {
+                "line": 234,
+                "line_end": 240,
+                "indent": 4,
+                "focal_class": "HeatCascade",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 27,
+                    "indent": 4,
+                    "name": "net_heat_flow"
+                }
+            }
+        }
+    },
+    "tests/test_stream.py": {
+        "focal_file": "src/pina/stream.py",
+        "methods": {
+            "test_make_stream": {
+                "line": 108,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "Stream",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "make_stream"
+                }
+            },
+            "test_make_segmented_stream": {
+                "line": 117,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "Stream",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "make_segmented_stream"
+                }
+            }
+        }
+    },
+    "tests/segments/test_latent_segment.py": {
+        "focal_file": "src/pina/segments/latent_segment.py",
+        "methods": {
+            "test_clone": {
+                "line": 70,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "clone"
+                }
+            },
+            "test_shift_self_temp_shift": {
+                "line": 88,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "LatentSegment",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "shift"
+                }
+            },
+            "test_shift_default_temp_shift": {
+                "line": 97,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "LatentSegment",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "shift"
+                }
+            },
+            "test_shift_self_and_default_temp_shift": {
+                "line": 102,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "LatentSegment",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "shift"
+                }
+            },
+            "test_split": {
+                "line": 111,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "split"
+                }
+            },
+            "test_with_low_supply_temp": {
+                "line": 135,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "with_low_supply_temp"
+                }
+            },
+            "test_with_inverted_heat_flow": {
+                "line": 161,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": "LatentSegment",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "with_inverted_heat_flow"
+                }
+            },
+            "test_add": {
+                "line": 180,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": "LatentSegment",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_link": {
+                "line": 202,
+                "line_end": 223,
+                "indent": 4,
+                "focal_class": "LatentSegment",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "link"
+                }
+            }
+        }
+    },
+    "tests/segments/test_sensible_segment.py": {
+        "focal_file": "src/pina/segments/sensible_segment.py",
+        "methods": {
+            "test_clone": {
+                "line": 86,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "clone"
+                }
+            },
+            "test_shift_self_temp_shift": {
+                "line": 109,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "shift"
+                }
+            },
+            "test_shift_default_temp_shift": {
+                "line": 123,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "shift"
+                }
+            },
+            "test_shift_self_and_default_temp_shift": {
+                "line": 137,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "shift"
+                }
+            },
+            "test_split": {
+                "line": 151,
+                "line_end": 296,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "split"
+                }
+            },
+            "test_with_low_supply_temp": {
+                "line": 298,
+                "line_end": 305,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "with_low_supply_temp"
+                }
+            },
+            "test_with_inverted_heat_flow": {
+                "line": 337,
+                "line_end": 365,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "with_inverted_heat_flow"
+                }
+            },
+            "test_add": {
+                "line": 367,
+                "line_end": 399,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_link": {
+                "line": 401,
+                "line_end": 447,
+                "indent": 4,
+                "focal_class": "SensibleSegment",
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "link"
+                }
+            }
+        }
+    }
+}

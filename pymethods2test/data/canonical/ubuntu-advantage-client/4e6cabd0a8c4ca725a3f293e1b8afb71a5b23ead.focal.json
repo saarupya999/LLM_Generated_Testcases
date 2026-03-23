@@ -1,0 +1,951 @@
+{
+    "uaclient/clouds/tests/test_aws.py": {
+        "focal_file": "uaclient/clouds/aws.py",
+        "methods": {
+            "test__get_imds_v2_token_headers_none_on_404": {
+                "line": 24,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "UAAutoAttachAWSInstance",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "_get_imds_v2_token_headers"
+                }
+            },
+            "test__get_imds_v2_token_headers_caches_response": {
+                "line": 37,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "UAAutoAttachAWSInstance",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "_get_imds_v2_token_headers"
+                }
+            },
+            "test_retry_backoff_on__get_imds_v2_token_headers_caches_response": {
+                "line": 59,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "UAAutoAttachAWSInstance",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "_get_imds_v2_token_headers"
+                }
+            }
+        }
+    },
+    "uaclient/clouds/tests/test_identity.py": {
+        "focal_file": "uaclient/clouds/identity.py",
+        "methods": {
+            "test_get_cloud_type_from_lowercase_v1_datasource_key": {
+                "line": 58,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_cloud_type_from_result_file"
+                }
+            },
+            "test_fallback_if_no_cloud_type_found": {
+                "line": 95,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "get_cloud_type"
+                }
+            },
+            "test_return_cloud_instance_on_viable_clouds": {
+                "line": 181,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 104,
+                    "indent": 0,
+                    "name": "cloud_instance_factory"
+                }
+            }
+        }
+    },
+    "uaclient/entitlements/tests/test_base.py": {
+        "focal_file": "uaclient/entitlements/base.py",
+        "methods": {
+            "test_contract_status_entitled": {
+                "line": 263,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 456,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "contract_status"
+                }
+            },
+            "test_contract_status_unentitled": {
+                "line": 268,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 456,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "contract_status"
+                }
+            },
+            "test_process_contract_deltas_does_nothing_on_empty_orig_access": {
+                "line": 277,
+                "line_end": 288,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 585,
+                    "indent": 4,
+                    "name": "process_contract_deltas"
+                }
+            },
+            "test_process_contract_deltas_clean_cache_on_inactive_unentitled": {
+                "line": 496,
+                "line_end": 511,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 585,
+                    "indent": 4,
+                    "name": "process_contract_deltas"
+                }
+            },
+            "test_process_contract_deltas_disable_on_active_unentitled": {
+                "line": 528,
+                "line_end": 540,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 497,
+                    "line_end": 585,
+                    "indent": 4,
+                    "name": "process_contract_deltas"
+                }
+            }
+        }
+    },
+    "uaclient/entitlements/tests/test_fips.py": {
+        "focal_file": "uaclient/entitlements/fips.py",
+        "methods": {
+            "test_prevent_fips_on_xenial_cloud_instances": {
+                "line": 639,
+                "line_end": 667,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "_allow_fips_on_cloud_instance"
+                }
+            },
+            "test_prevent_default_fips_on_gcp_cloud": {
+                "line": 679,
+                "line_end": 703,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "_allow_fips_on_cloud_instance"
+                }
+            },
+            "test_proc_file_is_used_to_determine_application_status_message": {
+                "line": 809,
+                "line_end": 860,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "application_status"
+                }
+            },
+            "test_setup_apt_cofig_unmarks_held_fips_packages": {
+                "line": 963,
+                "line_end": 988,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 388,
+                    "line_end": 407,
+                    "indent": 4,
+                    "name": "setup_apt_config"
+                }
+            },
+            "test_fips_updates_enable_write_service_once_enable_file": {
+                "line": 1116,
+                "line_end": 1141,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_perform_enable"
+                }
+            }
+        }
+    },
+    "uaclient/entitlements/tests/test_livepatch.py": {
+        "focal_file": "uaclient/entitlements/livepatch.py",
+        "methods": {
+            "test_configure_livepatch_proxy": {
+                "line": 87,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "configure_livepatch_proxy"
+                }
+            },
+            "test_get_config_option_value": {
+                "line": 188,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "get_config_option_value"
+                }
+            },
+            "test_unconfigure_livepatch_proxy": {
+                "line": 211,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 44,
+                    "indent": 0,
+                    "name": "unconfigure_livepatch_proxy"
+                }
+            },
+            "test_handle_multiple_directives": {
+                "line": 311,
+                "line_end": 338,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 357,
+                    "line_end": 391,
+                    "indent": 0,
+                    "name": "process_config_directives"
+                }
+            },
+            "test_true_on_parent_process_deltas": {
+                "line": 489,
+                "line_end": 494,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 354,
+                    "indent": 4,
+                    "name": "process_contract_deltas"
+                }
+            },
+            "test_application_status": {
+                "line": 1028,
+                "line_end": 1046,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 307,
+                    "indent": 4,
+                    "name": "application_status"
+                }
+            },
+            "test_status_command_retry_on_application_status": {
+                "line": 1050,
+                "line_end": 1062,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 307,
+                    "indent": 4,
+                    "name": "application_status"
+                }
+            }
+        }
+    },
+    "uaclient/entitlements/tests/test_repo.py": {
+        "focal_file": "uaclient/entitlements/repo.py",
+        "methods": {
+            "test_disable_apt_auth_only_false_removes_all_apt_config": {
+                "line": 646,
+                "line_end": 672,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 424,
+                    "indent": 4,
+                    "name": "remove_apt_config"
+                }
+            },
+            "test_calls_setup_apt_proxy": {
+                "line": 850,
+                "line_end": 862,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 381,
+                    "indent": 4,
+                    "name": "setup_apt_config"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_apt.py": {
+        "focal_file": "uaclient/apt.py",
+        "methods": {
+            "test_find_all_apt_list_files_from_apt_config_key": {
+                "line": 69,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 338,
+                    "line_end": 355,
+                    "indent": 0,
+                    "name": "find_apt_list_files"
+                }
+            },
+            "test_remove_all_apt_list_files_from_apt_config_key": {
+                "line": 92,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 362,
+                    "indent": 0,
+                    "name": "remove_apt_list_files"
+                }
+            },
+            "test_passes_on_valid_creds": {
+                "line": 130,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 88,
+                    "indent": 0,
+                    "name": "assert_valid_apt_credentials"
+                }
+            },
+            "test_add_auth_apt_repo_writes_sources_file": {
+                "line": 285,
+                "line_end": 316,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 227,
+                    "indent": 0,
+                    "name": "add_auth_apt_repo"
+                }
+            },
+            "test_remove_from_auth_file_called": {
+                "line": 658,
+                "line_end": 668,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 297,
+                    "indent": 0,
+                    "name": "remove_auth_apt_repo"
+                }
+            },
+            "test_setup_apt_proxy_config": {
+                "line": 981,
+                "line_end": 996,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 399,
+                    "line_end": 431,
+                    "indent": 0,
+                    "name": "setup_apt_proxy"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_cli.py": {
+        "focal_file": "uaclient/cli.py",
+        "methods": {
+            "test_assert_attached_when_attached": {
+                "line": 381,
+                "line_end": 394,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "assert_attached"
+                }
+            },
+            "test_assert_attached_when_unattached": {
+                "line": 396,
+                "line_end": 405,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 175,
+                    "indent": 0,
+                    "name": "assert_attached"
+                }
+            },
+            "test_get_valid_entitlements": {
+                "line": 753,
+                "line_end": 769,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 559,
+                    "line_end": 573,
+                    "indent": 0,
+                    "name": "get_valid_entitlement_names"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_cli_detach.py": {
+        "focal_file": "uaclient/cli.py",
+        "methods": {
+            "test_detach_parser_usage": {
+                "line": 272,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 378,
+                    "indent": 0,
+                    "name": "detach_parser"
+                }
+            },
+            "test_detach_parser_prog": {
+                "line": 276,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 378,
+                    "indent": 0,
+                    "name": "detach_parser"
+                }
+            },
+            "test_detach_parser_optionals_title": {
+                "line": 280,
+                "line_end": 282,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 366,
+                    "line_end": 378,
+                    "indent": 0,
+                    "name": "detach_parser"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_config.py": {
+        "focal_file": "uaclient/config.py",
+        "methods": {
+            "test_attached_reports_contract_and_service_status": {
+                "line": 1013,
+                "line_end": 1145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 664,
+                    "line_end": 702,
+                    "indent": 4,
+                    "name": "status"
+                }
+            },
+            "test_process_config": {
+                "line": 1325,
+                "line_end": 1403,
+                "indent": 4,
+                "focal_class": "UAConfig",
+                "focal_method": {
+                    "line": 756,
+                    "line_end": 812,
+                    "indent": 4,
+                    "name": "process_config"
+                }
+            },
+            "test_depth_first_merge_dict": {
+                "line": 1756,
+                "line_end": 1760,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 947,
+                    "line_end": 991,
+                    "indent": 0,
+                    "name": "depth_first_merge_overlay_dict"
+                }
+            },
+            "test_get_config_path_from_env_var": {
+                "line": 1764,
+                "line_end": 1768,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 836,
+                    "line_end": 848,
+                    "indent": 0,
+                    "name": "get_config_path"
+                }
+            },
+            "test_get_config_path_from_local_dir": {
+                "line": 1772,
+                "line_end": 1776,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 836,
+                    "line_end": 848,
+                    "indent": 0,
+                    "name": "get_config_path"
+                }
+            },
+            "test_get_default_config_path": {
+                "line": 1779,
+                "line_end": 1782,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 836,
+                    "line_end": 848,
+                    "indent": 0,
+                    "name": "get_config_path"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_contract.py": {
+        "focal_file": "uaclient/contract.py",
+        "methods": {
+            "test__request_machine_token_update": {
+                "line": 48,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "UAContractClient",
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 223,
+                    "indent": 4,
+                    "name": "_request_machine_token_update"
+                }
+            },
+            "test_request_resource_machine_access": {
+                "line": 91,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": "UAContractClient",
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "request_resource_machine_access"
+                }
+            },
+            "test_error_on_missing_entitlement_type": {
+                "line": 116,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "process_entitlement_delta"
+                }
+            },
+            "test_deltas_handled_by_entitlement_process_contract_deltas": {
+                "line": 134,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 285,
+                    "line_end": 333,
+                    "indent": 0,
+                    "name": "process_entitlement_delta"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_pip.py": {
+        "focal_file": "uaclient/pip.py",
+        "methods": {
+            "test_update_pip_conf": {
+                "line": 82,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "update_pip_conf"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_security.py": {
+        "focal_file": "uaclient/security.py",
+        "methods": {
+            "test_affected_packages_status_filters_by_installed_pkgs_and_series": {
+                "line": 185,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": "CVE",
+                "focal_method": {
+                    "line": 622,
+                    "line_end": 635,
+                    "indent": 0,
+                    "name": "get_cve_affected_source_packages_status"
+                }
+            },
+            "test_version_cmp_le": {
+                "line": 218,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1168,
+                    "line_end": 1174,
+                    "indent": 0,
+                    "name": "version_cmp_le"
+                }
+            },
+            "test_get_url_header": {
+                "line": 514,
+                "line_end": 518,
+                "indent": 4,
+                "focal_class": "USN",
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "get_url_header"
+                }
+            },
+            "test_result_keyed_by_source_package_name": {
+                "line": 859,
+                "line_end": 873,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 442,
+                    "line_end": 472,
+                    "indent": 0,
+                    "name": "query_installed_source_pkg_versions"
+                }
+            },
+            "test_messages_for_affected_packages_when_fix_fail": {
+                "line": 1501,
+                "line_end": 1523,
+                "indent": 4,
+                "focal_class": "CVEPackageStatus",
+                "focal_method": {
+                    "line": 849,
+                    "line_end": 962,
+                    "indent": 0,
+                    "name": "prompt_for_affected_packages"
+                }
+            },
+            "test_messages_for_affected_packages_when_service_can_be_enabled": {
+                "line": 1662,
+                "line_end": 1713,
+                "indent": 4,
+                "focal_class": "CVEPackageStatus",
+                "focal_method": {
+                    "line": 849,
+                    "line_end": 962,
+                    "indent": 0,
+                    "name": "prompt_for_affected_packages"
+                }
+            },
+            "test_messages_for_affected_packages_when_service_kept_disabled": {
+                "line": 1748,
+                "line_end": 1797,
+                "indent": 4,
+                "focal_class": "CVEPackageStatus",
+                "focal_method": {
+                    "line": 849,
+                    "line_end": 962,
+                    "indent": 0,
+                    "name": "prompt_for_affected_packages"
+                }
+            },
+            "test_messages_for_affected_packages_when_subscription_expired": {
+                "line": 1839,
+                "line_end": 1879,
+                "indent": 4,
+                "focal_class": "CVEPackageStatus",
+                "focal_method": {
+                    "line": 849,
+                    "line_end": 962,
+                    "indent": 0,
+                    "name": "prompt_for_affected_packages"
+                }
+            },
+            "test_messages_for_affected_packages_when_reboot_required": {
+                "line": 1972,
+                "line_end": 2006,
+                "indent": 4,
+                "focal_class": "CVEPackageStatus",
+                "focal_method": {
+                    "line": 849,
+                    "line_end": 962,
+                    "indent": 0,
+                    "name": "prompt_for_affected_packages"
+                }
+            },
+            "test_upgrade_packages_are_installed_without_need_for_ua": {
+                "line": 2066,
+                "line_end": 2085,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1118,
+                    "line_end": 1165,
+                    "indent": 0,
+                    "name": "upgrade_packages_and_attach"
+                }
+            },
+            "test_merge_usn_released_binary_package_versions": {
+                "line": 2274,
+                "line_end": 2290,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 475,
+                    "line_end": 519,
+                    "indent": 0,
+                    "name": "merge_usn_released_binary_package_versions"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_snap.py": {
+        "focal_file": "uaclient/snap.py",
+        "methods": {
+            "test_configure_snap_proxy": {
+                "line": 30,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "configure_snap_proxy"
+                }
+            },
+            "test_get_config_option_value": {
+                "line": 77,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "get_config_option_value"
+                }
+            },
+            "test_unconfigure_snap_proxy": {
+                "line": 95,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unconfigure_snap_proxy"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_status.py": {
+        "focal_file": "uaclient/status.py",
+        "methods": {
+            "test_colorize_commands": {
+                "line": 93,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 569,
+                    "line_end": 594,
+                    "indent": 0,
+                    "name": "colorize_commands"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_upgrade_lts_contract.py": {
+        "focal_file": "lib/upgrade_lts_contract.py",
+        "methods": {
+            "test_upgrade_contract_when_apt_lock_is_held": {
+                "line": 71,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "process_contract_delta_after_apt_lock"
+                }
+            }
+        }
+    },
+    "uaclient/tests/test_util.py": {
+        "focal_file": "uaclient/util.py",
+        "methods": {
+            "test_parse_os_release": {
+                "line": 356,
+                "line_end": 384,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 426,
+                    "line_end": 434,
+                    "indent": 0,
+                    "name": "parse_os_release"
+                }
+            },
+            "test_get_platform_info_error_no_version": {
+                "line": 390,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 353,
+                    "indent": 0,
+                    "name": "get_platform_info"
+                }
+            },
+            "test_get_platform_info_with_version": {
+                "line": 414,
+                "line_end": 440,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 353,
+                    "indent": 0,
+                    "name": "get_platform_info"
+                }
+            },
+            "test_get_machine_id_from_etc_machine_id": {
+                "line": 497,
+                "line_end": 514,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 296,
+                    "line_end": 310,
+                    "indent": 0,
+                    "name": "get_machine_id"
+                }
+            },
+            "test_disable_log_to_console_does_nothing_at_debug_level": {
+                "line": 742,
+                "line_end": 754,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 195,
+                    "line_end": 233,
+                    "indent": 0,
+                    "name": "disable_log_to_console"
+                }
+            },
+            "test_is_config_value_true": {
+                "line": 831,
+                "line_end": 837,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 690,
+                    "line_end": 728,
+                    "indent": 0,
+                    "name": "is_config_value_true"
+                }
+            },
+            "test_exception_is_config_value_true": {
+                "line": 848,
+                "line_end": 864,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 690,
+                    "line_end": 728,
+                    "indent": 0,
+                    "name": "is_config_value_true"
+                }
+            },
+            "test_parse_rfc3339_date_from_golang": {
+                "line": 961,
+                "line_end": 965,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 786,
+                    "line_end": 814,
+                    "indent": 0,
+                    "name": "parse_rfc3339_date"
+                }
+            }
+        }
+    }
+}

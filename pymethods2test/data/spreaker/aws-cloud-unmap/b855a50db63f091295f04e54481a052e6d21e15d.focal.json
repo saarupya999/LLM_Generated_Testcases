@@ -1,0 +1,144 @@
+{
+    "tests/test_unmap.py": {
+        "focal_file": "cloudunmap/unmap.py",
+        "methods": {
+            "testMatchServiceInstanceInRunningInstances": {
+                "line": 26,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "matchServiceInstanceInRunningInstances"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldDoNothingIfRegisteredInstancesAreRunning": {
+                "line": 54,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldDeregisterInstancesNotFound": {
+                "line": 76,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldDeregisterInstancesFoundButWithDifferentIp": {
+                "line": 101,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldDeregisterInstancesFoundButTerminating": {
+                "line": 127,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldDeregisterInstancesFoundButTerminated": {
+                "line": 153,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldSkipRegisteredInstancesWithoutIpv4Attribute": {
+                "line": 179,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldDoNothingIfAllRegisteredInstancesWouldBeDeregistered": {
+                "line": 200,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            },
+            "testUnmapTerminatedInstancesFromServiceShouldSupportMultipleInstancesRegions": {
+                "line": 219,
+                "line_end": 244,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "unmapTerminatedInstancesFromService"
+                }
+            }
+        }
+    },
+    "tests/test_aws.py": {
+        "focal_file": "cloudunmap/aws.py",
+        "methods": {
+            "testListEC2InstancesByIdShouldRaiseExceptionOnError": {
+                "line": 47,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "listEC2InstancesById"
+                }
+            },
+            "testListServiceInstancesShouldRaiseExceptionOnError": {
+                "line": 82,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "listServiceInstances"
+                }
+            }
+        }
+    }
+}

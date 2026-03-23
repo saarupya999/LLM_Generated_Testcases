@@ -1,0 +1,661 @@
+{
+    "deployer/tests/unit/test_terraform.py": {
+        "focal_file": "deployer/terraform.py",
+        "methods": {
+            "test_tf_get": {
+                "line": 36,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "get"
+                }
+            },
+            "test_remote_state": {
+                "line": 43,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "remote_state"
+                }
+            },
+            "test_tf_push": {
+                "line": 58,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "remote_push"
+                }
+            },
+            "test_tf_pull": {
+                "line": 65,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "remote_pull"
+                }
+            },
+            "test_tf_validate": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "validate"
+                }
+            },
+            "test_tf_apply": {
+                "line": 120,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "apply"
+                }
+            },
+            "test_tf_destroy": {
+                "line": 132,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "destroy"
+                }
+            },
+            "test_tf_output": {
+                "line": 144,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 176,
+                    "indent": 0,
+                    "name": "output"
+                }
+            }
+        }
+    },
+    "deployer/tests/unit/test_aws.py": {
+        "focal_file": "deployer/aws.py",
+        "methods": {
+            "test_configure_config": {
+                "line": 104,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "configure"
+                }
+            },
+            "test_configure_env": {
+                "line": 273,
+                "line_end": 289,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "configure"
+                }
+            },
+            "test_get_account_name": {
+                "line": 293,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 114,
+                    "indent": 0,
+                    "name": "get_account_name"
+                }
+            },
+            "test_get_account_id": {
+                "line": 301,
+                "line_end": 306,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "get_account_id"
+                }
+            },
+            "test_get_current_region": {
+                "line": 310,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "get_current_region"
+                }
+            },
+            "test_get_current_az_list_passing_list": {
+                "line": 318,
+                "line_end": 323,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 162,
+                    "indent": 0,
+                    "name": "get_current_az_list"
+                }
+            },
+            "test_get_current_az_list_no_list": {
+                "line": 327,
+                "line_end": 341,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 162,
+                    "indent": 0,
+                    "name": "get_current_az_list"
+                }
+            },
+            "test_list_vpcs": {
+                "line": 345,
+                "line_end": 354,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 377,
+                    "indent": 0,
+                    "name": "list_vpcs"
+                }
+            },
+            "test_environment_does_not_exist": {
+                "line": 359,
+                "line_end": 364,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 211,
+                    "indent": 0,
+                    "name": "environment_exists"
+                }
+            }
+        }
+    },
+    "deployer/tests/unit/test_s3.py": {
+        "focal_file": "deployer/s3.py",
+        "methods": {
+            "test_get_bucket_name_with_suffix": {
+                "line": 30,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_get_bucket_name_no_suffix": {
+                "line": 42,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "get_bucket_name"
+                }
+            },
+            "test_get_env_bucket_name_with_suffix": {
+                "line": 54,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "get_env_bucket_name"
+                }
+            },
+            "test_get_env_bucket_name_no_suffix": {
+                "line": 67,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "get_env_bucket_name"
+                }
+            }
+        }
+    },
+    "deployer/tests/unit/test_bootstrap.py": {
+        "focal_file": "deployer/bootstrap.py",
+        "methods": {
+            "test_upload_staged_artifacts_undefined": {
+                "line": 22,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "upload_staged_artifacts"
+                }
+            },
+            "test_upload_staged_artifacts_config_validation_error": {
+                "line": 34,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "upload_staged_artifacts"
+                }
+            },
+            "test_upload_staged_artifacts_no_local_dir": {
+                "line": 59,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "upload_staged_artifacts"
+                }
+            },
+            "test_upload_staged_artifacts_upload_succeeds": {
+                "line": 89,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "upload_staged_artifacts"
+                }
+            },
+            "test_upload_staged_artifacts_upload_fails": {
+                "line": 115,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "upload_staged_artifacts"
+                }
+            }
+        }
+    },
+    "deployer/tests/unit/test_preflight.py": {
+        "focal_file": "deployer/preflight.py",
+        "methods": {
+            "test_presetup": {
+                "line": 57,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "pre_setup"
+                }
+            },
+            "test_setup": {
+                "line": 70,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "setup"
+                }
+            },
+            "test_teardown": {
+                "line": 150,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "teardown"
+                }
+            },
+            "test_sync_terraform": {
+                "line": 168,
+                "line_end": 179,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 226,
+                    "indent": 0,
+                    "name": "sync_terraform"
+                }
+            },
+            "test_write_vars": {
+                "line": 182,
+                "line_end": 187,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "write_vars"
+                }
+            }
+        }
+    },
+    "deployer/tests/unit/test_utils.py": {
+        "focal_file": "deployer/utils.py",
+        "methods": {
+            "test_load_vars": {
+                "line": 57,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "load_vars"
+                }
+            },
+            "test_validate_env_name_num_tokens": {
+                "line": 63,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "validate_env_name"
+                }
+            },
+            "test_validate_env_name_length": {
+                "line": 84,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "validate_env_name"
+                }
+            },
+            "test_validate_env_name_version_is_char": {
+                "line": 96,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 115,
+                    "indent": 0,
+                    "name": "validate_env_name"
+                }
+            },
+            "test_validate_schema_good": {
+                "line": 135,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "validate_schema"
+                }
+            },
+            "test_validate_schema_missing_required_property": {
+                "line": 145,
+                "line_end": 155,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "validate_schema"
+                }
+            },
+            "test_validate_tf_schema_good": {
+                "line": 158,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "validate_schema"
+                }
+            },
+            "test_git_pull": {
+                "line": 180,
+                "line_end": 184,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 200,
+                    "indent": 0,
+                    "name": "git_pull"
+                }
+            },
+            "test_git_clone_with_branch": {
+                "line": 187,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "git_clone"
+                }
+            },
+            "test_git_url_with_nongit_url": {
+                "line": 212,
+                "line_end": 219,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 265,
+                    "indent": 0,
+                    "name": "git_url"
+                }
+            },
+            "test_local_dir_from_repo_full_url": {
+                "line": 364,
+                "line_end": 369,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 268,
+                    "line_end": 288,
+                    "indent": 0,
+                    "name": "local_dir_from_git_repo"
+                }
+            },
+            "test_local_dir_from_repo_just_repo": {
+                "line": 372,
+                "line_end": 376,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 268,
+                    "line_end": 288,
+                    "indent": 0,
+                    "name": "local_dir_from_git_repo"
+                }
+            },
+            "test_get_tf_location_from_local_path": {
+                "line": 379,
+                "line_end": 384,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 291,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "get_tf_location"
+                }
+            },
+            "test_get_tf_location_from_git_url": {
+                "line": 387,
+                "line_end": 395,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 291,
+                    "line_end": 316,
+                    "indent": 0,
+                    "name": "get_tf_location"
+                }
+            },
+            "test_parseConfigOpts": {
+                "line": 398,
+                "line_end": 410,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 319,
+                    "line_end": 329,
+                    "indent": 0,
+                    "name": "parseConfigOpts"
+                }
+            },
+            "test_git_set_branch": {
+                "line": 413,
+                "line_end": 422,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 203,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "git_set_branch"
+                }
+            },
+            "test_run_command": {
+                "line": 425,
+                "line_end": 445,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "run_command"
+                }
+            }
+        }
+    },
+    "deployer/tests/unit/test_environments.py": {
+        "focal_file": "deployer/environments.py",
+        "methods": {
+            "test_precheck_valid_keys": {
+                "line": 139,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "_precheck"
+                }
+            },
+            "test_precheck_invalid_key": {
+                "line": 147,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "_precheck"
+                }
+            },
+            "test_list_deployed_environment_versions": {
+                "line": 155,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 273,
+                    "indent": 0,
+                    "name": "list_deployed_environment_versions"
+                }
+            },
+            "test_get_next_env_version": {
+                "line": 166,
+                "line_end": 175,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "get_next_version"
+                }
+            }
+        }
+    }
+}

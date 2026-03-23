@@ -1,0 +1,144 @@
+{
+    "tests/unit_tests/test_containers.py": {
+        "focal_file": "pyioc/containers.py",
+        "methods": {
+            "test_register_singleton": {
+                "line": 78,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "register_callable"
+                }
+            },
+            "test_register_object": {
+                "line": 87,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "register_callable"
+                }
+            },
+            "test_if_container_returns_list_of_registered_objects": {
+                "line": 163,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "register_callable"
+                }
+            },
+            "test_adding_sub_containers": {
+                "line": 179,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": "SimpleContainer",
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "add_sub_container"
+                }
+            },
+            "test_if_adding_already_registered_sub_container_throws_error": {
+                "line": 194,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": "SimpleContainer",
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 207,
+                    "indent": 4,
+                    "name": "add_sub_container"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_providers.py": {
+        "focal_file": "pyioc/providers.py",
+        "methods": {
+            "test_if_not_rases_error_on_method_without_args": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "validate_if_callable_without_args"
+                }
+            },
+            "test_if_single_instance_provider_returns_instance": {
+                "line": 142,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": "EagerSingleInstanceProvider",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_instance"
+                }
+            },
+            "test_if_provider_returns_instance": {
+                "line": 86,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "NewInstancesProvider",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_instance"
+                }
+            },
+            "test_if_provider_returns_new_instances_each_time": {
+                "line": 92,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "NewInstancesProvider",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_instance"
+                }
+            },
+            "test_if_object_provider_returns_instance": {
+                "line": 114,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "LazySingleInstanceProvider",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_instance"
+                }
+            },
+            "test_if_object_provider_always_return_same_instance": {
+                "line": 120,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "LazySingleInstanceProvider",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_instance"
+                }
+            }
+        }
+    }
+}

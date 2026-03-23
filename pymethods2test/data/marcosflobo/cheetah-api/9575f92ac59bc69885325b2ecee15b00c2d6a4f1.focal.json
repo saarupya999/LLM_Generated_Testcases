@@ -1,0 +1,298 @@
+{
+    "tests/core/test_config.py": {
+        "focal_file": "cheetahapi/core/config.py",
+        "methods": {
+            "test_load_config_data": {
+                "line": 153,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "load_config_data"
+                }
+            }
+        }
+    },
+    "tests/core/db/test_db_factory.py": {
+        "focal_file": "cheetahapi/core/db/db_factory.py",
+        "methods": {
+            "test_build_engine_connection_string": {
+                "line": 8,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": "DbFactory",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "build_engine_connection_string"
+                }
+            },
+            "test_build_engine_connection_string_exception": {
+                "line": 28,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "DbFactory",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "build_engine_connection_string"
+                }
+            },
+            "test_get_engine": {
+                "line": 47,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "DbFactory",
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "get_engine"
+                }
+            }
+        }
+    },
+    "tests/core/db/test_db_authenticate.py": {
+        "focal_file": "cheetahapi/core/db/db_authenticate.py",
+        "methods": {
+            "test_get_token": {
+                "line": 15,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": "DbAuthenticate",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "get_token"
+                }
+            },
+            "test_get_token_not_found": {
+                "line": 28,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "DbAuthenticate",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "get_token"
+                }
+            },
+            "test_get_user_from_db": {
+                "line": 41,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "DbAuthenticate",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_user_from_db"
+                }
+            },
+            "test_get_user_from_db_not_found": {
+                "line": 54,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "DbAuthenticate",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 42,
+                    "indent": 4,
+                    "name": "get_user_from_db"
+                }
+            },
+            "test_get_token_user_id": {
+                "line": 67,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "DbAuthenticate",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_token_user_id"
+                }
+            },
+            "test_get_token_user_id_not_found": {
+                "line": 80,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "DbAuthenticate",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_token_user_id"
+                }
+            },
+            "test_create_new_token": {
+                "line": 93,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": "DbAuthenticate",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "create_new_token"
+                }
+            }
+        }
+    },
+    "tests/core/authenticate/test_authenticate.py": {
+        "focal_file": "cheetahapi/core/authenticate.py",
+        "methods": {
+            "test_token_has_valid_date": {
+                "line": 23,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "set_token_days_valid"
+                }
+            },
+            "test_token_has_not_valid_date": {
+                "line": 36,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "set_token_days_valid"
+                }
+            },
+            "test_is_valid_token": {
+                "line": 49,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "is_valid_token"
+                }
+            },
+            "test_is_invalid_token": {
+                "line": 64,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "is_valid_token"
+                }
+            },
+            "test_authenticate_ok": {
+                "line": 84,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "authenticate"
+                }
+            },
+            "test_get_token_from_db": {
+                "line": 157,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "get_token_from_db"
+                }
+            },
+            "test_get_user_from_db": {
+                "line": 170,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_user_from_db"
+                }
+            },
+            "test_get_user_from_db_not_found": {
+                "line": 181,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_user_from_db"
+                }
+            },
+            "test_get_token_user_id": {
+                "line": 194,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "get_token_user_id"
+                }
+            },
+            "test_get_token_user_id_not_found": {
+                "line": 205,
+                "line_end": 213,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "get_token_user_id"
+                }
+            },
+            "test_create_new_token": {
+                "line": 217,
+                "line_end": 224,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "create_new_token"
+                }
+            },
+            "test_create_new_token_not_found": {
+                "line": 228,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": "Authenticate",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "create_new_token"
+                }
+            }
+        }
+    }
+}

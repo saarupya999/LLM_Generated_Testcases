@@ -1,0 +1,795 @@
+{
+    "tests/test_agent_manager.py": {
+        "focal_file": "src/inmanta/server/agentmanager.py",
+        "methods": {
+            "test_primary_selection": {
+                "line": 144,
+                "line_end": 225,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 540,
+                    "line_end": 544,
+                    "indent": 4,
+                    "name": "is_primary"
+                }
+            },
+            "test_expire_all_sessions_in_db": {
+                "line": 492,
+                "line_end": 584,
+                "indent": 0,
+                "focal_class": "AgentManager",
+                "focal_method": {
+                    "line": 457,
+                    "line_end": 464,
+                    "indent": 4,
+                    "name": "_expire_all_sessions_in_db"
+                }
+            },
+            "test_agent_actions": {
+                "line": 778,
+                "line_end": 912,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 212,
+                    "line_end": 218,
+                    "indent": 4,
+                    "name": "agent_action"
+                }
+            },
+            "test_process_already_terminated": {
+                "line": 916,
+                "line_end": 932,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 891,
+                    "line_end": 898,
+                    "indent": 4,
+                    "name": "_terminate_agents"
+                }
+            },
+            "test_add_internal_agent_when_missing_in_agent_map": {
+                "line": 1049,
+                "line_end": 1075,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 901,
+                    "line_end": 945,
+                    "indent": 4,
+                    "name": "_ensure_agents"
+                }
+            }
+        }
+    },
+    "tests/test_cache.py": {
+        "focal_file": "src/inmanta/agent/cache.py",
+        "methods": {
+            "test_context_manager": {
+                "line": 126,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": "AgentCache",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "manager"
+                }
+            },
+            "test_get_or_else": {
+                "line": 264,
+                "line_end": 285,
+                "indent": 0,
+                "focal_class": "AgentCache",
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 282,
+                    "indent": 4,
+                    "name": "get_or_else"
+                }
+            },
+            "test_close": {
+                "line": 378,
+                "line_end": 380,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_close_2": {
+                "line": 383,
+                "line_end": 385,
+                "indent": 8,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "tests/test_env.py": {
+        "focal_file": "src/inmanta/env.py",
+        "methods": {
+            "test_basic_install": {
+                "line": 31,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": "inmanta.env.VirtualEnv",
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 285,
+                    "indent": 4,
+                    "name": "_install"
+                }
+            },
+            "test_install_fails": {
+                "line": 71,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": "inmanta.env.VirtualEnv",
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 333,
+                    "indent": 4,
+                    "name": "install_from_list"
+                }
+            },
+            "test_gen_req_file": {
+                "line": 136,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": "inmanta.env.VirtualEnv",
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 250,
+                    "indent": 4,
+                    "name": "_gen_requirements_file"
+                }
+            }
+        }
+    },
+    "tests/test_import_entry_points.py": {
+        "focal_file": "tests/test_import_entry_points.py",
+        "methods": {
+            "test_import_exceptions": {
+                "line": 46,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_plugins": {
+                "line": 51,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_export": {
+                "line": 65,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_attributes": {
+                "line": 69,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_typing": {
+                "line": 73,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_proxy": {
+                "line": 77,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_protocol": {
+                "line": 94,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_const": {
+                "line": 99,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            },
+            "test_import_util": {
+                "line": 103,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "import_entry_point"
+                }
+            }
+        }
+    },
+    "tests/test_project.py": {
+        "focal_file": "src/inmanta/server/services/environmentservice.py",
+        "methods": {
+            "test_environment_listener": {
+                "line": 258,
+                "line_end": 342,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 397,
+                    "indent": 4,
+                    "name": "environment_clear"
+                }
+            }
+        }
+    },
+    "tests/test_resource.py": {
+        "focal_file": "src/inmanta/resources.py",
+        "methods": {
+            "test_is_resource_version_id": {
+                "line": 307,
+                "line_end": 315,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 615,
+                    "line_end": 620,
+                    "indent": 4,
+                    "name": "is_resource_version_id"
+                }
+            }
+        }
+    },
+    "tests/test_type.py": {
+        "focal_file": "src/inmanta/ast/type.py",
+        "methods": {
+            "test_dsl_types_type_string": {
+                "line": 36,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": "TypedList",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "type_string"
+                }
+            },
+            "test_attribute_validate": {
+                "line": 52,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": "Integer",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            }
+        }
+    },
+    "tests/test_util.py": {
+        "focal_file": "src/inmanta/util.py",
+        "methods": {
+            "test_scheduler_remove": {
+                "line": 33,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": "inmanta.util.Scheduler",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "remove"
+                }
+            },
+            "test_scheduler_stop": {
+                "line": 54,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": "inmanta.util.Scheduler",
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 184,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_ensure_future_and_handle_exception": {
+                "line": 130,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 118,
+                    "indent": 0,
+                    "name": "ensure_future_and_handle_exception"
+                }
+            },
+            "test_stable_dfs": {
+                "line": 154,
+                "line_end": 223,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 398,
+                    "line_end": 422,
+                    "indent": 0,
+                    "name": "stable_depth_first"
+                }
+            },
+            "test_is_sub_dict": {
+                "line": 226,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "is_sub_dict"
+                }
+            }
+        }
+    },
+    "tests/agent_server/test_server_agent.py": {
+        "focal_file": "src/inmanta/agent/agent.py",
+        "methods": {
+            "test_server_restart": {
+                "line": 222,
+                "line_end": 295,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1025,
+                    "line_end": 1028,
+                    "indent": 4,
+                    "name": "start"
+                }
+            },
+            "test_agentinstance_stops_deploying_when_stopped": {
+                "line": 3216,
+                "line_end": 3278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 558,
+                    "line_end": 559,
+                    "indent": 4,
+                    "name": "is_stopped"
+                }
+            }
+        }
+    },
+    "tests/compiler/test_relations.py": {
+        "focal_file": "src/inmanta/execute/runtime.py",
+        "methods": {
+            "test_relation_attributes": {
+                "line": 319,
+                "line_end": 346,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 983,
+                    "line_end": 987,
+                    "indent": 4,
+                    "name": "get_attribute"
+                }
+            }
+        }
+    },
+    "tests/compiler/test_typing.py": {
+        "focal_file": "src/inmanta/ast/entity.py",
+        "methods": {
+            "test_attribute_type": {
+                "line": 289,
+                "line_end": 329,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "get_attributes"
+                }
+            }
+        }
+    },
+    "tests/compiler/test_warnings.py": {
+        "focal_file": "src/inmanta/warnings.py",
+        "methods": {
+            "test_warnings": {
+                "line": 36,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 170,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "warn"
+                }
+            }
+        }
+    },
+    "tests/compiler/dataflow/test_assignment.py": {
+        "focal_file": "src/inmanta/ast/statements/__init__.py",
+        "methods": {
+            "test_dataflow_assignment_node_simple": {
+                "line": 40,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": "Statement",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_dataflow_node"
+                }
+            },
+            "test_dataflow_assignment_node_attribute": {
+                "line": 51,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": "Statement",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_dataflow_node"
+                }
+            },
+            "test_dataflow_primitive_assignment": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": "Statement",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_dataflow_node"
+                }
+            }
+        }
+    },
+    "tests/compiler/dataflow/test_leaves.py": {
+        "focal_file": "src/inmanta/ast/statements/__init__.py",
+        "methods": {
+            "test_dataflow_simple_leaf": {
+                "line": 62,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_dataflow_node"
+                }
+            },
+            "test_dataflow_variable_chain_leaf": {
+                "line": 69,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": "Statement",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_dataflow_node"
+                }
+            },
+            "test_dataflow_variable_tree_leaves": {
+                "line": 83,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": "Statement",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_dataflow_node"
+                }
+            },
+            "test_dataflow_variable_loop_leaves": {
+                "line": 98,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": "Statement",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "get_dataflow_node"
+                }
+            }
+        }
+    },
+    "tests/db/test_db_schema.py": {
+        "focal_file": "src/inmanta/data/schema.py",
+        "methods": {
+            "test_dbschema_ensure_self_update": {
+                "line": 224,
+                "line_end": 243,
+                "indent": 0,
+                "focal_class": "inmanta.data.schema.DBSchema",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "ensure_self_update"
+                }
+            },
+            "test_dbschema_update_db_schema": {
+                "line": 247,
+                "line_end": 256,
+                "indent": 0,
+                "focal_class": "inmanta.data.schema.DBSchema",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "ensure_self_update"
+                }
+            },
+            "test_dbschema_update_db_schema_failure": {
+                "line": 260,
+                "line_end": 295,
+                "indent": 0,
+                "focal_class": "Version",
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 217,
+                    "indent": 4,
+                    "name": "_update_db_schema"
+                }
+            },
+            "test_dbschema_partial_update_db_schema_failure": {
+                "line": 307,
+                "line_end": 353,
+                "indent": 0,
+                "focal_class": "inmanta.data.schema.DBSchema",
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 217,
+                    "indent": 4,
+                    "name": "_update_db_schema"
+                }
+            },
+            "test_dbschema_get_dct_with_update_functions": {
+                "line": 356,
+                "line_end": 371,
+                "indent": 0,
+                "focal_class": "inmanta.data.schema.DBSchema",
+                "focal_method": {
+                    "line": 267,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_get_update_functions"
+                }
+            },
+            "test_dbschema_get_dct_filter_disabled": {
+                "line": 445,
+                "line_end": 453,
+                "indent": 0,
+                "focal_class": "inmanta.data.schema.DBSchema",
+                "focal_method": {
+                    "line": 267,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_get_update_functions"
+                }
+            },
+            "test_dbschema_get_dct_filter_invalid_names": {
+                "line": 457,
+                "line_end": 465,
+                "indent": 0,
+                "focal_class": "inmanta.data.schema.DBSchema",
+                "focal_method": {
+                    "line": 267,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_get_update_functions"
+                }
+            }
+        }
+    },
+    "tests/moduletool/test_module_tool_basics.py": {
+        "focal_file": "src/inmanta/moduletool.py",
+        "methods": {
+            "test_versioning": {
+                "line": 50,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": "ModuleTool",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "determine_new_version"
+                }
+            },
+            "test_get_module_v1": {
+                "line": 88,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": "ModuleTool",
+                "focal_method": {
+                    "line": 330,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "get_module"
+                }
+            },
+            "test_get_module_v2": {
+                "line": 104,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": "ModuleTool",
+                "focal_method": {
+                    "line": 330,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "get_module"
+                }
+            }
+        }
+    },
+    "tests/server/test_compilerservice.py": {
+        "focal_file": "src/inmanta/server/services/compilerservice.py",
+        "methods": {
+            "test_compilerservice_compile_data": {
+                "line": 424,
+                "line_end": 456,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 632,
+                    "line_end": 636,
+                    "indent": 4,
+                    "name": "get_compile_data"
+                }
+            },
+            "test_compileservice_queue": {
+                "line": 625,
+                "line_end": 723,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 639,
+                    "line_end": 644,
+                    "indent": 4,
+                    "name": "get_compile_queue"
+                }
+            },
+            "test_compilerservice_halt": {
+                "line": 727,
+                "line_end": 750,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 639,
+                    "line_end": 644,
+                    "indent": 4,
+                    "name": "get_compile_queue"
+                }
+            },
+            "test_compileservice_cleanup": {
+                "line": 833,
+                "line_end": 857,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 394,
+                    "indent": 4,
+                    "name": "_cleanup"
+                }
+            },
+            "test_compileservice_cleanup_on_trigger": {
+                "line": 862,
+                "line_end": 877,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 623,
+                    "line_end": 629,
+                    "indent": 4,
+                    "name": "get_report"
+                }
+            },
+            "test_compileservice_auto_recompile_wait": {
+                "line": 944,
+                "line_end": 984,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 396,
+                    "line_end": 428,
+                    "indent": 4,
+                    "name": "request_recompile"
+                }
+            },
+            "test_compileservice_calculate_auto_recompile_wait": {
+                "line": 988,
+                "line_end": 1015,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 505,
+                    "line_end": 519,
+                    "indent": 4,
+                    "name": "_calculate_recompile_wait"
+                }
+            }
+        }
+    }
+}

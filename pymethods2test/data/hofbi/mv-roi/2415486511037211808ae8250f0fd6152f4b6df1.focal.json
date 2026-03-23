@@ -1,0 +1,534 @@
+{
+    "test/test_args.py": {
+        "focal_file": "util/args.py",
+        "methods": {
+            "test_user_confirmation__y__true": {
+                "line": 13,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "user_confirmation"
+                }
+            },
+            "test_user_confirmation__n__true": {
+                "line": 17,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 16,
+                    "indent": 0,
+                    "name": "user_confirmation"
+                }
+            },
+            "test_parse_resolution__width_x_height__correct": {
+                "line": 20,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "parse_resolution"
+                }
+            }
+        }
+    },
+    "test/test_files.py": {
+        "focal_file": "util/files.py",
+        "methods": {
+            "test_get_files_with_suffix__empty_dir__no_files": {
+                "line": 64,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_files_with_suffix"
+                }
+            },
+            "test_get_files_with_suffix__not_existing_suffix__no_files": {
+                "line": 69,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_files_with_suffix"
+                }
+            },
+            "test_get_files_with_suffix__json_suffix__two_files": {
+                "line": 74,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_files_with_suffix"
+                }
+            },
+            "test_get_files_with_suffix__input_path__start_with_input_path": {
+                "line": 80,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_files_with_suffix"
+                }
+            },
+            "test_get_files_with_suffix__input_path__ascending_order": {
+                "line": 86,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_files_with_suffix"
+                }
+            },
+            "test_get_files_with_suffix__only_layout_json__one_file": {
+                "line": 93,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_files_with_suffix"
+                }
+            },
+            "test_get_file_name_with_sequence_index__index_11__correct_name": {
+                "line": 122,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": "FileModel",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "get_file_name_with_sequence_index"
+                }
+            },
+            "test_get_file_name_with_sequence_index__target_suffix_different__suffix_changed": {
+                "line": 126,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": "FileModel",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "get_file_name_with_sequence_index"
+                }
+            },
+            "test_get_file_name_with_view_key__own_view_key__correct_index": {
+                "line": 134,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": "FileModel",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "get_file_name_with_view_key"
+                }
+            },
+            "test_get_file_name_with_view_key__different_view_key__key_changed": {
+                "line": 138,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": "FileModel",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "get_file_name_with_view_key"
+                }
+            },
+            "test_group_files_by_index__no_files__empty": {
+                "line": 213,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "group_files_by_index"
+                }
+            },
+            "test_filter_files_for_reindexing__no_files__empty": {
+                "line": 240,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "filter_files_for_reindexing"
+                }
+            },
+            "test_filter_files_for_reindexing__single_group_for_reindexing__correct": {
+                "line": 245,
+                "line_end": 252,
+                "indent": 4,
+                "focal_class": "FileModel",
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "filter_files_for_reindexing"
+                }
+            },
+            "test_filter_files_for_reindexing__two_groups_for_removing__correct": {
+                "line": 254,
+                "line_end": 265,
+                "indent": 4,
+                "focal_class": "FileModel",
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "filter_files_for_reindexing"
+                }
+            },
+            "test_filter_files_for_reindexing__test_files_for_reindexing__3_to_keep_2_to_remove": {
+                "line": 267,
+                "line_end": 279,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 216,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "filter_files_for_reindexing"
+                }
+            },
+            "test_clean_up__no_files_to_remove__no_clean_up": {
+                "line": 282,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": "FileReindexer",
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 230,
+                    "indent": 4,
+                    "name": "clean_up"
+                }
+            },
+            "test_group_files_by_keys__no_keys__empty_dict": {
+                "line": 348,
+                "line_end": 350,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 261,
+                    "indent": 4,
+                    "name": "group_files_by_keys"
+                }
+            },
+            "test_get_sequence_index_for_topic__existing_topic__correct_index": {
+                "line": 445,
+                "line_end": 449,
+                "indent": 4,
+                "focal_class": "ScenarioGrouper",
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "get_sequence_index_for_topic"
+                }
+            },
+            "test_get_sequence_index_for_topic__not_existing_topic__raise_error": {
+                "line": 451,
+                "line_end": 455,
+                "indent": 4,
+                "focal_class": "ScenarioGrouper",
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "get_sequence_index_for_topic"
+                }
+            },
+            "test_get_naming_data_for_topic__existing_topic__correct_values": {
+                "line": 457,
+                "line_end": 463,
+                "indent": 4,
+                "focal_class": "ScenarioGrouper",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "get_naming_data_for_topic"
+                }
+            },
+            "test_get_naming_data_for_topic__not_existing_topic__raise_error": {
+                "line": 465,
+                "line_end": 469,
+                "indent": 4,
+                "focal_class": "ScenarioGrouper",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 361,
+                    "indent": 4,
+                    "name": "get_naming_data_for_topic"
+                }
+            }
+        }
+    },
+    "test/test_generate_pseudo_label.py": {
+        "focal_file": "annotation/generate_pseudo_label.py",
+        "methods": {
+            "test_create_pseudo_labels__no_files__empty": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 148,
+                    "indent": 0,
+                    "name": "create_pseudo_labels"
+                }
+            },
+            "test_create_pseudo_labels__one_file__correct_image_dimensions_and_label_path": {
+                "line": 22,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 148,
+                    "indent": 0,
+                    "name": "create_pseudo_labels"
+                }
+            }
+        }
+    },
+    "test/test_geometry.py": {
+        "focal_file": "util/geometry.py",
+        "methods": {
+            "test_is_shape_inside__all_inside__true": {
+                "line": 33,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "is_shape_inside"
+                }
+            },
+            "test_is_shape_inside__center_inside__true": {
+                "line": 39,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "is_shape_inside"
+                }
+            }
+        }
+    },
+    "test/test_h5.py": {
+        "focal_file": "util/h5.py",
+        "methods": {
+            "test_sample_key__index_2__correct_sample_key": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "sample_key"
+                }
+            }
+        }
+    },
+    "test/test_prepare.py": {
+        "focal_file": "bdda/prepare.py",
+        "methods": {
+            "test_prepare_scenario_group_images__2_topics_and_2_files__open_called_twice": {
+                "line": 59,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "prepare_scenario_group_images"
+                }
+            },
+            "test_prepare_scenario_group_images__2_topics_and_no_files__never_called": {
+                "line": 70,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "prepare_scenario_group_images"
+                }
+            },
+            "test_prepare_scenario_group_gazemaps__2_topics_and_label_files__open_called_twice": {
+                "line": 95,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 148,
+                    "indent": 0,
+                    "name": "prepare_scenario_group_gazemaps"
+                }
+            },
+            "test_prepare_scenario_group_gazemaps__size_is_none__raise_error": {
+                "line": 113,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 148,
+                    "indent": 0,
+                    "name": "prepare_scenario_group_gazemaps"
+                }
+            },
+            "test_get_scenario_start_index__empty_naming__start_index_1": {
+                "line": 128,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "get_scenario_start_index"
+                }
+            },
+            "test_create_gazemap_from_shapes__one_shape__not_all_back": {
+                "line": 143,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "create_gazemap_from_shapes"
+                }
+            }
+        }
+    },
+    "test/test_reformat_gaze_maps.py": {
+        "focal_file": "bdda/reformat_gaze_maps.py",
+        "methods": {
+            "test_get_path_pair_gazemap_groups__empty_groups__empty": {
+                "line": 25,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_path_pair_gazemap_groups"
+                }
+            },
+            "test_get_path_pair_gazemap_groups__single_group_one_file__correct_path_pair": {
+                "line": 29,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_path_pair_gazemap_groups"
+                }
+            },
+            "test_get_path_pair_gazemap_groups__four_groups__correct_groups": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_path_pair_gazemap_groups"
+                }
+            },
+            "test_reformat_gazemap_group__no_pairs__copy_never_called": {
+                "line": 52,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "reformat_gaze_map_sequence"
+                }
+            },
+            "test_reformat_gazemap_group__2_pairs__copy_called_twice": {
+                "line": 62,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "reformat_gaze_map_sequence"
+                }
+            }
+        }
+    },
+    "test/test_split.py": {
+        "focal_file": "annotation/split.py",
+        "methods": {
+            "test_split_json_data__no_files__empty": {
+                "line": 34,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "split_json_data"
+                }
+            }
+        }
+    }
+}

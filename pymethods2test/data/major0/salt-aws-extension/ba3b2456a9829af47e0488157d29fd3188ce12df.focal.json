@@ -1,0 +1,293 @@
+{
+    "tests/unit/states/test_boto_apigateway.py": {
+        "focal_file": "src/saltext/aws/states/boto_apigateway.py",
+        "methods": {
+            "test_usage_plan_present_if_describe_fails": {
+                "line": 1219,
+                "line_end": 1234,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1914,
+                    "line_end": 2064,
+                    "indent": 0,
+                    "name": "usage_plan_present"
+                }
+            },
+            "test_usage_plan_present_if_IOError_is_raised": {
+                "line": 1449,
+                "line_end": 1464,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1914,
+                    "line_end": 2064,
+                    "indent": 0,
+                    "name": "usage_plan_present"
+                }
+            },
+            "test_usage_plan_absent_if_describe_fails": {
+                "line": 1467,
+                "line_end": 1484,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2067,
+                    "line_end": 2125,
+                    "indent": 0,
+                    "name": "usage_plan_absent"
+                }
+            },
+            "test_usage_plan_association_present_if_describe_fails": {
+                "line": 1633,
+                "line_end": 1650,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_present_if_plan_is_not_present": {
+                "line": 1653,
+                "line_end": 1670,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_present_if_multiple_plans_with_the_same_name_exist": {
+                "line": 1673,
+                "line_end": 1697,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_present_if_association_already_exists": {
+                "line": 1700,
+                "line_end": 1721,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_present_if_update_fails": {
+                "line": 1724,
+                "line_end": 1748,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_present_success": {
+                "line": 1751,
+                "line_end": 1780,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_present_if_value_error_is_thrown": {
+                "line": 1783,
+                "line_end": 1800,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_present_if_io_error_is_thrown": {
+                "line": 1803,
+                "line_end": 1820,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2128,
+                    "line_end": 2219,
+                    "indent": 0,
+                    "name": "usage_plan_association_present"
+                }
+            },
+            "test_usage_plan_association_absent_if_describe_fails": {
+                "line": 1823,
+                "line_end": 1839,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_if_plan_is_not_present": {
+                "line": 1842,
+                "line_end": 1859,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_if_multiple_plans_with_the_same_name_exist": {
+                "line": 1862,
+                "line_end": 1886,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_if_plan_has_no_associations": {
+                "line": 1889,
+                "line_end": 1910,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_if_plan_has_no_specific_association": {
+                "line": 1913,
+                "line_end": 1934,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_if_detaching_association_fails": {
+                "line": 1937,
+                "line_end": 1970,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_success": {
+                "line": 1973,
+                "line_end": 2007,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_if_ValueError_is_raised": {
+                "line": 2010,
+                "line_end": 2027,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            },
+            "test_usage_plan_association_absent_if_IOError_is_raised": {
+                "line": 2030,
+                "line_end": 2047,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2222,
+                    "line_end": 2319,
+                    "indent": 0,
+                    "name": "usage_plan_association_absent"
+                }
+            }
+        }
+    },
+    "tests/unit/states/test_boto_lc.py": {
+        "focal_file": "src/saltext/aws/states/boto_lc.py",
+        "methods": {
+            "test_present": {
+                "line": 24,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 292,
+                    "indent": 0,
+                    "name": "present"
+                }
+            },
+            "test_absent": {
+                "line": 55,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 336,
+                    "indent": 0,
+                    "name": "absent"
+                }
+            }
+        }
+    },
+    "tests/unit/utils/test_botomod.py": {
+        "focal_file": "src/saltext/aws/utils/botomod.py",
+        "methods": {
+            "test_error_message": {
+                "line": 218,
+                "line_end": 230,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 233,
+                    "indent": 0,
+                    "name": "get_error"
+                }
+            }
+        }
+    }
+}

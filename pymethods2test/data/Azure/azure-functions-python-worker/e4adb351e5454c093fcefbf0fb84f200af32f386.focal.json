@@ -1,0 +1,550 @@
+{
+    "tests/unittests/test_extension.py": {
+        "focal_file": "azure_functions_worker/extension.py",
+        "methods": {
+            "test_extension_is_supported_by_latest_sdk": {
+                "line": 77,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "_is_extension_enabled_in_sdk"
+                }
+            },
+            "test_extension_is_not_supported_by_mock_sdk": {
+                "line": 85,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "_is_extension_enabled_in_sdk"
+                }
+            },
+            "test_function_load_extension_enable_when_feature_flag_is_on": {
+                "line": 95,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "function_load_extension"
+                }
+            },
+            "test_function_load_extension_disable_when_feature_flag_is_off": {
+                "line": 109,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "function_load_extension"
+                }
+            },
+            "test_function_load_extension_warns_when_sdk_does_not_support": {
+                "line": 125,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "function_load_extension"
+                }
+            },
+            "test_invocation_extension_enable_when_feature_flag_is_on": {
+                "line": 167,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "_invocation_extension"
+                }
+            },
+            "test_invocation_extension_warns_when_sdk_does_not_support": {
+                "line": 201,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "_invocation_extension"
+                }
+            },
+            "test_post_function_load_hook_should_be_executed": {
+                "line": 293,
+                "line_end": 314,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "_safe_execute_function_load_hooks"
+                }
+            },
+            "test_raw_invocation_wrapper": {
+                "line": 360,
+                "line_end": 400,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 218,
+                    "indent": 4,
+                    "name": "_raw_invocation_wrapper"
+                }
+            },
+            "test_exception_handling_in_pre_invocation_app_level": {
+                "line": 442,
+                "line_end": 478,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "get_sync_invocation_wrapper"
+                }
+            },
+            "test_get_sync_invocation_wrapper_no_extension": {
+                "line": 480,
+                "line_end": 494,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "get_sync_invocation_wrapper"
+                }
+            },
+            "test_get_sync_invocation_wrapper_with_func_extension": {
+                "line": 496,
+                "line_end": 520,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "get_sync_invocation_wrapper"
+                }
+            },
+            "test_get_sync_invocation_wrapper_disabled_with_flag": {
+                "line": 522,
+                "line_end": 549,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "get_sync_invocation_wrapper"
+                }
+            },
+            "test_get_async_invocation_wrapper_no_extension": {
+                "line": 551,
+                "line_end": 566,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "get_async_invocation_wrapper"
+                }
+            },
+            "test_get_async_invocation_wrapper_with_func_extension": {
+                "line": 568,
+                "line_end": 593,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "get_async_invocation_wrapper"
+                }
+            },
+            "test_is_pre_invocation_hook": {
+                "line": 624,
+                "line_end": 628,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 170,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "_is_pre_invocation_hook"
+                }
+            },
+            "test_is_pre_invocation_hook_negative": {
+                "line": 630,
+                "line_end": 635,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 170,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "_is_pre_invocation_hook"
+                }
+            },
+            "test_is_post_invocation_hook": {
+                "line": 637,
+                "line_end": 641,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "_is_post_invocation_hook"
+                }
+            },
+            "test_is_post_invocation_hook_negative": {
+                "line": 643,
+                "line_end": 648,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "_is_post_invocation_hook"
+                }
+            },
+            "test_try_get_sdk_with_extension_enabled_should_execute_once": {
+                "line": 652,
+                "line_end": 667,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 234,
+                    "indent": 4,
+                    "name": "_try_get_sdk_with_extension_enabled"
+                }
+            },
+            "test_try_get_sdk_with_extension_disabled_should_execute_once": {
+                "line": 671,
+                "line_end": 689,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 221,
+                    "line_end": 234,
+                    "indent": 4,
+                    "name": "_try_get_sdk_with_extension_enabled"
+                }
+            },
+            "test_info_extension_is_enabled": {
+                "line": 692,
+                "line_end": 701,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 237,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "_info_extension_is_enabled"
+                }
+            },
+            "test_info_discover_extension_list_func_ext": {
+                "line": 704,
+                "line_end": 723,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 249,
+                    "indent": 4,
+                    "name": "_info_discover_extension_list"
+                }
+            },
+            "test_info_discover_extension_list_app_ext": {
+                "line": 726,
+                "line_end": 739,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 249,
+                    "indent": 4,
+                    "name": "_info_discover_extension_list"
+                }
+            },
+            "test_warn_sdk_not_support_extension": {
+                "line": 742,
+                "line_end": 755,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 252,
+                    "line_end": 259,
+                    "indent": 4,
+                    "name": "_warn_sdk_not_support_extension"
+                }
+            }
+        }
+    },
+    "tests/unittests/test_utilities_dependency.py": {
+        "focal_file": "azure_functions_worker/utils/dependency.py",
+        "methods": {
+            "test_remove_from_sys_path": {
+                "line": 396,
+                "line_end": 399,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "_remove_from_sys_path"
+                }
+            },
+            "test_clear_path_importer_cache_and_modules": {
+                "line": 455,
+                "line_end": 467,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "_clear_path_importer_cache_and_modules"
+                }
+            },
+            "test_clear_path_importer_cache_and_modules_reimport": {
+                "line": 469,
+                "line_end": 497,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "_clear_path_importer_cache_and_modules"
+                }
+            },
+            "test_clear_path_importer_cache_and_modules_retain_namespace": {
+                "line": 499,
+                "line_end": 524,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 288,
+                    "indent": 4,
+                    "name": "_clear_path_importer_cache_and_modules"
+                }
+            },
+            "test_use_worker_dependencies": {
+                "line": 526,
+                "line_end": 541,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "use_worker_dependencies"
+                }
+            },
+            "test_prioritize_customer_dependencies": {
+                "line": 592,
+                "line_end": 614,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "prioritize_customer_dependencies"
+                }
+            },
+            "test_prioritize_customer_dependencies_disable": {
+                "line": 616,
+                "line_end": 628,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "prioritize_customer_dependencies"
+                }
+            },
+            "test_remove_module_cache": {
+                "line": 681,
+                "line_end": 689,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 356,
+                    "line_end": 395,
+                    "indent": 4,
+                    "name": "_remove_module_cache"
+                }
+            }
+        }
+    },
+    "tests/unittests/test_logging.py": {
+        "focal_file": "azure_functions_worker/logging.py",
+        "methods": {
+            "test_system_log_namespace": {
+                "line": 18,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 91,
+                    "indent": 0,
+                    "name": "is_system_log_category"
+                }
+            }
+        }
+    },
+    "tests/unittests/test_typing_inspect.py": {
+        "focal_file": "azure_functions_worker/_thirdparty/typing_inspect.py",
+        "methods": {
+            "test_callable": {
+                "line": 36,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "is_callable_type"
+                }
+            },
+            "test_tuple": {
+                "line": 46,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "is_tuple_type"
+                }
+            },
+            "test_last_origin": {
+                "line": 78,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "get_last_origin"
+                }
+            },
+            "test_origin": {
+                "line": 87,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 215,
+                    "indent": 0,
+                    "name": "get_origin"
+                }
+            },
+            "test_parameters": {
+                "line": 95,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "get_parameters"
+                }
+            },
+            "test_last_args": {
+                "line": 109,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 268,
+                    "indent": 0,
+                    "name": "get_last_args"
+                }
+            },
+            "test_args": {
+                "line": 121,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_args"
+                }
+            },
+            "test_args_evaluated": {
+                "line": 129,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 332,
+                    "indent": 0,
+                    "name": "get_args"
+                }
+            },
+            "test_generic_type": {
+                "line": 137,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 335,
+                    "line_end": 348,
+                    "indent": 0,
+                    "name": "get_generic_type"
+                }
+            },
+            "test_generic_bases": {
+                "line": 145,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 351,
+                    "line_end": 361,
+                    "indent": 0,
+                    "name": "get_generic_bases"
+                }
+            }
+        }
+    }
+}

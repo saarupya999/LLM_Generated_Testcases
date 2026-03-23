@@ -1,0 +1,368 @@
+{
+    "camunda/client/tests/test_engine_client.py": {
+        "focal_file": "camunda/client/engine_client.py",
+        "methods": {
+            "test_start_process_success": {
+                "line": 19,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "get_start_process_instance_url"
+                }
+            },
+            "test_start_process_not_found_raises_exception": {
+                "line": 42,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "get_start_process_instance_url"
+                }
+            },
+            "test_start_process_bad_request_raises_exception": {
+                "line": 58,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "EngineClient",
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "get_start_process_instance_url"
+                }
+            },
+            "test_get_process_instance_success": {
+                "line": 85,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_process_instance"
+                }
+            },
+            "test_get_process_instance_bad_request_raises_exception": {
+                "line": 109,
+                "line_end": 125,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_process_instance"
+                }
+            },
+            "test_get_process_instance_server_error_raises_exception": {
+                "line": 128,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_process_instance"
+                }
+            },
+            "test_correlate_message_with_only_message_name": {
+                "line": 143,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "correlate_message"
+                }
+            },
+            "test_correlate_message_with_business_key": {
+                "line": 156,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "correlate_message"
+                }
+            },
+            "test_correlate_message_with_tenant_id": {
+                "line": 170,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "correlate_message"
+                }
+            },
+            "test_get_process_instance_variable_without_meta": {
+                "line": 199,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "get_process_instance_variable"
+                }
+            },
+            "test_get_process_instance_variable_with_meta": {
+                "line": 214,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "get_process_instance_variable"
+                }
+            }
+        }
+    },
+    "camunda/external_task/tests/test_external_task.py": {
+        "focal_file": "camunda/external_task/external_task.py",
+        "methods": {
+            "test_complete_returns_success_task_result": {
+                "line": 30,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "ExternalTask",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_task_result"
+                }
+            },
+            "test_failure_returns_failure_task_result": {
+                "line": 41,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "ExternalTask",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_task_result"
+                }
+            },
+            "test_bpmn_error_returns_bpmn_error_task_result": {
+                "line": 58,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "ExternalTask",
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "is_bpmn_error"
+                }
+            },
+            "test_get_variable_returns_with_meta": {
+                "line": 89,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "ExternalTask",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_variable"
+                }
+            },
+            "test_get_variable_returns_without_meta": {
+                "line": 94,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "ExternalTask",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "get_variable"
+                }
+            },
+            "test_get_property_returns_value_for_property_present": {
+                "line": 99,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": "ExternalTask",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "get_extension_property"
+                }
+            }
+        }
+    },
+    "camunda/external_task/tests/test_external_task_executor.py": {
+        "focal_file": "camunda/external_task/external_task_executor.py",
+        "methods": {
+            "test_strip_long_variables": {
+                "line": 146,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "_strip_long_variables"
+                }
+            }
+        }
+    },
+    "camunda/external_task/tests/test_external_task_worker.py": {
+        "focal_file": "camunda/external_task/external_task_worker.py",
+        "methods": {
+            "test_fetch_and_execute_safe_raises_exception_sleep_is_called": {
+                "line": 134,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "ExternalTaskWorker",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "_fetch_and_execute_safe"
+                }
+            }
+        }
+    },
+    "camunda/process_definition/tests/test_process_definition_client.py": {
+        "focal_file": "camunda/process_definition/process_definition_client.py",
+        "methods": {
+            "test_get_process_definitions_url_params_uses_non_none_params": {
+                "line": 14,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_process_definitions_url_params"
+                }
+            },
+            "test_get_process_definitions_url_params_uses_all_specified_params": {
+                "line": 30,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_process_definitions_url_params"
+                }
+            },
+            "test_start_process_by_version_raises_exception_if_no_process_definitions_found": {
+                "line": 49,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "get_process_definitions_url"
+                }
+            },
+            "test_start_process_by_version_uses_first_process_definition_id_if_more_than_one_found": {
+                "line": 62,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "get_process_definitions_url"
+                }
+            }
+        }
+    },
+    "camunda/utils/tests/test_response_utils.py": {
+        "focal_file": "camunda/utils/response_utils.py",
+        "methods": {
+            "test_does_not_raise_exception_if_response_is_ok": {
+                "line": 11,
+                "line_end": 15,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 7,
+                    "indent": 0,
+                    "name": "raise_exception_if_not_ok"
+                }
+            },
+            "test_raise_exception_if_response_is_not_ok": {
+                "line": 17,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 7,
+                    "indent": 0,
+                    "name": "raise_exception_if_not_ok"
+                }
+            },
+            "test_get_response_error_message_no_error_type_no_message": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_response_error_message"
+                }
+            },
+            "test_get_response_error_message_only_type_no_msg": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_response_error_message"
+                }
+            },
+            "test_get_response_error_message_only_msg_no_type": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_response_error_message"
+                }
+            }
+        }
+    }
+}

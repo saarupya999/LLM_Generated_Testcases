@@ -1,0 +1,157 @@
+{
+    "tests/transformers/config_transformer_test.py": {
+        "focal_file": "detect_secrets/transformers/config.py",
+        "methods": {
+            "test_transformer": {
+                "line": 19,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "parse_file"
+                }
+            }
+        }
+    },
+    "tests/core/potential_secret_test.py": {
+        "focal_file": "detect_secrets/core/potential_secret.py",
+        "methods": {
+            "test_json": {
+                "line": 39,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "json"
+                }
+            },
+            "test_load_secret_from_dict": {
+                "line": 57,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "load_secret_from_dict"
+                }
+            }
+        }
+    },
+    "tests/audit/report_test.py": {
+        "focal_file": "detect_secrets/audit/report.py",
+        "methods": {
+            "test_generate_report": {
+                "line": 135,
+                "line_end": 153,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "generate_report"
+                }
+            }
+        }
+    },
+    "tests/audit/iterator_test.py": {
+        "focal_file": "detect_secrets/audit/iterator.py",
+        "methods": {
+            "test_cannot_step_back_too_far": {
+                "line": 13,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": "BidirectionalIterator",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "step_back_on_next_iteration"
+                }
+            },
+            "test_cannot_step_back_too_far_after_stepping_in": {
+                "line": 19,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "BidirectionalIterator",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "step_back_on_next_iteration"
+                }
+            }
+        }
+    },
+    "tests/plugins/ibm_cos_hmac_test.py": {
+        "focal_file": "detect_secrets/plugins/ibm_cos_hmac.py",
+        "methods": {
+            "test_verify_ibm_cos_hmac_credentials": {
+                "line": 205,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "verify_ibm_cos_hmac_credentials"
+                }
+            },
+            "test_find_access_key_id": {
+                "line": 193,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "find_access_key_id"
+                }
+            }
+        }
+    },
+    "tests/plugins/softlayer_test.py": {
+        "focal_file": "detect_secrets/plugins/softlayer.py",
+        "methods": {
+            "test_find_username": {
+                "line": 165,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "find_username"
+                }
+            }
+        }
+    },
+    "tests/plugins/cloudant_test.py": {
+        "focal_file": "detect_secrets/plugins/cloudant.py",
+        "methods": {
+            "test_find_account": {
+                "line": 169,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 109,
+                    "indent": 0,
+                    "name": "find_account"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "tests/test_base_scanner.py": {
+        "focal_file": "tartufo/scanner.py",
+        "methods": {
+            "test_scan_iterates_through_all_chunks": {
+                "line": 60,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 323,
+                    "line_end": 350,
+                    "indent": 4,
+                    "name": "scan"
+                }
+            },
+            "test_matched_signatures_are_excluded": {
+                "line": 253,
+                "line_end": 257,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 268,
+                    "indent": 4,
+                    "name": "signature_is_excluded"
+                }
+            },
+            "test_unmatched_signatures_are_not_excluded": {
+                "line": 260,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 268,
+                    "indent": 4,
+                    "name": "signature_is_excluded"
+                }
+            },
+            "test_signature_found_as_scan_match_is_excluded": {
+                "line": 268,
+                "line_end": 271,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 268,
+                    "indent": 4,
+                    "name": "signature_is_excluded"
+                }
+            },
+            "test_entropy_string_is_excluded": {
+                "line": 350,
+                "line_end": 353,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "entropy_string_is_excluded"
+                }
+            },
+            "test_entropy_string_is_not_excluded": {
+                "line": 355,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "entropy_string_is_excluded"
+                }
+            },
+            "test_entropy_string_is_not_excluded_given_different_path": {
+                "line": 360,
+                "line_end": 363,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 288,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "entropy_string_is_excluded"
+                }
+            },
+            "test_calculate_base64_entropy_calculation": {
+                "line": 365,
+                "line_end": 371,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 321,
+                    "indent": 4,
+                    "name": "calculate_entropy"
+                }
+            },
+            "test_calculate_hex_entropy_calculation": {
+                "line": 373,
+                "line_end": 377,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 321,
+                    "indent": 4,
+                    "name": "calculate_entropy"
+                }
+            }
+        }
+    },
+    "tests/test_config.py": {
+        "focal_file": "tartufo/config.py",
+        "methods": {
+            "test_prefer_tartufo_toml_config_if_both_are_present": {
+                "line": 172,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "load_config_from_path"
+                }
+            }
+        }
+    },
+    "tests/test_git_repo_scanner.py": {
+        "focal_file": "tartufo/scanner.py",
+        "methods": {
+            "test_load_repo_loads_new_repo": {
+                "line": 32,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "tartufo.scanner.GitRepoScanner",
+                "focal_method": {
+                    "line": 473,
+                    "line_end": 478,
+                    "indent": 4,
+                    "name": "load_repo"
+                }
+            },
+            "test_all_files_are_yielded": {
+                "line": 330,
+                "line_end": 343,
+                "indent": 4,
+                "focal_class": "tartufo.scanner.GitRepoScanner",
+                "focal_method": {
+                    "line": 447,
+                    "line_end": 470,
+                    "indent": 4,
+                    "name": "_iter_diff_index"
+                }
+            },
+            "test_iteration_stops_when_since_commit_is_reached": {
+                "line": 375,
+                "line_end": 398,
+                "indent": 4,
+                "focal_class": "tartufo.scanner.GitRepoScanner",
+                "focal_method": {
+                    "line": 542,
+                    "line_end": 569,
+                    "indent": 4,
+                    "name": "_iter_branch_commits"
+                }
+            }
+        }
+    },
+    "tests/test_util.py": {
+        "focal_file": "tartufo/util.py",
+        "methods": {
+            "test_tartufo_clones_git_repo_into_temp_dir": {
+                "line": 29,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 126,
+                    "indent": 0,
+                    "name": "clone_git_repo"
+                }
+            }
+        }
+    }
+}

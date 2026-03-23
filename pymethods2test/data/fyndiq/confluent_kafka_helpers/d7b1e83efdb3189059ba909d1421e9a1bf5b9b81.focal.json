@@ -1,0 +1,195 @@
+{
+    "tests/test_producer.py": {
+        "focal_file": "confluent_kafka_helpers/producer.py",
+        "methods": {
+            "test_avro_producer_produce_default_topic": {
+                "line": 38,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "produce"
+                }
+            },
+            "test_avro_producer_produce_specific_topic": {
+                "line": 56,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "produce"
+                }
+            },
+            "test_avro_producer_adds_tracing": {
+                "line": 74,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "produce"
+                }
+            },
+            "test_get_subject_names": {
+                "line": 87,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "_get_subject_names"
+                }
+            },
+            "test_get_topic_schemas": {
+                "line": 94,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "_get_topic_schemas"
+                }
+            }
+        }
+    },
+    "tests/test_loader.py": {
+        "focal_file": "confluent_kafka_helpers/loader.py",
+        "methods": {
+            "test_default_partitioner": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "default_partitioner"
+                }
+            },
+            "test_avro_message_loader_load": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_should_log_duplicated_messages": {
+                "line": 56,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "find_duplicated_messages"
+                }
+            }
+        }
+    },
+    "tests/test_schema_registry.py": {
+        "focal_file": "confluent_kafka_helpers/schema_registry.py",
+        "methods": {
+            "test_get_latest_schema": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "get_latest_schema"
+                }
+            },
+            "test_register_schema": {
+                "line": 39,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "register_schema"
+                }
+            }
+        }
+    },
+    "tests/test_message.py": {
+        "focal_file": "confluent_kafka_helpers/message.py",
+        "methods": {
+            "test_timestamp_and_datetime_extraction": {
+                "line": 25,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 5,
+                    "indent": 0,
+                    "name": "kafka_timestamp_to_datetime"
+                }
+            }
+        }
+    },
+    "tests/tracing/backends/test_opentracer.py": {
+        "focal_file": "confluent_kafka_helpers/tracing/backends/opentracer.py",
+        "methods": {
+            "test_extract_headers_and_start_span_with_parent_ctx_pass_correct_kwargs": {
+                "line": 81,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "extract_headers_and_start_span"
+                }
+            },
+            "test_extract_headers_and_start_span_without_parent_ctx_pass_correct_kwargs": {
+                "line": 112,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "extract_headers_and_start_span"
+                }
+            },
+            "test_inject_headers_and_start_span_pass_correct_kwargs": {
+                "line": 127,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "inject_headers_and_start_span"
+                }
+            }
+        }
+    }
+}

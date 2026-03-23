@@ -1,0 +1,838 @@
+{
+    "src/edeposit/amqp/harvester/tests/unittests/autoparser/test_conf_reader.py": {
+        "focal_file": "src/edeposit/amqp/harvester/autoparser/conf_reader.py",
+        "methods": {
+            "test_get_source": {
+                "line": 56,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "_get_source"
+                }
+            },
+            "test_process_config_item": {
+                "line": 76,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "_process_config_item"
+                }
+            },
+            "test_read_config": {
+                "line": 86,
+                "line_end": 99,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "read_config"
+                }
+            }
+        }
+    },
+    "src/edeposit/amqp/harvester/tests/unittests/scrappers/test_ben_cz.py": {
+        "focal_file": "src/edeposit/amqp/harvester/scrappers/ben_cz.py",
+        "methods": {
+            "test_get_last_td": {
+                "line": 22,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "_get_last_td"
+                }
+            },
+            "test_get_last_td_tag_not_found": {
+                "line": 36,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "_get_last_td"
+                }
+            },
+            "test_get_td_or_none": {
+                "line": 51,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "_get_td_or_none"
+                }
+            },
+            "test_get_td_or_none_tag_not_found": {
+                "line": 76,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "_get_td_or_none"
+                }
+            },
+            "test_parse_title": {
+                "line": 98,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "_parse_title"
+                }
+            },
+            "test_parse_title_h1_not_found": {
+                "line": 119,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "_parse_title"
+                }
+            },
+            "test_parse_title_not_found": {
+                "line": 141,
+                "line_end": 155,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "_parse_title"
+                }
+            },
+            "test_parse_authors_multiple": {
+                "line": 158,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_authors_one": {
+                "line": 179,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_authors_no_author": {
+                "line": 198,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_authors_missing_block": {
+                "line": 215,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_authors_no_html": {
+                "line": 229,
+                "line_end": 236,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_publisher": {
+                "line": 239,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 168,
+                    "indent": 0,
+                    "name": "_parse_publisher"
+                }
+            },
+            "test_parse_publisher_is_blank": {
+                "line": 255,
+                "line_end": 266,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 168,
+                    "indent": 0,
+                    "name": "_parse_publisher"
+                }
+            },
+            "test_parse_publisher_not_found": {
+                "line": 269,
+                "line_end": 278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 168,
+                    "indent": 0,
+                    "name": "_parse_publisher"
+                }
+            },
+            "test_parse_publisher_no_html": {
+                "line": 281,
+                "line_end": 286,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 168,
+                    "indent": 0,
+                    "name": "_parse_publisher"
+                }
+            },
+            "test_parse_price": {
+                "line": 289,
+                "line_end": 304,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "_parse_price"
+                }
+            },
+            "test_parse_price_not_found": {
+                "line": 307,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "_parse_price"
+                }
+            },
+            "test_parse_price_no_html": {
+                "line": 323,
+                "line_end": 328,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 186,
+                    "indent": 0,
+                    "name": "_parse_price"
+                }
+            },
+            "test_parse_pages_binding": {
+                "line": 331,
+                "line_end": 347,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 215,
+                    "indent": 0,
+                    "name": "_parse_pages_binding"
+                }
+            },
+            "test_parse_pages_binding_binding_not_found": {
+                "line": 350,
+                "line_end": 366,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 215,
+                    "indent": 0,
+                    "name": "_parse_pages_binding"
+                }
+            },
+            "test_parse_pages_binding_not_found": {
+                "line": 369,
+                "line_end": 385,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 215,
+                    "indent": 0,
+                    "name": "_parse_pages_binding"
+                }
+            },
+            "test_parse_pages_binding_tag_not_found": {
+                "line": 388,
+                "line_end": 403,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 215,
+                    "indent": 0,
+                    "name": "_parse_pages_binding"
+                }
+            },
+            "test_parse_pages_binding_tag_no_html": {
+                "line": 406,
+                "line_end": 421,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 215,
+                    "indent": 0,
+                    "name": "_parse_pages_binding"
+                }
+            },
+            "test_parse_ISBN_EAN": {
+                "line": 424,
+                "line_end": 442,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "_parse_ISBN_EAN"
+                }
+            },
+            "test_parse_ISBN_EAN_no_ean": {
+                "line": 445,
+                "line_end": 463,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "_parse_ISBN_EAN"
+                }
+            },
+            "test_parse_ISBN_EAN_not_found": {
+                "line": 466,
+                "line_end": 482,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "_parse_ISBN_EAN"
+                }
+            },
+            "test_parse_ISBN_EAN_no_tag": {
+                "line": 485,
+                "line_end": 500,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "_parse_ISBN_EAN"
+                }
+            },
+            "test_parse_ISBN_EAN_no_html": {
+                "line": 503,
+                "line_end": 512,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 248,
+                    "indent": 0,
+                    "name": "_parse_ISBN_EAN"
+                }
+            },
+            "test_parse_edition": {
+                "line": 515,
+                "line_end": 528,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "_parse_edition"
+                }
+            },
+            "test_parse_edition_missing": {
+                "line": 531,
+                "line_end": 543,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "_parse_edition"
+                }
+            },
+            "test_parse_edition_no_tag": {
+                "line": 546,
+                "line_end": 557,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "_parse_edition"
+                }
+            },
+            "test_parse_edition_no_html": {
+                "line": 560,
+                "line_end": 565,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 251,
+                    "line_end": 266,
+                    "indent": 0,
+                    "name": "_parse_edition"
+                }
+            },
+            "test_parse_description": {
+                "line": 568,
+                "line_end": 581,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "_parse_description"
+                }
+            },
+            "test_parse_description_no_other_tags": {
+                "line": 584,
+                "line_end": 594,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "_parse_description"
+                }
+            },
+            "test_parse_description_missing": {
+                "line": 597,
+                "line_end": 604,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "_parse_description"
+                }
+            },
+            "test_parse_description_no_tag": {
+                "line": 607,
+                "line_end": 616,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "_parse_description"
+                }
+            },
+            "test_parse_description_no_html": {
+                "line": 619,
+                "line_end": 624,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 269,
+                    "line_end": 302,
+                    "indent": 0,
+                    "name": "_parse_description"
+                }
+            },
+            "test_process_book": {
+                "line": 627,
+                "line_end": 727,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 347,
+                    "indent": 0,
+                    "name": "_process_book"
+                }
+            }
+        }
+    },
+    "src/edeposit/amqp/harvester/tests/unittests/scrappers/test_cpress_cz.py": {
+        "focal_file": "src/edeposit/amqp/harvester/scrappers/cpress_cz.py",
+        "methods": {
+            "test_parse_alt_title": {
+                "line": 18,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "_parse_alt_title"
+                }
+            },
+            "test_parse_alt_title_not_found": {
+                "line": 35,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "_parse_alt_title"
+                }
+            },
+            "test_parse_alt_title_param_not_found": {
+                "line": 49,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "_parse_alt_title"
+                }
+            },
+            "test_parse_alt_url": {
+                "line": 62,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "_parse_alt_url"
+                }
+            },
+            "test_parse_alt_url_not_found": {
+                "line": 90,
+                "line_end": 112,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "_parse_alt_url"
+                }
+            },
+            "test_parse_title_url": {
+                "line": 115,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "_parse_title_url"
+                }
+            },
+            "test_parse_title_url_tag_not_found": {
+                "line": 144,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "_parse_title_url"
+                }
+            },
+            "test_parse_title_url_url_not_found": {
+                "line": 172,
+                "line_end": 196,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "_parse_title_url"
+                }
+            },
+            "test_parse_authors": {
+                "line": 199,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_authors_no_authors": {
+                "line": 229,
+                "line_end": 254,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_authors_no_authors_tag": {
+                "line": 257,
+                "line_end": 281,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_authors_multiple_authors": {
+                "line": 283,
+                "line_end": 314,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 129,
+                    "indent": 0,
+                    "name": "_parse_authors"
+                }
+            },
+            "test_parse_price": {
+                "line": 317,
+                "line_end": 331,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 147,
+                    "indent": 0,
+                    "name": "_parse_price"
+                }
+            },
+            "test_parse_price_not_found": {
+                "line": 334,
+                "line_end": 346,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 147,
+                    "indent": 0,
+                    "name": "_parse_price"
+                }
+            },
+            "test_parse_ean_date_format": {
+                "line": 349,
+                "line_end": 371,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 202,
+                    "indent": 0,
+                    "name": "_parse_format"
+                }
+            },
+            "test_parse_ean_date_format_not_found": {
+                "line": 374,
+                "line_end": 394,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 202,
+                    "indent": 0,
+                    "name": "_parse_format"
+                }
+            },
+            "test_parse_description": {
+                "line": 397,
+                "line_end": 412,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 227,
+                    "indent": 0,
+                    "name": "_parse_description"
+                }
+            },
+            "test_parse_description_not_found": {
+                "line": 415,
+                "line_end": 425,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 227,
+                    "indent": 0,
+                    "name": "_parse_description"
+                }
+            }
+        }
+    },
+    "src/edeposit/amqp/harvester/tests/unittests/scrappers/test_utils.py": {
+        "focal_file": "src/edeposit/amqp/harvester/scrappers/utils.py",
+        "methods": {
+            "test_get_encoding": {
+                "line": 37,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 37,
+                    "indent": 0,
+                    "name": "_get_encoding"
+                }
+            },
+            "test_get_first_content": {
+                "line": 48,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "get_first_content"
+                }
+            },
+            "test_is_absolute_url": {
+                "line": 62,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "is_absolute_url"
+                }
+            },
+            "test_normalize_url": {
+                "line": 70,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "normalize_url"
+                }
+            },
+            "test_has_param": {
+                "line": 76,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "has_param"
+                }
+            },
+            "test_must_contain": {
+                "line": 84,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 182,
+                    "indent": 0,
+                    "name": "must_contain"
+                }
+            },
+            "test_content_matchs": {
+                "line": 91,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 208,
+                    "indent": 0,
+                    "name": "content_matchs"
+                }
+            },
+            "test_self_test_idiom": {
+                "line": 99,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "self_test_idiom"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "tests/test_login_form.py": {
+        "focal_file": "flask_musers/forms.py",
+        "methods": {
+            "test_get_user": {
+                "line": 22,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "LoginForm",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 26,
+                    "indent": 4,
+                    "name": "get_user"
+                }
+            }
+        }
+    },
+    "tests/test_musers.py": {
+        "focal_file": "flask_musers/__init__.py",
+        "methods": {
+            "test_load_user": {
+                "line": 11,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": "MUsers",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "load_user"
+                }
+            }
+        }
+    },
+    "tests/test_user_model.py": {
+        "focal_file": "flask_musers/models.py",
+        "methods": {
+            "test_user_register": {
+                "line": 25,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "register"
+                }
+            },
+            "test_encrypt_user_password": {
+                "line": 84,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "set_password"
+                }
+            },
+            "test_validate_password": {
+                "line": 98,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "set_password"
+                }
+            },
+            "test_user_cant_be_anonymous": {
+                "line": 106,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "is_anonymous"
+                }
+            },
+            "test_user_is_always_authenticated": {
+                "line": 111,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "is_authenticated"
+                }
+            },
+            "test_get_active_user_by_pk_or_none_return_active_user": {
+                "line": 168,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "get_active_user_by_pk_or_none"
+                }
+            },
+            "test_get_active_user_by_pk_or_none_return_none_when_user_is_inactive": {
+                "line": 180,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "get_active_user_by_pk_or_none"
+                }
+            },
+            "test_get_active_user_by_pk_or_none_return_none_when_user_dont_exists": {
+                "line": 191,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 189,
+                    "indent": 4,
+                    "name": "get_active_user_by_pk_or_none"
+                }
+            },
+            "test_change_email": {
+                "line": 198,
+                "line_end": 209,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "change_email"
+                }
+            },
+            "test_change_password": {
+                "line": 252,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "change_password"
+                }
+            }
+        }
+    },
+    "tests/test_utils_create_token.py": {
+        "focal_file": "flask_musers/utils.py",
+        "methods": {
+            "test_token_expire": {
+                "line": 31,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "create_token_for"
+                }
+            }
+        }
+    },
+    "tests/test_utils_get_email_from_token.py": {
+        "focal_file": "flask_musers/utils.py",
+        "methods": {
+            "test_get_email_from_token_return_email": {
+                "line": 23,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_email_from_token"
+                }
+            }
+        }
+    },
+    "tests/test_utils_reset_password.py": {
+        "focal_file": "flask_musers/utils.py",
+        "methods": {
+            "test_reset_password_get_email_from_token": {
+                "line": 66,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "reset_password"
+                }
+            },
+            "test_reset_password_get_user": {
+                "line": 76,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "reset_password"
+                }
+            },
+            "test_reset_password_set_new_password": {
+                "line": 86,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "reset_password"
+                }
+            }
+        }
+    },
+    "tests/test_utils_validate_password.py": {
+        "focal_file": "flask_musers/models.py",
+        "methods": {
+            "test_weak_password": {
+                "line": 15,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "validate_password"
+                }
+            }
+        }
+    }
+}

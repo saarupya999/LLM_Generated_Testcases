@@ -1,0 +1,412 @@
+{
+    "tests/nn/misc/test_flatten_params_wrapper.py": {
+        "focal_file": "fairscale/utils/testing.py",
+        "methods": {
+            "test_state_dict_equality": {
+                "line": 203,
+                "line_end": 215,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 425,
+                    "line_end": 476,
+                    "indent": 0,
+                    "name": "objects_are_equal"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/test_checkpoint.py": {
+        "focal_file": "fairscale/nn/pipe/checkpoint.py",
+        "methods": {
+            "test_detect_checkpointing_recomputing": {
+                "line": 142,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "is_checkpointing"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/test_deferred_batch_norm.py": {
+        "focal_file": "fairscale/nn/pipe/batchnorm.py",
+        "methods": {
+            "test_convert_deferred_batch_norm": {
+                "line": 98,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": "DeferredBatchNorm",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 172,
+                    "indent": 4,
+                    "name": "convert_deferred_batch_norm"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/test_dependency.py": {
+        "focal_file": "fairscale/nn/pipe/dependency.py",
+        "methods": {
+            "test_fork_join": {
+                "line": 29,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "join"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/test_microbatch.py": {
+        "focal_file": "fairscale/nn/pipe/microbatch.py",
+        "methods": {
+            "test_batch_call": {
+                "line": 58,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": "Batch",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "call"
+                }
+            },
+            "test_check": {
+                "line": 100,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "check"
+                }
+            },
+            "test_scatter_tensor": {
+                "line": 134,
+                "line_end": 140,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "scatter"
+                }
+            },
+            "test_scatter_tuple": {
+                "line": 143,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "scatter"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/test_stream.py": {
+        "focal_file": "fairscale/nn/pipe/stream.py",
+        "methods": {
+            "test_new_stream_cpu": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_new_stream_cuda": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_current_stream_cpu": {
+                "line": 52,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "current_stream"
+                }
+            },
+            "test_current_stream_cuda": {
+                "line": 57,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "current_stream"
+                }
+            },
+            "test_default_stream_cpu": {
+                "line": 64,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "default_stream"
+                }
+            },
+            "test_default_stream_cuda": {
+                "line": 69,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "default_stream"
+                }
+            },
+            "test_use_device_cpu": {
+                "line": 76,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "use_device"
+                }
+            },
+            "test_use_device_cuda": {
+                "line": 81,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "use_device"
+                }
+            },
+            "test_use_stream_cpu": {
+                "line": 87,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "use_stream"
+                }
+            },
+            "test_use_stream_cuda": {
+                "line": 92,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "use_stream"
+                }
+            },
+            "test_get_device_cpu": {
+                "line": 99,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "get_device"
+                }
+            },
+            "test_get_device_cuda": {
+                "line": 103,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "get_device"
+                }
+            },
+            "test_wait_stream_cpu_cuda": {
+                "line": 126,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_wait_stream_cuda_cpu": {
+                "line": 132,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "new_stream"
+                }
+            },
+            "test_record_stream_cpu": {
+                "line": 145,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "record_stream"
+                }
+            },
+            "test_record_stream_cuda": {
+                "line": 151,
+                "line_end": 178,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "record_stream"
+                }
+            },
+            "test_record_stream_shifted_view": {
+                "line": 181,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "record_stream"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/test_worker.py": {
+        "focal_file": "fairscale/nn/pipe/worker.py",
+        "methods": {
+            "test_join_running_workers": {
+                "line": 40,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 168,
+                    "indent": 0,
+                    "name": "spawn_workers"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/skip/test_portal.py": {
+        "focal_file": "fairscale/nn/pipe/skip/portal.py",
+        "methods": {
+            "test_blue_orange": {
+                "line": 42,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": "Portal",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "orange"
+                }
+            },
+            "test_use_grad": {
+                "line": 94,
+                "line_end": 103,
+                "indent": 0,
+                "focal_class": "Portal",
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "use_grad"
+                }
+            }
+        }
+    },
+    "tests/nn/pipe/skip/test_tracker.py": {
+        "focal_file": "fairscale/nn/pipe/skip/tracker.py",
+        "methods": {
+            "test_default_skip_tracker": {
+                "line": 34,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 201,
+                    "indent": 0,
+                    "name": "current_skip_tracker"
+                }
+            }
+        }
+    },
+    "tests/utils/test_containers.py": {
+        "focal_file": "fairscale/utils/containers.py",
+        "methods": {
+            "test_apply_to_tensors": {
+                "line": 29,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "apply_to_tensors"
+                }
+            }
+        }
+    }
+}

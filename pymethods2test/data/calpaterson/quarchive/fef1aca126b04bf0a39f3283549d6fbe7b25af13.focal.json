@@ -1,0 +1,280 @@
+{
+    "src/server/tests/test_accesscontrol.py": {
+        "focal_file": "src/server/quarchive/accesscontrol.py",
+        "methods": {
+            "test_share_params": {
+                "line": 32,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": "BookmarkAccessObject",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "to_params"
+                }
+            },
+            "test_get_access": {
+                "line": 94,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": "AccessSubject",
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 94,
+                    "indent": 0,
+                    "name": "get_access"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_bookmark_view.py": {
+        "focal_file": "src/server/quarchive/value_objects.py",
+        "methods": {
+            "test_title": {
+                "line": 17,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": "DiscussionDigest",
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 334,
+                    "indent": 4,
+                    "name": "title"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_bookmark_view_qb.py": {
+        "focal_file": "src/server/quarchive/data/bvqb.py",
+        "methods": {
+            "test_links_and_backlinks": {
+                "line": 27,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": "BookmarkViewQueryBuilder",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 148,
+                    "indent": 4,
+                    "name": "links"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_config.py": {
+        "focal_file": "src/server/quarchive/config.py",
+        "methods": {
+            "test_load_config_with_test_config": {
+                "line": 19,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "load_config"
+                }
+            },
+            "test_load_config_with_env_ini": {
+                "line": 43,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "load_config"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_discussion_clients.py": {
+        "focal_file": "src/server/quarchive/discussion_clients.py",
+        "methods": {
+            "test_get_hn_api_url": {
+                "line": 54,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 176,
+                    "indent": 0,
+                    "name": "get_hn_api_url"
+                }
+            },
+            "test_get_reddit_token": {
+                "line": 64,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": "RedditTokenClient",
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "get_token"
+                }
+            },
+            "test_get_reddit_token_failure": {
+                "line": 87,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": "RedditTokenClient",
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "get_token"
+                }
+            },
+            "test_reddit_client_non_200": {
+                "line": 150,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": "RedditDiscussionClient",
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "discussions_for_url"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_discussions.py": {
+        "focal_file": "src/server/quarchive/data/discussion_functions.py",
+        "methods": {
+            "test_discussions": {
+                "line": 16,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 152,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "upsert_discussions"
+                }
+            },
+            "test_discussion_frontier_contains_is_present": {
+                "line": 49,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": "DiscussionFrontier",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            },
+            "test_discussion_frontier_contains_absent": {
+                "line": 57,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": "DiscussionFrontier",
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "contains"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_feeds.py": {
+        "focal_file": "src/server/quarchive/data/feeds.py",
+        "methods": {
+            "test_getting_feed_for_first_time": {
+                "line": 10,
+                "line_end": 17,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "get_entries_for_user"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_html_metadata.py": {
+        "focal_file": "src/server/quarchive/html_metadata.py",
+        "methods": {
+            "test_best_icon": {
+                "line": 249,
+                "line_end": 252,
+                "indent": 0,
+                "focal_class": "HTMLMetadata",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 110,
+                    "indent": 0,
+                    "name": "best_icon"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_icons.py": {
+        "focal_file": "src/server/quarchive/icons.py",
+        "methods": {
+            "test_convert_icon": {
+                "line": 46,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "convert_icon"
+                }
+            }
+        }
+    },
+    "src/server/tests/test_url.py": {
+        "focal_file": "src/server/quarchive/value_objects.py",
+        "methods": {
+            "test_from_string": {
+                "line": 14,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "from_string"
+                }
+            },
+            "test_to_string": {
+                "line": 36,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "to_string"
+                }
+            },
+            "test_follow": {
+                "line": 97,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "follow"
+                }
+            }
+        }
+    }
+}

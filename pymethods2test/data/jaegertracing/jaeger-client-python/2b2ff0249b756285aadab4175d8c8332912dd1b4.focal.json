@@ -1,0 +1,371 @@
+{
+    "tests/test_TUDPTransport.py": {
+        "focal_file": "jaeger_client/TUDPTransport.py",
+        "methods": {
+            "test_write": {
+                "line": 33,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "write"
+                }
+            },
+            "test_close": {
+                "line": 43,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "tests/test_codecs.py": {
+        "focal_file": "jaeger_client/codecs.py",
+        "methods": {
+            "test_trace_context_from_bad_string": {
+                "line": 55,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 224,
+                    "line_end": 257,
+                    "indent": 0,
+                    "name": "span_context_from_string"
+                }
+            },
+            "test_zipkin_codec_extract": {
+                "line": 230,
+                "line_end": 272,
+                "indent": 4,
+                "focal_class": "ZipkinCodec",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "extract"
+                }
+            },
+            "test_zipkin_codec_inject": {
+                "line": 274,
+                "line_end": 285,
+                "indent": 4,
+                "focal_class": "ZipkinCodec",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "inject"
+                }
+            },
+            "test_zipkin_b3_codec_inject": {
+                "line": 287,
+                "line_end": 298,
+                "indent": 4,
+                "focal_class": "B3Codec",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "inject"
+                }
+            },
+            "test_b3_codec_inject_parent": {
+                "line": 300,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": "B3Codec",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "inject"
+                }
+            },
+            "test_b3_extract": {
+                "line": 314,
+                "line_end": 364,
+                "indent": 4,
+                "focal_class": "B3Codec",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "extract"
+                }
+            }
+        }
+    },
+    "tests/test_config.py": {
+        "focal_file": "jaeger_client/config.py",
+        "methods": {
+            "test_throttler": {
+                "line": 121,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "Config",
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 321,
+                    "indent": 4,
+                    "name": "throttler_group"
+                }
+            },
+            "test_initialize_tracer": {
+                "line": 160,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": "Config",
+                "focal_method": {
+                    "line": 350,
+                    "line_end": 366,
+                    "indent": 4,
+                    "name": "initialize_tracer"
+                }
+            },
+            "test_initialize_tracer_twice": {
+                "line": 166,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": "Config",
+                "focal_method": {
+                    "line": 350,
+                    "line_end": 366,
+                    "indent": 4,
+                    "name": "initialize_tracer"
+                }
+            }
+        }
+    },
+    "tests/test_crossdock.py": {
+        "focal_file": "crossdock/server/endtoend.py",
+        "methods": {
+            "test_determine_host_port": {
+                "line": 160,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "_determine_host_port"
+                }
+            },
+            "test_parse_host_port": {
+                "line": 173,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "_parse_host_port"
+                }
+            }
+        }
+    },
+    "tests/test_local_agent_net.py": {
+        "focal_file": "jaeger_client/local_agent_net.py",
+        "methods": {
+            "test_request_sampling_strategy": {
+                "line": 67,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": "LocalAgentSender",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "request_sampling_strategy"
+                }
+            },
+            "test_request_throttling_credits": {
+                "line": 79,
+                "line_end": 92,
+                "indent": 0,
+                "focal_class": "LocalAgentSender",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "request_throttling_credits"
+                }
+            }
+        }
+    },
+    "tests/test_reporter.py": {
+        "focal_file": "jaeger_client/reporter.py",
+        "methods": {
+            "test_submit_failure": {
+                "line": 163,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 203,
+                    "indent": 4,
+                    "name": "_submit"
+                }
+            },
+            "test_composite_reporter": {
+                "line": 267,
+                "line_end": 301,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "report_span"
+                }
+            }
+        }
+    },
+    "tests/test_sampler.py": {
+        "focal_file": "jaeger_client/sampler.py",
+        "methods": {
+            "test_adaptive_sampler_default_values": {
+                "line": 285,
+                "line_end": 323,
+                "indent": 0,
+                "focal_class": "AdaptiveSampler",
+                "focal_method": {
+                    "line": 184,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_sampling_request_callback": {
+                "line": 399,
+                "line_end": 511,
+                "indent": 0,
+                "focal_class": "RemoteControlledSampler",
+                "focal_method": {
+                    "line": 421,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_sampling_request_callback"
+                }
+            },
+            "test_update_sampler": {
+                "line": 615,
+                "line_end": 635,
+                "indent": 0,
+                "focal_class": "RemoteControlledSampler",
+                "focal_method": {
+                    "line": 452,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_update_sampler"
+                }
+            },
+            "test_update_sampler_adaptive_sampler": {
+                "line": 639,
+                "line_end": 700,
+                "indent": 0,
+                "focal_class": "RemoteControlledSampler",
+                "focal_method": {
+                    "line": 452,
+                    "line_end": 463,
+                    "indent": 4,
+                    "name": "_update_sampler"
+                }
+            },
+            "test_get_sampling_probability": {
+                "line": 710,
+                "line_end": 711,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 507,
+                    "line_end": 513,
+                    "indent": 0,
+                    "name": "get_sampling_probability"
+                }
+            },
+            "test_get_rate_limit": {
+                "line": 721,
+                "line_end": 722,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 516,
+                    "line_end": 522,
+                    "indent": 0,
+                    "name": "get_rate_limit"
+                }
+            }
+        }
+    },
+    "tests/test_tracer.py": {
+        "focal_file": "jaeger_client/tracer.py",
+        "methods": {
+            "test_start_trace": {
+                "line": 38,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "start_span"
+                }
+            },
+            "test_child_span": {
+                "line": 107,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "start_span"
+                }
+            },
+            "test_tracer_tags_on_root_span": {
+                "line": 262,
+                "line_end": 285,
+                "indent": 0,
+                "focal_class": "Tracer",
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 214,
+                    "indent": 4,
+                    "name": "start_span"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "jaeger_client/utils.py",
+        "methods": {
+            "test_get_local_ip_by_socket_does_not_blow_up": {
+                "line": 81,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "get_local_ip_by_socket"
+                }
+            }
+        }
+    }
+}

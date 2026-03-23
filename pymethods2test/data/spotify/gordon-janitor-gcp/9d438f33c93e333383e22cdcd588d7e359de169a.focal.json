@@ -1,0 +1,188 @@
+{
+    "tests/unit/clients/test_gcrm.py": {
+        "focal_file": "src/gordon_janitor_gcp/clients/gcrm.py",
+        "methods": {
+            "test_list_all_active_projects": {
+                "line": 58,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "list_all_active_projects"
+                }
+            },
+            "test_list_all_active_projects_multiple_pages": {
+                "line": 73,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "list_all_active_projects"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/test_gdns.py": {
+        "focal_file": "src/gordon_janitor_gcp/clients/gdns.py",
+        "methods": {
+            "test_get_records_for_zone": {
+                "line": 84,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "get_records_for_zone"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/test_gce.py": {
+        "focal_file": "src/gordon_janitor_gcp/clients/gce.py",
+        "methods": {
+            "test_list_instances": {
+                "line": 59,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "list_instances"
+                }
+            }
+        }
+    },
+    "tests/unit/plugins/test_authority.py": {
+        "focal_file": "src/gordon_janitor_gcp/plugins/authority.py",
+        "methods": {
+            "test_builder_creates_proper_authority": {
+                "line": 56,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": "gordon_janitor_gcp.plugins.authority.GCEAuthorityBuilder",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "build_authority"
+                }
+            },
+            "test_create_msgs_bad_json": {
+                "line": 143,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "_create_msgs"
+                }
+            }
+        }
+    },
+    "tests/unit/plugins/test_publisher.py": {
+        "focal_file": "src/gordon_janitor_gcp/plugins/publisher.py",
+        "methods": {
+            "test_cleanup": {
+                "line": 47,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": "gordon_janitor_gcp.plugins.publisher.GPubsubPublisher",
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "cleanup"
+                }
+            },
+            "test_publish": {
+                "line": 76,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": "gordon_janitor_gcp.plugins.publisher.GPubsubPublisher",
+                "focal_method": {
+                    "line": 207,
+                    "line_end": 219,
+                    "indent": 4,
+                    "name": "publish"
+                }
+            },
+            "test_run": {
+                "line": 104,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": "gordon_janitor_gcp.plugins.publisher.GPubsubPublisher",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 240,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/unit/plugins/test_reconciler.py": {
+        "focal_file": "src/gordon_janitor_gcp/plugins/reconciler.py",
+        "methods": {
+            "test_cleanup": {
+                "line": 109,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "cleanup"
+                }
+            },
+            "test_publish_change_messages": {
+                "line": 149,
+                "line_end": 158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 222,
+                    "indent": 4,
+                    "name": "publish_change_messages"
+                }
+            },
+            "test_validate_rrsets_by_zone": {
+                "line": 162,
+                "line_end": 187,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "validate_rrsets_by_zone"
+                }
+            },
+            "test_run": {
+                "line": 203,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 275,
+                    "line_end": 294,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    }
+}

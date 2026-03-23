@@ -1,0 +1,233 @@
+{
+    "tests/unit/utils/test_publish_utils.py": {
+        "focal_file": "hammr/utils/publish_utils.py",
+        "methods": {
+            "test_is_image_ready_to_publish_returns_false_when_status_is_cancelled": {
+                "line": 45,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "is_image_ready_to_publish"
+                }
+            },
+            "test_print_publish_status_prints_ids_when_build_successful": {
+                "line": 89,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "print_publish_status"
+                }
+            },
+            "test_call_publish_webservice_raises_exception_for_wrong_image_uri": {
+                "line": 108,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "call_publish_webservice"
+                }
+            }
+        }
+    },
+    "tests/unit/utils/test_credentials.py": {
+        "focal_file": "hammr/utils/credentials.py",
+        "methods": {
+            "test_is_basic_auth_valid_return_true_when_no_conflict": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "hammr.utils.credentials.Credentials",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "is_basic_auth_valid"
+                }
+            },
+            "test_is_basic_auth_valid_return_false_when_conflict": {
+                "line": 60,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "hammr.utils.credentials.Credentials",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "is_basic_auth_valid"
+                }
+            },
+            "test_is_basic_auth_valid_return_false_when_no_username": {
+                "line": 70,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "hammr.utils.credentials.Credentials",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "is_basic_auth_valid"
+                }
+            },
+            "test_is_basic_auth_valid_return_false_when_no_password": {
+                "line": 80,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "hammr.utils.credentials.Credentials",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "is_basic_auth_valid"
+                }
+            },
+            "test_is_api_auth_valid_return_false_when_conflict": {
+                "line": 100,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": "hammr.utils.credentials.Credentials",
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "is_api_auth_valid"
+                }
+            }
+        }
+    },
+    "tests/unit/utils/test_migration_utils.py": {
+        "focal_file": "hammr/utils/migration_utils.py",
+        "methods": {
+            "test_migration_table_add_all_migration_in_progress_in_the_table": {
+                "line": 29,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "migration_table"
+                }
+            },
+            "test_migration_table_add_the_migration_done_in_the_table": {
+                "line": 47,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "migration_table"
+                }
+            },
+            "test_migration_table_add_the_migration_failed_in_the_table": {
+                "line": 62,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "migration_table"
+                }
+            },
+            "test_migration_table_add_the_migration_cancelled_in_the_table": {
+                "line": 77,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "migration_table"
+                }
+            },
+            "test_retrieve_migration_configuration_raise_exception_if_no_file_is_retrieved": {
+                "line": 92,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "retrieve_migration_configuration"
+                }
+            },
+            "test_retrieve_migration_configuration_raise_exception_if_file_contain_no_migration": {
+                "line": 106,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "retrieve_migration_configuration"
+                }
+            },
+            "test_retrieve_migration_configuration_check_mandatory_migrate_if_file_contain_migration": {
+                "line": 122,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "retrieve_migration_configuration"
+                }
+            },
+            "test_set_install_profile_disk_size_set_disk_size_when_format_aws": {
+                "line": 386,
+                "line_end": 401,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "set_install_profile_disk_size"
+                }
+            },
+            "test_set_install_profile_disk_size_not_set_disk_size_when_format_vcenter": {
+                "line": 403,
+                "line_end": 418,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "set_install_profile_disk_size"
+                }
+            },
+            "test_set_install_profile_disk_size_raise_exception_when_no_diskSize": {
+                "line": 420,
+                "line_end": 435,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 130,
+                    "indent": 0,
+                    "name": "set_install_profile_disk_size"
+                }
+            }
+        }
+    }
+}

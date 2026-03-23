@@ -1,0 +1,634 @@
+{
+    "tests/test_apps.py": {
+        "focal_file": "elasticsearch_django/apps.py",
+        "methods": {
+            "test_ready": {
+                "line": 29,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "ElasticAppConfig",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "ready"
+                }
+            },
+            "test__validate_model": {
+                "line": 41,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "_validate_model"
+                }
+            },
+            "test__validate_mapping": {
+                "line": 58,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "_validate_mapping"
+                }
+            },
+            "test__validate_config": {
+                "line": 70,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "_validate_config"
+                }
+            },
+            "test__connect_signals": {
+                "line": 93,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "_connect_signals"
+                }
+            },
+            "test__on_model_delete": {
+                "line": 109,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "_on_model_delete"
+                }
+            },
+            "test__delete_from_search_index_True": {
+                "line": 118,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "_delete_from_search_index"
+                }
+            },
+            "test__delete_from_search_index_False": {
+                "line": 130,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "_delete_from_search_index"
+                }
+            },
+            "test__on_model_save__index": {
+                "line": 141,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "_on_model_save"
+                }
+            },
+            "test__on_model_save__update": {
+                "line": 150,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "_on_model_save"
+                }
+            },
+            "test__update_search_index__auto_sync": {
+                "line": 160,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "_update_search_index"
+                }
+            },
+            "test__update_search_index__not_in_qs": {
+                "line": 174,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "_update_search_index"
+                }
+            },
+            "test__update_search_index__no_auto_sync": {
+                "line": 188,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 144,
+                    "indent": 0,
+                    "name": "_update_search_index"
+                }
+            }
+        }
+    },
+    "tests/test_index_functions.py": {
+        "focal_file": "elasticsearch_django/index.py",
+        "methods": {
+            "test_create_index": {
+                "line": 23,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "create_index"
+                }
+            },
+            "test_update_index": {
+                "line": 40,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "update_index"
+                }
+            },
+            "test_delete_index": {
+                "line": 52,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "delete_index"
+                }
+            },
+            "test_prune_index": {
+                "line": 64,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "prune_index"
+                }
+            },
+            "test__prune_hit": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 128,
+                    "indent": 0,
+                    "name": "_prune_hit"
+                }
+            },
+            "test_scan_index": {
+                "line": 111,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "scan_index"
+                }
+            },
+            "test_bulk_actions": {
+                "line": 123,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 183,
+                    "indent": 0,
+                    "name": "bulk_actions"
+                }
+            }
+        }
+    },
+    "tests/test_models.py": {
+        "focal_file": "elasticsearch_django/models.py",
+        "methods": {
+            "test__is_field_serializable": {
+                "line": 40,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 235,
+                    "indent": 4,
+                    "name": "_is_field_serializable"
+                }
+            },
+            "test_clean_update_fields": {
+                "line": 47,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 237,
+                    "line_end": 263,
+                    "indent": 4,
+                    "name": "clean_update_fields"
+                }
+            },
+            "test_as_search_document_update_full": {
+                "line": 71,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 318,
+                    "indent": 4,
+                    "name": "as_search_document_update"
+                }
+            },
+            "test_as_search_document_update_partial": {
+                "line": 87,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 265,
+                    "line_end": 318,
+                    "indent": 4,
+                    "name": "as_search_document_update"
+                }
+            },
+            "test_index_search_document": {
+                "line": 114,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 379,
+                    "indent": 4,
+                    "name": "index_search_document"
+                }
+            },
+            "test_index_search_document_cached": {
+                "line": 131,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 362,
+                    "line_end": 379,
+                    "indent": 4,
+                    "name": "index_search_document"
+                }
+            },
+            "test_update_search_document": {
+                "line": 147,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 411,
+                    "indent": 4,
+                    "name": "update_search_document"
+                }
+            },
+            "test_update_search_document_empty": {
+                "line": 167,
+                "line_end": 176,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 381,
+                    "line_end": 411,
+                    "indent": 4,
+                    "name": "update_search_document"
+                }
+            },
+            "test_delete_search_document": {
+                "line": 183,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 416,
+                    "indent": 4,
+                    "name": "delete_search_document"
+                }
+            },
+            "test_as_search_action": {
+                "line": 194,
+                "line_end": 224,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 320,
+                    "line_end": 353,
+                    "indent": 4,
+                    "name": "as_search_action"
+                }
+            },
+            "test_fetch_search_document": {
+                "line": 227,
+                "line_end": 238,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 355,
+                    "line_end": 360,
+                    "indent": 4,
+                    "name": "fetch_search_document"
+                }
+            },
+            "test_in_search_queryset": {
+                "line": 250,
+                "line_end": 256,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "in_search_queryset"
+                }
+            },
+            "test__raw_sql": {
+                "line": 258,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "_raw_sql"
+                }
+            },
+            "test_from_search_query": {
+                "line": 267,
+                "line_end": 291,
+                "indent": 4,
+                "focal_class": "SearchQuery",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 140,
+                    "indent": 4,
+                    "name": "from_search_query"
+                }
+            },
+            "test__extract_set": {
+                "line": 303,
+                "line_end": 306,
+                "indent": 4,
+                "focal_class": "SearchQuery",
+                "focal_method": {
+                    "line": 542,
+                    "line_end": 545,
+                    "indent": 4,
+                    "name": "_extract_set"
+                }
+            },
+            "test_save": {
+                "line": 313,
+                "line_end": 333,
+                "indent": 4,
+                "focal_class": "SearchQuery",
+                "focal_method": {
+                    "line": 535,
+                    "line_end": 540,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_execute_count__no_save": {
+                "line": 388,
+                "line_end": 391,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 647,
+                    "line_end": 691,
+                    "indent": 0,
+                    "name": "execute_count"
+                }
+            },
+            "test_execute_count": {
+                "line": 394,
+                "line_end": 409,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 647,
+                    "line_end": 691,
+                    "indent": 0,
+                    "name": "execute_count"
+                }
+            },
+            "test_execute_search__no_save": {
+                "line": 412,
+                "line_end": 415,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 596,
+                    "line_end": 644,
+                    "indent": 0,
+                    "name": "execute_search"
+                }
+            },
+            "test_execute_search": {
+                "line": 418,
+                "line_end": 450,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 596,
+                    "line_end": 644,
+                    "indent": 0,
+                    "name": "execute_search"
+                }
+            }
+        }
+    },
+    "tests/test_settings.py": {
+        "focal_file": "elasticsearch_django/settings.py",
+        "methods": {
+            "test_get_client": {
+                "line": 32,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "get_client"
+                }
+            },
+            "test_get_settings": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "get_settings"
+                }
+            },
+            "test_get_setting": {
+                "line": 45,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "get_setting"
+                }
+            },
+            "test_get_setting_with_default": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "get_setting"
+                }
+            },
+            "test_get_connection_string": {
+                "line": 56,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "get_connection_string"
+                }
+            },
+            "test_get_index_config": {
+                "line": 66,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "get_index_config"
+                }
+            },
+            "test_get_index_names": {
+                "line": 71,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "get_index_names"
+                }
+            },
+            "test_get_index_models": {
+                "line": 76,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "get_index_models"
+                }
+            },
+            "test_get_model_indexes": {
+                "line": 84,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "get_model_indexes"
+                }
+            },
+            "test_get_document_models": {
+                "line": 98,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "get_document_models"
+                }
+            },
+            "test_auto_sync": {
+                "line": 103,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "auto_sync"
+                }
+            }
+        }
+    }
+}

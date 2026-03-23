@@ -1,0 +1,373 @@
+{
+    "tests/test_consul_api.py": {
+        "focal_file": "agent/consul_api.py",
+        "methods": {
+            "test_check_connectivity_succeeds": {
+                "line": 9,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "check_connectivity"
+                }
+            },
+            "test_check_connectivity_fails": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": "ConsulError",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "check_connectivity"
+                }
+            },
+            "test_get_service_catalogue": {
+                "line": 60,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get_service_catalogue"
+                }
+            },
+            "test_register_http_check_succeeds": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "register_http_check"
+                }
+            },
+            "test_register_http_check_fails": {
+                "line": 82,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "register_http_check"
+                }
+            },
+            "test_register_script_check_succeeds": {
+                "line": 89,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "register_script_check"
+                }
+            },
+            "test_register_check_fails": {
+                "line": 96,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 107,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "register_script_check"
+                }
+            },
+            "test_register_service_succeeds": {
+                "line": 103,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "register_service"
+                }
+            },
+            "test_register_service_fails": {
+                "line": 110,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": "ConsulApi",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "register_service"
+                }
+            }
+        }
+    },
+    "tests/test_consul_data_loader.py": {
+        "focal_file": "agent/consul_data_loader.py",
+        "methods": {
+            "test_load_server_role": {
+                "line": 52,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "ConsulDataLoader",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "load_server_role"
+                }
+            },
+            "test_load_service_catalog": {
+                "line": 61,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "ConsulDataLoader",
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "load_service_catalogue"
+                }
+            }
+        }
+    },
+    "tests/test_deployment_linux.py": {
+        "focal_file": "agent/deployment.py",
+        "methods": {
+            "test_deployment_linux": {
+                "line": 8,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "Deployment",
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/test_deployment_windows.py": {
+        "focal_file": "agent/deployment.py",
+        "methods": {
+            "test_deployment_windows": {
+                "line": 8,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": "Deployment",
+                "focal_method": {
+                    "line": 229,
+                    "line_end": 252,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/test_find_deployment.py": {
+        "focal_file": "agent/find_deployment.py",
+        "methods": {
+            "test_find_deployment_dir_win_finds_none_returns_none": {
+                "line": 13,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 11,
+                    "indent": 0,
+                    "name": "find_deployment_dir_win"
+                }
+            },
+            "test_find_deployment_dir_win_finds_both_returns_new": {
+                "line": 19,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 11,
+                    "indent": 0,
+                    "name": "find_deployment_dir_win"
+                }
+            },
+            "test_find_deployment_dir_win_finds_old_returns_old": {
+                "line": 25,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 11,
+                    "indent": 0,
+                    "name": "find_deployment_dir_win"
+                }
+            }
+        }
+    },
+    "tests/test_key_naming_convention.py": {
+        "focal_file": "agent/key_naming_convention.py",
+        "methods": {
+            "test_deployment_key": {
+                "line": 13,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 3,
+                    "line_end": 6,
+                    "indent": 0,
+                    "name": "get_deployment_key"
+                }
+            },
+            "test_instance_deployment_key": {
+                "line": 22,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 9,
+                    "indent": 0,
+                    "name": "get_instance_deployment_key"
+                }
+            },
+            "test_server_role_key": {
+                "line": 25,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "get_server_role_key"
+                }
+            },
+            "test_server_role_config_key": {
+                "line": 34,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "get_server_role_config_key"
+                }
+            },
+            "test_server_role_services_key": {
+                "line": 37,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 20,
+                    "indent": 0,
+                    "name": "get_server_role_services_key"
+                }
+            },
+            "test_service_key": {
+                "line": 40,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_service_key"
+                }
+            },
+            "test_service_definition_key": {
+                "line": 59,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_service_definition_key"
+                }
+            },
+            "test_service_installation_key": {
+                "line": 62,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 35,
+                    "indent": 0,
+                    "name": "get_service_installation_key"
+                }
+            }
+        }
+    },
+    "tests/test_service.py": {
+        "focal_file": "agent/service.py",
+        "methods": {
+            "test_extract_tag_with_prefix_found": {
+                "line": 116,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": "Service",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "_extract_tag_with_prefix"
+                }
+            },
+            "test_extract_tag_with_prefix_not_found": {
+                "line": 120,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": "Service",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "_extract_tag_with_prefix"
+                }
+            },
+            "test_new_tag": {
+                "line": 124,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "Service",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "tag"
+                }
+            },
+            "test_overwrite_tag": {
+                "line": 129,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": "Service",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "tag"
+                }
+            }
+        }
+    }
+}

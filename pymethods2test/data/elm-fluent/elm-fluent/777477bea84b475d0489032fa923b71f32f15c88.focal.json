@@ -1,0 +1,305 @@
+{
+    "tests/test_types.py": {
+        "focal_file": "src/elm_fluent/types.py",
+        "methods": {
+            "test_elm_type_signature": {
+                "line": 12,
+                "line_end": 13,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "as_signature"
+                }
+            },
+            "test_function_apply_args": {
+                "line": 46,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "elm_fluent.types.Function",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 36,
+                    "indent": 4,
+                    "name": "apply_args"
+                }
+            },
+            "test_unconstrained_signature": {
+                "line": 73,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": "elm_fluent.types.UnconstrainedType",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "as_signature"
+                }
+            },
+            "test_function_signature_with_type_variables": {
+                "line": 77,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": "elm_fluent.types.UnconstrainedType",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "as_signature"
+                }
+            },
+            "test_empty_record_signature": {
+                "line": 84,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "elm_fluent.types.Record",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "as_signature"
+                }
+            },
+            "test_type_parameters_signatures": {
+                "line": 131,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "elm_fluent.types.Type",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "as_signature"
+                }
+            },
+            "test_tuple_signature": {
+                "line": 168,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": "elm_fluent.types.Tuple",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "as_signature"
+                }
+            },
+            "test_type_parameters_specialize": {
+                "line": 173,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": "elm_fluent.types.Type",
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 180,
+                    "indent": 4,
+                    "name": "specialize"
+                }
+            }
+        }
+    },
+    "tests/test_codegen.py": {
+        "focal_file": "src/elm_fluent/codegen.py",
+        "methods": {
+            "test_reserve_name": {
+                "line": 25,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Scope",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "reserve_name"
+                }
+            },
+            "test_reserve_name_function_arg": {
+                "line": 45,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Function",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "reserve_function_arg_name"
+                }
+            },
+            "test_reserve_name_nested": {
+                "line": 52,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Scope",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "reserve_name"
+                }
+            },
+            "test_reserve_name_after_reserve_function_arg": {
+                "line": 70,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Scope",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "reserve_function_arg_name"
+                }
+            },
+            "test_reserve_function_arg_after_reserve_name": {
+                "line": 76,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Scope",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "reserve_name"
+                }
+            },
+            "test_get_type": {
+                "line": 81,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Scope",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "get_type"
+                }
+            },
+            "test_let_one_assignment": {
+                "line": 136,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Module",
+                "focal_method": {
+                    "line": 538,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "add_assignment"
+                }
+            },
+            "test_let_two_assignments": {
+                "line": 153,
+                "line_end": 172,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Module",
+                "focal_method": {
+                    "line": 538,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "add_assignment"
+                }
+            },
+            "test_add_function": {
+                "line": 174,
+                "line_end": 189,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Module",
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "add_function"
+                }
+            },
+            "test_function_args_name_reserved_check": {
+                "line": 223,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Module",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "reserve_function_arg_name"
+                }
+            },
+            "test_add_assignment_reserved": {
+                "line": 238,
+                "line_end": 252,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.String",
+                "focal_method": {
+                    "line": 538,
+                    "line_end": 548,
+                    "indent": 4,
+                    "name": "add_assignment"
+                }
+            },
+            "test_function_call_using_apply": {
+                "line": 264,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Scope",
+                "focal_method": {
+                    "line": 520,
+                    "line_end": 524,
+                    "indent": 4,
+                    "name": "apply"
+                }
+            },
+            "test_function_call_nested": {
+                "line": 272,
+                "line_end": 282,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.Scope",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "as_source_code"
+                }
+            },
+            "test_cleanup_name": {
+                "line": 377,
+                "line_end": 385,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 204,
+                    "indent": 0,
+                    "name": "cleanup_name"
+                }
+            },
+            "test_record_update": {
+                "line": 412,
+                "line_end": 428,
+                "indent": 4,
+                "focal_class": "elm_fluent.codegen.String",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "as_source_code"
+                }
+            }
+        }
+    },
+    "tests/test_compiler.py": {
+        "focal_file": "src/elm_fluent/compiler.py",
+        "methods": {
+            "test_message_function_name_for_msg_id": {
+                "line": 46,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 530,
+                    "line_end": 546,
+                    "indent": 0,
+                    "name": "message_function_name_for_msg_id"
+                }
+            }
+        }
+    }
+}

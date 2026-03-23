@@ -1,0 +1,264 @@
+{
+    "tests/test_processor.py": {
+        "focal_file": "djangosaml2idp/processors.py",
+        "methods": {
+            "test_validate_processor_path_builtin_baseprocessor_valid": {
+                "line": 21,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "validate_processor_path"
+                }
+            },
+            "test_validate_processor_path_nonexisting": {
+                "line": 25,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "validate_processor_path"
+                }
+            },
+            "test_instantiate_processor_failing_cls": {
+                "line": 29,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "instantiate_processor"
+                }
+            },
+            "test_instantiate_processor_wrong_cls": {
+                "line": 37,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "instantiate_processor"
+                }
+            },
+            "test_instantiate_processor_valid": {
+                "line": 45,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 142,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "instantiate_processor"
+                }
+            },
+            "test_get_nameid_opaque": {
+                "line": 140,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "_get_nameid_opaque"
+                }
+            },
+            "test_get_nameid_persistent": {
+                "line": 146,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "get_nameid_persistent"
+                }
+            },
+            "test_get_nameid_unspecified": {
+                "line": 161,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "get_nameid_unspecified"
+                }
+            },
+            "test_get_nameid_transient": {
+                "line": 166,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "get_nameid_transient"
+                }
+            }
+        }
+    },
+    "tests/test_views.py": {
+        "focal_file": "djangosaml2idp/views.py",
+        "methods": {
+            "test_sso_entry_redirects": {
+                "line": 206,
+                "line_end": 208,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "sso_entry"
+                }
+            },
+            "test_render_login_hto_to_string_returns_result_of_render": {
+                "line": 228,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": "IdPHandlerViewMixin",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "render_login_html_to_string"
+                }
+            },
+            "test_render_login_html_to_string_renders_default_if_custom_not_found": {
+                "line": 236,
+                "line_end": 242,
+                "indent": 4,
+                "focal_class": "IdPHandlerViewMixin",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "render_login_html_to_string"
+                }
+            },
+            "test_render_login_html_to_string_renders_result_of_fetch_custom_template": {
+                "line": 244,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "render_login_html_to_string"
+                }
+            },
+            "test_fetch_custom_template_returns_custom_if_found": {
+                "line": 256,
+                "line_end": 264,
+                "indent": 4,
+                "focal_class": "IdPHandlerViewMixin",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "_fetch_custom_template"
+                }
+            },
+            "test_fetch_cutom_template_returns_default_if_not_found": {
+                "line": 266,
+                "line_end": 274,
+                "indent": 4,
+                "focal_class": "IdPHandlerViewMixin",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "_fetch_custom_template"
+                }
+            },
+            "test_fetch_custom_template_returns_default_if_syntax_error": {
+                "line": 276,
+                "line_end": 287,
+                "indent": 4,
+                "focal_class": "IdPHandlerViewMixin",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "_fetch_custom_template"
+                }
+            },
+            "test_check_access_works": {
+                "line": 336,
+                "line_end": 341,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "check_access"
+                }
+            },
+            "test_build_authn_response": {
+                "line": 353,
+                "line_end": 363,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "build_authn_response"
+                }
+            },
+            "test_build_authn_response_unsupported_nameidformat": {
+                "line": 366,
+                "line_end": 378,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 138,
+                    "indent": 0,
+                    "name": "build_authn_response"
+                }
+            },
+            "test_create_html_response_with_post": {
+                "line": 381,
+                "line_end": 383,
+                "indent": 4,
+                "focal_class": "IdPHandlerViewMixin",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "create_html_response"
+                }
+            },
+            "test_create_html_response_with_get": {
+                "line": 386,
+                "line_end": 389,
+                "indent": 4,
+                "focal_class": "IdPHandlerViewMixin",
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 195,
+                    "indent": 4,
+                    "name": "create_html_response"
+                }
+            }
+        }
+    }
+}

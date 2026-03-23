@@ -1,0 +1,480 @@
+{
+    "test/unit/test_aws_s3_bucket_policy_allow_https.py": {
+        "focal_file": "remediation_worker/jobs/aws_s3_bucket_policy_allow_https/aws_s3_bucket_policy_allow_https.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": "S3AllowOnlyHttpsRequest",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_aws_sqs_queue_publicly_accessible.py": {
+        "focal_file": "remediation_worker/jobs/aws_sqs_queue_publicly_accessible/aws_sqs_queue_publicly_accessible.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "SqsQueuePubliclyAccessible",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_blob_remove_public_access.py": {
+        "focal_file": "remediation_worker/jobs/azure_blob_remove_public_access/azure_blob_remove_public_access.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 50,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "StorageBlobRemovePublicAccess",
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_mysql_enforce_ssl_connection_enable.py": {
+        "focal_file": "remediation_worker/jobs/azure_mysql_enforce_ssl_connection_enable/azure_mysql_enforce_ssl_connection_enable.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "EnableSslEnforcement",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_network_security_group_close_port_22.py": {
+        "focal_file": "remediation_worker/jobs/azure_network_security_group_close_port_22/azure_network_security_group_close_port_22.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 51,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "NetworkSecurityGroupClosePort22",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_network_security_group_close_port_3389.py": {
+        "focal_file": "remediation_worker/jobs/azure_network_security_group_close_port_3389/azure_network_security_group_close_port_3389.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 52,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "NetworkSecurityGroupClosePort3389",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_postgresql_allow_access_to_azure_service_disabled.py": {
+        "focal_file": "remediation_worker/jobs/azure_postgresql_allow_access_to_azure_service_disabled/azure_postgresql_allow_access_to_azure_service_disabled.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "DisableAzureServicesAccess",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_postgresql_enforce_ssl_connection_enable.py": {
+        "focal_file": "remediation_worker/jobs/azure_postgresql_enforce_ssl_connection_enable/azure_postgresql_enforce_ssl_connection_enable.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "EnableSslEnforcement",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_security_center_enable_ddos_protection.py": {
+        "focal_file": "remediation_worker/jobs/azure_security_center_enable_ddos_protection/azure_security_center_enable_ddos_protection.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "VirtualNetworkEnableDdosProtection",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            },
+            "test_remediate_failure": {
+                "line": 67,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": "VirtualNetworkEnableDdosProtection",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 128,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_security_udp_access_restricted_from_internet.py": {
+        "focal_file": "remediation_worker/jobs/azure_security_udp_access_restricted_from_internet/azure_security_udp_access_restricted_from_internet.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 49,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "RestrictUdpAccessFromInternet",
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_sql_data_encryption_on.py": {
+        "focal_file": "remediation_worker/jobs/azure_sql_data_encryption_on/azure_sql_data_encryption_on.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 49,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "EnableSqlDataEncryption",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_sql_tde_protector_encrypted_cmk.py": {
+        "focal_file": "remediation_worker/jobs/azure_sql_tde_protector_encrypted_cmk/azure_sql_tde_protector_encrypted_cmk.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 50,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "SqlServerEncryptTdeProtector",
+                "focal_method": {
+                    "line": 606,
+                    "line_end": 702,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_sql_threat_detection_on_server.py": {
+        "focal_file": "remediation_worker/jobs/azure_sql_threat_detection_on_server/azure_sql_threat_detection_on_server.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "EnableSqlServerThreatProtection",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_sql_threat_detection_types_all_server.py": {
+        "focal_file": "remediation_worker/jobs/azure_sql_threat_detection_types_all_server/azure_sql_threat_detection_types_all_server.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "SetAdvanceThreatProtectionToAll",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_storage_account_allow_https_traffic_only.py": {
+        "focal_file": "remediation_worker/jobs/azure_storage_account_allow_https_traffic_only/azure_storage_account_allow_https_traffic_only.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 49,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "StorageAccountAllowHttpsTrafficOnly",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_storage_default_network_access_deny.py": {
+        "focal_file": "remediation_worker/jobs/azure_storage_default_network_access_deny/azure_storage_default_network_access_deny.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 48,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "StorageAccountDefaultActionDeny",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_storage_soft_delete_not_enabled.py": {
+        "focal_file": "remediation_worker/jobs/azure_storage_soft_delete_not_enabled/azure_storage_soft_delete_not_enabled.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 49,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "EnableBlobServiceSoftDelete",
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_azure_vm_close_port_22.py": {
+        "focal_file": "remediation_worker/jobs/azure_vm_close_port_22/azure_vm_close_port_22.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 56,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "VMSecurityGroupClosePort22",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_rds_backup_retention_30_days.py": {
+        "focal_file": "remediation_worker/jobs/rds_backup_retention_30_days/rds_backup_retention_30_days.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 42,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "RDSBackupRetention30Days",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_s3_enable_access_logging.py": {
+        "focal_file": "remediation_worker/jobs/s3_enable_access_logging/s3_enable_access_logging.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 193,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": "S3EnableAccessLogging",
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 249,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            },
+            "test_check_log_delivery": {
+                "line": 247,
+                "line_end": 263,
+                "indent": 4,
+                "focal_class": "S3EnableAccessLogging",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 110,
+                    "indent": 4,
+                    "name": "check_log_delivery_permissions"
+                }
+            },
+            "test_grant_log_delivery_permissions": {
+                "line": 265,
+                "line_end": 316,
+                "indent": 4,
+                "focal_class": "S3EnableAccessLogging",
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "grant_log_delivery_permissions"
+                }
+            }
+        }
+    },
+    "test/unit/test_s3_enable_default_encryption.py": {
+        "focal_file": "remediation_worker/jobs/s3_enable_default_encryption/s3_enable_default_encryption.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 59,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "S3EnableDefaultEncryption",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_s3_list_buckets.py": {
+        "focal_file": "remediation_worker/jobs/s3_list_buckets/s3_list_buckets.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 38,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "S3ListBuckets",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_s3_remove_public_admin_acl.py": {
+        "focal_file": "remediation_worker/jobs/s3_remove_public_admin_acl/s3_remove_public_admin_acl.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 60,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "S3RemovePublicAdminAcl",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_security_group_close_port_22.py": {
+        "focal_file": "remediation_worker/jobs/security_group_close_port_22/security_group_close_port_22.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 42,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "SecurityGroupClosePort22",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_security_group_close_port_3389.py": {
+        "focal_file": "remediation_worker/jobs/security_group_close_port_3389/security_group_close_port_3389.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 58,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "SecurityGroupClosePort3389",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    },
+    "test/unit/test_security_group_close_port_5432.py": {
+        "focal_file": "remediation_worker/jobs/security_group_close_port_5432/security_group_close_port_5432.py",
+        "methods": {
+            "test_remediate_success": {
+                "line": 58,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "SecurityGroupClosePort5432",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "remediate"
+                }
+            }
+        }
+    }
+}

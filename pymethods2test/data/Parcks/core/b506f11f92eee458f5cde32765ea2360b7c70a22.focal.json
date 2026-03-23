@@ -1,0 +1,251 @@
+{
+    "test/controller/test_startup_controller.py": {
+        "focal_file": "src/controller/startup_controller.py",
+        "methods": {
+            "test_boot_installation_controller_calls_run_from_install_controller": {
+                "line": 59,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "boot_install_controller"
+                }
+            }
+        }
+    },
+    "test/domain/install/test_package_installer.py": {
+        "focal_file": "src/domain/install/package_installer.py",
+        "methods": {
+            "test_install_calls_install_package_with_alternatives_if_alternatives_provided": {
+                "line": 54,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "install"
+                }
+            },
+            "test_install_calls_try_package_if_no_alternatives": {
+                "line": 61,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "install"
+                }
+            },
+            "test_install_package_with_alternatives_calls_try_alternatives_if_default_package_installation_failed": {
+                "line": 69,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "install_package_with_alternatives"
+                }
+            },
+            "test_try_alternatives_raises_NoAlternativePackageSuitableError_if_all_alternatives_failed": {
+                "line": 106,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "try_alternatives"
+                }
+            },
+            "test_try_alternatives_stops_at_first_success": {
+                "line": 115,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "try_alternatives"
+                }
+            }
+        }
+    },
+    "test/domain/post_install/file/test_file_create_runner.py": {
+        "focal_file": "src/domain/post_install/file/file_create_runner.py",
+        "methods": {
+            "test_create_file_calls__write_to_temp_file": {
+                "line": 64,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "create_file"
+                }
+            },
+            "test_create_file_calls__create_file_as_root_if_root": {
+                "line": 86,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "create_file"
+                }
+            },
+            "test_create_file_writes_to_file": {
+                "line": 90,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "create_file"
+                }
+            }
+        }
+    },
+    "test/domain/post_install/remote/test_remote_downloader.py": {
+        "focal_file": "src/domain/post_install/remote/remote_downloader.py",
+        "methods": {
+            "test_download_calls_download_from_repo": {
+                "line": 50,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "download"
+                }
+            }
+        }
+    },
+    "test/domain/post_install/remote/test_remote_validator.py": {
+        "focal_file": "src/domain/post_install/remote/remote_validator.py",
+        "methods": {
+            "test_is_external_download_url_returns_true_if_non_official_url": {
+                "line": 56,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "is_external_download_url"
+                }
+            },
+            "test_is_external_download_url_retruns_true_if_official_url": {
+                "line": 61,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "is_external_download_url"
+                }
+            }
+        }
+    },
+    "test/domain/post_install/shell/test_root_shell_command_runner.py": {
+        "focal_file": "src/domain/post_install/shell/root_shell_command_runner.py",
+        "methods": {
+            "test_create_root_executable_command_array_add_sudo_prefix": {
+                "line": 68,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "create_root_executable_command_array"
+                }
+            }
+        }
+    },
+    "test/domain/post_install/shell/test_shell_runner.py": {
+        "focal_file": "src/domain/post_install/shell/shell_runner.py",
+        "methods": {
+            "test_create_shell_command_runnable_calls_factory_to_create_shell_command_runnable": {
+                "line": 73,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "create_shell_command_runnable"
+                }
+            }
+        }
+    },
+    "test/service/test_install_facade.py": {
+        "focal_file": "src/service/install_facade.py",
+        "methods": {
+            "test_parse_installation_file_calls_installation_file_parser": {
+                "line": 54,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "parse_installation_file"
+                }
+            },
+            "test_create_install_package_management_wrapper_calls_factory_create": {
+                "line": 59,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "create_install_package_management_wrapper"
+                }
+            }
+        }
+    },
+    "test/service/test_post_installation_facade.py": {
+        "focal_file": "src/service/post_installation_facade.py",
+        "methods": {
+            "test_handle_post_installation_calls_run_on_PostInstallRunnable": {
+                "line": 96,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "handle_post_installation"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+{
+    "tests/k8s/test_watching.py": {
+        "focal_file": "kopf/clients/watching.py",
+        "methods": {
+            "test_infinite_watch_never_exits_normally": {
+                "line": 249,
+                "line_end": 274,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 77,
+                    "indent": 0,
+                    "name": "infinite_watch"
+                }
+            }
+        }
+    },
+    "tests/k8s/test_discovery.py": {
+        "focal_file": "kopf/clients/discovery.py",
+        "methods": {
+            "test_is_namespaced": {
+                "line": 76,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "is_namespaced"
+                }
+            },
+            "test_is_status_subresource_when_not_a_subresource": {
+                "line": 91,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "is_status_subresource"
+                }
+            },
+            "test_is_status_subresource_when_is_a_subresource": {
+                "line": 106,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "is_status_subresource"
+                }
+            }
+        }
+    },
+    "tests/primitives/test_toggles.py": {
+        "focal_file": "kopf/structs/primitives.py",
+        "methods": {
+            "test_turning_on": {
+                "line": 32,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": "Toggle",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "turn_on"
+                }
+            },
+            "test_turning_off": {
+                "line": 41,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": "Toggle",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "turn_off"
+                }
+            }
+        }
+    },
+    "tests/persistence/test_states.py": {
+        "focal_file": "kopf/storage/states.py",
+        "methods": {
+            "test_always_started_when_created_from_scratch": {
+                "line": 38,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "from_scratch"
+                }
+            },
+            "test_store_result": {
+                "line": 297,
+                "line_end": 301,
+                "indent": 0,
+                "focal_class": "HandlerOutcome",
+                "focal_method": {
+                    "line": 253,
+                    "line_end": 283,
+                    "indent": 0,
+                    "name": "deliver_results"
+                }
+            }
+        }
+    },
+    "tests/dicts/test_dictviews.py": {
+        "focal_file": "kopf/structs/dicts.py",
+        "methods": {
+            "test_replacing_from_another_view": {
+                "line": 203,
+                "line_end": 211,
+                "indent": 0,
+                "focal_class": "ReplaceableMappingView",
+                "focal_method": {
+                    "line": 279,
+                    "line_end": 280,
+                    "indent": 4,
+                    "name": "_replace_from"
+                }
+            },
+            "test_replacing_with_another_view": {
+                "line": 214,
+                "line_end": 221,
+                "indent": 0,
+                "focal_class": "ReplaceableMappingView",
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "_replace_with"
+                }
+            },
+            "test_replacing_with_regular_dict": {
+                "line": 224,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": "ReplaceableMappingView",
+                "focal_method": {
+                    "line": 282,
+                    "line_end": 283,
+                    "indent": 4,
+                    "name": "_replace_with"
+                }
+            }
+        }
+    },
+    "tests/registries/legacy-2/test_legacy2_requires_finalizer.py": {
+        "focal_file": "kopf/reactor/registries.py",
+        "methods": {
+            "test_requires_finalizer_deletion_handler": {
+                "line": 35,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "OperatorRegistry",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "requires_finalizer"
+                }
+            },
+            "test_requires_finalizer_multiple_handlers": {
+                "line": 53,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": "OperatorRegistry",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "requires_finalizer"
+                }
+            },
+            "test_requires_finalizer_no_deletion_handler": {
+                "line": 72,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": "OperatorRegistry",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "requires_finalizer"
+                }
+            },
+            "test_requires_finalizer_deletion_handler_matches_labels": {
+                "line": 94,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": "OperatorRegistry",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "requires_finalizer"
+                }
+            }
+        }
+    }
+}

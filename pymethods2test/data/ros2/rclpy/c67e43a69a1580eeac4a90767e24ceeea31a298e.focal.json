@@ -1,0 +1,944 @@
+{
+    "rclpy/test/test_clock.py": {
+        "focal_file": "rclpy/rclpy/clock.py",
+        "methods": {
+            "test_clock_now": {
+                "line": 50,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": "Clock",
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "now"
+                }
+            },
+            "test_ros_time_is_active": {
+                "line": 73,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "ROSClock",
+                "focal_method": {
+                    "line": 167,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "_set_ros_time_is_active"
+                }
+            },
+            "test_triggered_time_jump_callbacks": {
+                "line": 80,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": "ROSClock",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "create_jump_callback"
+                }
+            },
+            "test_triggered_clock_change_callbacks": {
+                "line": 131,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": "ROSClock",
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "create_jump_callback"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_executor.py": {
+        "focal_file": "rclpy/rclpy/executors.py",
+        "methods": {
+            "test_executor_immediate_shutdown": {
+                "line": 64,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "shutdown"
+                }
+            },
+            "test_shutdown_executor_before_waiting_for_callbacks": {
+                "line": 91,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 669,
+                    "line_end": 690,
+                    "indent": 4,
+                    "name": "wait_for_ready_callbacks"
+                }
+            },
+            "test_remove_node": {
+                "line": 108,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 260,
+                    "indent": 4,
+                    "name": "remove_node"
+                }
+            },
+            "test_executor_spin_non_blocking": {
+                "line": 145,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "spin_once"
+                }
+            },
+            "test_execute_coroutine_timer": {
+                "line": 154,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 300,
+                    "line_end": 309,
+                    "indent": 4,
+                    "name": "spin_once"
+                }
+            },
+            "test_create_task_coroutine": {
+                "line": 211,
+                "line_end": 224,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "create_task"
+                }
+            },
+            "test_create_task_during_spin": {
+                "line": 271,
+                "line_end": 307,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "create_task"
+                }
+            },
+            "test_executor_add_node": {
+                "line": 343,
+                "line_end": 349,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "add_node"
+                }
+            },
+            "test_executor_spin_until_future_complete_timeout": {
+                "line": 351,
+                "line_end": 371,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "spin_until_future_complete"
+                }
+            },
+            "test_executor_spin_until_future_complete_do_not_wait": {
+                "line": 414,
+                "line_end": 429,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 298,
+                    "indent": 4,
+                    "name": "spin_until_future_complete"
+                }
+            },
+            "test_executor_add_node_wakes_executor": {
+                "line": 431,
+                "line_end": 457,
+                "indent": 4,
+                "focal_class": "SingleThreadedExecutor",
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "add_node"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_expand_topic_name.py": {
+        "focal_file": "rclpy/rclpy/expand_topic_name.py",
+        "methods": {
+            "test_expand_topic_name": {
+                "line": 22,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "expand_topic_name"
+                }
+            },
+            "test_expand_topic_name_invalid_node_name": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "expand_topic_name"
+                }
+            },
+            "test_expand_topic_name_invalid_namespace_empty": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "expand_topic_name"
+                }
+            },
+            "test_expand_topic_name_invalid_namespace_relative": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "expand_topic_name"
+                }
+            },
+            "test_expand_topic_name_invalid_topic": {
+                "line": 50,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "expand_topic_name"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_init_shutdown.py": {
+        "focal_file": "rclpy/rclpy/__init__.py",
+        "methods": {
+            "test_init": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "init"
+                }
+            },
+            "test_double_init": {
+                "line": 60,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "init"
+                }
+            },
+            "test_double_shutdown": {
+                "line": 70,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "shutdown"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_logging.py": {
+        "focal_file": "rclpy/rclpy/logging.py",
+        "methods": {
+            "test_logger_level": {
+                "line": 38,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "set_logger_level"
+                }
+            },
+            "test_logger_effective_level": {
+                "line": 57,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "get_logger_effective_level"
+                }
+            },
+            "test_clear_config": {
+                "line": 354,
+                "line_end": 362,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "clear_config"
+                }
+            },
+            "test_logging_severity_from_string": {
+                "line": 364,
+                "line_end": 367,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "get_logging_severity_from_string"
+                }
+            },
+            "test_nonexistent_logging_severity_from_string": {
+                "line": 369,
+                "line_end": 371,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 73,
+                    "indent": 0,
+                    "name": "get_logging_severity_from_string"
+                }
+            },
+            "test_get_logging_directory": {
+                "line": 373,
+                "line_end": 380,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "get_logging_directory"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_qos.py": {
+        "focal_file": "rclpy/rclpy/qos.py",
+        "methods": {
+            "test_compatible": {
+                "line": 132,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "QoSProfile",
+                "focal_method": {
+                    "line": 479,
+                    "line_end": 499,
+                    "indent": 0,
+                    "name": "qos_check_compatible"
+                }
+            },
+            "test_incompatible": {
+                "line": 149,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": "QoSProfile",
+                "focal_method": {
+                    "line": 479,
+                    "line_end": 499,
+                    "indent": 0,
+                    "name": "qos_check_compatible"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_qos_overriding_options.py": {
+        "focal_file": "rclpy/rclpy/qos_overriding_options.py",
+        "methods": {
+            "test_declare_qos_parameters": {
+                "line": 35,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "_declare_qos_parameters"
+                }
+            },
+            "test_declare_qos_parameters_with_overrides": {
+                "line": 55,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "_declare_qos_parameters"
+                }
+            },
+            "test_declare_qos_parameters_with_happy_callback": {
+                "line": 79,
+                "line_end": 101,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "_declare_qos_parameters"
+                }
+            },
+            "test_declare_qos_parameters_with_unhappy_callback": {
+                "line": 104,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "_declare_qos_parameters"
+                }
+            },
+            "test_declare_qos_parameters_with_id": {
+                "line": 121,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 143,
+                    "indent": 0,
+                    "name": "_declare_qos_parameters"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_serialization.py": {
+        "focal_file": "rclpy/rclpy/serialization.py",
+        "methods": {
+            "test_serialize_deserialize": {
+                "line": 51,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "deserialize_message"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_task.py": {
+        "focal_file": "rclpy/rclpy/task.py",
+        "methods": {
+            "test_done_callback_scheduled": {
+                "line": 77,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "add_done_callback"
+                }
+            },
+            "test_done_task_done_callback_scheduled": {
+                "line": 90,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "add_done_callback"
+                }
+            },
+            "test_cancelled": {
+                "line": 205,
+                "line_end": 208,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "cancelled"
+                }
+            },
+            "test_done_task_cancelled": {
+                "line": 124,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "cancelled"
+                }
+            },
+            "test_exception": {
+                "line": 130,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "exception"
+                }
+            },
+            "test_coroutine_exception": {
+                "line": 144,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "exception"
+                }
+            },
+            "test_executing": {
+                "line": 198,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": "Task",
+                "focal_method": {
+                    "line": 266,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "executing"
+                }
+            },
+            "test_done": {
+                "line": 210,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "done"
+                }
+            },
+            "test_set_result": {
+                "line": 216,
+                "line_end": 220,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 95,
+                    "indent": 4,
+                    "name": "result"
+                }
+            },
+            "test_set_exception": {
+                "line": 222,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "exception"
+                }
+            },
+            "test_await_exception": {
+                "line": 243,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "set_exception"
+                }
+            },
+            "test_cancel_schedules_callbacks": {
+                "line": 256,
+                "line_end": 261,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "add_done_callback"
+                }
+            },
+            "test_cancel_invokes_callbacks": {
+                "line": 277,
+                "line_end": 287,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "add_done_callback"
+                }
+            },
+            "test_set_exception_invokes_callbacks": {
+                "line": 301,
+                "line_end": 311,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 118,
+                    "line_end": 129,
+                    "indent": 4,
+                    "name": "set_exception"
+                }
+            },
+            "test_add_done_callback_invokes_callback": {
+                "line": 313,
+                "line_end": 323,
+                "indent": 4,
+                "focal_class": "Future",
+                "focal_method": {
+                    "line": 163,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "add_done_callback"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_time.py": {
+        "focal_file": "rclpy/rclpy/time.py",
+        "methods": {
+            "test_seconds_nanoseconds": {
+                "line": 228,
+                "line_end": 231,
+                "indent": 4,
+                "focal_class": "Time",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "seconds_nanoseconds"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_time_source.py": {
+        "focal_file": "rclpy/rclpy/time_source.py",
+        "methods": {
+            "test_time_source_attach_clock": {
+                "line": 88,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "TimeSource",
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "attach_clock"
+                }
+            },
+            "test_time_source_using_sim_time": {
+                "line": 127,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": "TimeSource",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "_get_node"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_topic_or_service_is_hidden.py": {
+        "focal_file": "rclpy/rclpy/topic_or_service_is_hidden.py",
+        "methods": {
+            "test_topic_or_service_is_hidden": {
+                "line": 22,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "topic_or_service_is_hidden"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_type_support.py": {
+        "focal_file": "rclpy/rclpy/type_support.py",
+        "methods": {
+            "test_check_for_type_support": {
+                "line": 36,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "check_for_type_support"
+                }
+            },
+            "test_check_valid_msg_type": {
+                "line": 45,
+                "line_end": 48,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "check_is_valid_msg_type"
+                }
+            },
+            "test_check_valid_srv_type": {
+                "line": 51,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "check_is_valid_srv_type"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_utilities.py": {
+        "focal_file": "rclpy/rclpy/utilities.py",
+        "methods": {
+            "test_remove_ros_args": {
+                "line": 23,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "remove_ros_args"
+                }
+            },
+            "test_timeout_sec_to_nsec": {
+                "line": 44,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 125,
+                    "indent": 0,
+                    "name": "timeout_sec_to_nsec"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_validate_full_topic_name.py": {
+        "focal_file": "rclpy/rclpy/validate_full_topic_name.py",
+        "methods": {
+            "test_validate_full_topic_name": {
+                "line": 24,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "validate_full_topic_name"
+                }
+            },
+            "test_validate_full_topic_name_failures": {
+                "line": 34,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "validate_full_topic_name"
+                }
+            },
+            "test_validate_full_topic_name_failures_services": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "validate_full_topic_name"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_validate_namespace.py": {
+        "focal_file": "rclpy/rclpy/validate_namespace.py",
+        "methods": {
+            "test_validate_namespace": {
+                "line": 23,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "validate_namespace"
+                }
+            },
+            "test_validate_namespace_failures": {
+                "line": 32,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "validate_namespace"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_validate_node_name.py": {
+        "focal_file": "rclpy/rclpy/validate_node_name.py",
+        "methods": {
+            "test_validate_node_name": {
+                "line": 23,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "validate_node_name"
+                }
+            },
+            "test_validate_node_name_failures": {
+                "line": 31,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "validate_node_name"
+                }
+            }
+        }
+    },
+    "rclpy/test/test_validate_topic_name.py": {
+        "focal_file": "rclpy/rclpy/validate_topic_name.py",
+        "methods": {
+            "test_validate_topic_name": {
+                "line": 24,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "validate_topic_name"
+                }
+            },
+            "test_validate_topic_name_failures": {
+                "line": 34,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "validate_topic_name"
+                }
+            },
+            "test_validate_topic_name_failures_service": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 43,
+                    "indent": 0,
+                    "name": "validate_topic_name"
+                }
+            }
+        }
+    }
+}

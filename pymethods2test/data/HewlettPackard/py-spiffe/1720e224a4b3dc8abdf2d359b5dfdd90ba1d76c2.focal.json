@@ -1,0 +1,784 @@
+{
+    "test/bundle/jwt_bundle/test_jwt_bundle.py": {
+        "focal_file": "src/pyspiffe/bundle/jwt_bundle/jwt_bundle.py",
+        "methods": {
+            "test_create_jwt_bundle_no_authorities": {
+                "line": 42,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": "JwtBundle",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "jwt_authorities"
+                }
+            },
+            "test_get_jwt_authority_valid_input": {
+                "line": 55,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": "JwtBundle",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "get_jwt_authority"
+                }
+            },
+            "test_get_jwt_authority_invalid_key_id_not_found": {
+                "line": 63,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": "JwtBundle",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "get_jwt_authority"
+                }
+            },
+            "test_get_jwt_authority_invalid_input": {
+                "line": 71,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": "JwtBundle",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "get_jwt_authority"
+                }
+            },
+            "test_get_jwt_authority_empty_authority_dict": {
+                "line": 80,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": "JwtBundle",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "get_jwt_authority"
+                }
+            },
+            "test_parse": {
+                "line": 93,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "test/bundle/x509bundle/test_x509_bundle.py": {
+        "focal_file": "src/pyspiffe/bundle/x509_bundle/x509_bundle.py",
+        "methods": {
+            "test_parse_raw_bundle_multiple_authorities": {
+                "line": 35,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "x509_authorities"
+                }
+            },
+            "test_parse_bundle_single_authority": {
+                "line": 53,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "x509_authorities"
+                }
+            },
+            "test_parse_bundle_multiple_authorities": {
+                "line": 65,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "x509_authorities"
+                }
+            },
+            "test_save_bundle_pem_encoded": {
+                "line": 173,
+                "line_end": 195,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "trust_domain"
+                }
+            },
+            "test_save_bundle_der_encoded": {
+                "line": 198,
+                "line_end": 220,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "trust_domain"
+                }
+            },
+            "test_add_and_remove_authority": {
+                "line": 259,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": "X509Bundle",
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "remove_authority"
+                }
+            }
+        }
+    },
+    "test/spiffe_id/test_spiffe_id.py": {
+        "focal_file": "src/pyspiffe/spiffe_id/spiffe_id.py",
+        "methods": {
+            "test_is_member_of": {
+                "line": 288,
+                "line_end": 291,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "is_member_of"
+                }
+            },
+            "test_is_not_member_of": {
+                "line": 294,
+                "line_end": 297,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 211,
+                    "indent": 4,
+                    "name": "is_member_of"
+                }
+            }
+        }
+    },
+    "test/svid/jwtsvid/test_jwt_svid.py": {
+        "focal_file": "src/pyspiffe/svid/jwt_svid.py",
+        "methods": {
+            "test_parse_insecure_valid": {
+                "line": 182,
+                "line_end": 185,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "parse_insecure"
+                }
+            },
+            "test_parse_and_validate_valid_token_EC": {
+                "line": 268,
+                "line_end": 278,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "parse_and_validate"
+                }
+            }
+        }
+    },
+    "test/svid/jwtsvid/test_jwt_svid_validator.py": {
+        "focal_file": "src/pyspiffe/svid/jwt_svid_validator.py",
+        "methods": {
+            "test_invalid_input_validate_claims": {
+                "line": 56,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": "JwtSvidValidator",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "validate_claims"
+                }
+            },
+            "test_validate_claims_invalid_aud": {
+                "line": 133,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": "JwtSvidValidator",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "validate_claims"
+                }
+            },
+            "test_validate_claims_valid_input": {
+                "line": 265,
+                "line_end": 268,
+                "indent": 0,
+                "focal_class": "JwtSvidValidator",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "validate_claims"
+                }
+            },
+            "test_validate_header_invalid_type": {
+                "line": 321,
+                "line_end": 325,
+                "indent": 0,
+                "focal_class": "JwtSvidValidator",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "validate_header"
+                }
+            },
+            "test_validate_header_valid_headers": {
+                "line": 337,
+                "line_end": 340,
+                "indent": 0,
+                "focal_class": "JwtSvidValidator",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "validate_header"
+                }
+            }
+        }
+    },
+    "test/utils/test_certificate_utils.py": {
+        "focal_file": "src/pyspiffe/utils/certificate_utils.py",
+        "methods": {
+            "test_parse_der_certificates": {
+                "line": 33,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "parse_der_certificates"
+                }
+            },
+            "test_parse_pem_certificates": {
+                "line": 44,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "parse_pem_certificates"
+                }
+            },
+            "test_parse_der_corrupted_certificate": {
+                "line": 55,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "parse_der_certificates"
+                }
+            },
+            "test_parse_pem_corrupted_certificate": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "parse_pem_certificates"
+                }
+            },
+            "test_load_certificates_bytes_from_pem_file": {
+                "line": 73,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "load_certificates_bytes_from_file"
+                }
+            },
+            "test_load_certificates_bytes_from_der_file": {
+                "line": 85,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "load_certificates_bytes_from_file"
+                }
+            },
+            "test_load_certificates_bytes_from_file_raise_file_not_found": {
+                "line": 97,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "load_certificates_bytes_from_file"
+                }
+            },
+            "test_load_certificates_bytes_from_file_raise_exception": {
+                "line": 107,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "load_certificates_bytes_from_file"
+                }
+            },
+            "test_write_certificates_to_file_as_pem": {
+                "line": 119,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "write_certificates_to_file"
+                }
+            },
+            "test_write_certificates_to_file_raise_error": {
+                "line": 136,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "write_certificates_to_file"
+                }
+            },
+            "test_extract_der_bytes_from_certificate": {
+                "line": 151,
+                "line_end": 160,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "parse_der_certificates"
+                }
+            },
+            "test_extract_pem_bytes_from_certificate": {
+                "line": 163,
+                "line_end": 171,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 60,
+                    "indent": 0,
+                    "name": "parse_pem_certificates"
+                }
+            },
+            "test_serialize_certificate": {
+                "line": 174,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 162,
+                    "indent": 0,
+                    "name": "serialize_certificate"
+                }
+            },
+            "test_serialize_certificate_raise_error": {
+                "line": 184,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 162,
+                    "indent": 0,
+                    "name": "serialize_certificate"
+                }
+            },
+            "test_load_private_key_from_file": {
+                "line": 194,
+                "line_end": 206,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "load_private_key_from_file"
+                }
+            },
+            "test_load_private_key_from_file_raise_error_file_not_found": {
+                "line": 209,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "load_private_key_from_file"
+                }
+            },
+            "test_load_private_key_from_file_raise_error": {
+                "line": 221,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "load_private_key_from_file"
+                }
+            },
+            "test_write_private_key_to_file": {
+                "line": 233,
+                "line_end": 245,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "write_private_key_to_file"
+                }
+            },
+            "test_write_private_key_to_file_raise_error": {
+                "line": 248,
+                "line_end": 262,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "write_private_key_to_file"
+                }
+            },
+            "test_write_private_key_to_file_raise_error_cannot_extract_bytes": {
+                "line": 265,
+                "line_end": 280,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 190,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "write_private_key_to_file"
+                }
+            },
+            "test_parse_der_private_key": {
+                "line": 283,
+                "line_end": 287,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "parse_der_private_key"
+                }
+            },
+            "test_parse_der_private_key_raise_error": {
+                "line": 290,
+                "line_end": 296,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "parse_der_private_key"
+                }
+            },
+            "test_parse_pem_private_key": {
+                "line": 299,
+                "line_end": 303,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 250,
+                    "indent": 0,
+                    "name": "parse_pem_private_key"
+                }
+            },
+            "test_parse_pem_private_key_raise_error": {
+                "line": 306,
+                "line_end": 312,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 250,
+                    "indent": 0,
+                    "name": "parse_pem_private_key"
+                }
+            }
+        }
+    },
+    "test/workloadapi/test_handle_error.py": {
+        "focal_file": "src/pyspiffe/workloadapi/handle_error.py",
+        "methods": {
+            "test_handle_error": {
+                "line": 9,
+                "line_end": 16,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "handle_error"
+                }
+            },
+            "test_handle_error_on_argument_error": {
+                "line": 30,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "handle_error"
+                }
+            },
+            "test_handle_error_on_grpc_error": {
+                "line": 52,
+                "line_end": 60,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "handle_error"
+                }
+            },
+            "test_handle_error_on_exception": {
+                "line": 74,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "handle_error"
+                }
+            }
+        }
+    },
+    "test/workloadapi/test_jwt_source.py": {
+        "focal_file": "src/pyspiffe/workloadapi/default_jwt_source.py",
+        "methods": {
+            "test_get_jwt_svid": {
+                "line": 44,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": "DefaultJwtSource",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "get_jwt_svid"
+                }
+            },
+            "test_close": {
+                "line": 89,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": "DefaultJwtSource",
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_is_closed": {
+                "line": 110,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": "DefaultJwtSource",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "is_closed"
+                }
+            },
+            "test_get_jwt_bundle_exception": {
+                "line": 131,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": "DefaultJwtSource",
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "get_jwt_bundle"
+                }
+            }
+        }
+    },
+    "test/workloadapi/test_x509_context.py": {
+        "focal_file": "src/pyspiffe/workloadapi/x509_context.py",
+        "methods": {
+            "test_default_svid": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": "X509Context",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "default_svid"
+                }
+            },
+            "test_x509_bundle_set": {
+                "line": 23,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": "X509Context",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "x509_bundle_set"
+                }
+            },
+            "test_x509_svids": {
+                "line": 36,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": "X509Context",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "x509_svids"
+                }
+            }
+        }
+    },
+    "test/workloadapi/test_x509_source.py": {
+        "focal_file": "src/pyspiffe/workloadapi/default_x509_source.py",
+        "methods": {
+            "test_x509_source_get_default_x509_svid": {
+                "line": 49,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": "DefaultX509Source",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_x509_svid"
+                }
+            },
+            "test_x509_source_get_x509_svid_with_picker": {
+                "line": 58,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": "DefaultX509Source",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_x509_svid"
+                }
+            },
+            "test_x509_source_get_x509_svid_with_invalid_picker": {
+                "line": 67,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": "DefaultX509Source",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_x509_svid"
+                }
+            },
+            "test_x509_source_is_closed_get_svid": {
+                "line": 96,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": "DefaultX509Source",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_x509_svid"
+                }
+            },
+            "test_x509_source_is_closed_get_bundle": {
+                "line": 111,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": "DefaultX509Source",
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    }
+}

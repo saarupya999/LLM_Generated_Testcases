@@ -1,0 +1,445 @@
+{
+    "tests/pool_connection_tests.py": {
+        "focal_file": "queries/pool.py",
+        "methods": {
+            "test_close_invokes_handle_close": {
+                "line": 67,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "close"
+                }
+            }
+        }
+    },
+    "tests/pool_manager_tests.py": {
+        "focal_file": "queries/pool.py",
+        "methods": {
+            "test_clean_invokes_pool_clean": {
+                "line": 60,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "clean"
+                }
+            },
+            "test_get_invokes_pool_get": {
+                "line": 96,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 272,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_free_invokes_pool_free": {
+                "line": 109,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "free"
+                }
+            },
+            "test_has_connection_returns_true": {
+                "line": 130,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 552,
+                    "line_end": 563,
+                    "indent": 4,
+                    "name": "has_connection"
+                }
+            },
+            "test_has_idle_connection_returns_false": {
+                "line": 138,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 566,
+                    "line_end": 575,
+                    "indent": 4,
+                    "name": "has_idle_connection"
+                }
+            },
+            "test_has_idle_connection_returns_true": {
+                "line": 146,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 566,
+                    "line_end": 575,
+                    "indent": 4,
+                    "name": "has_idle_connection"
+                }
+            },
+            "test_is_full_invokes_pool_is_full": {
+                "line": 158,
+                "line_end": 164,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 306,
+                    "line_end": 312,
+                    "indent": 4,
+                    "name": "is_full"
+                }
+            },
+            "test_lock_invokes_pool_lock": {
+                "line": 170,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "lock"
+                }
+            },
+            "test_set_idle_ttl_invokes_pool_set_idle_ttl": {
+                "line": 222,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 408,
+                    "indent": 4,
+                    "name": "set_idle_ttl"
+                }
+            },
+            "test_set_max_size_invokes_pool_set_max_size": {
+                "line": 233,
+                "line_end": 238,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 410,
+                    "line_end": 417,
+                    "indent": 4,
+                    "name": "set_max_size"
+                }
+            }
+        }
+    },
+    "tests/pool_tests.py": {
+        "focal_file": "queries/pool.py",
+        "methods": {
+            "test_idle_ttl_assignment": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 4,
+                "focal_class": "queries.pool.Pool",
+                "focal_method": {
+                    "line": 401,
+                    "line_end": 408,
+                    "indent": 4,
+                    "name": "set_idle_ttl"
+                }
+            },
+            "test_max_size_assignment": {
+                "line": 57,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "queries.pool.Pool",
+                "focal_method": {
+                    "line": 410,
+                    "line_end": 417,
+                    "indent": 4,
+                    "name": "set_max_size"
+                }
+            },
+            "test_connection_count_after_add": {
+                "line": 76,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "queries.pool.Pool",
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_add_existing_connection_raises_on_second_add": {
+                "line": 82,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "queries.pool.Pool",
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_closed_conn_invokes_remove_on_clean": {
+                "line": 94,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "queries.pool.Pool",
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "clean"
+                }
+            },
+            "test_free_invokes_connection_free": {
+                "line": 119,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": "queries.pool.Pool",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "free"
+                }
+            },
+            "test__connection_returns_handle": {
+                "line": 279,
+                "line_end": 284,
+                "indent": 4,
+                "focal_class": "queries.pool.Pool",
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 226,
+                    "indent": 4,
+                    "name": "connection_handle"
+                }
+            }
+        }
+    },
+    "tests/results_tests.py": {
+        "focal_file": "queries/results.py",
+        "methods": {
+            "test_count_returns_rowcount": {
+                "line": 106,
+                "line_end": 108,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "count"
+                }
+            }
+        }
+    },
+    "tests/session_tests.py": {
+        "focal_file": "queries/session.py",
+        "methods": {
+            "test_callproc_invokes_cursor_callproc": {
+                "line": 76,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "callproc"
+                }
+            }
+        }
+    },
+    "tests/tornado_session_tests.py": {
+        "focal_file": "queries/tornado_session.py",
+        "methods": {
+            "test_psycopg2_connect_invokes_psycopg2_connect": {
+                "line": 118,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 512,
+                    "line_end": 521,
+                    "indent": 4,
+                    "name": "_psycopg2_connect"
+                }
+            },
+            "test_exec_cleanup_closes_cursor": {
+                "line": 134,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 408,
+                    "line_end": 431,
+                    "indent": 4,
+                    "name": "_exec_cleanup"
+                }
+            }
+        }
+    },
+    "tests/utils_tests.py": {
+        "focal_file": "queries/utils.py",
+        "methods": {
+            "test_get_current_user": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "get_current_user"
+                }
+            },
+            "test_default_uri": {
+                "line": 43,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "uri"
+                }
+            },
+            "test_urlparse_port": {
+                "line": 56,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 150,
+                    "indent": 0,
+                    "name": "urlparse"
+                }
+            },
+            "test_urlparse_path": {
+                "line": 60,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 150,
+                    "indent": 0,
+                    "name": "urlparse"
+                }
+            },
+            "test_uri_to_kwargs_host": {
+                "line": 78,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            },
+            "test_uri_to_kwargs_port": {
+                "line": 82,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            },
+            "test_uri_to_kwargs_dbname": {
+                "line": 86,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            },
+            "test_uri_to_kwargs_username": {
+                "line": 90,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            },
+            "test_uri_to_kwargs_password": {
+                "line": 94,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            },
+            "test_uri_to_kwargs_options": {
+                "line": 99,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            },
+            "test_uri_to_kwargs_keepalive": {
+                "line": 104,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            },
+            "test_uri_to_kwargs_invalid": {
+                "line": 108,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "uri_to_kwargs"
+                }
+            }
+        }
+    }
+}

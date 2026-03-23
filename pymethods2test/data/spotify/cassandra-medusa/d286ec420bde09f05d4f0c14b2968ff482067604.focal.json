@@ -1,0 +1,315 @@
+{
+    "tests/cassandra_utils_test.py": {
+        "focal_file": "medusa/cassandra_utils.py",
+        "methods": {
+            "test_tokenmap_one_token": {
+                "line": 43,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "CqlSession",
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "tokenmap"
+                }
+            },
+            "test_tokenmap_vnodes": {
+                "line": 60,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": "CqlSession",
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "tokenmap"
+                }
+            },
+            "test_tokenmap_two_dc": {
+                "line": 79,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": "CqlSession",
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "tokenmap"
+                }
+            }
+        }
+    },
+    "tests/purge_test.py": {
+        "focal_file": "medusa/purge.py",
+        "methods": {
+            "test_purge_backups_by_date": {
+                "line": 51,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "backups_to_purge_by_age"
+                }
+            },
+            "test_purge_backups_by_count": {
+                "line": 73,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "backups_to_purge_by_count"
+                }
+            },
+            "test_filter_differential_backups": {
+                "line": 90,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 166,
+                    "indent": 0,
+                    "name": "filter_differential_backups"
+                }
+            }
+        }
+    },
+    "tests/restore_cluster_test.py": {
+        "focal_file": "medusa/restore_cluster.py",
+        "methods": {
+            "test_populate_ringmap": {
+                "line": 47,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "RestoreJob",
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 243,
+                    "indent": 4,
+                    "name": "_populate_hostmap"
+                }
+            },
+            "test_populate_tokenmap": {
+                "line": 63,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": "RestoreJob",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "_populate_ringmap"
+                }
+            },
+            "test_populate_tokenmap_fail": {
+                "line": 83,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": "RestoreJob",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "_populate_ringmap"
+                }
+            },
+            "test_populate_tokenmap_fail_tokens": {
+                "line": 100,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": "RestoreJob",
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "_populate_ringmap"
+                }
+            },
+            "test_expand_repeatable_option": {
+                "line": 132,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 109,
+                    "indent": 0,
+                    "name": "expand_repeatable_option"
+                }
+            }
+        }
+    },
+    "tests/restore_node_test.py": {
+        "focal_file": "medusa/restore_node.py",
+        "methods": {
+            "test_get_node_tokens": {
+                "line": 42,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "get_node_tokens"
+                }
+            },
+            "test_get_node_tokens_vnodes": {
+                "line": 47,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "get_node_tokens"
+                }
+            },
+            "test_get_sections_to_restore": {
+                "line": 52,
+                "line_end": 93,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 314,
+                    "indent": 0,
+                    "name": "get_fqtns_to_restore"
+                }
+            },
+            "test_get_sections_to_restore_with_cfids": {
+                "line": 95,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 283,
+                    "line_end": 314,
+                    "indent": 0,
+                    "name": "get_fqtns_to_restore"
+                }
+            },
+            "test_keyspace_is_allowed_to_restore": {
+                "line": 107,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 194,
+                    "indent": 0,
+                    "name": "keyspace_is_allowed_to_restore"
+                }
+            },
+            "test_table_is_allowed_to_restore": {
+                "line": 128,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 204,
+                    "indent": 0,
+                    "name": "table_is_allowed_to_restore"
+                }
+            }
+        }
+    },
+    "tests/storage_test.py": {
+        "focal_file": "medusa/storage/abstract_storage.py",
+        "methods": {
+            "test_add_object_from_string": {
+                "line": 72,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "upload_blob_from_string"
+                }
+            },
+            "test_download_blobs": {
+                "line": 77,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "download_blobs"
+                }
+            },
+            "test_list_objects": {
+                "line": 89,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "list_objects"
+                }
+            },
+            "test_get_blob": {
+                "line": 106,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "get_blob"
+                }
+            },
+            "test_read_blob_as_bytes": {
+                "line": 112,
+                "line_end": 116,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "get_blob_content_as_bytes"
+                }
+            },
+            "test_hashes_match": {
+                "line": 124,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 120,
+                    "indent": 4,
+                    "name": "hashes_match"
+                }
+            },
+            "test_get_object_datetime": {
+                "line": 179,
+                "line_end": 186,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "get_object_datetime"
+                }
+            }
+        }
+    }
+}

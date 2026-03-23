@@ -1,0 +1,231 @@
+{
+    "src/models/scenes/tests/skills_test.py": {
+        "focal_file": "src/models/scenes/skill_checks.py",
+        "methods": {
+            "test_sample_weights_correct_probability": {
+                "line": 37,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "sample_weights"
+                }
+            }
+        }
+    },
+    "src/models/scenes/tests/effects_test.py": {
+        "focal_file": "src/models/scenes/effects.py",
+        "methods": {
+            "test_restart_game": {
+                "line": 19,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 6,
+                    "indent": 0,
+                    "name": "restart_game"
+                }
+            },
+            "test_increment_player_attribute": {
+                "line": 27,
+                "line_end": 31,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "increment_attribute"
+                }
+            },
+            "test_increment_attribute": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "increment_attribute"
+                }
+            }
+        }
+    },
+    "src/models/combat/tests/combat_stack_test.py": {
+        "focal_file": "src/models/combat/combat_stack.py",
+        "methods": {
+            "test_resolved_moves_after_init": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": "CombatStack",
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "resolved_moves"
+                }
+            },
+            "test_moves_remaining_correct_order": {
+                "line": 26,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "CombatStack",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "moves_times_remaining"
+                }
+            }
+        }
+    },
+    "src/models/characters/tests/subroutines_test.py": {
+        "focal_file": "src/models/characters/subroutines_base.py",
+        "methods": {
+            "test_repair_subroutine": {
+                "line": 18,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "use"
+                }
+            },
+            "test_fire_laser": {
+                "line": 27,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "use"
+                }
+            },
+            "test_subroutine_eq": {
+                "line": 40,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 202,
+                    "indent": 0,
+                    "name": "build_subroutine"
+                }
+            }
+        }
+    },
+    "src/models/characters/tests/status_test.py": {
+        "focal_file": "src/models/characters/status.py",
+        "methods": {
+            "test_basic_status_states": {
+                "line": 8,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "set_state"
+                }
+            },
+            "test_basis_status_attribute_increment_bounds": {
+                "line": 26,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "set_attribute_bounds"
+                }
+            },
+            "test_status_effect_adds_state": {
+                "line": 49,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "has_state"
+                }
+            },
+            "test_status_effect_prevents_state": {
+                "line": 61,
+                "line_end": 73,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "set_state"
+                }
+            },
+            "test_status_effect_prevents_status_effect_state": {
+                "line": 76,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 126,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "remove_status_effect"
+                }
+            },
+            "test_status_effect_attribute_increments_stack": {
+                "line": 92,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_attribute"
+                }
+            },
+            "test_status_effect_attribute_increments_stay_in_bounds": {
+                "line": 110,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "set_attribute_bounds"
+                }
+            },
+            "test_status_effect_partial_bounds": {
+                "line": 134,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": "BasicStatus",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "set_attribute_bounds"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1025 @@
+{
+    "tests/analysis/test_convert_column_name_to_display_name.py": {
+        "focal_file": "ramjet/analysis/convert_column_name_to_display_name.py",
+        "methods": {
+            "test_converting_column_name_to_display_name": {
+                "line": 12,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "convert_column_name_to_display_name"
+                }
+            }
+        }
+    },
+    "tests/analysis/test_roc_calculator.py": {
+        "focal_file": "ramjet/analysis/roc_calculator.py",
+        "methods": {
+            "test_can_generate_thresholded_predictions": {
+                "line": 38,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "threshold_predictions"
+                }
+            },
+            "test_can_calculate_confusion_matrix_counts_for_each_prediction_threshold": {
+                "line": 47,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "calculate_confusion_matrix_counts"
+                }
+            },
+            "test_can_accumulate_counts_from_multiple_examples": {
+                "line": 63,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "accumulate_confusion_matrix_counts"
+                }
+            }
+        }
+    },
+    "tests/analysis/test_transit_vetter.py": {
+        "focal_file": "ramjet/analysis/transit_vetter.py",
+        "methods": {
+            "test_can_check_if_depth_for_tic_id_is_physical_for_planet": {
+                "line": 66,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "TransitVetter",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "get_maximum_physical_depth_for_planet_for_target"
+                }
+            },
+            "test_can_check_if_nearby_targets_are_known_toi_targets": {
+                "line": 53,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "TransitVetter",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "has_nearby_toi_targets"
+                }
+            }
+        }
+    },
+    "tests/analysis/test_transit_fitter.py": {
+        "focal_file": "ramjet/analysis/transit_fitter.py",
+        "methods": {
+            "test_can_calculate_period_from_approximate_event_times": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 292,
+                    "line_end": 315,
+                    "indent": 4,
+                    "name": "calculate_epoch_and_period_from_approximate_event_times"
+                }
+            },
+            "test_can_round_series_to_significant_digits": {
+                "line": 43,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 334,
+                    "line_end": 347,
+                    "indent": 4,
+                    "name": "round_series_to_significant_figures"
+                }
+            }
+        }
+    },
+    "tests/analysis/viewer/test_preloader.py": {
+        "focal_file": "ramjet/analysis/viewer/preloader.py",
+        "methods": {
+            "test_loading_view_entity_at_index_as_current_passes_correct_row": {
+                "line": 20,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "Preloader",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "load_view_entity_at_index_as_current"
+                }
+            },
+            "test_loading_previous_view_entities_loads_from_first_in_previous_deque": {
+                "line": 71,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "Preloader",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "load_previous_view_entities"
+                }
+            },
+            "test_cancel_loading_cancels_existing_loading_task": {
+                "line": 163,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": "Preloader",
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "cancel_loading_task"
+                }
+            },
+            "test_refresh_surrounding_light_curve_loading_creates_loading_task": {
+                "line": 183,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": "Preloader",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "refresh_surrounding_light_curve_loading"
+                }
+            }
+        }
+    },
+    "tests/data_interface/test_tess_ffi_lightcurve_metadata_manager.py": {
+        "focal_file": "ramjet/data_interface/tess_ffi_lightcurve_metadata_manager.py",
+        "methods": {
+            "test_can_insert_multiple_sql_database_rows_from_paths": {
+                "line": 24,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "insert_multiple_rows_from_paths_into_database"
+                }
+            },
+            "test_can_populate_sql_dataset": {
+                "line": 42,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "populate_sql_database"
+                }
+            }
+        }
+    },
+    "tests/data_interface/test_tess_toi_data_interface.py": {
+        "focal_file": "ramjet/data_interface/tess_toi_data_interface.py",
+        "methods": {
+            "test_can_get_exofop_planet_disposition_for_tic_id": {
+                "line": 30,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 134,
+                    "indent": 4,
+                    "name": "retrieve_exofop_toi_and_ctoi_planet_disposition_for_tic_id"
+                }
+            }
+        }
+    },
+    "tests/data_interface/test_metadatabase.py": {
+        "focal_file": "ramjet/data_interface/metadatabase.py",
+        "methods": {
+            "test_metadatabase_uuid_is_repeatable": {
+                "line": 10,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "metadatabase_uuid"
+                }
+            },
+            "test_dataset_split_is_repeatable_from_uuid": {
+                "line": 14,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "dataset_split_from_uuid"
+                }
+            }
+        }
+    },
+    "tests/data_interface/test_tess_two_minute_cadence_lightcurve_metadata_manager.py": {
+        "focal_file": "ramjet/data_interface/tess_two_minute_cadence_lightcurve_metadata_manager.py",
+        "methods": {
+            "test_can_insert_multiple_sql_database_rows_from_paths": {
+                "line": 21,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "insert_multiple_rows_from_paths_into_database"
+                }
+            },
+            "test_can_populate_sql_dataset": {
+                "line": 38,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 76,
+                    "indent": 4,
+                    "name": "populate_sql_database"
+                }
+            }
+        }
+    },
+    "tests/data_interface/test_tess_data_interface.py": {
+        "focal_file": "ramjet/data_interface/tess_data_interface.py",
+        "methods": {
+            "test_can_request_time_series_observations_from_mast_as_pandas_data_frame": {
+                "line": 29,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 89,
+                    "indent": 4,
+                    "name": "get_all_tess_time_series_observations"
+                }
+            },
+            "test_can_request_to_download_products_from_mast": {
+                "line": 54,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "download_products"
+                }
+            },
+            "test_can_filter_observations_to_get_only_single_sector_observations": {
+                "line": 67,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "filter_for_single_sector_observations"
+                }
+            },
+            "test_can_filter_observations_to_get_only_multi_sector_observations": {
+                "line": 75,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 186,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "filter_for_multi_sector_observations"
+                }
+            },
+            "test_can_get_tic_from_single_sector_obs_id": {
+                "line": 82,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "get_tic_id_from_single_sector_obs_id"
+                }
+            },
+            "test_can_get_sector_from_single_sector_obs_id": {
+                "line": 90,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "get_sector_from_single_sector_obs_id"
+                }
+            },
+            "test_can_add_tic_id_column_to_single_sector_observations": {
+                "line": 98,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 218,
+                    "line_end": 226,
+                    "indent": 4,
+                    "name": "add_tic_id_column_to_single_sector_observations"
+                }
+            },
+            "test_can_add_sector_column_to_single_sector_observations": {
+                "line": 107,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 236,
+                    "indent": 4,
+                    "name": "add_sector_column_to_single_sector_observations"
+                }
+            },
+            "test_can_load_fluxes_and_times_from_tess_fits": {
+                "line": 117,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "load_fluxes_and_times_from_fits_file"
+                }
+            },
+            "test_loading_fluxes_and_times_from_fits_drops_nans": {
+                "line": 130,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "load_fluxes_and_times_from_fits_file"
+                }
+            },
+            "test_loading_fluxes_and_times_from_fits_with_nans_kept": {
+                "line": 142,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "load_fluxes_and_times_from_fits_file"
+                }
+            },
+            "test_can_extract_different_flux_types_from_fits": {
+                "line": 154,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 277,
+                    "indent": 4,
+                    "name": "load_fluxes_and_times_from_fits_file"
+                }
+            },
+            "test_can_load_fluxes_flux_errors_and_times_from_tess_fits": {
+                "line": 169,
+                "line_end": 182,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 279,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "load_fluxes_flux_errors_and_times_from_fits_file"
+                }
+            },
+            "test_load_fluxes_flux_errors_and_times_from_tess_fits_removing_nans": {
+                "line": 185,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 279,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "load_fluxes_flux_errors_and_times_from_fits_file"
+                }
+            },
+            "test_load_fluxes_flux_errors_and_times_from_tess_fits_keeping_nans": {
+                "line": 202,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 279,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "load_fluxes_flux_errors_and_times_from_fits_file"
+                }
+            },
+            "test_can_get_variable_stars_by_coordinate": {
+                "line": 231,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 439,
+                    "indent": 4,
+                    "name": "get_variable_data_frame_for_coordinates"
+                }
+            },
+            "test_returns_empty_data_frame_when_no_variable_stars_exist": {
+                "line": 239,
+                "line_end": 245,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 427,
+                    "line_end": 439,
+                    "indent": 4,
+                    "name": "get_variable_data_frame_for_coordinates"
+                }
+            },
+            "test_can_get_variable_stars_by_tic_id": {
+                "line": 247,
+                "line_end": 255,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 441,
+                    "line_end": 449,
+                    "indent": 4,
+                    "name": "get_variable_data_frame_for_tic_id"
+                }
+            },
+            "test_can_get_list_of_sectors_target_appears_in": {
+                "line": 258,
+                "line_end": 267,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 495,
+                    "line_end": 506,
+                    "indent": 4,
+                    "name": "get_sectors_target_appears_in"
+                }
+            },
+            "test_can_get_tic_id_and_sector_from_human_readable_file_name": {
+                "line": 269,
+                "line_end": 276,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 541,
+                    "line_end": 560,
+                    "indent": 4,
+                    "name": "get_tic_id_and_sector_from_file_path"
+                }
+            },
+            "test_get_tic_id_and_sector_raises_error_with_unknown_pattern": {
+                "line": 278,
+                "line_end": 280,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 541,
+                    "line_end": 560,
+                    "indent": 4,
+                    "name": "get_tic_id_and_sector_from_file_path"
+                }
+            },
+            "test_can_get_tic_id_and_sector_from_tess_obs_id_style_file_name": {
+                "line": 282,
+                "line_end": 290,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 541,
+                    "line_end": 560,
+                    "indent": 4,
+                    "name": "get_tic_id_and_sector_from_file_path"
+                }
+            }
+        }
+    },
+    "tests/photometric_database/test_lightcurve_collection.py": {
+        "focal_file": "ramjet/photometric_database/lightcurve_collection.py",
+        "methods": {
+            "test_calling_load_times_and_fluxes_from_path_without_setting_raises_error": {
+                "line": 19,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": "LightcurveCollection",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "load_times_and_fluxes_from_path"
+                }
+            },
+            "test_load_times_and_fluxes_from_path_can_be_set_by_subclassing": {
+                "line": 29,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "load_times_and_fluxes_from_path"
+                }
+            },
+            "test_calling_load_times_and_magnifications_from_path_without_setting_raises_error": {
+                "line": 39,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": "LightcurveCollection",
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "load_times_and_magnifications_from_path"
+                }
+            },
+            "test_load_times_and_magnifications_from_path_can_be_set_by_subclassing": {
+                "line": 49,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "load_times_and_magnifications_from_path"
+                }
+            },
+            "test_generating_a_synthetic_signal_from_a_real_signal_does_not_invert_negative_lightcurve_shapes": {
+                "line": 80,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "LightcurveCollection",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "generate_synthetic_signal_from_real_data"
+                }
+            },
+            "test_load_times_fluxes_and_flux_errors_defaults_to_just_the_times_and_fluxes_loading": {
+                "line": 94,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": "LightcurveCollection",
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 112,
+                    "indent": 4,
+                    "name": "load_times_fluxes_and_flux_errors_from_path"
+                }
+            },
+            "test_load_times_magnifications_and_magnification_errors_defaults_to_just_the_times_and_fluxes_loading": {
+                "line": 102,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "LightcurveCollection",
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "load_times_magnifications_and_magnification_errors_from_path"
+                }
+            }
+        }
+    },
+    "tests/photometric_database/test_tess_ffi_light_curve.py": {
+        "focal_file": "ramjet/photometric_database/tess_ffi_light_curve.py",
+        "methods": {
+            "test_can_load_flux_and_data_from_ffi_pickle_files": {
+                "line": 38,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "TessFfiLightCurve",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "load_fluxes_and_times_from_pickle_file"
+                }
+            },
+            "test_can_load_fluxes_flux_errors_and_times_from_ffi_pickle_files": {
+                "line": 50,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": "TessFfiLightCurve",
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 174,
+                    "indent": 4,
+                    "name": "load_fluxes_flux_errors_and_times_from_pickle_file"
+                }
+            },
+            "test_can_get_tic_id_and_sector_from_ffi_style_file_path": {
+                "line": 61,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "TessFfiLightCurve",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "get_tic_id_and_sector_from_file_path"
+                }
+            },
+            "test_can_get_tic_id_and_sector_from_104_ffi_style_file_path": {
+                "line": 75,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "TessFfiLightCurve",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "get_tic_id_and_sector_from_file_path"
+                }
+            },
+            "test_can_get_floor_magnitude_from_ffi_style_file_path": {
+                "line": 89,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": "TessFfiLightCurve",
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "get_floor_magnitude_from_file_path"
+                }
+            },
+            "test_can_get_floor_magnitude_from_104_ffi_style_file_path": {
+                "line": 100,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": "TessFfiLightCurve",
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "get_floor_magnitude_from_file_path"
+                }
+            }
+        }
+    },
+    "tests/photometric_database/test_light_curve.py": {
+        "focal_file": "ramjet/photometric_database/light_curve.py",
+        "methods": {
+            "test_can_convert_column_to_relative_scale": {
+                "line": 57,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "LightCurve",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "convert_column_to_relative_scale"
+                }
+            },
+            "test_can_convert_columns_to_relative_scale": {
+                "line": 63,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "LightCurve",
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "convert_columns_to_relative_scale"
+                }
+            },
+            "test_can_convert_column_to_relative_scale_with_nans": {
+                "line": 71,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": "LightCurve",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "convert_column_to_relative_scale"
+                }
+            }
+        }
+    },
+    "tests/photometric_database/test_lightcurve_database.py": {
+        "focal_file": "ramjet/photometric_database/lightcurve_database.py",
+        "methods": {
+            "test_extraction_of_chunk_and_remainder_from_array": {
+                "line": 32,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "extract_shuffled_chunk_and_remainder"
+                }
+            },
+            "test_creating_a_padded_window_dataset_for_a_zipped_example_and_label_dataset": {
+                "line": 42,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 229,
+                    "indent": 4,
+                    "name": "padded_window_dataset_for_zipped_example_and_label_dataset"
+                }
+            },
+            "test_splitting_of_training_and_validation_datasets_for_file_paths_with_list_input": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "get_training_and_validation_datasets_for_file_paths"
+                }
+            },
+            "test_splitting_of_training_and_validation_datasets_for_file_paths_with_generator_factory_input": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "get_training_and_validation_datasets_for_file_paths"
+                }
+            },
+            "test_splitting_of_training_and_validation_datasets_for_file_paths_with_list_factory_input": {
+                "line": 81,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "get_training_and_validation_datasets_for_file_paths"
+                }
+            },
+            "test_training_and_validation_datasets_from_generator_can_repeat": {
+                "line": 90,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "get_training_and_validation_datasets_for_file_paths"
+                }
+            },
+            "test_training_and_validation_datasets_from_generator_do_not_mix_values_on_repeat": {
+                "line": 99,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "get_training_and_validation_datasets_for_file_paths"
+                }
+            },
+            "test_paths_dataset_from_list_or_generator_factory_can_use_a_list": {
+                "line": 114,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "paths_dataset_from_list_or_generator_factory"
+                }
+            },
+            "test_paths_dataset_from_list_or_generator_factory_can_use_a_generator_factory": {
+                "line": 119,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "paths_dataset_from_list_or_generator_factory"
+                }
+            },
+            "test_percentile_normalization_zeroes_when_array_is_all_same_value_with_errors": {
+                "line": 173,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "normalize_on_percentiles_with_errors"
+                }
+            },
+            "test_window_dataset_for_zipped_example_and_label_dataset_produces_windowed_batches": {
+                "line": 183,
+                "line_end": 196,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 231,
+                    "line_end": 244,
+                    "indent": 4,
+                    "name": "window_dataset_for_zipped_example_and_label_dataset"
+                }
+            },
+            "test_remove_random_elements_removes_elements": {
+                "line": 239,
+                "line_end": 244,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "remove_random_elements"
+                }
+            },
+            "test_remove_random_elements_acts_on_axis_0": {
+                "line": 246,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "remove_random_elements"
+                }
+            },
+            "test_flat_window_zipped_produces_overlapping_window_repeats": {
+                "line": 253,
+                "line_end": 262,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "flat_window_zipped_example_and_label_dataset"
+                }
+            },
+            "test_building_light_curve_array_using_only_fluxes": {
+                "line": 297,
+                "line_end": 302,
+                "indent": 4,
+                "focal_class": "LightcurveDatabase",
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 317,
+                    "indent": 4,
+                    "name": "build_light_curve_array"
+                }
+            },
+            "test_building_light_curve_array_using_times_and_fluxes": {
+                "line": 304,
+                "line_end": 311,
+                "indent": 4,
+                "focal_class": "LightcurveDatabase",
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 317,
+                    "indent": 4,
+                    "name": "build_light_curve_array"
+                }
+            },
+            "test_building_light_curve_array_passing_times_but_only_using_fluxes": {
+                "line": 313,
+                "line_end": 320,
+                "indent": 4,
+                "focal_class": "LightcurveDatabase",
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 317,
+                    "indent": 4,
+                    "name": "build_light_curve_array"
+                }
+            },
+            "test_building_light_curve_array_using_times_fluxes_and_flux_errors": {
+                "line": 332,
+                "line_end": 341,
+                "indent": 4,
+                "focal_class": "LightcurveDatabase",
+                "focal_method": {
+                    "line": 299,
+                    "line_end": 317,
+                    "indent": 4,
+                    "name": "build_light_curve_array"
+                }
+            }
+        }
+    },
+    "tests/photometric_database/test_tess_target.py": {
+        "focal_file": "ramjet/photometric_database/tess_target.py",
+        "methods": {
+            "test_retrieving_radius_from_gaia": {
+                "line": 26,
+                "line_end": 31,
+                "indent": 4,
+                "focal_class": "TessTarget",
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "get_radius_from_gaia"
+                }
+            },
+            "test_can_estimate_radius_of_transiting_body": {
+                "line": 37,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "TessTarget",
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "calculate_transiting_body_radius"
+                }
+            },
+            "test_can_retrieve_nearby_tic_target_data_frame": {
+                "line": 80,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": "TessTarget",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "retrieve_nearby_tic_targets"
+                }
+            },
+            "test_retrieve_nearby_tic_target_data_frame_corrects_exofop_bug": {
+                "line": 92,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": "TessTarget",
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "retrieve_nearby_tic_targets"
+                }
+            }
+        }
+    }
+}

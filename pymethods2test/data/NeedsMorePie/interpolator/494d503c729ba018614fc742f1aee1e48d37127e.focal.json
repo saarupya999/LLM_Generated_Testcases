@@ -1,0 +1,559 @@
+{
+    "common/models_test.py": {
+        "focal_file": "common/models.py",
+        "methods": {
+            "test_save_restore_np": {
+                "line": 18,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "ConvNetwork",
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "restore_from_np"
+                }
+            },
+            "test_save_restore_file": {
+                "line": 55,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "ConvNetwork",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "restore_from"
+                }
+            }
+        }
+    },
+    "common/utils/config_test.py": {
+        "focal_file": "common/utils/config.py",
+        "methods": {
+            "test_dict": {
+                "line": 195,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 148,
+                    "line_end": 162,
+                    "indent": 0,
+                    "name": "merge_dicts"
+                }
+            }
+        }
+    },
+    "common/utils/multi_gpu_test.py": {
+        "focal_file": "common/utils/multi_gpu.py",
+        "methods": {
+            "test_average_gradients": {
+                "line": 13,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "average_gradients"
+                }
+            },
+            "test_average_gradients_no_grads": {
+                "line": 56,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "average_gradients"
+                }
+            },
+            "test_average_gradients_empty": {
+                "line": 62,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "average_gradients"
+                }
+            },
+            "test_average_gradients_single_gpu": {
+                "line": 66,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "average_gradients"
+                }
+            },
+            "test_accumulating_tensor_io_empty": {
+                "line": 96,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "accumulate"
+                }
+            },
+            "test_accumulating_tensor_io_averaged_scalar": {
+                "line": 103,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_accumulating_tensor_io_summed_scalar": {
+                "line": 119,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "accumulate"
+                }
+            },
+            "test_accumulating_tensor_io_batched_scalar": {
+                "line": 135,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "accumulate"
+                }
+            },
+            "test_accumulating_tensor_io_deep_batched_scalar": {
+                "line": 151,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "accumulate"
+                }
+            },
+            "test_create_train_op_multiple_devices": {
+                "line": 208,
+                "line_end": 251,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 246,
+                    "indent": 0,
+                    "name": "create_train_op"
+                }
+            },
+            "test_accumulate_once": {
+                "line": 308,
+                "line_end": 312,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "accumulate_list_into"
+                }
+            },
+            "test_accumulate_twice": {
+                "line": 314,
+                "line_end": 320,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "accumulate_list_into"
+                }
+            }
+        }
+    },
+    "common/utils/flow_test.py": {
+        "focal_file": "common/utils/flow.py",
+        "methods": {
+            "test_flow_vis": {
+                "line": 19,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "read_flow_file"
+                }
+            },
+            "test_tensorflow_vis": {
+                "line": 35,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 122,
+                    "indent": 0,
+                    "name": "get_tf_flow_visualization"
+                }
+            }
+        }
+    },
+    "common/utils/data_test.py": {
+        "focal_file": "common/utils/data.py",
+        "methods": {
+            "test_shard_empty_range": {
+                "line": 6,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "create_shard_ranges"
+                }
+            },
+            "test_shard_one": {
+                "line": 14,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "create_shard_ranges"
+                }
+            },
+            "test_shard_even_range": {
+                "line": 25,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "create_shard_ranges"
+                }
+            },
+            "test_shard_odd_range": {
+                "line": 43,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "create_shard_ranges"
+                }
+            }
+        }
+    },
+    "common/utils/tf_test.py": {
+        "focal_file": "common/utils/tf.py",
+        "methods": {
+            "test_sliding_window_slice_dense": {
+                "line": 11,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "sliding_window_slice"
+                }
+            },
+            "test_sliding_window_slice_sparse": {
+                "line": 26,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "sliding_window_slice"
+                }
+            },
+            "test_sliding_window_slice_small": {
+                "line": 44,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 98,
+                    "indent": 0,
+                    "name": "sliding_window_slice"
+                }
+            }
+        }
+    },
+    "common/forward_warp/forward_warp_test.py": {
+        "focal_file": "common/forward_warp/forward_warp.py",
+        "methods": {
+            "test_forward_warp_whole_1": {
+                "line": 19,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "forward_warp"
+                }
+            },
+            "test_forward_warp_partial_1": {
+                "line": 44,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "forward_warp"
+                }
+            },
+            "test_forward_warp_partial_2": {
+                "line": 69,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "forward_warp"
+                }
+            },
+            "test_forward_warp_oob": {
+                "line": 107,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "forward_warp"
+                }
+            },
+            "test_forward_warp_batch": {
+                "line": 138,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "forward_warp"
+                }
+            },
+            "test_create_disocclusion_map": {
+                "line": 233,
+                "line_end": 257,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "create_disocclusion_mask"
+                }
+            },
+            "test_create_disocclusion_map_batched": {
+                "line": 259,
+                "line_end": 293,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "create_disocclusion_mask"
+                }
+            },
+            "test_create_disocclusion_map_no_gradient": {
+                "line": 295,
+                "line_end": 303,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 106,
+                    "indent": 0,
+                    "name": "create_disocclusion_mask"
+                }
+            }
+        }
+    },
+    "context_interp/laplacian_pyramid/pyramid_test.py": {
+        "focal_file": "context_interp/laplacian_pyramid/laplacian_pyramid.py",
+        "methods": {
+            "test_filter": {
+                "line": 57,
+                "line_end": 69,
+                "indent": 4,
+                "focal_class": "LaplacianPyramid",
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_get_blur_filter"
+                }
+            }
+        }
+    },
+    "data/interp/interp_data_test.py": {
+        "focal_file": "data/interp/interp_data.py",
+        "methods": {
+            "test_val_data_read_write": {
+                "line": 129,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": "InterpDataSet",
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "get_validation_feed_dict"
+                }
+            }
+        }
+    },
+    "data/interp/davis/davis_preprocessor_test.py": {
+        "focal_file": "data/interp/davis/davis_preprocessor.py",
+        "methods": {
+            "test_data_paths": {
+                "line": 34,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "DavisDataSetPreprocessor",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_data_paths"
+                }
+            }
+        }
+    },
+    "pwcnet/model_test.py": {
+        "focal_file": "pwcnet/model.py",
+        "methods": {
+            "test_network_fine_tuning_loss": {
+                "line": 80,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 214,
+                    "line_end": 222,
+                    "indent": 4,
+                    "name": "get_fine_tuning_loss"
+                }
+            },
+            "test_network_unflow_loss": {
+                "line": 126,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 224,
+                    "line_end": 244,
+                    "indent": 4,
+                    "name": "get_unflow_training_loss"
+                }
+            },
+            "test_network_shares_weights_bidirectional": {
+                "line": 211,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": "PWCNet",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "get_bidirectional"
+                }
+            }
+        }
+    },
+    "pwcnet/losses/loss_test.py": {
+        "focal_file": "pwcnet/losses/loss.py",
+        "methods": {
+            "test_multi_level_loss": {
+                "line": 13,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "create_multi_level_loss"
+                }
+            },
+            "test_multi_level_unflow_loss": {
+                "line": 64,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "create_multi_level_unflow_loss"
+                }
+            }
+        }
+    },
+    "pwcnet/estimator_network/model_test.py": {
+        "focal_file": "pwcnet/estimator_network/model.py",
+        "methods": {
+            "test_network_none_fields": {
+                "line": 91,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": "EstimatorNetwork",
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get_forward"
+                }
+            }
+        }
+    }
+}

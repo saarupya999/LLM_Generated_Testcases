@@ -1,0 +1,257 @@
+{
+    "tests/test_address_models.py": {
+        "focal_file": "correios/models/address.py",
+        "methods": {
+            "test_zip_display": {
+                "line": 189,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": "ZipCode",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "display"
+                }
+            }
+        }
+    },
+    "tests/test_posting_models.py": {
+        "focal_file": "correios/models/posting.py",
+        "methods": {
+            "test_tracking_code_creator": {
+                "line": 79,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 197,
+                    "line_end": 201,
+                    "indent": 4,
+                    "name": "create"
+                }
+            },
+            "test_basic_shipping_label": {
+                "line": 165,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": "correios.models.posting.ShippingLabel",
+                "focal_method": {
+                    "line": 659,
+                    "line_end": 660,
+                    "indent": 4,
+                    "name": "get_order"
+                }
+            },
+            "test_shipping_label_get_datamatrix_info_with_complement_display": {
+                "line": 248,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": "correios.models.posting.ShippingLabel",
+                "focal_method": {
+                    "line": 695,
+                    "line_end": 723,
+                    "indent": 4,
+                    "name": "get_datamatrix_info"
+                }
+            },
+            "test_fail_shipping_label_with_invalid_declared_value": {
+                "line": 325,
+                "line_end": 338,
+                "indent": 0,
+                "focal_class": "correios.models.posting.ShippingLabel",
+                "focal_method": {
+                    "line": 630,
+                    "line_end": 634,
+                    "indent": 4,
+                    "name": "add_extra_service"
+                }
+            },
+            "test_package_posting_weight_calculation": {
+                "line": 381,
+                "line_end": 383,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 402,
+                    "line_end": 405,
+                    "indent": 4,
+                    "name": "calculate_posting_weight"
+                }
+            },
+            "test_fail_add_same_shipping_label_twice_in_posting_list": {
+                "line": 547,
+                "line_end": 552,
+                "indent": 0,
+                "focal_class": "correios.models.posting.PostingList",
+                "focal_method": {
+                    "line": 750,
+                    "line_end": 765,
+                    "indent": 4,
+                    "name": "add_shipping_label"
+                }
+            },
+            "test_shipping_label_has_declared_value": {
+                "line": 739,
+                "line_end": 742,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 656,
+                    "line_end": 657,
+                    "indent": 4,
+                    "name": "has_declared_value"
+                }
+            }
+        }
+    },
+    "tests/test_user_models.py": {
+        "focal_file": "correios/models/user.py",
+        "methods": {
+            "test_federal_tax_number_display": {
+                "line": 88,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": "FederalTaxNumber",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "display"
+                }
+            },
+            "test_convert_state_tax_number_display": {
+                "line": 106,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": "StateTaxNumber",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "display"
+                }
+            },
+            "test_fail_add_contract_twice": {
+                "line": 140,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": "User",
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 276,
+                    "indent": 4,
+                    "name": "add_contract"
+                }
+            },
+            "test_fail_invalid_declared_value_in_sedex": {
+                "line": 249,
+                "line_end": 255,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "validate_declared_value"
+                }
+            },
+            "test_fail_invalid_insurance_declared_value": {
+                "line": 259,
+                "line_end": 262,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "validate_insurance_declared_value"
+                }
+            },
+            "test_valid_insurance_declared_value": {
+                "line": 266,
+                "line_end": 268,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "validate_insurance_declared_value"
+                }
+            },
+            "test_fail_invalid_insurance_code": {
+                "line": 272,
+                "line_end": 275,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "validate_insurance_declared_value"
+                }
+            },
+            "test_valid_insurance_code": {
+                "line": 279,
+                "line_end": 281,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 169,
+                    "line_end": 177,
+                    "indent": 4,
+                    "name": "validate_insurance_declared_value"
+                }
+            },
+            "test_fail_invalid_declared_value_in_pac": {
+                "line": 284,
+                "line_end": 290,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 190,
+                    "indent": 4,
+                    "name": "validate_declared_value"
+                }
+            },
+            "test_extra_service_getter": {
+                "line": 326,
+                "line_end": 327,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_extra_service_is_declared_value": {
+                "line": 340,
+                "line_end": 342,
+                "indent": 0,
+                "focal_class": "ExtraService",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 241,
+                    "indent": 4,
+                    "name": "is_declared_value"
+                }
+            },
+            "test_regional_direction_getter": {
+                "line": 371,
+                "line_end": 376,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,950 @@
+{
+    "test/unit/test_arguments.py": {
+        "focal_file": "sockeye/arguments.py",
+        "methods": {
+            "test_simple_dict": {
+                "line": 26,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "simple_dict"
+                }
+            },
+            "test_config_file_required": {
+                "line": 456,
+                "line_end": 473,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "parse_args"
+                }
+            }
+        }
+    },
+    "test/unit/test_average.py": {
+        "focal_file": "sockeye/average.py",
+        "methods": {
+            "test_strategy_best": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "strategy_best"
+                }
+            },
+            "test_strategy_last": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 114,
+                    "indent": 0,
+                    "name": "strategy_last"
+                }
+            },
+            "test_strategy_lifespan": {
+                "line": 55,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "strategy_lifespan"
+                }
+            }
+        }
+    },
+    "test/unit/test_constraints.py": {
+        "focal_file": "sockeye/lexical_constraints.py",
+        "methods": {
+            "test_constraints_allowed": {
+                "line": 148,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": "ConstrainedHypothesis",
+                "focal_method": {
+                    "line": 323,
+                    "line_end": 346,
+                    "indent": 4,
+                    "name": "allowed"
+                }
+            },
+            "test_constraints_init_batch": {
+                "line": 174,
+                "line_end": 190,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 412,
+                    "line_end": 432,
+                    "indent": 0,
+                    "name": "init_batch"
+                }
+            },
+            "test_avoid_list_batch": {
+                "line": 272,
+                "line_end": 285,
+                "indent": 0,
+                "focal_class": "AvoidBatch",
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "avoid"
+                }
+            }
+        }
+    },
+    "test/unit/test_data_io.py": {
+        "focal_file": "sockeye/data_io.py",
+        "methods": {
+            "test_define_buckets": {
+                "line": 40,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "define_buckets"
+                }
+            },
+            "test_define_parallel_buckets": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "define_parallel_buckets"
+                }
+            },
+            "test_get_bucket": {
+                "line": 86,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 135,
+                    "indent": 0,
+                    "name": "get_bucket"
+                }
+            },
+            "test_tokens2ids": {
+                "line": 96,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1165,
+                    "line_end": 1173,
+                    "indent": 0,
+                    "name": "tokens2ids"
+                }
+            },
+            "test_strids2ids": {
+                "line": 102,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1176,
+                    "line_end": 1183,
+                    "indent": 0,
+                    "name": "strids2ids"
+                }
+            },
+            "test_ids2strids": {
+                "line": 108,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1186,
+                    "line_end": 1193,
+                    "indent": 0,
+                    "name": "ids2strids"
+                }
+            },
+            "test_nonparallel_iter": {
+                "line": 165,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1279,
+                    "line_end": 1294,
+                    "indent": 0,
+                    "name": "parallel_iter"
+                }
+            },
+            "test_not_source_token_parallel_iter": {
+                "line": 178,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1279,
+                    "line_end": 1294,
+                    "indent": 0,
+                    "name": "parallel_iter"
+                }
+            },
+            "test_not_target_token_parallel_iter": {
+                "line": 191,
+                "line_end": 194,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1279,
+                    "line_end": 1294,
+                    "indent": 0,
+                    "name": "parallel_iter"
+                }
+            },
+            "test_parallel_iter": {
+                "line": 230,
+                "line_end": 231,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1279,
+                    "line_end": 1294,
+                    "indent": 0,
+                    "name": "parallel_iter"
+                }
+            },
+            "test_sample_based_define_bucket_batch_sizes": {
+                "line": 234,
+                "line_end": 246,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 245,
+                    "indent": 0,
+                    "name": "define_bucket_batch_sizes"
+                }
+            },
+            "test_word_based_define_bucket_batch_sizes": {
+                "line": 259,
+                "line_end": 282,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 245,
+                    "indent": 0,
+                    "name": "define_bucket_batch_sizes"
+                }
+            },
+            "test_max_word_based_define_bucket_batch_sizes": {
+                "line": 292,
+                "line_end": 306,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 245,
+                    "indent": 0,
+                    "name": "define_bucket_batch_sizes"
+                }
+            },
+            "test_parallel_data_set_fill_up": {
+                "line": 352,
+                "line_end": 368,
+                "indent": 0,
+                "focal_class": "sockeye.data_io.ParallelDataSet",
+                "focal_method": {
+                    "line": 1479,
+                    "line_end": 1522,
+                    "indent": 4,
+                    "name": "fill_up"
+                }
+            },
+            "test_get_permutations": {
+                "line": 371,
+                "line_end": 390,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1551,
+                    "line_end": 1573,
+                    "indent": 0,
+                    "name": "get_permutations"
+                }
+            },
+            "test_parallel_data_set_permute": {
+                "line": 393,
+                "line_end": 416,
+                "indent": 0,
+                "focal_class": "sockeye.data_io.ParallelDataSet",
+                "focal_method": {
+                    "line": 1524,
+                    "line_end": 1548,
+                    "indent": 4,
+                    "name": "permute"
+                }
+            },
+            "test_get_batch_indices": {
+                "line": 419,
+                "line_end": 445,
+                "indent": 0,
+                "focal_class": "sockeye.data_io.ParallelDataSet",
+                "focal_method": {
+                    "line": 1576,
+                    "line_end": 1599,
+                    "indent": 0,
+                    "name": "get_batch_indices"
+                }
+            },
+            "test_get_default_bucket_key": {
+                "line": 451,
+                "line_end": 453,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1364,
+                    "line_end": 1371,
+                    "indent": 0,
+                    "name": "get_default_bucket_key"
+                }
+            },
+            "test_get_parallel_bucket": {
+                "line": 467,
+                "line_end": 470,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1374,
+                    "line_end": 1390,
+                    "indent": 0,
+                    "name": "get_parallel_bucket"
+                }
+            },
+            "test_calculate_length_statistics": {
+                "line": 480,
+                "line_end": 485,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 272,
+                    "indent": 0,
+                    "name": "calculate_length_statistics"
+                }
+            },
+            "test_non_parallel_calculate_length_statistics": {
+                "line": 494,
+                "line_end": 496,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 272,
+                    "indent": 0,
+                    "name": "calculate_length_statistics"
+                }
+            },
+            "test_get_training_data_iters": {
+                "line": 499,
+                "line_end": 577,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 892,
+                    "line_end": 1012,
+                    "indent": 0,
+                    "name": "get_training_data_iters"
+                }
+            },
+            "test_create_target_and_shifted_label_sequences": {
+                "line": 800,
+                "line_end": 812,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 2002,
+                    "line_end": 2010,
+                    "indent": 0,
+                    "name": "create_target_and_shifted_label_sequences"
+                }
+            }
+        }
+    },
+    "test/unit/test_decoder.py": {
+        "focal_file": "sockeye/decoder.py",
+        "methods": {
+            "test_get_decoder": {
+                "line": 25,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "get_decoder"
+                }
+            }
+        }
+    },
+    "test/unit/test_encoder.py": {
+        "focal_file": "sockeye/encoder.py",
+        "methods": {
+            "test_get_transformer_encoder": {
+                "line": 38,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "get_transformer_encoder"
+                }
+            }
+        }
+    },
+    "test/unit/test_inference.py": {
+        "focal_file": "sockeye/inference.py",
+        "methods": {
+            "test_concat_translations": {
+                "line": 80,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 614,
+                    "line_end": 652,
+                    "indent": 0,
+                    "name": "_concat_translations"
+                }
+            },
+            "test_translator_input": {
+                "line": 125,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 200,
+                    "indent": 4,
+                    "name": "chunks"
+                }
+            },
+            "test_get_max_input_output_length": {
+                "line": 160,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 109,
+                    "indent": 0,
+                    "name": "get_max_input_output_length"
+                }
+            },
+            "test_make_input_from_factored_string": {
+                "line": 200,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 332,
+                    "line_end": 369,
+                    "indent": 0,
+                    "name": "make_input_from_factored_string"
+                }
+            },
+            "test_make_input_from_valid_json_string": {
+                "line": 267,
+                "line_end": 280,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 258,
+                    "indent": 0,
+                    "name": "make_input_from_json_string"
+                }
+            },
+            "test_make_input_from_valid_json_string_restrict_lexicon": {
+                "line": 283,
+                "line_end": 307,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 258,
+                    "indent": 0,
+                    "name": "make_input_from_json_string"
+                }
+            },
+            "test_failed_make_input_from_valid_json_string": {
+                "line": 311,
+                "line_end": 317,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 238,
+                    "line_end": 258,
+                    "indent": 0,
+                    "name": "make_input_from_json_string"
+                }
+            },
+            "test_make_input_from_valid_dict": {
+                "line": 326,
+                "line_end": 337,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 329,
+                    "indent": 0,
+                    "name": "make_input_from_dict"
+                }
+            },
+            "test_failed_make_input_from_valid_dict": {
+                "line": 341,
+                "line_end": 345,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 329,
+                    "indent": 0,
+                    "name": "make_input_from_dict"
+                }
+            },
+            "test_make_input_from_multiple_strings": {
+                "line": 353,
+                "line_end": 360,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 372,
+                    "line_end": 389,
+                    "indent": 0,
+                    "name": "make_input_from_multiple_strings"
+                }
+            },
+            "test_get_best_word_indices_for_kth_hypotheses": {
+                "line": 363,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1144,
+                    "line_end": 1165,
+                    "indent": 4,
+                    "name": "_get_best_word_indices_for_kth_hypotheses"
+                }
+            },
+            "test_get_best_translations": {
+                "line": 395,
+                "line_end": 436,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1087,
+                    "line_end": 1141,
+                    "indent": 4,
+                    "name": "_get_best_translations"
+                }
+            },
+            "test_unshift_target_factors": {
+                "line": 446,
+                "line_end": 448,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1198,
+                    "line_end": 1211,
+                    "indent": 0,
+                    "name": "_unshift_target_factors"
+                }
+            }
+        }
+    },
+    "test/unit/test_init_embedding.py": {
+        "focal_file": "sockeye/init_embedding.py",
+        "methods": {
+            "test_init_weight": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 96,
+                    "indent": 0,
+                    "name": "init_weight"
+                }
+            }
+        }
+    },
+    "test/unit/test_lr_scheduler.py": {
+        "focal_file": "sockeye/lr_scheduler.py",
+        "methods": {
+            "test_get_lr_scheduler": {
+                "line": 75,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "get_lr_scheduler"
+                }
+            },
+            "test_get_lr_scheduler_no_reduce": {
+                "line": 88,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 232,
+                    "indent": 0,
+                    "name": "get_lr_scheduler"
+                }
+            }
+        }
+    },
+    "test/unit/test_reranking.py": {
+        "focal_file": "sockeye/rerank.py",
+        "methods": {
+            "test_rerank_return_score": {
+                "line": 54,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "rerank"
+                }
+            }
+        }
+    },
+    "test/unit/test_rouge.py": {
+        "focal_file": "sockeye_contrib/rouge.py",
+        "methods": {
+            "test_rouge_1": {
+                "line": 25,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 368,
+                    "line_end": 376,
+                    "indent": 0,
+                    "name": "rouge_1"
+                }
+            },
+            "test_rouge_2": {
+                "line": 30,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 379,
+                    "line_end": 387,
+                    "indent": 0,
+                    "name": "rouge_2"
+                }
+            },
+            "test_rouge_l": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 390,
+                    "line_end": 399,
+                    "indent": 0,
+                    "name": "rouge_l"
+                }
+            }
+        }
+    },
+    "test/unit/test_utils.py": {
+        "focal_file": "sockeye/utils.py",
+        "methods": {
+            "test_chunks": {
+                "line": 35,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 196,
+                    "indent": 0,
+                    "name": "chunks"
+                }
+            },
+            "test_expand_requested_device_ids": {
+                "line": 48,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 356,
+                    "line_end": 373,
+                    "indent": 0,
+                    "name": "_expand_requested_device_ids"
+                }
+            },
+            "test_acquire_gpus": {
+                "line": 53,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 377,
+                    "line_end": 470,
+                    "indent": 0,
+                    "name": "acquire_gpus"
+                }
+            },
+            "test_expand_requested_device_ids_exception": {
+                "line": 74,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 356,
+                    "line_end": 373,
+                    "indent": 0,
+                    "name": "_expand_requested_device_ids"
+                }
+            },
+            "test_acquire_gpus_exception": {
+                "line": 80,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 377,
+                    "line_end": 470,
+                    "indent": 0,
+                    "name": "acquire_gpus"
+                }
+            },
+            "test_acquire_gpus_1_locked": {
+                "line": 93,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": "sockeye.utils.GpuFileLock",
+                "focal_method": {
+                    "line": 377,
+                    "line_end": 470,
+                    "indent": 0,
+                    "name": "acquire_gpus"
+                }
+            },
+            "test_check_condition_true": {
+                "line": 160,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "check_condition"
+                }
+            },
+            "test_check_condition_false": {
+                "line": 164,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "check_condition"
+                }
+            },
+            "test_parse_version": {
+                "line": 172,
+                "line_end": 173,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "parse_version"
+                }
+            },
+            "test_check_version_checks_major": {
+                "line": 187,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "check_version"
+                }
+            },
+            "test_online_mean_and_variance": {
+                "line": 209,
+                "line_end": 215,
+                "indent": 0,
+                "focal_class": "sockeye.utils.OnlineMeanAndVariance",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_online_mean_and_variance_nan": {
+                "line": 223,
+                "line_end": 229,
+                "indent": 0,
+                "focal_class": "sockeye.utils.OnlineMeanAndVariance",
+                "focal_method": {
+                    "line": 165,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "update"
+                }
+            },
+            "test_get_tokens": {
+                "line": 237,
+                "line_end": 239,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 208,
+                    "indent": 0,
+                    "name": "get_tokens"
+                }
+            },
+            "test_average_arrays": {
+                "line": 242,
+                "line_end": 257,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 253,
+                    "indent": 0,
+                    "name": "average_arrays"
+                }
+            },
+            "test_metric_value_is_better": {
+                "line": 306,
+                "line_end": 307,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 680,
+                    "line_end": 687,
+                    "indent": 0,
+                    "name": "metric_value_is_better"
+                }
+            },
+            "test_split": {
+                "line": 311,
+                "line_end": 318,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 690,
+                    "line_end": 712,
+                    "indent": 0,
+                    "name": "split"
+                }
+            },
+            "test_get_num_gpus": {
+                "line": 321,
+                "line_end": 322,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 256,
+                    "line_end": 267,
+                    "indent": 0,
+                    "name": "get_num_gpus"
+                }
+            },
+            "test_is_gzip_file": {
+                "line": 337,
+                "line_end": 343,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 214,
+                    "indent": 0,
+                    "name": "is_gzip_file"
+                }
+            },
+            "test_compute_lengths": {
+                "line": 360,
+                "line_end": 362,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 156,
+                    "indent": 0,
+                    "name": "compute_lengths"
+                }
+            },
+            "test_parse_metrics_line": {
+                "line": 372,
+                "line_end": 380,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 538,
+                    "line_end": 559,
+                    "indent": 0,
+                    "name": "parse_metrics_line"
+                }
+            },
+            "test_write_read_metric_file": {
+                "line": 383,
+                "line_end": 392,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 562,
+                    "line_end": 571,
+                    "indent": 0,
+                    "name": "read_metrics_file"
+                }
+            }
+        }
+    }
+}

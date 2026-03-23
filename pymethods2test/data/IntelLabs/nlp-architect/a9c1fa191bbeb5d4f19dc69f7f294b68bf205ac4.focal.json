@@ -1,0 +1,60 @@
+{
+    "tests/test_quantization.py": {
+        "focal_file": "nlp_architect/nn/torch/quantization.py",
+        "methods": {
+            "test_quantization_backward": {
+                "line": 47,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "FakeLinearQuantizationWithSTE",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            },
+            "test_dynamic_quantized_linear_backward": {
+                "line": 192,
+                "line_end": 200,
+                "indent": 4,
+                "focal_class": "QuantizedLinear",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            },
+            "test_quantized_embedding_backward": {
+                "line": 375,
+                "line_end": 385,
+                "indent": 4,
+                "focal_class": "QuantizedEmbedding",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "backward"
+                }
+            }
+        }
+    },
+    "tests/test_spacy_np_annotator.py": {
+        "focal_file": "nlp_architect/pipelines/spacy_np_annotator.py",
+        "methods": {
+            "test_np_annotator_load": {
+                "line": 78,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "load"
+                }
+            }
+        }
+    }
+}

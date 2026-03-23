@@ -1,0 +1,2134 @@
+{
+    "tests/test_run.py": {
+        "focal_file": "hyrisecockpit/run.py",
+        "methods": {
+            "test_sets_logging": {
+                "line": 50,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "_set_logging"
+                }
+            },
+            "test_initializes_start_commands": {
+                "line": 64,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "_init_start_commands"
+                }
+            },
+            "test_creates_logger_pipes": {
+                "line": 85,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 120,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_create_logger_pipes"
+                }
+            }
+        }
+    },
+    "tests/test_server.py": {
+        "focal_file": "hyrisecockpit/server.py",
+        "methods": {
+            "test_returns_200_on_valid_request": {
+                "line": 28,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "_handle_request"
+                }
+            }
+        }
+    },
+    "tests/api/test_connection_manager.py": {
+        "focal_file": "hyrisecockpit/api/app/connection_manager.py",
+        "methods": {
+            "test_base_socket_opens_socket_connection": {
+                "line": 43,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "open"
+                }
+            },
+            "test_base_socket_closes_socket_connection": {
+                "line": 60,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "close"
+                }
+            },
+            "test_base_socket_sends_request": {
+                "line": 73,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "send_req"
+                }
+            },
+            "test_generator_socket_sends_message": {
+                "line": 100,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            },
+            "test_manager_socket_sends_message": {
+                "line": 127,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "send_message"
+                }
+            }
+        }
+    },
+    "tests/api/database/test_service.py": {
+        "focal_file": "hyrisecockpit/api/app/database/service.py",
+        "methods": {
+            "test_registers_database": {
+                "line": 97,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "register_database"
+                }
+            },
+            "test_registers_database_unsuccessful": {
+                "line": 124,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "register_database"
+                }
+            },
+            "test_deregisters_database": {
+                "line": 150,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "deregister_database"
+                }
+            },
+            "test_gets_available_workload_tables": {
+                "line": 168,
+                "line_end": 179,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "get_available_workload_tables"
+                }
+            },
+            "test_deletes_workload_tables": {
+                "line": 181,
+                "line_end": 194,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "delete_workload_tables"
+                }
+            },
+            "test_starts_worker": {
+                "line": 196,
+                "line_end": 206,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "start_worker_pool"
+                }
+            },
+            "test_closes_worker": {
+                "line": 208,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "close_worker_pool"
+                }
+            }
+        }
+    },
+    "tests/api/metric/test_metric_service.py": {
+        "focal_file": "hyrisecockpit/api/app/metric/service.py",
+        "methods": {
+            "test_get_throughput": {
+                "line": 56,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_throughput"
+                }
+            },
+            "test_get_latency": {
+                "line": 68,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "get_latency"
+                }
+            },
+            "test_get_queue_length": {
+                "line": 80,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "get_queue_length"
+                }
+            },
+            "test_get_memory_footprint": {
+                "line": 92,
+                "line_end": 113,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_memory_footprint"
+                }
+            },
+            "test_get_detailed_query_information": {
+                "line": 118,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "get_detailed_query_information"
+                }
+            }
+        }
+    },
+    "tests/api/plugin/test_service.py": {
+        "focal_file": "hyrisecockpit/api/app/plugin/service.py",
+        "methods": {
+            "test_activates_a_plugin": {
+                "line": 146,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 80,
+                    "indent": 4,
+                    "name": "activate_by_id"
+                }
+            },
+            "test_deactivates_a_plugin": {
+                "line": 161,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "deactivate_by_id"
+                }
+            },
+            "test_updates_plugin_setting": {
+                "line": 176,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "update_plugin_setting"
+                }
+            },
+            "test_gets_all_plugin_logs": {
+                "line": 194,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "get_all_plugin_logs"
+                }
+            }
+        }
+    },
+    "tests/api/sql/test_service.py": {
+        "focal_file": "hyrisecockpit/api/app/sql/service.py",
+        "methods": {
+            "test_sends_message": {
+                "line": 37,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "_send_message"
+                }
+            },
+            "test_execute_sql": {
+                "line": 95,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "execute_sql"
+                }
+            }
+        }
+    },
+    "tests/api/status/test_status_service.py": {
+        "focal_file": "hyrisecockpit/api/app/status/service.py",
+        "methods": {
+            "test_get_database_status": {
+                "line": 43,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "get_database_status"
+                }
+            },
+            "test_get_workload_tables": {
+                "line": 74,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "get_workload_tables"
+                }
+            },
+            "test_get_failed_tasks": {
+                "line": 113,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "get_failed_tasks"
+                }
+            }
+        }
+    },
+    "tests/database_manager/test_asynchronous_job_handler.py": {
+        "focal_file": "hyrisecockpit/database_manager/asynchronous_job_handler.py",
+        "methods": {
+            "test_successfully_start_delete_tables": {
+                "line": 124,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "delete_tables"
+                }
+            },
+            "test_successfully_activate_plugin": {
+                "line": 195,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "activate_plugin"
+                }
+            },
+            "test_try_to_activate_already_activated_plugin": {
+                "line": 232,
+                "line_end": 260,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "activate_plugin"
+                }
+            },
+            "test_successfully_deactivate_plugin": {
+                "line": 302,
+                "line_end": 334,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "deactivate_plugin"
+                }
+            }
+        }
+    },
+    "tests/database_manager/test_cursor.py": {
+        "focal_file": "hyrisecockpit/database_manager/cursor.py",
+        "methods": {
+            "test_logs_queries": {
+                "line": 41,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "StorageCursor",
+                "focal_method": {
+                    "line": 208,
+                    "line_end": 226,
+                    "indent": 4,
+                    "name": "log_queries"
+                }
+            },
+            "test_logs_failed_queries": {
+                "line": 80,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "StorageCursor",
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "log_failed_queries"
+                }
+            },
+            "test_logs_plugin_log": {
+                "line": 116,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": "StorageCursor",
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 250,
+                    "indent": 4,
+                    "name": "log_plugin_log"
+                }
+            },
+            "test_logs_meta_information": {
+                "line": 151,
+                "line_end": 166,
+                "indent": 4,
+                "focal_class": "StorageCursor",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 206,
+                    "indent": 4,
+                    "name": "log_meta_information"
+                }
+            },
+            "test_creates_database": {
+                "line": 168,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": "StorageCursor",
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 183,
+                    "indent": 4,
+                    "name": "create_database"
+                }
+            },
+            "test_drops_database": {
+                "line": 177,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": "StorageCursor",
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 187,
+                    "indent": 4,
+                    "name": "drop_database"
+                }
+            },
+            "test_creates_continuous_query": {
+                "line": 186,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": "StorageCursor",
+                "focal_method": {
+                    "line": 189,
+                    "line_end": 198,
+                    "indent": 4,
+                    "name": "create_continuous_query"
+                }
+            },
+            "test_executes": {
+                "line": 233,
+                "line_end": 240,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "execute"
+                }
+            },
+            "test_fetches_one": {
+                "line": 242,
+                "line_end": 250,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "fetchone"
+                }
+            },
+            "test_fetches_all": {
+                "line": 252,
+                "line_end": 260,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "fetchall"
+                }
+            },
+            "test_fetches_column_names": {
+                "line": 262,
+                "line_end": 278,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "fetch_column_names"
+                }
+            },
+            "test_reads_sql_query_pandas": {
+                "line": 283,
+                "line_end": 299,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "read_sql_query"
+                }
+            },
+            "test_create_cursor": {
+                "line": 322,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": "ConnectionFactory",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "create_cursor"
+                }
+            },
+            "test_create_storage_cursor": {
+                "line": 388,
+                "line_end": 408,
+                "indent": 4,
+                "focal_class": "StorageConnectionFactory",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "create_cursor"
+                }
+            }
+        }
+    },
+    "tests/database_manager/test_database.py": {
+        "focal_file": "hyrisecockpit/database_manager/database.py",
+        "methods": {
+            "test_gets_worker_pool_queue_length": {
+                "line": 136,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 219,
+                    "line_end": 225,
+                    "indent": 4,
+                    "name": "get_queue_length"
+                }
+            },
+            "test_activates_plugin_with_success": {
+                "line": 328,
+                "line_end": 341,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 274,
+                    "indent": 4,
+                    "name": "activate_plugin"
+                }
+            },
+            "test_activates_plugin_with_no_success": {
+                "line": 343,
+                "line_end": 356,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 274,
+                    "indent": 4,
+                    "name": "activate_plugin"
+                }
+            },
+            "test_deactivats_plugin_with_success": {
+                "line": 358,
+                "line_end": 372,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "deactivate_plugin"
+                }
+            },
+            "test_deactivats_plugin_with_no_success": {
+                "line": 374,
+                "line_end": 387,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 276,
+                    "line_end": 278,
+                    "indent": 4,
+                    "name": "deactivate_plugin"
+                }
+            },
+            "test_gets_hyrise_active": {
+                "line": 405,
+                "line_end": 411,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 294,
+                    "line_end": 299,
+                    "indent": 4,
+                    "name": "get_hyrise_active"
+                }
+            },
+            "test_gets_loaded_tables": {
+                "line": 413,
+                "line_end": 418,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 301,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "get_loaded_tables_in_database"
+                }
+            },
+            "test_gets_workload_tables_status": {
+                "line": 420,
+                "line_end": 425,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 307,
+                    "indent": 4,
+                    "name": "get_workload_tables_status"
+                }
+            },
+            "test_gets_detailed_plugins": {
+                "line": 427,
+                "line_end": 432,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 317,
+                    "line_end": 319,
+                    "indent": 4,
+                    "name": "get_detailed_plugins"
+                }
+            },
+            "test_sets_plugin_settings": {
+                "line": 434,
+                "line_end": 444,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 321,
+                    "line_end": 327,
+                    "indent": 4,
+                    "name": "set_plugin_setting"
+                }
+            },
+            "test_executes_sql_query": {
+                "line": 446,
+                "line_end": 452,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 329,
+                    "line_end": 331,
+                    "indent": 4,
+                    "name": "execute_sql_query"
+                }
+            },
+            "test_gets_worker_pool_status": {
+                "line": 454,
+                "line_end": 463,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "get_worker_pool_status"
+                }
+            },
+            "test_starts_successful_worker": {
+                "line": 465,
+                "line_end": 474,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "start_worker"
+                }
+            },
+            "test_starts_unsuccessful_worker": {
+                "line": 476,
+                "line_end": 485,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 311,
+                    "indent": 4,
+                    "name": "start_worker"
+                }
+            },
+            "test_closes_successful_worker": {
+                "line": 487,
+                "line_end": 496,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 315,
+                    "indent": 4,
+                    "name": "close_worker"
+                }
+            },
+            "test_closes_unsuccessful_worker": {
+                "line": 498,
+                "line_end": 507,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 313,
+                    "line_end": 315,
+                    "indent": 4,
+                    "name": "close_worker"
+                }
+            },
+            "test_initializes_influx": {
+                "line": 523,
+                "line_end": 556,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 217,
+                    "indent": 4,
+                    "name": "_initialize_influx"
+                }
+            }
+        }
+    },
+    "tests/database_manager/test_database_manager.py": {
+        "focal_file": "hyrisecockpit/database_manager/manager.py",
+        "methods": {
+            "test_get_databases_returns_databases": {
+                "line": 130,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_call_get_databases"
+                }
+            },
+            "test_delete_database_deletes_databases": {
+                "line": 150,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "_call_delete_database"
+                }
+            },
+            "test_call_queue_length_returns_queue_length": {
+                "line": 186,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 152,
+                    "indent": 4,
+                    "name": "_call_queue_length"
+                }
+            },
+            "test_call_add_database": {
+                "line": 217,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_call_add_database"
+                }
+            },
+            "test_call_add_existing_database": {
+                "line": 283,
+                "line_end": 304,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 126,
+                    "indent": 4,
+                    "name": "_call_add_database"
+                }
+            },
+            "test_call_get_databases": {
+                "line": 306,
+                "line_end": 326,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "_call_get_databases"
+                }
+            },
+            "test_delete_database": {
+                "line": 328,
+                "line_end": 336,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "_call_delete_database"
+                }
+            },
+            "test_delete_not_existing_database": {
+                "line": 338,
+                "line_end": 345,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "_call_delete_database"
+                }
+            },
+            "test_call_get_detailed_plugins": {
+                "line": 466,
+                "line_end": 497,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 186,
+                    "indent": 4,
+                    "name": "_call_get_plugins"
+                }
+            },
+            "test_call_activate_plugin": {
+                "line": 500,
+                "line_end": 509,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "_call_activate_plugin"
+                }
+            },
+            "test_call_activate_plugin_with_not_valid_plugin_name": {
+                "line": 512,
+                "line_end": 523,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "_call_activate_plugin"
+                }
+            },
+            "test_call_activate_plugin_unsuccessful": {
+                "line": 526,
+                "line_end": 537,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "_call_activate_plugin"
+                }
+            },
+            "test_call_activate_plugin_on_not_existing_database": {
+                "line": 540,
+                "line_end": 547,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 199,
+                    "indent": 4,
+                    "name": "_call_activate_plugin"
+                }
+            },
+            "test_call_deactivate_plugin": {
+                "line": 549,
+                "line_end": 558,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "_call_deactivate_plugin"
+                }
+            },
+            "test_call_deactivate_plugin_unsuccessful": {
+                "line": 560,
+                "line_end": 571,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "_call_deactivate_plugin"
+                }
+            },
+            "test_call_deactivate_plugin_on_not_existing_database": {
+                "line": 573,
+                "line_end": 580,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 201,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "_call_deactivate_plugin"
+                }
+            },
+            "test_check_database_blocked": {
+                "line": 582,
+                "line_end": 588,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "_check_if_database_blocked"
+                }
+            },
+            "test_check_database_unblocked": {
+                "line": 590,
+                "line_end": 596,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "_check_if_database_blocked"
+                }
+            },
+            "test_call_start_worker_successful": {
+                "line": 598,
+                "line_end": 606,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 239,
+                    "indent": 4,
+                    "name": "_call_start_worker"
+                }
+            },
+            "test_call_start_worker_unsuccessful": {
+                "line": 608,
+                "line_end": 616,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 239,
+                    "indent": 4,
+                    "name": "_call_start_worker"
+                }
+            },
+            "test_call_close_worker_successful": {
+                "line": 618,
+                "line_end": 626,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_call_close_worker"
+                }
+            },
+            "test_call_close_worker_unsuccessful": {
+                "line": 628,
+                "line_end": 636,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 245,
+                    "indent": 4,
+                    "name": "_call_close_worker"
+                }
+            },
+            "test_calls_execute_sql_query": {
+                "line": 638,
+                "line_end": 660,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "_call_execute_sql_query"
+                }
+            },
+            "test_calls_execute_sql_query_on_not_existing_database": {
+                "line": 662,
+                "line_end": 675,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 255,
+                    "indent": 4,
+                    "name": "_call_execute_sql_query"
+                }
+            },
+            "test_calls_database_status": {
+                "line": 677,
+                "line_end": 690,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 257,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "_call_database_status"
+                }
+            },
+            "test_calls_workload_tables_status": {
+                "line": 692,
+                "line_end": 716,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "_call_workload_tables_status"
+                }
+            }
+        }
+    },
+    "tests/database_manager/test_synchronous_job_handler.py": {
+        "focal_file": "hyrisecockpit/database_manager/synchronous_job_handler.py",
+        "methods": {
+            "test_gets_loaded_tables_in_database": {
+                "line": 44,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_loaded_tables_in_database"
+                }
+            },
+            "test_gets_workload_tables_status": {
+                "line": 58,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "get_workload_tables_status"
+                }
+            },
+            "test_gets_detailed_plugins": {
+                "line": 73,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_detailed_plugins"
+                }
+            },
+            "test_executes_sql_query": {
+                "line": 110,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "execute_sql_query"
+                }
+            }
+        }
+    },
+    "tests/database_manager/test_worker.py": {
+        "focal_file": "hyrisecockpit/database_manager/worker/task_worker.py",
+        "methods": {
+            "test_log_of_results": {
+                "line": 135,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "log_results"
+                }
+            },
+            "test_execute_queries": {
+                "line": 187,
+                "line_end": 229,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "execute_queries"
+                }
+            }
+        }
+    },
+    "tests/database_manager/test_worker_pool.py": {
+        "focal_file": "hyrisecockpit/database_manager/worker_pool.py",
+        "methods": {
+            "test_generation_of_execute_task_worker_done_events": {
+                "line": 69,
+                "line_end": 77,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "_generate_execute_task_worker_done_events"
+                }
+            },
+            "test_generates_execute_task_worker": {
+                "line": 85,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "_generate_execute_task_worker"
+                }
+            },
+            "test_generats_fill_task_worker": {
+                "line": 128,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "_generate_fill_task_worker"
+                }
+            },
+            "test_initializes_worker": {
+                "line": 133,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "_init_workers"
+                }
+            },
+            "test_terminates_worker": {
+                "line": 155,
+                "line_end": 168,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "_terminate_worker"
+                }
+            },
+            "test_waits_for_workers": {
+                "line": 171,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "_wait_for_worker"
+                }
+            },
+            "test_starts_worker": {
+                "line": 183,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "_start_worker"
+                }
+            },
+            "test_gets_queue_length": {
+                "line": 405,
+                "line_end": 414,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 153,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "get_queue_length"
+                }
+            }
+        }
+    },
+    "tests/database_manager/job/test_execute_queries_parallel.py": {
+        "focal_file": "hyrisecockpit/database_manager/job/execute_queries_parallel.py",
+        "methods": {
+            "test_successfully_formats_query_parameters": {
+                "line": 23,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "_format_query_parameters"
+                }
+            },
+            "test_doesnt_format_no_parameters": {
+                "line": 42,
+                "line_end": 44,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "_format_query_parameters"
+                }
+            },
+            "test_successfully_executes_table_query": {
+                "line": 49,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 34,
+                    "indent": 0,
+                    "name": "_execute_table_query"
+                }
+            },
+            "test_execute_queries_parallel": {
+                "line": 138,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "execute_queries_parallel"
+                }
+            }
+        }
+    },
+    "tests/database_manager/job/test_execute_sql.py": {
+        "focal_file": "hyrisecockpit/database_manager/job/execute_sql.py",
+        "methods": {
+            "test_executes_sql": {
+                "line": 9,
+                "line_end": 21,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "execute_sql"
+                }
+            }
+        }
+    },
+    "tests/database_manager/job/test_get_detailed_plugins.py": {
+        "focal_file": "hyrisecockpit/database_manager/job/get_detailed_plugins.py",
+        "methods": {
+            "test_gets_plugins_settings_when_no_plugins_exist": {
+                "line": 84,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "_get_plugin_setting"
+                }
+            },
+            "test_gets_plugins_settings_when_plugins_exist": {
+                "line": 102,
+                "line_end": 141,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "_get_plugin_setting"
+                }
+            },
+            "test_gets_plugin_settings_when_database_throws_exception": {
+                "line": 147,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "_get_plugin_setting"
+                }
+            },
+            "test_get_plugins_if_plugins_is_none": {
+                "line": 171,
+                "line_end": 183,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "get_detailed_plugins"
+                }
+            },
+            "test_get_plugins": {
+                "line": 207,
+                "line_end": 243,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "get_detailed_plugins"
+                }
+            }
+        }
+    },
+    "tests/database_manager/job/test_get_loaded_tables.py": {
+        "focal_file": "hyrisecockpit/database_manager/job/get_loaded_tables.py",
+        "methods": {
+            "test_get_existing_tables": {
+                "line": 14,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 19,
+                    "indent": 0,
+                    "name": "get_loaded_tables"
+                }
+            }
+        }
+    },
+    "tests/database_manager/job/test_get_loaded_tables_in_database.py": {
+        "focal_file": "hyrisecockpit/database_manager/job/get_loaded_tables_in_database.py",
+        "methods": {
+            "test_gets_loaded_tables": {
+                "line": 15,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "get_loaded_tables_in_database"
+                }
+            },
+            "test_gets_loaded_tables_with_exception": {
+                "line": 44,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "get_loaded_tables_in_database"
+                }
+            }
+        }
+    },
+    "tests/database_manager/job/test_ping_hyrise.py": {
+        "focal_file": "hyrisecockpit/database_manager/job/ping_hyrise.py",
+        "methods": {
+            "test_pings_hyrise_if_hyrise_dead": {
+                "line": 30,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 13,
+                    "indent": 0,
+                    "name": "ping_hyrise"
+                }
+            }
+        }
+    },
+    "tests/database_manager/job/test_set_plugin_settings.py": {
+        "focal_file": "hyrisecockpit/database_manager/job/set_plugin_setting.py",
+        "methods": {
+            "test_sets_plugin_setting_when_database_is_unblocked": {
+                "line": 14,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "set_plugin_setting"
+                }
+            },
+            "test_set_plugin_settings_when_database_blocked": {
+                "line": 42,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 5,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "set_plugin_setting"
+                }
+            }
+        }
+    },
+    "tests/drivers/test_job.py": {
+        "focal_file": "hyrisecockpit/drivers/job/job_driver.py",
+        "methods": {
+            "test_get_scalefactors": {
+                "line": 49,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "get_scalefactors"
+                }
+            },
+            "test_get_default_weights": {
+                "line": 53,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "get_default_weights"
+                }
+            },
+            "test_generate": {
+                "line": 59,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "generate"
+                }
+            },
+            "test_get_table_names": {
+                "line": 73,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_table_names"
+                }
+            },
+            "test_get_load_queries": {
+                "line": 85,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "get_load_queries"
+                }
+            },
+            "test_get_delete_queries": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_delete_queries"
+                }
+            },
+            "test_execute_task": {
+                "line": 109,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "execute_task"
+                }
+            }
+        }
+    },
+    "tests/drivers/test_tpcc_driver.py": {
+        "focal_file": "hyrisecockpit/drivers/tpcc/tpcc_driver.py",
+        "methods": {
+            "test_get_scalefactors": {
+                "line": 58,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "get_scalefactors"
+                }
+            },
+            "test_get_default_weights": {
+                "line": 62,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "get_default_weights"
+                }
+            },
+            "test_generate": {
+                "line": 76,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "generate"
+                }
+            },
+            "test_get_table_names": {
+                "line": 97,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "get_table_names"
+                }
+            },
+            "test_get_load_queries": {
+                "line": 114,
+                "line_end": 124,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "get_load_queries"
+                }
+            },
+            "test_get_delete_queries": {
+                "line": 126,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "get_delete_queries"
+                }
+            },
+            "test_execute_task": {
+                "line": 139,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "execute_task"
+                }
+            }
+        }
+    },
+    "tests/drivers/test_tpcds.py": {
+        "focal_file": "hyrisecockpit/drivers/tpcds/tpcds_driver.py",
+        "methods": {
+            "test_get_scalefactors": {
+                "line": 49,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "get_scalefactors"
+                }
+            },
+            "test_get_default_weights": {
+                "line": 53,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "get_default_weights"
+                }
+            },
+            "test_generate": {
+                "line": 59,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "generate"
+                }
+            },
+            "test_get_table_names": {
+                "line": 73,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_table_names"
+                }
+            },
+            "test_get_load_queries": {
+                "line": 85,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "get_load_queries"
+                }
+            },
+            "test_get_delete_queries": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_delete_queries"
+                }
+            },
+            "test_execute_task": {
+                "line": 109,
+                "line_end": 127,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "execute_task"
+                }
+            }
+        }
+    },
+    "tests/drivers/test_tpch.py": {
+        "focal_file": "hyrisecockpit/drivers/tpch/tpch_driver.py",
+        "methods": {
+            "test_get_scalefactors": {
+                "line": 57,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 41,
+                    "indent": 4,
+                    "name": "get_scalefactors"
+                }
+            },
+            "test_get_default_weights": {
+                "line": 61,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "get_default_weights"
+                }
+            },
+            "test_generate": {
+                "line": 67,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "generate"
+                }
+            },
+            "test_get_table_names": {
+                "line": 81,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "get_table_names"
+                }
+            },
+            "test_get_load_queries": {
+                "line": 93,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "get_load_queries"
+                }
+            },
+            "test_get_delete_queries": {
+                "line": 105,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "get_delete_queries"
+                }
+            },
+            "test_execute_task": {
+                "line": 117,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 69,
+                    "indent": 4,
+                    "name": "execute_task"
+                }
+            }
+        }
+    },
+    "tests/drivers/__default__/test_default_driver.py": {
+        "focal_file": "hyrisecockpit/drivers/__default__/driver.py",
+        "methods": {
+            "test_get_workload_for_scale_factor_if_workload_is_present": {
+                "line": 37,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "_get_workload_for_scale_factor"
+                }
+            },
+            "test_get_workload_for_scale_factor_if_workload_is_not_present": {
+                "line": 48,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "_get_workload_for_scale_factor"
+                }
+            },
+            "test_gets_formatted_scalefactor": {
+                "line": 78,
+                "line_end": 82,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "_get_formatted_scalefactor"
+                }
+            },
+            "test_gets_table_names": {
+                "line": 84,
+                "line_end": 91,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "get_table_names"
+                }
+            },
+            "test_gets_load_queries": {
+                "line": 93,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_load_queries"
+                }
+            },
+            "test_gets_delete_queries": {
+                "line": 122,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "get_delete_queries"
+                }
+            },
+            "test_gets_formatted_parameters": {
+                "line": 145,
+                "line_end": 156,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "_get_formatted_parameters"
+                }
+            },
+            "test_executes_query": {
+                "line": 159,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 119,
+                    "indent": 4,
+                    "name": "_execute_query"
+                }
+            },
+            "test_executes_task": {
+                "line": 178,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 133,
+                    "indent": 4,
+                    "name": "execute_task"
+                }
+            }
+        }
+    },
+    "tests/workload_generator/test_generator.py": {
+        "focal_file": "hyrisecockpit/workload_generator/generator.py",
+        "methods": {
+            "test_get_all_workloads": {
+                "line": 82,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "_call_get_all_workloads"
+                }
+            },
+            "test_get_workload_information": {
+                "line": 111,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "_call_get_workload"
+                }
+            },
+            "test_get_information_for_not_existing_workload": {
+                "line": 136,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 103,
+                    "indent": 4,
+                    "name": "_call_get_workload"
+                }
+            },
+            "test_stop_workload": {
+                "line": 147,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_call_stop_workload"
+                }
+            },
+            "test_stop_not_existing_workload": {
+                "line": 160,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "_call_stop_workload"
+                }
+            },
+            "test_update_workload": {
+                "line": 169,
+                "line_end": 190,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "_call_update_workload"
+                }
+            },
+            "test_update_not_existing_workload": {
+                "line": 192,
+                "line_end": 204,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "_call_update_workload"
+                }
+            },
+            "test_get_workload_queries": {
+                "line": 210,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 146,
+                    "indent": 4,
+                    "name": "_get_workload_queries"
+                }
+            }
+        }
+    }
+}

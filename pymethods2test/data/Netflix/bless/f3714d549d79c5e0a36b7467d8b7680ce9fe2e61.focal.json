@@ -1,0 +1,553 @@
+{
+    "tests/config/test_bless_config.py": {
+        "focal_file": "bless/config/bless_config.py",
+        "methods": {
+            "test_config_no_password": {
+                "line": 43,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": "BlessConfig",
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "getpassword"
+                }
+            }
+        }
+    },
+    "tests/request/test_bless_request_host.py": {
+        "focal_file": "bless/request/bless_request_host.py",
+        "methods": {
+            "test_validate_hostnames": {
+                "line": 11,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "validate_hostname"
+                }
+            },
+            "test_invalid_hostnames": {
+                "line": 20,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "validate_hostname"
+                }
+            },
+            "test_invalid_hostnames_with_disabled": {
+                "line": 32,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 24,
+                    "indent": 0,
+                    "name": "validate_hostname"
+                }
+            },
+            "test_valid_multiple_hostnames": {
+                "line": 40,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": "BlessHostSchema",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "validate_hostnames"
+                }
+            },
+            "test_invalid_multiple_hostnames": {
+                "line": 47,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": "BlessHostSchema",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "validate_hostnames"
+                }
+            }
+        }
+    },
+    "tests/request/test_bless_request_user.py": {
+        "focal_file": "bless/request/bless_request_user.py",
+        "methods": {
+            "test_validate_ips": {
+                "line": 8,
+                "line_end": 14,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "validate_ips"
+                }
+            },
+            "test_validate_ips_cidr": {
+                "line": 17,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "validate_ips"
+                }
+            },
+            "test_validate_user_too_long": {
+                "line": 23,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_contains_junk": {
+                "line": 36,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user": {
+                "line": 48,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_debian_too_long": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_debian_invalid": {
+                "line": 68,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_blacklist": {
+                "line": 81,
+                "line_end": 84,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_debian": {
+                "line": 96,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_principal": {
+                "line": 105,
+                "line_end": 106,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_email": {
+                "line": 114,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_invalid_user_email": {
+                "line": 122,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_user_disabled": {
+                "line": 133,
+                "line_end": 134,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            },
+            "test_validate_multiple_principals": {
+                "line": 143,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": "BlessUserSchema",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "validate_remote_usernames"
+                }
+            },
+            "test_invalid_call_of_validate_user": {
+                "line": 173,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "validate_user"
+                }
+            }
+        }
+    },
+    "tests/ssh/test_ssh_certificate_rsa.py": {
+        "focal_file": "bless/ssh/certificates/ssh_certificate_builder.py",
+        "methods": {
+            "test_valid_principals": {
+                "line": 47,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "add_valid_principal"
+                }
+            },
+            "test_serialize_no_principals": {
+                "line": 70,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 290,
+                    "indent": 4,
+                    "name": "_serialize_valid_principals"
+                }
+            },
+            "test_serialize_one_principal": {
+                "line": 77,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 290,
+                    "indent": 4,
+                    "name": "_serialize_valid_principals"
+                }
+            },
+            "test_serialize_multiple_principals": {
+                "line": 86,
+                "line_end": 94,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 284,
+                    "line_end": 290,
+                    "indent": 4,
+                    "name": "_serialize_valid_principals"
+                }
+            },
+            "test_no_extensions": {
+                "line": 97,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 159,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "clear_extensions"
+                }
+            },
+            "test_bogus_cert_validity_range": {
+                "line": 105,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 117,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "set_valid_after"
+                }
+            },
+            "test_bogus_critical_options": {
+                "line": 113,
+                "line_end": 119,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "set_critical_option_source_addresses"
+                }
+            },
+            "test_rsa_user_cert_minimal": {
+                "line": 122,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "get_cert_file"
+                }
+            },
+            "test_default_extensions": {
+                "line": 130,
+                "line_end": 133,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 271,
+                    "line_end": 282,
+                    "indent": 4,
+                    "name": "_serialize_extensions"
+                }
+            },
+            "test_add_extensions": {
+                "line": 136,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 183,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "add_extension"
+                }
+            },
+            "test_rsa_user_cert_defaults": {
+                "line": 148,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 212,
+                    "indent": 4,
+                    "name": "get_cert_file"
+                }
+            },
+            "test_rsa_user_cert_many_principals": {
+                "line": 177,
+                "line_end": 187,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "add_valid_principal"
+                }
+            },
+            "test_rsa_host_cert_many_principals": {
+                "line": 190,
+                "line_end": 200,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "add_valid_principal"
+                }
+            },
+            "test_rsa_user_cert_critical_opt_source_address": {
+                "line": 203,
+                "line_end": 213,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "set_critical_option_source_addresses"
+                }
+            },
+            "test_nonce": {
+                "line": 216,
+                "line_end": 223,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "set_nonce"
+                }
+            }
+        }
+    },
+    "tests/ssh/test_ssh_protocol.py": {
+        "focal_file": "bless/ssh/protocol/ssh_protocol.py",
+        "methods": {
+            "test_strings": {
+                "line": 7,
+                "line_end": 12,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "pack_ssh_string"
+                }
+            },
+            "test_mpints": {
+                "line": 25,
+                "line_end": 32,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 36,
+                    "indent": 0,
+                    "name": "pack_ssh_mpint"
+                }
+            },
+            "test_hex_characters_length": {
+                "line": 35,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 118,
+                    "indent": 0,
+                    "name": "_hex_characters_length"
+                }
+            },
+            "test_uint32": {
+                "line": 42,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 83,
+                    "indent": 0,
+                    "name": "pack_ssh_uint32"
+                }
+            },
+            "test_uint64": {
+                "line": 52,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "pack_ssh_uint64"
+                }
+            }
+        }
+    },
+    "tests/ssh/test_ssh_public_key_factory.py": {
+        "focal_file": "bless/ssh/public_keys/ssh_public_key_factory.py",
+        "methods": {
+            "test_invalid_key": {
+                "line": 24,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 11,
+                    "line_end": 25,
+                    "indent": 0,
+                    "name": "get_ssh_public_key"
+                }
+            }
+        }
+    },
+    "tests/ssh/test_ssh_public_key_rsa.py": {
+        "focal_file": "bless/ssh/public_keys/rsa_public_key.py",
+        "methods": {
+            "test_validation_for_signing": {
+                "line": 34,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": "RSAPublicKey",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "validate_for_signing"
+                }
+            }
+        }
+    }
+}

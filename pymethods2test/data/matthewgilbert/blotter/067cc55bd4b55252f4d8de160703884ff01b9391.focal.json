@@ -1,0 +1,449 @@
+{
+    "blotter/tests/test_blotter.py": {
+        "focal_file": "blotter/blotter.py",
+        "methods": {
+            "test_get_actions": {
+                "line": 60,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 326,
+                    "line_end": 352,
+                    "indent": 4,
+                    "name": "_get_actions"
+                }
+            },
+            "test_get_holdings_empty": {
+                "line": 112,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 532,
+                    "indent": 4,
+                    "name": "get_holdings_value"
+                }
+            },
+            "test_get_holdings_value_no_fx_conversion": {
+                "line": 119,
+                "line_end": 132,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 532,
+                    "indent": 4,
+                    "name": "get_holdings_value"
+                }
+            },
+            "test_get_holdings_timestamp_before": {
+                "line": 134,
+                "line_end": 149,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 532,
+                    "indent": 4,
+                    "name": "get_holdings_value"
+                }
+            },
+            "test_get_holdings_base_ccy": {
+                "line": 151,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 496,
+                    "line_end": 532,
+                    "indent": 4,
+                    "name": "get_holdings_value"
+                }
+            },
+            "test_get_instruments_empty": {
+                "line": 199,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 579,
+                    "line_end": 604,
+                    "indent": 4,
+                    "name": "get_instruments"
+                }
+            },
+            "test_get_instruments_multiplier": {
+                "line": 205,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 579,
+                    "line_end": 604,
+                    "indent": 4,
+                    "name": "get_instruments"
+                }
+            },
+            "test_get_instruments_two_ccy": {
+                "line": 220,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 579,
+                    "line_end": 604,
+                    "indent": 4,
+                    "name": "get_instruments"
+                }
+            },
+            "test_get_trades_two_futures": {
+                "line": 279,
+                "line_end": 302,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 534,
+                    "line_end": 577,
+                    "indent": 4,
+                    "name": "get_trades"
+                }
+            },
+            "test_create_unknown_event": {
+                "line": 304,
+                "line_end": 311,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_dispatch_unknown_event": {
+                "line": 313,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": "blotter.blotter._Event",
+                "focal_method": {
+                    "line": 459,
+                    "line_end": 487,
+                    "indent": 4,
+                    "name": "dispatch_events"
+                }
+            },
+            "test_create_interest_event": {
+                "line": 324,
+                "line_end": 340,
+                "indent": 4,
+                "focal_class": "blotter.blotter._Event",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_interest_event_no_rate": {
+                "line": 342,
+                "line_end": 353,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_interest_weekend_event": {
+                "line": 355,
+                "line_end": 371,
+                "indent": 4,
+                "focal_class": "blotter.blotter._Event",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_margin_event": {
+                "line": 373,
+                "line_end": 404,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_short_margin_event": {
+                "line": 406,
+                "line_end": 428,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_pnl_event": {
+                "line": 430,
+                "line_end": 452,
+                "indent": 4,
+                "focal_class": "blotter.blotter._Event",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_pnl_event_no_price": {
+                "line": 454,
+                "line_end": 469,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_pnl_sweep_event_closed_pnl": {
+                "line": 489,
+                "line_end": 503,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_pnl_sweep_no_event_base": {
+                "line": 522,
+                "line_end": 532,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 354,
+                    "line_end": 448,
+                    "indent": 4,
+                    "name": "create_events"
+                }
+            },
+            "test_create_trade_fx_AUDUSD": {
+                "line": 548,
+                "line_end": 565,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_create_trade"
+                }
+            },
+            "test_create_trade_fx_USDCAD": {
+                "line": 567,
+                "line_end": 584,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_create_trade"
+                }
+            },
+            "test_create_trade_future": {
+                "line": 586,
+                "line_end": 600,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_create_trade"
+                }
+            },
+            "test_create_trade_0_quantity": {
+                "line": 602,
+                "line_end": 609,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 261,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "_create_trade"
+                }
+            },
+            "test_create_read_log": {
+                "line": 611,
+                "line_end": 632,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 641,
+                    "line_end": 656,
+                    "indent": 4,
+                    "name": "read_log"
+                }
+            },
+            "test_write_log": {
+                "line": 634,
+                "line_end": 651,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 624,
+                    "line_end": 639,
+                    "indent": 4,
+                    "name": "write_log"
+                }
+            },
+            "test_automatic_events_future_type_creation": {
+                "line": 653,
+                "line_end": 671,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 303,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "automatic_events"
+                }
+            },
+            "test_automatic_events_fx_type_creation": {
+                "line": 673,
+                "line_end": 693,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 303,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "automatic_events"
+                }
+            },
+            "test_automatic_events_closed_pnl_mark": {
+                "line": 695,
+                "line_end": 719,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 303,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "automatic_events"
+                }
+            },
+            "test_empty_automatic_events": {
+                "line": 721,
+                "line_end": 734,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 303,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "automatic_events"
+                }
+            },
+            "test_read_meta": {
+                "line": 736,
+                "line_end": 763,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 698,
+                    "line_end": 725,
+                    "indent": 4,
+                    "name": "read_meta"
+                }
+            },
+            "test_write_meta": {
+                "line": 765,
+                "line_end": 788,
+                "indent": 4,
+                "focal_class": "blotter.blotter.Blotter",
+                "focal_method": {
+                    "line": 666,
+                    "line_end": 696,
+                    "indent": 4,
+                    "name": "write_meta"
+                }
+            }
+        }
+    },
+    "blotter/tests/test_event.py": {
+        "focal_file": "blotter/blotter.py",
+        "methods": {
+            "test_trade_fromstring": {
+                "line": 48,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "blotter.blotter._Event",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "fromstring"
+                }
+            },
+            "test_pnl_fromstring": {
+                "line": 86,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "blotter.blotter._Event",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "fromstring"
+                }
+            },
+            "test_pnl_tostring": {
+                "line": 96,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "fromstring"
+                }
+            }
+        }
+    },
+    "blotter/tests/test_marketdata.py": {
+        "focal_file": "blotter/marketdata.py",
+        "methods": {
+            "test_read_file": {
+                "line": 37,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "_read_file"
+                }
+            }
+        }
+    }
+}

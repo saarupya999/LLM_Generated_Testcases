@@ -1,0 +1,346 @@
+{
+    "src/jenkinsgithublander/tests/test_github.py": {
+        "focal_file": "src/jenkinsgithublander/github.py",
+        "methods": {
+            "test_user_is_not_in_org": {
+                "line": 79,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 257,
+                    "indent": 0,
+                    "name": "user_is_in_org"
+                }
+            },
+            "test_user_is_in_org": {
+                "line": 88,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 244,
+                    "line_end": 257,
+                    "indent": 0,
+                    "name": "user_is_in_org"
+                }
+            },
+            "test_open_pull_requests": {
+                "line": 111,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "get_open_pull_requests"
+                }
+            },
+            "test_open_pull_requests_multipage": {
+                "line": 126,
+                "line_end": 158,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "get_open_pull_requests"
+                }
+            },
+            "test_get_pull_request_comments": {
+                "line": 161,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "get_pull_request_comments"
+                }
+            },
+            "test_get_pull_request_comments_multipage": {
+                "line": 178,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "get_pull_request_comments"
+                }
+            },
+            "test_no_mergeable_pull_requests": {
+                "line": 214,
+                "line_end": 237,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "mergeable_pull_requests"
+                }
+            },
+            "test_mergeable_pull_requests": {
+                "line": 304,
+                "line_end": 324,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "mergeable_pull_requests"
+                }
+            },
+            "test_mergeable_pull_requests_skip_prs_with_no_repo": {
+                "line": 327,
+                "line_end": 351,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "mergeable_pull_requests"
+                }
+            },
+            "test_merge_pull_request": {
+                "line": 354,
+                "line_end": 390,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 206,
+                    "indent": 0,
+                    "name": "merge_pull_request"
+                }
+            },
+            "test_merge_pull_request_fails": {
+                "line": 393,
+                "line_end": 422,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 177,
+                    "line_end": 206,
+                    "indent": 0,
+                    "name": "merge_pull_request"
+                }
+            },
+            "test_pull_request_build_failed": {
+                "line": 456,
+                "line_end": 482,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 209,
+                    "line_end": 224,
+                    "indent": 0,
+                    "name": "pull_request_build_failed"
+                }
+            },
+            "test_pull_request_kicked": {
+                "line": 485,
+                "line_end": 505,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 227,
+                    "line_end": 241,
+                    "indent": 0,
+                    "name": "pull_request_kicked"
+                }
+            }
+        }
+    },
+    "src/jenkinsgithublander/tests/test_jobs.py": {
+        "focal_file": "src/jenkinsgithublander/jobs.py",
+        "methods": {
+            "test_merge_pull_request_kicker": {
+                "line": 35,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "kick_mergeable_pull_requests"
+                }
+            },
+            "test_mark_pull_request_build_failed": {
+                "line": 87,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "mark_pull_request_build_failed"
+                }
+            },
+            "test_merge_pull_request": {
+                "line": 126,
+                "line_end": 159,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 139,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "do_merge_pull_request"
+                }
+            },
+            "test_get_jenkins_auth": {
+                "line": 196,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_jenkins_auth"
+                }
+            },
+            "test_get_jenkins_auth_no_user": {
+                "line": 201,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_jenkins_auth"
+                }
+            },
+            "test_get_jenkins_auth_no_password": {
+                "line": 207,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_jenkins_auth"
+                }
+            }
+        }
+    },
+    "src/jenkinsgithublander/tests/test_jenkins.py": {
+        "focal_file": "src/jenkinsgithublander/jenkins.py",
+        "methods": {
+            "test_generate_build_url": {
+                "line": 23,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "generate_build_url"
+                }
+            },
+            "test_generate_job_url": {
+                "line": 37,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "generate_job_url"
+                }
+            },
+            "test_generate_job_build_url": {
+                "line": 50,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "generate_job_build_url"
+                }
+            },
+            "test_kick_jenkins_merge": {
+                "line": 83,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "kick_jenkins_merge"
+                }
+            },
+            "test_kick_jenkins_merge_auth": {
+                "line": 103,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "kick_jenkins_merge"
+                }
+            },
+            "test_kick_jenkins_merge_201": {
+                "line": 126,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "kick_jenkins_merge"
+                }
+            }
+        }
+    },
+    "src/jenkinsgithublander/tests/test_utils.py": {
+        "focal_file": "src/jenkinsgithublander/utils.py",
+        "methods": {
+            "test_build_config_single_project": {
+                "line": 8,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 2,
+                    "indent": 0,
+                    "name": "build_config"
+                }
+            },
+            "test_build_config_multiple_projects": {
+                "line": 28,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 2,
+                    "indent": 0,
+                    "name": "build_config"
+                }
+            }
+        }
+    }
+}

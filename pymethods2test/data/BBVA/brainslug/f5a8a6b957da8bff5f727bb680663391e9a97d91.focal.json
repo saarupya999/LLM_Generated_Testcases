@@ -1,0 +1,166 @@
+{
+    "tests/unit/test_asynctinydb.py": {
+        "focal_file": "brainslug/database.py",
+        "methods": {
+            "test_wait_for_insert_hangs": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": "AsyncTinyDB",
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "wait_for_insert"
+                }
+            },
+            "test_wait_for_insert_wakes_on_insert": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": "AsyncTinyDB",
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 24,
+                    "indent": 4,
+                    "name": "insert"
+                }
+            }
+        }
+    },
+    "tests/unit/test_slug.py": {
+        "focal_file": "brainslug/_slug.py",
+        "methods": {
+            "test_run_in_thread_calls_function": {
+                "line": 72,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": "Slug",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "run_in_thread"
+                }
+            },
+            "test_run_in_thread_returns_same_as_fn": {
+                "line": 80,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": "Slug",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "run_in_thread"
+                }
+            },
+            "test_run_in_thread_raise_fn_exception": {
+                "line": 89,
+                "line_end": 98,
+                "indent": 0,
+                "focal_class": "Slug",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "run_in_thread"
+                }
+            },
+            "test_attach_resources_return_fn_wrapped": {
+                "line": 121,
+                "line_end": 135,
+                "indent": 0,
+                "focal_class": "Slug",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "attach_resources"
+                }
+            }
+        }
+    },
+    "tests/unit/test_channel.py": {
+        "focal_file": "brainslug/channel.py",
+        "methods": {
+            "test_first_step_returns_code_after_remote_eval": {
+                "line": 28,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": "Channel",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "remote_eval"
+                }
+            },
+            "test_first_remote_eval_hangs_after_first_step": {
+                "line": 48,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": "Channel",
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "first_step"
+                }
+            },
+            "test_next_step_hangs_after_first_remote_eval": {
+                "line": 74,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": "Channel",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 84,
+                    "indent": 4,
+                    "name": "remote_eval"
+                }
+            }
+        }
+    },
+    "tests/unit/test_util.py": {
+        "focal_file": "brainslug/runtime.py",
+        "methods": {
+            "test_get_resources_success_on_no_query": {
+                "line": 38,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 20,
+                    "indent": 0,
+                    "name": "get_resources"
+                }
+            },
+            "test_wait_for_resources_return_resources": {
+                "line": 92,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "wait_for_resources"
+                }
+            },
+            "test_wait_for_resources_hangs_if_no_resources": {
+                "line": 102,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 28,
+                    "indent": 0,
+                    "name": "wait_for_resources"
+                }
+            }
+        }
+    }
+}

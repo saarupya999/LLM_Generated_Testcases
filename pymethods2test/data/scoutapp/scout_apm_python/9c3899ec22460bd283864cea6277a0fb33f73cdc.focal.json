@@ -1,0 +1,795 @@
+{
+    "tests/integration/test_api.py": {
+        "focal_file": "src/scout_apm/api/__init__.py",
+        "methods": {
+            "test_web_transaction_start_stop": {
+                "line": 152,
+                "line_end": 158,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_background_transaction_start_stop": {
+                "line": 219,
+                "line_end": 225,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "stop"
+                }
+            },
+            "test_ignore_transaction": {
+                "line": 301,
+                "line_end": 304,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "ignore_transaction"
+                }
+            },
+            "test_rename_transaction": {
+                "line": 307,
+                "line_end": 312,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "rename_transaction"
+                }
+            },
+            "test_rename_transaction_none": {
+                "line": 315,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 149,
+                    "indent": 0,
+                    "name": "rename_transaction"
+                }
+            },
+            "test_error_capture": {
+                "line": 323,
+                "line_end": 367,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "capture"
+                }
+            },
+            "test_error_capture_skip": {
+                "line": 380,
+                "line_end": 388,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "capture"
+                }
+            }
+        }
+    },
+    "tests/integration/instruments/test_redis.py": {
+        "focal_file": "src/scout_apm/instruments/redis.py",
+        "methods": {
+            "test_ensure_installed_twice": {
+                "line": 23,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_install_fail_no_redis": {
+                "line": 36,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_ensure_installed_fail_no_pipeline_execute": {
+                "line": 79,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 29,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            }
+        }
+    },
+    "tests/integration/instruments/test_asyncio_py36plus.py": {
+        "focal_file": "src/scout_apm/instruments/asyncio.py",
+        "methods": {
+            "test_ensure_installed_twice": {
+                "line": 64,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_task_cancelled": {
+                "line": 187,
+                "line_end": 194,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_future_awaited": {
+                "line": 198,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_future_not_gathered": {
+                "line": 229,
+                "line_end": 244,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_future_cancelled": {
+                "line": 248,
+                "line_end": 258,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            }
+        }
+    },
+    "tests/integration/instruments/test_elasticsearch.py": {
+        "focal_file": "src/scout_apm/instruments/elasticsearch.py",
+        "methods": {
+            "test_ensure_installed_twice": {
+                "line": 60,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_ensure_installed_fail_no_client": {
+                "line": 73,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_ensure_installed_fail_no_client_bulk": {
+                "line": 94,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            }
+        }
+    },
+    "tests/integration/instruments/test_pymongo.py": {
+        "focal_file": "src/scout_apm/instruments/pymongo.py",
+        "methods": {
+            "test_ensure_installed_twice": {
+                "line": 56,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            },
+            "test_ensure_installed_fail_no_collection": {
+                "line": 69,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 40,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            }
+        }
+    },
+    "tests/integration/instruments/test_urllib3.py": {
+        "focal_file": "src/scout_apm/instruments/urllib3.py",
+        "methods": {
+            "test_ensure_installed_twice": {
+                "line": 20,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "ensure_installed"
+                }
+            }
+        }
+    },
+    "tests/integration/core/test_error_service.py": {
+        "focal_file": "src/scout_apm/core/error_service.py",
+        "methods": {
+            "test_send": {
+                "line": 53,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "send"
+                }
+            }
+        }
+    },
+    "tests/integration/core/agent/test_manager.py": {
+        "focal_file": "src/scout_apm/core/agent/manager.py",
+        "methods": {
+            "test_no_launch": {
+                "line": 17,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "launch"
+                }
+            },
+            "test_download_and_launch": {
+                "line": 67,
+                "line_end": 86,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "launch"
+                }
+            }
+        }
+    },
+    "tests/integration/core/agent/test_socket.py": {
+        "focal_file": "src/scout_apm/core/agent/socket.py",
+        "methods": {
+            "test_send": {
+                "line": 48,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "send"
+                }
+            }
+        }
+    },
+    "tests/unit/test_compat.py": {
+        "focal_file": "src/scout_apm/compat.py",
+        "methods": {
+            "test_datetime_to_timestamp": {
+                "line": 50,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "datetime_to_timestamp"
+                }
+            },
+            "test_text": {
+                "line": 57,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "text"
+                }
+            },
+            "test_get_pos_args_args": {
+                "line": 61,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "get_pos_args"
+                }
+            },
+            "test_get_pos_args_kwargs": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "get_pos_args"
+                }
+            },
+            "test_unwrap_decorators_no_decorators": {
+                "line": 75,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "unwrap_decorators"
+                }
+            },
+            "test_unwrap_decorators_one_decorator": {
+                "line": 82,
+                "line_end": 93,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 111,
+                    "indent": 0,
+                    "name": "unwrap_decorators"
+                }
+            }
+        }
+    },
+    "tests/unit/core/test_threading.py": {
+        "focal_file": "src/scout_apm/core/threading.py",
+        "methods": {
+            "test_ensure_started": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "ensure_started"
+                }
+            },
+            "test_ensure_stopped": {
+                "line": 71,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "ensure_stopped"
+                }
+            }
+        }
+    },
+    "tests/unit/core/test_metadata.py": {
+        "focal_file": "src/scout_apm/core/metadata.py",
+        "methods": {
+            "test_report_app_metadata": {
+                "line": 15,
+                "line_end": 27,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "report_app_metadata"
+                }
+            },
+            "test_report_app_metadata_no_importlib_metadata": {
+                "line": 31,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 21,
+                    "indent": 0,
+                    "name": "report_app_metadata"
+                }
+            },
+            "test_get_python_packages_versions_None_package": {
+                "line": 48,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 70,
+                    "indent": 0,
+                    "name": "get_python_packages_versions"
+                }
+            }
+        }
+    },
+    "tests/unit/core/test_web_requests.py": {
+        "focal_file": "src/scout_apm/core/web_requests.py",
+        "methods": {
+            "test_create_filtered_path": {
+                "line": 44,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "create_filtered_path"
+                }
+            },
+            "test_filter_element": {
+                "line": 64,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 95,
+                    "indent": 0,
+                    "name": "filter_element"
+                }
+            },
+            "test_create_filtered_path_path": {
+                "line": 69,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "create_filtered_path"
+                }
+            },
+            "test_ignore": {
+                "line": 83,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 98,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "ignore_path"
+                }
+            },
+            "test_track_request_queue_time_valid": {
+                "line": 117,
+                "line_end": 128,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 135,
+                    "indent": 0,
+                    "name": "track_request_queue_time"
+                }
+            },
+            "test_track_request_queue_time_invalid": {
+                "line": 141,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 135,
+                    "indent": 0,
+                    "name": "track_request_queue_time"
+                }
+            },
+            "test_convert_ambiguous_timestamp_to_ns": {
+                "line": 165,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 161,
+                    "indent": 0,
+                    "name": "convert_ambiguous_timestamp_to_ns"
+                }
+            }
+        }
+    },
+    "tests/unit/core/test_config.py": {
+        "focal_file": "src/scout_apm/core/config.py",
+        "methods": {
+            "test_get_config_value_from_env": {
+                "line": 15,
+                "line_end": 21,
+                "indent": 0,
+                "focal_class": "ScoutConfig",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "value"
+                }
+            },
+            "test_get_default_config_value": {
+                "line": 67,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": "ScoutConfig",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "value"
+                }
+            },
+            "test_get_undefined_config_value": {
+                "line": 72,
+                "line_end": 74,
+                "indent": 0,
+                "focal_class": "ScoutConfig",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 4,
+                    "name": "value"
+                }
+            },
+            "test_core_agent_permissions_default": {
+                "line": 129,
+                "line_end": 130,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "core_agent_permissions"
+                }
+            },
+            "test_core_agent_permissions_custom_int": {
+                "line": 133,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "core_agent_permissions"
+                }
+            },
+            "test_core_agent_permissions_custom_str": {
+                "line": 141,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "core_agent_permissions"
+                }
+            },
+            "test_core_agent_permissions_invalid_uses_default": {
+                "line": 149,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 94,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "core_agent_permissions"
+                }
+            }
+        }
+    },
+    "tests/unit/core/test_platform_detection.py": {
+        "focal_file": "src/scout_apm/core/platform_detection.py",
+        "methods": {
+            "test_get_triple": {
+                "line": 11,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "get_triple"
+                }
+            },
+            "test_is_valid_triple": {
+                "line": 29,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 14,
+                    "indent": 0,
+                    "name": "is_valid_triple"
+                }
+            },
+            "test_get_arch": {
+                "line": 44,
+                "line_end": 46,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 31,
+                    "indent": 0,
+                    "name": "get_arch"
+                }
+            },
+            "test_get_platform": {
+                "line": 59,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 47,
+                    "indent": 0,
+                    "name": "get_platform"
+                }
+            }
+        }
+    },
+    "tests/unit/core/test_objtrace.py": {
+        "focal_file": "src/scout_apm/core/objtrace.py",
+        "methods": {
+            "test_get_counts": {
+                "line": 37,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 18,
+                    "indent": 4,
+                    "name": "get_counts"
+                }
+            }
+        }
+    },
+    "tests/unit/core/agent/test_commands.py": {
+        "focal_file": "src/scout_apm/core/agent/commands.py",
+        "methods": {
+            "test_command_message": {
+                "line": 198,
+                "line_end": 199,
+                "indent": 0,
+                "focal_class": "scout_apm.core.agent.commands.BatchCommand",
+                "focal_method": {
+                    "line": 22,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "message"
+                }
+            },
+            "test_batch_command_from_tracked_request": {
+                "line": 239,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "from_tracked_request"
+                }
+            },
+            "test_batch_command_from_tracked_request_with_span": {
+                "line": 299,
+                "line_end": 359,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "from_tracked_request"
+                }
+            },
+            "test_batch_command_from_tracked_request_with_span_no_objtrace": {
+                "line": 363,
+                "line_end": 423,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 188,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "from_tracked_request"
+                }
+            }
+        }
+    }
+}

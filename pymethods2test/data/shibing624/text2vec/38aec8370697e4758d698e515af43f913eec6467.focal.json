@@ -1,0 +1,48 @@
+{
+    "tests/test_embedding.py": {
+        "focal_file": "text2vec/embeddings/bert_embedding.py",
+        "methods": {
+            "test_embed": {
+                "line": 46,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 213,
+                    "indent": 4,
+                    "name": "embed"
+                }
+            }
+        }
+    },
+    "tests/test_rankbm25.py": {
+        "focal_file": "text2vec/algorithm/rank_bm25.py",
+        "methods": {
+            "test_en_topn": {
+                "line": 15,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "BM25Okapi",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "get_top_n"
+                }
+            },
+            "test_zh_topn": {
+                "line": 36,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "BM25Okapi",
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 71,
+                    "indent": 4,
+                    "name": "get_top_n"
+                }
+            }
+        }
+    }
+}

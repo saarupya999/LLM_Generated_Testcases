@@ -1,0 +1,828 @@
+{
+    "test/test_activation.py": {
+        "focal_file": "players/activation.py",
+        "methods": {
+            "test_sigmoid": {
+                "line": 7,
+                "line_end": 8,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 5,
+                    "indent": 0,
+                    "name": "sigmoid"
+                }
+            }
+        }
+    },
+    "test/test_worker.py": {
+        "focal_file": "players/worker.py",
+        "methods": {
+            "test_is_connect_exist_nn__no_gene": {
+                "line": 10,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "is_connect_exist_nn"
+                }
+            },
+            "test_is_connect_exist_nn__yes_gene_no_connect": {
+                "line": 20,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "is_connect_exist_nn"
+                }
+            },
+            "test_is_connect_exist_nn__yes_gene_yes_connect": {
+                "line": 30,
+                "line_end": 38,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "is_connect_exist_nn"
+                }
+            },
+            "test_is_connect_exist_nn__yes": {
+                "line": 40,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "is_connect_exist_nn"
+                }
+            },
+            "test_is_connect_exist_global__no_history": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "is_connect_exist_global"
+                }
+            },
+            "test_is_connect_exist_global__yes_history_yes_match": {
+                "line": 60,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "is_connect_exist_global"
+                }
+            },
+            "test_is_connect_exist_global__yes_history_no_match": {
+                "line": 70,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "is_connect_exist_global"
+                }
+            },
+            "test_is_bias_node__yes_bias_yes": {
+                "line": 80,
+                "line_end": 85,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "is_bias_node"
+                }
+            },
+            "test_is_bias_node__yes_bias_no": {
+                "line": 87,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "is_bias_node"
+                }
+            },
+            "test_is_bias_node__no_bias_no": {
+                "line": 94,
+                "line_end": 99,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "is_bias_node"
+                }
+            },
+            "test_is_input_node__yes_bias_yes": {
+                "line": 101,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "is_input_node"
+                }
+            },
+            "test_is_input_node__yes_bias_no": {
+                "line": 112,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "is_input_node"
+                }
+            },
+            "test_is_input_node__no_bias_yes": {
+                "line": 125,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "is_input_node"
+                }
+            },
+            "test_is_input_node__no_bias_no": {
+                "line": 136,
+                "line_end": 147,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "is_input_node"
+                }
+            },
+            "test_is_output_node__yes_bias_yes": {
+                "line": 149,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "is_output_node"
+                }
+            },
+            "test_is_output_node__yes_bias_no": {
+                "line": 162,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "is_output_node"
+                }
+            },
+            "test_is_output_node__no_bias_yes": {
+                "line": 177,
+                "line_end": 188,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "is_output_node"
+                }
+            },
+            "test_is_output_node__no_bias_no": {
+                "line": 190,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "is_output_node"
+                }
+            },
+            "test_is_bias_in_connect__yes_bias_yes": {
+                "line": 205,
+                "line_end": 217,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "is_bias_in_connect"
+                }
+            },
+            "test_is_bias_in_connect__yes_bias_no": {
+                "line": 219,
+                "line_end": 234,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "is_bias_in_connect"
+                }
+            },
+            "test_is_bias_in_connect__no_bias_no": {
+                "line": 236,
+                "line_end": 254,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "is_bias_in_connect"
+                }
+            },
+            "test_is_in_in_connect__yes_bias_yes": {
+                "line": 256,
+                "line_end": 277,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "is_in_in_connect"
+                }
+            },
+            "test_is_in_in_connect__yes_bias_no": {
+                "line": 279,
+                "line_end": 306,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "is_in_in_connect"
+                }
+            },
+            "test_is_in_in_connect__no_bias_yes": {
+                "line": 308,
+                "line_end": 329,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "is_in_in_connect"
+                }
+            },
+            "test_is_in_in_connect__no_bias_no": {
+                "line": 331,
+                "line_end": 358,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 113,
+                    "line_end": 127,
+                    "indent": 4,
+                    "name": "is_in_in_connect"
+                }
+            },
+            "test_is_out_out_connect__yes_bias_yes": {
+                "line": 360,
+                "line_end": 375,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "is_out_out_connect"
+                }
+            },
+            "test_is_out_out_connect__yes_bias_no": {
+                "line": 377,
+                "line_end": 392,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "is_out_out_connect"
+                }
+            },
+            "test_is_out_out_connect__no_bias_yes": {
+                "line": 394,
+                "line_end": 409,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "is_out_out_connect"
+                }
+            },
+            "test_is_out_out_connect__no_bias_no": {
+                "line": 411,
+                "line_end": 426,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 129,
+                    "line_end": 142,
+                    "indent": 4,
+                    "name": "is_out_out_connect"
+                }
+            },
+            "test_is_in_bias_at_end_connect__yes_bias_yes": {
+                "line": 428,
+                "line_end": 458,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "is_in_bias_at_end_connect"
+                }
+            },
+            "test_is_in_bias_at_end_connect__yes_bias_no": {
+                "line": 460,
+                "line_end": 484,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "is_in_bias_at_end_connect"
+                }
+            },
+            "test_is_in_bias_at_end_connect__no_bias_yes": {
+                "line": 486,
+                "line_end": 513,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "is_in_bias_at_end_connect"
+                }
+            },
+            "test_is_in_bias_at_end_connect__no_bias_no": {
+                "line": 515,
+                "line_end": 542,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 157,
+                    "indent": 4,
+                    "name": "is_in_bias_at_end_connect"
+                }
+            },
+            "test_is_recursive_connect__yes": {
+                "line": 544,
+                "line_end": 553,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "is_recursive_connect"
+                }
+            },
+            "test_is_recursive_connect__no": {
+                "line": 555,
+                "line_end": 564,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 171,
+                    "indent": 4,
+                    "name": "is_recursive_connect"
+                }
+            },
+            "test_increment_innov_counter": {
+                "line": 566,
+                "line_end": 577,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "increment_innov_counter"
+                }
+            },
+            "test_record_innov_history__ok": {
+                "line": 587,
+                "line_end": 595,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "record_innov_history"
+                }
+            },
+            "test_add_connect": {
+                "line": 597,
+                "line_end": 686,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 193,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "add_connect"
+                }
+            },
+            "test_initialize_workplace__yes_bias_10_nns": {
+                "line": 956,
+                "line_end": 983,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "initialize_workplace"
+                }
+            },
+            "test_initialize_workplace__no_bias_10_nns": {
+                "line": 985,
+                "line_end": 1011,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 262,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "initialize_workplace"
+                }
+            },
+            "test_get_nodes_in_of_node": {
+                "line": 1013,
+                "line_end": 1048,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 306,
+                    "indent": 4,
+                    "name": "get_nodes_in_of_node"
+                }
+            },
+            "test_get_weight_of_connect": {
+                "line": 1050,
+                "line_end": 1074,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 329,
+                    "indent": 4,
+                    "name": "get_weight_of_connect"
+                }
+            },
+            "test_calc_output": {
+                "line": 1076,
+                "line_end": 1097,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 331,
+                    "line_end": 368,
+                    "indent": 4,
+                    "name": "calc_output"
+                }
+            },
+            "test_get_output_nodes__yes_bias": {
+                "line": 1099,
+                "line_end": 1103,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 381,
+                    "indent": 4,
+                    "name": "get_output_nodes"
+                }
+            },
+            "test_get_output_nodes__no_bias": {
+                "line": 1105,
+                "line_end": 1109,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 381,
+                    "indent": 4,
+                    "name": "get_output_nodes"
+                }
+            },
+            "test_activate_neurons__AND": {
+                "line": 1124,
+                "line_end": 1174,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 606,
+                    "line_end": 638,
+                    "indent": 4,
+                    "name": "activate_neurons"
+                }
+            },
+            "test_activate_neurons__OR": {
+                "line": 1176,
+                "line_end": 1226,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 606,
+                    "line_end": 638,
+                    "indent": 4,
+                    "name": "activate_neurons"
+                }
+            },
+            "test_activate_neurons__XOR": {
+                "line": 1228,
+                "line_end": 1301,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 606,
+                    "line_end": 638,
+                    "indent": 4,
+                    "name": "activate_neurons"
+                }
+            },
+            "test_feedforward__AND": {
+                "line": 1303,
+                "line_end": 1332,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 402,
+                    "indent": 4,
+                    "name": "feedforward"
+                }
+            },
+            "test_feedforward__OR": {
+                "line": 1334,
+                "line_end": 1363,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 402,
+                    "indent": 4,
+                    "name": "feedforward"
+                }
+            },
+            "test_feedforward__XOR": {
+                "line": 1365,
+                "line_end": 1398,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 402,
+                    "indent": 4,
+                    "name": "feedforward"
+                }
+            },
+            "test_get_node_between": {
+                "line": 1400,
+                "line_end": 1435,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 404,
+                    "line_end": 425,
+                    "indent": 4,
+                    "name": "get_node_between"
+                }
+            },
+            "test_disable_connect": {
+                "line": 1550,
+                "line_end": 1563,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 453,
+                    "line_end": 467,
+                    "indent": 4,
+                    "name": "disable_connect"
+                }
+            },
+            "test_enable_connect": {
+                "line": 1565,
+                "line_end": 1578,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 469,
+                    "line_end": 483,
+                    "indent": 4,
+                    "name": "enable_connect"
+                }
+            },
+            "test_get_matching_innov_num": {
+                "line": 1606,
+                "line_end": 1610,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 486,
+                    "line_end": 502,
+                    "indent": 4,
+                    "name": "get_matching_innov_num"
+                }
+            },
+            "test_inherit_match": {
+                "line": 1612,
+                "line_end": 1625,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 505,
+                    "line_end": 531,
+                    "indent": 4,
+                    "name": "inherit_match"
+                }
+            },
+            "test_inherit_disjoint_excess": {
+                "line": 1627,
+                "line_end": 1659,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 534,
+                    "line_end": 559,
+                    "indent": 4,
+                    "name": "inherit_disjoint_excess"
+                }
+            },
+            "test_generate_node_indices": {
+                "line": 1661,
+                "line_end": 1673,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 562,
+                    "line_end": 577,
+                    "indent": 4,
+                    "name": "generate_node_indices"
+                }
+            },
+            "test_crossover": {
+                "line": 1675,
+                "line_end": 1732,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 579,
+                    "line_end": 604,
+                    "indent": 4,
+                    "name": "crossover"
+                }
+            },
+            "test_get_disjoint_excess_num": {
+                "line": 1734,
+                "line_end": 1740,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 641,
+                    "line_end": 668,
+                    "indent": 4,
+                    "name": "get_disjoint_excess_num"
+                }
+            },
+            "test_calc_compatibility_distance": {
+                "line": 1742,
+                "line_end": 1776,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 670,
+                    "line_end": 701,
+                    "indent": 4,
+                    "name": "calc_compatibility_distance"
+                }
+            },
+            "test_speciate": {
+                "line": 1778,
+                "line_end": 1837,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 703,
+                    "line_end": 739,
+                    "indent": 4,
+                    "name": "speciate"
+                }
+            },
+            "test_calc_fitness_adjusted": {
+                "line": 1839,
+                "line_end": 1873,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 741,
+                    "line_end": 753,
+                    "indent": 4,
+                    "name": "calc_fitness_adjusted"
+                }
+            },
+            "test_select_better_nns": {
+                "line": 1875,
+                "line_end": 1902,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 755,
+                    "line_end": 778,
+                    "indent": 4,
+                    "name": "select_better_nns"
+                }
+            },
+            "test_get_sum_fitness": {
+                "line": 1904,
+                "line_end": 1916,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 781,
+                    "line_end": 805,
+                    "indent": 4,
+                    "name": "get_sum_fitness"
+                }
+            },
+            "test_calc_children_assign_num": {
+                "line": 1918,
+                "line_end": 1939,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 807,
+                    "line_end": 850,
+                    "indent": 4,
+                    "name": "calc_children_assign_num"
+                }
+            },
+            "test_choose_parent": {
+                "line": 1941,
+                "line_end": 1981,
+                "indent": 4,
+                "focal_class": "Worker",
+                "focal_method": {
+                    "line": 853,
+                    "line_end": 877,
+                    "indent": 4,
+                    "name": "choose_parent"
+                }
+            }
+        }
+    }
+}

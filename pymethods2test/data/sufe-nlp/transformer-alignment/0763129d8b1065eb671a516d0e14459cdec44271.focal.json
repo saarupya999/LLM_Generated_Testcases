@@ -1,0 +1,65 @@
+{
+    "tests/test_memory_efficient_fp16.py": {
+        "focal_file": "fairseq/optim/fp16_optimizer.py",
+        "methods": {
+            "test_load_state_dict": {
+                "line": 17,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "MemoryEfficientFP16Optimizer",
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 93,
+                    "indent": 4,
+                    "name": "load_state_dict"
+                }
+            }
+        }
+    },
+    "tests/test_multihead_attention.py": {
+        "focal_file": "fairseq/modules/multihead_attention.py",
+        "methods": {
+            "test_append_prev_key_padding_mask": {
+                "line": 12,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 306,
+                    "indent": 4,
+                    "name": "_append_prev_key_padding_mask"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "fairseq/utils.py",
+        "methods": {
+            "test_convert_padding_direction": {
+                "line": 15,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 198,
+                    "line_end": 217,
+                    "indent": 0,
+                    "name": "convert_padding_direction"
+                }
+            },
+            "test_make_positions": {
+                "line": 45,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 171,
+                    "line_end": 184,
+                    "indent": 0,
+                    "name": "make_positions"
+                }
+            }
+        }
+    }
+}

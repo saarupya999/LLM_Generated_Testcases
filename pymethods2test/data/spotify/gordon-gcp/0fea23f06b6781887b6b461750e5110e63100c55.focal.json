@@ -1,0 +1,390 @@
+{
+    "tests/unit/clients/test_gcrm.py": {
+        "focal_file": "src/gordon_gcp/clients/gcrm.py",
+        "methods": {
+            "test_list_all_active_projects": {
+                "line": 58,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "list_all_active_projects"
+                }
+            },
+            "test_list_all_active_projects_multiple_pages": {
+                "line": 73,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "list_all_active_projects"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/test_gdns.py": {
+        "focal_file": "src/gordon_gcp/clients/gdns.py",
+        "methods": {
+            "test_get_records_for_zone": {
+                "line": 64,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "get_records_for_zone"
+                }
+            },
+            "test_get_managed_zone": {
+                "line": 116,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "get_managed_zone"
+                }
+            },
+            "test_get_managed_zone_with_prefix": {
+                "line": 126,
+                "line_end": 129,
+                "indent": 0,
+                "focal_class": "gordon_gcp.clients.gdns.GDNSClient",
+                "focal_method": {
+                    "line": 81,
+                    "line_end": 106,
+                    "indent": 4,
+                    "name": "get_managed_zone"
+                }
+            },
+            "test_is_change_done": {
+                "line": 137,
+                "line_end": 143,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 155,
+                    "indent": 4,
+                    "name": "is_change_done"
+                }
+            },
+            "test_publish_changes": {
+                "line": 147,
+                "line_end": 156,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "publish_changes"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/test_gce.py": {
+        "focal_file": "src/gordon_gcp/clients/gce.py",
+        "methods": {
+            "test_list_instances": {
+                "line": 59,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 118,
+                    "indent": 4,
+                    "name": "list_instances"
+                }
+            }
+        }
+    },
+    "tests/unit/clients/test_auth.py": {
+        "focal_file": "src/gordon_gcp/clients/auth.py",
+        "methods": {
+            "test_refresh_token": {
+                "line": 248,
+                "line_end": 258,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "refresh_token"
+                }
+            },
+            "test_refresh_token_with_app_default_cred": {
+                "line": 262,
+                "line_end": 274,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "refresh_token"
+                }
+            },
+            "test_refresh_token_with_compute_engine_cred": {
+                "line": 278,
+                "line_end": 293,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "refresh_token"
+                }
+            },
+            "test_refresh_token_raises": {
+                "line": 306,
+                "line_end": 318,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 188,
+                    "indent": 4,
+                    "name": "refresh_token"
+                }
+            }
+        }
+    },
+    "tests/unit/plugins/service/test_gdns_publisher.py": {
+        "focal_file": "src/gordon_gcp/plugins/service/gdns_publisher.py",
+        "methods": {
+            "test_get_rrsets_by_name_and_type": {
+                "line": 321,
+                "line_end": 328,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 196,
+                    "indent": 4,
+                    "name": "_get_rrsets_by_name_and_type"
+                }
+            }
+        }
+    },
+    "tests/unit/plugins/service/test_event_consumer.py": {
+        "focal_file": "src/gordon_gcp/plugins/service/event_consumer.py",
+        "methods": {
+            "test_event_msg_append_to_history": {
+                "line": 100,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": "gordon_gcp.plugins.service.event_consumer.GEventMessage",
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "append_to_history"
+                }
+            },
+            "test_event_msg_update_phase": {
+                "line": 117,
+                "line_end": 130,
+                "indent": 0,
+                "focal_class": "gordon_gcp.plugins.service.event_consumer.GEventMessage",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "update_phase"
+                }
+            },
+            "test_run": {
+                "line": 222,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 393,
+                    "line_end": 410,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_manage_subs": {
+                "line": 233,
+                "line_end": 240,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 365,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "_manage_subs"
+                }
+            },
+            "test_manage_subs_retries": {
+                "line": 243,
+                "line_end": 248,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 365,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "_manage_subs"
+                }
+            },
+            "test_schedule_pubsub_msg": {
+                "line": 278,
+                "line_end": 295,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 363,
+                    "indent": 4,
+                    "name": "_schedule_pubsub_msg"
+                }
+            },
+            "test_handle_pubsub_msg": {
+                "line": 313,
+                "line_end": 338,
+                "indent": 0,
+                "focal_class": "gordon_gcp.plugins.service.event_consumer.GEventMessage",
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 356,
+                    "indent": 4,
+                    "name": "_handle_pubsub_msg"
+                }
+            },
+            "test_handle_pubsub_msg_json_err": {
+                "line": 342,
+                "line_end": 354,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 356,
+                    "indent": 4,
+                    "name": "_handle_pubsub_msg"
+                }
+            },
+            "test_handle_pubsub_msg_invalid": {
+                "line": 358,
+                "line_end": 373,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 356,
+                    "indent": 4,
+                    "name": "_handle_pubsub_msg"
+                }
+            },
+            "test_handle_pubsub_msg_old": {
+                "line": 377,
+                "line_end": 400,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 356,
+                    "indent": 4,
+                    "name": "_handle_pubsub_msg"
+                }
+            },
+            "test_create_gevent_msg": {
+                "line": 403,
+                "line_end": 415,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 291,
+                    "line_end": 295,
+                    "indent": 4,
+                    "name": "_create_gevent_msg"
+                }
+            },
+            "test_get_and_validate_pubsub_msg_schema": {
+                "line": 427,
+                "line_end": 440,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 297,
+                    "line_end": 303,
+                    "indent": 4,
+                    "name": "_get_and_validate_pubsub_msg_schema"
+                }
+            },
+            "test_handle_message": {
+                "line": 444,
+                "line_end": 460,
+                "indent": 0,
+                "focal_class": "gordon_gcp.plugins.service.event_consumer.GEventMessage",
+                "focal_method": {
+                    "line": 272,
+                    "line_end": 289,
+                    "indent": 4,
+                    "name": "handle_message"
+                }
+            }
+        }
+    },
+    "tests/unit/schema/test_parse.py": {
+        "focal_file": "src/gordon_gcp/schema/parse.py",
+        "methods": {
+            "test_parse": {
+                "line": 60,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": "gordon_gcp.schema.parse.MessageParser",
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            }
+        }
+    },
+    "tests/unit/schema/test_validate.py": {
+        "focal_file": "src/gordon_gcp/schema/validate.py",
+        "methods": {
+            "test_validate": {
+                "line": 140,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": "gordon_gcp.schema.validate.MessageValidator",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            },
+            "test_validate_raises_invalid": {
+                "line": 160,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": "gordon_gcp.schema.validate.MessageValidator",
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 141,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            }
+        }
+    }
+}

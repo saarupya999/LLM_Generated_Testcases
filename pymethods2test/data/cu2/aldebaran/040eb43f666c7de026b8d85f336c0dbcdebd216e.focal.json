@@ -1,0 +1,457 @@
+{
+    "tests/test_boot.py": {
+        "focal_file": "utils/boot.py",
+        "methods": {
+            "test_write_byte": {
+                "line": 15,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "utils.boot.BootImage",
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "write_byte"
+                }
+            },
+            "test_write_word": {
+                "line": 21,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "utils.boot.BootImage",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 28,
+                    "indent": 4,
+                    "name": "write_word"
+                }
+            },
+            "test_save": {
+                "line": 28,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": "utils.boot.BootImage",
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 35,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_load": {
+                "line": 40,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "utils.boot.BootImage",
+                "focal_method": {
+                    "line": 37,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_load_image": {
+                "line": 58,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "utils.boot.BootLoader",
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "load_image"
+                }
+            },
+            "test_load_executable": {
+                "line": 78,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": "utils.boot.BootLoader",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "load_executable"
+                }
+            }
+        }
+    },
+    "tests/test_executable.py": {
+        "focal_file": "utils/executable.py",
+        "methods": {
+            "test_load_file_ok": {
+                "line": 37,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "utils.executable.Executable",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "load_from_file"
+                }
+            },
+            "test_save_file_ok": {
+                "line": 56,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "utils.executable.Executable",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "save_to_file"
+                }
+            }
+        }
+    },
+    "tests/test_operands.py": {
+        "focal_file": "instructions/operands.py",
+        "methods": {
+            "test_not_enough_buffer": {
+                "line": 276,
+                "line_end": 281,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 222,
+                    "indent": 0,
+                    "name": "parse_operand_buffer"
+                }
+            },
+            "test_value": {
+                "line": 295,
+                "line_end": 306,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 294,
+                    "indent": 0,
+                    "name": "get_operand_value"
+                }
+            },
+            "test_rel_ref_word_reg": {
+                "line": 528,
+                "line_end": 539,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 318,
+                    "line_end": 327,
+                    "indent": 0,
+                    "name": "_get_reference_address"
+                }
+            },
+            "test_get_register_code_by_name": {
+                "line": 561,
+                "line_end": 566,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 344,
+                    "line_end": 354,
+                    "indent": 0,
+                    "name": "_get_register_code_by_name"
+                }
+            },
+            "test_get_register_name_by_code": {
+                "line": 568,
+                "line_end": 575,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 357,
+                    "line_end": 365,
+                    "indent": 0,
+                    "name": "_get_register_name_by_code"
+                }
+            }
+        }
+    },
+    "tests/test_ram.py": {
+        "focal_file": "hardware/memory/ram.py",
+        "methods": {
+            "test_read_byte_ok": {
+                "line": 8,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": "RAM",
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 33,
+                    "indent": 4,
+                    "name": "read_byte"
+                }
+            },
+            "test_read_word_ok": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": "RAM",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "read_word"
+                }
+            },
+            "test_write_byte_ok": {
+                "line": 37,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": "RAM",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "write_byte"
+                }
+            },
+            "test_write_byte_segfault": {
+                "line": 43,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "RAM",
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "write_byte"
+                }
+            },
+            "test_write_word_ok": {
+                "line": 50,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "RAM",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "write_word"
+                }
+            },
+            "test_write_word_segfault": {
+                "line": 56,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "RAM",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 65,
+                    "indent": 4,
+                    "name": "write_word"
+                }
+            }
+        }
+    },
+    "tests/test_registers.py": {
+        "focal_file": "hardware/cpu/registers.py",
+        "methods": {
+            "test_get_register_ok": {
+                "line": 16,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "get_register"
+                }
+            },
+            "test_get_register_error": {
+                "line": 24,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "get_register"
+                }
+            },
+            "test_set_register_ok": {
+                "line": 28,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "set_register"
+                }
+            },
+            "test_set_register_error": {
+                "line": 37,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 73,
+                    "indent": 4,
+                    "name": "set_register"
+                }
+            },
+            "test_get_flag_ok": {
+                "line": 58,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_flag"
+                }
+            },
+            "test_get_flag_error": {
+                "line": 63,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "get_flag"
+                }
+            },
+            "test_set_flag_ok": {
+                "line": 67,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "set_flag"
+                }
+            },
+            "test_set_flag_error": {
+                "line": 74,
+                "line_end": 80,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "set_flag"
+                }
+            }
+        }
+    },
+    "tests/test_stack.py": {
+        "focal_file": "hardware/cpu/stack.py",
+        "methods": {
+            "test_push_byte": {
+                "line": 19,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 40,
+                    "indent": 4,
+                    "name": "push_byte"
+                }
+            },
+            "test_push_word": {
+                "line": 37,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "push_word"
+                }
+            },
+            "test_pop_byte": {
+                "line": 55,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "pop_byte"
+                }
+            },
+            "test_pop_word": {
+                "line": 76,
+                "line_end": 89,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "pop_word"
+                }
+            },
+            "test_push_flags": {
+                "line": 97,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "push_flags"
+                }
+            },
+            "test_pop_flags": {
+                "line": 116,
+                "line_end": 133,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "pop_flags"
+                }
+            }
+        }
+    },
+    "tests/test_timer.py": {
+        "focal_file": "hardware/timer.py",
+        "methods": {
+            "test_valid_config": {
+                "line": 10,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": "hardware.timer.Subtimer",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "set_config"
+                }
+            },
+            "test_invalid_config": {
+                "line": 22,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "hardware.timer.Subtimer",
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "set_config"
+                }
+            }
+        }
+    }
+}

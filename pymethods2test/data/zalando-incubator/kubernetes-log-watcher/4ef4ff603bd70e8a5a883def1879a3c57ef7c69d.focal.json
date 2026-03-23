@@ -1,0 +1,454 @@
+{
+    "tests/test_appdynamics.py": {
+        "focal_file": "kube_log_watcher/agents/appdynamics.py",
+        "methods": {
+            "test_add_log_target": {
+                "line": 37,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "AppDynamicsAgent",
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 54,
+                    "indent": 4,
+                    "name": "add_log_target"
+                }
+            },
+            "test_remove_log_target": {
+                "line": 62,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": "AppDynamicsAgent",
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "remove_log_target"
+                }
+            }
+        }
+    },
+    "tests/test_kube.py": {
+        "focal_file": "kube_log_watcher/kube.py",
+        "methods": {
+            "test_get_client": {
+                "line": 38,
+                "line_end": 50,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "get_client"
+                }
+            },
+            "test_get_pod_url": {
+                "line": 54,
+                "line_end": 65,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "get_pod"
+                }
+            },
+            "test_get_pod_pykube": {
+                "line": 69,
+                "line_end": 90,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "get_pod"
+                }
+            },
+            "test_pause_container": {
+                "line": 126,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "is_pause_container"
+                }
+            }
+        }
+    },
+    "tests/test_main.py": {
+        "focal_file": "kube_log_watcher/main.py",
+        "methods": {
+            "test_get_container_image_parts": {
+                "line": 46,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 116,
+                    "indent": 0,
+                    "name": "get_container_image_parts"
+                }
+            },
+            "test_get_container_label_value": {
+                "line": 61,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "get_container_label_value"
+                }
+            },
+            "test_get_containers": {
+                "line": 94,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "get_containers"
+                }
+            },
+            "test_sync_containers_log_agents": {
+                "line": 127,
+                "line_end": 163,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "sync_containers_log_agents"
+                }
+            },
+            "test_sync_containers_log_agents_failure": {
+                "line": 174,
+                "line_end": 198,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 170,
+                    "indent": 0,
+                    "name": "sync_containers_log_agents"
+                }
+            },
+            "test_get_new_containers_log_targets": {
+                "line": 201,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 255,
+                    "indent": 0,
+                    "name": "get_new_containers_log_targets"
+                }
+            },
+            "test_get_new_containers_log_targets_not_found_pods": {
+                "line": 215,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 255,
+                    "indent": 0,
+                    "name": "get_new_containers_log_targets"
+                }
+            },
+            "test_get_new_containers_log_targets_failure": {
+                "line": 229,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 255,
+                    "indent": 0,
+                    "name": "get_new_containers_log_targets"
+                }
+            },
+            "test_get_new_containers_log_targets_no_strict_labels": {
+                "line": 244,
+                "line_end": 256,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 173,
+                    "line_end": 255,
+                    "indent": 0,
+                    "name": "get_new_containers_log_targets"
+                }
+            },
+            "test_load_agents": {
+                "line": 259,
+                "line_end": 275,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 258,
+                    "line_end": 259,
+                    "indent": 0,
+                    "name": "load_agents"
+                }
+            },
+            "test_watch": {
+                "line": 279,
+                "line_end": 328,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 273,
+                    "line_end": 315,
+                    "indent": 0,
+                    "name": "watch"
+                }
+            }
+        }
+    },
+    "tests/test_scalyr.py": {
+        "focal_file": "kube_log_watcher/agents/scalyr.py",
+        "methods": {
+            "test_add_log_target": {
+                "line": 219,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": "ScalyrAgent",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "add_log_target"
+                }
+            },
+            "test_add_log_target_no_src": {
+                "line": 264,
+                "line_end": 283,
+                "indent": 0,
+                "focal_class": "ScalyrAgent",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "add_log_target"
+                }
+            },
+            "test_add_log_target_no_change": {
+                "line": 286,
+                "line_end": 330,
+                "indent": 0,
+                "focal_class": "ScalyrAgent",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "add_log_target"
+                }
+            },
+            "test_get_current_log_paths": {
+                "line": 385,
+                "line_end": 414,
+                "indent": 0,
+                "focal_class": "ScalyrAgent",
+                "focal_method": {
+                    "line": 358,
+                    "line_end": 373,
+                    "indent": 4,
+                    "name": "_get_current_log_paths"
+                }
+            },
+            "test_remove_log_target": {
+                "line": 418,
+                "line_end": 442,
+                "indent": 0,
+                "focal_class": "ScalyrAgent",
+                "focal_method": {
+                    "line": 281,
+                    "line_end": 292,
+                    "indent": 4,
+                    "name": "remove_log_target"
+                }
+            },
+            "test_container_annotation_no_annotation": {
+                "line": 784,
+                "line_end": 792,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "container_annotation"
+                }
+            },
+            "test_container_annotation_value_is_set": {
+                "line": 795,
+                "line_end": 810,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "container_annotation"
+                }
+            },
+            "test_container_annotation_other_container": {
+                "line": 813,
+                "line_end": 826,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "container_annotation"
+                }
+            },
+            "test_container_annotation_not_a_list": {
+                "line": 829,
+                "line_end": 842,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "container_annotation"
+                }
+            },
+            "test_container_annotation_invalid_json": {
+                "line": 845,
+                "line_end": 855,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "container_annotation"
+                }
+            },
+            "test_parser_no_annotation": {
+                "line": 864,
+                "line_end": 865,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "get_parser"
+                }
+            },
+            "test_parser_custom": {
+                "line": 868,
+                "line_end": 874,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "get_parser"
+                }
+            },
+            "test_sampling_rules_no_annotation": {
+                "line": 877,
+                "line_end": 878,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "get_sampling_rules"
+                }
+            },
+            "test_sampling_rules_custom": {
+                "line": 881,
+                "line_end": 887,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 65,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "get_sampling_rules"
+                }
+            },
+            "test_redaction_rules_no_annotation": {
+                "line": 890,
+                "line_end": 891,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "get_redaction_rules"
+                }
+            },
+            "test_redaction_rules_custom": {
+                "line": 894,
+                "line_end": 901,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "get_redaction_rules"
+                }
+            },
+            "test_redaction_rules_invalid_format": {
+                "line": 904,
+                "line_end": 911,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 86,
+                    "indent": 0,
+                    "name": "get_redaction_rules"
+                }
+            },
+            "test_get_scalyr_sampling_rule": {
+                "line": 940,
+                "line_end": 1000,
+                "indent": 0,
+                "focal_class": "ScalyrAgent",
+                "focal_method": {
+                    "line": 202,
+                    "line_end": 221,
+                    "indent": 4,
+                    "name": "get_scalyr_sampling_rule"
+                }
+            },
+            "test_add_log_target_with_sampling": {
+                "line": 1003,
+                "line_end": 1036,
+                "indent": 0,
+                "focal_class": "ScalyrAgent",
+                "focal_method": {
+                    "line": 223,
+                    "line_end": 279,
+                    "indent": 4,
+                    "name": "add_log_target"
+                }
+            }
+        }
+    }
+}

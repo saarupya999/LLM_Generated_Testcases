@@ -1,0 +1,404 @@
+{
+    "tests/core/test_scraper.py": {
+        "focal_file": "ethpm_cli/commands/scraper.py",
+        "methods": {
+            "test_get_ethpm_birth_block": {
+                "line": 165,
+                "line_end": 170,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "get_ethpm_birth_block"
+                }
+            },
+            "test_get_ethpm_birth_block_equal_blocks_raises_exception": {
+                "line": 173,
+                "line_end": 176,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "get_ethpm_birth_block"
+                }
+            },
+            "test_get_ethpm_birth_block_invalid_range_raises_exception": {
+                "line": 179,
+                "line_end": 183,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 92,
+                    "indent": 0,
+                    "name": "get_ethpm_birth_block"
+                }
+            }
+        }
+    },
+    "tests/core/test_validation.py": {
+        "focal_file": "ethpm_cli/validation.py",
+        "methods": {
+            "test_validate_install_cli_args_rejects_invalid_aliases": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "validate_install_cli_args"
+                }
+            },
+            "test_validate_install_cli_args_validates_supported_uris": {
+                "line": 39,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "validate_install_cli_args"
+                }
+            },
+            "test_validate_install_cli_args_rejects_unsupported_uris": {
+                "line": 53,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "validate_install_cli_args"
+                }
+            },
+            "test_validate_install_cli_args_validates_absolute_ethpm_dir_paths": {
+                "line": 60,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "validate_install_cli_args"
+                }
+            },
+            "test_validate_install_cli_args_validates_relative_paths_to_cwd": {
+                "line": 67,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "validate_install_cli_args"
+                }
+            },
+            "test_validate_install_cli_args_rejects_invalid_absolute_paths": {
+                "line": 73,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "validate_install_cli_args"
+                }
+            },
+            "test_validate_install_cli_args_rejects_invalid_relative_paths": {
+                "line": 81,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "validate_install_cli_args"
+                }
+            },
+            "test_validate_same_registry_validates_matching_registries": {
+                "line": 103,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "validate_same_registry"
+                }
+            },
+            "test_validate_same_registry_invalidates_nonmatching_registries": {
+                "line": 130,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 149,
+                    "line_end": 158,
+                    "indent": 0,
+                    "name": "validate_same_registry"
+                }
+            }
+        }
+    },
+    "tests/core/test_install.py": {
+        "focal_file": "ethpm_cli/commands/install.py",
+        "methods": {
+            "test_install_package": {
+                "line": 51,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "install_package"
+                }
+            },
+            "test_cannot_install_same_package_twice": {
+                "line": 71,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "install_package"
+                }
+            },
+            "test_install_multiple_packages": {
+                "line": 102,
+                "line_end": 110,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 52,
+                    "indent": 0,
+                    "name": "install_package"
+                }
+            },
+            "test_uninstall_packages": {
+                "line": 114,
+                "line_end": 125,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 243,
+                    "line_end": 254,
+                    "indent": 0,
+                    "name": "uninstall_package"
+                }
+            }
+        }
+    },
+    "tests/core/test_registry.py": {
+        "focal_file": "ethpm_cli/commands/registry.py",
+        "methods": {
+            "test_generate_registry_store_data": {
+                "line": 34,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 227,
+                    "indent": 0,
+                    "name": "generate_registry_store_data"
+                }
+            },
+            "test_add_registry": {
+                "line": 39,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "add_registry"
+                }
+            },
+            "test_add_multiple_registries": {
+                "line": 50,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "add_registry"
+                }
+            },
+            "test_remove_registry": {
+                "line": 68,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "remove_registry"
+                }
+            },
+            "test_remove_registry_with_nonexisting_store": {
+                "line": 81,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "remove_registry"
+                }
+            },
+            "test_remove_aliased_registry": {
+                "line": 86,
+                "line_end": 96,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "remove_registry"
+                }
+            },
+            "test_remove_active_registry_raises_error": {
+                "line": 111,
+                "line_end": 114,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 93,
+                    "indent": 0,
+                    "name": "remove_registry"
+                }
+            },
+            "test_activate_different_registry": {
+                "line": 117,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "activate_registry"
+                }
+            },
+            "test_activate_aliased_registry": {
+                "line": 126,
+                "line_end": 132,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "activate_registry"
+                }
+            },
+            "test_unable_to_activate_nonexistent_registry": {
+                "line": 135,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 96,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "activate_registry"
+                }
+            },
+            "test_resolve_uri_or_alias": {
+                "line": 168,
+                "line_end": 174,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "resolve_uri_or_alias"
+                }
+            },
+            "test_resolve_uri_or_alias_raises_install_error": {
+                "line": 180,
+                "line_end": 186,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 132,
+                    "line_end": 136,
+                    "indent": 0,
+                    "name": "resolve_uri_or_alias"
+                }
+            }
+        }
+    },
+    "tests/core/_utils/test_etherscan.py": {
+        "focal_file": "ethpm_cli/_utils/etherscan.py",
+        "methods": {
+            "test_is_etherscan_uri": {
+                "line": 28,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 15,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "is_etherscan_uri"
+                }
+            }
+        }
+    },
+    "tests/core/_utils/test_filesystem.py": {
+        "focal_file": "ethpm_cli/_utils/filesystem.py",
+        "methods": {
+            "test_atomic_replace_will_replace_file": {
+                "line": 13,
+                "line_end": 18,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "atomic_replace"
+                }
+            },
+            "test_atomic_replace_is_atomic": {
+                "line": 21,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "atomic_replace"
+                }
+            }
+        }
+    }
+}

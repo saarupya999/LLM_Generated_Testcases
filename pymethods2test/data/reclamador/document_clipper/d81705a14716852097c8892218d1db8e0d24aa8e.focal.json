@@ -1,0 +1,252 @@
+{
+    "tests/test_document_clipper_pdf.py": {
+        "focal_file": "document_clipper/pdf.py",
+        "methods": {
+            "test_find_text_with_content_ok": {
+                "line": 53,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "find_text_with_content"
+                }
+            },
+            "test_find_text_with_content_not_ok": {
+                "line": 63,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "find_text_with_content"
+                }
+            },
+            "test_get_text_coordinates_ok": {
+                "line": 72,
+                "line_end": 90,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "get_text_coordinates"
+                }
+            },
+            "test_get_text_coordinates_not_ok": {
+                "line": 92,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "get_text_coordinates"
+                }
+            },
+            "test_get_page_dimensions_ok": {
+                "line": 98,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "get_page_max_dimensions"
+                }
+            },
+            "test_image_to_pdf": {
+                "line": 111,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": "DocumentClipperPdfReader",
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 253,
+                    "indent": 4,
+                    "name": "image_to_pdf"
+                }
+            },
+            "test_slice": {
+                "line": 259,
+                "line_end": 268,
+                "indent": 4,
+                "focal_class": "DocumentClipperPdfReader",
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 377,
+                    "indent": 4,
+                    "name": "slice"
+                }
+            },
+            "test_cleaning_up_because_of_pdf_to_xml_tmp_images": {
+                "line": 367,
+                "line_end": 375,
+                "indent": 4,
+                "focal_class": "DocumentClipperPdfReader",
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 87,
+                    "indent": 4,
+                    "name": "pdf_to_xml"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "document_clipper/utils.py",
+        "methods": {
+            "test_pdf_to_text_command_text_found": {
+                "line": 29,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "PDFToTextCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_pdf_images_list_found": {
+                "line": 49,
+                "line_end": 53,
+                "indent": 4,
+                "focal_class": "PDFListImagesCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_pdf_has_images": {
+                "line": 55,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "PDFListImagesCommand",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "has_images"
+                }
+            },
+            "test_pdf_has_images_no_jpg": {
+                "line": 60,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "PDFListImagesCommand",
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "has_images"
+                }
+            },
+            "test_pdf_images_not_found": {
+                "line": 69,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": "PDFToImagesCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_pdf_images_found": {
+                "line": 75,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "PDFToImagesCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_pdf_images_no_jpg_found": {
+                "line": 85,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": "PDFToImagesCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_fix_pdf_command_ok": {
+                "line": 91,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": "FixPdfCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_fix_pdf_command_exception": {
+                "line": 98,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": "FixPdfCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_pdf_to_xml": {
+                "line": 105,
+                "line_end": 110,
+                "indent": 4,
+                "focal_class": "PdfToXMLCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_fix_pdf_command_os_error_exception": {
+                "line": 114,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "FixPdfCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            },
+            "test_fix_pdf_command_generic_exception": {
+                "line": 125,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "FixPdfCommand",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 50,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    }
+}

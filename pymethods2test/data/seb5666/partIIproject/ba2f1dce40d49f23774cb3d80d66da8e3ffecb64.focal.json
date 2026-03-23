@@ -1,0 +1,236 @@
+{
+    "test/testDataExtractorWithLargerArray.py": {
+        "focal_file": "model/dataExtractor.py",
+        "methods": {
+            "test_find_valid_patches_coordinates": {
+                "line": 24,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "find_valid_patches_coordinates"
+                }
+            },
+            "test_find_valid_patches_coordinates_with_large_patches": {
+                "line": 37,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "find_valid_patches_coordinates"
+                }
+            },
+            "test_find_training_patches_close_to_tumour": {
+                "line": 50,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "find_patches_close_to_tumour"
+                }
+            },
+            "test_extract_training_patches": {
+                "line": 63,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "extractTrainingData"
+                }
+            }
+        }
+    },
+    "test/testDataExtractorWithSimpleArrayInput.py": {
+        "focal_file": "model/dataExtractor.py",
+        "methods": {
+            "test_find_valid_patches_coordinates": {
+                "line": 21,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "find_valid_patches_coordinates"
+                }
+            },
+            "test_find_valid_patches_coordinates_with_large_patches": {
+                "line": 38,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 269,
+                    "indent": 4,
+                    "name": "find_valid_patches_coordinates"
+                }
+            },
+            "test_find_training_patches_close_to_tumour": {
+                "line": 52,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 101,
+                    "indent": 4,
+                    "name": "find_patches_close_to_tumour"
+                }
+            },
+            "test_extract_training_patches": {
+                "line": 65,
+                "line_end": 81,
+                "indent": 4,
+                "focal_class": "DataExtractor",
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "extractTrainingData"
+                }
+            }
+        }
+    },
+    "test/testFCNSegment.py": {
+        "focal_file": "model/fcn_segment.py",
+        "methods": {
+            "test_extract_patches": {
+                "line": 15,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "extract_patches"
+                }
+            },
+            "test_pad": {
+                "line": 31,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 18,
+                    "indent": 0,
+                    "name": "pad"
+                }
+            }
+        }
+    },
+    "test/testNormalization.py": {
+        "focal_file": "model/normalization.py",
+        "methods": {
+            "test_normalize_channel": {
+                "line": 7,
+                "line_end": 23,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 12,
+                    "line_end": 17,
+                    "indent": 0,
+                    "name": "normalize_channel"
+                }
+            },
+            "test_normalize_scans": {
+                "line": 25,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 3,
+                    "line_end": 10,
+                    "indent": 0,
+                    "name": "normalize_scans"
+                }
+            }
+        }
+    },
+    "test/testRemoveConnectedComponents.py": {
+        "focal_file": "model/remove_connected_components.py",
+        "methods": {
+            "test_no_components": {
+                "line": 8,
+                "line_end": 12,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "remove_connected_components"
+                }
+            },
+            "test_remove_one_component": {
+                "line": 14,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "remove_connected_components"
+                }
+            },
+            "test_remove_large_3d_component": {
+                "line": 21,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "remove_connected_components"
+                }
+            },
+            "test_remove_multiple_components": {
+                "line": 55,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 54,
+                    "indent": 0,
+                    "name": "remove_connected_components"
+                }
+            }
+        }
+    },
+    "test/testSegment.py": {
+        "focal_file": "model/segment.py",
+        "methods": {
+            "test_pad": {
+                "line": 9,
+                "line_end": 26,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 8,
+                    "line_end": 12,
+                    "indent": 0,
+                    "name": "pad"
+                }
+            }
+        }
+    }
+}

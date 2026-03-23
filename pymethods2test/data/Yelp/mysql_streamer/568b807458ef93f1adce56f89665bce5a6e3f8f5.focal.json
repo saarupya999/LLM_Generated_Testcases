@@ -1,0 +1,570 @@
+{
+    "tests/batch/internal/parse_replication_stream_internal_test.py": {
+        "focal_file": "replication_handler/batch/parse_replication_stream_internal.py",
+        "methods": {
+            "test_profiler_signal": {
+                "line": 107,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 108,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "_handle_profiler_signal"
+                }
+            }
+        }
+    },
+    "tests/components/change_log_data_event_handler_test.py": {
+        "focal_file": "replication_handler/components/change_log_data_event_handler.py",
+        "methods": {
+            "test_handle_event": {
+                "line": 70,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "handle_event"
+                }
+            }
+        }
+    },
+    "tests/components/data_event_handlers_test.py": {
+        "focal_file": "replication_handler/components/data_event_handler.py",
+        "methods": {
+            "test_handle_data_update_event": {
+                "line": 321,
+                "line_end": 355,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "handle_event"
+                }
+            },
+            "test_dry_run_handler_event": {
+                "line": 357,
+                "line_end": 369,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 52,
+                    "indent": 4,
+                    "name": "handle_event"
+                }
+            }
+        }
+    },
+    "tests/components/low_level_binlog_stream_reader_wrapper_test.py": {
+        "focal_file": "replication_handler/components/low_level_binlog_stream_reader_wrapper.py",
+        "methods": {
+            "test_get_only_tables": {
+                "line": 150,
+                "line_end": 162,
+                "indent": 4,
+                "focal_class": "LowLevelBinlogStreamReaderWrapper",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 94,
+                    "indent": 4,
+                    "name": "_get_only_tables"
+                }
+            }
+        }
+    },
+    "tests/components/mysql_dump_handler_test.py": {
+        "focal_file": "replication_handler/components/mysql_dump_handler.py",
+        "methods": {
+            "test_create_and_persist_dump": {
+                "line": 151,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": "MySQLDumpHandler",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "persist_schema_dump"
+                }
+            },
+            "test_double_create_dump": {
+                "line": 205,
+                "line_end": 216,
+                "indent": 4,
+                "focal_class": "MySQLDumpHandler",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 51,
+                    "indent": 4,
+                    "name": "create_schema_dump"
+                }
+            }
+        }
+    },
+    "tests/components/mysql_parser_test.py": {
+        "focal_file": "replication_handler/components/mysql_parser.py",
+        "methods": {
+            "test_parse_alter_table_stmt": {
+                "line": 75,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "parse_mysql_statement"
+                }
+            },
+            "test_parse_empty_mysql_stmt": {
+                "line": 169,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 68,
+                    "indent": 0,
+                    "name": "parse_mysql_statement"
+                }
+            }
+        }
+    },
+    "tests/components/position_finder_test.py": {
+        "focal_file": "replication_handler/components/position_finder.py",
+        "methods": {
+            "test_get_position_to_resume_tailing": {
+                "line": 41,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "PositionFinder",
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 45,
+                    "indent": 4,
+                    "name": "get_position_to_resume_tailing_from"
+                }
+            }
+        }
+    },
+    "tests/components/schema_event_handlers_test.py": {
+        "focal_file": "replication_handler/components/schema_event_handler.py",
+        "methods": {
+            "test_dry_run_handle_event": {
+                "line": 714,
+                "line_end": 730,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 132,
+                    "indent": 4,
+                    "name": "handle_event"
+                }
+            }
+        }
+    },
+    "tests/components/schema_tracker_test.py": {
+        "focal_file": "replication_handler/components/schema_tracker.py",
+        "methods": {
+            "test_get_show_create_table_statement": {
+                "line": 63,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 88,
+                    "indent": 4,
+                    "name": "get_show_create_statement"
+                }
+            }
+        }
+    },
+    "tests/components/schema_wrapper_test.py": {
+        "focal_file": "replication_handler/components/schema_wrapper.py",
+        "methods": {
+            "test_get_schema_schema_not_cached": {
+                "line": 140,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "_populate_schema_cache"
+                }
+            },
+            "test_call_to_populate_schema": {
+                "line": 157,
+                "line_end": 165,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "_populate_schema_cache"
+                }
+            }
+        }
+    },
+    "tests/components/sql_handler_test.py": {
+        "focal_file": "replication_handler/components/sql_handler.py",
+        "methods": {
+            "test_is_supported": {
+                "line": 379,
+                "line_end": 380,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 90,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "is_supported"
+                }
+            },
+            "test_unqualified_parsing": {
+                "line": 126,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": "MysqlQualifiedIdentifierParser",
+                "focal_method": {
+                    "line": 239,
+                    "line_end": 256,
+                    "indent": 4,
+                    "name": "parse"
+                }
+            },
+            "test_does_not_rename_table": {
+                "line": 221,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 378,
+                    "line_end": 382,
+                    "indent": 4,
+                    "name": "does_rename_table"
+                }
+            },
+            "test_does_rename_table": {
+                "line": 224,
+                "line_end": 226,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 378,
+                    "line_end": 382,
+                    "indent": 4,
+                    "name": "does_rename_table"
+                }
+            }
+        }
+    },
+    "tests/models/data_event_checkpoint_test.py": {
+        "focal_file": "replication_handler/models/data_event_checkpoint.py",
+        "methods": {
+            "test_get_topic_to_kafka_offset_map": {
+                "line": 123,
+                "line_end": 134,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 134,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "get_topic_to_kafka_offset_map"
+                }
+            }
+        }
+    },
+    "tests/models/mysql_dumps_test.py": {
+        "focal_file": "replication_handler/models/mysql_dumps.py",
+        "methods": {
+            "test_get_latest_mysql_dump": {
+                "line": 53,
+                "line_end": 88,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "get_latest_mysql_dump"
+                }
+            }
+        }
+    },
+    "tests/models/connections/rh_connection_test.py": {
+        "focal_file": "replication_handler/models/connections/rh_connection.py",
+        "methods": {
+            "test_source_session": {
+                "line": 44,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "connect_begin"
+                }
+            },
+            "test_tracker_session": {
+                "line": 48,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "connect_begin"
+                }
+            },
+            "test_state_session": {
+                "line": 52,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 97,
+                    "line_end": 107,
+                    "indent": 4,
+                    "name": "connect_begin"
+                }
+            },
+            "test_cursors": {
+                "line": 56,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 60,
+                    "indent": 4,
+                    "name": "get_state_cursor"
+                }
+            }
+        }
+    },
+    "tests/models/connections/yelp_conn_connection_test.py": {
+        "focal_file": "replication_handler/models/connections/yelp_conn_connection.py",
+        "methods": {
+            "test_cursors": {
+                "line": 64,
+                "line_end": 75,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "get_state_cursor"
+                }
+            }
+        }
+    },
+    "tests/servlib/clog_util_test.py": {
+        "focal_file": "replication_handler/servlib/clog_util.py",
+        "methods": {
+            "test_add_clog_handler": {
+                "line": 64,
+                "line_end": 71,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "add_clog_handler"
+                }
+            },
+            "test_initialize": {
+                "line": 100,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "initialize"
+                }
+            }
+        }
+    },
+    "tests/servlib/config_util_test.py": {
+        "focal_file": "replication_handler/servlib/config_util.py",
+        "methods": {
+            "test_load_package_config": {
+                "line": 87,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 223,
+                    "indent": 0,
+                    "name": "load_package_config"
+                }
+            }
+        }
+    },
+    "tests/servlib/logging_util_test.py": {
+        "focal_file": "replication_handler/servlib/logging_util.py",
+        "methods": {
+            "test_initialize_uwsgi_logging": {
+                "line": 107,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "initialize_uwsgi_logging"
+                }
+            },
+            "test_log_create_application": {
+                "line": 128,
+                "line_end": 144,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 84,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "log_create_application"
+                }
+            }
+        }
+    },
+    "tests/util/message_builder_test.py": {
+        "focal_file": "replication_handler/util/message_builder.py",
+        "methods": {
+            "test_build_message_builds_proper_message": {
+                "line": 55,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": "MessageBuilder",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "build_message"
+                }
+            }
+        }
+    },
+    "tests/util/position_test.py": {
+        "focal_file": "replication_handler/util/position.py",
+        "methods": {
+            "test_to_replication_dict_not_implemented": {
+                "line": 38,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": "Position",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "to_replication_dict"
+                }
+            },
+            "test_replication_dict_just_gtid": {
+                "line": 49,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": "GtidPosition",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "to_replication_dict"
+                }
+            },
+            "test_replication_dict_gtid_and_offset": {
+                "line": 53,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": "GtidPosition",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "to_replication_dict"
+                }
+            },
+            "test_transaction_id": {
+                "line": 122,
+                "line_end": 135,
+                "indent": 4,
+                "focal_class": "LogPosition",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "get_transaction_id"
+                }
+            },
+            "test_log_pos_replication_dict": {
+                "line": 83,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": "LogPosition",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "to_replication_dict"
+                }
+            },
+            "test_log_pos_dict": {
+                "line": 88,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": "LogPosition",
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_construct_gtid_position": {
+                "line": 140,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": "GtidPosition",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "construct_position"
+                }
+            },
+            "test_construct_log_position": {
+                "line": 147,
+                "line_end": 160,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 190,
+                    "indent": 0,
+                    "name": "construct_position"
+                }
+            }
+        }
+    }
+}

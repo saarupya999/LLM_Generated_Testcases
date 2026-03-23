@@ -1,0 +1,994 @@
+{
+    "tests/satosa/test_attribute_mapping.py": {
+        "focal_file": "src/satosa/attribute_mapping.py",
+        "methods": {
+            "test_nested_attribute_to_internal": {
+                "line": 9,
+                "line_end": 25,
+                "indent": 4,
+                "focal_class": "AttributeMapper",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "to_internal"
+                }
+            },
+            "test_deeply_nested_attribute_to_internal": {
+                "line": 27,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": "AttributeMapper",
+                "focal_method": {
+                    "line": 76,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "to_internal"
+                }
+            },
+            "test_to_internal_filter": {
+                "line": 156,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": "AttributeMapper",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "to_internal_filter"
+                }
+            },
+            "test_to_internal_filter_with_unknown_profile": {
+                "line": 249,
+                "line_end": 260,
+                "indent": 4,
+                "focal_class": "AttributeMapper",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 74,
+                    "indent": 4,
+                    "name": "to_internal_filter"
+                }
+            }
+        }
+    },
+    "tests/satosa/test_base.py": {
+        "focal_file": "src/satosa/base.py",
+        "methods": {
+            "test_auth_resp_callback_func_respects_user_id_to_attr": {
+                "line": 40,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "SATOSABase",
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 151,
+                    "indent": 4,
+                    "name": "_auth_resp_callback_func"
+                }
+            },
+            "test_link_micro_services": {
+                "line": 57,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "SATOSABase",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "_link_micro_services"
+                }
+            },
+            "test_link_micro_services_with_invalid_input": {
+                "line": 70,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": "SATOSABase",
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "_link_micro_services"
+                }
+            }
+        }
+    },
+    "tests/satosa/test_plugin_loader.py": {
+        "focal_file": "src/satosa/plugin_loader.py",
+        "methods": {
+            "test_backend_filter_rejects_base_class": {
+                "line": 26,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 74,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "backend_filter"
+                }
+            },
+            "test_frontend_filter_rejects_base_class": {
+                "line": 35,
+                "line_end": 36,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "frontend_filter"
+                }
+            },
+            "test_frontend_filter_rejects_backend_plugin": {
+                "line": 38,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "frontend_filter"
+                }
+            },
+            "test_frontend_filter_accepts_backend_plugin": {
+                "line": 41,
+                "line_end": 42,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "frontend_filter"
+                }
+            },
+            "test_request_micro_service_filter_rejects_base_class": {
+                "line": 44,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "_request_micro_service_filter"
+                }
+            },
+            "test_request_micro_service_filter_rejects_response_micro_service": {
+                "line": 47,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "_request_micro_service_filter"
+                }
+            },
+            "test_request_micro_service_filter_accepts_request_micro_service": {
+                "line": 50,
+                "line_end": 51,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 127,
+                    "indent": 0,
+                    "name": "_request_micro_service_filter"
+                }
+            },
+            "test_response_micro_service_filter_rejects_base_class": {
+                "line": 53,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "_response_micro_service_filter"
+                }
+            },
+            "test_response_micro_service_filter_rejects_request_micro_service": {
+                "line": 56,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "_response_micro_service_filter"
+                }
+            },
+            "test_response_micro_service_filter_accepts_response_micro_service": {
+                "line": 59,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 141,
+                    "indent": 0,
+                    "name": "_response_micro_service_filter"
+                }
+            }
+        }
+    },
+    "tests/satosa/test_routing.py": {
+        "focal_file": "src/satosa/routing.py",
+        "methods": {
+            "test_endpoint_routing_to_frontend": {
+                "line": 34,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "endpoint_routing"
+                }
+            },
+            "test_endpoint_routing_to_backend": {
+                "line": 44,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "endpoint_routing"
+                }
+            },
+            "test_endpoint_routing_to_microservice": {
+                "line": 55,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "endpoint_routing"
+                }
+            },
+            "test_module_routing": {
+                "line": 69,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "backend_routing"
+                }
+            },
+            "test_endpoint_routing_with_unknown_endpoint": {
+                "line": 81,
+                "line_end": 84,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 191,
+                    "indent": 4,
+                    "name": "endpoint_routing"
+                }
+            }
+        }
+    },
+    "tests/satosa/test_state.py": {
+        "focal_file": "src/satosa/state.py",
+        "methods": {
+            "test_encode_decode_of_state": {
+                "line": 90,
+                "line_end": 107,
+                "indent": 4,
+                "focal_class": "State",
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "cookie_to_state"
+                }
+            },
+            "test_cookie_to_state_handle_broken_cookies": {
+                "line": 147,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "cookie_to_state"
+                }
+            }
+        }
+    },
+    "tests/satosa/backends/test_oauth.py": {
+        "focal_file": "src/satosa/backends/oauth.py",
+        "methods": {
+            "test_register_endpoints": {
+                "line": 108,
+                "line_end": 111,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 91,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "register_endpoints"
+                }
+            },
+            "test_start_auth": {
+                "line": 113,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 68,
+                    "line_end": 81,
+                    "indent": 4,
+                    "name": "start_auth"
+                }
+            },
+            "test_authn_response": {
+                "line": 132,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 149,
+                    "indent": 4,
+                    "name": "_authn_response"
+                }
+            }
+        }
+    },
+    "tests/satosa/backends/test_openid_connect.py": {
+        "focal_file": "src/satosa/backends/openid_connect.py",
+        "methods": {
+            "test_register_endpoints": {
+                "line": 147,
+                "line_end": 152,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 109,
+                    "indent": 4,
+                    "name": "register_endpoints"
+                }
+            },
+            "test_response_endpoint": {
+                "line": 160,
+                "line_end": 171,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 217,
+                    "indent": 4,
+                    "name": "response_endpoint"
+                }
+            },
+            "test_init": {
+                "line": 244,
+                "line_end": 247,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 280,
+                    "indent": 0,
+                    "name": "_create_client"
+                }
+            }
+        }
+    },
+    "tests/satosa/backends/test_orcid.py": {
+        "focal_file": "src/satosa/backends/orcid.py",
+        "methods": {
+            "test_authn_response": {
+                "line": 179,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 83,
+                    "indent": 4,
+                    "name": "_authn_response"
+                }
+            },
+            "test_user_information": {
+                "line": 194,
+                "line_end": 212,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "user_information"
+                }
+            },
+            "test_user_information_private": {
+                "line": 215,
+                "line_end": 228,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 85,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "user_information"
+                }
+            }
+        }
+    },
+    "tests/satosa/backends/test_saml2.py": {
+        "focal_file": "src/satosa/backends/saml2.py",
+        "methods": {
+            "test_register_endpoints": {
+                "line": 92,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 446,
+                    "line_end": 482,
+                    "indent": 4,
+                    "name": "register_endpoints"
+                }
+            },
+            "test_authn_request": {
+                "line": 176,
+                "line_end": 180,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 237,
+                    "line_end": 306,
+                    "indent": 4,
+                    "name": "authn_request"
+                }
+            },
+            "test_authn_response": {
+                "line": 182,
+                "line_end": 197,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 357,
+                    "indent": 4,
+                    "name": "authn_response"
+                }
+            },
+            "test_authn_response_no_name_id": {
+                "line": 202,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 308,
+                    "line_end": 357,
+                    "indent": 4,
+                    "name": "authn_response"
+                }
+            },
+            "test_metadata_endpoint": {
+                "line": 295,
+                "line_end": 299,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 429,
+                    "line_end": 444,
+                    "indent": 4,
+                    "name": "_metadata_endpoint"
+                }
+            },
+            "test_get_metadata_desc": {
+                "line": 301,
+                "line_end": 322,
+                "indent": 4,
+                "focal_class": "SAMLBackend",
+                "focal_method": {
+                    "line": 484,
+                    "line_end": 542,
+                    "indent": 4,
+                    "name": "get_metadata_desc"
+                }
+            }
+        }
+    },
+    "tests/satosa/frontends/test_openid_connect.py": {
+        "focal_file": "src/satosa/frontends/openid_connect.py",
+        "methods": {
+            "test_handle_authn_response": {
+                "line": 181,
+                "line_end": 195,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 130,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "handle_authn_response"
+                }
+            },
+            "test_handle_authn_request": {
+                "line": 197,
+                "line_end": 211,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 339,
+                    "line_end": 351,
+                    "indent": 4,
+                    "name": "handle_authn_request"
+                }
+            },
+            "test_handle_authn_request_with_extra_scopes": {
+                "line": 213,
+                "line_end": 233,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 292,
+                    "line_end": 337,
+                    "indent": 4,
+                    "name": "_handle_authn_request"
+                }
+            },
+            "test_get_approved_attributes": {
+                "line": 235,
+                "line_end": 241,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 290,
+                    "indent": 4,
+                    "name": "_get_approved_attributes"
+                }
+            },
+            "test_handle_backend_error": {
+                "line": 243,
+                "line_end": 257,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 173,
+                    "indent": 4,
+                    "name": "handle_backend_error"
+                }
+            },
+            "test_register_client": {
+                "line": 259,
+                "line_end": 270,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 254,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "client_registration"
+                }
+            },
+            "test_jwks": {
+                "line": 367,
+                "line_end": 370,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 353,
+                    "line_end": 362,
+                    "indent": 4,
+                    "name": "jwks"
+                }
+            },
+            "test_token_endpoint": {
+                "line": 405,
+                "line_end": 425,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "token_endpoint"
+                }
+            },
+            "test_token_endpoint_with_extra_claims": {
+                "line": 427,
+                "line_end": 446,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "token_endpoint"
+                }
+            },
+            "test_token_endpoint_with_invalid_code": {
+                "line": 480,
+                "line_end": 490,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 364,
+                    "line_end": 391,
+                    "indent": 4,
+                    "name": "token_endpoint"
+                }
+            },
+            "test_userinfo_endpoint": {
+                "line": 492,
+                "line_end": 503,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 393,
+                    "line_end": 406,
+                    "indent": 4,
+                    "name": "userinfo_endpoint"
+                }
+            },
+            "test_userinfo_endpoint_with_extra_scopes": {
+                "line": 505,
+                "line_end": 524,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 393,
+                    "line_end": 406,
+                    "indent": 4,
+                    "name": "userinfo_endpoint"
+                }
+            },
+            "test_userinfo_with_invalid_token": {
+                "line": 526,
+                "line_end": 531,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 393,
+                    "line_end": 406,
+                    "indent": 4,
+                    "name": "userinfo_endpoint"
+                }
+            }
+        }
+    },
+    "tests/satosa/frontends/test_saml2.py": {
+        "focal_file": "src/satosa/frontends/saml2.py",
+        "methods": {
+            "test_register_endpoints": {
+                "line": 545,
+                "line_end": 554,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "register_endpoints"
+                }
+            },
+            "test_handle_authn_request": {
+                "line": 145,
+                "line_end": 157,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "handle_authn_request"
+                }
+            },
+            "test_create_authn_request_with_subject": {
+                "line": 159,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 100,
+                    "indent": 4,
+                    "name": "handle_authn_request"
+                }
+            },
+            "test_handle_authn_response_without_relay_state": {
+                "line": 184,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "handle_authn_response"
+                }
+            },
+            "test_handle_authn_response_without_name_id": {
+                "line": 201,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 86,
+                    "indent": 4,
+                    "name": "handle_authn_response"
+                }
+            },
+            "test_sp_metadata_including_uiinfo_display_name": {
+                "line": 343,
+                "line_end": 347,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 606,
+                    "line_end": 616,
+                    "indent": 4,
+                    "name": "_get_sp_display_name"
+                }
+            },
+            "test_metadata_endpoint": {
+                "line": 358,
+                "line_end": 365,
+                "indent": 4,
+                "focal_class": "SAMLFrontend",
+                "focal_method": {
+                    "line": 471,
+                    "line_end": 485,
+                    "indent": 4,
+                    "name": "_metadata_endpoint"
+                }
+            },
+            "test_load_endpoints_to_config": {
+                "line": 415,
+                "line_end": 417,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 624,
+                    "line_end": 647,
+                    "indent": 4,
+                    "name": "_load_endpoints_to_config"
+                }
+            },
+            "test_load_idp_dynamic_endpoints": {
+                "line": 419,
+                "line_end": 423,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 649,
+                    "line_end": 663,
+                    "indent": 4,
+                    "name": "_load_idp_dynamic_endpoints"
+                }
+            },
+            "test_load_idp_dynamic_entity_id": {
+                "line": 425,
+                "line_end": 429,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 665,
+                    "line_end": 679,
+                    "indent": 4,
+                    "name": "_load_idp_dynamic_entity_id"
+                }
+            },
+            "test_create_state_data": {
+                "line": 512,
+                "line_end": 520,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "_create_state_data"
+                }
+            },
+            "test_get_co_name": {
+                "line": 522,
+                "line_end": 528,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 882,
+                    "line_end": 903,
+                    "indent": 4,
+                    "name": "_get_co_name"
+                }
+            },
+            "test_create_co_virtual_idp": {
+                "line": 530,
+                "line_end": 543,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1020,
+                    "line_end": 1062,
+                    "indent": 4,
+                    "name": "_create_co_virtual_idp"
+                }
+            }
+        }
+    },
+    "tests/satosa/metadata_creation/test_description.py": {
+        "focal_file": "src/satosa/metadata_creation/description.py",
+        "methods": {
+            "test_to_dict": {
+                "line": 68,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "ContactPersonDesc",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_to_dict_with_empty": {
+                "line": 62,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": "OrganizationDesc",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_add_contact_person_rejects_bad_input": {
+                "line": 101,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "MetadataDescription",
+                "focal_method": {
+                    "line": 196,
+                    "line_end": 204,
+                    "indent": 4,
+                    "name": "add_contact_person"
+                }
+            }
+        }
+    },
+    "tests/satosa/metadata_creation/test_saml_metadata.py": {
+        "focal_file": "src/satosa/metadata_creation/saml_metadata.py",
+        "methods": {
+            "test_signed_metadata": {
+                "line": 292,
+                "line_end": 299,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 156,
+                    "indent": 0,
+                    "name": "create_signed_entity_descriptor"
+                }
+            }
+        }
+    },
+    "tests/satosa/micro_services/test_account_linking.py": {
+        "focal_file": "src/satosa/micro_services/account_linking.py",
+        "methods": {
+            "test_account_linking_failed": {
+                "line": 97,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 113,
+                    "indent": 4,
+                    "name": "process"
+                }
+            },
+            "test_register_endpoints": {
+                "line": 137,
+                "line_end": 143,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "register_endpoints"
+                }
+            }
+        }
+    },
+    "tests/satosa/micro_services/test_consent.py": {
+        "focal_file": "src/satosa/micro_services/consent.py",
+        "methods": {
+            "test_verify_consent": {
+                "line": 101,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 199,
+                    "line_end": 216,
+                    "indent": 4,
+                    "name": "_verify_consent"
+                }
+            },
+            "test_consent_registration": {
+                "line": 119,
+                "line_end": 122,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 180,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "_consent_registration"
+                }
+            },
+            "test_get_consent_id": {
+                "line": 210,
+                "line_end": 214,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 178,
+                    "indent": 4,
+                    "name": "_get_consent_id"
+                }
+            },
+            "test_filter_attributes": {
+                "line": 216,
+                "line_end": 218,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 155,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "_filter_attributes"
+                }
+            }
+        }
+    },
+    "tests/satosa/micro_services/test_ldap_attribute_store.py": {
+        "focal_file": "src/satosa/micro_services/ldap_attribute_store.py",
+        "methods": {
+            "test_attributes_general": {
+                "line": 83,
+                "line_end": 109,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 399,
+                    "line_end": 618,
+                    "indent": 4,
+                    "name": "process"
+                }
+            }
+        }
+    }
+}

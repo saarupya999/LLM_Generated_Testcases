@@ -1,0 +1,241 @@
+{
+    "unit_tests/test_harden.py": {
+        "focal_file": "charms_hardening/harden.py",
+        "methods": {
+            "test_harden": {
+                "line": 33,
+                "line_end": 47,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "harden"
+                }
+            }
+        }
+    },
+    "unit_tests/test_utils.py": {
+        "focal_file": "charms_hardening/utils.py",
+        "methods": {
+            "test_ensure_permissions": {
+                "line": 40,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 124,
+                    "line_end": 157,
+                    "indent": 0,
+                    "name": "ensure_permissions"
+                }
+            }
+        }
+    },
+    "unit_tests/audits/test_apache_audits.py": {
+        "focal_file": "charms_hardening/audits/apache.py",
+        "methods": {
+            "test_ensure_compliance_no_modules": {
+                "line": 46,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.apache.DisabledModuleAudit",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "ensure_compliance"
+                }
+            },
+            "test_ensure_compliance_loaded_modules_raises_ex": {
+                "line": 53,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.apache.DisabledModuleAudit",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "ensure_compliance"
+                }
+            }
+        }
+    },
+    "unit_tests/audits/test_apt_audits.py": {
+        "focal_file": "charms_hardening/audits/apt.py",
+        "methods": {
+            "test_ensure_compliance": {
+                "line": 69,
+                "line_end": 76,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.apt.AptConfig",
+                "focal_method": {
+                    "line": 47,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "ensure_compliance"
+                }
+            }
+        }
+    },
+    "unit_tests/audits/test_base_audits.py": {
+        "focal_file": "charms_hardening/audits/__init__.py",
+        "methods": {
+            "test_take_action_default": {
+                "line": 27,
+                "line_end": 30,
+                "indent": 4,
+                "focal_class": "BaseAudit",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "_take_action"
+                }
+            },
+            "test_take_action_unless_true": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "BaseAudit",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "_take_action"
+                }
+            },
+            "test_take_action_unless_false": {
+                "line": 37,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": "BaseAudit",
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 63,
+                    "indent": 4,
+                    "name": "_take_action"
+                }
+            }
+        }
+    },
+    "unit_tests/audits/test_file_audits.py": {
+        "focal_file": "charms_hardening/audits/file.py",
+        "methods": {
+            "test_ensure_compliance": {
+                "line": 44,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.BaseFileAudit",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "ensure_compliance"
+                }
+            },
+            "test_ensure_compliance_in_compliance": {
+                "line": 50,
+                "line_end": 58,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.BaseFileAudit",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "ensure_compliance"
+                }
+            },
+            "test_ensure_compliance_out_of_compliance": {
+                "line": 60,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.BaseFileAudit",
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 90,
+                    "indent": 4,
+                    "name": "ensure_compliance"
+                }
+            },
+            "test_is_compliant": {
+                "line": 228,
+                "line_end": 236,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.TemplatedFile",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "is_compliant"
+                }
+            },
+            "test_not_compliant_wrong_user": {
+                "line": 113,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.FilePermissionAudit",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "is_compliant"
+                }
+            },
+            "test_comply": {
+                "line": 255,
+                "line_end": 266,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.TemplatedFile",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "comply"
+                }
+            },
+            "test_is_noncompliant": {
+                "line": 186,
+                "line_end": 192,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.NoSUIDSGIDAudit",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "is_compliant"
+                }
+            },
+            "test_is_not_compliant": {
+                "line": 214,
+                "line_end": 222,
+                "indent": 4,
+                "focal_class": "charms_hardening.audits.file.TemplatedFile",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "is_compliant"
+                }
+            }
+        }
+    },
+    "unit_tests/mysql/checks/test_config.py": {
+        "focal_file": "charms_hardening/mysql/checks/config.py",
+        "methods": {
+            "test_get_audits": {
+                "line": 33,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 75,
+                    "indent": 0,
+                    "name": "get_audits"
+                }
+            }
+        }
+    }
+}

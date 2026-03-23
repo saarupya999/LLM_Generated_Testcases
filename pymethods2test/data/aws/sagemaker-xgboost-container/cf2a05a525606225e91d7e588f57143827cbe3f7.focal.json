@@ -1,0 +1,580 @@
+{
+    "test/integration/local/test_multiple_model_endpoint.py": {
+        "focal_file": "test/integration/local/test_multiple_model_endpoint.py",
+        "methods": {
+            "test_list_models_empty": {
+                "line": 110,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 84,
+                    "indent": 0,
+                    "name": "make_list_model_request"
+                }
+            },
+            "test_delete_unloaded_model": {
+                "line": 116,
+                "line_end": 120,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "make_unload_model_request"
+                }
+            },
+            "test_load_and_unload_model": {
+                "line": 123,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "make_unload_model_request"
+                }
+            },
+            "test_load_and_unload_two_models": {
+                "line": 147,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 102,
+                    "indent": 0,
+                    "name": "make_unload_model_request"
+                }
+            },
+            "test_load_one_model_two_times": {
+                "line": 194,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "make_load_model_request"
+                }
+            }
+        }
+    },
+    "test/unit/test_checkpointing.py": {
+        "focal_file": "src/sagemaker_xgboost_container/checkpointing.py",
+        "methods": {
+            "test_train": {
+                "line": 175,
+                "line_end": 230,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "train"
+                }
+            },
+            "test_sort_checkpoints": {
+                "line": 263,
+                "line_end": 277,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "_sort_checkpoints"
+                }
+            }
+        }
+    },
+    "test/unit/test_serving.py": {
+        "focal_file": "src/sagemaker_xgboost_container/serving.py",
+        "methods": {
+            "test_default_model_fn": {
+                "line": 57,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "default_model_fn"
+                }
+            },
+            "test_serving_entrypoint_start_mms": {
+                "line": 107,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 0,
+                    "name": "serving_entrypoint"
+                }
+            },
+            "test_user_module_transformer_with_input_fn": {
+                "line": 142,
+                "line_end": 150,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_user_module_transformer"
+                }
+            },
+            "test_user_module_transformer_with_predict_fn": {
+                "line": 154,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_user_module_transformer"
+                }
+            },
+            "test_user_module_transformer_with_output_fn": {
+                "line": 166,
+                "line_end": 174,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 119,
+                    "indent": 0,
+                    "name": "_user_module_transformer"
+                }
+            }
+        }
+    },
+    "test/unit/test_encoder.py": {
+        "focal_file": "src/sagemaker_xgboost_container/encoder.py",
+        "methods": {
+            "test_csv_to_dmatrix": {
+                "line": 28,
+                "line_end": 30,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 38,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "csv_to_dmatrix"
+                }
+            },
+            "test_libsvm_to_dmatrix": {
+                "line": 49,
+                "line_end": 59,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 74,
+                    "indent": 0,
+                    "name": "libsvm_to_dmatrix"
+                }
+            },
+            "test_recordio_protobuf_to_dmatrix": {
+                "line": 68,
+                "line_end": 70,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "recordio_protobuf_to_dmatrix"
+                }
+            },
+            "test_sparse_recordio_protobuf_to_dmatrix": {
+                "line": 73,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "recordio_protobuf_to_dmatrix"
+                }
+            },
+            "test_decode": {
+                "line": 92,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "decode"
+                }
+            },
+            "test_encoder_jsonlines_from_json": {
+                "line": 100,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "json_to_jsonlines"
+                }
+            },
+            "test_encoder_jsonlines_from_json_error": {
+                "line": 110,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 109,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "json_to_jsonlines"
+                }
+            }
+        }
+    },
+    "test/unit/test_data_utils.py": {
+        "focal_file": "src/sagemaker_xgboost_container/data_utils.py",
+        "methods": {
+            "test_get_content_type": {
+                "line": 34,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 103,
+                    "indent": 0,
+                    "name": "get_content_type"
+                }
+            },
+            "test_get_dmatrix": {
+                "line": 120,
+                "line_end": 128,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 488,
+                    "line_end": 558,
+                    "indent": 0,
+                    "name": "get_dmatrix"
+                }
+            }
+        }
+    },
+    "test/unit/test_handler_service.py": {
+        "focal_file": "src/sagemaker_xgboost_container/handler_service.py",
+        "methods": {
+            "test_default_model_fn": {
+                "line": 52,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 46,
+                    "indent": 8,
+                    "name": "default_model_fn"
+                }
+            },
+            "test_predict_fn": {
+                "line": 57,
+                "line_end": 61,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 71,
+                    "indent": 8,
+                    "name": "default_predict_fn"
+                }
+            },
+            "test_output_fn_json": {
+                "line": 64,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 85,
+                    "indent": 8,
+                    "name": "default_output_fn"
+                }
+            },
+            "test_output_fn_csv": {
+                "line": 69,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 85,
+                    "indent": 8,
+                    "name": "default_output_fn"
+                }
+            },
+            "test_output_fn_npz": {
+                "line": 74,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 73,
+                    "line_end": 85,
+                    "indent": 8,
+                    "name": "default_output_fn"
+                }
+            }
+        }
+    },
+    "test/unit/algorithm_toolkit/test_hyperparameter_validation.py": {
+        "focal_file": "src/sagemaker_algorithm_toolkit/hyperparameter_validation.py",
+        "methods": {
+            "test_integer_tunable_range": {
+                "line": 133,
+                "line_end": 145,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "format_tunable_range"
+                }
+            },
+            "test_categorical_tunable_range": {
+                "line": 147,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "format_tunable_range"
+                }
+            },
+            "test_continuous_tunable_range": {
+                "line": 156,
+                "line_end": 167,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 56,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "format_tunable_range"
+                }
+            },
+            "test_simple_alias": {
+                "line": 200,
+                "line_end": 213,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 247,
+                    "line_end": 251,
+                    "indent": 4,
+                    "name": "declare_alias"
+                }
+            }
+        }
+    },
+    "test/unit/algorithm_toolkit/test_channel_validation.py": {
+        "focal_file": "src/sagemaker_algorithm_toolkit/channel_validation.py",
+        "methods": {
+            "test_default_content_type": {
+                "line": 27,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 63,
+                    "line_end": 64,
+                    "indent": 4,
+                    "name": "set_default_content_type"
+                }
+            },
+            "test_simple_format": {
+                "line": 63,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "format"
+                }
+            }
+        }
+    },
+    "test/unit/algorithm_mode/test_serve_utils.py": {
+        "focal_file": "src/sagemaker_xgboost_container/algorithm_mode/serve_utils.py",
+        "methods": {
+            "test_get_loaded_booster": {
+                "line": 62,
+                "line_end": 71,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_loaded_booster"
+                }
+            },
+            "test_get_labels": {
+                "line": 154,
+                "line_end": 155,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 225,
+                    "indent": 0,
+                    "name": "_get_labels"
+                }
+            },
+            "test_get_predicted_label": {
+                "line": 168,
+                "line_end": 169,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 228,
+                    "line_end": 243,
+                    "indent": 0,
+                    "name": "_get_predicted_label"
+                }
+            },
+            "test_get_probability": {
+                "line": 180,
+                "line_end": 181,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 246,
+                    "line_end": 261,
+                    "indent": 0,
+                    "name": "_get_probability"
+                }
+            },
+            "test_get_probabilities": {
+                "line": 192,
+                "line_end": 193,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 264,
+                    "line_end": 277,
+                    "indent": 0,
+                    "name": "_get_probabilities"
+                }
+            },
+            "test_get_raw_score": {
+                "line": 205,
+                "line_end": 206,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 280,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "_get_raw_score"
+                }
+            },
+            "test_get_raw_scores": {
+                "line": 218,
+                "line_end": 219,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 302,
+                    "line_end": 323,
+                    "indent": 0,
+                    "name": "_get_raw_scores"
+                }
+            },
+            "test_encode_selected_predictions_json": {
+                "line": 226,
+                "line_end": 228,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 436,
+                    "line_end": 459,
+                    "indent": 0,
+                    "name": "encode_selected_predictions"
+                }
+            },
+            "test_encode_selected_predictions_csv": {
+                "line": 254,
+                "line_end": 256,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 436,
+                    "line_end": 459,
+                    "indent": 0,
+                    "name": "encode_selected_predictions"
+                }
+            }
+        }
+    },
+    "test/unit/algorithm_mode/test_serve.py": {
+        "focal_file": "src/sagemaker_xgboost_container/algorithm_mode/serve.py",
+        "methods": {
+            "test_default_execution_parameters": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "execution_parameters"
+                }
+            },
+            "test_max_execution_parameters": {
+                "line": 32,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 171,
+                    "indent": 0,
+                    "name": "execution_parameters"
+                }
+            },
+            "test_parse_accept": {
+                "line": 40,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 174,
+                    "line_end": 189,
+                    "indent": 0,
+                    "name": "_parse_accept"
+                }
+            }
+        }
+    }
+}

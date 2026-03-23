@@ -1,0 +1,156 @@
+{
+    "tests/test_vision.py": {
+        "focal_file": "puzbot/vision.py",
+        "methods": {
+            "test_it_finds_the_game_board": {
+                "line": 11,
+                "line_end": 17,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 64,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "get_game_board"
+                }
+            },
+            "test_it_recognizes_digit": {
+                "line": 31,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "ImageFileSource",
+                "focal_method": {
+                    "line": 210,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "_recognize_number"
+                }
+            },
+            "test_it_recognizes_constraint": {
+                "line": 37,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "ImageFileSource",
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 266,
+                    "indent": 4,
+                    "name": "_recognize_target_sum"
+                }
+            },
+            "test_it_finds_constraints": {
+                "line": 51,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": "ImageFileSource",
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 175,
+                    "indent": 4,
+                    "name": "get_constraints"
+                }
+            }
+        }
+    },
+    "tests/test_solver.py": {
+        "focal_file": "puzbot/solvers/bruteforce.py",
+        "methods": {
+            "test_unfilled_board_is_legal": {
+                "line": 13,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "is_legal"
+                }
+            },
+            "test_board_with_matching_constraints_is_legal": {
+                "line": 31,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "is_legal"
+                }
+            },
+            "test_board_with_unfilled_fields_and_lower_sum_is_legal": {
+                "line": 59,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 31,
+                    "indent": 4,
+                    "name": "is_legal"
+                }
+            },
+            "test_rows": {
+                "line": 72,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "rows"
+                }
+            },
+            "test_columns": {
+                "line": 85,
+                "line_end": 97,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 61,
+                    "indent": 4,
+                    "name": "columns"
+                }
+            },
+            "test_filled_cells_removes_unfilled_cells": {
+                "line": 99,
+                "line_end": 103,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 70,
+                    "indent": 4,
+                    "name": "filled_cells"
+                }
+            },
+            "test_includes_all_legal_moves": {
+                "line": 105,
+                "line_end": 119,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 34,
+                    "indent": 4,
+                    "name": "legal_moves"
+                }
+            },
+            "test_includes_all_moves": {
+                "line": 121,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 36,
+                    "line_end": 44,
+                    "indent": 4,
+                    "name": "all_moves"
+                }
+            }
+        }
+    }
+}

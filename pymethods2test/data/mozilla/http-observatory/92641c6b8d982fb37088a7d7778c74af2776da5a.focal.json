@@ -1,0 +1,248 @@
+{
+    "httpobs/tests/unittests/test_content.py": {
+        "focal_file": "httpobs/scanner/analyzer/content.py",
+        "methods": {
+            "test_no_contribute_mozilla": {
+                "line": 14,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "contribute"
+                }
+            },
+            "test_contribute_too_large": {
+                "line": 36,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 90,
+                    "indent": 0,
+                    "name": "contribute"
+                }
+            }
+        }
+    },
+    "httpobs/tests/unittests/test_headers.py": {
+        "focal_file": "httpobs/scanner/analyzer/headers.py",
+        "methods": {
+            "test_insecure_scheme": {
+                "line": 47,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 270,
+                    "indent": 0,
+                    "name": "content_security_policy"
+                }
+            },
+            "test_strict_dynamic": {
+                "line": 214,
+                "line_end": 227,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 270,
+                    "indent": 0,
+                    "name": "content_security_policy"
+                }
+            },
+            "test_policy_analysis": {
+                "line": 229,
+                "line_end": 300,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 270,
+                    "indent": 0,
+                    "name": "content_security_policy"
+                }
+            }
+        }
+    },
+    "httpobs/tests/unittests/test_misc.py": {
+        "focal_file": "httpobs/scanner/analyzer/misc.py",
+        "methods": {
+            "test_redirection_missing": {
+                "line": 134,
+                "line_end": 140,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "redirection"
+                }
+            },
+            "test_redirection_not_to_https": {
+                "line": 142,
+                "line_end": 154,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "redirection"
+                }
+            },
+            "test_redirects_to_https": {
+                "line": 156,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "redirection"
+                }
+            },
+            "test_redirects_invalid_cert": {
+                "line": 188,
+                "line_end": 201,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "redirection"
+                }
+            },
+            "test_first_redirection_off_host": {
+                "line": 222,
+                "line_end": 235,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "redirection"
+                }
+            },
+            "test_all_redirections_preloaded": {
+                "line": 237,
+                "line_end": 253,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 100,
+                    "line_end": 185,
+                    "indent": 0,
+                    "name": "redirection"
+                }
+            }
+        }
+    },
+    "httpobs/tests/unittests/test_preload.py": {
+        "focal_file": "httpobs/scanner/analyzer/utils.py",
+        "methods": {
+            "test_not_preloaded": {
+                "line": 37,
+                "line_end": 40,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "is_hsts_preloaded"
+                }
+            },
+            "test_preloaded": {
+                "line": 42,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 48,
+                    "indent": 0,
+                    "name": "is_hsts_preloaded"
+                }
+            }
+        }
+    },
+    "httpobs/tests/unittests/test_sanitize_headers.py": {
+        "focal_file": "httpobs/scanner/utils.py",
+        "methods": {
+            "test_valid_size_headers": {
+                "line": 7,
+                "line_end": 14,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "sanitize_headers"
+                }
+            },
+            "test_huge_headers": {
+                "line": 16,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 88,
+                    "line_end": 100,
+                    "indent": 0,
+                    "name": "sanitize_headers"
+                }
+            }
+        }
+    },
+    "httpobs/tests/unittests/test_valid_hostname.py": {
+        "focal_file": "httpobs/scanner/utils.py",
+        "methods": {
+            "test_valid_hostname": {
+                "line": 8,
+                "line_end": 11,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "valid_hostname"
+                }
+            },
+            "test_invalid_hostname": {
+                "line": 13,
+                "line_end": 20,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "valid_hostname"
+                }
+            },
+            "test_valid_localhost": {
+                "line": 23,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 103,
+                    "line_end": 140,
+                    "indent": 0,
+                    "name": "valid_hostname"
+                }
+            }
+        }
+    }
+}

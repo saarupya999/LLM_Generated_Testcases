@@ -1,0 +1,243 @@
+{
+    "tests/test_loss.py": {
+        "focal_file": "pygbm/loss.py",
+        "methods": {
+            "test_logsumexp": {
+                "line": 140,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 17,
+                    "line_end": 30,
+                    "indent": 0,
+                    "name": "_logsumexp"
+                }
+            },
+            "test_baseline_least_squares": {
+                "line": 160,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_baseline_prediction"
+                }
+            },
+            "test_baseline_binary_crossentropy": {
+                "line": 171,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_baseline_prediction"
+                }
+            },
+            "test_baseline_categorical_crossentropy": {
+                "line": 194,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "get_baseline_prediction"
+                }
+            }
+        }
+    },
+    "tests/test_binning.py": {
+        "focal_file": "pygbm/binning.py",
+        "methods": {
+            "test_find_binning_thresholds_regular_data": {
+                "line": 13,
+                "line_end": 19,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds"
+                }
+            },
+            "test_find_binning_thresholds_small_regular_data": {
+                "line": 22,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds"
+                }
+            },
+            "test_find_binning_thresholds_random_data": {
+                "line": 38,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds"
+                }
+            },
+            "test_find_binning_thresholds_low_n_bins": {
+                "line": 52,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds"
+                }
+            },
+            "test_find_binning_thresholds_invalid_n_bins": {
+                "line": 61,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "_find_binning_thresholds"
+                }
+            },
+            "test_map_to_bins": {
+                "line": 67,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 89,
+                    "indent": 0,
+                    "name": "_map_to_bins"
+                }
+            },
+            "test_bin_mapper_random_data": {
+                "line": 85,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": "BinMapper",
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 179,
+                    "indent": 4,
+                    "name": "transform"
+                }
+            }
+        }
+    },
+    "tests/test_splitting.py": {
+        "focal_file": "pygbm/splitting.py",
+        "methods": {
+            "test_histogram_split": {
+                "line": 13,
+                "line_end": 53,
+                "indent": 0,
+                "focal_class": "SplittingContext",
+                "focal_method": {
+                    "line": 466,
+                    "line_end": 497,
+                    "indent": 0,
+                    "name": "_find_histogram_split"
+                }
+            },
+            "test_split_vs_split_subtraction": {
+                "line": 57,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": "SplittingContext",
+                "focal_method": {
+                    "line": 383,
+                    "line_end": 451,
+                    "indent": 0,
+                    "name": "find_node_split_subtraction"
+                }
+            },
+            "test_split_indices": {
+                "line": 230,
+                "line_end": 288,
+                "indent": 0,
+                "focal_class": "SplittingContext",
+                "focal_method": {
+                    "line": 175,
+                    "line_end": 305,
+                    "indent": 0,
+                    "name": "split_indices"
+                }
+            },
+            "test_min_gain_to_split": {
+                "line": 291,
+                "line_end": 320,
+                "indent": 0,
+                "focal_class": "SplittingContext",
+                "focal_method": {
+                    "line": 466,
+                    "line_end": 497,
+                    "indent": 0,
+                    "name": "_find_histogram_split"
+                }
+            }
+        }
+    },
+    "tests/test_histogram.py": {
+        "focal_file": "pygbm/histogram.py",
+        "methods": {
+            "test_unrolled_equivalent_to_naive": {
+                "line": 76,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "_build_histogram_naive"
+                }
+            },
+            "test_hist_subtraction": {
+                "line": 112,
+                "line_end": 165,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 45,
+                    "indent": 0,
+                    "name": "_subtract_histograms"
+                }
+            }
+        }
+    },
+    "tests/test_plotting.py": {
+        "focal_file": "pygbm/plotting.py",
+        "methods": {
+            "test_plot_grower": {
+                "line": 14,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 112,
+                    "indent": 0,
+                    "name": "plot_tree"
+                }
+            }
+        }
+    }
+}

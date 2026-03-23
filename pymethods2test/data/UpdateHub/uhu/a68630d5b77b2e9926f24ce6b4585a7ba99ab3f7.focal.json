@@ -1,0 +1,637 @@
+{
+    "tests/test_utils.py": {
+        "focal_file": "uhu/utils.py",
+        "methods": {
+            "test_get_default_chunk_size": {
+                "line": 35,
+                "line_end": 37,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 31,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "get_chunk_size"
+                }
+            },
+            "test_get_default_server_url": {
+                "line": 44,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_server_url"
+                }
+            },
+            "test_get_server_url_strips_slashes": {
+                "line": 53,
+                "line_end": 56,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "get_server_url"
+                }
+            },
+            "test_can_get_default_global_config_file": {
+                "line": 58,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 46,
+                    "indent": 0,
+                    "name": "get_global_config_file"
+                }
+            },
+            "test_can_get_custom_ca_certificates_variable": {
+                "line": 67,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "get_custom_ca_certs_file"
+                }
+            },
+            "test_get_default_custom_ca_certificates_variable": {
+                "line": 72,
+                "line_end": 74,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "get_custom_ca_certs_file"
+                }
+            },
+            "test_can_get_local_config_file_by_environment_variable": {
+                "line": 99,
+                "line_end": 101,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "get_local_config_file"
+                }
+            },
+            "test_can_get_default_local_config_file": {
+                "line": 103,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 50,
+                    "indent": 0,
+                    "name": "get_local_config_file"
+                }
+            },
+            "test_can_sign_dict": {
+                "line": 122,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 123,
+                    "indent": 0,
+                    "name": "sign_dict"
+                }
+            }
+        }
+    },
+    "tests/core/test_compression.py": {
+        "focal_file": "uhu/core/compression.py",
+        "methods": {
+            "test_can_get_gzip_uncompressed_size": {
+                "line": 21,
+                "line_end": 24,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "get_uncompressed_size"
+                }
+            },
+            "test_can_get_xz_uncompressed_size": {
+                "line": 26,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "get_uncompressed_size"
+                }
+            },
+            "test_can_get_lzo_uncompressed_size": {
+                "line": 31,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "get_uncompressed_size"
+                }
+            },
+            "test_can_get_tar_uncompressed_size": {
+                "line": 36,
+                "line_end": 41,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "get_uncompressed_size"
+                }
+            },
+            "test_can_get_symbolic_link_uncompressed_size": {
+                "line": 43,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "get_uncompressed_size"
+                }
+            },
+            "test_uncompressed_size_raises_error_if_corrupted_file": {
+                "line": 60,
+                "line_end": 63,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 99,
+                    "indent": 0,
+                    "name": "get_uncompressed_size"
+                }
+            },
+            "test_can_get_gzip_compressor_format_from_file": {
+                "line": 65,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_compressor_format"
+                }
+            },
+            "test_can_get_lzo_compressor_format_from_file": {
+                "line": 70,
+                "line_end": 73,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_compressor_format"
+                }
+            },
+            "test_can_get_xz_compressor_format_from_file": {
+                "line": 75,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_compressor_format"
+                }
+            },
+            "test_can_get_compressor_format_from_symbolic_link": {
+                "line": 80,
+                "line_end": 83,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_compressor_format"
+                }
+            },
+            "test_get_compressor_format_returns_None_if_not_supported_by_uhu": {
+                "line": 85,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 46,
+                    "line_end": 58,
+                    "indent": 0,
+                    "name": "get_compressor_format"
+                }
+            },
+            "test_is_valid_compressed_file_returns_false_if_invalid": {
+                "line": 89,
+                "line_end": 92,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 80,
+                    "indent": 0,
+                    "name": "is_valid_compressed_file"
+                }
+            }
+        }
+    },
+    "tests/core/test_install_condition.py": {
+        "focal_file": "uhu/core/install_condition.py",
+        "methods": {
+            "test_can_get_kernel_version": {
+                "line": 39,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 174,
+                    "indent": 0,
+                    "name": "get_kernel_version"
+                }
+            },
+            "test_can_get_arm_zImage_version": {
+                "line": 96,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 86,
+                    "line_end": 124,
+                    "indent": 0,
+                    "name": "get_arm_z_image_version"
+                }
+            },
+            "test_can_get_arm_uImage_version": {
+                "line": 102,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 133,
+                    "indent": 0,
+                    "name": "get_arm_u_image_version"
+                }
+            },
+            "test_can_get_x86_bzImage_version": {
+                "line": 108,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 147,
+                    "indent": 0,
+                    "name": "get_x86_bz_image_version"
+                }
+            },
+            "test_can_get_x86_zImage_version": {
+                "line": 114,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 150,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_x86_z_image_version"
+                }
+            },
+            "test_can_get_uboot_version": {
+                "line": 123,
+                "line_end": 129,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "get_uboot_version"
+                }
+            },
+            "test_can_get_uboot_spl_version": {
+                "line": 131,
+                "line_end": 137,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 179,
+                    "line_end": 187,
+                    "indent": 0,
+                    "name": "get_uboot_version"
+                }
+            },
+            "test_can_get_custom_object_version": {
+                "line": 147,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 192,
+                    "line_end": 199,
+                    "indent": 0,
+                    "name": "get_object_version"
+                }
+            },
+            "test_normalizer_raises_error_if_missing_version": {
+                "line": 567,
+                "line_end": 569,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 213,
+                    "line_end": 257,
+                    "indent": 0,
+                    "name": "normalize_install_if_different"
+                }
+            }
+        }
+    },
+    "tests/core/test_objects.py": {
+        "focal_file": "uhu/core/objects.py",
+        "methods": {
+            "test_manager_as_metadata": {
+                "line": 61,
+                "line_end": 68,
+                "indent": 4,
+                "focal_class": "ObjectsManager",
+                "focal_method": {
+                    "line": 135,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "to_metadata"
+                }
+            },
+            "test_manager_as_template": {
+                "line": 71,
+                "line_end": 78,
+                "indent": 4,
+                "focal_class": "ObjectsManager",
+                "focal_method": {
+                    "line": 141,
+                    "line_end": 144,
+                    "indent": 4,
+                    "name": "to_template"
+                }
+            }
+        }
+    },
+    "tests/core/test_options.py": {
+        "focal_file": "uhu/core/_options.py",
+        "methods": {
+            "test_can_validate": {
+                "line": 119,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            }
+        }
+    },
+    "tests/repl/test_helpers.py": {
+        "focal_file": "uhu/repl/helpers.py",
+        "methods": {
+            "test_set_product_prompt_returns_right_prompt": {
+                "line": 56,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 101,
+                    "indent": 0,
+                    "name": "set_product_prompt"
+                }
+            },
+            "test_can_prompt_object_option": {
+                "line": 63,
+                "line_end": 67,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 168,
+                    "line_end": 178,
+                    "indent": 0,
+                    "name": "prompt_object_option"
+                }
+            },
+            "test_can_prompt_object_options": {
+                "line": 70,
+                "line_end": 95,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "prompt_object_options"
+                }
+            },
+            "test_can_prompt_object_options_with_empty_prompts": {
+                "line": 98,
+                "line_end": 123,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 112,
+                    "line_end": 142,
+                    "indent": 0,
+                    "name": "prompt_object_options"
+                }
+            },
+            "test_can_prompt_object_mode": {
+                "line": 126,
+                "line_end": 130,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 151,
+                    "indent": 0,
+                    "name": "prompt_object_mode"
+                }
+            },
+            "test_can_prompt_object_uid": {
+                "line": 133,
+                "line_end": 139,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 165,
+                    "indent": 0,
+                    "name": "prompt_object_uid"
+                }
+            },
+            "test_prompt_object_option_without_default_and_empty_prompt": {
+                "line": 142,
+                "line_end": 151,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "prompt_object_option_value"
+                }
+            },
+            "test_prompt_object_option_with_default_and_empty_prompt": {
+                "line": 154,
+                "line_end": 163,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 237,
+                    "indent": 0,
+                    "name": "prompt_object_option_value"
+                }
+            },
+            "test_can_prompt_package_uid": {
+                "line": 166,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 240,
+                    "line_end": 245,
+                    "indent": 0,
+                    "name": "prompt_package_uid"
+                }
+            },
+            "test_can_parse_prompt_object_uid": {
+                "line": 172,
+                "line_end": 177,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 109,
+                    "indent": 0,
+                    "name": "parse_prompt_object_uid"
+                }
+            },
+            "test_prompt_installation_set_returns_None_if_single": {
+                "line": 180,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 265,
+                    "indent": 0,
+                    "name": "prompt_installation_set"
+                }
+            },
+            "test_prompt_installation_set_returns_int_if_not_single": {
+                "line": 187,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 248,
+                    "line_end": 265,
+                    "indent": 0,
+                    "name": "prompt_installation_set"
+                }
+            }
+        }
+    },
+    "tests/updatehub/test_auth.py": {
+        "focal_file": "uhu/updatehub/auth.py",
+        "methods": {
+            "test_hashed_canonical_request": {
+                "line": 24,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "UHV1Signature",
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "_hashed_canonical_request"
+                }
+            },
+            "test_signed_headers": {
+                "line": 31,
+                "line_end": 35,
+                "indent": 4,
+                "focal_class": "UHV1Signature",
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "_signed_headers"
+                }
+            },
+            "test_message": {
+                "line": 37,
+                "line_end": 50,
+                "indent": 4,
+                "focal_class": "UHV1Signature",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 55,
+                    "indent": 4,
+                    "name": "_message"
+                }
+            },
+            "test_key": {
+                "line": 52,
+                "line_end": 60,
+                "indent": 4,
+                "focal_class": "UHV1Signature",
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 91,
+                    "indent": 4,
+                    "name": "_key"
+                }
+            },
+            "test_signature_hash": {
+                "line": 62,
+                "line_end": 72,
+                "indent": 4,
+                "focal_class": "UHV1Signature",
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 104,
+                    "indent": 4,
+                    "name": "_signature_hash"
+                }
+            }
+        }
+    }
+}

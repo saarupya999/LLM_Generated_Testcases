@@ -1,0 +1,539 @@
+{
+    "pipeline/test/test_client.py": {
+        "focal_file": "pipeline/src/client.py",
+        "methods": {
+            "test_create_hive": {
+                "line": 40,
+                "line_end": 54,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 128,
+                    "line_end": 131,
+                    "indent": 4,
+                    "name": "create_hive"
+                }
+            }
+        }
+    },
+    "pipeline/test/flaggers/test_duplicate_flagger.py": {
+        "focal_file": "pipeline/flaggers/flagger.py",
+        "methods": {
+            "test_duplicate_flagger_happy": {
+                "line": 55,
+                "line_end": 57,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            },
+            "test_duplicate_flagger_sad": {
+                "line": 60,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            },
+            "test_duplicate_flagger_bad": {
+                "line": 66,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            }
+        }
+    },
+    "pipeline/test/flaggers/test_null_flaggers.py": {
+        "focal_file": "pipeline/flaggers/flagger.py",
+        "methods": {
+            "test_null_flaggers_on_good_data": {
+                "line": 79,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            },
+            "test_null_flaggers_on_null_data": {
+                "line": 84,
+                "line_end": 113,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            }
+        }
+    },
+    "pipeline/test/flaggers/test_unobserved_stop_flagger.py": {
+        "focal_file": "pipeline/flaggers/flagger.py",
+        "methods": {
+            "test_unobserved_stop_flagger_on_good_data": {
+                "line": 32,
+                "line_end": 34,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            },
+            "test_unobserved_stop_flagger_on_bad_data": {
+                "line": 37,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            }
+        }
+    },
+    "pipeline/test/flaggers/test_unopened_door_flagger.py": {
+        "focal_file": "pipeline/flaggers/flagger.py",
+        "methods": {
+            "test_unopened_door_flagger_on_good_data": {
+                "line": 27,
+                "line_end": 29,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            },
+            "test_unopened_door_flagger_on_bad_data": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 56,
+                    "indent": 2,
+                    "name": "flag"
+                }
+            }
+        }
+    },
+    "pipeline/test/notif/test_notif.py": {
+        "focal_file": "pipeline/src/notif/notif.py",
+        "methods": {
+            "test_update_email_data_happy": {
+                "line": 68,
+                "line_end": 72,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "_update_email_data"
+                }
+            },
+            "test_update_email_data_no_password": {
+                "line": 74,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "_update_email_data"
+                }
+            },
+            "test_update_email_data_no_user_emails": {
+                "line": 83,
+                "line_end": 89,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "_update_email_data"
+                }
+            },
+            "test_update_email_data_no_pipeline_email": {
+                "line": 91,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 40,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "_update_email_data"
+                }
+            }
+        }
+    },
+    "pipeline/test/tables/test_ctran_data.py": {
+        "focal_file": "pipeline/src/tables/ctran_data.py",
+        "methods": {
+            "test_create_table_bad_engine": {
+                "line": 140,
+                "line_end": 142,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_create_table_bad_filepath": {
+                "line": 144,
+                "line_end": 149,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_create_table_invalid_cols": {
+                "line": 151,
+                "line_end": 155,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_create_table_helper_fails": {
+                "line": 157,
+                "line_end": 161,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 111,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_create_table_helper_super_fails": {
+                "line": 163,
+                "line_end": 166,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "_create_table_helper"
+                }
+            },
+            "test_create_table_helper_to_sql_fails": {
+                "line": 168,
+                "line_end": 171,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 133,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "_create_table_helper"
+                }
+            }
+        }
+    },
+    "pipeline/test/tables/test_service_periods.py": {
+        "focal_file": "pipeline/src/tables/service_periods.py",
+        "methods": {
+            "test_get_service_period": {
+                "line": 56,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 105,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "get_service_period"
+                }
+            },
+            "test_query_or_insert": {
+                "line": 79,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 95,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "query_or_insert"
+                }
+            },
+            "test_insert_one": {
+                "line": 90,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 92,
+                    "indent": 4,
+                    "name": "insert_one"
+                }
+            }
+        }
+    },
+    "pipeline/test/tables/test_table.py": {
+        "focal_file": "pipeline/src/tables/table.py",
+        "methods": {
+            "test_get_engine": {
+                "line": 137,
+                "line_end": 138,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "get_engine"
+                }
+            },
+            "test_check_cols_happy": {
+                "line": 140,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "_check_cols"
+                }
+            },
+            "test_check_cols_sad": {
+                "line": 143,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "_check_cols"
+                }
+            },
+            "test_get_full_table_happy": {
+                "line": 146,
+                "line_end": 148,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_full_table"
+                }
+            },
+            "test_get_full_table_bad_engine": {
+                "line": 150,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_full_table"
+                }
+            },
+            "test_get_full_table_read_sql_fail": {
+                "line": 154,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_full_table"
+                }
+            },
+            "test_get_full_table_mismatch_cols": {
+                "line": 159,
+                "line_end": 162,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_full_table"
+                }
+            },
+            "test_get_full_table_sqlalchemy_error": {
+                "line": 164,
+                "line_end": 167,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 57,
+                    "line_end": 79,
+                    "indent": 4,
+                    "name": "get_full_table"
+                }
+            },
+            "test_create_schema_verify_sql": {
+                "line": 176,
+                "line_end": 182,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "create_schema"
+                }
+            },
+            "test_create_schema_bad_engine": {
+                "line": 189,
+                "line_end": 191,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 83,
+                    "line_end": 98,
+                    "indent": 4,
+                    "name": "create_schema"
+                }
+            },
+            "test_delete_schema_verify_sql": {
+                "line": 193,
+                "line_end": 199,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "delete_schema"
+                }
+            },
+            "test_delete_schema_bad_engine": {
+                "line": 206,
+                "line_end": 208,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 102,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "delete_schema"
+                }
+            },
+            "test_create_table_verify_sql": {
+                "line": 210,
+                "line_end": 216,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_create_table_schema_fails": {
+                "line": 218,
+                "line_end": 222,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_create_table_bad_engine": {
+                "line": 224,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 121,
+                    "line_end": 139,
+                    "indent": 4,
+                    "name": "create_table"
+                }
+            },
+            "test_delete_table_verify_sql": {
+                "line": 232,
+                "line_end": 238,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "delete_table"
+                }
+            },
+            "test_delete_table_bad_engine": {
+                "line": 240,
+                "line_end": 242,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 144,
+                    "line_end": 159,
+                    "indent": 4,
+                    "name": "delete_table"
+                }
+            },
+            "test_write_table": {
+                "line": 250,
+                "line_end": 275,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 164,
+                    "line_end": 226,
+                    "indent": 4,
+                    "name": "_write_table"
+                }
+            }
+        }
+    }
+}

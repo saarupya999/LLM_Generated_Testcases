@@ -1,0 +1,679 @@
+{
+    "tests/color_test.py": {
+        "focal_file": "pre_commit/color.py",
+        "methods": {
+            "test_format_color": {
+                "line": 18,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 16,
+                    "line_end": 27,
+                    "indent": 0,
+                    "name": "format_color"
+                }
+            },
+            "test_use_color_never": {
+                "line": 23,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "use_color"
+                }
+            },
+            "test_use_color_always": {
+                "line": 27,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "use_color"
+                }
+            },
+            "test_use_color_no_tty": {
+                "line": 31,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "use_color"
+                }
+            },
+            "test_use_color_tty": {
+                "line": 36,
+                "line_end": 38,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 30,
+                    "line_end": 42,
+                    "indent": 0,
+                    "name": "use_color"
+                }
+            }
+        }
+    },
+    "tests/error_handler_test.py": {
+        "focal_file": "pre_commit/error_handler.py",
+        "methods": {
+            "test_error_handler_no_exception": {
+                "line": 25,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "error_handler"
+                }
+            },
+            "test_error_handler_fatal_error": {
+                "line": 31,
+                "line_end": 52,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "error_handler"
+                }
+            },
+            "test_error_handler_uncaught_error": {
+                "line": 55,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "error_handler"
+                }
+            },
+            "test_log_and_exit": {
+                "line": 78,
+                "line_end": 100,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 41,
+                    "indent": 0,
+                    "name": "_log_and_exit"
+                }
+            }
+        }
+    },
+    "tests/git_test.py": {
+        "focal_file": "pre_commit/git.py",
+        "methods": {
+            "test_is_not_in_merge_conflict": {
+                "line": 36,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "is_in_merge_conflict"
+                }
+            },
+            "test_is_in_merge_conflict": {
+                "line": 42,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "is_in_merge_conflict"
+                }
+            },
+            "test_is_in_merge_conflict_submodule": {
+                "line": 46,
+                "line_end": 47,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 34,
+                    "line_end": 39,
+                    "indent": 0,
+                    "name": "is_in_merge_conflict"
+                }
+            },
+            "test_get_conflicted_files": {
+                "line": 110,
+                "line_end": 117,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "get_conflicted_files"
+                }
+            },
+            "test_get_conflicted_files_in_submodule": {
+                "line": 120,
+                "line_end": 122,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "get_conflicted_files"
+                }
+            },
+            "test_get_conflicted_files_unstaged_files": {
+                "line": 125,
+                "line_end": 135,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 67,
+                    "indent": 0,
+                    "name": "get_conflicted_files"
+                }
+            },
+            "test_parse_merge_msg_for_conflicts": {
+                "line": 149,
+                "line_end": 151,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 42,
+                    "line_end": 49,
+                    "indent": 0,
+                    "name": "parse_merge_msg_for_conflicts"
+                }
+            }
+        }
+    },
+    "tests/jsonschema_extensions_test.py": {
+        "focal_file": "pre_commit/jsonschema_extensions.py",
+        "methods": {
+            "test_apply_defaults_copies_object": {
+                "line": 10,
+                "line_end": 13,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "apply_defaults"
+                }
+            },
+            "test_apply_defaults_applies_defaults": {
+                "line": 24,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "apply_defaults"
+                }
+            },
+            "test_apply_defaults_deep": {
+                "line": 38,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "apply_defaults"
+                }
+            },
+            "test_apply_defaults_copies": {
+                "line": 59,
+                "line_end": 63,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 48,
+                    "line_end": 51,
+                    "indent": 0,
+                    "name": "apply_defaults"
+                }
+            },
+            "test_remove_defaults_copies_object": {
+                "line": 66,
+                "line_end": 69,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "remove_defaults"
+                }
+            },
+            "test_remove_defaults_removes_default": {
+                "line": 80,
+                "line_end": 85,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 54,
+                    "line_end": 57,
+                    "indent": 0,
+                    "name": "remove_defaults"
+                }
+            }
+        }
+    },
+    "tests/make_archives_test.py": {
+        "focal_file": "pre_commit/make_archives.py",
+        "methods": {
+            "test_make_archive": {
+                "line": 18,
+                "line_end": 51,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 59,
+                    "indent": 0,
+                    "name": "make_archive"
+                }
+            },
+            "test_main": {
+                "line": 56,
+                "line_end": 64,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 62,
+                    "line_end": 65,
+                    "indent": 0,
+                    "name": "main"
+                }
+            }
+        }
+    },
+    "tests/output_test.py": {
+        "focal_file": "pre_commit/output.py",
+        "methods": {
+            "test_get_hook_message_raises": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "get_hook_message"
+                }
+            },
+            "test_case_with_postfix_message": {
+                "line": 58,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 81,
+                    "indent": 0,
+                    "name": "get_hook_message"
+                }
+            },
+            "test_sys_stdout_write_wrapper_writes": {
+                "line": 84,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 87,
+                    "line_end": 88,
+                    "indent": 0,
+                    "name": "sys_stdout_write_wrapper"
+                }
+            }
+        }
+    },
+    "tests/prefixed_command_runner_test.py": {
+        "focal_file": "pre_commit/prefixed_command_runner.py",
+        "methods": {
+            "test_path": {
+                "line": 101,
+                "line_end": 104,
+                "indent": 0,
+                "focal_class": "PrefixedCommandRunner",
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "path"
+                }
+            },
+            "test_from_command_runner": {
+                "line": 120,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": "PrefixedCommandRunner",
+                "focal_method": {
+                    "line": 49,
+                    "line_end": 57,
+                    "indent": 4,
+                    "name": "from_command_runner"
+                }
+            },
+            "test_create_path_if_not_exists": {
+                "line": 142,
+                "line_end": 146,
+                "indent": 0,
+                "focal_class": "PrefixedCommandRunner",
+                "focal_method": {
+                    "line": 45,
+                    "line_end": 46,
+                    "indent": 4,
+                    "name": "exists"
+                }
+            }
+        }
+    },
+    "tests/repository_test.py": {
+        "focal_file": "pre_commit/repository.py",
+        "methods": {
+            "test_reinstall": {
+                "line": 414,
+                "line_end": 428,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "require_installed"
+                }
+            }
+        }
+    },
+    "tests/store_test.py": {
+        "focal_file": "pre_commit/store.py",
+        "methods": {
+            "test_get_default_directory_defaults_to_home": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 23,
+                    "line_end": 33,
+                    "indent": 0,
+                    "name": "_get_default_directory"
+                }
+            },
+            "test_store_require_created": {
+                "line": 44,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "require_created"
+                }
+            },
+            "test_store_require_created_does_not_create_twice": {
+                "line": 59,
+                "line_end": 68,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 93,
+                    "line_end": 99,
+                    "indent": 4,
+                    "name": "require_created"
+                }
+            },
+            "test_clone": {
+                "line": 83,
+                "line_end": 111,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 101,
+                    "line_end": 130,
+                    "indent": 4,
+                    "name": "clone"
+                }
+            }
+        }
+    },
+    "tests/util_test.py": {
+        "focal_file": "pre_commit/util.py",
+        "methods": {
+            "test_memoized_by_cwd_changes_with_different_cwd": {
+                "line": 39,
+                "line_end": 44,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 20,
+                    "line_end": 26,
+                    "indent": 0,
+                    "name": "cwd"
+                }
+            },
+            "test_clean_on_failure_noop": {
+                "line": 47,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "clean_path_on_failure"
+                }
+            },
+            "test_clean_path_on_failure_does_nothing_when_not_raising": {
+                "line": 52,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "clean_path_on_failure"
+                }
+            },
+            "test_clean_path_on_failure_cleans_for_normal_exception": {
+                "line": 58,
+                "line_end": 67,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "clean_path_on_failure"
+                }
+            },
+            "test_clean_path_on_failure_cleans_for_system_exit": {
+                "line": 70,
+                "line_end": 79,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 55,
+                    "line_end": 62,
+                    "indent": 0,
+                    "name": "clean_path_on_failure"
+                }
+            },
+            "test_shell_escape": {
+                "line": 90,
+                "line_end": 91,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 70,
+                    "line_end": 71,
+                    "indent": 0,
+                    "name": "shell_escape"
+                }
+            },
+            "test_tmpdir": {
+                "line": 94,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 107,
+                    "indent": 0,
+                    "name": "tmpdir"
+                }
+            }
+        }
+    },
+    "tests/clientlib/validate_manifest_test.py": {
+        "focal_file": "pre_commit/clientlib/validate_manifest.py",
+        "methods": {
+            "test_additional_manifest_check_raises_for_bad_language": {
+                "line": 26,
+                "line_end": 28,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "additional_manifest_check"
+                }
+            },
+            "test_additional_manifest_check_passing": {
+                "line": 38,
+                "line_end": 39,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "additional_manifest_check"
+                }
+            },
+            "test_additional_manifest_failing": {
+                "line": 53,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 85,
+                    "indent": 0,
+                    "name": "additional_manifest_check"
+                }
+            }
+        }
+    },
+    "tests/commands/autoupdate_test.py": {
+        "focal_file": "pre_commit/commands/autoupdate.py",
+        "methods": {
+            "test_up_to_date_repo": {
+                "line": 32,
+                "line_end": 36,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "_update_repository"
+                }
+            },
+            "test_out_of_date_repo": {
+                "line": 70,
+                "line_end": 76,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 24,
+                    "line_end": 56,
+                    "indent": 0,
+                    "name": "_update_repository"
+                }
+            },
+            "test_autoupdate_local_hooks": {
+                "line": 146,
+                "line_end": 154,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 59,
+                    "line_end": 105,
+                    "indent": 0,
+                    "name": "autoupdate"
+                }
+            }
+        }
+    },
+    "tests/commands/run_test.py": {
+        "focal_file": "pre_commit/commands/run.py",
+        "methods": {
+            "test_has_unmerged_paths": {
+                "line": 248,
+                "line_end": 251,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 146,
+                    "line_end": 148,
+                    "indent": 0,
+                    "name": "_has_unmerged_paths"
+                }
+            },
+            "test_get_skips": {
+                "line": 292,
+                "line_end": 294,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 21,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "_get_skips"
+                }
+            },
+            "test_get_changed_files": {
+                "line": 401,
+                "line_end": 406,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 55,
+                    "indent": 0,
+                    "name": "get_changed_files"
+                }
+            }
+        }
+    }
+}

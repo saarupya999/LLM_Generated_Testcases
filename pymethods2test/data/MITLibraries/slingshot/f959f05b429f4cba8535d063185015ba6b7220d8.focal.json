@@ -1,0 +1,173 @@
+{
+    "tests/test_app.py": {
+        "focal_file": "slingshot/app.py",
+        "methods": {
+            "test_create_record_creates_record": {
+                "line": 28,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "create_record"
+                }
+            },
+            "test_create_record_adds_fgdc_url": {
+                "line": 40,
+                "line_end": 45,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 76,
+                    "indent": 0,
+                    "name": "create_record"
+                }
+            },
+            "test_geoserver_adds_shapefile": {
+                "line": 48,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": "HttpSession",
+                "focal_method": {
+                    "line": 151,
+                    "line_end": 163,
+                    "indent": 4,
+                    "name": "add"
+                }
+            },
+            "test_publish_layer_makes_fgdc_public": {
+                "line": 93,
+                "line_end": 107,
+                "indent": 0,
+                "focal_class": "GeoServer",
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 242,
+                    "indent": 0,
+                    "name": "publish_layer"
+                }
+            },
+            "test_publish_layer_uses_ogc_proxy_url": {
+                "line": 111,
+                "line_end": 124,
+                "indent": 0,
+                "focal_class": "GeoServer",
+                "focal_method": {
+                    "line": 232,
+                    "line_end": 242,
+                    "indent": 0,
+                    "name": "publish_layer"
+                }
+            },
+            "test_publishable_layers_includes_new_layer": {
+                "line": 127,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 256,
+                    "indent": 0,
+                    "name": "publishable_layers"
+                }
+            },
+            "test_publishable_layers_includes_updated_layer": {
+                "line": 134,
+                "line_end": 141,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 256,
+                    "indent": 0,
+                    "name": "publishable_layers"
+                }
+            },
+            "test_publishable_layers_skips_old_layer": {
+                "line": 144,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 245,
+                    "line_end": 256,
+                    "indent": 0,
+                    "name": "publishable_layers"
+                }
+            }
+        }
+    },
+    "tests/test_db.py": {
+        "focal_file": "slingshot/db.py",
+        "methods": {
+            "test_make_column_creates_text_field": {
+                "line": 38,
+                "line_end": 40,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "_make_column"
+                }
+            },
+            "test_make_column_creates_date_field": {
+                "line": 53,
+                "line_end": 55,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 75,
+                    "line_end": 87,
+                    "indent": 0,
+                    "name": "_make_column"
+                }
+            },
+            "test_pg_reader_reads_line": {
+                "line": 124,
+                "line_end": 127,
+                "indent": 0,
+                "focal_class": "PGShapeReader",
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 162,
+                    "indent": 4,
+                    "name": "readline"
+                }
+            }
+        }
+    },
+    "tests/test_record.py": {
+        "focal_file": "slingshot/record.py",
+        "methods": {
+            "test_rights_converter_maps_rights": {
+                "line": 32,
+                "line_end": 35,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 27,
+                    "line_end": 38,
+                    "indent": 0,
+                    "name": "rights_converter"
+                }
+            },
+            "test_geom_convert_maps_geometry": {
+                "line": 38,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 41,
+                    "line_end": 53,
+                    "indent": 0,
+                    "name": "geom_converter"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "tests/bigquery_client_test.py": {
+        "focal_file": "gcp_census/bigquery/bigquery_client.py",
+        "methods": {
+            "test_iterating_projects": {
+                "line": 27,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "BigQuery",
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 37,
+                    "indent": 4,
+                    "name": "list_project_ids"
+                }
+            },
+            "test_iterating_datasets": {
+                "line": 48,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": "BigQuery",
+                "focal_method": {
+                    "line": 39,
+                    "line_end": 48,
+                    "indent": 4,
+                    "name": "list_dataset_ids"
+                }
+            },
+            "test_iterating_tables": {
+                "line": 69,
+                "line_end": 87,
+                "indent": 4,
+                "focal_class": "BigQuery",
+                "focal_method": {
+                    "line": 50,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "list_table_ids"
+                }
+            },
+            "test_listing_table_partitions": {
+                "line": 90,
+                "line_end": 117,
+                "indent": 4,
+                "focal_class": "BigQuery",
+                "focal_method": {
+                    "line": 78,
+                    "line_end": 102,
+                    "indent": 4,
+                    "name": "list_table_partitions"
+                }
+            },
+            "test_streaming_row": {
+                "line": 121,
+                "line_end": 142,
+                "indent": 4,
+                "focal_class": "BigQuery",
+                "focal_method": {
+                    "line": 140,
+                    "line_end": 153,
+                    "indent": 4,
+                    "name": "stream_stats"
+                }
+            }
+        }
+    },
+    "tests/filesystem_model_test.py": {
+        "focal_file": "gcp_census/model/filesystem_model_provider.py",
+        "methods": {
+            "test_should_return_at_least_3_groups": {
+                "line": 8,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "FilesystemModelProvider",
+                "focal_method": {
+                    "line": 25,
+                    "line_end": 29,
+                    "indent": 4,
+                    "name": "list_groups"
+                }
+            },
+            "test_should_return_at_least_3_tables": {
+                "line": 21,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "FilesystemModelProvider",
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "list_tables"
+                }
+            },
+            "test_should_return_at_least_4_views": {
+                "line": 34,
+                "line_end": 45,
+                "indent": 4,
+                "focal_class": "FilesystemModelProvider",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 23,
+                    "indent": 4,
+                    "name": "list_views"
+                }
+            }
+        }
+    },
+    "tests/model_creator_test.py": {
+        "focal_file": "gcp_census/model/model_creator.py",
+        "methods": {
+            "test_should_create_dataset": {
+                "line": 26,
+                "line_end": 48,
+                "indent": 4,
+                "focal_class": "ModelCreator",
+                "focal_method": {
+                    "line": 26,
+                    "line_end": 30,
+                    "indent": 4,
+                    "name": "create_missing_datasets"
+                }
+            },
+            "test_should_create_tables": {
+                "line": 99,
+                "line_end": 121,
+                "indent": 4,
+                "focal_class": "ModelCreator",
+                "focal_method": {
+                    "line": 53,
+                    "line_end": 78,
+                    "indent": 4,
+                    "name": "create_missing_tables"
+                }
+            },
+            "test_should_create_views": {
+                "line": 172,
+                "line_end": 199,
+                "indent": 4,
+                "focal_class": "ModelCreator",
+                "focal_method": {
+                    "line": 80,
+                    "line_end": 108,
+                    "indent": 4,
+                    "name": "create_missing_views"
+                }
+            }
+        }
+    }
+}

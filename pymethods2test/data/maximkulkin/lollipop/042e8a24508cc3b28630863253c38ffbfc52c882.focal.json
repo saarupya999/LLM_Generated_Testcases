@@ -1,0 +1,504 @@
+{
+    "tests/test_types.py": {
+        "focal_file": "lollipop/types.py",
+        "methods": {
+            "test_validation_returns_None_if_validators_succeed": {
+                "line": 165,
+                "line_end": 169,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            },
+            "test_validation_returns_errors_if_validator_fails": {
+                "line": 171,
+                "line_end": 174,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 114,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "validate"
+                }
+            },
+            "test_loading_passes_context_to_inner_type_load": {
+                "line": 2518,
+                "line_end": 2522,
+                "indent": 4,
+                "focal_class": "LoadOnly",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_dumping_passes_context_to_inner_type_dump": {
+                "line": 2549,
+                "line_end": 2553,
+                "indent": 4,
+                "focal_class": "DumpOnly",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_dumping_tuple_passes_context_to_inner_type_dump": {
+                "line": 651,
+                "line_end": 655,
+                "indent": 4,
+                "focal_class": "Tuple",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_loading_passes_context_to_field_type_load": {
+                "line": 1152,
+                "line_end": 1156,
+                "indent": 4,
+                "focal_class": "IndexField",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_dumping_passes_context_to_field_type_dump": {
+                "line": 1525,
+                "line_end": 1530,
+                "indent": 4,
+                "focal_class": "FunctionField",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_loading_value_passes_context_to_field_types_load": {
+                "line": 1458,
+                "line_end": 1463,
+                "indent": 4,
+                "focal_class": "FunctionField",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_loading_value_into_existing_object_calls_field_types_load_into": {
+                "line": 1465,
+                "line_end": 1472,
+                "indent": 4,
+                "focal_class": "FunctionField",
+                "focal_method": {
+                    "line": 1011,
+                    "line_end": 1038,
+                    "indent": 4,
+                    "name": "load_into"
+                }
+            },
+            "test_loading_value_into_existing_object_passes_context_to_field_types_load_into": {
+                "line": 1502,
+                "line_end": 1508,
+                "indent": 4,
+                "focal_class": "FunctionField",
+                "focal_method": {
+                    "line": 1011,
+                    "line_end": 1038,
+                    "indent": 4,
+                    "name": "load_into"
+                }
+            },
+            "test_constructing_objects_with_default_constructor_on_load": {
+                "line": 1739,
+                "line_end": 1744,
+                "indent": 4,
+                "focal_class": "Integer",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_constructing_custom_objects_on_load": {
+                "line": 1746,
+                "line_end": 1749,
+                "indent": 4,
+                "focal_class": "Integer",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_loading_missing_value_does_not_call_inner_type_load": {
+                "line": 2395,
+                "line_end": 2398,
+                "indent": 4,
+                "focal_class": "Optional",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_loading_None_does_not_call_inner_type_load": {
+                "line": 2400,
+                "line_end": 2403,
+                "indent": 4,
+                "focal_class": "Optional",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_overriding_missing_value_on_load": {
+                "line": 2411,
+                "line_end": 2412,
+                "indent": 4,
+                "focal_class": "Any",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_overriding_None_value_on_load": {
+                "line": 2414,
+                "line_end": 2415,
+                "indent": 4,
+                "focal_class": "Any",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_using_function_to_override_value_on_load": {
+                "line": 2417,
+                "line_end": 2419,
+                "indent": 4,
+                "focal_class": "Any",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_dumping_missing_value_does_not_call_inner_type_dump": {
+                "line": 2451,
+                "line_end": 2454,
+                "indent": 4,
+                "focal_class": "Optional",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_dumping_None_does_not_call_inner_type_dump": {
+                "line": 2456,
+                "line_end": 2459,
+                "indent": 4,
+                "focal_class": "Optional",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_overriding_missing_value_on_dump": {
+                "line": 2467,
+                "line_end": 2468,
+                "indent": 4,
+                "focal_class": "Optional",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_overriding_None_value_on_dump": {
+                "line": 2470,
+                "line_end": 2471,
+                "indent": 4,
+                "focal_class": "Optional",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_using_function_to_override_value_on_dump": {
+                "line": 2473,
+                "line_end": 2475,
+                "indent": 4,
+                "focal_class": "Any",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_loading_returns_inner_type_load_result": {
+                "line": 2513,
+                "line_end": 2516,
+                "indent": 4,
+                "focal_class": "LoadOnly",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_dumping_does_not_call_inner_type_dump": {
+                "line": 2527,
+                "line_end": 2530,
+                "indent": 4,
+                "focal_class": "LoadOnly",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_dumping_returns_inner_type_dump_result": {
+                "line": 2544,
+                "line_end": 2547,
+                "indent": 4,
+                "focal_class": "DumpOnly",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_loading_calls_inner_type_load_with_result_of_pre_load": {
+                "line": 2568,
+                "line_end": 2571,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_loading_calls_post_load_with_result_of_inner_type_load": {
+                "line": 2573,
+                "line_end": 2578,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_transform_passes_context_to_inner_type_load": {
+                "line": 2580,
+                "line_end": 2584,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_transform_passes_context_to_pre_load": {
+                "line": 2586,
+                "line_end": 2591,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_transform_passes_context_to_post_load": {
+                "line": 2593,
+                "line_end": 2598,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 143,
+                    "indent": 4,
+                    "name": "load"
+                }
+            },
+            "test_dumping_calls_inner_type_dump_with_result_of_pre_dump": {
+                "line": 2609,
+                "line_end": 2612,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_dumping_calls_post_dump_with_result_of_inner_type_dump": {
+                "line": 2614,
+                "line_end": 2618,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_transform_passes_context_to_inner_type_dump": {
+                "line": 2620,
+                "line_end": 2624,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_transform_passes_context_to_pre_dump": {
+                "line": 2626,
+                "line_end": 2631,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            },
+            "test_transform_passes_context_to_post_dump": {
+                "line": 2633,
+                "line_end": 2638,
+                "indent": 4,
+                "focal_class": "Transform",
+                "focal_method": {
+                    "line": 145,
+                    "line_end": 154,
+                    "indent": 4,
+                    "name": "dump"
+                }
+            }
+        }
+    },
+    "tests/test_utils.py": {
+        "focal_file": "lollipop/utils.py",
+        "methods": {
+            "test_converting_snake_case_to_camel_case": {
+                "line": 95,
+                "line_end": 98,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 72,
+                    "line_end": 74,
+                    "indent": 0,
+                    "name": "to_camel_case"
+                }
+            },
+            "test_converting_camel_case_to_snake_case": {
+                "line": 102,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 69,
+                    "indent": 0,
+                    "name": "to_snake_case"
+                }
+            },
+            "test_keys": {
+                "line": 333,
+                "line_end": 334,
+                "indent": 4,
+                "focal_class": "DictWithDefault",
+                "focal_method": {
+                    "line": 116,
+                    "line_end": 117,
+                    "indent": 4,
+                    "name": "keys"
+                }
+            },
+            "test_iterkeys": {
+                "line": 196,
+                "line_end": 203,
+                "indent": 4,
+                "focal_class": "OpenStruct",
+                "focal_method": {
+                    "line": 119,
+                    "line_end": 121,
+                    "indent": 4,
+                    "name": "iterkeys"
+                }
+            },
+            "test_iteritems": {
+                "line": 214,
+                "line_end": 221,
+                "indent": 4,
+                "focal_class": "OpenStruct",
+                "focal_method": {
+                    "line": 123,
+                    "line_end": 125,
+                    "indent": 4,
+                    "name": "iteritems"
+                }
+            },
+            "test_get": {
+                "line": 339,
+                "line_end": 341,
+                "indent": 4,
+                "focal_class": "DictWithDefault",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 96,
+                    "indent": 4,
+                    "name": "get"
+                }
+            }
+        }
+    }
+}

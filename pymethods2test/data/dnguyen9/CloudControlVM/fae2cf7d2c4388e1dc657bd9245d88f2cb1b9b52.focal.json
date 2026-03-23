@@ -1,0 +1,340 @@
+{
+    "tests/benchmark_status_test.py": {
+        "focal_file": "perfkitbenchmarker/benchmark_status.py",
+        "methods": {
+            "testCreateSummaryTable": {
+                "line": 47,
+                "line_end": 49,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 28,
+                    "line_end": 63,
+                    "indent": 0,
+                    "name": "_CreateSummaryTable"
+                }
+            },
+            "testCreateSummary": {
+                "line": 54,
+                "line_end": 56,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 97,
+                    "indent": 0,
+                    "name": "CreateSummary"
+                }
+            }
+        }
+    },
+    "tests/flag_util_test.py": {
+        "focal_file": "perfkitbenchmarker/flag_util.py",
+        "methods": {
+            "testSerialize": {
+                "line": 100,
+                "line_end": 105,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.flag_util.IntegerList",
+                "focal_method": {
+                    "line": 185,
+                    "line_end": 188,
+                    "indent": 2,
+                    "name": "Serialize"
+                }
+            },
+            "testParser": {
+                "line": 140,
+                "line_end": 142,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 131,
+                    "line_end": 178,
+                    "indent": 2,
+                    "name": "Parse"
+                }
+            }
+        }
+    },
+    "tests/gce_virtual_machine_test.py": {
+        "focal_file": "perfkitbenchmarker/providers/gcp/gce_virtual_machine.py",
+        "methods": {
+            "testVmWithMachineTypePreemptible": {
+                "line": 200,
+                "line_end": 205,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.providers.gcp.gce_virtual_machine.GceVmSpec",
+                "focal_method": {
+                    "line": 400,
+                    "line_end": 411,
+                    "indent": 2,
+                    "name": "GetMachineTypeDict"
+                }
+            }
+        }
+    },
+    "tests/log_util_test.py": {
+        "focal_file": "perfkitbenchmarker/log_util.py",
+        "methods": {
+            "testThreadLogContextExtendLabel": {
+                "line": 27,
+                "line_end": 36,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.log_util.ThreadLogContext",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 76,
+                    "indent": 2,
+                    "name": "ExtendLabel"
+                }
+            },
+            "testThreadLogContextExtendLabelEmptyStrings": {
+                "line": 38,
+                "line_end": 53,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.log_util.ThreadLogContext",
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 76,
+                    "indent": 2,
+                    "name": "ExtendLabel"
+                }
+            }
+        }
+    },
+    "tests/publisher_test.py": {
+        "focal_file": "perfkitbenchmarker/publisher.py",
+        "methods": {
+            "testSucceedsWithNoSamples": {
+                "line": 39,
+                "line_end": 44,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.publisher.PrettyPrintStreamPublisher",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 210,
+                    "indent": 2,
+                    "name": "PublishSamples"
+                }
+            },
+            "testNoSamples": {
+                "line": 119,
+                "line_end": 122,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.publisher.BigQueryPublisher",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 210,
+                    "indent": 2,
+                    "name": "PublishSamples"
+                }
+            },
+            "testPublishSamples": {
+                "line": 175,
+                "line_end": 183,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.publisher.CloudStoragePublisher",
+                "focal_method": {
+                    "line": 200,
+                    "line_end": 210,
+                    "indent": 2,
+                    "name": "PublishSamples"
+                }
+            },
+            "testAddSamples_SampleClass": {
+                "line": 212,
+                "line_end": 215,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 588,
+                    "line_end": 612,
+                    "indent": 2,
+                    "name": "AddSamples"
+                }
+            }
+        }
+    },
+    "tests/timing_util_test.py": {
+        "focal_file": "perfkitbenchmarker/timing_util.py",
+        "methods": {
+            "testMeasureSequential": {
+                "line": 59,
+                "line_end": 82,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.timing_util.IntervalTimer",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 152,
+                    "indent": 2,
+                    "name": "Measure"
+                }
+            },
+            "testMeasureNested": {
+                "line": 84,
+                "line_end": 106,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.timing_util.IntervalTimer",
+                "focal_method": {
+                    "line": 143,
+                    "line_end": 152,
+                    "indent": 2,
+                    "name": "Measure"
+                }
+            },
+            "testGenerateSamplesMeasureNotCalled": {
+                "line": 108,
+                "line_end": 115,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.timing_util.IntervalTimer",
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 172,
+                    "indent": 2,
+                    "name": "GenerateSamples"
+                }
+            },
+            "testGenerateSamplesNoRuntimeNoTimestamps": {
+                "line": 117,
+                "line_end": 126,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.timing_util.IntervalTimer",
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 172,
+                    "indent": 2,
+                    "name": "GenerateSamples"
+                }
+            },
+            "testGenerateSamplesTimestampsNoRuntime": {
+                "line": 146,
+                "line_end": 164,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.timing_util.IntervalTimer",
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 172,
+                    "indent": 2,
+                    "name": "GenerateSamples"
+                }
+            },
+            "testGenerateSamplesRuntimeAndTimestamps": {
+                "line": 166,
+                "line_end": 186,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.timing_util.IntervalTimer",
+                "focal_method": {
+                    "line": 154,
+                    "line_end": 172,
+                    "indent": 2,
+                    "name": "GenerateSamples"
+                }
+            }
+        }
+    },
+    "tests/linux_benchmarks/bonnie_benchmark_test.py": {
+        "focal_file": "perfkitbenchmarker/linux_benchmarks/bonnie_benchmark.py",
+        "methods": {
+            "testParseCSVResults": {
+                "line": 33,
+                "line_end": 142,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 205,
+                    "line_end": 247,
+                    "indent": 0,
+                    "name": "ParseCSVResults"
+                }
+            }
+        }
+    },
+    "tests/linux_packages/fio_test.py": {
+        "focal_file": "perfkitbenchmarker/linux_packages/fio.py",
+        "methods": {
+            "testDeleteParameterFromJobFile": {
+                "line": 415,
+                "line_end": 428,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 206,
+                    "line_end": 219,
+                    "indent": 0,
+                    "name": "DeleteParameterFromJobFile"
+                }
+            }
+        }
+    },
+    "tests/linux_packages/ycsb_test.py": {
+        "focal_file": "perfkitbenchmarker/linux_packages/ycsb.py",
+        "methods": {
+            "testPercentilesFromHistogram_read": {
+                "line": 98,
+                "line_end": 102,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 314,
+                    "indent": 0,
+                    "name": "_PercentilesFromHistogram"
+                }
+            },
+            "testPercentilesFromHistogram_update": {
+                "line": 104,
+                "line_end": 108,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 314,
+                    "indent": 0,
+                    "name": "_PercentilesFromHistogram"
+                }
+            },
+            "testPercentilesFromHistogram_cleanup": {
+                "line": 110,
+                "line_end": 114,
+                "indent": 2,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 293,
+                    "line_end": 314,
+                    "indent": 0,
+                    "name": "_PercentilesFromHistogram"
+                }
+            }
+        }
+    },
+    "tests/providers/gcp/util_test.py": {
+        "focal_file": "perfkitbenchmarker/providers/gcp/util.py",
+        "methods": {
+            "testIssue": {
+                "line": 71,
+                "line_end": 81,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.providers.gcp.util.GcloudCommand",
+                "focal_method": {
+                    "line": 77,
+                    "line_end": 87,
+                    "indent": 2,
+                    "name": "Issue"
+                }
+            },
+            "testIssueRetryable": {
+                "line": 97,
+                "line_end": 107,
+                "indent": 2,
+                "focal_class": "perfkitbenchmarker.providers.gcp.util.GcloudCommand",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 99,
+                    "indent": 2,
+                    "name": "IssueRetryable"
+                }
+            }
+        }
+    }
+}

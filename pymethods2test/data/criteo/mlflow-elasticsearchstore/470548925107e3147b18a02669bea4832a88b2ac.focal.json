@@ -1,0 +1,864 @@
+{
+    "tests/integration_tests/test_integration_elasticsearchstore.py": {
+        "focal_file": "mlflow_elasticsearchstore/elasticsearch_store.py",
+        "methods": {
+            "test_list_experiments": {
+                "line": 27,
+                "line_end": 42,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "list_experiments"
+                }
+            },
+            "test_get_experiment_with_fake_id": {
+                "line": 46,
+                "line_end": 49,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "get_experiment"
+                }
+            },
+            "test_get_experiment": {
+                "line": 53,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "get_experiment"
+                }
+            },
+            "test_create_experiment": {
+                "line": 62,
+                "line_end": 66,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "create_experiment"
+                }
+            },
+            "test_create_experiment_without_artifact_location": {
+                "line": 70,
+                "line_end": 75,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 122,
+                    "line_end": 123,
+                    "indent": 4,
+                    "name": "_get_artifact_location"
+                }
+            },
+            "test_create_experiment_with_no_name": {
+                "line": 79,
+                "line_end": 82,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "create_experiment"
+                }
+            },
+            "test_create_experiment_with_existing_name": {
+                "line": 85,
+                "line_end": 88,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "create_experiment"
+                }
+            },
+            "test_create_experiment_with_name_equal_None": {
+                "line": 92,
+                "line_end": 95,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 125,
+                    "line_end": 138,
+                    "indent": 4,
+                    "name": "create_experiment"
+                }
+            },
+            "test_restore_experiment_of_active_experiment": {
+                "line": 99,
+                "line_end": 102,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "restore_experiment"
+                }
+            },
+            "test_delete_experiment": {
+                "line": 106,
+                "line_end": 109,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "delete_experiment"
+                }
+            },
+            "test_delete_experiment_of_deleted_experiment": {
+                "line": 113,
+                "line_end": 116,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "delete_experiment"
+                }
+            },
+            "test_rename_experiment_of_deleted_experiment": {
+                "line": 120,
+                "line_end": 123,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "rename_experiment"
+                }
+            },
+            "test_set_experiment_tag_of_non_active_experiment": {
+                "line": 127,
+                "line_end": 131,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "set_experiment_tag"
+                }
+            },
+            "test_restore_experiment": {
+                "line": 142,
+                "line_end": 145,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "restore_experiment"
+                }
+            },
+            "test_rename_experiment": {
+                "line": 149,
+                "line_end": 152,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "rename_experiment"
+                }
+            },
+            "test_get_run": {
+                "line": 156,
+                "line_end": 189,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "get_run"
+                }
+            },
+            "test_create_run": {
+                "line": 199,
+                "line_end": 203,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "create_run"
+                }
+            },
+            "test_update_run_info": {
+                "line": 207,
+                "line_end": 212,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "update_run_info"
+                }
+            },
+            "test_delete_run": {
+                "line": 216,
+                "line_end": 219,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "delete_run"
+                }
+            },
+            "test_delete_run_of_deleted_run": {
+                "line": 223,
+                "line_end": 226,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "delete_run"
+                }
+            },
+            "test_update_run_info_of_deleted_run": {
+                "line": 230,
+                "line_end": 233,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "update_run_info"
+                }
+            },
+            "test_log_metric_of_deleted_run": {
+                "line": 237,
+                "line_end": 241,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "log_metric"
+                }
+            },
+            "test_restore_run": {
+                "line": 261,
+                "line_end": 264,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "restore_run"
+                }
+            },
+            "test_restore_run_of_active_run": {
+                "line": 268,
+                "line_end": 271,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "restore_run"
+                }
+            },
+            "test_log_metric": {
+                "line": 275,
+                "line_end": 289,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "log_metric"
+                }
+            },
+            "test_log_metric_with_nan_value": {
+                "line": 293,
+                "line_end": 307,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "log_metric"
+                }
+            },
+            "test_log_metric_with_inf_value": {
+                "line": 311,
+                "line_end": 325,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "log_metric"
+                }
+            },
+            "test_log_param": {
+                "line": 365,
+                "line_end": 369,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "log_param"
+                }
+            },
+            "test_set_tag": {
+                "line": 373,
+                "line_end": 377,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "set_tag"
+                }
+            },
+            "test_experiment_set_tag": {
+                "line": 381,
+                "line_end": 386,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "set_experiment_tag"
+                }
+            },
+            "test_log_batch": {
+                "line": 390,
+                "line_end": 423,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 456,
+                    "line_end": 474,
+                    "indent": 4,
+                    "name": "log_batch"
+                }
+            },
+            "test_get_metric_history": {
+                "line": 427,
+                "line_end": 437,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 318,
+                    "indent": 4,
+                    "name": "get_metric_history"
+                }
+            },
+            "test_get_metric_history_big": {
+                "line": 441,
+                "line_end": 456,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 318,
+                    "indent": 4,
+                    "name": "get_metric_history"
+                }
+            },
+            "test_get_metric_history_with_fake_key": {
+                "line": 460,
+                "line_end": 464,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 318,
+                    "indent": 4,
+                    "name": "get_metric_history"
+                }
+            },
+            "test_get_metric_history_with_fake_run_id": {
+                "line": 468,
+                "line_end": 472,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 315,
+                    "line_end": 318,
+                    "indent": 4,
+                    "name": "get_metric_history"
+                }
+            },
+            "test_list_all_columns_all": {
+                "line": 477,
+                "line_end": 483,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 355,
+                    "indent": 4,
+                    "name": "list_all_columns"
+                }
+            },
+            "test_list_all_columns_active": {
+                "line": 488,
+                "line_end": 493,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 355,
+                    "indent": 4,
+                    "name": "list_all_columns"
+                }
+            },
+            "test_list_all_columns_big": {
+                "line": 498,
+                "line_end": 516,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 355,
+                    "indent": 4,
+                    "name": "list_all_columns"
+                }
+            },
+            "test_list_all_columns_deleted": {
+                "line": 521,
+                "line_end": 526,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 355,
+                    "indent": 4,
+                    "name": "list_all_columns"
+                }
+            },
+            "test_list_all_columns_with_fake_experiment_id": {
+                "line": 531,
+                "line_end": 536,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 345,
+                    "line_end": 355,
+                    "indent": 4,
+                    "name": "list_all_columns"
+                }
+            },
+            "test__search_runs_simple_filter": {
+                "line": 560,
+                "line_end": 566,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_ILIKE_filter": {
+                "line": 571,
+                "line_end": 580,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_multiple_filters": {
+                "line": 595,
+                "line_end": 601,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_simple_order_by": {
+                "line": 622,
+                "line_end": 629,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_multiple_order_by": {
+                "line": 640,
+                "line_end": 647,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_run_view_type": {
+                "line": 658,
+                "line_end": 664,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_max_results": {
+                "line": 672,
+                "line_end": 679,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_token": {
+                "line": 773,
+                "line_end": 779,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_with_token": {
+                "line": 783,
+                "line_end": 795,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test__search_runs_complete": {
+                "line": 799,
+                "line_end": 814,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 422,
+                    "line_end": 450,
+                    "indent": 4,
+                    "name": "_search_runs"
+                }
+            },
+            "test_update_artifacts_location": {
+                "line": 818,
+                "line_end": 822,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 452,
+                    "line_end": 454,
+                    "indent": 4,
+                    "name": "update_artifacts_location"
+                }
+            }
+        }
+    },
+    "tests/unit_tests/test_elasticsearchstore.py": {
+        "focal_file": "mlflow_elasticsearchstore/elasticsearch_store.py",
+        "methods": {
+            "test_list_experiments": {
+                "line": 65,
+                "line_end": 78,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 110,
+                    "line_end": 114,
+                    "indent": 4,
+                    "name": "list_experiments"
+                }
+            },
+            "test_get_experiment": {
+                "line": 83,
+                "line_end": 87,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 157,
+                    "line_end": 158,
+                    "indent": 4,
+                    "name": "get_experiment"
+                }
+            },
+            "test_delete_experiment": {
+                "line": 92,
+                "line_end": 97,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 160,
+                    "line_end": 164,
+                    "indent": 4,
+                    "name": "delete_experiment"
+                }
+            },
+            "test_restore_experiment": {
+                "line": 102,
+                "line_end": 108,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 166,
+                    "line_end": 170,
+                    "indent": 4,
+                    "name": "restore_experiment"
+                }
+            },
+            "test_rename_experiment": {
+                "line": 113,
+                "line_end": 118,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 176,
+                    "indent": 4,
+                    "name": "rename_experiment"
+                }
+            },
+            "test_create_run": {
+                "line": 125,
+                "line_end": 137,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 197,
+                    "indent": 4,
+                    "name": "create_run"
+                }
+            },
+            "test_delete_run": {
+                "line": 142,
+                "line_end": 147,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 230,
+                    "line_end": 233,
+                    "indent": 4,
+                    "name": "delete_run"
+                }
+            },
+            "test_restore_run": {
+                "line": 152,
+                "line_end": 157,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 235,
+                    "line_end": 238,
+                    "indent": 4,
+                    "name": "restore_run"
+                }
+            },
+            "test_update_run_info": {
+                "line": 162,
+                "line_end": 168,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 211,
+                    "line_end": 215,
+                    "indent": 4,
+                    "name": "update_run_info"
+                }
+            },
+            "test__get_run": {
+                "line": 173,
+                "line_end": 177,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 226,
+                    "line_end": 228,
+                    "indent": 4,
+                    "name": "_get_run"
+                }
+            },
+            "test_get_run": {
+                "line": 182,
+                "line_end": 189,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 217,
+                    "line_end": 224,
+                    "indent": 4,
+                    "name": "get_run"
+                }
+            },
+            "test_log_metric": {
+                "line": 197,
+                "line_end": 205,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 277,
+                    "line_end": 281,
+                    "indent": 4,
+                    "name": "log_metric"
+                }
+            },
+            "test_log_param": {
+                "line": 210,
+                "line_end": 218,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 289,
+                    "line_end": 293,
+                    "indent": 4,
+                    "name": "log_param"
+                }
+            },
+            "test_set_experiment_tag": {
+                "line": 223,
+                "line_end": 231,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 295,
+                    "line_end": 301,
+                    "indent": 4,
+                    "name": "set_experiment_tag"
+                }
+            },
+            "test_set_tag": {
+                "line": 236,
+                "line_end": 244,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 309,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "set_tag"
+                }
+            },
+            "test__update_latest_metric_if_necessary": {
+                "line": 258,
+                "line_end": 261,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 241,
+                    "line_end": 257,
+                    "indent": 4,
+                    "name": "_update_latest_metric_if_necessary"
+                }
+            },
+            "test__build_columns_to_whitelist_key_dict": {
+                "line": 265,
+                "line_end": 271,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 357,
+                    "line_end": 365,
+                    "indent": 4,
+                    "name": "_build_columns_to_whitelist_key_dict"
+                }
+            },
+            "test__build_elasticsearch_query": {
+                "line": 311,
+                "line_end": 316,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 367,
+                    "line_end": 400,
+                    "indent": 4,
+                    "name": "_build_elasticsearch_query"
+                }
+            },
+            "test__get_orderby_clauses": {
+                "line": 320,
+                "line_end": 334,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 402,
+                    "line_end": 420,
+                    "indent": 4,
+                    "name": "_get_orderby_clauses"
+                }
+            },
+            "test_update_artifacts_location": {
+                "line": 339,
+                "line_end": 344,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 452,
+                    "line_end": 454,
+                    "indent": 4,
+                    "name": "update_artifacts_location"
+                }
+            }
+        }
+    }
+}

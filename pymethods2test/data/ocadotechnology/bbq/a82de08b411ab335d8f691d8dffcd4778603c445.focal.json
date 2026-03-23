@@ -1,0 +1,289 @@
+{
+    "tests/slo/predicate/test_sli_table_exists_predicate.py": {
+        "focal_file": "tests/slo/predicate/test_sli_table_exists_predicate.py",
+        "methods": {
+            "test_should_not_list_partitions_in_non_partitioned_table": {
+                "line": 93,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 116,
+                    "indent": 4,
+                    "name": "__create_non_partitioned_sli_table"
+                }
+            }
+        }
+    },
+    "tests/slo/backup_quality/test_quality_sli_service.py": {
+        "focal_file": "tests/slo/backup_quality/test_quality_sli_service.py",
+        "methods": {
+            "test_recalculate_sli_should_always_stream_snapshot_marker": {
+                "line": 58,
+                "line_end": 64,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 66,
+                    "line_end": 82,
+                    "indent": 4,
+                    "name": "__create_snapshot_marker_row"
+                }
+            }
+        }
+    },
+    "tests/retention/test_should_perform_retention_predicate.py": {
+        "focal_file": "tests/retention/test_should_perform_retention_predicate.py",
+        "methods": {
+            "test_should_return_true_for_valid_backup_list": {
+                "line": 24,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 60,
+                    "line_end": 66,
+                    "indent": 4,
+                    "name": "__create_valid_backups"
+                }
+            },
+            "test_should_return_false_and_trigger_error_reporting_if_there_are_multiple_backups_referencing_same_table_in_bq": {
+                "line": 46,
+                "line_end": 57,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 69,
+                    "line_end": 75,
+                    "indent": 4,
+                    "name": "__create_backups_with_part_of_referencing_same_table_in_bq"
+                }
+            }
+        }
+    },
+    "tests/commons/big_query/test_big_query.py": {
+        "focal_file": "tests/commons/big_query/test_big_query.py",
+        "methods": {
+            "test_iterating_tables_retries_if_503_returned": {
+                "line": 87,
+                "line_end": 106,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 413,
+                    "line_end": 423,
+                    "indent": 4,
+                    "name": "__create_tables_list_responses_with_503"
+                }
+            },
+            "test_iterating_tables_when_dataset_not_exist_then_iterating_tables_should_not_return_any_table": {
+                "line": 109,
+                "line_end": 120,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 316,
+                    "line_end": 323,
+                    "indent": 4,
+                    "name": "__create_dataset_not_found_during_tables_list_responses"
+                }
+            },
+            "test_listing_table_partitions_when_table_not_exist_should_throw_table_not_found_exception": {
+                "line": 163,
+                "line_end": 170,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 341,
+                    "line_end": 348,
+                    "indent": 4,
+                    "name": "__create_table_partititions_list_responses_table_404_not_found"
+                }
+            },
+            "test_get_dataset_cached_should_only_call_bq_once_but_response_is_cached": {
+                "line": 173,
+                "line_end": 184,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 371,
+                    "line_end": 376,
+                    "indent": 4,
+                    "name": "__create_dataset_responses_with_only_one_response_for_get_dataset"
+                }
+            },
+            "test_create_dataset_happy_path": {
+                "line": 187,
+                "line_end": 191,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 389,
+                    "line_end": 394,
+                    "indent": 4,
+                    "name": "__create_dataset_create_responses"
+                }
+            },
+            "test_create_dataset_do_nothing_if_dataset_already_exists": {
+                "line": 194,
+                "line_end": 198,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 397,
+                    "line_end": 402,
+                    "indent": 4,
+                    "name": "__create_dataset_create_already_exist_responses"
+                }
+            },
+            "test_create_dataset_do_nothing_if_access_denied": {
+                "line": 201,
+                "line_end": 205,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 405,
+                    "line_end": 410,
+                    "indent": 4,
+                    "name": "__create_access_denied_response"
+                }
+            },
+            "test_execute_query_when_executing_long_query": {
+                "line": 273,
+                "line_end": 300,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 303,
+                    "line_end": 313,
+                    "indent": 4,
+                    "name": "__execute_long_query_responses"
+                }
+            }
+        }
+    },
+    "tests/restore/test_async_restore_service.py": {
+        "focal_file": "tests/restore/test_async_restore_service.py",
+        "methods": {
+            "test_failing_creating_dataset_should_update_restore_item_status": {
+                "line": 71,
+                "line_end": 86,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "__create_restore_items"
+                }
+            },
+            "test_that_enforcer_is_called_for_each_restore_item": {
+                "line": 132,
+                "line_end": 148,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 187,
+                    "line_end": 205,
+                    "indent": 4,
+                    "name": "__create_restore_items"
+                }
+            }
+        }
+    },
+    "tests/restore/test_restore_workspace_creator.py": {
+        "focal_file": "tests/restore/test_restore_workspace_creator.py",
+        "methods": {
+            "test_should_create_dataset_based_on_target_table_reference": {
+                "line": 48,
+                "line_end": 59,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "__create_partitioned_table_references"
+                }
+            },
+            "test_should_create_table_if_is_partitioned_and_not_exist": {
+                "line": 96,
+                "line_end": 105,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "__create_partitioned_table_references"
+                }
+            },
+            "test_should_not_create_table_if_is_not_partitioned": {
+                "line": 109,
+                "line_end": 118,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 158,
+                    "line_end": 167,
+                    "indent": 4,
+                    "name": "__create_non_partitioned_table_references"
+                }
+            },
+            "test_should_not_create_table_if_table_already_exist": {
+                "line": 122,
+                "line_end": 131,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 147,
+                    "line_end": 156,
+                    "indent": 4,
+                    "name": "__create_partitioned_table_references"
+                }
+            }
+        }
+    },
+    "tests/restore/dataset/test_dataset_restore_items_generator.py": {
+        "focal_file": "tests/restore/dataset/test_dataset_restore_items_generator.py",
+        "methods": {
+            "test_should_create_restore_items_when_no_target_dataset": {
+                "line": 47,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 270,
+                    "line_end": 273,
+                    "indent": 4,
+                    "name": "__create_target_dataset"
+                }
+            },
+            "test_should_not_create_restore_items_for_deleted_backups": {
+                "line": 97,
+                "line_end": 112,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 172,
+                    "line_end": 180,
+                    "indent": 4,
+                    "name": "__prepare_entities_with_removed_backup"
+                }
+            },
+            "test_service_should_generate_restore_correct_partitioned_items": {
+                "line": 132,
+                "line_end": 153,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 250,
+                    "line_end": 267,
+                    "indent": 4,
+                    "name": "__generate_expected_restore_item"
+                }
+            }
+        }
+    }
+}

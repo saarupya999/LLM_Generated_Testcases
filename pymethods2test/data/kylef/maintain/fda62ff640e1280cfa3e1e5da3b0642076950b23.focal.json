@@ -1,0 +1,441 @@
+{
+    "tests/test_changelog.py": {
+        "focal_file": "maintain/changelog.py",
+        "methods": {
+            "test_parse_changelog": {
+                "line": 10,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 104,
+                    "line_end": 108,
+                    "indent": 0,
+                    "name": "parse_changelog"
+                }
+            },
+            "test_retrieves_last_changelog": {
+                "line": 21,
+                "line_end": 27,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "extract_last_changelog"
+                }
+            },
+            "test_retrieves_only_changelog": {
+                "line": 29,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 111,
+                    "line_end": 139,
+                    "indent": 0,
+                    "name": "extract_last_changelog"
+                }
+            }
+        }
+    },
+    "tests/release/test_aggregate.py": {
+        "focal_file": "maintain/release/aggregate.py",
+        "methods": {
+            "test_detect_current_version": {
+                "line": 43,
+                "line_end": 46,
+                "indent": 4,
+                "focal_class": "AggregateReleaser",
+                "focal_method": {
+                    "line": 92,
+                    "line_end": 97,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            },
+            "test_determine_next_version_unknown": {
+                "line": 48,
+                "line_end": 54,
+                "indent": 4,
+                "focal_class": "AggregateReleaser",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version": {
+                "line": 56,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "AggregateReleaser",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_inconsistent_next_version": {
+                "line": 64,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "AggregateReleaser",
+                "focal_method": {
+                    "line": 99,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_releasing": {
+                "line": 84,
+                "line_end": 94,
+                "indent": 4,
+                "focal_class": "AggregateReleaser",
+                "focal_method": {
+                    "line": 127,
+                    "line_end": 135,
+                    "indent": 4,
+                    "name": "release"
+                }
+            }
+        }
+    },
+    "tests/release/test_bump_version.py": {
+        "focal_file": "maintain/release/version_file.py",
+        "methods": {
+            "test_determine_current_version": {
+                "line": 23,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "VersionFileReleaser",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            }
+        }
+    },
+    "tests/release/test_c.py": {
+        "focal_file": "maintain/release/c.py",
+        "methods": {
+            "test_detect_current_simple_version": {
+                "line": 44,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "CReleaser",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            },
+            "test_detect_current_simple_named_version": {
+                "line": 54,
+                "line_end": 62,
+                "indent": 4,
+                "focal_class": "CReleaser",
+                "focal_method": {
+                    "line": 43,
+                    "line_end": 56,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            }
+        }
+    },
+    "tests/release/test_changelog.py": {
+        "focal_file": "maintain/release/changelog.py",
+        "methods": {
+            "test_determine_current_version": {
+                "line": 27,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 71,
+                    "line_end": 77,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            },
+            "test_determine_next_version_patch": {
+                "line": 36,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version_prerelease": {
+                "line": 45,
+                "line_end": 52,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version_minor": {
+                "line": 54,
+                "line_end": 61,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version_major": {
+                "line": 63,
+                "line_end": 70,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version_major_unstable": {
+                "line": 72,
+                "line_end": 79,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version_major_custom_sections": {
+                "line": 95,
+                "line_end": 104,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version_minor_custom_sections": {
+                "line": 106,
+                "line_end": 115,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            },
+            "test_determine_next_version_patch_custom_sections": {
+                "line": 117,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": "ChangelogReleaser",
+                "focal_method": {
+                    "line": 79,
+                    "line_end": 115,
+                    "indent": 4,
+                    "name": "determine_next_version"
+                }
+            }
+        }
+    },
+    "tests/release/test_cocoapods.py": {
+        "focal_file": "maintain/release/cocoapods.py",
+        "methods": {
+            "test_detect_current_version_ruby_podspec": {
+                "line": 27,
+                "line_end": 34,
+                "indent": 4,
+                "focal_class": "CocoaPodsReleaser",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            },
+            "test_detect_current_version_json_podspec": {
+                "line": 36,
+                "line_end": 43,
+                "indent": 4,
+                "focal_class": "CocoaPodsReleaser",
+                "focal_method": {
+                    "line": 44,
+                    "line_end": 49,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            }
+        }
+    },
+    "tests/release/test_gem.py": {
+        "focal_file": "maintain/release/gem.py",
+        "methods": {
+            "test_detect_current_version": {
+                "line": 25,
+                "line_end": 32,
+                "indent": 4,
+                "focal_class": "GemReleaser",
+                "focal_method": {
+                    "line": 32,
+                    "line_end": 38,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            },
+            "test_release_gem_old_gems": {
+                "line": 55,
+                "line_end": 65,
+                "indent": 4,
+                "focal_class": "GemReleaser",
+                "focal_method": {
+                    "line": 51,
+                    "line_end": 58,
+                    "indent": 4,
+                    "name": "release"
+                }
+            }
+        }
+    },
+    "tests/release/test_hooks.py": {
+        "focal_file": "maintain/release/hooks.py",
+        "methods": {
+            "test_calls_pre_bump_hooks": {
+                "line": 11,
+                "line_end": 19,
+                "indent": 4,
+                "focal_class": "HookReleaser",
+                "focal_method": {
+                    "line": 52,
+                    "line_end": 53,
+                    "indent": 4,
+                    "name": "pre_bump"
+                }
+            },
+            "test_calls_post_bump_hooks": {
+                "line": 21,
+                "line_end": 29,
+                "indent": 4,
+                "focal_class": "HookReleaser",
+                "focal_method": {
+                    "line": 58,
+                    "line_end": 59,
+                    "indent": 4,
+                    "name": "post_bump"
+                }
+            },
+            "test_calls_pre_release_hooks": {
+                "line": 31,
+                "line_end": 39,
+                "indent": 4,
+                "focal_class": "HookReleaser",
+                "focal_method": {
+                    "line": 61,
+                    "line_end": 62,
+                    "indent": 4,
+                    "name": "pre_release"
+                }
+            },
+            "test_calls_post_release_hooks": {
+                "line": 41,
+                "line_end": 49,
+                "indent": 4,
+                "focal_class": "HookReleaser",
+                "focal_method": {
+                    "line": 67,
+                    "line_end": 68,
+                    "indent": 4,
+                    "name": "post_release"
+                }
+            }
+        }
+    },
+    "tests/release/test_npm.py": {
+        "focal_file": "maintain/release/npm.py",
+        "methods": {
+            "test_detect_current_version": {
+                "line": 15,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "NPMReleaser",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            }
+        }
+    },
+    "tests/release/test_python.py": {
+        "focal_file": "maintain/release/python.py",
+        "methods": {
+            "test_detect_current_version": {
+                "line": 15,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": "PythonReleaser",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            },
+            "test_detect_current_version_no_version": {
+                "line": 24,
+                "line_end": 33,
+                "indent": 4,
+                "focal_class": "PythonReleaser",
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 25,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            }
+        }
+    },
+    "tests/release/test_version_file.py": {
+        "focal_file": "maintain/release/version_file.py",
+        "methods": {
+            "test_detect_current_version": {
+                "line": 12,
+                "line_end": 18,
+                "indent": 4,
+                "focal_class": "VersionFileReleaser",
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 20,
+                    "indent": 4,
+                    "name": "determine_current_version"
+                }
+            }
+        }
+    }
+}

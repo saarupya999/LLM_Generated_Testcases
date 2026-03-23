@@ -1,0 +1,207 @@
+{
+    "tests/unit/test_binlog.py": {
+        "focal_file": "binlog/binlog.py",
+        "methods": {
+            "test_Binlog_open_environ_abstract": {
+                "line": 41,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "open_environ"
+                }
+            },
+            "test_Binlog_open_environ_new": {
+                "line": 65,
+                "line_end": 77,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "open_environ"
+                }
+            },
+            "test_Binlog_open_environ_but_exists": {
+                "line": 98,
+                "line_end": 115,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 32,
+                    "indent": 4,
+                    "name": "open_environ"
+                }
+            },
+            "test_Binlog_open_logindex_new": {
+                "line": 127,
+                "line_end": 144,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "open_logindex"
+                }
+            },
+            "test_Binlog_open_logindex_but_is_dir": {
+                "line": 148,
+                "line_end": 164,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 35,
+                    "line_end": 47,
+                    "indent": 4,
+                    "name": "open_logindex"
+                }
+            }
+        }
+    },
+    "tests/unit/test_reader.py": {
+        "focal_file": "binlog/reader.py",
+        "methods": {
+            "test_Reader_can_save_and_restore_its_process_multiple_save": {
+                "line": 267,
+                "line_end": 300,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 137,
+                    "line_end": 150,
+                    "indent": 4,
+                    "name": "save"
+                }
+            },
+            "test_Reader_next_record": {
+                "line": 378,
+                "line_end": 402,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 115,
+                    "line_end": 122,
+                    "indent": 4,
+                    "name": "next_record"
+                }
+            },
+            "test_Reader_has_next_log_one_log": {
+                "line": 486,
+                "line_end": 504,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "has_next_log"
+                }
+            },
+            "test_Reader_has_next_log_two_logs": {
+                "line": 508,
+                "line_end": 525,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 156,
+                    "line_end": 166,
+                    "indent": 4,
+                    "name": "has_next_log"
+                }
+            },
+            "test_Reader_status_return_dict_with_status": {
+                "line": 591,
+                "line_end": 616,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 210,
+                    "indent": 4,
+                    "name": "status"
+                }
+            }
+        }
+    },
+    "tests/unit/test_register.py": {
+        "focal_file": "binlog/register.py",
+        "methods": {
+            "test_Register_reset_do_reset": {
+                "line": 268,
+                "line_end": 277,
+                "indent": 0,
+                "focal_class": "binlog.register.Register",
+                "focal_method": {
+                    "line": 82,
+                    "line_end": 85,
+                    "indent": 4,
+                    "name": "reset"
+                }
+            }
+        }
+    },
+    "tests/unit/test_server.py": {
+        "focal_file": "binlog/server.py",
+        "methods": {
+            "test_Server_get_protocol": {
+                "line": 30,
+                "line_end": 41,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 18,
+                    "line_end": 43,
+                    "indent": 4,
+                    "name": "get_protocol"
+                }
+            }
+        }
+    },
+    "tests/unit/test_writer.py": {
+        "focal_file": "binlog/writer.py",
+        "methods": {
+            "test_Writer_set_current_log_on_new_environ": {
+                "line": 53,
+                "line_end": 80,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "set_current_log"
+                }
+            },
+            "test_Writer_append_add_data_to_set_current_log": {
+                "line": 206,
+                "line_end": 229,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 67,
+                    "indent": 4,
+                    "name": "set_current_log"
+                }
+            },
+            "test_CDSWriter_delete_cant_delete": {
+                "line": 374,
+                "line_end": 394,
+                "indent": 0,
+                "focal_class": "binlog.writer.CDSWriter",
+                "focal_method": {
+                    "line": 89,
+                    "line_end": 105,
+                    "indent": 4,
+                    "name": "delete"
+                }
+            }
+        }
+    }
+}

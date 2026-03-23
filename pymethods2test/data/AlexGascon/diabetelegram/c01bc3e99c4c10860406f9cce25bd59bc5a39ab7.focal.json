@@ -1,0 +1,106 @@
+{
+    "tests/services/state_manager_test.py": {
+        "focal_file": "diabetelegram/services/state_manager.py",
+        "methods": {
+            "test_state_manager_get_retrieves_the_state": {
+                "line": 19,
+                "line_end": 20,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 11,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_state_manager_get_calls_dynamo_correctly": {
+                "line": 22,
+                "line_end": 25,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 9,
+                    "line_end": 11,
+                    "indent": 4,
+                    "name": "get"
+                }
+            },
+            "test_state_manager_set_calls_dynamo_correctly": {
+                "line": 30,
+                "line_end": 33,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "set"
+                }
+            }
+        }
+    },
+    "tests/functional/services/state_manager_test.py": {
+        "focal_file": "diabetelegram/services/state_manager.py",
+        "methods": {
+            "test_state_manager_gets_the_state_we_just_set": {
+                "line": 6,
+                "line_end": 11,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 13,
+                    "line_end": 15,
+                    "indent": 4,
+                    "name": "set"
+                }
+            }
+        }
+    },
+    "tests/parsers/meal_parser_test.py": {
+        "focal_file": "diabetelegram/parsers/meal_parser.py",
+        "methods": {
+            "test_to_meal": {
+                "line": 6,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": "MealParser",
+                "focal_method": {
+                    "line": 6,
+                    "line_end": 17,
+                    "indent": 4,
+                    "name": "to_meal"
+                }
+            }
+        }
+    },
+    "tests/serializers/meal_serializer_test.py": {
+        "focal_file": "diabetelegram/serializers/meal_serializer.py",
+        "methods": {
+            "test_serializes_meal": {
+                "line": 6,
+                "line_end": 15,
+                "indent": 0,
+                "focal_class": "MealSerializer",
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            },
+            "test_serializes_incomplete_meal": {
+                "line": 17,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": "MealSerializer",
+                "focal_method": {
+                    "line": 10,
+                    "line_end": 21,
+                    "indent": 4,
+                    "name": "to_dict"
+                }
+            }
+        }
+    }
+}

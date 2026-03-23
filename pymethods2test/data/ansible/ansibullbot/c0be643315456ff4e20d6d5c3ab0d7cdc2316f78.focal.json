@@ -1,0 +1,523 @@
+{
+    "tests/component/test_idempotence.py": {
+        "focal_file": "ansibullbot/triagers/ansible.py",
+        "methods": {
+            "test_no_actions_on_second_run": {
+                "line": 16,
+                "line_end": 96,
+                "indent": 4,
+                "focal_class": "AnsibleTriage",
+                "focal_method": {
+                    "line": 181,
+                    "line_end": 339,
+                    "indent": 4,
+                    "name": "run"
+                }
+            }
+        }
+    },
+    "tests/unit/triagers/plugins/test_automerge.py": {
+        "focal_file": "ansibullbot/triagers/plugins/shipit.py",
+        "methods": {
+            "test_automerge_if_shipit": {
+                "line": 68,
+                "line_end": 102,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_automerge_facts"
+                }
+            },
+            "test_not_automerge_if_not_shipit": {
+                "line": 104,
+                "line_end": 138,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_automerge_facts"
+                }
+            }
+        }
+    },
+    "tests/unit/triagers/plugins/test_docs_info.py": {
+        "focal_file": "ansibullbot/triagers/plugins/docs_info.py",
+        "methods": {
+            "test_docs_facts": {
+                "line": 50,
+                "line_end": 56,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 287,
+                    "line_end": 299,
+                    "indent": 0,
+                    "name": "get_docs_facts"
+                }
+            }
+        }
+    },
+    "tests/unit/triagers/plugins/test_needs_contributor.py": {
+        "focal_file": "ansibullbot/triagers/plugins/needs_contributor.py",
+        "methods": {
+            "test_needs_contributor_command": {
+                "line": 12,
+                "line_end": 16,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_needs_contributor_facts"
+                }
+            },
+            "test_not_needs_contributor_command": {
+                "line": 18,
+                "line_end": 22,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_needs_contributor_facts"
+                }
+            },
+            "test_waiting_on_contributor_label": {
+                "line": 24,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1,
+                    "line_end": 29,
+                    "indent": 0,
+                    "name": "get_needs_contributor_facts"
+                }
+            }
+        }
+    },
+    "tests/unit/triagers/plugins/test_needs_revision.py": {
+        "focal_file": "ansibullbot/triagers/plugins/needs_revision.py",
+        "methods": {
+            "test_shipit_removes_needs_revision": {
+                "line": 76,
+                "line_end": 100,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 343,
+                    "indent": 0,
+                    "name": "get_needs_revision_facts"
+                }
+            },
+            "test_shipit_removes_needs_revision_multiple_users": {
+                "line": 102,
+                "line_end": 126,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 14,
+                    "line_end": 343,
+                    "indent": 0,
+                    "name": "get_needs_revision_facts"
+                }
+            },
+            "test_reviews": {
+                "line": 130,
+                "line_end": 173,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 375,
+                    "line_end": 420,
+                    "indent": 0,
+                    "name": "_get_review_state"
+                }
+            }
+        }
+    },
+    "tests/unit/triagers/plugins/test_notifications.py": {
+        "focal_file": "ansibullbot/triagers/plugins/notifications.py",
+        "methods": {
+            "test_notify_authors": {
+                "line": 31,
+                "line_end": 37,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 4,
+                    "line_end": 61,
+                    "indent": 0,
+                    "name": "get_notification_facts"
+                }
+            }
+        }
+    },
+    "tests/unit/triagers/plugins/test_rebuild.py": {
+        "focal_file": "ansibullbot/triagers/plugins/ci_rebuild.py",
+        "methods": {
+            "test_rebuild_command": {
+                "line": 9,
+                "line_end": 24,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_rebuild_command_facts"
+                }
+            },
+            "test_rebuild_failed_command": {
+                "line": 28,
+                "line_end": 43,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_rebuild_command_facts"
+                }
+            },
+            "test_rebuild_and_rebuild_failed_commands": {
+                "line": 47,
+                "line_end": 62,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_rebuild_command_facts"
+                }
+            },
+            "test_rebuild_failed_and_rebuild_commands": {
+                "line": 66,
+                "line_end": 81,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 106,
+                    "line_end": 152,
+                    "indent": 0,
+                    "name": "get_rebuild_command_facts"
+                }
+            }
+        }
+    },
+    "tests/unit/triagers/plugins/test_shipit.py": {
+        "focal_file": "ansibullbot/triagers/plugins/shipit.py",
+        "methods": {
+            "test_supershipit_shipit_facts": {
+                "line": 115,
+                "line_end": 136,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 470,
+                    "indent": 0,
+                    "name": "get_shipit_facts"
+                }
+            },
+            "test_automerge_community_only": {
+                "line": 239,
+                "line_end": 275,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_automerge_facts"
+                }
+            },
+            "test_supershipit_changelogs": {
+                "line": 277,
+                "line_end": 305,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 222,
+                    "line_end": 470,
+                    "indent": 0,
+                    "name": "get_shipit_facts"
+                }
+            },
+            "test_is_approval": {
+                "line": 527,
+                "line_end": 544,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 19,
+                    "line_end": 23,
+                    "indent": 0,
+                    "name": "is_approval"
+                }
+            },
+            "test_review_facts_are_defined_module_utils": {
+                "line": 845,
+                "line_end": 880,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 178,
+                    "line_end": 219,
+                    "indent": 0,
+                    "name": "get_review_facts"
+                }
+            },
+            "test_automerge_changelog_fragment": {
+                "line": 885,
+                "line_end": 918,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_automerge_facts"
+                }
+            },
+            "test_automerge_deletion_from_ignore": {
+                "line": 920,
+                "line_end": 952,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_automerge_facts"
+                }
+            },
+            "test_automerge_addition_to_ignore": {
+                "line": 954,
+                "line_end": 993,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 33,
+                    "line_end": 134,
+                    "indent": 0,
+                    "name": "get_automerge_facts"
+                }
+            }
+        }
+    },
+    "tests/unit/utils/test_component_tools.py": {
+        "focal_file": "ansibullbot/utils/component_tools.py",
+        "methods": {
+            "test_get_meta_for_file_wildcard": {
+                "line": 55,
+                "line_end": 66,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1137,
+                    "line_end": 1416,
+                    "indent": 4,
+                    "name": "get_meta_for_file"
+                }
+            },
+            "test_get_meta_for_file_pyfile": {
+                "line": 91,
+                "line_end": 114,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1137,
+                    "line_end": 1416,
+                    "indent": 4,
+                    "name": "get_meta_for_file"
+                }
+            },
+            "test_get_meta_for_file_powershell": {
+                "line": 161,
+                "line_end": 175,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1137,
+                    "line_end": 1416,
+                    "indent": 4,
+                    "name": "get_meta_for_file"
+                }
+            },
+            "test_reduce_filepaths": {
+                "line": 177,
+                "line_end": 181,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1072,
+                    "line_end": 1097,
+                    "indent": 4,
+                    "name": "reduce_filepaths"
+                }
+            },
+            "test_search_by_filepath": {
+                "line": 184,
+                "line_end": 300,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 937,
+                    "line_end": 1070,
+                    "indent": 4,
+                    "name": "search_by_filepath"
+                }
+            },
+            "test_search_by_filepath_with_context": {
+                "line": 303,
+                "line_end": 349,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 937,
+                    "line_end": 1070,
+                    "indent": 4,
+                    "name": "search_by_filepath"
+                }
+            },
+            "test_search_by_regex_module_globs": {
+                "line": 352,
+                "line_end": 381,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 792,
+                    "line_end": 866,
+                    "indent": 4,
+                    "name": "search_by_regex_module_globs"
+                }
+            },
+            "test_search_by_keywords": {
+                "line": 383,
+                "line_end": 394,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 614,
+                    "line_end": 639,
+                    "indent": 4,
+                    "name": "search_by_keywords"
+                }
+            },
+            "test_search_by_regex_modules": {
+                "line": 397,
+                "line_end": 471,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 684,
+                    "line_end": 790,
+                    "indent": 4,
+                    "name": "search_by_regex_modules"
+                }
+            },
+            "test_get_meta_for_known_file": {
+                "line": 498,
+                "line_end": 537,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 1137,
+                    "line_end": 1416,
+                    "indent": 4,
+                    "name": "get_meta_for_file"
+                }
+            }
+        }
+    },
+    "tests/unit/utils/test_extractors_pr_number.py": {
+        "focal_file": "ansibullbot/utils/extractors.py",
+        "methods": {
+            "test_extract_pr_number_from_comment": {
+                "line": 22,
+                "line_end": 23,
+                "indent": 0,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 370,
+                    "line_end": 381,
+                    "indent": 0,
+                    "name": "extract_pr_number_from_comment"
+                }
+            }
+        }
+    },
+    "tests/unit/utils/test_time_tools.py": {
+        "focal_file": "ansibullbot/utils/timetools.py",
+        "methods": {
+            "test_strip_three": {
+                "line": 23,
+                "line_end": 28,
+                "indent": 4,
+                "focal_class": null,
+                "focal_method": {
+                    "line": 7,
+                    "line_end": 32,
+                    "indent": 0,
+                    "name": "strip_time_safely"
+                }
+            }
+        }
+    },
+    "tests/unit/wrappers/test_ghapiwrapper.py": {
+        "focal_file": "ansibullbot/wrappers/ghapiwrapper.py",
+        "methods": {
+            "test_get_request_rate_limited": {
+                "line": 21,
+                "line_end": 26,
+                "indent": 0,
+                "focal_class": "GithubWrapper",
+                "focal_method": {
+                    "line": 136,
+                    "line_end": 160,
+                    "indent": 4,
+                    "name": "get_request"
+                }
+            }
+        }
+    },
+    "tests/unit/wrappers/test_history_wrapper.py": {
+        "focal_file": "ansibullbot/wrappers/historywrapper.py",
+        "methods": {
+            "test_get_component_commands": {
+                "line": 36,
+                "line_end": 58,
+                "indent": 0,
+                "focal_class": "HistoryWrapper",
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 322,
+                    "indent": 4,
+                    "name": "get_component_commands"
+                }
+            },
+            "test_get_no_component_commands": {
+                "line": 61,
+                "line_end": 83,
+                "indent": 0,
+                "focal_class": "HistoryWrapper",
+                "focal_method": {
+                    "line": 305,
+                    "line_end": 322,
+                    "indent": 4,
+                    "name": "get_component_commands"
+                }
+            }
+        }
+    }
+}

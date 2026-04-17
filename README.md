@@ -1,321 +1,309 @@
-# LLM-Based Automatic Unit Test Generation Using Focal-Method Datasets
+# 🧪 LLM-Based Automatic Unit Test Generation Using Focal-Method Datasets
+
+---
 
 ## 📌 Overview
 
-Writing high-quality unit tests is a critical yet time-consuming task in software development. Developers often struggle to maintain sufficient test coverage due to time constraints, leading to potential bugs and reduced software reliability.
+This project explores how Large Language Models (LLMs) can automatically generate **unit tests for Python functions** using a focal-method dataset.
 
-This project explores the use of **Large Language Models (LLMs)** to automatically generate unit tests for Python functions (focal methods). Using the **pyMethods2Test dataset**, we design and implement a complete pipeline for:
+We:
 
-* Extracting focal methods
-* Generating unit tests using an LLM
-* Evaluating generated tests using behavioral metrics
-* Conducting prompt-based experiments
-
-The primary goal is to understand how **prompt design impacts test quality**.
+* Extract methods from a dataset
+* Generate tests using different prompts
+* Evaluate quality using metrics
+* Analyze limitations of LLM outputs
+* Visualize results using a dashboard
 
 ---
 
 ## 🎯 Objectives
 
-This project aims to:
-
 * Automate unit test generation using LLMs
-* Analyze the impact of prompt engineering on test quality
-* Evaluate generated tests using measurable metrics
-* Approximate coverage of developer-written tests
+* Compare prompting strategies (Baseline, Context, Advanced)
+* Evaluate generated tests (assertions, edge cases, validity)
+* Identify limitations of LLM-generated tests
 
 ---
 
-## ❓ Research Questions
+## 🧱 Project Workflow (IMPORTANT)
 
-### RQ1: How does prompt context affect generated test quality?
-
-We compare:
-
-* Baseline prompt (minimal context)
-* Context-enhanced prompt (detailed instructions)
-
----
-
-### RQ2: Can LLM-generated tests approximate developer-written test coverage?
-
-We approximate coverage using:
-
-* Assertion density
-* Edge-case detection
-
----
-
-### RQ3: Do generated assertions align with expected behavior?
-
-We evaluate:
-
-* Number of assertions per test
-* Diversity of test cases
-
----
-
-## 📊 Dataset
-
-We use the **pyMethods2Test dataset**, which contains:
-
-* Focal methods (functions under test)
-* Metadata about test mappings
-* Extracted from real-world Python repositories
-
-Dataset size:
-
-* ~88,000 method-test pairs
-
----
-
-## ⚙️ System Architecture
-
-The system pipeline consists of the following stages:
-
-```
+```text
 Dataset
   ↓
-Method Extraction
+Extract Methods
   ↓
-Sampling
+Sample Methods
   ↓
-LLM Test Generation
+Generate Tests (Baseline / Context / Advanced)
   ↓
-Evaluation
+Evaluate Tests
+  ↓
+Failure Analysis
+  ↓
+Dashboard Visualization
 ```
 
 ---
 
-## 🧩 Project Structure
+## 🔁 Execution Flow (STEP-BY-STEP)
 
+```text
+1. extract_methods.py
+        ↓
+2. sample_methods.py
+        ↓
+3. generate_tests_llm.py
+        ↓
+4. generate_tests_llm_advanced.py
+        ↓
+5. evaluate_tests.py
+        ↓
+6. failure_analysis.py
+        ↓
+7. dashboard_streamlit.py
 ```
-LLM_Test_Generator_Project
+
+---
+
+## 🗂️ Project Structure
+
+```text
+LLM_Test_Generator_Project/
 │
-├── pymethods2test/
+├── pymethods2test/data/       # Dataset
 │
 ├── scripts/
 │   ├── extract_methods.py
 │   ├── sample_methods.py
 │   ├── generate_tests_llm.py
+│   ├── generate_tests_llm_advanced.py
 │   ├── evaluate_tests.py
-│   ├── compare_results.py
+│   ├── failure_analysis.py
+│   ├── dashboard_streamlit.py
 │
 ├── results/
-│   ├── extracted_methods.json
 │   ├── sampled_methods.json
-│   ├── generated_tests_baseline.json
-│   ├── generated_tests_context.json
+│   ├── generated_tests.json
+│   ├── generated_tests_advanced.json
+│   ├── evaluation_summary.json
 │
 └── README.md
 ```
 
 ---
 
-## 🚀 Implementation Details
+## ⚙️ Setup
 
-### 1. Method Extraction
+### 1. Install dependencies
 
-Script: `extract_methods.py`
-
-* Reads `.focal.json` files from dataset
-* Extracts:
-
-  * method name
-  * source file
-  * line numbers
-
-Output:
-
-```
-results/extracted_methods.json
+```bash
+pip install ollama streamlit
 ```
 
 ---
 
-### 2. Sampling
+### 2. Run LLM (Llama3)
 
-Script: `sample_methods.py`
-
-* Samples 1000 methods randomly
-* Reduces dataset size for experimentation
-
-Output:
-
-```
-results/sampled_methods.json
+```bash
+ollama run llama3
 ```
 
 ---
 
-### 3. Test Generation
+## 🚀 How to Run the Project
 
-Script: `generate_tests_llm.py`
+### 🔹 Step 1: Extract methods
 
-Uses:
-
-* **Ollama** (local LLM runtime)
-* **Llama3 model**
-
-Generates pytest test cases using prompts.
-
----
-
-### Prompt Variants
-
-#### 🔹 Baseline Prompt
-
-* Minimal instructions
-* Only method name
-
-#### 🔹 Context Prompt
-
-* Developer-style instructions
-* Includes:
-
-  * edge cases
-  * multiple assertions
-  * realistic testing patterns
-
----
-
-### 4. Evaluation
-
-Script: `evaluate_tests.py`
-
-Metrics used:
-
-| Metric             | Description                     |
-| ------------------ | ------------------------------- |
-| Assertion Count    | Number of assertions in tests   |
-| Average Assertions | Assertions per test             |
-| Edge Cases         | Presence of boundary/edge tests |
-
----
-
-### 5. Comparison
-
-Script: `compare_results.py`
-
-* Compares baseline vs context prompts
-* Computes behavioral coverage
-
----
-
-## 📈 Experimental Setup
-
-* Sample size: 50 focal methods
-* Two prompt variants tested
-* Local LLM inference using Ollama
-
----
-
-## 📊 Results
-
-| Metric             | Baseline | Context |
-| ------------------ | -------- | ------- |
-| Generated Tests    | 50       | 50      |
-| Total Assertions   | 157      | 286     |
-| Average Assertions | 3.14     | 5.72    |
-| Edge Cases         | 39       | 45      |
-
----
-
-## 📌 Key Findings
-
-* Context-based prompts significantly improve test quality
-* More assertions → better validation
-* More edge cases → stronger robustness
-
----
-
-## 🧠 Interpretation
-
-* Prompt engineering plays a crucial role in LLM performance
-* Minimal prompts lead to generic tests
-* Context prompts guide LLM to generate realistic developer-like tests
-
----
-
-## ⚠️ Limitations
-
-* No real execution-based coverage measurement
-* Developer tests not directly executed
-* Limited to Python dataset
-
----
-
-## 🔮 Future Work
-
-* Integrate `pytest-cov` for real coverage
-* Compare with developer-written tests directly
-* Use larger LLM models (e.g., GPT-4)
-* Include method code in prompts
-
----
-
-## 🧪 How to Run
-
-### Step 1: Extract Methods
-
-```
+```bash
 python3 scripts/extract_methods.py
 ```
 
-### Step 2: Sample Methods
+---
 
-```
+### 🔹 Step 2: Sample methods
+
+```bash
 python3 scripts/sample_methods.py
-```
-
-### Step 3: Generate Tests
-
-```
-python3 scripts/generate_tests_llm.py
-```
-
-### Step 4: Evaluate Tests
-
-```
-python3 scripts/evaluate_tests.py
 ```
 
 ---
 
-## 🛠️ Technologies Used
+### 🔹 Step 3: Generate tests (baseline)
+
+```bash
+python3 scripts/generate_tests_llm.py
+```
+
+---
+
+### 🔹 Step 4: Generate tests (advanced)
+
+```bash
+python3 scripts/generate_tests_llm_advanced.py
+```
+
+---
+
+### 🔹 Step 5: Evaluate tests
+
+```bash
+python3 scripts/evaluate_tests.py
+```
+
+Output:
+
+```text
+Total tests: 50
+Total assertions: 457
+Average assertions: 9.14
+Edge cases: 50
+```
+
+---
+
+### 🔹 Step 6: Failure analysis
+
+```bash
+python3 scripts/failure_analysis.py
+```
+
+---
+
+### 🔹 Step 7: Run dashboard
+
+```bash
+streamlit run scripts/dashboard_streamlit.py
+```
+
+Open in browser:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 🧠 Prompt Strategies
+
+### 🔹 Baseline
+
+* Uses only method name
+* Generates simple tests
+
+### 🔹 Context
+
+* Adds structured instructions
+* More realistic tests
+
+### 🔹 Advanced
+
+* Includes edge cases
+* Multiple assertions
+* Parameterized tests
+* Explanations in comments
+
+---
+
+## 📊 Evaluation Metrics
+
+* Total assertions
+* Average assertions per test
+* Edge case coverage
+* Valid vs invalid tests
+
+---
+
+## 📉 Results
+
+| Metric              | Value |
+| ------------------- | ----- |
+| Total Tests         | 50    |
+| Total Assertions    | 457   |
+| Avg Assertions/Test | 9.14  |
+| Edge Case Coverage  | 100%  |
+| Valid Tests         | 29    |
+| Invalid Tests       | 21    |
+
+---
+
+## 🧠 Research Questions
+
+---
+
+### 🔹 RQ1: Effect of Prompting
+
+Advanced prompts improve test quality by increasing assertions and edge-case coverage. However, improvements over context prompts are moderate, showing that structured prompts already perform well.
+
+---
+
+### 🔹 RQ2: Test Quality
+
+Generated tests show strong coverage:
+
+* High number of assertions (457)
+* Full edge-case coverage (100%)
+
+This demonstrates that LLMs can generate diverse and comprehensive tests.
+
+---
+
+### 🔹 RQ3: Limitations
+
+* Only ~58% tests are valid
+* Many contain syntax errors
+* Extra text affects execution
+* Logical correctness is not guaranteed
+
+LLMs require **post-processing and validation**.
+
+---
+
+## 🧾 Key Insights
+
+* LLMs generate strong test coverage
+* Prompt design affects output quality
+* Outputs are not always executable
+* Human validation is required
+
+---
+
+## 🏁 Conclusion
+
+LLMs are powerful tools for test generation but are not fully reliable.
+They can assist developers but cannot replace them without validation.
+
+---
+
+## 🚀 Future Work
+
+* Improve parsing and cleaning
+* Add pytest execution
+* Measure code coverage
+* Compare with developer tests
+
+---
+
+## 🛠️ Technologies
 
 * Python
 * Ollama
 * Llama3
-* JSON processing
-* Regular expressions
+* Streamlit
 
 ---
 
-## 📚 Related Work
+## 📌 Final Status
 
-* EvoSuite (search-based testing)
-* Randoop (random testing)
-* Transformer-based test generation
-* LLM-based test generation research
-
----
-
-## 👥 Authors
-
-* Siwani Sah
-* Saarupya Sunkara
-* Alexandra Hyatali
+```text
+Project Completed: ✅ 100%
+```
 
 ---
 
-## 🏫 Institution
+## 🙌 Acknowledgements
 
-Florida Polytechnic University
-Instructor: Dr. Karim Elish
+* pyMethods2Test dataset
+* Ollama LLM framework
+* Course guidance
 
 ---
-
-## 📌 Conclusion
-
-This project demonstrates that LLMs can effectively generate unit tests, and that prompt design significantly impacts test quality. The results highlight the importance of context in guiding LLM behavior for software testing tasks.

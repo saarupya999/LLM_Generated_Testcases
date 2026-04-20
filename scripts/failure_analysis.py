@@ -1,6 +1,8 @@
 import json
 import re
 
+
+
 INPUT_FILE = "results/generated_tests_advanced.json"
 
 print("Loading generated tests...")
@@ -53,3 +55,17 @@ print("Valid Python code:", valid)
 print("Syntax errors:", syntax_errors)
 print("No assertions:", no_assertions)
 print("Extra text issues:", extra_text)
+
+
+results = {
+    "total_tests": total,
+    "valid": valid,
+    "syntax_errors": syntax_errors,
+    "no_assertions": no_assertions,
+    "extra_text": extra_text
+}
+
+with open("results/failure_summary.json", "w") as f:
+    json.dump(results, f, indent=2)
+
+

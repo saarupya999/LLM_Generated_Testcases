@@ -1,79 +1,108 @@
 
 import streamlit as st
 import json
+import os
 
 st.set_page_config(page_title="LLM Test Dashboard", layout="wide")
 
-st.title("🧪 LLM Test Generation Dashboard")
+# ===================== HEADER =====================
+st.markdown("""
+    <h1 style='text-align: center;'>🧪 LLM Test Generation Dashboard</h1>
+    <p style='text-align: center; color: gray;'>Interactive Analysis of LLM-Generated Unit Tests</p>
+""", unsafe_allow_html=True)
 
 # ===================== LOAD DATA =====================
-with open("results/generated_tests_advanced.json") as f:
-    data = json.load(f)
+def load_json(path):
+    if os.path.exists(path):
+        with open(path) as f:
+            return json.load(f)
+    return {}
 
-with open("results/evaluation_summary.json") as f:
-    eval_data = json.load(f)
+data = load_json("results/generated_tests_advanced.json")
+eval_data = load_json("results/evaluation_summary.json")
 
-total_tests = eval_data["total_tests"]
-total_assertions = eval_data["total_assertions"]
-avg_assertions = eval_data["avg_assertions"]
-edge_cases = eval_data["edge_cases"]
+total_tests = eval_data.get("total_tests", len(data))
+total_assertions = eval_data.get("total_assertions", 0)
+avg_assertions = eval_data.get("avg_assertions", 0)
+edge_cases = eval_data.get("edge_cases", 0)
 
-# ===================== FAILURE ANALYSIS =====================
-valid = 29
-invalid = 21
-extra_text = 42
+# ===================== REFRESH BUTTON =====================
+if st.button("🔄 Refresh Dashboard"):
+    st.rerun()
 
-# ===================== SUMMARY =====================
-st.header("📊 Summary Metrics")
+# ===================== METRICS =====================
+st.markdown("## 📊 Summary Metrics")
 
 col1, col2, col3 = st.columns(3)
 
-col1.metric("Total Tests", total_tests)
-col2.metric("Total Assertions", total_assertions)
-col3.metric("Avg Assertions/Test", round(avg_assertions, 2))
+col1.metric("🧪 Total Tests", total_tests)
+col2.metric("✅ Total Assertions", total_assertions)
+col3.metric("📈 Avg Assertions/Test", round(avg_assertions, 2))
+
+# ===================== FAILURE ANALYSIS =====================
+
+failure_data = load_json("results/failure_summary.json")
+
+valid = failure_data.get("valid", 0)
+syntax_errors = failure_data.get("syntax_errors", 0)
+no_assertions = failure_data.get("no_assertions", 0)
+extra_text = failure_data.get("extra_text", 0)
+
 
 # ===================== VALIDITY =====================
-st.header("📊 Test Validity")
+st.markdown("## 📊 Test Quality Breakdown")
 
-valid_pct = (valid / total_tests) * 100
-invalid_pct = (invalid / total_tests) * 100
+col1, col2, col3, col4 = st.columns(4)
 
-st.write(f"✅ Valid Tests: {valid} ({valid_pct:.1f}%)")
-st.write(f"❌ Invalid Tests: {invalid} ({invalid_pct:.1f}%)")
-st.write(f"⚠️ Extra Text Issues: {extra_text}")
+col1.metric("✅ Valid Code", valid)
+col2.metric("❌ Syntax Errors", syntax_errors)
+col3.metric("⚠️ No Assertions", no_assertions)
+col4.metric("📄 Extra Text", extra_text)
 
 # ===================== CHART =====================
-st.header("📈 Test Quality Overview")
-
 chart_data = {
-    "Metric": ["Valid", "Invalid", "Extra Text"],
-    "Count": [valid, invalid, extra_text]
+    "Metric": ["Valid", "Syntax Errors", "No Assertions", "Extra Text"],
+    "Count": [valid, syntax_errors, no_assertions, extra_text]
 }
 
 st.bar_chart(chart_data, x="Metric", y="Count")
 
-# ===================== EDGE CASES =====================
-st.header("🧠 Edge Case Coverage")
+# ===================== EDGE CASE =====================
+st.markdown("## 🧠 Edge Case Coverage")
 
-st.success(f"Edge Case Tests: {edge_cases} / {total_tests}")
+progress = edge_cases / total_tests if total_tests > 0 else 0
+st.progress(progress)
+st.write(f"{edge_cases} / {total_tests} tests include edge cases")
+
+# ===================== FILTER =====================
+st.markdown("## 🔍 Explore Generated Tests")
+
+method_names = [t.get("method_name", "Unknown") for t in data]
+selected = st.selectbox("Select Method", method_names)
+
+for t in data:
+    if t.get("method_name") == selected:
+        st.code(t.get("generated_test", ""), language="python")
 
 # ===================== SAMPLE TESTS =====================
-st.header("📄 Sample Generated Tests")
+st.markdown("## 📄 Sample Tests")
 
-for i, t in enumerate(data[:5]):
-    st.subheader(f"Method: {t['method_name']}")
-    st.code(t["generated_test"], language="python")
+for t in data[:3]:
+    with st.expander(f"📌 {t.get('method_name', 'Unknown')}"):
+        st.code(t.get("generated_test", ""), language="python")
 
 # ===================== INSIGHTS =====================
-st.header("🧠 Key Insights")
+st.markdown("## 🧠 Key Insights")
 
-st.write(f"""
-- Assertions are directly taken from evaluation script.
+st.success(f"""
 - Total Assertions: {total_assertions}
 - Average Assertions/Test: {avg_assertions:.2f}
-- Ensures perfect consistency between evaluation and dashboard.
+- Edge Case Coverage: {edge_cases}/{total_tests}
+- LLM generates high coverage but limited execution reliability.
+- Requires validation before real-world usage.
 """)
 
+# ===================== FOOTER =====================
 st.markdown("---")
-st.markdown("🚀 Project: LLM-Based Automatic Unit Test Generation")
+st.markdown("<p style='text-align:center;'>🚀 LLM-Based Automatic Unit Test Generation</p>", unsafe_allow_html=True)
 

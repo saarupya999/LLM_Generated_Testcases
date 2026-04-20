@@ -29,7 +29,7 @@ def get_edge_cases(method_name):
         return ["None", "0"]
 
 # LOOP THROUGH METHODS
-TOTAL = 50   # you can increase later (100 recommended)
+TOTAL = 100   # you can increase later (100 recommended)
 
 for i, m in enumerate(methods[:TOTAL]):
 

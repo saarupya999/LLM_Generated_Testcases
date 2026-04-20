@@ -2,75 +2,73 @@
 
 ---
 
-## 📌 Overview
+## 📌 1. Project Overview
 
-This project explores how Large Language Models (LLMs) can automatically generate **unit tests for Python functions** using a focal-method dataset.
+This project explores how **Large Language Models (LLMs)** can automatically generate **unit tests for Python functions** using a focal-method-based approach.
 
-We:
+The system takes real-world functions from a dataset and generates pytest test cases using LLMs. The generated tests are then evaluated using multiple metrics such as:
 
-* Extract methods from a dataset
-* Generate tests using different prompts
-* Evaluate quality using metrics
-* Analyze limitations of LLM outputs
-* Visualize results using a dashboard
+* Assertion count
+* Edge-case coverage
+* Syntax validity
+* Failure modes
+
+Finally, results are visualized using an interactive dashboard.
 
 ---
 
-## 🎯 Objectives
+## 🎯 2. Objectives
 
 * Automate unit test generation using LLMs
-* Compare prompting strategies (Baseline, Context, Advanced)
-* Evaluate generated tests (assertions, edge cases, validity)
-* Identify limitations of LLM-generated tests
+* Compare different prompting strategies
+* Evaluate generated tests using measurable metrics
+* Analyze limitations of LLM-generated outputs
+* Build a visual dashboard for insights
 
 ---
 
-## 🧱 Project Workflow (IMPORTANT)
+## 🧱 3. End-to-End Pipeline
+
+### 🔁 Workflow Diagram
 
 ```text
-Dataset
-  ↓
-Extract Methods
-  ↓
-Sample Methods
-  ↓
-Generate Tests (Baseline / Context / Advanced)
-  ↓
-Evaluate Tests
-  ↓
+Dataset (pyMethods2Test)
+        ↓
+Method Extraction
+        ↓
+Method Sampling
+        ↓
+Test Generation (LLM)
+        ↓
+Evaluation
+        ↓
 Failure Analysis
-  ↓
+        ↓
 Dashboard Visualization
 ```
 
 ---
 
-## 🔁 Execution Flow (STEP-BY-STEP)
+## 🔄 4. Execution Flow (Step-by-Step)
 
 ```text
 1. extract_methods.py
-        ↓
 2. sample_methods.py
-        ↓
 3. generate_tests_llm.py
-        ↓
 4. generate_tests_llm_advanced.py
-        ↓
 5. evaluate_tests.py
-        ↓
 6. failure_analysis.py
-        ↓
 7. dashboard_streamlit.py
 ```
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ 5. Project Structure
 
 ```text
 LLM_Test_Generator_Project/
 │
-├── pymethods2test/data/       # Dataset
+├── pymethods2test/data/           # Dataset
 │
 ├── scripts/
 │   ├── extract_methods.py
@@ -83,18 +81,18 @@ LLM_Test_Generator_Project/
 │
 ├── results/
 │   ├── sampled_methods.json
-│   ├── generated_tests.json
 │   ├── generated_tests_advanced.json
 │   ├── evaluation_summary.json
+│   ├── failure_summary.json
 │
 └── README.md
 ```
 
 ---
 
-## ⚙️ Setup
+## ⚙️ 6. Setup Instructions
 
-### 1. Install dependencies
+### 🔹 Install Dependencies
 
 ```bash
 pip install ollama streamlit
@@ -102,7 +100,7 @@ pip install ollama streamlit
 
 ---
 
-### 2. Run LLM (Llama3)
+### 🔹 Run LLM Model
 
 ```bash
 ollama run llama3
@@ -110,9 +108,9 @@ ollama run llama3
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 7. How to Run the Project
 
-### 🔹 Step 1: Extract methods
+### 🔹 Step 1: Extract Methods
 
 ```bash
 python3 scripts/extract_methods.py
@@ -120,7 +118,7 @@ python3 scripts/extract_methods.py
 
 ---
 
-### 🔹 Step 2: Sample methods
+### 🔹 Step 2: Sample Methods
 
 ```bash
 python3 scripts/sample_methods.py
@@ -128,7 +126,7 @@ python3 scripts/sample_methods.py
 
 ---
 
-### 🔹 Step 3: Generate tests (baseline)
+### 🔹 Step 3: Generate Tests (Baseline)
 
 ```bash
 python3 scripts/generate_tests_llm.py
@@ -136,7 +134,7 @@ python3 scripts/generate_tests_llm.py
 
 ---
 
-### 🔹 Step 4: Generate tests (advanced)
+### 🔹 Step 4: Generate Tests (Advanced)
 
 ```bash
 python3 scripts/generate_tests_llm_advanced.py
@@ -144,32 +142,41 @@ python3 scripts/generate_tests_llm_advanced.py
 
 ---
 
-### 🔹 Step 5: Evaluate tests
+### 🔹 Step 5: Evaluate Tests
 
 ```bash
 python3 scripts/evaluate_tests.py
 ```
 
-Output:
+### ✅ Output:
 
 ```text
-Total tests: 50
-Total assertions: 457
-Average assertions: 9.14
-Edge cases: 50
+Total tests: 100
+Total assertions: 784
+Average assertions per test: 7.84
+Edge case tests: 100
 ```
 
 ---
 
-### 🔹 Step 6: Failure analysis
+### 🔹 Step 6: Failure Analysis
 
 ```bash
 python3 scripts/failure_analysis.py
 ```
 
+### ✅ Output:
+
+```text
+Valid Python code: 31
+Syntax errors: 69
+No assertions: 96
+Extra text issues: 57
+```
+
 ---
 
-### 🔹 Step 7: Run dashboard
+### 🔹 Step 7: Run Dashboard
 
 ```bash
 streamlit run scripts/dashboard_streamlit.py
@@ -177,122 +184,168 @@ streamlit run scripts/dashboard_streamlit.py
 
 Open in browser:
 
-```text
+```
 http://localhost:8501
 ```
 
 ---
 
-## 🧠 Prompt Strategies
+## 🧠 8. Prompt Strategies
 
-### 🔹 Baseline
+### 🔹 Baseline Prompt
 
-* Uses only method name
+* Uses only function name
 * Generates simple tests
 
-### 🔹 Context
+### 🔹 Context Prompt
 
 * Adds structured instructions
-* More realistic tests
+* Improves quality
 
-### 🔹 Advanced
+### 🔹 Advanced Prompt
 
 * Includes edge cases
 * Multiple assertions
 * Parameterized tests
-* Explanations in comments
+* Better structure
 
 ---
 
-## 📊 Evaluation Metrics
+## 📊 9. Evaluation Metrics
 
-* Total assertions
-* Average assertions per test
-* Edge case coverage
-* Valid vs invalid tests
+| Metric              | Description                         |
+| ------------------- | ----------------------------------- |
+| Total Assertions    | Total number of `assert` statements |
+| Avg Assertions/Test | Average assertions per test         |
+| Edge Case Coverage  | % of tests containing edge cases    |
+| Syntax Validity     | % of compilable tests               |
+| Failure Types       | Error classification                |
 
 ---
 
-## 📉 Results
+## 📉 10. Results
+
+### 📊 Test Generation Results
 
 | Metric              | Value |
 | ------------------- | ----- |
-| Total Tests         | 50    |
-| Total Assertions    | 457   |
-| Avg Assertions/Test | 9.14  |
+| Total Tests         | 100   |
+| Total Assertions    | 784   |
+| Avg Assertions/Test | 7.84  |
 | Edge Case Coverage  | 100%  |
-| Valid Tests         | 29    |
-| Invalid Tests       | 21    |
 
 ---
 
-## 🧠 Research Questions
+### ⚠️ Failure Analysis
+
+| Metric        | Value |
+| ------------- | ----- |
+| Valid Tests   | 31    |
+| Syntax Errors | 69    |
+| No Assertions | 96    |
+| Extra Text    | 57    |
 
 ---
 
-### 🔹 RQ1: Effect of Prompting
-
-Advanced prompts improve test quality by increasing assertions and edge-case coverage. However, improvements over context prompts are moderate, showing that structured prompts already perform well.
+## 🧠 11. Research Questions
 
 ---
 
-### 🔹 RQ2: Test Quality
+### 🔹 RQ1: Effect of Prompting Strategy
+
+Prompt design significantly improves test quality.
+
+* Baseline → simple tests
+* Context → better structure
+* Advanced → highest coverage
+
+👉 Key Insight:
+Structured prompts matter more than raw context.
+
+---
+
+### 🔹 RQ2: Quality of Generated Tests
 
 Generated tests show strong coverage:
 
-* High number of assertions (457)
-* Full edge-case coverage (100%)
+* High number of assertions
+* 100% edge-case inclusion
 
-This demonstrates that LLMs can generate diverse and comprehensive tests.
+However:
 
----
-
-### 🔹 RQ3: Limitations
-
-* Only ~58% tests are valid
-* Many contain syntax errors
-* Extra text affects execution
-* Logical correctness is not guaranteed
-
-LLMs require **post-processing and validation**.
+* Many tests are not executable
+* Some assertions are incorrect
 
 ---
 
-## 🧾 Key Insights
+### 🔹 RQ3: Limitations of LLMs
 
-* LLMs generate strong test coverage
-* Prompt design affects output quality
+Key limitations observed:
+
+* Syntax errors in generated code
+* Extra non-code text
+* Incorrect assumptions about logic
+* Lack of execution correctness
+
+👉 Conclusion:
+LLMs assist test generation but require validation.
+
+---
+
+## 🧾 12. Key Insights
+
+* LLMs generate diverse test cases
+* Prompt engineering improves output quality
 * Outputs are not always executable
-* Human validation is required
+* Post-processing is necessary
 
 ---
 
-## 🏁 Conclusion
+## 📊 13. Dashboard
 
-LLMs are powerful tools for test generation but are not fully reliable.
-They can assist developers but cannot replace them without validation.
+The project includes an interactive dashboard built using Streamlit.
+
+### Features:
+
+* Live metrics visualization
+* Test validity breakdown
+* Edge-case coverage display
+* Interactive test viewer
 
 ---
 
-## 🚀 Future Work
+## 🏁 14. Conclusion
 
-* Improve parsing and cleaning
+This project demonstrates that:
+
+* LLMs can generate meaningful test cases
+* They significantly reduce manual effort
+* However, they are not fully reliable
+
+👉 Human validation is still required.
+
+---
+
+## 🚀 15. Future Work
+
 * Add pytest execution
-* Measure code coverage
-* Compare with developer tests
+* Measure real code coverage
+* Improve cleaning of outputs
+* Fine-tune LLMs for test generation
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ 16. Technologies Used
 
 * Python
 * Ollama
 * Llama3
 * Streamlit
+* JSON
 
 ---
 
-## 📌 Final Status
+## 📌 17. Final Status
 
 ```text
 Project Completed: ✅ 100%
@@ -300,10 +353,10 @@ Project Completed: ✅ 100%
 
 ---
 
-## 🙌 Acknowledgements
+## 🙌 18. Acknowledgements
 
 * pyMethods2Test dataset
-* Ollama LLM framework
+* Open-source LLM tools
 * Course guidance
 
 ---
